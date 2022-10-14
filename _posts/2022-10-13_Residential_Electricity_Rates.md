@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Residential Electricity Rates"
-date: "2022-10-17"
+date: "2022-10-13"
 ---
 
 
