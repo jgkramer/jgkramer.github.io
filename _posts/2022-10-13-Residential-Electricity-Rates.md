@@ -10,9 +10,9 @@ date: "2022-10-13"
 
 Nevada Electricity Rates by Season and Time of Day.
 
-![NV Rates](../charts/post1/output_NV.png)
+![NV Rates](/assets/images/output_NV.png)
 
 
 Connecticut Electricity Rates by Season and Time of Day.
 
-![CT Rates](../charts/post1/output_CT.png)
+![CT Rates](/assets/images/output_CT.png)
