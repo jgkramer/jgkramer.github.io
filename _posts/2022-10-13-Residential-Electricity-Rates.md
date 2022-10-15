@@ -31,17 +31,26 @@ The general purpose of TOU rates is to provide incentives to align electricity g
 customers to shift their demand for electricity away from what would (under a fixed rate structure) be the peak time of use, often late afternoon / 
 early evenings, especially in summer months in warmer climates. 
 
-###
+### Other Structures Later
 
+There are a variety of other pricing structures in the market: 
 
+* **Tiered structures** - in which customers are charged different prices based on their aggregate kWh used during the month (i.e., increasing price with usage)
+* **Peak demand structures** - in which customers are charged more based on the highest **rate** of electricity use during the month (i.e., if the maximum use during any point in the month is 50kW vs. 30kW there is an incremental cost to that, even with the same aggregate use).   
+* **Floating critical peak structures** - a variant on TOU plans where the utility has the ability to 
 
+These structures add complexity, and as such were more challenging to capture in a simple database =).   We'll get to these later. 
 
+### Some Examples
 
-Nevada Electricity Rates by Season and Time of Day.
+The first examples we'll start with are Nevada and Connecticut.   
+
+#### Nevada
 
 ![NV Rates](/assets/images/output_NV.png)
 
 
-Connecticut Electricity Rates by Season and Time of Day.
+
+#### Connecticut
 
 ![CT Rates](/assets/images/output_CT.png)
