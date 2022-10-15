@@ -33,7 +33,8 @@ early evenings, especially in summer months in warmer climates.
 
 ### Some Examples
 
-The first examples we'll start with are Nevada and Connecticut.   
+The first examples we'll start with are Nevada and Connecticut (where I have paid electricity bills) and Maryland (which is also simple with one
+interesting difference from CT). 
 
 #### Nevada (NV Energy, Southern Nevada)
 ![NV Rates](/assets/images/output_NV.png)
