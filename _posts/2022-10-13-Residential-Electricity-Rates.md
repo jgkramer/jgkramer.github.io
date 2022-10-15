@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Residential Electricity Rates"
-date: "2022-10-13"
+date: "2022-10-22"
 ---
 
 This is the first of a sequence of posts exploring the structure of residential electricity rates in the U.S. 
@@ -19,11 +19,11 @@ This project will start with a much more humble look at how prices to consumers 
 ### Fixed vs. Time of Use
 
 The simplest electricity rate structure is fixed rate -- customers are billed a constant rate (usually between 10 and 50 cents, depending on the state)
-per kilowatt-hour (kWh) used in a month.  Most jurisdictions also charge either a flat monthly fee or monthly minimum usage charge.  In Nevada and
-Connecticut, where I have lived, I have used this rate structure because it was the default. 
+per kilowatt-hour (kWh) used in a month.  Most jurisdictions also charge either a flat monthly fee or monthly minimum usage charge.  This is 
+often the default plan for many utilities.
 
-More recently, utilities have rolled out (and, in the case of many areas of California, [established as the default,](https://www.pge.com/en_US/residential/rate-plans/rate-plan-options/time-of-use-base-plan/time-of-use-plan/time-of-use-transition.page)
-
+More recently, utilities have rolled out (and, in the case of many areas of California, [established as the default](https://www.pge.com/en_US/residential/rate-plans/rate-plan-options/time-of-use-base-plan/time-of-use-plan/time-of-use-transition.page),
+Time of Use (TOU) plans, where 
 
 
 
