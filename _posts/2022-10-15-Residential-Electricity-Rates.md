@@ -83,5 +83,6 @@ These structures add complexity, and as such were more challenging to capture in
 
 ### Github repo
 
-In-progress data (manually sourced by looking at different utitlity websites) and code to analyze is here: https://github.com/jgkramer/hummingbird
+In-progress data (manually sourced by looking at different utitlity websites) and code to analyze is [here](https://github.com/jgkramer/hummingbird).
+
 
