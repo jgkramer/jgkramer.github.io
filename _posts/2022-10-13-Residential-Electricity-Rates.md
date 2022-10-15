@@ -46,6 +46,7 @@ The first examples we'll start with are Nevada and Connecticut.
 
 #### Nevada (NV Energy, Southern Nevada)
 ![NV Rates](/assets/images/output_NV.png)
+
 A few simple observations: 
 * A large price differential between peak and off-peak.   Peak pricing is 4.4x off-peak, and 2.8x the fixed rate.   
 * Winter is 100% off-peak
@@ -58,6 +59,7 @@ demand in summer.
 
 #### Connecticut (Eversource)
 ![CT Rates](/assets/images/output_CT.png)
+
 By contrast: 
 * Connecticut electricity is more expensive than Nevada - roughly 2x per kWh.  
 * The TOU plan provides much more modest relative incentives to shift demand: peak pricing is only 1.5x off-peak and 1.3x the fixed rate price. 
