@@ -78,6 +78,7 @@ There are a variety of other pricing structures in the market:
 * **Peak demand structures** - in which customers are charged more based on the highest **rate** of electricity use during the month (i.e., if the maximum use during any point in the month is 50kW vs. 30kW there is an incremental cost to that, even with the same aggregate use).   
 * **Floating critical peak structures** - a variant on TOU plans where the utility has the ability to declare (usually with some advance notice) that a particular time period (e.g., the afternoon hours of the next day) are expected to be especially demand heavy.   These are then priced at levels ABOVE typical peak pricing; with the tradeoff being that off-peak hours are lower price. 
 *  **Special pricing plans for Electric Vehicles**
+
 These structures add complexity, and as such were more challenging to capture in a simple database =).   We'll get to these later. 
 
 ### Github repo
