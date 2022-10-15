@@ -8,7 +8,8 @@ The project was inspired by a conversation I had with a friend of mine who lives
 he was keenly aware of the cost of using electricity (in cents per kWh) at different times of the day 
 (he also sensibly only turned on the air conditioning in his house after 9pm). 
 
-This conversation made me realize that I could learn a lot more, both about my own expenses but also how the system works 
+I realized I knew very little about this market, and so this began a quest to collect data both about what individuals pay for electricity and why, 
+but more importantly how these systems are designed and what incentives they create.
 
 
 
