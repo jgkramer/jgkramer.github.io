@@ -19,8 +19,8 @@ This project will start with a much more humble look at how prices to consumers 
 ### Fixed vs. Time of Use
 
 The historically dominant rate structure for electricity is fixed rate -- customers are billed a constant rate (usually between 10 and 50 cents, 
-depending on the state) per kilowatt-hour (kWh) used in a month.  
-Most jurisdictions also charge either a flat monthly fee or monthly minimum usage charge.  
+depending on the state) per kilowatt-hour (kWh) used in a month.  Most jurisdictions also charge either a flat monthly fee or monthly 
+minimum usage charge.  
 
 More recently, utilities have rolled out (and, in the case of many areas of California, [established as the default](https://www.pge.com/en_US/residential/rate-plans/rate-plan-options/time-of-use-base-plan/time-of-use-plan/time-of-use-transition.page),
 Time of Use (TOU) plans, where households pay a rate per kWh that depends on the time of day and sometimes the time of the year when electricity
