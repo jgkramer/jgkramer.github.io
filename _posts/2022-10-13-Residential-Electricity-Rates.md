@@ -51,6 +51,7 @@ A few simple observations:
 * A large price differential between peak and off-peak.   Peak pricing is 4.4x off-peak, and 2.8x the fixed rate.   
 * Winter is 100% off-peak
 * As we'll see when we compare to other places, Nevada electricity is reasonably cheap. 
+
 Although the time of production of certain renewable sources is sometimes cited as a cause for concern in grid management, 
 this doesn't seem to be a major factor in Nevada.  More than 10% of Nevada's electricity generation is solar (which might suggest electricity is more 
 plentiful in summer periods from say 10am to 3pm, and is less plentiful in winter and in late afternoon / evenings), but timing of peak vs. off-peak 
@@ -64,10 +65,11 @@ By contrast:
 * Connecticut electricity is more expensive than Nevada - roughly 2x per kWh.  
 * The TOU plan provides much more modest relative incentives to shift demand: peak pricing is only 1.5x off-peak and 1.3x the fixed rate price. 
 * Winter and summer have the same peak vs. off-peak profile. 
-Unclear to me whether these patterns are actually driven by the demand profile of Connecticut electricity usage.  It is possible that the less extreme 
-summer climate means the HVAC differential between summer afternoons and all other times is less severe than in Nevada or other warm states, making
-overall demand much smoother.  Alternatively, there may be a more conservative consumer / regulatory culture that is retains more attached to 
-fixed-rate plans.  
+
+It's unclear to me whether these patterns are actually driven by the demand profile of Connecticut electricity usage.  
+It is possible that the less extreme  summer climate means the HVAC differential between summer afternoons and all other times is 
+less severe than in Nevada or other warm states, making overall demand much smoother.  
+Alternatively, there may be a more conservative consumer / regulatory culture that is retains more attached to fixed-rate plans.  
 
 
 
