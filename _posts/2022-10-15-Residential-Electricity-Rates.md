@@ -80,5 +80,7 @@ There are a variety of other pricing structures in the market:
 *  **Special pricing plans for Electric Vehicles**
 These structures add complexity, and as such were more challenging to capture in a simple database =).   We'll get to these later. 
 
+### Github repo
 
+In-progress data (manually sourced by looking at different utitlity websites) and code to analyze is here: https://github.com/jgkramer/hummingbird
 
