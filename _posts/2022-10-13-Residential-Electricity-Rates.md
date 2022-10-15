@@ -9,9 +9,9 @@ he was keenly aware of the cost of using electricity (in cents per kWh) at diffe
 (he also sensibly only turned on the air conditioning in his house after 9pm). 
 
 I realized I knew very little about this market, and so this began a quest to collect data both about what individuals pay for electricity and why, 
-but more importantly how these systems are designed and what incentives they create.
-
-
+but more importantly how these systems are designed and what incentives they create.   On the system-wide aggregate supply and demand considerations, and
+the high level tools that utilities have to ensure that supply and demand balance, I recommend Patrick McKenzie's write-up 
+![here](https://bam.kalzumeus.com/archive/markets-in-power/)
 
 
 Nevada Electricity Rates by Season and Time of Day.
