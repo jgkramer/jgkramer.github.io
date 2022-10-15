@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Residential Electricity Rates"
-date: "2022-10-22"
+date: "2022-10-15"
 ---
 
 This is the first of a sequence of posts exploring the structure of residential electricity rates in the U.S. 
