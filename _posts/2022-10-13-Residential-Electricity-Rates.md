@@ -63,7 +63,7 @@ demand in summer.
 
 By contrast: 
 * Connecticut electricity is more expensive than Nevada - roughly 2x per kWh.  
-* The TOU plan provides much more modest relative incentives to shift demand: peak pricing is only 1.5x off-peak and 1.3x the fixed rate price. 
+* The TOU plan provides rather small incentives to shift demand: peak pricing is only 1.5x off-peak and 1.3x the fixed rate price. 
 * Winter and summer have the same peak vs. off-peak profile. 
 
 It's unclear to me whether these patterns are actually driven by the demand profile of Connecticut electricity usage.  
