@@ -31,15 +31,6 @@ The general purpose of TOU rates is to provide incentives to align electricity g
 customers to shift their demand for electricity away from what would (under a fixed rate structure) be the peak time of use, often late afternoon / 
 early evenings, especially in summer months in warmer climates. 
 
-### Other Structures Later
-
-There are a variety of other pricing structures in the market: 
-* **Tiered structures** - in which customers are charged different prices based on their aggregate kWh used during the month (i.e., increasing price with usage)
-* **Peak demand structures** - in which customers are charged more based on the highest **rate** of electricity use during the month (i.e., if the maximum use during any point in the month is 50kW vs. 30kW there is an incremental cost to that, even with the same aggregate use).   
-* **Floating critical peak structures** - a variant on TOU plans where the utility has the ability to declare (usually with some advance notice) that a particular time period (e.g., the afternoon hours of the next day) are expected to be especially demand heavy.   These are then priced at levels ABOVE typical peak pricing; with the tradeoff being that off-peak hours are lower price. 
-*  **Special pricing plans for Electric Vehicles**
-These structures add complexity, and as such were more challenging to capture in a simple database =).   We'll get to these later. 
-
 ### Some Examples
 
 The first examples we'll start with are Nevada and Connecticut.   
@@ -66,10 +57,28 @@ By contrast:
 * The TOU plan provides rather small incentives to shift demand: peak pricing is only 1.5x off-peak and 1.3x the fixed rate price. 
 * Winter and summer have the same peak vs. off-peak profile. 
 
-It's unclear to me whether these patterns are actually driven by the demand profile of Connecticut electricity usage.  
-It is possible that the less extreme  summer climate means the HVAC differential between summer afternoons and all other times is 
+It's unclear to me whether these patterns are actually driven by the demand profile of Connecticut electricity usage.  It is possible that 
+the less extreme summer climate means the HVAC differential between summer afternoons and all other times is 
 less severe than in Nevada or other warm states, making overall demand much smoother.  
 Alternatively, there may be a more conservative consumer / regulatory culture that is retains more attached to fixed-rate plans.  
+
+#### Maryland (Baltimore Gas & Electric)
+![MD Rates](/assets/images/output_MD.png)
+
+Maryland is largely similar to Connecticut, with a few modifications: 
+* Overall, electricity is cheaper
+* The TOU plan also has only small price incentives for customers to shift the time of their electricity usage
+* Winter and summer peak pricing kicks in at different times of day: the summer peak pricing (following maximum air-conditioning demand) is from noon to 8pm.   Winter has two peaks -- one in the morning and one in the evening.   This presumably corresponds to when residential customers are up and at home
+in the morning and in the evening, making maximum use of appliances and probably to some extent electricity-based heating and water heating. 
+
+### Other Structures Later
+
+There are a variety of other pricing structures in the market: 
+* **Tiered structures** - in which customers are charged different prices based on their aggregate kWh used during the month (i.e., increasing price with usage)
+* **Peak demand structures** - in which customers are charged more based on the highest **rate** of electricity use during the month (i.e., if the maximum use during any point in the month is 50kW vs. 30kW there is an incremental cost to that, even with the same aggregate use).   
+* **Floating critical peak structures** - a variant on TOU plans where the utility has the ability to declare (usually with some advance notice) that a particular time period (e.g., the afternoon hours of the next day) are expected to be especially demand heavy.   These are then priced at levels ABOVE typical peak pricing; with the tradeoff being that off-peak hours are lower price. 
+*  **Special pricing plans for Electric Vehicles**
+These structures add complexity, and as such were more challenging to capture in a simple database =).   We'll get to these later. 
 
 
 
