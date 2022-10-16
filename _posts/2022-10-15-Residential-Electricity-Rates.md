@@ -2,6 +2,7 @@
 layout: post
 title: "Introduction to Residential Electricity Rates"
 date: "2022-10-15"
+excerpt_separator: <!--more-->
 ---
 
 This is the first of a sequence of posts exploring the structure of residential electricity rates in the U.S. 
@@ -10,7 +11,7 @@ The project was inspired by a conversation I had with a friend of mine who lives
 he was keenly aware of the cost of using electricity (in cents per kWh) at different times of the day 
 (he also sensibly only turned on the air conditioning in his house after 9pm). 
 
-<!--excerpt-->
+<!--more-->
 
 I realized I knew very little about this market, and so this began a quest to collect data both about what individuals pay for electricity and why, 
 but more importantly how these systems are designed and what incentives they create.   On the system-wide aggregate supply and demand considerations, and
