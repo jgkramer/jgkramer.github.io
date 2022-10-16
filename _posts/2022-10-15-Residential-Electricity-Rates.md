@@ -72,9 +72,10 @@ Alternatively, there may be a more conservative consumer / regulatory culture th
 
 Maryland is largely similar to Connecticut, with a few modifications: 
 * Overall, electricity is cheaper
-* The TOU plan also has only small price incentives for customers to shift the time of their electricity usage
+* This TOU plan also has smaller price incentives: the peak summer hours are 1.9x the off-peak and 1.2x the fixed rate
 * Winter and summer peak pricing kicks in at different times of day: the summer peak pricing (following maximum air-conditioning demand) is from noon to 8pm.   Winter has two peaks -- one in the morning and one in the evening.   This presumably corresponds to when residential customers are up and at home
 in the morning and in the evening, making maximum use of appliances and probably to some extent electricity-based heating and water heating. 
+* BG&E has an **intermediate peak** pricing tier -- for shoulder periods around the peak in the summer, and during the middle of the day in winter between the two peak periods.  This is just one example of a number of plans (especially those with especially low overnight pricing for EVs) with 3 pricing times rather than 2. 
 
 ### Other Structures Later
 
