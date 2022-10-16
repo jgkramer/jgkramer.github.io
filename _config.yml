@@ -1,4 +1,4 @@
 theme: minima
 title: Jared's Blog
 author: Jared Kramer
-excerpt-separator: "<!--excerpt-->"
+excerpt_separator: "<!--excerpt-->"
