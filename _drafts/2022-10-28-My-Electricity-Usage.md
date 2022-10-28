@@ -2,9 +2,10 @@ Hello there.   Testing draft post.
 
 This is a table. 
 
-| Priority apples | Second priority | Third priority |
+| Day | 1-Sep-21 | 2-Sep-21 |
 |-------|--------|---------|
-| ambrosia | gala | red delicious |
-| pink lady | jazz | macintosh |
-| honeycrisp | granny smith | fuji |
+| High Temp. | 50.4 | 40.5 |
+| Peak Usage | 50.4 | 40.5 |
+| Off-Peak Usage | 40.5 | 60.5 |
+| Total | 90.5 | 100.0 |
 
