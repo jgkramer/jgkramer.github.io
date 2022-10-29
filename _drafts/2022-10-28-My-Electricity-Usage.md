@@ -8,15 +8,16 @@ Here are some images.
 
 ### Summer
 
-![August Usage](/assets/images/post2_usage_Aug.png
+![August Usage](/assets/images/post2_usage_Aug.png)
 
 ### Winter
 
-![February Usage](/assets/images/post2_usage_Feb.png
+![February Usage](/assets/images/post2_usage_Feb.png)
 
 ### Spring
 
-![May Usage](/assets/images/post2_usage_May.png
+![May Usage](/assets/images/post2_usage_May.png)
+
 
 
 
