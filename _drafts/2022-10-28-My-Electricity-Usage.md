@@ -6,7 +6,8 @@ Here are some images.
 
 ### Summer
 
-August in Nevada is hot (many 100&deg;F+ days)
+August in Nevada is hot, both in high temperatures (many days over 100&deg;F) and low temperatures (many over 80&deg;F), meaning air conditioning 
+tends to run 24 hours a day, although most frequently in the afternoon and early evening when the temperature is highest.  
 
 ![August Usage](/assets/images/post2_usage_Aug.png)
 
