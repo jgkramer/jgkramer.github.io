@@ -1,12 +1,12 @@
-Hello there.   Testing draft post. 
+In this post, I will review a couple of usage patterns of electricity -- a family 
 
 ## Usage
 
-
 Here are some images. 
 
-
 ### Summer
+
+August in Nevada is hot (many 100&def;F+ days)
 
 ![August Usage](/assets/images/post2_usage_Aug.png)
 
