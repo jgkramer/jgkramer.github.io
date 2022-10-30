@@ -6,7 +6,7 @@ Here are some images.
 
 ### Summer
 
-August in Nevada is hot (many 100&def;F+ days)
+August in Nevada is hot (many 100&deg;F+ days)
 
 ![August Usage](/assets/images/post2_usage_Aug.png)
 
