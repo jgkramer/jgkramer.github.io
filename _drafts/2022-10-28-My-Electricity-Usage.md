@@ -16,8 +16,8 @@ in the late afternoon / evening as the house warms up and weather is hottest.
 
 #### Winter
 Winter electricity usage is much more modest -- temperatures are chilly but our heating is natural-gas powered.  Thus the **64 kWh** consumption from 
-3-Feb is more or less our baseline usage from lights and appliances for a family of four.   The **25 kWh** uptick on Tuesday 1-Feb confused me until 
-I realized it was laundry day, 
+3-Feb is more or less our baseline usage from lights and appliances for a family of four.   The **25 kWh** uptick on Tuesday 1-Feb is the impact of 
+our once-a-week laundry day!   
 ![February Usage](/assets/images/post2_usage_Feb.png)
 
 
