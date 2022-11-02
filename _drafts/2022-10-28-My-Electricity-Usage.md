@@ -5,10 +5,10 @@ In this post, I will review a couple of usage patterns of electricity -- a famil
 The below are a series of charts of my family's electricity usage in 15 minute increments (provided by NV Energy's website).  
 
 #### Winter
-Winter electricity usage is modest -- temperatures are chilly but our heating is natural-gas powered.  Thus the **64 kWh** consumption from 
-3-Feb is more or less our baseline usage from lights and appliances for a family of four.   The **25 kWh** uptick on Tuesday 1-Feb is the impact of 
-our once-a-week laundry day: our electric dryer requirements are 26A x 240V = ~6 kW maximum, so running it for 5-6 hours with some breaks and some low
-power times (e.g., cool down) seems to approximately account for the 25 kWh.
+Winter electricity usage is modest -- temperatures are chilly but our heating is natural-gas powered (this uses a little bit of electricity, generating
+the day-long squiggles, but not too much).  Thus the **64 kWh** consumption from 3-Feb is about our baseline usage from lights and appliances.
+The **25 kWh** incresae on Tuesday 1-Feb is the impact of our once-a-week laundry day: our electric dryer requirements are 26A x 240V = ~6 kW maximum, 
+so running it for 5-6 hours with some breaks and some low power times (e.g., cool down) seems to approximately account for the 25 kWh.
 ![February Usage](/assets/images/post2_usage_Feb.png)
 
 #### Summer
