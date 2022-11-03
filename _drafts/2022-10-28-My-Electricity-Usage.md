@@ -9,11 +9,13 @@ Winter electricity usage is modest -- temperatures are chilly but our heating is
 the day-long squiggles, but not too much).  Thus the **64 kWh** consumption from 3-Feb is about our baseline usage from lights and appliances.
 The **25 kWh** incresae on Tuesday 1-Feb is the impact of our once-a-week laundry day: our electric dryer is rated 26A x 240V = ~6 kW maximum, 
 so running it for 5-6 hours with some breaks and some low power times (e.g., cool down) seems to approximately account for the 25 kWh.
+
 ![February Usage](/assets/images/post2_usage_Feb.png)
 
 #### Summer
 August in Nevada is hot, both in high temperatures (many days over 100&deg;F) and low temperatures (many over 80&deg;F), meaning air conditioning 
 tends to run most of the day and night.  This brings the total electricity usage to **2.0 to 2.5x** the winter baseline usage. 
+
 ![August Usage](/assets/images/post2_usage_Aug.png)
 
 Electricity consumption is sensitive to temperatures: 164 kWh on the 109&deg; day vs. 131 on the 96&deg; day, with the majority of the increase 
