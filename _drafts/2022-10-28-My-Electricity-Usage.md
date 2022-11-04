@@ -32,7 +32,26 @@ in the late afternoon / evening as the house warms up and weather is hottest.
 ## Aggregate Usage and Cost of Plans
 
 <table>
-    <thead>
+    <col> <colgroup span="3"></colgroup> <colgroup span ="1"></colgroup>
+    <tr>
+        <td rowspan="2"></td>
+        <th colspan="3" scope ="colgroup">Time of Use</th>
+        <th colspan="1" scope ="colgroup">Fixed Rate</th>
+    </tr>
+    <tr>
+        <th scope="col">Peak</th> <th scope="col">Off-Peak</th> <th scope="col">Total</th> <th scope="col">Total</th>
+    </tr>
+    <tr>
+        <th scope="row">Usage (kWh)</th> <td>1</td> <td>1</td> <td>1</td> <td>1</td>
+    </tr>
+    <tr>
+        <th scope="row">Est. Cost)</th> <td>1</td> <td>1</td> <td>1</td> <td>1</td>
+    </tr>
+
+       
+        
+        
+    
         <tr> <th>Layer 1</th> <th>Layer 2</th> <th>Layer 3</th> </tr>
     </thead>
     <tbody>
