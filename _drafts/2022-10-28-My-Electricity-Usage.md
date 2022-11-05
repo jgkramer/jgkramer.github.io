@@ -41,7 +41,7 @@ in the late afternoon / evening as the house warms up and weather is hottest.
     <col> <colgroup span="3"></colgroup> <colgroup span ="1"></colgroup>
     <tr>
         <td rowspan="2"></td>
-        <th colspan="3" scope ="colgroup" style="background-color: blue">Time of Use</th>
+        <th colspan="3" scope ="colgroup" style="background-color: #D6EEEE">Time of Use</th>
         <th colspan="1" scope ="colgroup" style="background-color: blue">Fixed Rate</th>
     </tr>
     <tr>
