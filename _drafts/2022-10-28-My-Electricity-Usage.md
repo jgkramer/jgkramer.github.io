@@ -47,7 +47,7 @@ research that the power usage of pool filters is around 2 kW).  This jump is the
 With this intuition, I analyzed an entire year's worth of electricity usage (in 15 minute increments), first breaking down energy use by month and 
 peak / off-peak timing, and then applying the cost per kWh under both the fixed rate plan (which I use) and the TOU plan (which I do not). 
 
-First, the usage.  As suggested by the February-May-August examples above, a Nevada residential customer basically has two modes: 
+First, consumption.  As suggested by the February-May-August examples above, a Nevada residential customer basically has two modes: 
 non-summer (October through April) when there is no air conditioning use and consumption is roughly flat, and the four summer months, 
 with varying degree of air conditioning generating significantly different electricity consumption.  Unlike my colder-climate home in Connecticut, 
 which required meaningful winter heating supplied by electric compressors, the winter did not contain a second surge of electricity use. 
@@ -57,13 +57,13 @@ weeks during this month and setting the house to 85&deg;F rather than 76-80&deg;
 
 ![Monthly Usage](/assets/images/post2_monthly_usage_TOU.png)
 
-The next thing I noticed is how small of a fraction the peak electricity usage represented.   This reflects: (1) only 4 months include peak times, 
+The next thing I noticed is how small of a fraction the peak electricity usage represented - 15%.   This reflects: (1) only 4 months include peak times, 
 (2) those times are only 6 out of 24 hours a day and (3) weekends are excluded entirely.  I also expect that many customers cool their houses to 
 a lower temperature than 80 &deg;F during the afternoon hours.   
 
-In any event, despite Peak usage costing 2.5x the fixed-rate plan per kWh (and off-peak reflecting only a 30% discount), it happened that I would have 
-been several hundred dollars better off by enrolling in the TOU plan.   And better off still had I the incentive to be more conscious of my thermostat
-between 1 and 7pm on Summer weekdays. 
+But because Peak electricity costs a ~150% premium to the fixed-rate plate, while off-peak reflects only a 35% discount, the 15%-85% split between
+peak and off-peak consumption would have resulted in a relatively modest improvement had I used the TOU plan rather than the fixed plan.  However, I 
+would have likely been better off still in the TOU plan had I the incentive to be more conscious of my thermostat between 1pm and 7pm on Summer weekdays.
 
 <table>
     <col> <colgroup span="3"></colgroup> <colgroup span ="1"></colgroup>
@@ -86,7 +86,7 @@ between 1 and 7pm on Summer weekdays.
     </tr>
 </table>
 
-## Statewide Usage
+## Statewide Consumption
 
 
 
