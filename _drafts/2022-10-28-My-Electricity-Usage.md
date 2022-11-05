@@ -42,14 +42,15 @@ research that the power usage of pool filters is around 2 kW).  This jump is the
 
 ![May Usage](/assets/images/post2_usage_May.png)
 
-## Aggregate Usage and Cost of Plans
+## Full-Year Usage and Cost of Plans
 
 With this intuition, I analyzed an entire year's worth of electricity usage (in 15 minute increments), first breaking down energy use by month and 
 peak / off-peak timing, and then applying the cost per kWh under both the fixed rate plan (which I use) and the TOU plan (which I do not). 
 
 First, the usage.  As suggested by the February-May-August examples above, a Nevada residential customer basically has two modes: 
 non-summer (October through April) when there is no air conditioning use and consumption is roughly flat, and the four summer months, 
-with varying degree of air conditioning generating significantly different electricity consumption.  
+with varying degree of air conditioning generating significantly different electricity consumption.  Unlike my colder-climate home in Connecticut, 
+which required meaningful winter heating supplied by electric compressors, the winter did not contain a second surge of electricity use. 
 
 Note that the June / July bars in 2022 were flat to May for my family despite rising temperatures: this is a side effect of traveling for a number of 
 weeks during this month and setting the house to 85&deg;F rather than 76-80&deg;F
@@ -84,3 +85,8 @@ between 1 and 7pm on Summer weekdays.
         <th scope="row" style="background-color: blue">Est. Cost</th> <td>$1,512.22</td> <td>$23,87.94</td> <td>$3,900.16</td> <td>$4,144.93</td>
     </tr>
 </table>
+
+## Statewide Usage
+
+
+
