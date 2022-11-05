@@ -57,13 +57,12 @@ weeks during this month and setting the house to 85&deg;F rather than 76-80&deg;
 
 ![Monthly Usage](/assets/images/post2_monthly_usage_TOU.png)
 
-The next thing I noticed is how small of a fraction the peak electricity usage represented - 15%.   This reflects: (1) only 4 months include peak times, 
-(2) those times are only 6 out of 24 hours a day and (3) weekends are excluded entirely.  I also expect that many customers cool their houses to 
-a lower temperature than 80 &deg;F during the afternoon hours.   
+Note that peak electricity represents only a small fraction of total consumption (15%).  This reflects: (1) only 4 months include peak times, 
+(2) those times are only 6 out of 24 hours a day and (3) weekends are excluded entirely.  
 
-But because Peak electricity costs a ~150% premium to the fixed-rate plate, while off-peak reflects only a 35% discount, the 15%-85% split between
-peak and off-peak consumption would have resulted in a relatively modest improvement had I used the TOU plan rather than the fixed plan.  However, I 
-would have likely been better off still in the TOU plan had I the incentive to be more conscious of my thermostat between 1pm and 7pm on Summer weekdays.
+Since Peak electricity costs a 2.5x the fixed rate, while off-peak reflects only a 35% discount, the 15%-85% split results in approximate parity, although
+with several hundred dollars of improvement over the year (5% of total cost).   If my family had the incentive to save more money in reality, we likely
+would have further shifted our air conditioning usage outside of the 1pm - 7pm window on Summer weekdays. 
 
 <table>
     <col> <colgroup span="3"></colgroup> <colgroup span ="1"></colgroup>
