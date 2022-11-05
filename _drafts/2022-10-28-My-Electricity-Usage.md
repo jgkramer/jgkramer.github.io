@@ -35,8 +35,6 @@ in the late afternoon / evening as the house warms up and weather is hottest.
 
 ![May Usage](/assets/images/post2_usage_May.png)
 
-
-
 ## Aggregate Usage and Cost of Plans
 
 <table>
@@ -50,9 +48,9 @@ in the late afternoon / evening as the house warms up and weather is hottest.
         <th scope="col">Peak</th> <th scope="col">Off-Peak</th> <th scope="col">Total</th> <th scope="col">Total</th>
     </tr>
     <tr>
-        <th scope="row">Usage (kWh)</th> <td>1</td> <td>1</td> <td>1</td> <td>1</td>
+        <th scope="row">Usage (kWh)</th> <td>3,781</td> <td>25,224</td> <td>29,006</td> <td>29,006</td>
     </tr>
     <tr>
-        <th scope="row">Est. Cost</th> <td>1</td> <td>1</td> <td>1</td> <td>1</td>
+        <th scope="row">Est. Cost</th> <td>$1,512.22</td> <td>$23,87.94</td> <td>$3,900.16</td> <td>$4,144.93</td>
     </tr>
 </table>
