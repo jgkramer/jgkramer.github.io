@@ -41,16 +41,19 @@ in the late afternoon / evening as the house warms up and weather is hottest.
     <col> <colgroup span="3"></colgroup> <colgroup span ="1"></colgroup>
     <tr>
         <td rowspan="2"></td>
-        <th colspan="3" scope ="colgroup">Time of Use</th>
-        <th colspan="1" scope ="colgroup">Fixed Rate</th>
+        <th colspan="3" scope ="colgroup" style="background-color: blue">Time of Use</th>
+        <th colspan="1" scope ="colgroup" style="background-color: blue">Fixed Rate</th>
     </tr>
     <tr>
-        <th scope="col">Peak</th> <th scope="col">Off-Peak</th> <th scope="col">Total</th> <th scope="col">Total</th>
+        <th scope="col" style="background-color: blue">Peak</th> 
+        <th scope="col" style="background-color: blue">Off-Peak</th> 
+        <th scope="col" style="background-color: blue">Total</th> 
+        <th scope="col" style="background-color: blue">Total</th>
     </tr>
     <tr>
-        <th scope="row">Usage (kWh)</th> <td>3,781</td> <td>25,224</td> <td>29,006</td> <td>29,006</td>
+        <th scope="row" style="background-color: blue">Usage (kWh)</th> <td>3,781</td> <td>25,224</td> <td>29,006</td> <td>29,006</td>
     </tr>
     <tr>
-        <th scope="row">Est. Cost</th> <td>$1,512.22</td> <td>$23,87.94</td> <td>$3,900.16</td> <td>$4,144.93</td>
+        <th scope="row" style="background-color: blue">Est. Cost</th> <td>$1,512.22</td> <td>$23,87.94</td> <td>$3,900.16</td> <td>$4,144.93</td>
     </tr>
 </table>
