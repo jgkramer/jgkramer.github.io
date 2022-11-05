@@ -82,7 +82,7 @@ between 1 and 7pm on Summer weekdays.
         <th scope="row" style="background-color: blue">Usage (kWh)</th> <td>3,781</td> <td>25,224</td> <td>29,006</td> <td>29,006</td>
     </tr>
     <tr>
-        <th scope="row" style="background-color: blue">Est. Cost</th> <td>$1,512.22</td> <td>$23,87.94</td> <td>$3,900.16</td> <td>$4,144.93</td>
+        <th scope="row" style="background-color: blue">Est. Cost</th> <td>$1,512.22</td> <td>$2,387.94</td> <td>$3,900.16</td> <td>$4,144.93</td>
     </tr>
 </table>
 
