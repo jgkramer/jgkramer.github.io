@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Anecdotes on Electricity Usage"
+date: "2022-11-7"
+hide: true
+excerpt_separator: <!--more-->
+---
+
 The last post's foray into electricity rates, especially Time-Of-Use (TOU) plans, inspired me to inquire about my own electricity usage patterns 
 in the Las Vegas area.  First, I will build some intuition about patterns of use by time of day by visualizing my smart-meter outputs (provided by 
 NVEnergy's website) on a handful of days across different seasons.   I will then step back and look at total consumption across an entire year. 
