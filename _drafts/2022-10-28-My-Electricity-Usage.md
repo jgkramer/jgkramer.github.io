@@ -5,7 +5,6 @@ date: "2022-11-7"
 hide: true
 excerpt_separator: <!--more-->
 ---
-
 The last post's foray into electricity rates, especially Time-Of-Use (TOU) plans, inspired me to inquire about my own electricity usage patterns 
 in the Las Vegas area.  First, I will build some intuition about patterns of use by time of day by visualizing my smart-meter outputs (provided by 
 NVEnergy's website) on a handful of days across different seasons.   I will then step back and look at total consumption across an entire year. 
@@ -44,7 +43,14 @@ research that the power usage of pool filters is around 2 kW).  This jump is the
 
 ## Aggregate Usage and Cost of Plans
 
-With this intuition, 
+With this intuition, I analyzed an entire year's worth of electricity usage (in 15 minute increments), first breaking down energy use by month and period under
+the state's TOU framework, and then applying the cost per kWh under both the fixed rate plan (which I use) and the TOU plan (which I do not). 
+
+![May Usage](/assets/images/post2_usage_May.png)
+
+First, the usage.  As suggested by the February-May-August examples above, a Nevada residential customer basically has two modes: non-summer (October through
+April) when there is no air conditioning use and consumption is roughly flat, and the four summer months, with varying degree of air conditioning generating 
+significantly different electricity consumption.  Note in my usage, 
 
 <table>
     <col> <colgroup span="3"></colgroup> <colgroup span ="1"></colgroup>
