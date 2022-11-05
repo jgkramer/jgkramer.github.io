@@ -10,7 +10,7 @@ The last post's foray into electricity rates, especially Time-Of-Use (TOU) plans
 in the Las Vegas area.  First, I will build some intuition about patterns of use by time of day by visualizing my smart-meter outputs (provided by 
 NVEnergy's website) on a handful of days across different seasons.   I will then step back and look at total consumption across an entire year. 
 
-## A Sampling of Usage Data
+## A Sampling of Few Days' Data
 
 #### Winter
 Winter electricity usage is modest -- temperatures are chilly but our heating is natural-gas powered (this uses a little bit of electricity, generating
@@ -32,7 +32,13 @@ to maintain the cooler temperatures; **lower** usage in the late morning as we l
 in the late afternoon / evening as the house warms up and weather is hottest.
 
 #### Spring
+May is relatively temperate, although there can be hot days above 90&deg.   Notice the signficant between a warm day (72&deg) -- where total 
+electricity usage is similar to winter at **66 kWh** and a hot day where the air conditioning needed to kick on in the late afternoon, bringing total 
+usage to **103 kWh** (though not as much as hot summer days -- note the low temperatures in May are still cool, so once the house is cooled down in the
+evening the air conditioning does not need to run all night, or even in the early part of the daytime).
 
+Finally, note the ~0.5 kWh per 15 minutes jump at 6am.  This corresponds to the pool filter turning on in the morning (validated by some quick internet
+research that the power usage of pool filters is around 2 kW).  This jump is there in August, but it is buried under A/C variability. 
 ![May Usage](/assets/images/post2_usage_May.png)
 
 ## Aggregate Usage and Cost of Plans
