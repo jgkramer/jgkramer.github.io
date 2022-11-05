@@ -56,6 +56,8 @@ weeks during this month and setting the house to 85&deg;F rather than 76-80&deg;
 
 ![Monthly Usage](/assets/images/post2_monthly_usage_TOU.png)
 
+The next thing I noticed is how small of a fraction the peak electricity usage represented.   This reflects: (1) only 4 months include peak times, 
+(2) those times are only 6 out of 24 hours a day and (3) weekends are excluded entirely.   
 
 <table>
     <col> <colgroup span="3"></colgroup> <colgroup span ="1"></colgroup>
