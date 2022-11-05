@@ -57,7 +57,12 @@ weeks during this month and setting the house to 85&deg;F rather than 76-80&deg;
 ![Monthly Usage](/assets/images/post2_monthly_usage_TOU.png)
 
 The next thing I noticed is how small of a fraction the peak electricity usage represented.   This reflects: (1) only 4 months include peak times, 
-(2) those times are only 6 out of 24 hours a day and (3) weekends are excluded entirely.   
+(2) those times are only 6 out of 24 hours a day and (3) weekends are excluded entirely.  I also expect that many customers cool their houses to 
+a lower temperature than 80 &deg;F during the afternoon hours.   
+
+In any event, despite Peak usage costing 2.5x the fixed-rate plan per kWh (and off-peak reflecting only a 30% discount), it happened that I would have 
+been several hundred dollars better off by enrolling in the TOU plan.   And better off still had I the incentive to be more conscious of my thermostat
+between 1 and 7pm on Summer weekdays. 
 
 <table>
     <col> <colgroup span="3"></colgroup> <colgroup span ="1"></colgroup>
