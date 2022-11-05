@@ -11,6 +11,6 @@ as well as develop my programming skills (starting with python).
 {% for post in site.posts %}
 ### <a href="{{ post.url }}">{{ post.title }}</a>
 {{ post.excerpt }}
-<p><a href="{{ post.url }}">(more...)</a></p>
+<a href="{{ post.url }}">(more...)</a>
 {% endfor %}
 
