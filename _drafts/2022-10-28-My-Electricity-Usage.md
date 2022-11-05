@@ -38,10 +38,13 @@ usage to **103 kWh** (though not as much as hot summer days -- note the low temp
 evening the air conditioning does not need to run all night, or even in the early part of the daytime).
 
 Finally, note the ~0.5 kWh per 15 minutes jump at 6am.  This corresponds to the pool filter turning on in the morning (validated by some quick internet
-research that the power usage of pool filters is around 2 kW).  This jump is there in August, but it is buried under A/C variability. 
+research that the power usage of pool filters is around 2 kW).  This jump is there in August, but it is buried under A/C variability.
+
 ![May Usage](/assets/images/post2_usage_May.png)
 
 ## Aggregate Usage and Cost of Plans
+
+With this intuition, 
 
 <table>
     <col> <colgroup span="3"></colgroup> <colgroup span ="1"></colgroup>
