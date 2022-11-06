@@ -60,9 +60,9 @@ weeks during this month and setting the house to 85&deg;F rather than 76-80&deg;
 Note that peak electricity represents only a small fraction of total consumption (15%).  This reflects: (1) only 4 months include peak times, 
 (2) those times are only 6 out of 24 hours a day and (3) weekends are excluded entirely.  
 
-Since Peak electricity costs a 2.5x the fixed rate, while off-peak reflects only a 35% discount, the 15%-85% split results in approximate parity, although
-with several hundred dollars of improvement over the year (5% of total cost).   If my family had the incentive to save more money in reality, we likely
-would have further shifted our air conditioning usage outside of the 1pm - 7pm window on Summer weekdays. 
+Since Peak electricity costs a 2.5x the fixed rate, while off-peak reflects only a 35% discount, the 15%-85% split results in approximate parity, 
+although with several hundred dollars of improvement over the year (5% of total cost).   If my family had the incentive to save more money in reality,
+we likely would have further shifted our air conditioning usage outside of the 1pm - 7pm window on Summer weekdays. 
 
 <table>
     <col> <colgroup span="3"></colgroup> <colgroup span ="1"></colgroup>
@@ -84,10 +84,4 @@ would have further shifted our air conditioning usage outside of the 1pm - 7pm w
         <th scope="row" style="background-color: blue">Est. Cost</th> <td>$1,512.22</td> <td>$2,387.94</td> <td>$3,900.16</td> <td>$4,144.93</td>
     </tr>
 </table>
-
-## Statewide Consumption
-
-To contextualize my individual usage, I found a U.S. Energy Information Agency [source](https://www.eia.gov/electricity/data.php#sales) that provides 
-(among other things) total electricity sales by state and month.   
-
 
