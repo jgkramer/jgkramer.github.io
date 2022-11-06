@@ -87,7 +87,7 @@ would have further shifted our air conditioning usage outside of the 1pm - 7pm w
 
 ## Statewide Consumption
 
-Finally, I bumped into an interesting [source](https://www.eia.gov/electricity/data.php#sales) that provides (among other things) total electricity 
-sales by state and month.   
+To contextualize my individual usage, I found a U.S. Energy Information Agency [source](https://www.eia.gov/electricity/data.php#sales) that provides 
+(among other things) total electricity sales by state and month.   
 
 
