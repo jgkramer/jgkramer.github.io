@@ -87,5 +87,6 @@ would have further shifted our air conditioning usage outside of the 1pm - 7pm w
 
 ## Statewide Consumption
 
+Finally, 
 
 
