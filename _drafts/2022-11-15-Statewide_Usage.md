@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Statewide Electricity Usage
+title: Statewide Electricity Usage
 date: "2022-11-15"
 hide: true
 excerpt_separator: <!--more-->
