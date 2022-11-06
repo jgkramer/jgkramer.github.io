@@ -6,5 +6,6 @@ hide: true
 excerpt_separator: <!--more-->
 ---
 
-To contextualize my individual usage, I found a U.S. Energy Information Agency  [source](https://www.eia.gov/electricity/data.php#sales) 
-that provides (among other things) total electricity sales by state and month.
+To contextualize my individual electricity usage across different months of the year in Nevada, I turned to a nice source supplied by the 
+U.S. Energy Information Agency that provides (among other things) [total electricity sales by state and month]
+(https://www.eia.gov/electricity/data.php#sales).
