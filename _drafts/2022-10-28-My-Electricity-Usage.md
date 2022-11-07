@@ -47,35 +47,37 @@ research that the power usage of pool filters is around 2 kW).  This jump is the
 
 Recall that in Nevada's Time of Use plan, Peak rates are charged only in the months June through September, between 1pm and 7pm.   
 The graph below looks at **all** days in each month from August 2021 to September 2022, and shows the average amount of electricity (kWh) consumed
-at my house during each of the 24 hours of the day, compared to the full-year average in an hour (3.3 kWh) and 150% of the average (5.0 kWh)
+at my house during each of the 24 hours of the day, compared to the full-year average in an hour (3.3 kWh) and 150% of the average (5.0 kWh).   
 
 (chart 1)
 
-Two distinct patterns emerge.  First, there are basically two modes to residential electricity usage in Nevada: non-summer (October through April) 
-when there is little to no air conditioning use and consumption is roughly flat.  Second, June through September represent a distinctly higher level of 
-use.   May is an intermediate case, as 90&deg; plus days do appear and drive some air conditioning use, so one could imagine a TOU plan that makes 
-May a peak month as well (but the overall levels of 
+Several observations emerge.  The first observation is the hours of peak demand in the summer.  Highest electricity consumption does 
+fall in the 1pm to 7pm period, consistent with the peak hours in the TOU plan.   However, at least during the very hottest months, usage is still 
+significantly elevated (> 1.5x average) as early as 11am and at least in the 7-8pm window as well, potentially justifying a larger number of peak hours. 
 
-This first pattern is borne out by the full monthly totals below
+Second, there are basically two seasons to residential electricity usage in Nevada: non-summer (October through April) 
+when there is little to no air conditioning use and consumption is roughly flat.  Second, June through September represent a distinctly higher level of 
+use, again consistent with the setup of the TOU plan.   May is an intermediate case, somewhat similar to September, as 90&deg; plus 
+days do appear and drive some air conditioning use, so one could imagine a TOU plan that makes May a peak month as well 
+(but the levels may not be high enough to strain on generation capacity in the state).
+
+This observation is borne out by the full monthly totals below.   Note that the June / July bars in 2022 are flat to May for my family despite rising 
+temperatures: this is a side effect of traveling for a number of weeks during this month and setting the house to 85&deg;F rather than 76-80&deg;F
 
 ![Monthly Usage](/assets/images/post2_monthly_usage_TOU.png)
 
-Second,
+Finally, note that an average electricity consumption of 3.3 kWh per hour (or 3.3 kW of power), a large 1 GW power plant 
+(like the units at the Vogtle nuclear power plant in Georgia) would supply about 300,000 houses of power at this average rate.  
+Note that in peak hours in the summer, my house demands almost 10 kW, meaning the average analysis is incomplete. 
 
+## Applying the Cost of Plans
 
-## Full-Year Usage and Cost of Plans
-
-Finally,  and then applying the cost per kWh under both the fixed rate plan (which I use) and the TOU plan (which I do not). 
+Last, I apply the cost per kWh under both the fixed rate plan (which I use) and the TOU plan (which I do not). 
 
 First, consumption.  As shown in the previous section, a Nevada residential customer basically has two modes: 
 non-summer (October through April) when there is no air conditioning use and consumption is roughly flat, and the four summer months, 
 with varying degree of air conditioning generating significantly different electricity consumption.  Unlike my colder-climate home in Connecticut, 
 which required meaningful winter heating supplied by electric compressors, the winter did not contain a second surge of electricity use. 
-
-Note that the June / July bars in 2022 were flat to May for my family despite rising temperatures: this is a side effect of traveling for a number of 
-weeks during this month and setting the house to 85&deg;F rather than 76-80&deg;F
-
-
 
 Note that peak electricity represents only a small fraction of total consumption (15%).  This reflects: (1) only 4 months include peak times, 
 (2) those times are only 6 out of 24 hours a day and (3) weekends are excluded entirely.  
