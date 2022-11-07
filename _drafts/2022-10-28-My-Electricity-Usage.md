@@ -42,6 +42,9 @@ research that the power usage of pool filters is around 2 kW).  This jump is the
 
 ![May Usage](/assets/images/post2_usage_May.png)
 
+## Usage By Month
+
+
 ## Full-Year Usage and Cost of Plans
 
 With this intuition, I analyzed an entire year's worth of electricity usage (in 15 minute increments), first breaking down energy use by month and 
@@ -84,4 +87,3 @@ we likely would have further shifted our air conditioning usage outside of the 1
         <th scope="row" style="background-color: blue">Est. Cost</th> <td>$1,512.22</td> <td>$2,387.94</td> <td>$3,900.16</td> <td>$4,144.93</td>
     </tr>
 </table>
-
