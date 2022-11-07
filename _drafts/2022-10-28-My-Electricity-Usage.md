@@ -5,7 +5,8 @@ date: "2022-11-7"
 hide: true
 excerpt_separator: <!--more-->
 ---
-The last post's foray into electricity rates, especially Time-Of-Use (TOU) plans, inspired me to inquire about my own electricity usage patterns 
+The [previous post's](https://jgkramer.github.io/2022/10/15/Residential-Electricity-Rates.html) foray into electricity rates, 
+especially Time-Of-Use (TOU) plans, inspired me to inquire about my own electricity usage patterns 
 in the Las Vegas area.  First, I will build some intuition about patterns of use by time of day by visualizing my smart-meter outputs (provided by 
 NVEnergy's website) on a handful of days across different seasons.   I will then step back and look at total consumption across an entire year. 
 <!--more-->
@@ -27,16 +28,16 @@ tends to run most of the day and night.  This brings the total electricity usage
 
 ![August Usage](/assets/images/post2_usage_Aug.png)
 
-Electricity consumption is sensitive to temperatures: 164 kWh on the 109&deg; day vs. 131 on the 96&deg; day, with the majority of the increase 
+Consumption is very sensitive to temperature: 164 kWh on the 109&deg; day vs. 131 on the 96&deg; day, with the majority of the increase 
 coming from peak hours.  Our family keeps the house 4&deg; cooler at night, so the general pattern is moderate usage at night when it is not as hot, 
 to maintain the cooler temperatures; **lower** usage in the late morning as we let the house warm up a bit during the day; and **much higher** usage 
-in the late afternoon / evening as the house warms up and weather is hottest.
+in the late afternoon / evening at the hottest time of the day.
 
 #### Spring
-May is relatively temperate, although there can be hot days above 90&deg.   Notice the signficant between a warm day (72&deg) -- where total 
+May is temperate, although there can be some days above 90&deg F.   Notice the signficant between a warm day (72&deg F) -- where total 
 electricity usage is similar to winter at **66 kWh** and a hot day where the air conditioning needed to kick on in the late afternoon, bringing total 
-usage to **103 kWh** (though not as much as hot summer days -- note the low temperatures in May are still cool, so once the house is cooled down in the
-evening the air conditioning does not need to run all night, or even in the early part of the daytime).
+usage to **103 kWh**.  This is not as much as hot summer days -- the low temperatures in May are still cool, so once the house is cooled down in the
+evening the air conditioning does not need to run all night, or even in the early part of the daytime.
 
 Finally, note the ~0.5 kWh per 15 minutes jump at 6am.  This corresponds to the pool filter turning on in the morning (validated by some quick internet
 research that the power usage of pool filters is around 2 kW).  This jump is there in August, but it is buried under A/C variability.
