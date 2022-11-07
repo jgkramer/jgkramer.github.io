@@ -63,19 +63,20 @@ Second, there are basically two seasons of residential electricity usage in Neva
 when there is little to no air conditioning use and consumption is roughly flat.  Second, June through September represent a distinctly higher level of 
 use, again consistent with the setup of the TOU plan.   May is an intermediate case, somewhat similar to September, so one could imagine a TOU plan that 
 makes May a peak month as well (but the levels may not be high enough to strain on generation capacity in the state).  
+Note that the June / July bars in 2022 are closer to May (lower than one would expect) for my family despite hot temperatures: 
+this is a side effect of traveling for a number of weeks during this month and setting the house to 85&deg;F rather than 76-80&deg;F.
 
-This is a contrast to colder regions like New England, where electric heating results in a winter peak usage season described by Doomberg 
+The annual pattern contrasts to colder regions like New England, where electric heating results in a winter peak usage season described by Doomberg 
 [here](https://doomberg.substack.com/p/new-england-is-an-energy-crisis-waiting).  I experienced this myself in Connecticut where 
 our HVAC was entirely electric compressor driven, resulting in both summer A/C and winter heat peaks.  
 
-The full monthly totals below are consistent.   Note that the June / July bars in 2022 are flat to May for my family despite rising 
-temperatures: this is a side effect of traveling for a number of weeks during this month and setting the house to 85&deg;F rather than 76-80&deg;F
+The full monthly totals below give a consistent picture.
 
 ![Monthly Usage](/assets/images/post2_monthly_usage_TOU.png)
 
-Finally, note that an average electricity consumption of 3.3 kWh per hour (or 3.3 kW of power), a large 1 GW power plant 
-(like the units at the Vogtle nuclear power plant in Georgia) would supply about 300,000 houses of power at this average rate.  
-Note that in peak hours in the summer, my house demands almost 10 kW, meaning the average analysis is incomplete. 
+As an aside, at an average electricity consumption of 3.3 kWh per hour (i.e., 3.3 kW average power demand), a large 1 GW power plant 
+(like the units at the Vogtle nuclear power plant in Georgia) would supply about 300,000 houses.  But this analysis is clearly inadequate given 
+our peak summertime demands of ~10kW, which points at the challenge of supplying both base and peak generation capacity.
 
 ## Applying the Cost of Plans
 
@@ -107,3 +108,9 @@ we likely would have further shifted our air conditioning usage outside of the 1
         <th scope="row" style="background-color: blue">Est. Cost</th> <td>$1,512.22</td> <td>$2,387.94</td> <td>$3,900.16</td> <td>$4,144.93</td>
     </tr>
 </table>
+
+## Analytical Notes
+
+While this post's analysis is very focused on my own data, the infrastructure developed [here](https://github.com/jgkramer/hummingbird) is quite 
+extensible, and it is straightforward to apply my own data or others' data to other state rate plans.
+
