@@ -88,7 +88,7 @@ being lower on weekends, or a matter of customer accommodation.
 
 Since peak electricity costs 2.5x the fixed rate, while off-peak reflects only a 35% discount, the 15%-85% split results in approximate parity, 
 although with several hundred dollars of improvement over the year (about 5%).   If my family had the incentive to save more money in reality,
-we likely would have further shifted our air conditioning usage outside of the 1pm - 7pm window on Summer weekdays. 
+we likely would have further shifted our air conditioning usage outside of the 1pm - 7pm window on summer weekdays. 
 
 <table>
     <col> <colgroup span="3"></colgroup> <colgroup span ="1"></colgroup>
