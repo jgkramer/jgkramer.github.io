@@ -61,7 +61,11 @@ Second, there are basically two seasons to residential electricity usage in Neva
 when there is little to no air conditioning use and consumption is roughly flat.  Second, June through September represent a distinctly higher level of 
 use, again consistent with the setup of the TOU plan.   May is an intermediate case, somewhat similar to September, as 90&deg; plus 
 days do appear and drive some air conditioning use, so one could imagine a TOU plan that makes May a peak month as well 
-(but the levels may not be high enough to strain on generation capacity in the state).
+(but the levels may not be high enough to strain on generation capacity in the state).  
+
+This is a contrast to colder regions like New England, where electric heating results in a winter peak usage season described by 
+[Doomberg](https://doomberg.substack.com/p/new-england-is-an-energy-crisis-waiting).  I experienced this in my own house in Connecticut where 
+our HVAC was entirely electric compressor driven, resulting in both summer A/C and winter heat peaks).  
 
 This observation is borne out by the full monthly totals below.   Note that the June / July bars in 2022 are flat to May for my family despite rising 
 temperatures: this is a side effect of traveling for a number of weeks during this month and setting the house to 85&deg;F rather than 76-80&deg;F
@@ -75,12 +79,6 @@ Note that in peak hours in the summer, my house demands almost 10 kW, meaning th
 ## Applying the Cost of Plans
 
 Last, I apply the cost per kWh under both the fixed rate plan (which I use) and the TOU plan (which I do not). 
-
-First, consumption.  As shown in the previous section, a Nevada residential customer basically has two modes: 
-non-summer (October through April) when there is no air conditioning use and consumption is roughly flat, and the four summer months, 
-with varying degree of air conditioning generating significantly different electricity consumption.  Unlike my colder-climate home in Connecticut, 
-which required meaningful winter heating supplied by electric compressors, the winter did not contain a second surge of electricity use. 
-
 Note that peak electricity represents only a small fraction of total consumption (15%).  This reflects: (1) only 4 months include peak times, 
 (2) those times are only 6 out of 24 hours a day and (3) weekends are excluded entirely.  
 
