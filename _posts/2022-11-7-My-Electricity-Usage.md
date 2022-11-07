@@ -12,7 +12,7 @@ NVEnergy's website) on a handful of days across different seasons.   I will then
 <!--more-->
 This post is also intended to help drive a bit of intuition about the numbers of electricity consumption for a home.
 
-## A Sampling of Few Days' Data
+### A Sampling of Few Days' Data
 
 #### Winter
 Winter electricity usage is modest -- temperatures are chilly but our heating is natural-gas powered (this uses a little bit of electricity, generating
@@ -44,7 +44,7 @@ research that the power usage of pool filters is around 2 kW).  This jump is the
 
 ![May Usage](/assets/images/post2_usage_May.png)
 
-## Does the Peak / Off-Peak Split Make Sense? 
+### Does the Peak / Off-Peak Split Make Sense? 
 
 Recall that in Nevada's Time of Use plan, Peak rates are charged June through September, between 1pm and 7pm.   
 The graph below looks at **all** days in each month from August 2021 to September 2022, and shows the average amount of electricity (kWh) consumed
@@ -78,7 +78,7 @@ As an aside, at an average electricity consumption of 3.3 kWh per hour (i.e., 3.
 (like the units at the Vogtle nuclear power plant in Georgia) would supply about 300,000 houses.  But this analysis is clearly inadequate given 
 our peak summertime demands of ~10kW, which points at the challenge of supplying both base and peak generation capacity.
 
-## Applying the Cost of Plans
+### Applying the Cost of Plans
 
 Last, I apply the cost per kWh under both the fixed rate plan (which I use) and the TOU plan (which I do not). 
 Note that peak electricity represents only a small fraction of total consumption (15%).  This reflects: (1) only 4 months include peak times, 
@@ -111,7 +111,7 @@ we likely would have further shifted our air conditioning usage outside of the 1
     </tr>
 </table>
 
-## Analytical Notes
+### Analytical Notes
 
 While this post's analysis is very focused on my own data, the infrastructure developed [here](https://github.com/jgkramer/hummingbird) is quite 
 extensible, and it is straightforward to apply my own data or others' data to other state rate plans.
