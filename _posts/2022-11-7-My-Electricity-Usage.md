@@ -104,10 +104,10 @@ we likely would have further shifted our air conditioning usage outside of the 1
         <th scope="col" style="background-color: #D6EEEE">Total</th>
     </tr>
     <tr>
-        <th scope="row" style="background-color: blue">Usage (kWh)</th> <td>3,781</td> <td>25,224</td> <td>29,006</td> <td>29,006</td>
+        <th scope="row" style="background-color: blue">Usage (kWh)</th> <td>3,951</td> <td>26,357</td> <td>30,314</td> <td>30,314</td>
     </tr>
     <tr>
-        <th scope="row" style="background-color: blue">Est. Cost</th> <td>$1,512.22</td> <td>$2,387.94</td> <td>$3,900.16</td> <td>$4,144.93</td>
+        <th scope="row" style="background-color: blue">Est. Cost</th> <td>$1,582.44</td> <td>$2,495.47</td> <td>$4,077.91</td> <td>$4,331.86</td>
     </tr>
 </table>
 
