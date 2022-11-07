@@ -16,7 +16,7 @@ This post is also intended to help drive a bit of intuition about the numbers of
 #### Winter
 Winter electricity usage is modest -- temperatures are chilly but our heating is natural-gas powered (this uses a little bit of electricity, generating
 the day-long squiggles, but not too much).  Thus the **64 kWh** consumption from 3-Feb is about our baseline usage from lights and appliances.
-The **25 kWh** incresae on Tuesday 1-Feb is the impact of our once-a-week laundry day: our electric dryer is rated 26A x 240V = ~6 kW maximum, 
+The **25 kWh** increase on Tuesday 1-Feb is the impact of our once-a-week laundry day: our electric dryer is rated 26A x 240V = ~6 kW maximum, 
 so running it for 5-6 hours with some breaks and some low power times (e.g., cool down) seems to approximately account for the 25 kWh.
 
 ![February Usage](/assets/images/post2_usage_Feb.png)
