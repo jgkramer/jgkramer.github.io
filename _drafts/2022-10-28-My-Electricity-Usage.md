@@ -49,7 +49,7 @@ Recall that in Nevada's Time of Use plan, Peak rates are charged only in the mon
 The graph below looks at **all** days in each month from August 2021 to September 2022, and shows the average amount of electricity (kWh) consumed
 at my house during each of the 24 hours of the day, compared to the full-year average in an hour (3.3 kWh) and 150% of the average (5.0 kWh).   
 
-(chart 1)
+![Monthly Usage](/assets/images/post2_average_usage_by_hour.png)
 
 Several observations emerge.  The first observation is the hours of peak demand in the summer.  Highest electricity consumption does 
 fall in the 1pm to 7pm period, consistent with the peak hours in the TOU plan.   However, at least during the very hottest months, usage is still 
