@@ -63,8 +63,8 @@ use, again consistent with the setup of the TOU plan.   May is an intermediate c
 days do appear and drive some air conditioning use, so one could imagine a TOU plan that makes May a peak month as well 
 (but the levels may not be high enough to strain on generation capacity in the state).  
 
-This is a contrast to colder regions like New England, where electric heating results in a winter peak usage season described by 
-[Doomberg](https://doomberg.substack.com/p/new-england-is-an-energy-crisis-waiting).  I experienced this in my own house in Connecticut where 
+This is a contrast to colder regions like New England, where electric heating results in a winter peak usage season described by Doomberg 
+[here](https://doomberg.substack.com/p/new-england-is-an-energy-crisis-waiting).  I experienced this in my own house in Connecticut where 
 our HVAC was entirely electric compressor driven, resulting in both summer A/C and winter heat peaks).  
 
 This observation is borne out by the full monthly totals below.   Note that the June / July bars in 2022 are flat to May for my family despite rising 
