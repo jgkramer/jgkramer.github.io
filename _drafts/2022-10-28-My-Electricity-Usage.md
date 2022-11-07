@@ -53,7 +53,9 @@ at my house during each of the 24 hours of the day, compared to the full-year av
 
 Several observations emerge.  The first observation is the hours of peak demand in the summer.  Highest electricity consumption does 
 fall in the 1pm to 7pm period, consistent with the peak hours in the TOU plan.   However, at least during the very hottest months, usage is still 
-significantly elevated (> 1.5x average) as early as 11am and at least in the 7-8pm window as well, potentially justifying a larger number of peak hours. 
+significantly elevated (> 1.5x average) as early as 11am and at least in the 7pm-9pm window as well (the drop in my chart at 7pm is is the 2 kW of pool
+filter turning off), potentially justifying a larger number of peak hours.  Note my usage may be idiosyncratic, so whether this pattern exists 
+state-wide would determine whether my observtions scale. 
 
 Second, there are basically two seasons to residential electricity usage in Nevada: non-summer (October through April) 
 when there is little to no air conditioning use and consumption is roughly flat.  Second, June through September represent a distinctly higher level of 
