@@ -82,10 +82,12 @@ our peak summertime demands of ~10kW, which points at the challenge of supplying
 
 Last, I apply the cost per kWh under both the fixed rate plan (which I use) and the TOU plan (which I do not). 
 Note that peak electricity represents only a small fraction of total consumption (15%).  This reflects: (1) only 4 months include peak times, 
-(2) those times are only 6 out of 24 hours a day and (3) weekends are excluded entirely.  
+(2) those times are only 6 out of 24 hours a day and (3) weekends are excluded entirely.  As indicated above, (1) and (2) make sense given my data; 
+I don't know whether the exclusion of weekends from peak hours (consistent across all states I have seen) is a function of actual peak consumption 
+being lower on weekends, or a matter of customer accommodation. 
 
-Since Peak electricity costs a 2.5x the fixed rate, while off-peak reflects only a 35% discount, the 15%-85% split results in approximate parity, 
-although with several hundred dollars of improvement over the year (5% of total cost).   If my family had the incentive to save more money in reality,
+Since peak electricity costs 2.5x the fixed rate, while off-peak reflects only a 35% discount, the 15%-85% split results in approximate parity, 
+although with several hundred dollars of improvement over the year (about 5%).   If my family had the incentive to save more money in reality,
 we likely would have further shifted our air conditioning usage outside of the 1pm - 7pm window on Summer weekdays. 
 
 <table>
