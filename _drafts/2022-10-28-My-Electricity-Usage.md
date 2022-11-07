@@ -9,6 +9,7 @@ The last post's foray into electricity rates, especially Time-Of-Use (TOU) plans
 in the Las Vegas area.  First, I will build some intuition about patterns of use by time of day by visualizing my smart-meter outputs (provided by 
 NVEnergy's website) on a handful of days across different seasons.   I will then step back and look at total consumption across an entire year. 
 <!--more-->
+This post is also intended to help drive a bit of intuition about the numbers of electricity consumption for a home.
 
 ## A Sampling of Few Days' Data
 
@@ -42,15 +43,31 @@ research that the power usage of pool filters is around 2 kW).  This jump is the
 
 ![May Usage](/assets/images/post2_usage_May.png)
 
-## Usage By Month
+## Does the Peak / Off-Peak Split Make Sense? 
+
+Recall that in Nevada's Time of Use plan, Peak rates are charged only in the months June through September, between 1pm and 7pm.   
+The graph below looks at **all** days in each month from August 2021 to September 2022, and shows the average amount of electricity (kWh) consumed
+at my house during each of the 24 hours of the day, compared to the full-year average in an hour (3.3 kWh) and 150% of the average (5.0 kWh)
+
+(chart 1)
+
+Two distinct patterns emerge.  First, there are basically two modes to residential electricity usage in Nevada: non-summer (October through April) 
+when there is little to no air conditioning use and consumption is roughly flat.  Second, June through September represent a distinctly higher level of 
+use.   May is an intermediate case, as 90&deg; plus days do appear and drive some air conditioning use, so one could imagine a TOU plan that makes 
+May a peak month as well (but the overall levels of 
+
+This first pattern is borne out by the full monthly totals below
+
+![Monthly Usage](/assets/images/post2_monthly_usage_TOU.png)
+
+Second,
 
 
 ## Full-Year Usage and Cost of Plans
 
-With this intuition, I analyzed an entire year's worth of electricity usage (in 15 minute increments), first breaking down energy use by month and 
-peak / off-peak timing, and then applying the cost per kWh under both the fixed rate plan (which I use) and the TOU plan (which I do not). 
+Finally,  and then applying the cost per kWh under both the fixed rate plan (which I use) and the TOU plan (which I do not). 
 
-First, consumption.  As suggested by the February-May-August examples above, a Nevada residential customer basically has two modes: 
+First, consumption.  As shown in the previous section, a Nevada residential customer basically has two modes: 
 non-summer (October through April) when there is no air conditioning use and consumption is roughly flat, and the four summer months, 
 with varying degree of air conditioning generating significantly different electricity consumption.  Unlike my colder-climate home in Connecticut, 
 which required meaningful winter heating supplied by electric compressors, the winter did not contain a second surge of electricity use. 
@@ -58,7 +75,7 @@ which required meaningful winter heating supplied by electric compressors, the w
 Note that the June / July bars in 2022 were flat to May for my family despite rising temperatures: this is a side effect of traveling for a number of 
 weeks during this month and setting the house to 85&deg;F rather than 76-80&deg;F
 
-![Monthly Usage](/assets/images/post2_monthly_usage_TOU.png)
+
 
 Note that peak electricity represents only a small fraction of total consumption (15%).  This reflects: (1) only 4 months include peak times, 
 (2) those times are only 6 out of 24 hours a day and (3) weekends are excluded entirely.  
