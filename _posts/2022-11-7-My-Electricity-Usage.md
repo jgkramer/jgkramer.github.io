@@ -47,6 +47,7 @@ research that the power usage of pool filters is around 2 kW).  This jump is the
 ### Does the Peak / Off-Peak Split Make Sense? 
 
 Recall that in Nevada's Time of Use plan, Peak rates are charged June through September, between 1pm and 7pm.   
+
 The graph below looks at **all** days in each month from August 2021 to September 2022, and shows the average amount of electricity (kWh) consumed
 at my house during each of the 24 hours of the day.   Horizontal lines are full-year average across all hours of all days (3.3 kWh) and 150% of 
 the average (5.0 kWh), to give a sense of how big spikes are.  
@@ -62,9 +63,9 @@ state-wide would determine whether my observtions scale.
 Second, there are basically two seasons of residential electricity usage in Nevada: non-summer (October through April) 
 when there is little to no air conditioning use and consumption is roughly flat.  Second, June through September represent a distinctly higher level of 
 use, again consistent with the setup of the TOU plan.   May is an intermediate case, somewhat similar to September, so one could imagine a TOU plan that 
-makes May a peak month as well (but the levels may not be high enough to strain on generation capacity in the state).  
-Note that the June / July bars in 2022 are closer to May (lower than one would expect) for my family despite hot temperatures: 
-this is a side effect of traveling for a number of weeks during this month and setting the house to 85&deg;F rather than 76-80&deg;F.
+makes May a peak month as well (but the levels may not be high enough to strain on generation capacity in the state).  Note that the June / July bars 
+in 2022 are closer to May (lower than one would expect) for my family despite hot temperatures:  this is a side effect of traveling for a number 
+of weeks during this month and setting the house to 85&deg;F rather than 76-80&deg;F.
 
 The annual pattern contrasts to colder regions like New England, where electric heating results in a winter peak usage season described by Doomberg 
 [here](https://doomberg.substack.com/p/new-england-is-an-energy-crisis-waiting).  I experienced this myself in Connecticut where 
