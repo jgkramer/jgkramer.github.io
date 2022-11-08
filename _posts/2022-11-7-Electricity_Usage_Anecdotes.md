@@ -34,7 +34,7 @@ to maintain the cooler temperatures; **lower** usage in the late morning as we l
 in the late afternoon / evening at the hottest time of the day.
 
 #### Spring
-May is temperate, although there can be some days above 90&deg F.   Notice the signficant between a warm day (72&deg F) -- where total 
+May is temperate, although there can be some days above 90&deg F.   Notice the signficant difference between a warm day (72&deg F) -- where total 
 electricity usage is similar to winter at **66 kWh** and a hot day where the air conditioning needed to kick on in the late afternoon, bringing total 
 usage to **103 kWh**.  This is not as much as hot summer days -- the low temperatures in May are still cool, so once the house is cooled down in the
 evening the air conditioning does not need to run all night, or even in the early part of the daytime.
