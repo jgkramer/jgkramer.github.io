@@ -22,9 +22,14 @@ Several lessons from this data:
 
 * Residential total use of 14.1 TWh (14.1 billion kWh) per year for 3.1 million Nevada residents    
   - Average of 4,562 kWh per year per Nevada resident.  
-  - My family-of-four total of 30,300 kWh for a year was 6.6x the per capita usage, not too surprising for a larger-than-average single-family home in the suburbs. 
-* As with my own use, significant seasonality of residential usage, most prominently a big summer air-conditioning peak
-  - 
+  - My family-of-four total of 30,300 kWh for a year was 6.6x the per capita usage, not too surprising for a larger-than-average single-family home in the suburbs 
+* Significant seasonality of residential usage, most prominently a big summer air-conditioning peak
+  - Of the 14.1 TWh annual usage, 49.8% occurs during the four months June through September
+  - Peak usage month (July) is 2.63x the minimum usage month (November)
+* There is a small winter peak, perhaps driven by a combination of heating and more lighting / appliance usage with shorter days
+  - Peak winter usage month (December) is 1.24x the minimum usage month
+
+
 
 
 
