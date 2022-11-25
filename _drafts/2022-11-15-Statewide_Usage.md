@@ -13,4 +13,11 @@ homeowner data I have collected, as well as state-wide data.
 <!--more-->
 
 Of particular use is material published by the U.S. Energy Information Agency with data sets breaking down electricity consumption
-by [state, month and sector](https://www.eia.gov/electricity/data.php#sales) for 30+ years. 
+by [state, month and sector](https://www.eia.gov/electricity/data.php#sales) for 30+ years.  
+
+The following chart shows the seasonality of Nevada statewide electricity usage in TeraWatt-hours (1 billion kWh), averaged over the 36 month period 
+Sep. 2019 to Aug. 2022:
+
+![NV Statewide Usage](/assets/images/post3_usage_Aug.png)
+
+
