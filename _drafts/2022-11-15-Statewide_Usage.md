@@ -21,8 +21,9 @@ consumption by [state, month and sector](https://www.eia.gov/electricity/data.ph
 Several lessons from this data: 
 
 * Residential total use of 14.1 TWh (14.1 billion kWh) per year for 3.1 million Nevada residents.    
-- This averages to 4,562 kWh per year per Nevada resident.  
-- My family-of-four total of around 30,300 kWh for a full year was about 6.6x the per capita usage, which is perhaps not surprising for a larger-than-average single-family home in the suburbs. 
+
+  - This averages to 4,562 kWh per year per Nevada resident.  
+  - My family-of-four total of around 30,300 kWh for a full year was about 6.6x the per capita usage, which is perhaps not surprising for a larger-than-average single-family home in the suburbs. 
 
 
 
