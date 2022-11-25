@@ -29,8 +29,7 @@ Several lessons from this data:
 * There is a small winter peak, perhaps driven by a combination of heating and more lighting / appliance usage with shorter days
   - Peak winter usage month (December) is 1.24x the minimum usage month
 
-
-
-
+Note that the TOTAL state electricity usage has less seasonality than the residential sector: the summer peak is 1.8x the minimum usage month, and the 
+winter peak is 1.1x.   
 
 
