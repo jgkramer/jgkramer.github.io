@@ -30,6 +30,6 @@ Several lessons from this data:
   - Peak winter usage month (December) is 1.24x the minimum usage month
 
 Note that the TOTAL state electricity usage has less seasonality than the residential sector: the summer peak is 1.8x the minimum usage month, and the 
-winter peak is 1.1x.   
+winter peak is 1.1x.  Highly variable climate control electric usage is presumably lower for the commercial and industrial sectors than for residences.
 
 
