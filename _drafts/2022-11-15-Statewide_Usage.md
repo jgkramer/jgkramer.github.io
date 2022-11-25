@@ -18,6 +18,6 @@ by [state, month and sector](https://www.eia.gov/electricity/data.php#sales) for
 The following chart shows the seasonality of Nevada statewide electricity usage in TeraWatt-hours (1 billion kWh), averaged over the 36 month period 
 Sep. 2019 to Aug. 2022:
 
-![NV Statewide Usage](/assets/images/post3_usage_Aug.png)
+![NV Statewide Usage](/assets/images/post3_NV_statewide.png)
 
 
