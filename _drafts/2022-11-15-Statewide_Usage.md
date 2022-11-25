@@ -1,10 +1,16 @@
 ---
 layout: post
-title: Statewide Electricity Usage
-date: "2022-11-15"
+title: North vs. South
+date: "2022-12-10"
 hide: true
 excerpt_separator: <!--more-->
 ---
 
-To contextualize my individual electricity usage across different months of the year in Nevada, I turned to a nice source supplied by the 
-U.S. Energy Information Agency that provides [total electricity consumption by state and month](https://www.eia.gov/electricity/data.php#sales).
+This post explores the seasonality of my electricity usage (big peak in the summer) in the Las Vegas area and whether it scales macroscopically 
+to the entire state.  I then explore how seasonality varies from one place to another across the country, making use of both anecdotal individual 
+homeowner data I have collected, as well as state-wide data.  
+
+<!--more-->
+
+Of particular use is material published by the U.S. Energy Information Agency with data sets breaking down electricity consumption
+by [state, month and sector](https://www.eia.gov/electricity/data.php#sales) for 30+ years. 
