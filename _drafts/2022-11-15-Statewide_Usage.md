@@ -58,8 +58,8 @@ Observations:
 * There is a second peak in the winter, corresponding to the heating season
   - The peak is smaller than the summer peak but larger than Nevada's winter peak: Connecticut January usage is **1.31x** April's minimum.  
   - Both the smaller size of the winter peak, as well as the overall lower per capita electricity consumption compared to Nevada, are likely driven by the fact that the winter portion of New England heating and cooling is mostly fueled by fossil fuels (80% between heating oil, natural gas and propane) rather than electricity. 
-  - That there remains **some** winter peak derives from the ~16% of home heating that is electric powered.   
+  - That there remains **some** winter peak derives from the ~16% of home heating that is electric powered.[^2]
 
 ![image](https://user-images.githubusercontent.com/12159733/204101459-6ecc1064-9e90-497e-a043-d66c4e058bf6.png)
 
-New England stats courtesy the Massachusetts state [website](https://www.mass.gov/service-details/how-massachusetts-households-heat-their-homes)
+[^2]: New England stats courtesy the Massachusetts state [website](https://www.mass.gov/service-details/how-massachusetts-households-heat-their-homes)
