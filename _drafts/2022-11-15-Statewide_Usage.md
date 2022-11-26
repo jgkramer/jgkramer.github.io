@@ -60,6 +60,6 @@ Observations:
   - Both the smaller size of the winter peak, as well as the overall lower per capita electricity consumption compared to Nevada, are likely driven by the fact that the winter portion of New England heating and cooling is mostly fueled by fossil fuels (80% between heating oil, natural gas and propane) rather than electricity. 
   - That there remains **some** winter peak derives from the ~16% of home heating that is electric powered.[^2]
 
-![image](https://user-images.githubusercontent.com/12159733/204101459-6ecc1064-9e90-497e-a043-d66c4e058bf6.png)
+![image](/assets/images/post3_new_england_households_heating_by_fuel_2021_0.png)
 
-[^2]: New England stats courtesy the Massachusetts state [website](https://www.mass.gov/service-details/how-massachusetts-households-heat-their-homes)
+[^2]: The graphic above, and New England stats for 2021, are courtesy the Massachusetts state [website](https://www.mass.gov/service-details/how-massachusetts-households-heat-their-homes).
