@@ -42,7 +42,7 @@ August and (2) June being halfway between May and August.
 
 ![Kramer-NV Comparison](/assets/images/post3_Kramer_vs_NV.png)
 
-### Northern Climates
+### Northern Lands
 
 Next up, a colder climate: Connecticut in the U.S. Northeast.  Average July high temperatures in New Haven, Connecticut: 86&deg;F (Las Vegas: 107&deg;F); 
 average January high temperatures: 37&deg;F (Las Vegas: 59&deg;F).  Below is the statewide monthly consumption chart for the state.
