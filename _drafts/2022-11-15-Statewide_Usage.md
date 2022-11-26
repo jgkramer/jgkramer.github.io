@@ -49,3 +49,9 @@ average January high temperatures: 37&deg;F (Las Vegas: 59&deg;F).  Below is the
 
 ![CT Statewide Usage](/assets/images/post3_CT_statewide.png)
 
+Observations: 
+
+* For a slightly larger population than Nevada (3.6 million), the total annual electricity usage is 13.0 TWh / year, for an annual usage per capita of 3600 kWh
+  - This differential is likely driven by the fact that the winter portion of heating and cooling is mostly heating oil or natural gas-powered (contrast the warmer climate where most of the HVAC for the year is summertime electric air-conditioning). 
+
+
