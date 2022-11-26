@@ -34,11 +34,10 @@ Several observations:
 Note that the TOTAL state electricity usage has less seasonality than the residential sector: the summer peak is 1.8x the minimum usage month, and the 
 winter peak is 1.1x.  Highly variable climate control electric usage is presumably lower for the commercial and industrial sectors than for residences.
 
-I then compare statewide usage to my own, showing the percentage of annual consumption in each month of the year.   Note: in the dark blue series, the 
-artificially-low consumption in June-July due to travel has been replaced by (1) July being assumed to be the same as August and (2) June being halfway
-between May and August. 
+I then compare statewide usage to my own, showing the percentage of annual consumption in each month of the year.  The individual usage throughout the 
+year very closely matches the profile of aggregate month-to-month residential use (commercial and industrial use is visibly less seasonal). 
 
 ![Kramer-NV Comparison](/assets/images/post3_Kramer_vs_NV.png)
 
-
-
+Note: in the dark blue series, the artificially-low consumption in June-July due to travel has been replaced by (1) July being assumed to be the same as 
+August and (2) June being halfway between May and August. 
