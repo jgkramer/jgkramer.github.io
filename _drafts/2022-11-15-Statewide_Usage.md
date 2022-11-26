@@ -53,5 +53,9 @@ Observations:
 
 * For a slightly larger population than Nevada (3.6 million), the total annual electricity usage is 13.0 TWh / year, for an annual usage per capita of 3600 kWh
   - This differential is likely driven by the fact that the winter portion of heating and cooling is mostly heating oil or natural gas-powered (contrast the warmer climate where most of the HVAC for the year is summertime electric air-conditioning). 
-
+* There is a summer peak driven by air-conditioning, but it is much smaller than in Nevada
+  - Of the 13.0 TWh annual consumption, 37% is in the 4 summer months June through September
+  - Peak usage month (August) is only **1.49x** the minimum usage month (April)
+* There is a second peak in the winter, corresponding to the heating season
+  - The peak is smaller than the summer peak but larger than Nevada's winter peak: Connecticut January usage is **1.31x** April's minimum.  
 
