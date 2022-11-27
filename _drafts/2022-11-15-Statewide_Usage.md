@@ -68,4 +68,6 @@ The last point is illustrated by comparing the seasonal profile of two houses in
 (heat pump for both heating and cooling), and (2) another with heat provided by utility natural-gas furnaces.  **[NOTE UPDATE AFTER NOVEMBER 14WP BILL 
 COMES OUT].**
 
-![image](/assets/images/post3_CT_line.png
+![image](/assets/images/post3_CT_line.png)
+
+
