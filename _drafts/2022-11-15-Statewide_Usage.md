@@ -70,4 +70,9 @@ COMES OUT].**
 
 ![image](/assets/images/post3_CT_line.png)
 
+Notice that for the house with gas-fueled winter heat, the winter electricity peak is small (1.25x the minimum month) while the summer peak is 
+quite prominent (close to 2.0x).  Meanwhile, the winter peak for the all-electric HVAC house is larger (2.3x minimum) than the summer A/C peak 
+(1.9x the minimum): it takes more energy to heat a home 30-50 degrees above the outside temperature than it does to cool a home 10-20 degrees cooler
+than the outside temperature.   The state-wide portfolio, which is a blend of these two categories (but weighted towards the fossil-fuel fired home), 
+thus has a blended seasonality profile as seen above. 
 
