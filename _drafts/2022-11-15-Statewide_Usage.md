@@ -76,8 +76,9 @@ quite prominent (close to 2.0x).  Meanwhile, the winter peak for the all-electri
 than the outside temperature.   The state-wide portfolio, which is a blend of these two categories (but weighted towards the fossil-fuel fired home), 
 thus has a blended seasonality profile as seen above. 
 
-### South, Again
+### Alaska and Florida [skip texas]
 
-(Texas)61% of homes in Texas are heated by electricity. [^3] 
 
-[^3]: Source: Energy Information Agency [reporting U.S. Census results](https://www.eia.gov/todayinenergy/detail.php?id=47116) (downloaded 26-Nov-2022).
+## Every State (plotly)
+
+
