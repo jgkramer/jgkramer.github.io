@@ -80,4 +80,4 @@ thus has a blended seasonality profile as seen above.
 
 (Texas)61% of homes in Texas are heated by electricity. [^3] 
 
-[^3]: Source: Energy Information Agency [reporting U.S. Census results](https://www.eia.gov/todayinenergy/detail.php?id=47116) (downloaded 2022-Nov-26).
+[^3]: Source: Energy Information Agency [reporting U.S. Census results](https://www.eia.gov/todayinenergy/detail.php?id=47116) (downloaded 26-Nov-2022).
