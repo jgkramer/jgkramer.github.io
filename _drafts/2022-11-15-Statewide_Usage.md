@@ -78,7 +78,7 @@ thus has a blended seasonality profile as seen above.
 
 ### You Wanted to See Alaska and Florida
 
-As we'll see, most U.S. states have electricity consumption seasonality akin to Nevada and Connecticut: winter peak from some heating, summer peak from 
+Most U.S. states have electricity consumption seasonality akin to Nevada and Connecticut: winter peak from some heating, summer peak from 
 air conditioning, and spring/fall low points where there is little HVAC needed one way or the other.  This is not true for Alaska and Florida: 
 
 ![image](/assets/images/post3_FLandAK_line.png)
