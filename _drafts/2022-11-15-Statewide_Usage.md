@@ -78,12 +78,12 @@ thus has a blended seasonality profile as seen above.
 
 ### You Wanted to See Alaska and Florida
 
-As we'll see, most U.S. states have electricity consumption seasonality akin to Nevada and Connecticut (but with different relative sizes of summer
-and winter peaks).   This is not true for Alaska and Florida: 
+As we'll see, most U.S. states have electricity consumption seasonality akin to Nevada and Connecticut: winter peak from some heating, summer peak from 
+air conditioning, and spring/fall low points where there is little HVAC needed one way or the other.  This is not true for Alaska and Florida: 
 
 ![image](/assets/images/post3_FLandAK_line.png)
 
-
+Alaska is always colder than indoor comfortable temperatures: summer high temperatures in Anchorage are just above 60&deg;F.  So unlike
 
 
 ## Every State (plotly)
