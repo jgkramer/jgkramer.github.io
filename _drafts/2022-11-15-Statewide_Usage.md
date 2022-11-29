@@ -93,4 +93,11 @@ is 1.6x the winter minimum.
 
 ## Every State (plotly)
 
+Beyond the individual examples above, the maps below display (via colorscale) the height of the summer and winter electricity usage peak month, as a 
+multiple factor of the month of the year (usually spring or fall) with the lowest consumption.  While there are other measures of seasonanality (e.g., % 
+of total consumption in the summer months), this peak-height metric is relevant because it encapsulates the range of power output that the electricity 
+grid must supply throughout the year.   Different generation sources fit differentially into this seasonal profile: Nuclear, hyrdoelectric and coal, 
+for example, can serve as base load year-round, while natural gas is often used in plants that can be cycled up and down to deal with peaks.  
+
+
 
