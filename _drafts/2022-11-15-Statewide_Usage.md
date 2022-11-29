@@ -76,7 +76,14 @@ quite prominent (close to 2.0x).  Meanwhile, the winter peak for the all-electri
 than the outside temperature.   The state-wide portfolio, which is a blend of these two categories (but weighted towards the fossil-fuel fired home), 
 thus has a blended seasonality profile as seen above. 
 
-### Alaska and Florida [skip texas]
+### You Wanted to See Alaska and Florida
+
+As we'll see, most U.S. states have electricity consumption seasonality akin to Nevada and Connecticut (but with different relative sizes of summer
+and winter peaks).   This is not true for Alaska and Florida: 
+
+![image](/assets/images/post3_FLandAK_line.png)
+
+
 
 
 ## Every State (plotly)
