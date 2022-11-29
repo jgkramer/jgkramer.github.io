@@ -83,8 +83,13 @@ air conditioning, and spring/fall low points where there is little HVAC needed o
 
 ![image](/assets/images/post3_FLandAK_line.png)
 
-Alaska is always colder than indoor comfortable temperatures: summer high temperatures in Anchorage are just above 60&deg;F.  So unlike
+Alaska is always colder than indoor comfortable temperatures: summer high temperatures in Anchorage are just above 60&deg;F.  So the annual cycle ranges
+from "heavy electricity consumption for heating in winter" to "less heavy electricity consumption for heating in summer", with no summer peak at all.
+The winter peak is 1.6x the summer nadir. 
 
+Florida is the opposite: it is always hot and humid, and many residents use air conditioning all year round (with occasional winter heating), 
+with more of it being used in the summer.  So the annual cycle is various degrees of electricity for cooling, peaking in summer.  Summer consumption
+is 1.6x the winter minimum.
 
 ## Every State (plotly)
 
