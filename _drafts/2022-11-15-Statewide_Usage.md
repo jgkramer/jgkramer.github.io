@@ -93,11 +93,20 @@ is 1.6x the winter minimum.
 
 ## Every State (plotly)
 
-Beyond the individual examples above, the maps below display (via colorscale) the height of the summer and winter electricity usage peak month, as a 
-multiple factor of the month of the year (usually spring or fall) with the lowest consumption.  While there are other measures of seasonanality (e.g., % 
-of total consumption in the summer months), this peak-height metric is relevant because it encapsulates the range of power output that the electricity 
-grid must supply throughout the year.   Different generation sources fit differentially into this seasonal profile: Nuclear, hyrdoelectric and coal, 
-for example, can serve as base load year-round, while natural gas is often used in plants that can be cycled up and down to deal with peaks.  
+Beyond the individual examples above, the maps below show the height of the summer and winter electricity usage peak month, as a 
+multiple of the consumption in the lowest electricity month, typically a fall or spring month.  Higher numbers (e.g., 2 - 2.5x) evidence greater 
+seasonal variation in electricity usage than lower numbers (e.g., 1.25 - 1.5x).  
 
+While there are other measures of seasonality (e.g., % of total consumption in the summer months), I find the peak-height metric relevant because it
+conveys the full range of power output that the grid must supply.  Electriicty generation plants must provide not merely the total energy consumed in 
+a locale throughout the year, but must instantaneously provide the power demanded at all times -- up to a peak consumption much higher than the average. 
+Coping with this variability is the challenge and miracle of the [grid] (https://bam.kalzumeus.com/archive/markets-in-power/), and different generation 
+sources contribute differentially into this variability of demand.  Nuclear and hydroelectric power, for example, are useful as "always on" base load
+generation, while natural gas is often used in "peaker" plants that can by cycled up and down to deal with fluctuations. 
 
+![image](/assets/images/post3_summer_map.png)
+
+Starting with the summer analysis, we see the general pattern that southern states with higher 
+
+The full data set is here.[LINK]
 
