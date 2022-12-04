@@ -107,10 +107,20 @@ generation, while natural gas is often used in "peaker" plants that can by cycle
 ![image](/assets/images/post3_summer_map.png)
 
 Starting with the summer analysis, we see the general pattern that southern states with hotter summers and presumably more air-conditioning usage
-have a higher relative electricity consumtion than northern states with cooler summers.  The states with the highest summer peak values (Nevada at 2.x 
+have a higher relative electricity consumption than northern states with cooler summers.  The states with the highest summer peak values (Nevada at 2.x 
 and Arizona at 2.x) have the two cities -- Las Vegas and Phoenix -- with the [highest number of days](https://www.currentresults.com/Weather-Extremes/US/hottest-cities.php) 
 that reach 100&deg;F (Austin, TX is a distant third).   
 
+Some of the states that buck this intuition are souther locations where the weather is warm but consistently so (i.e., summer isn't too much warmer).   
+As discussed above, Florida is an example, as is Hawaii.  
+
+I cannot explain New Jersey. 
+
+![image](/assets/images/post3_winter_map.png)
+
+The winter map is more complicated than the simple inverse of summer.  To a first order, there are higher winter peaks in more northern states as
+some electricity energy is used for winter 
+heating.  
 
 
 The full data set is here.[LINK]
