@@ -129,7 +129,8 @@ while Michigan and New York, despite cold winters, have low shares of electric h
 Thus it is the combination of both climate and residential infrastructure that drive how much electricity consumption peaks in the winter. 
 
 Even beyond primary sources of heating, [Doomberg](https://doomberg.substack.com/p/new-england-is-an-energy-crisis-waiting) and 
-[Meredith Angwin](https://meredithangwin.com/books/) detail how much of an impact even **supplemental heating** via space heaters have in extremely 
-cold conditions.  
+[Meredith Angwin](https://meredithangwin.com/books/) detail how much of an impact even **supplemental heating** via space heaters has in extremely 
+cold conditions, which can destabilize the New England grid despite an modest **average** peak in winter electricity usage. 
+
 
 
