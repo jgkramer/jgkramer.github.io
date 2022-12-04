@@ -12,7 +12,7 @@ individual homeowner data I have collected, as well as state-wide data.
 
 <!--more-->
 
-### Nevada
+## Nevada
 
 The following chart shows Nevada's monthly consumption throughout the year in TeraWatt-hours (1 billion kWh), averaged over the 3 year period 
 Sep. 2019 to Aug. 2022.  This and similar statewide data is derived from data sets on the U.S. Energy Information Agency website breaking down energy 
@@ -42,7 +42,7 @@ August and (2) June being halfway between May and August.
 
 ![Kramer-NV Comparison](/assets/images/post3_Kramer_vs_NV.png)
 
-### Northern Lands
+## Northern Lands
 
 Next up, a colder climate: Connecticut in the U.S. Northeast.  Average July high temperatures in New Haven, Connecticut: 86&deg;F (Las Vegas: 107&deg;F); 
 average January high temperatures: 37&deg;F (Las Vegas: 59&deg;F).  Below is the statewide monthly consumption chart for the state.
@@ -76,7 +76,7 @@ quite prominent (close to 2.0x).  Meanwhile, the winter peak for the all-electri
 than the outside temperature.   The state-wide portfolio, which is a blend of these two categories (but weighted towards the fossil-fuel fired home), 
 thus has a blended seasonality profile as seen above. 
 
-### You Wanted to See Alaska and Florida
+## You Wanted to See Alaska and Florida
 
 Most U.S. states have electricity consumption seasonality akin to Nevada and Connecticut: winter peak from some heating, summer peak from 
 air conditioning, and spring/fall low points where there is little HVAC needed one way or the other.  This is not true for Alaska and Florida: 
@@ -131,6 +131,14 @@ Thus it is the combination of both climate and residential infrastructure that d
 Even beyond primary sources of heating, [Doomberg](https://doomberg.substack.com/p/new-england-is-an-energy-crisis-waiting) and 
 [Meredith Angwin](https://meredithangwin.com/books/) detail how much of an impact even **supplemental heating** via space heaters has in extremely 
 cold conditions, which can destabilize the New England grid despite an modest **average** peak in winter electricity usage. 
+
+## This is Complicated
+
+What started as a simple observation about my home electricity bills during different months revealed an extremely complicated equation across the U.S.  
+Seasonal variation in electricity demand is determined not only by climate, but also by the myriad local infrastructure 
+decisions about how humans heat and cool their homes (which in turn depends on variables like whether residential areas are dense enough
+to merit utility natural gas, or whether heating oil is efficiently deliverable by truck).  Regulations and grid architecture surely play a role as well,
+and this is before even getting into the different characteristics of different flavors of electricity generation. 
 
 
 
