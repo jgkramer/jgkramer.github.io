@@ -113,7 +113,7 @@ and Arizona at 2.47x) have the two cities -- Las Vegas and Phoenix -- with the [
 Some of the states that buck this intuition are souther locations where the weather is warm but consistently so 
 (i.e., summer isn't too much warmer).  Florida (discussed above) is an example of this, as is Hawaii. 
 
-I cannot explain New Jersey having the third-highest relative summer peak, at 2.25x.
+Curiously, New Jersey has the third-highest relative summer peak, at 2.25x.
 
 ![image](/assets/images/post3_winter_map.png)
 
