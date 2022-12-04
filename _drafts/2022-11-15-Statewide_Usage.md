@@ -51,7 +51,7 @@ average January high temperatures: 37&deg;F (Las Vegas: 59&deg;F).  Below is the
 
 Observations: 
 
-* For a slightly larger population than Nevada (3.6 million), the total annual electricity usage is 13.0 TWh / year, for an annual usage per capita of 3600 kWh
+* For a slightly larger population than Nevada (3.6 million), the total annual electricity usage is 13.0 TWh / year, for an annual usage per capita of 3,600 kWh
 * There is an air-conditioning summer peak, but it is much smaller than in Nevada
   - 37% of annual residentual consumption is in the 4 summer months June through September
   - Peak usage month (August) is only **1.49x** the minimum usage month (April)
@@ -106,7 +106,12 @@ generation, while natural gas is often used in "peaker" plants that can by cycle
 
 ![image](/assets/images/post3_summer_map.png)
 
-Starting with the summer analysis, we see the general pattern that southern states with higher 
+Starting with the summer analysis, we see the general pattern that southern states with hotter summers and presumably more air-conditioning usage
+have a higher relative electricity consumtion than northern states with cooler summers.  The states with the highest summer peak values (Nevada and 
+Arizona) have the two cities with the [highest number of days](https://www.currentresults.com/Weather-Extremes/US/hottest-cities.php).that reach 
+100&deg;F (Austin, TX is a distant third).   
+
+
 
 The full data set is here.[LINK]
 
