@@ -91,7 +91,7 @@ Florida is the opposite: it is always hot and humid, and many residents use air 
 with more of it being used in the summer.  So the annual cycle is various degrees of electricity for cooling, peaking in summer.  Summer consumption
 is 1.6x the winter minimum.
 
-## Every State (plotly)
+## Every State
 
 Beyond the individual examples above, the maps below show the height of the summer and winter electricity usage peak month, as a 
 multiple of the consumption in the lowest electricity month, typically a fall or spring month.  Higher numbers (e.g., 2 - 2.5x) evidence greater 
@@ -100,15 +100,15 @@ seasonal variation in electricity usage than lower numbers (e.g., 1.25 - 1.5x).
 While there are other measures of seasonality (e.g., % of total consumption in the summer months), I find the peak-height metric relevant because it
 conveys the full range of power output that the grid must supply.  Electriicty generation plants must provide not merely the total energy consumed in 
 a locale throughout the year, but must instantaneously provide the power demanded at all times -- up to a peak consumption much higher than the average. 
-Coping with this variability is the challenge and miracle of the [grid] (https://bam.kalzumeus.com/archive/markets-in-power/), and different generation 
-sources contribute differentially into this variability of demand.  Nuclear and hydroelectric power, for example, are useful as "always on" base load
+Coping with this variability is the challenge and miracle of the [grid](https://bam.kalzumeus.com/archive/markets-in-power/), and different generation 
+sources contribute differentially into this variability of demand.  Nuclear, hydroelectric and coal, for example, are useful as "always on" base load
 generation, while natural gas is often used in "peaker" plants that can by cycled up and down to deal with fluctuations. 
 
 ![image](/assets/images/post3_summer_map.png)
 
 Starting with the summer analysis, we see the general pattern that southern states with hotter summers and presumably more air-conditioning usage
-have a higher relative electricity consumption than northern states with cooler summers.  The states with the highest summer peak values (Nevada at 2.x 
-and Arizona at 2.x) have the two cities -- Las Vegas and Phoenix -- with the [highest number of days](https://www.currentresults.com/Weather-Extremes/US/hottest-cities.php) that reach 100&deg;F (Austin, TX is a distant third).   
+have a higher relative electricity consumption than northern states with cooler summers.  The states with the highest summer peak values (Nevada at 2.63 
+and Arizona at 2.47) have the two cities -- Las Vegas and Phoenix -- with the [highest number of days](https://www.currentresults.com/Weather-Extremes/US/hottest-cities.php) that reach 100&deg;F (Austin, TX is a distant third).   
 
 Some of the states that buck this intuition are souther locations where the weather is warm but consistently so 
 (i.e., summer isn't too much warmer).  Florida (discussed above) is an example of this, as is Hawaii. 
