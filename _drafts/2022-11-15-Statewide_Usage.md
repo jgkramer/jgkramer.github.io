@@ -95,7 +95,7 @@ is 1.6x the winter minimum.
 
 Beyond the individual examples above, the maps below show the height of the summer and winter electricity usage peak month, as a 
 multiple of the consumption in the lowest electricity month, typically a fall or spring month.  Higher numbers (e.g., 2 - 2.5x) evidence greater 
-seasonal variation in electricity usage than lower numbers (e.g., 1.25 - 1.5x).  
+seasonal variation in electricity usage than lower numbers (e.g., 1.25 - 1.5x).  The full data set that drives the maps is here.[LINK]
 
 While there are other measures of seasonality (e.g., % of total consumption in the summer months), I find the peak-height metric relevant because it
 conveys the full range of power output that the grid must supply.  Electriicty generation plants must provide not merely the total energy consumed in 
@@ -124,13 +124,12 @@ Significant variation is driven by the energy source that different states use i
 to surrounding states Montana, Minnesota and South Dakota.   However, [41%](https://www.eia.gov/state/print.php?sid=ND) of its homes use electric 
 heat in the winter, compared to [27%](https://www.eia.gov/state/print.php?sid=MT), [19%](https://www.eia.gov/state/print.php?sid=MN) and 
 [33%](https://www.eia.gov/state/print.php?sid=SD) for the other three.  The same is true of West Virginia and Virginia, which also have a higher-than 
-avearge fraction of homes with electric heating ([45%](https://www.eia.gov/state/print.php?sid=WV) and [57%](https://www.eia.gov/state/print.php?sid=VA))
-Thus it is the combination of both climate and residential infrastructure that seem to be the primary drivers of how much electricity consumption can
-peak in the winter. 
+avearge fraction of homes with electric heating ([45%](https://www.eia.gov/state/print.php?sid=WV) and [57%](https://www.eia.gov/state/print.php?sid=VA)), 
+while Michigan and New York, despite cold winters, have low shares of electric heating [12%](https://www.eia.gov/state/print.php?sid=MI) and [15%](https://www.eia.gov/state/print.php?sid=NY)
+Thus it is the combination of both climate and residential infrastructure that drive how much electricity consumption peaks in the winter. 
 
 Even beyond primary sources of heating, [Doomberg](https://doomberg.substack.com/p/new-england-is-an-energy-crisis-waiting) and 
 [Meredith Angwin](https://meredithangwin.com/books/) detail how much of an impact even **supplemental heating** via space heaters have in extremely 
 cold conditions.  
 
-The full data set is here.[LINK]
 
