@@ -1,6 +1,6 @@
 ---
 layout: post
-title: North vs. South
+title: North vs. South: Seasonality in Electricity Consumption
 date: "2022-12-10"
 hide: true
 excerpt_separator: <!--more-->
