@@ -107,9 +107,9 @@ generation, while natural gas is often used in "peaker" plants that can by cycle
 ![image](/assets/images/post3_summer_map.png)
 
 Starting with the summer analysis, we see the general pattern that southern states with hotter summers and presumably more air-conditioning usage
-have a higher relative electricity consumtion than northern states with cooler summers.  The states with the highest summer peak values (Nevada and 
-Arizona) have the two cities with the [highest number of days](https://www.currentresults.com/Weather-Extremes/US/hottest-cities.php).that reach 
-100&deg;F (Austin, TX is a distant third).   
+have a higher relative electricity consumtion than northern states with cooler summers.  The states with the highest summer peak values (Nevada at 2.x 
+and Arizona at 2.x) have the two cities -- Las Vegas and Phoenix -- with the [highest number of days](https://www.currentresults.com/Weather-Extremes/US/hottest-cities.php) 
+that reach 100&deg;F (Austin, TX is a distant third).   
 
 
 
