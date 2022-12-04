@@ -147,5 +147,9 @@ even getting into the different characteristics of different flavors of electric
 
 And if anyone can explain New Jersey, please reach out to me. 
 
+## Code and Coda
 
-
+The [coding](www.github.com/jgkramer/hummingbird) for this post was fun, and I focused particularly on modularizing the reading of 
+utility-provided CSV files with home usage of various cadence (all the way from 15-minute granularity to monthly usage data).  I welcome a discussion 
+with any readers who care to share data and draw lessons from it, especially commercial / industrial customers with energy as a significant input to 
+operations, and who face a more complicated set of decisions (including demand-spike based pricing). 
