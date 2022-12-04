@@ -107,19 +107,25 @@ generation, while natural gas is often used in "peaker" plants that can by cycle
 ![image](/assets/images/post3_summer_map.png)
 
 Starting with the summer analysis, we see the general pattern that southern states with hotter summers and presumably more air-conditioning usage
-have a higher relative electricity consumption than northern states with cooler summers.  The states with the highest summer peak values (Nevada at 2.63 
-and Arizona at 2.47) have the two cities -- Las Vegas and Phoenix -- with the [highest number of days](https://www.currentresults.com/Weather-Extremes/US/hottest-cities.php) that reach 100&deg;F (Austin, TX is a distant third).   
+have a higher relative electricity consumption than northern states with cooler summers.  The states with the highest summer peak values (Nevada at 2.63x 
+and Arizona at 2.47x) have the two cities -- Las Vegas and Phoenix -- with the [highest number of days](https://www.currentresults.com/Weather-Extremes/US/hottest-cities.php) that reach 100&deg;F (Austin, TX is a distant third).   
 
 Some of the states that buck this intuition are souther locations where the weather is warm but consistently so 
 (i.e., summer isn't too much warmer).  Florida (discussed above) is an example of this, as is Hawaii. 
 
-I cannot explain New Jersey. 
+I cannot explain New Jersey having the third-highest relative summer peak, at 2.25x.
 
 ![image](/assets/images/post3_winter_map.png)
 
-The winter map is more complicated than the simple inverse of summer.  To a first order, there are higher winter peaks in more northern states as
-some electricity energy is used for winter 
-heating.  
+The winter map is more complicated than the simple inverse of summer.  Generally, there are higher winter peaks in northern states with 
+colder climates as more energy is used for winter heating.  However, climate is not only the explanatory variable. 
+
+Significant variation is driven by the energy source that different states use in residential heating.  North Dakota, for example, has a similar climate 
+to surrounding states Montana, Minnesota and South Dakota.   However, [41%](https://www.eia.gov/state/print.php?sid=ND) of its homes use electric 
+heat in the winter, compared to [27%](https://www.eia.gov/state/print.php?sid=MT), [19%](https://www.eia.gov/state/print.php?sid=MN) and 
+[33%](https://www.eia.gov/state/print.php?sid=SD) for the other three.  The same is true of West Virginia and Virginia, which also have a higher-than 
+avearge fraction of homes with electric heating ([45%](https://www.eia.gov/state/print.php?sid=WV) and [57%](https://www.eia.gov/state/print.php?sid=VA))
+Thus it is the combination of both climate and residential infrastructure that seem to be the primary drivers of how big a demand 
 
 
 The full data set is here.[LINK]
