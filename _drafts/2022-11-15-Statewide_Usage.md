@@ -58,7 +58,7 @@ Observations:
 * There is a second peak in the winter, corresponding to the heating season
   - The peak is smaller than the summer peak but larger than Nevada's winter peak: Connecticut January usage is **1.31x** April's minimum.  
   - Both the smaller size of the winter peak, as well as the overall lower per capita electricity consumption compared to Nevada, are likely driven by the fact that the winter portion of New England heating and cooling is mostly fueled by fossil fuels (80% between heating oil, natural gas and propane) rather than electricity. 
-  - That there remains **some** winter peak derives from the ~16% of home heating that is electric powered.[^2]
+  - That there remains **some** winter peak derives from the fraction of home heating (16% in New England) that is electric powered.[^2]
 
 ![image](/assets/images/post3_new_england_households_heating_by_fuel_2021_0.png)
 
@@ -125,8 +125,12 @@ to surrounding states Montana, Minnesota and South Dakota.   However, [41%](http
 heat in the winter, compared to [27%](https://www.eia.gov/state/print.php?sid=MT), [19%](https://www.eia.gov/state/print.php?sid=MN) and 
 [33%](https://www.eia.gov/state/print.php?sid=SD) for the other three.  The same is true of West Virginia and Virginia, which also have a higher-than 
 avearge fraction of homes with electric heating ([45%](https://www.eia.gov/state/print.php?sid=WV) and [57%](https://www.eia.gov/state/print.php?sid=VA))
-Thus it is the combination of both climate and residential infrastructure that seem to be the primary drivers of how big a demand 
+Thus it is the combination of both climate and residential infrastructure that seem to be the primary drivers of how much electricity consumption can
+peak in the winter. 
 
+Even beyond primary sources of heating, [Doomberg](https://doomberg.substack.com/p/new-england-is-an-energy-crisis-waiting) and 
+[Meredith Angwin](https://meredithangwin.com/books/) detail how much of an impact even **supplemental heating** via space heaters have in extremely 
+cold conditions.  
 
 The full data set is here.[LINK]
 
