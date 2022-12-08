@@ -100,7 +100,7 @@ is 1.6x the winter minimum.
 
 Beyond the individual examples above, the maps below show the height of the summer and winter electricity usage peak month, as a 
 multiple of the consumption in the lowest electricity month, typically a fall or spring month.  Higher numbers (e.g., 2 - 2.5x) evidence greater 
-seasonal variation in electricity usage than lower numbers (e.g., 1.25 - 1.5x).  The full data set that drives the maps is [here](/assets/csv/post3_map_csv.csv).
+seasonal variation in electricity usage than lower numbers (e.g., 1.25 - 1.5x).  The full data set that drives the maps is ![here](/assets/csv/post3_map_csv.csv).
 
 While there are other measures of seasonality (e.g., % of total consumption in the summer months), I find the peak-height metric relevant because it
 conveys the full range of power output that the grid must supply.  Electriicty generation plants must provide not merely the total energy consumed in 
