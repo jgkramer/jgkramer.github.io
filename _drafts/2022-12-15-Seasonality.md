@@ -1,7 +1,7 @@
 ---
 layout: post
 title: North vs. South: Seasonality in Electricity Consumption
-date: "2022-12-10"
+date: "2022-12-15"
 hide: true
 excerpt_separator: <!--more-->
 ---
@@ -72,7 +72,7 @@ Observations:
 The impact of "what energy source fuels heating" is illustrated by comparing the seasonal profile of two houses in Connecticut: 
 (1) one with an all-electric HVAC system (heat pump for both heating and cooling), and (2) another with heat provided by utility natural-gas furnaces.
 
-![image](/assets/images/post3_CT_line.png)
+![image](/assets/images/post3_CT_individual_line.png)
 
 Notice that for the house with gas-fueled winter heat, the winter electricity peak is small (1.25x the minimum month) while the summer peak is 
 quite prominent (close to 2.0x).  Meanwhile, the winter peak for the all-electric HVAC house is larger (2.3x minimum) than the summer A/C peak 
