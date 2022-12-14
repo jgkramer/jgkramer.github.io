@@ -70,8 +70,7 @@ Observations:
 [^2]: The graphic above, and New England stats for 2021, are courtesy the Massachusetts state [website](https://www.mass.gov/service-details/how-massachusetts-households-heat-their-homes) (downloaded 26-Nov-22).
 
 The impact of "what energy source fuels heating" is illustrated by comparing the seasonal profile of two houses in Connecticut: 
-(1) one with an all-electric HVAC system (heat pump for both heating and cooling), and (2) another with heat provided by utility natural-gas furnaces.  
-**[NOTE UPDATE AFTER NOVEMBER 14WP BILL COMES OUT].**
+(1) one with an all-electric HVAC system (heat pump for both heating and cooling), and (2) another with heat provided by utility natural-gas furnaces.
 
 ![image](/assets/images/post3_CT_line.png)
 
