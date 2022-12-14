@@ -137,8 +137,8 @@ in winter electricity usage.
 
 ## This is Complicated
 
-What started as a simple observation about my home electricity bills during different months revealed an extremely complicated equation.  
-Seasonal variation in electricity demand is determined not only by climate, but also by the myriad local infrastructure  decisions about how humans 
+What started as a simple observation about my home electricity bills during different months revealed an extremely complicated equation.  Seasonal 
+variation in electricity demand is determined not only by climate, but also by the myriad local infrastructure  decisions about how humans 
 heat and cool their homes (which in turn depends on variables like whether residential areas are dense enough to merit utility natural gas, 
 or whether heating oil is efficiently deliverable by truck).  Regulations and grid architecture surely play a role as well, and this is before 
 even getting into the different characteristics of different flavors of electricity generation. 
