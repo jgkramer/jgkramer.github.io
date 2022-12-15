@@ -45,8 +45,8 @@ year very closely matches the profile of aggregate month-to-month residential us
 
 ## Northern Lands
 
-Next up, a colder climate: Connecticut in the U.S. Northeast.  Average July high temperatures in New Haven, CT: 86&deg;F (Las Vegas: 107&deg;F); 
-average January high temperatures: 37&deg;F (Las Vegas: 59&deg;F).  Below is the statewide monthly consumption chart for the state.
+Next up, a colder climate: Connecticut in the U.S. Northeast.  Average January / July high temperatures in New Haven, CT: 37&deg;F / 86&deg;F
+(Las Vegas: 59&deg;F / 107&deg;F).  Below is the statewide monthly consumption chart for the state.
 
 ![CT Statewide Usage](/assets/images/post3_CT_statewide.png)
 
