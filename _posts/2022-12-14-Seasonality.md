@@ -63,7 +63,8 @@ Observations:
   - Both the smaller size of the winter peak, as well as the overall lower per capita electricity consumption compared to Nevada, are likely driven by the fact that the winter part of New England heating and cooling is mostly powered by fossil fuels (80% between heating oil, natural gas and propane) rather than electricity. 
   - That there remains **some** winter peak derives from the fraction of home heating (16% in New England) that is electric powered.[^2]
 
-![image](/assets/images/post3_new_england_households_heating_by_fuel_2021_0.png)
+![image](/assets/images/post3_new_england_households_heating_by_fuel_2021_0.png) 
+<figcaption align = "center"><b>Fig.1 - 4K Mountains Wallpaper</b></figcaption>
 
 [^2]: The graphic above, and New England stats for 2021, are courtesy the Massachusetts state [website](https://www.mass.gov/service-details/how-massachusetts-households-heat-their-homes) (downloaded 26-Nov-22).
 
@@ -100,7 +101,7 @@ multiple of the consumption in the lowest electricity month, typically a fall or
 seasonal variation in electricity usage than lower numbers (e.g., 1.25 - 1.5x).  The full data set that drives the maps is [here](/assets/csv/post3_map.csv).
 
 While there are other measures of seasonality (e.g., % of total consumption in the summer months), I find the peak-height metric relevant because it
-conveys the full range of power output that the grid must supply.  Electriicty generation plants must provide not merely the total energy consumed in 
+conveys the full range of power output that the grid must supply.  Electricity generation plants must provide not merely the total energy consumed in 
 a locale throughout the year, but must instantaneously provide the power demanded at all times -- up to a peak consumption much higher than the average. 
 Coping with this variability is the challenge and miracle of the [grid](https://bam.kalzumeus.com/archive/markets-in-power/), and different generation 
 sources contribute differentially into this variability of demand.  Nuclear, hydroelectric and coal, for example, are useful as "always on" base load
