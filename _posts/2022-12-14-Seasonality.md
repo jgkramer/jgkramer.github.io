@@ -45,7 +45,7 @@ The graph below show the fraction of annual consumption in each calendar quarter
 
 ![Kramer-NV Comparison](/assets/images/post3_Kramer_vs_NV.png)
 
-## Northern Lands: Both Heating and Cooling
+## Northern Lands: Both Cooling and (Partial) Heating
 
 Next up, a colder climate: Connecticut in the U.S. Northeast.  Average January / July high temperatures in New Haven, CT: 37&deg;F / 86&deg;F
 (Las Vegas: 59&deg;F / 107&deg;F).  Below is the statewide monthly consumption chart for the state.
