@@ -26,15 +26,15 @@ Several observations:
   - My family-of-four total of 30,000 kWh for a year was 6.6x the per capita usage, not surprising for a larger-than-average single-family suburban home
 * Heavy seasonality of residential usage
   - Minimum consumption is in the late fall / early spring, when outdoor temperatures are closest to indoor comfort levels, minimizing HVAC energy use
-* There is a very prominent summer peak: 
+* A very prominent summer peak: 
   - Of the 14.1 TWh annual usage, **49.8%** occurs during the four months June through September
   - Peak usage month (July) is 2.63x the minimum month (November)
-* There is a small winter peak, perhaps driven by a combination of heating and more lighting / appliance usage with shorter daylight hours
+* A small winter peak, perhaps driven by a combination of heating and more lighting / appliance usage with shorter daylight hours
   - Peak winter usage month (December) is 1.24x the minimum usage month
 
-Note that the TOTAL state electricity consumption has less seasonality than the residential sector: the summer peak is 1.8x the minimum usage month, 
-and the winter peak is 1.1x.  Highly variable climate control electricity consumption is presumably lower for the commercial and industrial sectors 
-than for residences.
+Note that the **total** state electricity consumption has less seasonality than the residential sector: the summer peak is 1.8x the minimum usage month, 
+and the winter peak is 1.1x.  Highly variable climate control is presumably a lower proportion of commercial and industrial electricity usage than for
+residences.
 
 I then compare statewide usage to my own, showing the fraction of annual consumption in each calendar.  The individual usage throughout the 
 year very closely matches the profile of aggregate month-to-month residential use (commercial and industrial use is visibly less seasonal).[^1] 
