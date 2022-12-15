@@ -15,7 +15,7 @@ This post explores the seasonality of electricity usage, using both state-wide d
 Let's dig in to the details.
 <!--more-->
 
-## Nevada: Lots of Cooling
+## Nevada: Double Peak, but with Emphasis on Summer Cooling
 
 The following chart shows Nevada's monthly consumption throughout the year in TeraWatt-hours (1 billion kWh), averaged over the 3 year period 
 Sep. 2019 to Aug. 2022.  My source is the U.S. Energy Information Agency, which provides excellent data sets breaking down energy consumption by 
@@ -45,7 +45,7 @@ The graph below show the fraction of annual consumption in each calendar quarter
 
 ![Kramer-NV Comparison](/assets/images/post3_Kramer_vs_NV.png)
 
-## Northern Lands: Both Cooling and (Partial) Heating
+## Northern Lands: Both Cooling and Heating Peak
 
 Next up, a colder climate: Connecticut in the U.S. Northeast.  Average January / July high temperatures in New Haven, CT: 37&deg;F / 86&deg;F
 (Las Vegas: 59&deg;F / 107&deg;F).  Below is the statewide monthly consumption chart for the state.
