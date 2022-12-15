@@ -87,9 +87,9 @@ spring/fall troughs where there is little HVAC needed one way or the other.  Thi
 
 ![image](/assets/images/post3_FLandAK_line.png)
 
-Much of Alaska is always colder than indoor comfortable temperatures: summer high temperatures in Anchorage are just above 60&deg;F.  
-So the annual cycle ranges from "heavy electricity consumption for heating in winter" to "moderate electricity consumption for heating in summer", 
-with no summer peak at all.  The winter peak is 1.6x the summer trough. 
+Much of Alaska is always colder than indoor comfortable temperatures: summer high temperatures in Anchorage are just above 60&deg;F.  So the annual 
+cycle ranges from "heavy electricity consumption for heating in winter" to "moderate electricity consumption for heating in summer", with no summer peak
+at all.  The winter peak is 1.6x the summer trough. 
 
 Florida is the opposite: it is always hot and humid, and many residents use air conditioning all year round (with occasional winter heating), 
 with more of it being used in the summer.  So the annual cycle is various degrees of electricity for cooling, peaking in summer.  Summer consumption
@@ -123,9 +123,9 @@ colder climates as more energy is used for winter heating.  However, climate is 
 
 As discussed above, winter heating fuel source also drives variation.  North Dakota, for example, has a similar climate to surrounding states Montana,
 Minnesota and South Dakota.   However, [41%](https://www.eia.gov/state/print.php?sid=ND) of its homes use electric heat in the winter, compared to 
-[27%](https://www.eia.gov/state/print.php?sid=MT), [19%](https://www.eia.gov/state/print.php?sid=MN) and [33%](https://www.eia.gov/state/print.php?sid=SD) for the other three.  The same is true of West Virginia and Virginia, which also have a higher-than 
+[27%](https://www.eia.gov/state/print.php?sid=MT), [19%](https://www.eia.gov/state/print.php?sid=MN) and [33%](https://www.eia.gov/state/print.php?sid=SD) for the other three, likely explaining its stand-out dark blue color (2.0x vs the others between 1.4 and 1.7x).  The same is true of West Virginia and Virginia, which also have a higher-than 
 avearge fraction of homes with electric heating ([45%](https://www.eia.gov/state/print.php?sid=WV) and [57%](https://www.eia.gov/state/print.php?sid=VA)), 
-while Michigan and New York, despite cold winters, have low shares of electric heating [12%](https://www.eia.gov/state/print.php?sid=MI) and [15%](https://www.eia.gov/state/print.php?sid=NY)
+while Michigan and New York, despite cold winters, have low shares of electric heating ([12%](https://www.eia.gov/state/print.php?sid=MI) and [15%](https://www.eia.gov/state/print.php?sid=NY)).
 Thus it is the combination of both climate and residential infrastructure that drive how much electricity consumption peaks in the winter. 
 
 This is not the full story: even beyond primary sources of heating, [Doomberg](https://doomberg.substack.com/p/new-england-is-an-energy-crisis-waiting) 
