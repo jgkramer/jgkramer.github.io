@@ -15,7 +15,7 @@ This post explores the seasonality of electricity usage, using both state-wide d
 Let's dig in to the details.
 <!--more-->
 
-## Nevada: Double Peak, but with Emphasis on Summer Cooling
+## Nevada: Double Peak, Emphasis on Summer Cooling
 
 The following chart shows Nevada's monthly consumption throughout the year in TeraWatt-hours (1 billion kWh), averaged over the 3 year period 
 Sep. 2019 to Aug. 2022.  My source is the U.S. Energy Information Agency, which provides excellent data sets breaking down energy consumption by 
