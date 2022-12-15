@@ -61,7 +61,7 @@ Observations:
   - 37% of annual residentual consumption is in the 4 summer months June through September
   - Peak usage month (August) is only **1.49x** the minimum (April)
 * There is a second peak in the winter, corresponding to heating season
-  - The peak is smaller than the summer peak but larger than Nevada's winter peak: Connecticut January usage is **1.31x** April's minimum.  
+  - The peak is larger than Nevada's winter peak (it's colder), but still smaller than summer: Connecticut January usage is **1.31x** April's minimum.  
   - Like the overall lower electricity consumption, this is likely driven by the fact that the winter part of New England heating and cooling is mostly powered by fossil fuels (80% between heating oil, natural gas and propane) rather than electricity. 
   - That there remains **some** winter peak derives from the fraction of home heating (16% in New England) that is electric powered.[^2]
 
