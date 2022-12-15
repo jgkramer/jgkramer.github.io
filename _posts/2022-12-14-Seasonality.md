@@ -54,7 +54,7 @@ Next up, a colder climate: Connecticut in the U.S. Northeast.  Average January /
 
 Observations: 
 
-* Annual electricity consumption per capita is ~3,600 kWh (13.0 TWh / 3.6mm people).   
+* Annual electricity consumption per capita is ~3,600 kWh (13.0 TWh / 3.6mm people), $864 average per person at the 2H 2022 cost of $0.24 / kWh. 
   - The lower overall consumption in electric energy than Nevada may reflect that winter heating is a more important part of the energy picture in the Northeast than in hot Las Vegas, and heating energy is often supplied by fossil fuels (natural gas / oil) as opposed to electricity.   
 * Minimum consumption once again is in spring / fall
 * There is an air-conditioning summer peak, but it is much smaller than in Nevada
