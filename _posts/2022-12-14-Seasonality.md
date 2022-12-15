@@ -21,23 +21,22 @@ Sep. 2019 to Aug. 2022.  My source is the U.S. Energy Information Agency, which 
 
 Several observations: 
 
-* Residential total use of 14.1 TWh (14.1 billion kWh) per year for 3.1 million Nevada residents    
-  - Average of 4,500 kWh per year per Nevada resident.  
-  - My family-of-four total of 30,000 kWh for a year was 6.6x the per capita usage, not surprising for a larger-than-average single-family suburban home
-* Heavy seasonality of residential usage
-  - Minimum consumption is in the late fall / early spring, when outdoor temperatures are closest to indoor comfort levels, minimizing HVAC energy use
-* A very prominent summer peak: 
-  - Of the 14.1 TWh annual usage, **49.8%** occurs during the four months June through September
-  - Peak usage month (July) is 2.63x the minimum month (November)
-* A small winter peak, perhaps driven by a combination of heating and more lighting / appliance usage with shorter daylight hours
-  - Peak winter usage month (December) is 1.24x the minimum usage month
+* Average electrcity consumption of 4,500 kWh per year (14.1 TWh / 3.1mm residents), which at a current fixed rate of 12.5 cents / kWh, equates to an average annual cost per person of $562.50
+* Intuitively, there is heavy seasonality of electricity usage in Nevada
+  - Minimum consumption in the late fall / early spring, when outdoor 
+* Also intuitively, there is a very prominent "air conditioning" peak in the summer
+  - 49.8% of the state's total electricity consumption occurs in 1/3 of the year (June, July, August, September)
+  - Peak usage month (July) is **2.63x** the minimum month (November)
+* A bit surprising was that there is a clear winter peak, with December usage at 1.24x the minimum
+  - Heating may play some role -- although many residences use gas furnaces for heating, some portion are heated by electricity 
+  - In addition, there may be more lighting / appliance usage with shorter daylight hours
 
-Note that the **total** state electricity consumption has less seasonality than the residential sector: the summer peak is 1.8x the minimum usage month, 
-and the winter peak is 1.1x.  Highly variable climate control is presumably a lower proportion of commercial and industrial electricity usage than for
-residences.
+Note that the **total** state electricity consumption has less seasonal variation than the residential sector alone.  Highly variable climate control 
+is presumably a lower proportion of commercial and industrial electricity usage than for residences.
 
-I then compare statewide seasonality to my own, below showing the fraction of annual consumption in each calendar.  The individual usage throughout the 
-year very closely matches the profile of aggregate month-to-month residential use.[^1] 
+One confirmatory question I had was whether my own electricity consumption throughout the year was typical.  The graph below show the fraction of annual 
+consumption in each calendar quarter.  The individual usage throughout the year very closely matches the profile of aggregate month-to-month 
+residential use.[^1] 
 
 [^1]: In the dark blue series, the artificially-low consumption in June-July due to travel has been replaced by (1) July being assumed to be the same as August and (2) June being halfway between May and August. 
 
