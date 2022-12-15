@@ -64,7 +64,6 @@ Observations:
   - That there remains **some** winter peak derives from the fraction of home heating (16% in New England) that is electric powered.[^2]
 
 ![image](/assets/images/post3_new_england_households_heating_by_fuel_2021_0.png) 
-<figcaption align = "center"><b>Fig.1 - 4K Mountains Wallpaper</b></figcaption>
 
 [^2]: The graphic above, and New England stats for 2021, are courtesy the Massachusetts state [website](https://www.mass.gov/service-details/how-massachusetts-households-heat-their-homes) (downloaded 26-Nov-22).
 
