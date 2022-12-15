@@ -54,15 +54,15 @@ Next up, a colder climate: Connecticut in the U.S. Northeast.  Average January /
 
 Observations: 
 
-* For a slightly larger population than Nevada (3.6 million), the total annual electricity usage is 13.0 TWh / year
-  - Annual consumption per capita: 3,600 kWh
+* Annual electricity consumption per capita is ~3,600 kWh (13.0 TWh / 3.6mm people).   
+  - The lower overall consumption in electric energy than Nevada may reflect that winter heating is a more important part of the energy picture in the Northeast than in hot Las Vegas, and heating energy is often supplied by fossil fuels (natural gas / oil) as opposed to electricity.   
 * Minimum consumption once again is in spring / fall
 * There is an air-conditioning summer peak, but it is much smaller than in Nevada
   - 37% of annual residentual consumption is in the 4 summer months June through September
   - Peak usage month (August) is only **1.49x** the minimum (April)
 * There is a second peak in the winter, corresponding to heating season
   - The peak is smaller than the summer peak but larger than Nevada's winter peak: Connecticut January usage is **1.31x** April's minimum.  
-  - Both the smaller size of the winter peak, as well as the overall lower per capita electricity consumption compared to Nevada, are likely driven by the fact that the winter part of New England heating and cooling is mostly powered by fossil fuels (80% between heating oil, natural gas and propane) rather than electricity. 
+  - Like the overall lower electricity consumption, this is likely driven by the fact that the winter part of New England heating and cooling is mostly powered by fossil fuels (80% between heating oil, natural gas and propane) rather than electricity. 
   - That there remains **some** winter peak derives from the fraction of home heating (16% in New England) that is electric powered.[^2]
 
 ![image](/assets/images/post3_new_england_households_heating_by_fuel_2021_0.png) 
