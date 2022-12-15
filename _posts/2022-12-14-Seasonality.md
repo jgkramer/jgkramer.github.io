@@ -11,7 +11,7 @@ wide in Nevada).  I then explore how seasonality varies from one place to anothe
 homeowner data, as well as state-wide data.  
 <!--more-->
 
-## Nevada
+## Nevada: Lots of Cooling and Some Heating
 
 The following chart shows Nevada's monthly consumption throughout the year in TeraWatt-hours (1 billion kWh), averaged over the 3 year period 
 Sep. 2019 to Aug. 2022.  My source is the U.S. Energy Information Agency, which provides excellent data sets breaking down energy consumption by 
@@ -42,7 +42,7 @@ residential use.[^1]
 
 ![Kramer-NV Comparison](/assets/images/post3_Kramer_vs_NV.png)
 
-## Northern Lands
+## Northern Lands: Both Heating and Cooling
 
 Next up, a colder climate: Connecticut in the U.S. Northeast.  Average January / July high temperatures in New Haven, CT: 37&deg;F / 86&deg;F
 (Las Vegas: 59&deg;F / 107&deg;F).  Below is the statewide monthly consumption chart for the state.
@@ -77,7 +77,7 @@ quite prominent (close to 2.0x).  Meanwhile, the winter peak for the all-electri
 than the outside temperature.  The state-wide portfolio, which is a blend of these two categories (but weighted towards fossil fuels), thus has a 
 blended seasonality profile as seen above. 
 
-## You Wanted to See Alaska and Florida
+## Extreme Cases: Only Heating OR Cooling in Alaska / Florida
 
 Most U.S. states consume electricity with seasonality akin to Nevada and Connecticut: winter (partial) heating peak, summer air conditioning peak, and 
 spring/fall troughs where there is little HVAC needed one way or the other.  This is not true for Alaska and Florida: 
@@ -92,7 +92,7 @@ Florida is the opposite: it is always hot and humid, and many residents use air 
 with more of it being used in the summer.  So the annual cycle is various degrees of electricity for cooling, peaking in summer.  Summer consumption
 is 1.6x the winter minimum.
 
-## Every State
+## A Full-U.S. Look at Seasonality
 
 Beyond the individual examples above, the maps below show the height of the summer and winter electricity usage peak month, as a 
 multiple of the consumption in the lowest electricity month, typically a fall or spring month.  Higher numbers (e.g., 2 - 2.5x) evidence greater 
