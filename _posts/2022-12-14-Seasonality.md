@@ -114,8 +114,7 @@ Starting with the summer analysis, we see the general pattern that southern stat
 have a higher relative electricity consumption than northern states with cooler summers.  The states with the highest summer peak values 
 (Nevada at 2.63x and Arizona at 2.47x) have the two cities -- Las Vegas and Phoenix -- with the [highest number of days](https://www.currentresults.com/Weather-Extremes/US/hottest-cities.php) that reach 100&deg;F (Austin, TX is a distant third).   
 
-Some of the states that buck this intuition are souther locations where the weather is warm but consistently so (i.e., summer isn't too much warmer).  
-Florida (discussed above) is an example of this, as is Hawaii.  Curiously, New Jersey has the third-highest relative summer peak, at 2.25x.
+Some of the states that buck this intuition are souther locations where the weather is warm but consistently so (i.e., summer isn't too much warmer).  Florida (discussed above) is an example of this, as is Hawaii.  Curiously, New Jersey has the third-highest relative summer peak, at 2.25x.
 
 The winter map below is more complicated than the simple inverse of summer.  Generally, there are higher winter peaks in northern states with 
 colder climates as more energy is used for winter heating.  However, climate is not only the explanatory variable. 
