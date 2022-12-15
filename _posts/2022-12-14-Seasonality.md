@@ -135,21 +135,24 @@ and [Meredith Angwin](https://meredithangwin.com/books/) detail how much of an i
 cold conditions, which can destabilize the New England grid despite a relatively low proportion of electric heated homes and a modest **average** peak 
 in winter electricity usage. 
 
-## This is Complicated
+## A Complicated Reality (and Electricity vs. Energy)
 
-What started as a simple observation about my home electricity bills during different months revealed an extremely complicated equation.  Seasonal 
-variation in electricity demand is determined not only by climate, but also by the myriad local infrastructure  decisions about how humans 
-heat and cool their homes (which in turn depends on variables like whether residential areas are dense enough to merit utility natural gas, 
-or whether heating oil is efficiently deliverable by truck).  Regulations and grid architecture surely play a role as well, and this is before 
-even getting into the different characteristics of different flavors of electricity generation. 
+This blog started with a simple comparison of my electricity usage throughout the year, and revealed a complicated reality.  Seasonal variation in 
+electricity demand is determined in part by climate.   But because electricity is only a part of total energy consumption, electricity demand patterns
+are determined also by local infrastructure decisions about how humans heat and cool their homes.   This in turn depends on other variables like
+whether residential areas are dense enough to merit utility natural gas, or whether heating oil is efficiently deliverale by truck.  Regulations and 
+grid architecture surely play a role as well, and this is before even getting into the different characteristics of different flavors of 
+electricity generation. 
 
 And if anyone can explain New Jersey, please reach out to me. 
 
 ## Code and Coda
 
 The [coding](www.github.com/jgkramer/hummingbird) for this post was fun, and I focused particularly on modularizing the reading of 
-utility-provided CSV files with home usage of various cadence (all the way from 15-minute granularity to monthly usage data).  I welcome a discussion 
-with any readers who care to share data and draw lessons from it, especially commercial / industrial customers with energy as a significant input to 
-operations, and who face a more complicated set of decisions (including demand-spike based pricing). 
+utility-provided CSV files with home usage of various cadence (all the way from 15-minute granularity to monthly usage data).  I was pleasantly 
+surprised by the choropleth map functionality available in [plotly](https://plotly.com/python/choropleth-maps/), which was almost plug-and-play for me.
+
+I welcome a discussion with any readers who care to share data and draw lessons from it, especially commercial / industrial customers with energy as 
+a significant input to operations, and who face a more complicated set of decisions (including demand-spike based pricing). 
 
 ___
