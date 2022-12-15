@@ -144,8 +144,6 @@ whether residential areas are dense enough to merit utility natural gas, or whet
 grid architecture surely play a role as well, and this is before even getting into the different characteristics of different flavors of 
 electricity generation. 
 
-And if anyone can explain New Jersey, please reach out to me. 
-
 ## Code and Coda
 
 The [coding](www.github.com/jgkramer/hummingbird) for this post was fun, and I focused particularly on modularizing the reading of 
@@ -155,4 +153,5 @@ surprised by the choropleth map functionality available in [plotly](https://plot
 I welcome a discussion with any readers who care to share data and draw lessons from it, especially commercial / industrial customers with energy as 
 a significant input to operations, and who face a more complicated set of decisions (including demand-spike based pricing). 
 
+And if anyone can explain New Jersey, please reach out to me. 
 ___
