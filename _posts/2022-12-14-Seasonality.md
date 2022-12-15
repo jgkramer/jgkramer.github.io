@@ -6,10 +6,9 @@ hide: true
 excerpt_separator: <!--more-->
 ---
 
-This post explores the seasonality of electricity usage at both the individual level (my own) and how it scales to the  macro level (e.g., state-wide 
-in Nevada).  I then explore how seasonality varies from one place to another across the country, making use of both anecdotal individual homeowner data, 
-as well as state-wide data.  
-
+This post explores the seasonality of electricity usage at both the individual level (e.g., my own) and how it scales to the  macro level (e.g., state-
+wide in Nevada).  I then explore how seasonality varies from one place to another across the country, making use of both anecdotal individual 
+homeowner data, as well as state-wide data.  
 <!--more-->
 
 ## Nevada
