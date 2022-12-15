@@ -36,8 +36,8 @@ Note that the **total** state electricity consumption has less seasonality than 
 and the winter peak is 1.1x.  Highly variable climate control is presumably a lower proportion of commercial and industrial electricity usage than for
 residences.
 
-I then compare statewide usage to my own, showing the fraction of annual consumption in each calendar.  The individual usage throughout the 
-year very closely matches the profile of aggregate month-to-month residential use (commercial and industrial use is visibly less seasonal).[^1] 
+I then compare statewide seasonality to my own, below showing the fraction of annual consumption in each calendar.  The individual usage throughout the 
+year very closely matches the profile of aggregate month-to-month residential use.[^1] 
 
 [^1]: In the dark blue series, the artificially-low consumption in June-July due to travel has been replaced by (1) July being assumed to be the same as August and (2) June being halfway between May and August. 
 
