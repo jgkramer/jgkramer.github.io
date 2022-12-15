@@ -125,7 +125,7 @@ As discussed above, winter heating fuel source also drives variation.  North Dak
 Minnesota and South Dakota.   However, [41%](https://www.eia.gov/state/print.php?sid=ND) of its homes use electric heat in the winter, compared to 
 [27%](https://www.eia.gov/state/print.php?sid=MT), [19%](https://www.eia.gov/state/print.php?sid=MN) and [33%](https://www.eia.gov/state/print.php?sid=SD) for the other three, likely explaining its stand-out dark blue color (2.0x vs the others between 1.4 and 1.7x).  The same is true of West Virginia and Virginia, which also have a higher-than 
 avearge fraction of homes with electric heating ([45%](https://www.eia.gov/state/print.php?sid=WV) and [57%](https://www.eia.gov/state/print.php?sid=VA)), 
-while Michigan and New York, despite cold winters, have low shares of electric heating ([12%](https://www.eia.gov/state/print.php?sid=MI) and [15%](https://www.eia.gov/state/print.php?sid=NY)).
+while Michigan and New York, despite cold winters, have low shares of electric heating ([12%](https://www.eia.gov/state/print.php?sid=MI) and [15%](https://www.eia.gov/state/print.php?sid=NY)), and thus appear in ligher blue shades than their neighbors.  
 Thus it is the combination of both climate and residential infrastructure that drive how much electricity consumption peaks in the winter. 
 
 This is not the full story: even beyond primary sources of heating, [Doomberg](https://doomberg.substack.com/p/new-england-is-an-energy-crisis-waiting) 
