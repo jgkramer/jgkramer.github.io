@@ -80,7 +80,7 @@ quite prominent (close to 2.0x).  Meanwhile, the winter peak for the all-electri
 than the outside temperature.  The state-wide portfolio, which is a blend of these two categories (but weighted towards fossil fuels), thus has a 
 blended seasonality profile as seen above. 
 
-## Extreme Cases: Only Heating OR Cooling in Alaska / Florida
+## Exceptions in the Extreme: Alaska and Florida
 
 Most U.S. states consume electricity with seasonality akin to Nevada and Connecticut: winter (partial) heating peak, summer air conditioning peak, and 
 spring/fall troughs where there is little HVAC needed one way or the other.  This is not true for Alaska and Florida: 
