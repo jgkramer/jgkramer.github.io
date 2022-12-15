@@ -67,16 +67,16 @@ Observations:
 
 [^2]: The graphic above, and New England stats for 2021, are courtesy the Massachusetts state [website](https://www.mass.gov/service-details/how-massachusetts-households-heat-their-homes) (downloaded 26-Nov-22).
 
-The impact of "what energy source fuels heating" is illustrated by comparing the seasonal profile of two houses in Connecticut: 
-(1) one with an all-electric HVAC system (heat pump for both heating and cooling), and (2) another with heat provided by utility natural-gas furnaces.
+The impact of heating energy source is illustrated by comparing the seasonal profile of two houses in Connecticut:  (1) one with an all-electric HVAC 
+system (heat pump for both heating and cooling), and (2) another with heat provided by utility natural-gas furnaces.
 
 ![image](/assets/images/post3_CT_individual_line.png)
 
 Notice that for the house with gas-fueled winter heat, the winter electricity peak is small (1.25x the minimum month) while the summer peak is 
 quite prominent (close to 2.0x).  Meanwhile, the winter peak for the all-electric HVAC house is larger (2.3x minimum) than the summer A/C peak 
 (1.9x the minimum): it takes more energy to heat a home 30-50 degrees above the outside temperature than it does to cool a home 10-20 degrees cooler
-than the outside temperature.  The state-wide portfolio, which is a blend of these two categories (but weighted towards the fossil-fuel fired home), 
-thus has a blended seasonality profile as seen above. 
+than the outside temperature.  The state-wide portfolio, which is a blend of these two categories (but weighted towards fossil fuels), thus has a 
+blended seasonality profile as seen above. 
 
 ## You Wanted to See Alaska and Florida
 
@@ -86,8 +86,8 @@ spring/fall troughs where there is little HVAC needed one way or the other.  Thi
 ![image](/assets/images/post3_FLandAK_line.png)
 
 Much of Alaska is always colder than indoor comfortable temperatures: summer high temperatures in Anchorage are just above 60&deg;F.  
-So the annual cycle ranges from "heavy electricity consumption for heating in winter" to "less heavy electricity consumption for heating in summer", 
-with no summer peak at all.  The winter peak is 1.6x the summer nadir. 
+So the annual cycle ranges from "heavy electricity consumption for heating in winter" to "moderate electricity consumption for heating in summer", 
+with no summer peak at all.  The winter peak is 1.6x the summer trough. 
 
 Florida is the opposite: it is always hot and humid, and many residents use air conditioning all year round (with occasional winter heating), 
 with more of it being used in the summer.  So the annual cycle is various degrees of electricity for cooling, peaking in summer.  Summer consumption
