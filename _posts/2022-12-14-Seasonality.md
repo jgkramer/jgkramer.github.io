@@ -138,7 +138,7 @@ in winter electricity usage.
 This blog started with a simple comparison of my electricity usage throughout the year, and revealed a complicated reality.  Seasonal variation in 
 electricity demand is determined in part by climate.   But because electricity is only a part of total energy consumption, electricity demand patterns
 are determined also by local infrastructure decisions about how humans heat and cool their homes.   This in turn depends on other variables like
-whether residential areas are dense enough to merit utility natural gas, or whether heating oil is efficiently deliverale by truck.  Regulations and 
+whether residential areas are dense enough to merit utility natural gas, or whether heating oil is efficiently deliverable by truck.  Regulations and 
 grid architecture surely play a role as well, and this is before even getting into the different characteristics of different flavors of 
 electricity generation. 
 
