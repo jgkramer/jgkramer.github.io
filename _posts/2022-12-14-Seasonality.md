@@ -34,9 +34,8 @@ Several observations:
 Note that the **total** state electricity consumption has less seasonal variation than the residential sector alone.  Highly variable climate control 
 is presumably a lower proportion of commercial and industrial electricity usage than for residences.
 
-One confirmatory question I had was whether my own electricity consumption throughout the year was typical.  The graph below show the fraction of annual 
-consumption in each calendar quarter.  The individual usage throughout the year very closely matches the profile of aggregate month-to-month 
-residential use.[^1] 
+With this data, I was able to confirm that the seasonal patterns of my own electricity use are very typical of Nevada residents.  
+The graph below show the fraction of annual consumption in each calendar quarter (both individual, and state-wide).[^1] 
 
 [^1]: In the dark blue series, the artificially-low consumption in June-July due to travel has been replaced by (1) July being assumed to be the same as August and (2) June being halfway between May and August. 
 
