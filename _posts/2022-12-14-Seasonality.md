@@ -152,5 +152,5 @@ I welcome a discussion with any readers who care to share data and draw lessons 
 a significant input to operations, and who face a more complicated set of decisions (including demand-spike based pricing). 
 
 And if anyone can explain New Jersey, please reach out to me. 
-
+ 
 ___
