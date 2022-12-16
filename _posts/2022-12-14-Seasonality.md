@@ -11,8 +11,6 @@ This post explores the seasonality of electricity usage, using both state-wide d
 * I then compare this to electricity usage in a cooler climate (Connecticut), which similarly has a two-peak pattern.   Not surprisingly, the summer peak in Connecticut is smaller than Nevada; but the winter peak is not as prominent as I might have expected, likely because much of heating **energy** usage is not supplied by **electricity** but rather by fossil fuels directly (oil and gas).  A good reminder that **electricity consumption** is not the same as **total energy consumption**.
 * To see if this two-peak pattern was universal, I checked the extremes: Alaska and Florida.   Indeed, these two states (almost uniquely) have only one peak: Alaska's climate requires little to no cooling in the summer (so there is only a winter heating peak) and Florida requires little heating (so there is only a summer cooling peak). 
 * Finally, I look (with a neat mapping package in Python) at the size of the summer and winter peaks throughout the country.  Summer follows climate relatively intuitively: the hotter the summer, the bigger the summer electricity consumption peak.   Winter is more complicated, and reflects both climate as well as the electricity / energy distinction, because homes in different parts of the country are heated by different means. 
-
-Let's dig in to the details.
 <!--more-->
 
 ## Nevada: Double Peak, Emphasis on Summer Cooling
