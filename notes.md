@@ -25,6 +25,9 @@ EIA: Battery Storage
 As of October 2022, 7.8 GW (not GWH!) of POWER capacity, with plans for 30GW in the next few years. 
 https://www.eia.gov/todayinenergy/detail.php?id=54939
 
+This post shows that battery storage energy capacity is typically < 2 hours worth of power. 
+https://www.eia.gov/analysis/studies/electricity/batterystorage/
+
 
 
 #### Demand
