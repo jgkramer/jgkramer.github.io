@@ -28,6 +28,13 @@ https://www.eia.gov/todayinenergy/detail.php?id=54939
 This post shows that battery storage energy capacity is typically < 2 hours worth of power. 
 https://www.eia.gov/analysis/studies/electricity/batterystorage/
 
+Purposes of Battery Storage: 
+(1) Price Abitrage
+(2) Firm capacity / peaking capacity
+(3) Demand management (shorter ramp up / down times). 
+
+https://www.nrel.gov/docs/fy19osti/74426.pdf
+
 
 
 #### Demand
