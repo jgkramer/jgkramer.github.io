@@ -37,5 +37,9 @@ https://www.nrel.gov/docs/fy19osti/74426.pdf
 
 
 
+### Solar
+https://www.eia.gov/electricity/gridmonitor/dashboard/electric_overview/balancing_authority/LDWP
+
+
 #### Demand
 
