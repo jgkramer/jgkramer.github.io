@@ -21,12 +21,11 @@ The net result of these factors will be manifested in either (1) energy storage 
 
 ## Data Source: EIA
 
-Data in this post comes from the Energy Information Administration website; in particular, its [Hourly Electric Grid Monitor](https://www.eia.gov/electricity/gridmonitor/dashboard/electric_overview/US48/US48),
-which provides hour-granularity by region (defined by the electric grid balancing authority serving that region) on a number of variables.
-These include total usage and generation in the region (balanced by import / export from neighboring regions), as well as a detailed look
-at generation by type of source (e.g., coal, nuclear, natural gas, solar, wind).  An example of this latter chart is shown below, which shows
-the daily generation cycle of solar, days where power output is lowered due to weather, and how natural gas plants are ramped up and down
-to offset the solar generation cycle. 
+Data in this post comes from the Energy Information Administration.  The EIA's [Hourly Electric Grid Monitor](https://www.eia.gov/electricity/gridmonitor/dashboard/electric_overview/US48/US48),
+has hourly granularity by region on a number of variables.  These include total usage and generation in the region 
+(balanced by import / export from neighboring regions), as well as a detailed look at generation by type of source (e.g., coal, nuclear, 
+natural gas, solar, wind).  An example of the latter is shown below, which shows the daily generation cycle of solar, days where power output is 
+lower due to weather, and how natural gas plants are ramped up and down to offset the solar generation cycle. 
 
 <img src="/assets/images/post4_generation_sample.png"  width="70%" height="70%">
 
