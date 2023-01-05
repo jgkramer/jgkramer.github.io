@@ -14,5 +14,5 @@ provides hour-granularity by region (defined by the electric grid balancing auth
 These include total usage and generation in the region (balanced by import / export from neighboring regions), as well as a detailed look
 at generation by type of source (e.g., coal, nuclear, natural gas, solar, wind).  An example of this latter chart is shown below. 
 
-<img src="/assets/images/post4_generation_sample.png"  width="50%" height="50%">
+<img src="/assets/images/post4_generation_sample.png"  width="70%" height="70%">
 
