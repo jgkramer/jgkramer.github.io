@@ -12,7 +12,10 @@ when incorporating utility-scale solar power into the mix of generation.  These 
 - The daily alternation between daytime solar generation and nighttime non-generation
 - The annual cycle of higher generation in the summer (longer days / higher sunlight angle) than in the winter (shorter days / lower angle)
 - Reductions in output on days when the weather is cloudy (this can vary by geography)
-- Incorporating this variable profile into the grid where demand for electricity itself fluctuates, but not always in step with solar generation. 
+- Incorporating this variable profile into the grid where demand for electricity itself fluctuates, but not always in step with solar generation.  
+
+The net result of these factors will be manifested in either (1) energy storage requirements and/or (2) having additional generation capacity 
+(e.g., natural gas plants) that can fill in the gaps when solar generaiton is lower.  
 
 <!--more-->
 
