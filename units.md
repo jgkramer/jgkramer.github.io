@@ -20,7 +20,9 @@
 Natural gas
 
 1 Therm = 10^5 BTU natural gas
+
 1 Decatherm = 10^6 BTU
+
 1 Therm amount of energy in ~100 cubic feet (1 ccf). 
 
 #### Heat Rate (Natural Gas)
