@@ -29,4 +29,7 @@ lower due to weather, and how natural gas plants are ramped up and down to offse
 
 <img src="/assets/images/post4_generation_sample.png"  width="70%" height="70%">
 
-## 
+## Ideal Solar Generation During the Day
+
+If my goal is to create a model of solar generation (to match it against electricity demand), I want to have a picture of how it fluctuates over time.
+My first objective is to 
