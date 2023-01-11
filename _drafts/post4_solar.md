@@ -33,3 +33,6 @@ lower due to weather, and how natural gas plants are ramped up and down to offse
 
 If my goal is to create a model of solar generation (to match it against electricity demand), I want to have a picture of how it fluctuates over time.
 My first objective is to 
+
+
+![December Days](/assets/images/post4_december.png)
