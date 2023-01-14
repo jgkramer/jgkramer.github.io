@@ -31,14 +31,16 @@ lower due to weather, and how natural gas plants are ramped up and down to offse
 
 ## Ideal Solar Generation During the Day
 
-My  goal is to create a model of solar generation to match against electricity demand, which requires a picture of how it fluctuates over hours of 
-the day, and times of the year (daylight hours and sun position).  Because the real-world output in any data set is muddled by weather, my first step 
-is to strip out this variability.  Weather intermittency can be re-added later as a driver of storage needs.
+My goal is to create a model of solar generation in Nevada to match against electricity demand, which requires a picture of how it fluctuates over 
+hours of the day, and times of the year (daylight hours and sun position).  Because the real-world output in any data set is muddled by weather, my 
+first step is to strip out this variability.  Weather intermittency can be re-added later as a driver of storage needs.
 
 My simplifying assumptions are that: 
-* Maximum solar generation capacity is uniform throughout each calendar month (i.e., the day length and angle of the sun are close to constant)
-* This is likely close to true for winter and summer months (the day length in December at Copper Mountain, NV varies between 9h 23m and 9h 35m) and a less good approximation for spring and fall (in March, day length increases from 11h 19m to 12h 37m) 
-* In each month there are at least 5 days of 
-* 
+- Maximum solar generation capacity is uniform throughout each calendar month (i.e., the day length and angle of the sun are close to constant)
+    - This is likely close to true for winter and summer months (the day length at Copper Mountain, NV varies between 9h 23m and 9h 35m in December) and a less good approximation for spring and fall (March is 11h 19m to 12h 37m) 
+- In each month there are at least 5 days of unobstructed generation, from which I can derive a picture of ideal output 
+    - While there are periods of clouds and rain in Nevada (in January 2023 there are both from a west coast atmospheric river), the fact that the state is mostly desert makes this a good approximation.  
+
+So to create a 
 
 ![December Days](/assets/images/post4_december.png)
