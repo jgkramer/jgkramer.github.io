@@ -31,8 +31,10 @@ lower due to weather, and how natural gas plants are ramped up and down to offse
 
 ## Ideal Solar Generation During the Day
 
-If my goal is to create a model of solar generation (to match it against electricity demand), I want to have a picture of how it fluctuates over time.
-My first objective is to 
+My  goal is to create a model of solar generation to match against electricity demand, which requires a picture of how it fluctuates over hours of 
+the day, and times of the year (daylight hours and sun position).  Because the real-world output in any data set is muddled by weather, my first step 
+is to strip out this variability. 
 
+My simplifying assumptions 
 
 ![December Days](/assets/images/post4_december.png)
