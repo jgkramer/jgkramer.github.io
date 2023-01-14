@@ -29,7 +29,7 @@ lower due to weather, and how natural gas plants are ramped up and down to offse
 
 <img src="/assets/images/post4_generation_sample.png"  width="70%" height="70%">
 
-## Ideal Solar Generation During the Day
+## Ideal Solar Generation: Methodology
 
 My goal is to create a model of solar generation in Nevada to match against electricity demand, which requires a picture of how it fluctuates over 
 hours of the day, and times of the year (daylight hours and sun position).  Because the real-world output in any data set is muddled by weather, my 
@@ -41,6 +41,9 @@ My simplifying assumptions are that:
 - In each month there are at least 5 days of unobstructed generation, from which I can derive a picture of ideal output 
     - While there are periods of clouds and rain in Nevada (in January 2023 there are both from a west coast atmospheric river), the fact that the state is mostly desert makes this a good approximation, even accounting for the fact that there are multiple generation sites with slightly different conditions
 
-So to create a 
-
 ![December Days](/assets/images/post4_december.png)
+
+So for each month I averaged the hourly solar generation of the top-5 days in that month (for December, the chosen days are the ones on the orange
+line above, and the other blue-line days are ignored). 
+
+## Ideal Solar Generation: Full Year Results
