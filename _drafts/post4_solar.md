@@ -62,9 +62,9 @@ By comparison, the total productivity across all days in December 2022 was ~8,30
 20%.  It matters to a real-world electrical grid and energy storage requirements whether this impact was driven by a larger number of medium-output days,
 or a smaller 
 
-One small feature that I didn't expect is that the peak generation hours are 10 to 11 a.m. and 1 to 2 p.m., with the hours in between slightly lower.  
-Solar noon at this time of year is around 11:40 a.m.  I don't know what is going on here, but perhaps panel positioning is at a somewhat lower angle 
-than the highest in the sky that the sun gets, to better capture low-angle hours in the morning and afternoon.  
+One small feature that I didn't expect is that the peak generation hours are 10 to 11 a.m. and 1 to 2 p.m., with the hours in between slightly 
+lower.  Solar noon at this time of year is around 11:40 a.m.  I don't know what is going on here, but perhaps panel positioning is at a 
+somewhat lower angle than the highest in the sky that the sun gets, to better capture low-angle hours in the morning and afternoon.  
 
 This chart shows the same exercise for June, the month of the summer solstice. 
 
