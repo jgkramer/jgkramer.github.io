@@ -41,5 +41,10 @@ https://www.nrel.gov/docs/fy19osti/74426.pdf
 https://www.eia.gov/electricity/gridmonitor/dashboard/electric_overview/balancing_authority/LDWP
 
 
-#### Demand
+#### Daily Cycle of Natural Gas
+
+In Nevada, where there is no nuclear baseload and a lot of solar, gas is INVERSE to solar generation to fill gaps. 
+
+In North Carolina (Duke East), where there is a big nuclear baseload, and solar is a smaller fraction, the natural gas spike is in the evening -- 
+natural gas + solar need to join forces to meet peak evening demand.   
 
