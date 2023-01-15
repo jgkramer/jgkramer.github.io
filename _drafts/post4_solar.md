@@ -59,8 +59,8 @@ actual production hours -- there are 9 hour slots in the day with at least 10% o
 better).  Of 9.5 hours of daylight in December, about 2 of them are "lost" to the sun being too low in the sky to generate meaningful power. 
 
 By comparison, the total productivity across all days in December 2022 was ~8,300 MWh per day, meaning that weather (or other outages) reduced output by
-20%.  It matters to a real-world electrical grid and energy storage requirements whether this impact was driven by a larger number of medium-output days,
-or a smaller number of days with very low generation. 
+20%.  It matters to achieving reliability and the cost of energy storage needed to offset intermittency whether this impact was driven by a 
+larger number of medium-output days,or a smaller number of days with very low generation. 
 
 One small feature that I didn't expect is that the peak generation hours are 10 to 11 a.m. and 1 to 2 p.m., with the hours in between slightly 
 lower.  Solar noon at this time of year is around 11:40 a.m.  I don't know what is going on here, but perhaps panel positioning is at a 
