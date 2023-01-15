@@ -24,10 +24,16 @@ The net result of these factors will be manifested in either (1) energy storage 
 Data in this post comes from the U.S. Energy Information Administration.  The EIA's [Hourly Electric Grid Monitor](https://www.eia.gov/electricity/gridmonitor/dashboard/electric_overview/US48/US48),
 has hourly granularity by region on a number of variables.  These include total usage and generation in the region 
 (balanced by import / export from neighboring regions), as well as a detailed look at generation by type of source (e.g., coal, nuclear, 
-natural gas, solar, wind).  An example of the latter is shown below, which shows the daily generation cycle of solar, days where power output is 
+natural gas, solar, wind).  
+
+An example of the latter is shown below, which shows the daily generation cycle of solar, days where power output is 
 lower due to weather, and how natural gas plants are ramped up and down to offset the solar generation cycle. 
 
 <img src="/assets/images/post4_generation_sample.png"  width="70%" height="70%">
+
+In much of this post I focus my efforts of the region of Nevada where the balancing authority is NV Power.  This is geographically the majority 
+of the state but excludes the area around Las Vegas itself.  I choose this region because it is mostly desert, and so weather should not obstruct
+solar generation on too many days, which enables me to get a better picture of idealized / unobstructed solar productivity.
 
 ## Ideal Solar Generation: Methodology
 
@@ -64,6 +70,15 @@ This chart shows the same exercise for June, the month of the summer solstice.
 
 ![June by Hour](/assets/images/post4_month6_hourly.png)
 
+A full June day's worth of generation in this region is ~21,300 MWh, roughly 11.4 hours worth of the maximum output of 1,860 MWh.  June maximum 
+generation is **double** that of December, with roughly equal contributions from more hours of daylight and stronger sunlight (higher sun angle) 
+when the sun does shine.  
 
+Another way of expressing this is as a capacity factor: in peak summer, one can say that utility-scale solar is working **half** the time on good 
+days (11.5 hours of full power).   In the darkest winter, the output is halved again, and is working at only a **quarter** of its physical capacity.  
+All of this before weather impact. 
+
+Finally, In 2022, there was less loss to weather in June than in December: across all days, average total daily generation was ~19,700, only a 7.5% 
+loss from the best days.
 
 ## Ideal Solar Generation: Full Year Results
