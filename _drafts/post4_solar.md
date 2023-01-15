@@ -44,6 +44,15 @@ My simplifying assumptions are that:
 ![December Days](/assets/images/post4_december.png)
 
 So for each month I averaged the hourly solar generation of the top-5 days in that month (for December, the chosen days are the ones on the orange
-line above, and the other blue-line days are ignored). 
+line above, and the other blue-line days are ignored).   The results for December are below: 
+
+![December by Hour](/assets/images/post4_month12_hourly.png)
+
+The same exercise for June (summer solstice month):
+
+![June by Hour](/assets/images/post4_month6_hourly.png)
+
+
+
 
 ## Ideal Solar Generation: Full Year Results
