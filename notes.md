@@ -44,6 +44,7 @@ https://www.eia.gov/electricity/gridmonitor/dashboard/electric_overview/balancin
 #### Daily Cycle of Natural Gas
 
 In Nevada, where there is no nuclear baseload and a lot of solar, gas is INVERSE to solar generation to fill gaps. 
+--> can use nuclear to swap out the minimum gas usage.  if you add solar, 
 
 In North Carolina (Duke East), where there is a big nuclear baseload, and solar is a smaller fraction, the natural gas spike is in the evening -- 
 natural gas + solar need to join forces to meet peak evening demand.   
