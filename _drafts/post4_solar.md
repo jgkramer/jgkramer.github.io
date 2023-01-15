@@ -48,10 +48,21 @@ line above, and the other blue-line days are ignored).   The results for Decembe
 
 ![December by Hour](/assets/images/post4_month12_hourly.png)
 
-The same exercise for June (summer solstice month):
+A full December day's worth of generation in this region is ~10,400 MWh, roughly 7.5 hours worth of the maximum output of 1,383 MWh.   In terms of 
+actual production hours -- there are 9 hour slots in the day with at least 10% of max production, and 7 hours of full or mostly-full capacity (60% or 
+better).  Of 9.5 hours of daylight in December, about 2 of them are "lost" to the sun being too low in the sky to generate meaningful power. 
+
+By comparison, the total productivity across all days in December 2022 was ~8,300 MWh per day, meaning that weather (or other outages) reduced output by
+20%.  It matters to a real-world electrical grid and energy storage requirements whether this impact was driven by a larger number of medium-output days,
+or a smaller 
+
+One small feature that I didn't expect is that the peak generation hours are 10 to 11 a.m. and 1 to 2 p.m., with the hours in between slightly lower.  
+Solar noon at this time of year is around 11:40 a.m.  I don't know what is going on here, but perhaps panel positioning is at a somewhat lower angle 
+than the highest in the sky that the sun gets, to better capture low-angle hours in the morning and afternoon.  
+
+This chart shows the same exercise for June, the month of the summer solstice. 
 
 ![June by Hour](/assets/images/post4_month6_hourly.png)
-
 
 
 
