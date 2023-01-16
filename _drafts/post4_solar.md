@@ -47,7 +47,7 @@ My simplifying assumptions are that:
 - In each month there are at least 5 days of unobstructed generation, from which I can derive a picture of ideal output 
     - While there are periods of clouds and rain in Nevada (in January 2023 there are both from a west coast atmospheric river), the fact that the state is mostly desert makes this a good approximation, even accounting for the fact that there are multiple generation sites with slightly different conditions
 
-![December Days](/assets/images/post4_december.png)
+![December Days](/assets/images/post4_NVPowerdailychart.png)
 
 So for each month I averaged the hourly solar generation of the top-5 days in that month (for December, the chosen days are the ones on the orange
 line above, and the other blue-line days are ignored).   The results for December are below: 
