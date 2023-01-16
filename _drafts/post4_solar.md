@@ -90,4 +90,4 @@ Next up is the "full capacity" chart (based on the top 5 days of each month) for
 
 Some macroscopic patterns are intuitive and symmetrical.   December and January appear to be the lowest production months, followed by November and 
 February.  The late spring and summer are a bit strange -- although June is a strong month, April and May are perhaps even better, and July is 
-suprisingly weak (perhaps because monsoon season brings frequest clouds?).
+suprisingly weak (perhaps because monsoon season brings frequent morning clouds?).
