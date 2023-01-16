@@ -83,3 +83,7 @@ days (11.5 hours of full power).   In the darkest winter, the output is halved a
 All of this before weather impact. 
 
 ## Ideal Solar Generation: Full Year Results
+
+Next up is the "full capacity" chart (based on the top 5 days of each month) for every month in the year.  
+
+![All months](/assets/images/post4_all_months_hourly.png)
