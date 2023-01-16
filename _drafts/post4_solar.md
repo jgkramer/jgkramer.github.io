@@ -86,4 +86,4 @@ All of this before weather impact.
 
 Next up is the "full capacity" chart (based on the top 5 days of each month) for every month in the year.  
 
-![All months](/assets/images/post4_all_months_hourly.png)
+![All months](/assets/images/post4_NVPower_all_hourly.png)
