@@ -65,10 +65,6 @@ By comparison, the average productivity across all days in June 2022 was ~19,700
 It matters to achieving reliability and the cost of energy storage needed to offset intermittency whether this was caused by a large number of 
 medium-output days, or a smaller number of days with very low generation, and we'll look at this data in the next section. 
 
-One small feature that I didn't expect is that the peak generation hours are 10 to 11 a.m. and 1 to 2 p.m., with the hours in between slightly 
-lower.  Solar noon at this time of year is around 11:40 a.m.  I don't know what is going on here, but perhaps panel positioning is at a 
-somewhat lower angle than the highest in the sky that the sun gets, to better capture low-angle hours in the morning and afternoon.  
-
 This chart shows the same exercise for June, the month of the summer solstice. 
 
 ![December by Hour](/assets/images/post4_month12_hourly.png)
@@ -77,9 +73,13 @@ A full December day's worth of generation in this region is ~10,400 MWh, roughly
 actual production hours -- there are 9 hour slots in the day with at least 10% of max production, and 7 hours of full or mostly-full capacity (60% or 
 better).  Of 9.5 hours of daylight in December, about 2 of them are "lost" to the sun being too low in the sky to generate meaningful power. 
 
-By comparison, the total productivity across all days in December 2022 was ~8,300 MWh per day, meaning that weather (or other outages) reduced output by
-20%.  It matters to achieving reliability and the cost of energy storage needed to offset intermittency whether this impact was driven by a 
-larger number of medium-output days,or a smaller number of days with very low generation, and we'll look at this data in the next section.
+The weather impact appears to have been much harsher in December.  Average productivity across all days was ~8,300 MWh, a decrease of 20% from 
+full capacity. 
+
+One small feature that I didn't expect is that the peak generation hours are 10 to 11 a.m. and 1 to 2 p.m., with the hours in between slightly 
+lower.  Solar noon at this time of year is around 11:40 a.m.  I don't know what is going on here, but perhaps panel positioning is at a 
+somewhat lower angle than the highest in the sky that the sun gets, to better capture low-angle hours in the morning and afternoon.  
+
 
 
 
