@@ -47,10 +47,29 @@ My simplifying assumptions are that:
 - In each month there are at least 5 days of unobstructed generation, from which I can derive a picture of ideal output 
     - While there are periods of clouds and rain in Nevada (in January 2023 there are both from a west coast atmospheric river), the fact that the state is mostly desert makes this a good approximation, even accounting for the fact that there are multiple generation sites with slightly different conditions
 
-![December Days](/assets/images/post4_NVPowerdailychart.png)
+![June and December](/assets/images/post4_NVPowerdailychart.png)
 
-So for each month I averaged the hourly solar generation of the top-5 days in that month (for December, the chosen days are the ones on the orange
-line above, and the other blue-line days are ignored).   The results for December are below: 
+So for each month I averaged the hourly solar generation of the top-5 days in that month.  The charts for June and December 2022 intuitively show that
+the top-5-dates methodology (represented by the orange lines) indeed seems to capture the "full output" of the solar installations at work.  The days 
+where the blue line dips materially are filtered out.   
+
+The intraday generation results for June are below: 
+
+![June by Hour](/assets/images/post4_month6_hourly.png)
+
+A full June day's worth of generation in this region is ~21,300 MWh, roughly 11.4 hours worth of the maximum output of 1,860 MWh.  In terms of 
+actual production hours -- there are 14 hour slots in the day with at least 10% of max production, and 11 hours of full or mostly-full capacity (60% 
+or better).  Of the 15 hours of daylight in June, about 3 of them are "lost" to the sun being too low in the sky to generate meaningful power.
+
+By comparison, the average productivity across all days in June 2022 was ~19,700 MWh, meaning that weather (or other outages) reduced output by 7.5%.  
+It matters to achieving reliability and the cost of energy storage needed to offset intermittency whether this was caused by a large number of 
+medium-output days, or a smaller number of days with very low generation, and we'll look at this data in the next section. 
+
+One small feature that I didn't expect is that the peak generation hours are 10 to 11 a.m. and 1 to 2 p.m., with the hours in between slightly 
+lower.  Solar noon at this time of year is around 11:40 a.m.  I don't know what is going on here, but perhaps panel positioning is at a 
+somewhat lower angle than the highest in the sky that the sun gets, to better capture low-angle hours in the morning and afternoon.  
+
+This chart shows the same exercise for June, the month of the summer solstice. 
 
 ![December by Hour](/assets/images/post4_month12_hourly.png)
 
@@ -62,15 +81,9 @@ By comparison, the total productivity across all days in December 2022 was ~8,30
 20%.  It matters to achieving reliability and the cost of energy storage needed to offset intermittency whether this impact was driven by a 
 larger number of medium-output days,or a smaller number of days with very low generation, and we'll look at this data in the next section.
 
-One small feature that I didn't expect is that the peak generation hours are 10 to 11 a.m. and 1 to 2 p.m., with the hours in between slightly 
-lower.  Solar noon at this time of year is around 11:40 a.m.  I don't know what is going on here, but perhaps panel positioning is at a 
-somewhat lower angle than the highest in the sky that the sun gets, to better capture low-angle hours in the morning and afternoon.  
 
-This chart shows the same exercise for June, the month of the summer solstice. 
 
-![June by Hour](/assets/images/post4_month6_hourly.png)
-
-A full June day's worth of generation in this region is ~21,300 MWh, roughly 11.4 hours worth of the maximum output of 1,860 MWh.  June maximum 
+ June maximum 
 generation is **double** that of December, with roughly equal contributions from more hours of daylight and stronger sunlight (higher sun angle) 
 when the sun does shine.  
 
