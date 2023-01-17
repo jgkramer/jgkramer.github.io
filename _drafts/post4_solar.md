@@ -120,19 +120,45 @@ TD{font-family: Arial; font-size: 8pt}
         <th scope="col" style="background-color: #D6EEEE">Days 30-60%</th>
         <th scope="col" style="background-color: #D6EEEE">Days 30%-</th>
     </tr>
-    <tr>
-        <th scope="col" style="background-color: #D6EEEE">January</th> 
-        <td>3,951</td> 
-        <td>26,357</td> 
-        <td>30,314</td> 
-        <td>30,314</td> 
-        <td>6</td>
-        <td>7</td>
-        <td>8</td>
-        <td>9</td>
-        <td>10</td>
-        <td>11</td>
-    </tr>
+<tr>
+  <th scope="col" style="background-color: #D6EEEE">October</th>
+  <td>16,148</td>
+  <td>1,760</td>
+  <td>9.2</td>
+  <td>7</td>
+  <td>15</td>
+  <td>92.2%
+  <td>21</td>
+  <td>10</td>
+  <td>0</td>
+  <td>0</td>
+</tr>
+<tr>
+  <th scope="col" style="background-color: #D6EEEE">November</th>
+  <td>13,698</td>
+  <td>1,666</td>
+  <td>8.2</td>
+  <td>8</td>
+  <td>14</td>
+  <td>86.0%
+  <td>16</td>
+  <td>11</td>
+  <td>2</td>
+  <td>1</td>
+</tr>
+<tr>
+  <th scope="col" style="background-color: #D6EEEE">December</th>
+  <td>10,364</td>
+  <td>1,383</td>
+  <td>7.5</td>
+  <td>8</td>
+  <td>14</td>
+  <td>80.1%
+  <td>15</td>
+  <td>11</td>
+  <td>2</td>
+  <td>3</td>
+</tr>
 </table>
 
 
