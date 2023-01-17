@@ -92,8 +92,6 @@ Some macroscopic patterns are intuitive and symmetrical.   December and January 
 February.  The late spring and summer are a bit strange -- although June is a strong month, May look even better, and July looks weak compared to April 
 (perhaps because monsoon season brings frequent morning clouds?).
 
-NEXT UP - TABLES
-
 <STYLE TYPE="text/css">
 <!--
 TH{font-family: Arial; font-size: 8pt}
