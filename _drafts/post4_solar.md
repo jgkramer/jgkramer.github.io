@@ -118,63 +118,51 @@ TD{font-family: Arial; font-size: 8pt}
     </tr>
 <tr>
   <th scope="col" style="background-color: #D6EEEE">January</th>
-  <td>10,366</td>  <td>1,321</td>  <td>7.8</td>  <td>8</td>  <td>15</td>  <td>86.1%  <td>11</td>  <td>16</td>  <td>4</td>  <td>0</td>
+ <td>10,366</td><td>1,321</td><td>7.8</td><td>86.1%<td>11</td><td>16</td><td>4</td><td>0</td>
 </tr>
-
 <tr>
   <th scope="col" style="background-color: #D6EEEE">February</th>
-  <td>14,302</td>  <td>1,636</td>  <td>8.7</td>  <td>8</td>  <td>15</td>  <td>88.8%  <td>16</td>  <td>11</td>  <td>1</td>  <td>0</td>
+ <td>14,302</td><td>1,636</td><td>8.7</td><td>88.8%<td>16</td><td>11</td><td>1</td><td>0</td>
 </tr>
-
 <tr>
   <th scope="col" style="background-color: #D6EEEE">March</th>
-  <td>16,982</td>  <td>1,816</td>  <td>9.4</td>  <td>7</td>  <td>15</td>  <td>88.4%  <td>17</td>  <td>12</td>  <td>2</td>  <td>0</td>
+ <td>16,982</td><td>1,816</td><td>9.4</td><td>88.4%<td>17</td><td>12</td><td>2</td><td>0</td>
 </tr>
-
 <tr>
   <th scope="col" style="background-color: #D6EEEE">April</th>
-  <td>19,828</td>  <td>1,909</td>  <td>10.4</td>  <td>7</td>  <td>16</td>  <td>92.8%  <td>21</td>  <td>8</td>  <td>1</td>  <td>0</td>
+ <td>19,828</td><td>1,909</td><td>10.4</td><td>92.8%<td>21</td><td>8</td><td>1</td><td>0</td>
 </tr>
-
 <tr>
   <th scope="col" style="background-color: #D6EEEE">May</th>
-  <td>21,486</td>  <td>1,923</td>  <td>11.2</td>  <td>6</td>  <td>16</td>  <td>94.9%  <td>25</td>  <td>6</td>  <td>0</td>  <td>0</td>
+ <td>21,486</td><td>1,923</td><td>11.2</td><td>94.9%<td>25</td><td>6</td><td>0</td><td>0</td>
 </tr>
-
 <tr>
   <th scope="col" style="background-color: #D6EEEE">June</th>
-  <td>21,260</td>  <td>1,857</td>  <td>11.4</td>  <td>6</td>  <td>16</td>  <td>92.5%  <td>21</td>  <td>8</td>  <td>1</td>  <td>0</td>
+ <td>21,260</td><td>1,857</td><td>11.4</td><td>92.5%<td>21</td><td>8</td><td>1</td><td>0</td>
 </tr>
-
 <tr>
   <th scope="col" style="background-color: #D6EEEE">July</th>
-  <td>19,154</td>  <td>1,825</td>  <td>10.5</td>  <td>7</td>  <td>16</td>  <td>90.1%  <td>21</td>  <td>8</td>  <td>2</td>  <td>0</td>
+ <td>19,154</td><td>1,825</td><td>10.5</td><td>90.1%<td>21</td><td>8</td><td>2</td><td>0</td>
 </tr>
-
 <tr>
   <th scope="col" style="background-color: #D6EEEE">August</th>
-  <td>18,806</td>  <td>1,825</td>  <td>10.3</td>  <td>7</td>  <td>16</td>  <td>88.7%  <td>18</td>  <td>11</td>  <td>2</td>  <td>0</td>
+ <td>18,806</td><td>1,825</td><td>10.3</td><td>88.7%<td>18</td><td>11</td><td>2</td><td>0</td>
 </tr>
-
 <tr>
   <th scope="col" style="background-color: #D6EEEE">September</th>
-  <td>18,086</td>  <td>1,807</td>  <td>10.0</td>  <td>7</td>  <td>15</td>  <td>92.0%  <td>23</td>  <td>5</td>  <td>2</td>  <td>0</td>
+ <td>18,086</td><td>1,807</td><td>10.0</td><td>92.0%<td>23</td><td>5</td><td>2</td><td>0</td>
 </tr>
-
 <tr>
   <th scope="col" style="background-color: #D6EEEE">October</th>
-  <td>16,148</td>  <td>1,760</td>  <td>9.2</td>  <td>7</td>  <td>15</td>  <td>92.2%  <td>21</td>  <td>10</td>  <td>0</td>  <td>0</td>
+ <td>16,148</td><td>1,760</td><td>9.2</td><td>92.2%<td>21</td><td>10</td><td>0</td><td>0</td>
 </tr>
-
 <tr>
   <th scope="col" style="background-color: #D6EEEE">November</th>
-  <td>13,698</td>  <td>1,666</td>  <td>8.2</td>  <td>8</td>  <td>14</td>  <td>86.0%  <td>16</td>  <td>11</td>  <td>2</td>  <td>1</td>
+ <td>13,698</td><td>1,666</td><td>8.2</td><td>86.0%<td>16</td><td>11</td><td>2</td><td>1</td>
 </tr>
-
 <tr>
   <th scope="col" style="background-color: #D6EEEE">December</th>
-  <td>10,364</td>  <td>1,383</td>  <td>7.5</td>  <td>8</td>  <td>14</td>  <td>80.1%  <td>15</td>  <td>11</td>  <td>2</td>  <td>3</td>
-</tr>
-</table>
+ <td>10,364</td><td>1,383</td><td>7.5</td><td>80.1%<td>15</td><td>11</td><td>2</td><td>3</td>
+</tr></table>
 
 
