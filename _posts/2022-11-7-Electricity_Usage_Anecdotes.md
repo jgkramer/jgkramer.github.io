@@ -91,10 +91,10 @@ Since peak electricity costs 2.5x the fixed rate, while off-peak reflects only a
 although with several hundred dollars of improvement over the year (about 5%).   If my family had the incentive to save more money in reality,
 we likely would have further shifted our air conditioning usage outside of the 1pm - 7pm window on summer weekdays. 
 
-<font size="8">
+
 <table>
     <col> <colgroup span="3"></colgroup> <colgroup span ="1"></colgroup>
-    <tr>
+    <tr font-size="8">
         <td rowspan="2"></td>
         <th colspan="3" scope ="colgroup" style="background-color: #D6EEEE">Time of Use</th>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Fixed Rate</th>
@@ -105,14 +105,14 @@ we likely would have further shifted our air conditioning usage outside of the 1
         <th scope="col" style="background-color: #D6EEEE">Total</th> 
         <th scope="col" style="background-color: #D6EEEE">Total</th>
     </tr>
-    <tr>
+    <tr font-size="6">
         <th scope="row" style="background-color: #D6EEEE">Usage (kWh)</th> <td>3,951</td> <td>26,357</td> <td>30,314</td> <td>30,314</td>
     </tr>
     <tr>
         <th scope="row" style="background-color: #D6EEEE">Est. Cost</th> <td>$1,582.44</td> <td>$2,495.47</td> <td>$4,077.91</td> <td>$4,331.86</td>
     </tr>
 </table>
-</font>
+
     
 ### Analytical Notes
 
