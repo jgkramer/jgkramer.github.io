@@ -94,7 +94,12 @@ suprisingly weak (perhaps because monsoon season brings frequent morning clouds?
 
 NEXT UP - TABLES
 
-<font size="8">
+<STYLE TYPE="text/css">
+<!--
+TH{font-family: Arial; font-size: 10pt}
+TD{font-family: Arial; font-size: 10pt}
+--->
+</STYLE>
 <table>
     <col> <colgroup span="3"></colgroup> <colgroup span ="1"></colgroup>
     <tr>
@@ -115,4 +120,4 @@ NEXT UP - TABLES
         <th scope="row" style="background-color: #D6EEEE">Est. Cost</th> <td>$1,582.44</td> <td>$2,495.47</td> <td>$4,077.91</td> <td>$4,331.86</td>
     </tr>
 </table>
-</font>
+
