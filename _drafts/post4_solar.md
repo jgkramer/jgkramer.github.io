@@ -112,14 +112,12 @@ TD{font-family: Arial; font-size: 10pt}
         <th scope="col" style="background-color: #D6EEEE">Max Daily Generation (MWh)</th> 
         <th scope="col" style="background-color: #D6EEEE">Max Hourly Rate (MWh)</th> 
         <th scope="col" style="background-color: #D6EEEE">Hours of Full Generation</th>
-        <th scope="col" style="background-color: #D6EEEE">First Hour > 60%</th>
-        <th scope="col" style="background-color: #D6EEEE">Last Hour > 60%</th>
-        
+        <th scope="col" style="background-color: #D6EEEE">First Hour 60%+</th>
+        <th scope="col" style="background-color: #D6EEEE">Last Hour 60%+</th>
         <th scope="col" style="background-color: #D6EEEE">Actual Month, % of Capacity</th>
-        <th scope="col" style="background-color: #D6EEEE">Days > 90%</th>
+        <th scope="col" style="background-color: #D6EEEE">Days 90%+</th>
         <th scope="col" style="background-color: #D6EEEE">Days 60-90%</th>
         <th scope="col" style="background-color: #D6EEEE">Days 30-60%</th>
-        
     </tr>
     <tr>
         <th scope="row" style="background-color: #D6EEEE">Usage (kWh)</th> 
