@@ -120,7 +120,6 @@ TD{font-family: Arial; font-size: 8pt}
         <th scope="col" style="background-color: #D6EEEE">Days 30-60%</th>
     </tr>
     <tr>
-        <th scope="row" style="background-color: #D6EEEE">Usage (kWh)</th> 
         <td>3,951</td> 
         <td>26,357</td> 
         <td>30,314</td> 
