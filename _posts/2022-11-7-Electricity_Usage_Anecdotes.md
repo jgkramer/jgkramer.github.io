@@ -95,7 +95,7 @@ we likely would have further shifted our air conditioning usage outside of the 1
 <STYLE TYPE="text/css">
 <!--
 TH{font-family: Arial; font-size: 8pt; padding: 0px; spacing: 0px}
-TD{font-family: Arial; font-size: 8pt; padding: 0px; spacing: 0px}
+TD{font-family: Arial; font-size: 9pt; padding: 0px; spacing: 0px}
 --->
 </STYLE>
 <table>
