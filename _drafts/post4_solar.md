@@ -108,10 +108,18 @@ TD{font-family: Arial; font-size: 10pt}
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Fixed Rate</th>
     </tr>
     <tr>
-        <th scope="col" style="background-color: #D6EEEE">Peak</th> 
-        <th scope="col" style="background-color: #D6EEEE">Off-Peak</th> 
-        <th scope="col" style="background-color: #D6EEEE">Total</th> 
-        <th scope="col" style="background-color: #D6EEEE">Total</th>
+        <th scope="col" style="background-color: #D6EEEE">Month</th> 
+        <th scope="col" style="background-color: #D6EEEE">Max Daily Generation (MWh)</th> 
+        <th scope="col" style="background-color: #D6EEEE">Max Hourly Rate (MWh)</th> 
+        <th scope="col" style="background-color: #D6EEEE">Hours of Full Generation</th>
+        <th scope="col" style="background-color: #D6EEEE">First Hour > 60%</th>
+        <th scope="col" style="background-color: #D6EEEE">Last Hour > 60%</th>
+        
+        <th scope="col" style="background-color: #D6EEEE">Actual Month, % of Capacity</th>
+        <th scope="col" style="background-color: #D6EEEE">Days > 90%</th>
+        <th scope="col" style="background-color: #D6EEEE">Days 60-90%<th>
+        <th scope="col" style="background-color: #D6EEEE">Days 30-60%<th>
+        
     </tr>
     <tr>
         <th scope="row" style="background-color: #D6EEEE">Usage (kWh)</th> <td>3,951</td> <td>26,357</td> <td>30,314</td> <td>30,314</td>
