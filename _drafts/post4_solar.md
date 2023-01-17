@@ -101,7 +101,7 @@ TD{font-family: Arial; font-size: 8pt}
 --->
 </STYLE>
 <table>
-    <col> <colgroup span="1"></colgroup><colgroup span="5"></colgroup><colgroup span ="5"></colgroup></col>
+    <col> <colgroup span="1"></colgroup><colgroup span="5"></colgroup><colgroup span ="5"></colgroup>
     <tr>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE"></th>
         <th colspan="5" scope ="colgroup" style="background-color: #D6EEEE">Full Capacity</th>
