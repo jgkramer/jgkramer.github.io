@@ -94,18 +94,18 @@ we likely would have further shifted our air conditioning usage outside of the 1
 
 <table>
     <col> <colgroup span="3"></colgroup> <colgroup span ="1"></colgroup>
-    <tr font-size="8px">
+    <tr style=font-size:12px>
         <td rowspan="2"></td>
         <th colspan="3" scope ="colgroup" style="background-color: #D6EEEE">Time of Use</th>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Fixed Rate</th>
     </tr>
-    <tr>
+    <tr style=font-size:18px>
         <th scope="col" style="background-color: #D6EEEE">Peak</th> 
         <th scope="col" style="background-color: #D6EEEE">Off-Peak</th> 
         <th scope="col" style="background-color: #D6EEEE">Total</th> 
         <th scope="col" style="background-color: #D6EEEE">Total</th>
     </tr>
-    <tr font-size="6px">
+    <tr style=font-size:6px>
         <th scope="row" style="background-color: #D6EEEE">Usage (kWh)</th> <td>3,951</td> <td>26,357</td> <td>30,314</td> <td>30,314</td>
     </tr>
     <tr>
