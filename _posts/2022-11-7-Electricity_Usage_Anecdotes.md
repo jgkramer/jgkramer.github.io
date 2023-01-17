@@ -92,20 +92,25 @@ although with several hundred dollars of improvement over the year (about 5%).  
 we likely would have further shifted our air conditioning usage outside of the 1pm - 7pm window on summer weekdays. 
 
 
+<STYLE TYPE="text/css">
+<!--
+TD{font-family: Arial; font-size: 8pt;}
+--->
+</STYLE>
 <table>
     <col> <colgroup span="3"></colgroup> <colgroup span ="1"></colgroup>
-    <tr style="font-size:12px">
+    <tr>
         <td rowspan="2"></td>
         <th colspan="3" scope ="colgroup" style="background-color: #D6EEEE">Time of Use</th>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Fixed Rate</th>
     </tr>
-    <tr style="font-size: 18px">
+    <tr>
         <th scope="col" style="background-color: #D6EEEE">Peak</th> 
         <th scope="col" style="background-color: #D6EEEE">Off-Peak</th> 
         <th scope="col" style="background-color: #D6EEEE">Total</th> 
         <th scope="col" style="background-color: #D6EEEE">Total</th>
     </tr>
-    <tr style="font-size:6px">
+    <tr>
         <th scope="row" style="background-color: #D6EEEE">Usage (kWh)</th> <td>3,951</td> <td>26,357</td> <td>30,314</td> <td>30,314</td>
     </tr>
     <tr>
