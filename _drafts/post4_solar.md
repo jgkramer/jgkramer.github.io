@@ -108,7 +108,7 @@ TD{font-family: Arial; font-size: 8pt}
     </tr>
     <tr>
         <th scope="col" style="background-color: #D6EEEE">Month</th> 
-        <th scope="col" style="background-color: #D6EEEE">Max Daily Generation (MWh)</th> 
+        <th scope="col" style="background-color: #D6EEEE">Daily Generation Capacity (MWh)</th> 
         <th scope="col" style="background-color: #D6EEEE">Max Hourly Rate (MWh)</th> 
         <th scope="col" style="background-color: #D6EEEE">Hours of Full Generation</th>
         <th scope="col" style="background-color: #D6EEEE">First Hour 60%+</th>
