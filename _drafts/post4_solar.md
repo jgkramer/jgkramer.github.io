@@ -117,15 +117,21 @@ TD{font-family: Arial; font-size: 10pt}
         
         <th scope="col" style="background-color: #D6EEEE">Actual Month, % of Capacity</th>
         <th scope="col" style="background-color: #D6EEEE">Days > 90%</th>
-        <th scope="col" style="background-color: #D6EEEE">Days 60-90%<th>
-        <th scope="col" style="background-color: #D6EEEE">Days 30-60%<th>
+        <th scope="col" style="background-color: #D6EEEE">Days 60-90%</th>
+        <th scope="col" style="background-color: #D6EEEE">Days 30-60%</th>
         
     </tr>
     <tr>
-        <th scope="row" style="background-color: #D6EEEE">Usage (kWh)</th> <td>3,951</td> <td>26,357</td> <td>30,314</td> <td>30,314</td>
-    </tr>
-    <tr>
-        <th scope="row" style="background-color: #D6EEEE">Est. Cost</th> <td>$1,582.44</td> <td>$2,495.47</td> <td>$4,077.91</td> <td>$4,331.86</td>
+        <th scope="row" style="background-color: #D6EEEE">Usage (kWh)</th> 
+        <td>3,951</td> 
+        <td>26,357</td> 
+        <td>30,314</td> 
+        <td>30,314</td> 
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
     </tr>
 </table>
 
