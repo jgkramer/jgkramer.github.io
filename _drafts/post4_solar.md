@@ -89,8 +89,8 @@ Next up is the "full capacity" chart (based on the top 5 days of each month) for
 ![All months](/assets/images/post4_NVPower_all_hourly.png)
 
 Some macroscopic patterns are intuitive and symmetrical.   December and January appear to be the lowest production months, followed by November and 
-February.  The late spring and summer are a bit strange -- although June is a strong month, April and May are perhaps even better, and July is 
-suprisingly weak (perhaps because monsoon season brings frequent morning clouds?).
+February.  The late spring and summer are a bit strange -- although June is a strong month, May look even better, and July looks weak compared to April 
+(perhaps because monsoon season brings frequent morning clouds?).
 
 NEXT UP - TABLES
 
