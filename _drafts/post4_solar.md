@@ -101,11 +101,11 @@ TD{font-family: Arial; font-size: 8pt}
 --->
 </STYLE>
 <table>
-    <col> <colgroup span="1"></colgroup><colgroup span="3"></colgroup> <colgroup span ="7"></colgroup>
+    <col> <colgroup span="1"></colgroup><colgroup span="5"></colgroup> <colgroup span ="5"></colgroup>
     <tr>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE"></th>
-        <th colspan="3" scope ="colgroup" style="background-color: #D6EEEE">Full Capacity</th>
-        <th colspan="6" scope ="colgroup" style="background-color: #D6EEEE">Actuall Production</th>
+        <th colspan="5" scope ="colgroup" style="background-color: #D6EEEE">Full Capacity</th>
+        <th colspan="5" scope ="colgroup" style="background-color: #D6EEEE">Actual Production</th>
     </tr>
     <tr>
         <th scope="col" style="background-color: #D6EEEE">Month</th> 
@@ -114,10 +114,12 @@ TD{font-family: Arial; font-size: 8pt}
         <th scope="col" style="background-color: #D6EEEE">Hours of Full Generation</th>
         <th scope="col" style="background-color: #D6EEEE">First Hour 60%+</th>
         <th scope="col" style="background-color: #D6EEEE">Last Hour 60%+</th>
-        <th scope="col" style="background-color: #D6EEEE">Actual Month, % of Capacity</th>
+        <th scope="col" style="background-color: #D6EEEE">% of Full Capacity</th>
         <th scope="col" style="background-color: #D6EEEE">Days 90%+</th>
         <th scope="col" style="background-color: #D6EEEE">Days 60-90%</th>
         <th scope="col" style="background-color: #D6EEEE">Days 30-60%</th>
+        <th scope="col" style="background-color: #D6EEEE">Days < 30%</th>
+        
     </tr>
     <tr>
         <th scope="col" style="background-color: #D6EEEE">January</th> 
