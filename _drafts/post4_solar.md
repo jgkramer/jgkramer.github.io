@@ -118,8 +118,7 @@ TD{font-family: Arial; font-size: 8pt}
         <th scope="col" style="background-color: #D6EEEE">Days 90%+</th>
         <th scope="col" style="background-color: #D6EEEE">Days 60-90%</th>
         <th scope="col" style="background-color: #D6EEEE">Days 30-60%</th>
-        <th scope="col" style="background-color: #D6EEEE">Days < 30%</th>
-        
+        <th scope="col" style="background-color: #D6EEEE">Days 30%-</th>
     </tr>
     <tr>
         <th scope="col" style="background-color: #D6EEEE">January</th> 
