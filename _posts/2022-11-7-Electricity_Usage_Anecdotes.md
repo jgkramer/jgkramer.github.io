@@ -94,6 +94,7 @@ we likely would have further shifted our air conditioning usage outside of the 1
 
 <STYLE TYPE="text/css">
 <!--
+TH{font-family: Arial; font-size: 8pt;}
 TD{font-family: Arial; font-size: 8pt;}
 --->
 </STYLE>
