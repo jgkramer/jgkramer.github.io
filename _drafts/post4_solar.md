@@ -101,10 +101,11 @@ TD{font-family: Arial; font-size: 8pt}
 --->
 </STYLE>
 <table>
-    <col> <colgroup span="3"></colgroup> <colgroup span ="7"></colgroup>
+    <col> <colgroup span="1"></colgroup><colgroup span="3"></colgroup> <colgroup span ="7"></colgroup>
     <tr>
-        <th colspan="3" scope ="colgroup" style="background-color: #D6EEEE">Time of Use</th>
-        <th colspan="7" scope ="colgroup" style="background-color: #D6EEEE">Fixed Rate</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE"></th>
+        <th colspan="3" scope ="colgroup" style="background-color: #D6EEEE">Full Capacity</th>
+        <th colspan="6" scope ="colgroup" style="background-color: #D6EEEE">Actuall Production</th>
     </tr>
     <tr>
         <th scope="col" style="background-color: #D6EEEE">Month</th> 
