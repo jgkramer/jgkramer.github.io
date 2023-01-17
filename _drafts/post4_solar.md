@@ -103,7 +103,6 @@ TD{font-family: Arial; font-size: 8pt}
 <table>
     <col> <colgroup span="3"></colgroup> <colgroup span ="7"></colgroup>
     <tr>
-        <td rowspan="2"></td>
         <th colspan="3" scope ="colgroup" style="background-color: #D6EEEE">Time of Use</th>
         <th colspan="7" scope ="colgroup" style="background-color: #D6EEEE">Fixed Rate</th>
     </tr>
