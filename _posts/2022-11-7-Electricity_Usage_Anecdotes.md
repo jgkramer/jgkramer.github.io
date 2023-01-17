@@ -96,7 +96,7 @@ we likely would have further shifted our air conditioning usage outside of the 1
 <!--
 TH{font-family: Arial; font-size: 8pt}
 TD{font-family: Arial; font-size: 9pt}
-TR{height: 100%}
+TR{height: 70%}
 --->
 </STYLE>
 <table>
