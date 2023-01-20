@@ -7,15 +7,18 @@ excerpt_separator: <!--more-->
 ---
 
 In this post, I use grid-level data to explore a number of real-world considerations that the electricity market must take into account 
-when incorporating utility-scale solar power into the mix of generation.  These include: 
+when incorporating utility-scale solar power into the mix of generation.  This post will explore: 
 
-- The daily alternation between daytime solar generation and nighttime non-generation
-- The annual cycle of higher generation in the summer (longer days / higher sunlight angle) than in the winter (shorter days / lower angle)
-- Reductions in output on days when the weather is cloudy (this can vary by geography)
-- Incorporating this variable profile into the grid where demand for electricity itself fluctuates, but not always in step with solar generation.  
+- **The Difference Between Generating Capacity and Actual Output**: Unlike some sources (e.g., Nuclear, Coal), which when active can more or less always generate electricity at their maximum capacity, solar does not.   
+- **The Daily Cycle**: Solar generates electricity only during the day, contributing from between 7-8 hours in winter to 11-12 hours in summer.  On average this is less than half the day because of minimal generation in the hour just after sunrise or before sunset
+- **The Seasonal Cycle**: Both because of shorter daylight hours and lower solar intensity, 
+- **Impact of Weather**:
+- **Differences in Geography**
 
-The net result of these factors will be manifested in either (1) energy storage requirements and/or (2) having additional generation capacity 
-(e.g., natural gas plants) that can fill in the gaps when solar generaiton is lower.  
+My ultiamte goal is to create a mathematical model of solar energy as a necessarily variable electricity **supply**.   This can then be matched up against 
+the demand for electricity, which itself fluctates.   How the supply and demand fluctuates match up will impact (1) what energy storage may be useful
+in an electricity grid and/or (2) what other sources of generation (e.g., natural gas plants) can fill gaps when solar generation does not match demand
+well. 
 
 <!--more-->
 
