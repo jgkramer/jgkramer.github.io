@@ -167,7 +167,17 @@ TD{font-family: Arial; font-size: 8pt; text-align: center;}
  <td>10,364</td><td>1,383</td><td>7.5</td><td>80.1%<td>15</td><td>11</td><td>2</td><td>3</td>
 </tr></table>
 
-### Other Geographies
+### Different Geographies
+
+
+First chart -- multi-series stacked bar chart.  For each state, monthly bars for "unobstructured capacity" and "2022 actual production".    This will
+show seasonal cycle in cpacity, and also whether weather affects some geographies more than others. 
+
+Next chart - bars of 90+, 60-90, 30-60, 0-30.   Meant to show whether weather is "some days really bad" or not.   in different geographies. 
+
+could do hours per day by differentn states, but that's kinda boring. 
+
+
 
 
 
