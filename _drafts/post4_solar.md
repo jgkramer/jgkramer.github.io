@@ -9,11 +9,11 @@ excerpt_separator: <!--more-->
 In this post, I use grid-level data to explore a number of real-world considerations that the electricity market must take into account 
 when incorporating utility-scale solar power into the mix of generation.  This post will explore: 
 
-- **The Difference Between Generating Capacity and Actual Output**: Unlike some sources (e.g., Nuclear, Coal), which when active can more or less always generate electricity at their maximum capacity, solar does not.   
+- **The Difference Between Generating Capacity and Actual Output**: Unlike some sources (e.g., Nuclear, Coal), which when active can more or less always generate electricity at their maximum capacity, solar does not.  This post will take noisy utility generation data from U.S. regions and use that to both get an estimate of what generation capacity solar generation has at scale, and then see the impact of weather and other factors. 
 - **The Daily Cycle**: Solar generates electricity only during the day, contributing from between 7-8 hours in winter to 11-12 hours in summer.  On average this is less than half the day because of minimal generation in the hour just after sunrise or before sunset
-- **The Seasonal Cycle**: Both because of shorter daylight hours and lower solar intensity, 
+- **The Seasonal Cycle**: Both because of shorter daylight hours and lower solar intensity, solar panels in winter generate meaningfully less juice than in summer.  This post goes into details.
 - **Impact of Weather**:
-- **Differences in Geography**
+- **Differences in Geography**:  While there is some variability across the U.S. in seasonal / the daily cycle, geography also brings climate and weather pattern differences.   I will look at a few solar-heavy U.S. states to see just how big these differences are. 
 
 My ultiamte goal is to create a mathematical model of solar energy as a necessarily variable electricity **supply**.   This can then be matched up against 
 the demand for electricity, which itself fluctates.   How the supply and demand fluctuates match up will impact (1) what energy storage may be useful
