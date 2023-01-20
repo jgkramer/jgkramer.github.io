@@ -94,8 +94,8 @@ February.  The late spring and summer are a bit strange -- although June is a st
 
 <STYLE TYPE="text/css">
 <!--
-TH{font-family: Arial; font-size: 8pt}
-TD{font-family: Arial; font-size: 8pt}
+TH{font-family: Arial; font-size: 8pt; style: "text-align: center"}
+TD{font-family: Arial; font-size: 8pt; style: "text-align: center"}
 --->
 </STYLE>
 <table>
