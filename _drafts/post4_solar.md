@@ -40,27 +40,34 @@ solar generation on too many days, which enables me to get a better picture of i
 ## Ideal Solar Generation: Methodology
 
 My goal is to create a model of solar generation in Nevada to match against electricity demand, which requires a picture of how it fluctuates over 
-hours of the day, and times of the year (daylight hours and sun position).  Because the real-world output in any data set is muddled by weather, my 
+hours of the day, and times of the year (daylight hours and sun position).  
+
+My first simplifying assumption is that maximum solar generation capacity is uniform throughout each calendar month (i.e.,t he day length and angle
+of the sun are consistent within the month).   This is likely to be close to true for winter and summer months (the day length at Copper Mountain, NV
+varies from 9 hours 23 minutes to 9:35 in December and from 15:01 to 15:14 in June), and a less good approximation for spring and fall (March is 11:19
+to 12:37).  
+
+My second task is to 
+Because the real-world output in any data set is muddled by weather, my 
 first step is to strip out this variability and identify the generation capacity of the sytem based on the solar installations that exist in the region. 
 In other words, how much electricity can solar generate if there is perfect weather every day? 
 
+
+
 ![2022](/assets/images/post4_NVPowerDailyChart.png)
+
 
 The chart above shows weather-driven inconsistency in solar generation, even in a desert area.  The noisy blue line is the actual output by day in 2022. 
 The orange line -- which connects the top 5 days of solar output in each month -- could generate a decent estimate for maximum generaiton capacity.  
-But even this 
-
-
-The noisy blue line is the actual generation total by day.   The smoother orange line represents the top 5 days in each month -- which can perhaps better
-estimate 
-
+But the "best days" approach has a potential shortcoming if the most productive solar days in a month still have some overcast periods for a few hours. 
+In the chart above, July (which is monsoon season in the desert southwest and often results in at least partially cloudy days) may have this problem, as
+its generation falls short of what i imagine the smooth curve should look like. 
 
 
 
 
-My simplifying assumptions are that: 
-- Maximum solar generation capacity is uniform throughout each calendar month (i.e., the day length and angle of the sun are consistent)
-    - This is likely close to true for winter and summer months (the day length at Copper Mountain, NV varies from 9h 23m to 9h 35m in December and from 15h 01m to 15h 14m) and a less good approximation for spring and fall (March is 11h 19m to 12h 37m) 
+
+
 - In each month there are at least 5 days of unobstructed generation, from which I can derive a picture of ideal output 
     - While there are periods of clouds and rain in Nevada (in January 2023 there are both from a west coast atmospheric river), the fact that the state is mostly desert makes this a good approximation, even accounting for the fact that there are multiple generation sites with slightly different conditions
 
