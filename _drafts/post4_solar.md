@@ -47,23 +47,16 @@ of the sun are consistent within the month).   This is likely to be close to tru
 varies from 9 hours 23 minutes to 9:35 in December and from 15:01 to 15:14 in June), and a less good approximation for spring and fall (March is 11:19
 to 12:37).  
 
-My second task is to 
-Because the real-world output in any data set is muddled by weather, my 
-first step is to strip out this variability and identify the generation capacity of the sytem based on the solar installations that exist in the region. 
-In other words, how much electricity can solar generate if there is perfect weather every day? 
-
-
+My second task is to try to filter out weather-driven variability to get a sense of what solar generation can produce if there were perfect weather 
+every day. 
 
 ![2022](/assets/images/post4_NVPowerDailyChart.png)
 
-
-The chart above shows weather-driven inconsistency in solar generation, even in a desert area.  The noisy blue line is the actual output by day in 2022. 
-The orange line -- which connects the top 5 days of solar output in each month -- could generate a decent estimate for maximum generaiton capacity.  
-But the "best days" approach has a potential shortcoming if the most productive solar days in a month still have some overcast periods for a few hours. 
-In the chart above, July (which is monsoon season in the desert southwest and often results in at least partially cloudy days) may have this problem, as
-its generation falls short of what i imagine the smooth curve should look like. 
-
-
+The chart above shows how meaningful weather-driven inconsistency is even in a desert area for solar generation.   The noisy blue line is actual 
+output by day in 2022.   The orange line connects the **top 5** days of output in each month, and could be a starting point for estimating 
+maximum generation capacity.   But this approach has the shortcoming that even the best days in a month could still have a couple of hours of cloud 
+cover.  In the chart above, July (which is monsoon season in the desert southwest) may have this problem, as even the orange curve falls short of 
+where one might expect given how May and June look. 
 
 
 
