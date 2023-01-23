@@ -91,6 +91,13 @@ Since peak electricity costs 2.5x the fixed rate, while off-peak reflects only a
 although with several hundred dollars of improvement over the year (about 5%).   If my family had the incentive to save more money in reality,
 we likely would have further shifted our air conditioning usage outside of the 1pm - 7pm window on summer weekdays. 
 
+
+<STYLE TYPE="text/css">
+<!--
+TH{font-family: Arial; font-size: 10pt}
+TD{font-family: Arial; font-size: 10pt}
+--->
+</STYLE>
 <table>
     <col> <colgroup span="3"></colgroup> <colgroup span ="1"></colgroup>
     <tr>
@@ -112,6 +119,7 @@ we likely would have further shifted our air conditioning usage outside of the 1
     </tr>
 </table>
 
+    
 ### Analytical Notes
 
 While this post's analysis is very focused on my own data, the infrastructure developed [here](https://github.com/jgkramer/hummingbird) is quite 

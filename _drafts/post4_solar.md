@@ -7,15 +7,17 @@ excerpt_separator: <!--more-->
 ---
 
 In this post, I use grid-level data to explore a number of real-world considerations that the electricity market must take into account 
-when incorporating utility-scale solar power into the mix of generation.  These include: 
+when incorporating utility-scale solar power into the mix of generation.  This post will explore: 
 
-- The daily alternation between daytime solar generation and nighttime non-generation
-- The annual cycle of higher generation in the summer (longer days / higher sunlight angle) than in the winter (shorter days / lower angle)
-- Reductions in output on days when the weather is cloudy (this can vary by geography)
-- Incorporating this variable profile into the grid where demand for electricity itself fluctuates, but not always in step with solar generation.  
+- **The Difference Between Generating Capacity and Actual Output**: Unlike some sources (e.g., Nuclear, Coal), which when active can more or less always generate electricity at their maximum capacity, solar does not.  This post will take noisy utility generation data from U.S. regions and use that to both get an estimate of what generation capacity solar generation has at scale, and then see the impact of weather and other factors. 
+- **The Daily Cycle**: Solar generates electricity only during the day, contributing from between 7-8 hours in winter to 11-12 hours in summer.  On average this is less than half the day because of minimal generation in the hour just after sunrise or before sunset
+- **The Seasonal Cycle**: Both because of shorter daylight hours and lower solar intensity, solar panels in winter generate meaningfully less juice than in summer.  This post goes into details.
+- **Differences in Geography**:  While there is some variability across the U.S. in seasonal / the daily cycle, geography also brings climate and weather pattern differences.   I will look at a few solar-heavy U.S. states to see just how big these differences are. 
 
-The net result of these factors will be manifested in either (1) energy storage requirements and/or (2) having additional generation capacity 
-(e.g., natural gas plants) that can fill in the gaps when solar generaiton is lower.  
+My ultiamte goal is to create a mathematical model of solar energy as a necessarily variable electricity **supply**.   This can then be matched up against 
+the demand for electricity, which itself fluctates.   How the supply and demand fluctuates match up will impact (1) what energy storage may be useful
+in an electricity grid and/or (2) what other sources of generation (e.g., natural gas plants) can fill gaps when solar generation does not match demand
+well. 
 
 <!--more-->
 
@@ -39,7 +41,22 @@ solar generation on too many days, which enables me to get a better picture of i
 
 My goal is to create a model of solar generation in Nevada to match against electricity demand, which requires a picture of how it fluctuates over 
 hours of the day, and times of the year (daylight hours and sun position).  Because the real-world output in any data set is muddled by weather, my 
-first step is to strip out this variability.  Weather intermittency can be re-added later as a driver of storage needs.
+first step is to strip out this variability and identify the generation capacity of the sytem based on the solar installations that exist in the region. 
+In other words, how much electricity can solar generate if there is perfect weather every day? 
+
+![2022](/assets/images/post4_NVPowerDailyChart.png)
+
+The chart above shows weather-driven inconsistency in solar generation, even in a desert area.  The noisy blue line is the actual output by day in 2022. 
+The orange line -- which connects the top 5 days of solar output in each month -- could generate a decent estimate for maximum generaiton capacity.  
+But even this 
+
+
+The noisy blue line is the actual generation total by day.   The smoother orange line represents the top 5 days in each month -- which can perhaps better
+estimate 
+
+
+
+
 
 My simplifying assumptions are that: 
 - Maximum solar generation capacity is uniform throughout each calendar month (i.e., the day length and angle of the sun are consistent)
@@ -47,7 +64,7 @@ My simplifying assumptions are that:
 - In each month there are at least 5 days of unobstructed generation, from which I can derive a picture of ideal output 
     - While there are periods of clouds and rain in Nevada (in January 2023 there are both from a west coast atmospheric river), the fact that the state is mostly desert makes this a good approximation, even accounting for the fact that there are multiple generation sites with slightly different conditions
 
-![June and December](/assets/images/post4_NVPowerdailychart.png)
+
 
 So for each month I averaged the hourly solar generation of the top-5 days in that month.  The charts for June and December 2022 intuitively show that
 the top-5-dates methodology (represented by the orange lines) indeed seems to capture the "full output" of the solar installations at work.  The days 
@@ -86,4 +103,96 @@ All of this before weather impact.
 
 Next up is the "full capacity" chart (based on the top 5 days of each month) for every month in the year.  
 
-![All months](/assets/images/post4_all_months_hourly.png)
+![All months](/assets/images/post4_NVPower_all_hourly.png)
+
+Some macroscopic patterns are intuitive and symmetrical.   December and January appear to be the lowest production months, followed by November and 
+February.  The late spring and summer are a bit strange -- although June is a strong month, May look even better, and July looks weak compared to April 
+(perhaps because monsoon season brings frequent morning clouds?).
+
+<STYLE TYPE="text/css">
+<!--
+TH{font-family: Arial; font-size: 8pt; text-align: center;}
+TD{font-family: Arial; font-size: 8pt; text-align: center;}
+--->
+</STYLE>
+<table>
+    <col> <colgroup span="1"></colgroup><colgroup span="3"></colgroup><colgroup span ="5"></colgroup>
+    <tr>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE"></th>
+        <th colspan="3" scope ="colgroup" style="background-color: #D6EEEE">Full Capacity</th>
+        <th colspan="5" scope ="colgroup" style="background-color: #D6EEEE">Actual Production</th>
+    </tr>
+    <tr>
+        <th scope="col" style="background-color: #D6EEEE">Month</th> 
+        <th scope="col" style="background-color: #D6EEEE">Daily Generation Capacity (MWh)</th> 
+        <th scope="col" style="background-color: #D6EEEE">Max Hourly Rate (MWh)</th> 
+        <th scope="col" style="background-color: #D6EEEE">Hours of Full Generation</th>
+        <th scope="col" style="background-color: #D6EEEE">% of Full Capacity</th>
+        <th scope="col" style="background-color: #D6EEEE">Days 90%+</th>
+        <th scope="col" style="background-color: #D6EEEE">Days 60-90%</th>
+        <th scope="col" style="background-color: #D6EEEE">Days 30-60%</th>
+        <th scope="col" style="background-color: #D6EEEE">Days 30%-</th>
+    </tr>
+<tr>
+  <th scope="col" style="background-color: #D6EEEE">January</th>
+ <td>10,366</td><td>1,321</td><td>7.8</td><td>86.1%<td>11</td><td>16</td><td>4</td><td>0</td>
+</tr>
+<tr>
+  <th scope="col" style="background-color: #D6EEEE">February</th>
+ <td>14,302</td><td>1,636</td><td>8.7</td><td>88.8%<td>16</td><td>11</td><td>1</td><td>0</td>
+</tr>
+<tr>
+  <th scope="col" style="background-color: #D6EEEE">March</th>
+ <td>16,982</td><td>1,816</td><td>9.4</td><td>88.4%<td>17</td><td>12</td><td>2</td><td>0</td>
+</tr>
+<tr>
+  <th scope="col" style="background-color: #D6EEEE">April</th>
+ <td>19,828</td><td>1,909</td><td>10.4</td><td>92.8%<td>21</td><td>8</td><td>1</td><td>0</td>
+</tr>
+<tr>
+  <th scope="col" style="background-color: #D6EEEE">May</th>
+ <td>21,486</td><td>1,923</td><td>11.2</td><td>94.9%<td>25</td><td>6</td><td>0</td><td>0</td>
+</tr>
+<tr>
+  <th scope="col" style="background-color: #D6EEEE">June</th>
+ <td>21,260</td><td>1,857</td><td>11.4</td><td>92.5%<td>21</td><td>8</td><td>1</td><td>0</td>
+</tr>
+<tr>
+  <th scope="col" style="background-color: #D6EEEE">July</th>
+ <td>19,154</td><td>1,825</td><td>10.5</td><td>90.1%<td>21</td><td>8</td><td>2</td><td>0</td>
+</tr>
+<tr>
+  <th scope="col" style="background-color: #D6EEEE">August</th>
+ <td>18,806</td><td>1,825</td><td>10.3</td><td>88.7%<td>18</td><td>11</td><td>2</td><td>0</td>
+</tr>
+<tr>
+  <th scope="col" style="background-color: #D6EEEE">September</th>
+ <td>18,086</td><td>1,807</td><td>10.0</td><td>92.0%<td>23</td><td>5</td><td>2</td><td>0</td>
+</tr>
+<tr>
+  <th scope="col" style="background-color: #D6EEEE">October</th>
+ <td>16,148</td><td>1,760</td><td>9.2</td><td>92.2%<td>21</td><td>10</td><td>0</td><td>0</td>
+</tr>
+<tr>
+  <th scope="col" style="background-color: #D6EEEE">November</th>
+ <td>13,698</td><td>1,666</td><td>8.2</td><td>86.0%<td>16</td><td>11</td><td>2</td><td>1</td>
+</tr>
+<tr>
+  <th scope="col" style="background-color: #D6EEEE">December</th>
+ <td>10,364</td><td>1,383</td><td>7.5</td><td>80.1%<td>15</td><td>11</td><td>2</td><td>3</td>
+</tr></table>
+
+### Different Geographies
+
+
+First chart -- multi-series stacked bar chart.  For each state, monthly bars for "unobstructured capacity" and "2022 actual production".    This will
+show seasonal cycle in cpacity, and also whether weather affects some geographies more than others. 
+
+Next chart - bars of 90+, 60-90, 30-60, 0-30.   Meant to show whether weather is "some days really bad" or not.   in different geographies. 
+
+could do hours per day by differentn states, but that's kinda boring. 
+
+
+
+
+
