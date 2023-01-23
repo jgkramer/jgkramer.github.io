@@ -41,7 +41,22 @@ solar generation on too many days, which enables me to get a better picture of i
 
 My goal is to create a model of solar generation in Nevada to match against electricity demand, which requires a picture of how it fluctuates over 
 hours of the day, and times of the year (daylight hours and sun position).  Because the real-world output in any data set is muddled by weather, my 
-first step is to strip out this variability.  Weather intermittency can be re-added later as a driver of storage needs.
+first step is to strip out this variability and identify the generation capacity of the sytem based on the solar installations that exist in the region. 
+In other words, how much electricity can solar generate if there is perfect weather every day? 
+
+![2022](/assets/images/post4_NVPowerDailyChart.png)
+
+The chart above shows weather-driven inconsistency in solar generation, even in a desert area.  The noisy blue line is the actual output by day in 2022. 
+The orange line -- which connects the top 5 days of solar output in each month -- could generate a decent estimate for maximum generaiton capacity.  
+But even this 
+
+
+The noisy blue line is the actual generation total by day.   The smoother orange line represents the top 5 days in each month -- which can perhaps better
+estimate 
+
+
+
+
 
 My simplifying assumptions are that: 
 - Maximum solar generation capacity is uniform throughout each calendar month (i.e., the day length and angle of the sun are consistent)
@@ -49,7 +64,7 @@ My simplifying assumptions are that:
 - In each month there are at least 5 days of unobstructed generation, from which I can derive a picture of ideal output 
     - While there are periods of clouds and rain in Nevada (in January 2023 there are both from a west coast atmospheric river), the fact that the state is mostly desert makes this a good approximation, even accounting for the fact that there are multiple generation sites with slightly different conditions
 
-![June and December](/assets/images/post4_NVPowerdailychart.png)
+
 
 So for each month I averaged the hourly solar generation of the top-5 days in that month.  The charts for June and December 2022 intuitively show that
 the top-5-dates methodology (represented by the orange lines) indeed seems to capture the "full output" of the solar installations at work.  The days 
