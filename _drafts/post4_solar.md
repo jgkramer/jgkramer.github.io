@@ -34,9 +34,9 @@ The chart also shows how on some days, solar generation is weak, implying that n
 
 <img src="/assets/images/post4_generation_sample.png"  width="70%" height="70%">
 
-In much of this post I focus my efforts of the region of Nevada where the balancing authority is NV Power.  This is geographically the majority 
-of the state but excludes the area around Las Vegas itself.  I choose this region because it is mostly desert, and so weather should not obstruct
-solar generation on too many days, which enables me to get a better picture of idealized / unobstructed solar productivity.
+In much of this post I focus my efforts on the Nevada balancing authority, Nevada Power.  I choose this region because it is mostly desert, 
+and so weather should not obstruct solar generation on too many days, which enables me to get a better picture of idealized / unobstructed 
+solar productivity.
 
 ## Ideal Solar Generation: Methodology
 
@@ -44,9 +44,9 @@ My goal is to create a model of solar generation in Nevada to match against elec
 hours of the day, and times of the year (daylight hours and sun position).  
 
 My first simplifying assumption is that maximum solar generation capacity is uniform throughout each calendar month (i.e.,t he day length and angle
-of the sun are consistent within the month).   This is likely to be close to true for winter and summer months (the day length at Copper Mountain, NV
-varies from 9 hours 23 minutes to 9:35 in December and from 15:01 to 15:14 in June), and a less good approximation for spring and fall (March is 11:19
-to 12:37).  
+of the sun are consistent within the month).   This is likely to be close to true for winter and summer months (the day length at Boulder City, NV
+varies from 9 hours 42 minutes to 9:53 in December and from 14:26 to 15:36 in June), and a less good approximation for spring and fall (March is 11:25
+to 12:33).  
 
 My second task is to try to filter out weather-driven variability to get a sense of what solar generation can produce if there were perfect weather 
 every day. 
