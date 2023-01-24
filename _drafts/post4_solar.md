@@ -55,8 +55,9 @@ every day.
 The chart above shows how meaningful weather-driven inconsistency is even in a desert area for solar generation.   The noisy blue line is actual 
 output by day in 2022.   The orange line connects the **top 5** days of output in each month, and could be a starting point for estimating 
 maximum generation capacity.   But this approach has the shortcoming that even the best days in a month could still have a couple of hours of cloud 
-cover.  In the chart above, July (which is monsoon season in the desert southwest) may have this problem, as even the orange curve falls short of 
-where one might expect given how May and June look. 
+cover and so still systematically understate solar capacity in that month.   In the chart above, July and August (monsoon season in the desert 
+southwest with frequent clouds and even rain) may have this problem, as even the orange curve falls short of where I expect given the levels of 
+April through June. 
 
 
 
