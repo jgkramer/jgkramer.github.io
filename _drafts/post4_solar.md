@@ -29,7 +29,8 @@ has hourly granularity by region on a number of variables.  These include total 
 natural gas, solar, wind).  
 
 An example of the latter is shown below, which shows the daily generation cycle of solar, days where power output is 
-lower due to weather, and how natural gas plants are ramped up and down to offset the solar generation cycle. 
+lower due to weather, and how natural gas plants are ramped up and down each day to offset the solar generation cycle.   
+The chart also shows how on some days, solar generation is weak, implying that natural gas production doesn't ramp down as much. 
 
 <img src="/assets/images/post4_generation_sample.png"  width="70%" height="70%">
 
