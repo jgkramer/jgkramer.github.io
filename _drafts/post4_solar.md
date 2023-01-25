@@ -54,13 +54,19 @@ every day.
 ![2022](/assets/images/post4_NVPowerDailyChart.png)
 
 The chart above shows how meaningful weather-driven inconsistency is even in a desert area for solar generation.   The noisy blue line is actual 
-output by day in 2022.   The orange line connects the **top 5** days of output in each month, and could be a starting point for estimating 
+output by day in 2022.   The orange line connects the **top 3** days of output in each month, and could be a starting point for estimating 
 maximum generation capacity.   But this approach has the shortcoming that even the best days in a month could still have a couple of hours of cloud 
 cover and so still systematically understate solar capacity in that month.   In the chart above, July and August (monsoon season in the desert 
 southwest with frequent clouds and even rain) may have this problem, as even the orange curve falls short of where I expect given the levels of 
 April through June. 
 
+A more robust approach is, for each of the 24 hours in the day, to find the instances where solar generation during **that hour** was among the top 3
+of generation in that specific time slot.  If one day has morning clouds and afternoon sun, while a second day has morning sun and afternoon clouds, 
+I can compute the solar generation capacity in the period using the first day's afternoon hours and the second day's morning hours. 
 
+Here's what happens in July 2022 using the two alternative approaches: 
+
+![July 2022](/assets/images/post4_NVPowerJulyDays.png)
 
 
 - In each month there are at least 5 days of unobstructed generation, from which I can derive a picture of ideal output 
