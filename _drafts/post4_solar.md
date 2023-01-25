@@ -75,9 +75,9 @@ Taking the best 3 complete days results in a capacity estimate of 20,200 MWh, wi
 avoid the early-July days).   Taking the best 3 hours for each hourly slot increases this to 21,500 MWh -- 6% higher and much more likely a more 
 complete picture of what generation could be in July.
 
-## Contributors to Differential Solar Capacity Throughout the Year
+## Maximum Solar Capacity in Summer vs. Winter
 
-[June and December pictures]
+December. 
 
 
 The intraday generation results for June are below: 
