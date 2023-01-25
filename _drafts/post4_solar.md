@@ -68,6 +68,9 @@ Here's what happens in July 2022 using the two alternative approaches:
 
 ![July 2022](/assets/images/post4_NVPowerJulyDays.png)
 
+Deriving July capacity for each hour of the day by taking the best 3 hours in that time slot throughout the month (mixing and matching days) does indeed
+produce a more complete estimate of solar utility capacity.   Visible from the 
+
 
 - In each month there are at least 5 days of unobstructed generation, from which I can derive a picture of ideal output 
     - While there are periods of clouds and rain in Nevada (in January 2023 there are both from a west coast atmospheric river), the fact that the state is mostly desert makes this a good approximation, even accounting for the fact that there are multiple generation sites with slightly different conditions
@@ -81,6 +84,8 @@ where the blue line dips materially are filtered out.
 The intraday generation results for June are below: 
 
 ![June by Hour](/assets/images/post4_month6_hourly.png)
+
+
 
 A full June day's worth of generation in this region is ~21,300 MWh, roughly 11.4 hours worth of the maximum output of 1,860 MWh.  In terms of 
 actual production hours -- there are 14 hour slots in the day with at least 10% of max production, and 11 hours of full or mostly-full capacity (60% 
