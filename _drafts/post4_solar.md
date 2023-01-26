@@ -91,6 +91,7 @@ per day as in the summer, for two reasons.
 
 [^1] All times have converted to Standard Time for comparability, which is why the sunset time in June may seem early for those used to Daylight Savings time. 
 
+
 <STYLE TYPE="text/css">
 <!--
 TH{font-family: Arial; font-size: 8pt; text-align: center;}
@@ -116,63 +117,25 @@ TD{font-family: Arial; font-size: 8pt; text-align: center;}
 <tr>
   <th scope="col" style="background-color: #D6EEEE">December</th>
  <td>11,689</td><td>1,505</td><td>9</td><td>7.8</td></tr>
+<tr>
+<th scope="col" style="background-color: #D6EEEE">24h of Max. Output</th>/n<td>47,176</td> <td>1,966</td><td>-</td><td>-</td></tr>    
 </table>
 
-A few minor observations: first, not too much power generation is lost due to the sun being low in the sky in the early morning or late evening.   
-You can see this from the fact that the lines above jump pretty quickly from zero before sunset, to almost full capacity in an hour or two (also, 
-the number of active hours [^2] is not that much higher than the number of equivalent hours at max generation).   Second, 
+Finally, I include as a reference the final line as the maximum physical capacity of the solar panels constituting Nevada's solar utility installations. 
+Treating the highest generation of any hour in the year as the physical output (in megawatts) assuming full ideal sun, the panels could physically 
+generate 47,000 MWh in a 24-hour period.  While it is impossible to expect any solar utility to reach even half of this level (the sun doesn't shine
+at night), it is still a useful benchmark because we can measure all other outputs against this quantity.   Even before taking into account weather, it
+may be that some geographies are better at taking a fixed capital input (a solar panel) and converting it into electricity due to day lengths, 
+angles of the sun and permanent obstructions like mountains or nearby forests.  
 
-[^2] I define this as the number of hours for which the capacity is at least 10% of maximum. 
+This is akin to asking (for example) whether a 1 kW rooftop solar installation can expect to generate 500, 1,500 or 3,000 kWh in a year at your location
+(given 8,760 hours in a year). 
 
-![December by Hour](/assets/images/post4_month12_hourly.png)
 
-A full December day's worth of generation in this region is ~10,400 MWh, roughly 7.5 hours worth of the maximum output of 1,383 MWh.   In terms of 
-actual production hours -- 9 had at least 10% power and 7 had at least 60% or better.   So of the 9.5 hours of December daylight, 2 were lost.
-The weather impact appears to have been much harsher in December.  Average productivity across all days was ~8,300 MWh, a decrease of 20% from 
-full capacity. 
+## Putting it All Together
 
-Since these two months are the bookends of the year from a sun perspective, note that December's solar productivity was roughly **half** that of June. 
-THis was driven both by the reduced hours of power generation (December at 66% of June) and reduced "maximum" generation when the sun was at its 
-highest (December at 74% of June).
 
-Another way of expressing this is as a capacity factor: in peak summer, one can say that utility-scale solar is working **half** the time on good 
-days (11.5 hours of full power).   In the darkest winter, the output is halved again, and is working at only a **quarter** of its physical capacity.  
-All of this before weather impact. 
 
-## Ideal Solar Generation: Full Year Results
-
-Some macroscopic patterns are intuitive and symmetrical.   December and January appear to be the lowest production months, followed by November and 
-February.  The late spring and summer are a bit strange -- although June is a strong month, May look even better, and July looks weak compared to April 
-(perhaps because monsoon season brings frequent morning clouds?).
-
-<STYLE TYPE="text/css">
-<!--
-TH{font-family: Arial; font-size: 8pt; text-align: center;}
-TD{font-family: Arial; font-size: 8pt; text-align: center;}
---->
-</STYLE>
-<table>
-    <col> <colgroup span="1"></colgroup><colgroup span="4"></colgroup>
-    <tr>
-        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE"></th>
-        <th colspan="4" scope ="colgroup" style="background-color: #D6EEEE">Full Capacity</th>
-    </tr>
-    <tr>
-        <th scope="col" style="background-color: #D6EEEE">Month</th> 
-        <th scope="col" style="background-color: #D6EEEE">Daily Generation Capacity (MWh)</th> 
-        <th scope="col" style="background-color: #D6EEEE">Max Hourly Rate (MWh)</th> 
-        <th scope="col" style="background-color: #D6EEEE">Number of Active Hours</th> 
-        <th scope="col" style="background-color: #D6EEEE">Equiv. Full Hours</th>
-        <th
-    </tr>
-<tr>
-  <th scope="col" style="background-color: #D6EEEE">December</th>
- <td>22,515</td><td>1,952</td><td>11.5</td>
-    </tr>
-<tr>
-  <th scope="col" style="background-color: #D6EEEE">December</th>
- <td>11,689</td><td>1,505</td><td>7.8</td>
-</tr></table>
 
 ### Different Geographies
 
