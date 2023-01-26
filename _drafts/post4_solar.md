@@ -94,8 +94,8 @@ per day as in the summer, for two reasons.
 
 <STYLE TYPE="text/css">
 <!--
-TH{font-family: Arial; font-size: 8pt; text-align: center;}
-TD{font-family: Arial; font-size: 8pt; text-align: center;}
+TH{font-family: Arial; font-size: 9pt; text-align: center;}
+TD{font-family: Arial; font-size: 9pt; text-align: center;}
 --->
 </STYLE>
 <table>
