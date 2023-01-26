@@ -89,6 +89,8 @@ per day as in the summer, for two reasons.
 
 2. There are more hours in the day where the sun is shining.   In June, generation runs from the 5-6am slot until the 6-7pm slot.[^1].  Contrast December, where generation runs from the 7-8am hour until the 3-4pm hour.  Both of these stats are in-line with the length of daylight hours in the summer and winter outlined above (15+ and 9+). 
 
+[^1] All times have converted to Standard Time for comparability, which is why the sunset time in June may seem early for those used to Daylight Savings time. 
+
 <STYLE TYPE="text/css">
 <!--
 TH{font-family: Arial; font-size: 8pt; text-align: center;}
@@ -116,21 +118,11 @@ TD{font-family: Arial; font-size: 8pt; text-align: center;}
  <td>11,689</td><td>1,505</td><td>9</td><td>7.8</td></tr>
 </table>
 
-The intraday generation results for June are below: 
+A few minor observations: first, not too much power generation is lost due to the sun being low in the sky in the early morning or late evening.   
+You can see this from the fact that the lines above jump pretty quickly from zero before sunset, to almost full capacity in an hour or two (also, 
+the number of active hours [^2] is not that much higher than the number of equivalent hours at max generation).   Second, 
 
-![June by Hour](/assets/images/post4_month6_hourly.png)
-
-
-
-A full June day's worth of generation in this region is ~21,300 MWh, roughly 11.4 hours worth of the maximum output of 1,860 MWh.  In terms of 
-actual production hours -- there are 14 hour slots in the day with at least 10% of max production, and 11 hours of full or mostly-full capacity (60% 
-or better).  Of the 15 hours of daylight in June, about 3 of them are "lost" to the sun being too low in the sky to generate meaningful power.
-
-By comparison, the average productivity across all days in June 2022 was ~19,700 MWh, meaning that weather (or other outages) reduced output
-by 7.5%.  It matters to achieving reliability and the cost of energy storage needed to offset intermittency whether this was caused by a large number of 
-medium-output days, or a smaller number of days with very low generation, and we'll look at this data in the next section. 
-
-This chart shows the same exercise for December, the winter solstice month.
+[^2] I define this as the number of hours for which the capacity is at least 10% of maximum. 
 
 ![December by Hour](/assets/images/post4_month12_hourly.png)
 
@@ -194,7 +186,6 @@ could do hours per day by differentn states, but that's kinda boring.
 
 
 
-[^1] All times have converted to Standard Time for comparability, which is why the sunset time in June may seem early for those used to Daylight Savings time. 
 
 
 
