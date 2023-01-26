@@ -123,29 +123,21 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
 
 Finally, I include the final line above as an estimate maximum physical capacity of the solar panels constituting Nevada's solar utility installations. 
 Treating the highest generation of any hour in the year as the physical output (in megawatts) assuming full ideal sun at the best angle, the panels 
-could physically generate 47,000 MWh in a 24-hour period.  While it is impossible to expect any solar utility to reach even half of this level (the sun 
-doesn't shine at night), it is still a useful benchmark because we can measure all other outputs against this quantity.  Even before taking into account 
-weather, it may be that some geographies are better at taking a fixed capital input (a solar panel) and converting it into electricity due to day lengths, 
-angles of the sun and permanent obstructions like mountains or nearby forests.  
+could physically generate 47,000 MWh in a 24-hour period.  By this standard, in June, Nevada's best-case solar generation (before weather) is 48% of the
+physical capacity of the panels.   In December, it is 25%.  
 
-This is akin to asking (for example) whether a 1 kW rooftop solar installation can expect to generate 500, 1,000 or 2,000 kWh in a year at your location
-(given 8,760 hours in a year). 
+While it is impossible to expect any solar utility to reach even half of this level (the sun doesn't shine at night), it is still a useful benchmark
+because we can measure all other outputs against this quantity.  Even before taking into account weather, it may be that some geographies are better at 
+taking a fixed capital input (a solar panel) and converting it into electricity due to day lengths, angles of the sun and permanent obstructions like 
+mountains or nearby forests.
 
 ## Putting it All Together
 
+We are finally equipped to 
 
 
 
 ### Different Geographies
-
-
-First chart -- multi-series stacked bar chart.  For each state, monthly bars for "unobstructured capacity" and "2022 actual production".    This will
-show seasonal cycle in cpacity, and also whether weather affects some geographies more than others. 
-
-Next chart - bars of 90+, 60-90, 30-60, 0-30.   Meant to show whether weather is "some days really bad" or not.   in different geographies. 
-
-could do hours per day by differentn states, but that's kinda boring. 
-
 
 
 
