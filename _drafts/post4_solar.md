@@ -83,7 +83,7 @@ ignoring weather obstructions or other outages.
 ![All months](/assets/images/post4_NVPower_all_hourly.png)
 
 There are two key patterns to note: compared to the summer months, solar generation in the winter can only generate about **half as much** electricity
-per day as in the summer. 
+per day as in the summer, for two reasons.  
 
 1. There are more hours in the day where the sun is shining.   In June, generation covers 13 hours: starting from the 5-6am slot and ending in the 6-7pm slot.[^1].  Contrast December, where generation runs about 8 hours: from the 7-8am hour until the 3-4pm hour.  
 
