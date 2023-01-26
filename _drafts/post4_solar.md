@@ -114,12 +114,12 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
     </tr>
 <tr>
   <th scope="col" style="background-color: #D6EEEE">June</th>
- <td>22,515</td><td>1,952</td><td>14</td><td>11.5</td></tr>
+ <td>22,515</td><td>1,952</td><td>14</td><td>11.5</td><td>11.5</td></tr>
 <tr>
   <th scope="col" style="background-color: #D6EEEE">December</th>
- <td>11,689</td><td>1,505</td><td>9</td><td>7.8</td></tr>
+ <td>11,689</td><td>1,505</td><td>9</td><td>7.8</td><td>5.9</td></tr>
 <tr>
-<th scope="col" style="background-color: #D6EEEE">24h Full Output</th>/n<td>47,176</td> <td>1,966</td><td>-</td><td>-</td></tr>    
+<th scope="col" style="background-color: #D6EEEE">24h of Max. Summer Sun</th>/n<td>47,176</td> <td>1,966</td><td>-</td><td>-</td><td>24</td></tr>
 </table>
 
 Finally, I include the final line above as an estimate maximum physical capacity of the solar panels constituting Nevada's solar utility installations. 
