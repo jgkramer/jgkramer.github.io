@@ -99,17 +99,18 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
 --->
 </STYLE>
 <table>
-    <col> <colgroup span="1"></colgroup><colgroup span="4"></colgroup>
+    <col> <colgroup span="1"></colgroup><colgroup span="5"></colgroup>
     <tr>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE"></th>
-        <th colspan="4" scope ="colgroup" style="background-color: #D6EEEE">Full Capacity</th>
+        <th colspan="5" scope ="colgroup" style="background-color: #D6EEEE">Full Capacity</th>
     </tr>
     <tr>
         <th scope="col" style="background-color: #D6EEEE">Month</th> 
         <th scope="col" style="background-color: #D6EEEE">Daily Generation Capacity (MWh)</th> 
-        <th scope="col" style="background-color: #D6EEEE">Max Hourly Rate (MWh)</th>
+        <th scope="col" style="background-color: #D6EEEE">Monthly Peak Hour (MWh)</th>
         <th scope="col" style="background-color: #D6EEEE">Hours Active per Day</th>
-        <th scope="col" style="background-color: #D6EEEE">Equiv. Hours of Max Power</th>
+        <th scope="col" style="background-color: #D6EEEE">Equiv. Hours @ Monthly Peak</th>
+        <th scope="col" ="background-color: #D6EEEE">Equiv. Hours @ Maximum Physical Output</th>
     </tr>
 <tr>
   <th scope="col" style="background-color: #D6EEEE">June</th>
@@ -123,8 +124,7 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
 
 Finally, I include the final line above as an estimate maximum physical capacity of the solar panels constituting Nevada's solar utility installations. 
 Treating the highest generation of any hour in the year as the physical output (in megawatts) assuming full ideal sun at the best angle, the panels 
-could physically generate 47,000 MWh in a 24-hour period.  By this standard, in June, Nevada's best-case solar generation (before weather) is 48% of the
-physical capacity of the panels.   In December, it is 25%.  
+could physically generate 47,000 MWh in a 24-hour period.  By this standard, in June, Nevada's best-case solar generation (before weather) is 48% of the physical capacity of the panels.   In December, it is 25%.  
 
 While it is impossible to expect any solar utility to reach even half of this level (the sun doesn't shine at night), it is still a useful benchmark
 because we can measure all other outputs against this quantity.  Even before taking into account weather, it may be that some geographies are better at 
@@ -136,6 +136,7 @@ mountains or nearby forests.
 We are finally equipped to paint a full year picture of the ebbs and flows of solar generation in Nevada: starting with a top line (unrealizable) 
 benchmark of the full capacity of the plants, we will see how much of that benchmark is produced and when, taking into account (1) daily cycles, (2) 
 seasonal cycles and (3) weather, to reach actual production. 
+
 
 [line chart...flat line in each month of max 24h, then series one for "model" daily output, then actual average output.]
 
