@@ -133,11 +133,13 @@ mountains or nearby forests.
 
 ## Putting it All Together
 
-We are finally equipped to 
+We are finally equipped to paint a full year picture of the ebbs and flows of solar generation in Nevada: starting with a top line (unrealizable) 
+benchmark of the full capacity of the plants, we will see how much of that benchmark is produced and when, taking into account (1) daily cycles, (2) 
+seasonal cycles and (3) weather, to reach actual production. 
 
+[line chart...flat line in each month of max 24h, then series one for "model" daily output, then actual average output.]
 
-
-### Different Geographies
+### Exploring Different Geographies
 
 
 
