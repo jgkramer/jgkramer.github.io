@@ -87,8 +87,33 @@ because:
 
 1. There are more hours in the day where the sun is shining.   In June, generation covers 13 hours: starting from the 5-6am slot and ending in the 6-7pm slot.[^1].  Contrast December, where generation runs about 8 hours: from the 7-8am hour until the 3-4pm hour.  
 
-2. The maximum generation per hour is **higher in the summer**: presumably due to the higher angle of the sun in the sky 
+2. The maximum generation per hour is **higher in the summer**: presumably due to the higher angle of the sun in the sky. 
 
+<STYLE TYPE="text/css">
+<!--
+TH{font-family: Arial; font-size: 8pt; text-align: center;}
+TD{font-family: Arial; font-size: 8pt; text-align: center;}
+--->
+</STYLE>
+<table>
+    <col> <colgroup span="1"></colgroup><colgroup span="3"></colgroup>
+    <tr>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE"></th>
+        <th colspan="3" scope ="colgroup" style="background-color: #D6EEEE">Full Capacity</th>
+    </tr>
+    <tr>
+        <th scope="col" style="background-color: #D6EEEE">Month</th> 
+        <th scope="col" style="background-color: #D6EEEE">Daily Generation Capacity (MWh)</th> 
+        <th scope="col" style="background-color: #D6EEEE">Max Hourly Rate (MWh)</th> 
+        <th scope="col" style="background-color: #D6EEEE">Hours of Full Generation</th>
+    </tr>
+<tr>
+  <th scope="col" style="background-color: #D6EEEE">June</th>
+ <td>22,515</td><td>1,952</td><td>11.5</td></tr>
+<tr>
+  <th scope="col" style="background-color: #D6EEEE">December</th>
+ <td>11,689</td><td>1,505</td><td>7.8</td></tr>
+</table>
 
 The intraday generation results for June are below: 
 
