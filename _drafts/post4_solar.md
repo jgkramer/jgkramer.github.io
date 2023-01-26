@@ -14,10 +14,10 @@ when incorporating utility-scale solar power into the mix of generation.  This p
 - **The Seasonal Cycle**: Both because of shorter daylight hours and lower solar intensity, solar panels in winter generate meaningfully less juice than in summer.  This post goes into details.
 - **Differences in Geography**:  While there is some variability across the U.S. in seasonal / the daily cycle, geography also brings climate and weather pattern differences.   I will look at a few solar-heavy U.S. states to see just how big these differences are. 
 
-My ultiamte goal is to create a mathematical model of solar energy as a necessarily variable electricity **supply**.   This can then be matched up against 
-the demand for electricity, which itself fluctates.   How the supply and demand fluctuates match up will impact (1) what energy storage may be useful
-in an electricity grid and/or (2) what other sources of generation (e.g., natural gas plants) can fill gaps when solar generation does not match demand
-well. 
+I have two goals.  The first is to provide real data that concretely fleshes out some of the features of solar generation that are often qualitatively
+addressed in much energy commentary (e.g., intermittency).   The second is to start generating a mathematical model of solar energy as a variable 
+electricity **supply**.  This can then be matched up against fluctuating **demand** for electricity.   How the supply and demand flucutations interact can 
+generate other interesting outputs such as (1) how much energy storage is useful in the grid and/or (2) what other sources of generation (e.g., natural gas) may be needed to fill gaps. 
 
 <!--more-->
 
