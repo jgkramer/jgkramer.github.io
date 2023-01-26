@@ -75,9 +75,19 @@ Taking the best 3 complete days results in a capacity estimate of 20,200 MWh, wi
 avoid the early-July days).   Taking the best 3 hours for each hourly slot increases this to 21,500 MWh -- 6% higher and much more likely a more 
 complete picture of what generation could be in July.
 
-## Maximum Solar Capacity in Summer vs. Winter
+## Seasonality of Ideal Solar Generation 
 
-December. 
+I apply this same methodology to every month of the year, and the result is the following "ideal" solar generation in Nevada for each month of the year,
+ignoring weather obstructions or other outages. 
+
+![All months](/assets/images/post4_NVPower_all_hourly.png)
+
+There are two key patterns to note: compared to the winter months, solar in the summer can generate much more electricity than in the winter, **both**
+because: 
+
+1. There are more hours in the day where the sun is shining.   In June, generation covers 13 hours: starting from the 5-6am slot and ending in the 6-7pm slot.[^1].  Contrast December, where generation runs about 8 hours: from the 7-8am hour until the 3-4pm hour.  
+
+2. The maximum generation per hour is **higher in the summer**: presumably due to the higher angle of the sun in the sky 
 
 
 The intraday generation results for June are below: 
@@ -113,9 +123,6 @@ All of this before weather impact.
 
 ## Ideal Solar Generation: Full Year Results
 
-Next up is the "full capacity" chart (based on the top 5 days of each month) for every month in the year.  
-
-![All months](/assets/images/post4_NVPower_all_hourly.png)
 
 Some macroscopic patterns are intuitive and symmetrical.   December and January appear to be the lowest production months, followed by November and 
 February.  The late spring and summer are a bit strange -- although June is a strong month, May look even better, and July looks weak compared to April 
@@ -132,66 +139,20 @@ TD{font-family: Arial; font-size: 8pt; text-align: center;}
     <tr>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE"></th>
         <th colspan="3" scope ="colgroup" style="background-color: #D6EEEE">Full Capacity</th>
-        <th colspan="5" scope ="colgroup" style="background-color: #D6EEEE">Actual Production</th>
     </tr>
     <tr>
         <th scope="col" style="background-color: #D6EEEE">Month</th> 
         <th scope="col" style="background-color: #D6EEEE">Daily Generation Capacity (MWh)</th> 
         <th scope="col" style="background-color: #D6EEEE">Max Hourly Rate (MWh)</th> 
         <th scope="col" style="background-color: #D6EEEE">Hours of Full Generation</th>
-        <th scope="col" style="background-color: #D6EEEE">% of Full Capacity</th>
-        <th scope="col" style="background-color: #D6EEEE">Days 90%+</th>
-        <th scope="col" style="background-color: #D6EEEE">Days 60-90%</th>
-        <th scope="col" style="background-color: #D6EEEE">Days 30-60%</th>
-        <th scope="col" style="background-color: #D6EEEE">Days 30%-</th>
     </tr>
 <tr>
-  <th scope="col" style="background-color: #D6EEEE">January</th>
- <td>11,704</td><td>1,429</td><td>8.2</td><td>76.3%<td>7</td><td>19</td><td>5</td><td>0</td>
-</tr>
-<tr>
-  <th scope="col" style="background-color: #D6EEEE">February</th>
- <td>15,404</td><td>1,753</td><td>8.8</td><td>82.4%<td>7</td><td>20</td><td>1</td><td>0</td>
-</tr>
-<tr>
-  <th scope="col" style="background-color: #D6EEEE">March</th>
- <td>18,204</td><td>1,913</td><td>9.5</td><td>82.5%<td>10</td><td>18</td><td>3</td><td>0</td>
-</tr>
-<tr>
-  <th scope="col" style="background-color: #D6EEEE">April</th>
- <td>20,482</td><td>1,931</td><td>10.6</td><td>89.8%<td>19</td><td>10</td><td>1</td><td>0</td>
-</tr>
-<tr>
-  <th scope="col" style="background-color: #D6EEEE">May</th>
- <td>22,088</td><td>1,944</td><td>11.4</td><td>92.3%<td>23</td><td>8</td><td>0</td><td>0</td>
-</tr>
-<tr>
-  <th scope="col" style="background-color: #D6EEEE">June</th>
- <td>21,956</td><td>1,906</td><td>11.5</td><td>89.5%<td>19</td><td>10</td><td>1</td><td>0</td>
-</tr>
-<tr>
-  <th scope="col" style="background-color: #D6EEEE">July</th>
- <td>19,925</td><td>1,842</td><td>10.8</td><td>86.6%<td>19</td><td>10</td><td>2</td><td>0</td>
-</tr>
-<tr>
-  <th scope="col" style="background-color: #D6EEEE">August</th>
- <td>19,848</td><td>1,872</td><td>10.6</td><td>84.1%<td>14</td><td>15</td><td>2</td><td>0</td>
-</tr>
-<tr>
-  <th scope="col" style="background-color: #D6EEEE">September</th>
- <td>18,765</td><td>1,855</td><td>10.1</td><td>88.7%<td>18</td><td>10</td><td>2</td><td>0</td>
-</tr>
-<tr>
-  <th scope="col" style="background-color: #D6EEEE">October</th>
- <td>17,114</td><td>1,810</td><td>9.5</td><td>87.0%<td>13</td><td>17</td><td>1</td><td>0</td>
-</tr>
-<tr>
-  <th scope="col" style="background-color: #D6EEEE">November</th>
- <td>14,393</td><td>1,731</td><td>8.3</td><td>81.9%<td>11</td><td>15</td><td>3</td><td>1</td>
-</tr>
+  <th scope="col" style="background-color: #D6EEEE">December</th>
+ <td>22,515</td><td>1,952</td><td>11.5</td>
+    </tr>
 <tr>
   <th scope="col" style="background-color: #D6EEEE">December</th>
- <td>11,027</td><td>1,447</td><td>7.6</td><td>75.3%<td>11</td><td>14</td><td>3</td><td>3</td>
+ <td>11,689</td><td>1,505</td><td>7.8</td>
 </tr></table>
 
 ### Different Geographies
@@ -205,6 +166,8 @@ Next chart - bars of 90+, 60-90, 30-60, 0-30.   Meant to show whether weather is
 could do hours per day by differentn states, but that's kinda boring. 
 
 
+
+[^1] All times have converted to Standard Time for comparability, which is why the sunset time in June may seem early for those used to Daylight Savings time. 
 
 
 
