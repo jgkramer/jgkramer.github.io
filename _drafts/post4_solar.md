@@ -118,19 +118,18 @@ TD{font-family: Arial; font-size: 8pt; text-align: center;}
   <th scope="col" style="background-color: #D6EEEE">December</th>
  <td>11,689</td><td>1,505</td><td>9</td><td>7.8</td></tr>
 <tr>
-<th scope="col" style="background-color: #D6EEEE">24h of Max. Output</th>/n<td>47,176</td> <td>1,966</td><td>-</td><td>-</td></tr>    
+<th scope="col" style="background-color: #D6EEEE">24h Full Output</th>/n<td>47,176</td> <td>1,966</td><td>-</td><td>-</td></tr>    
 </table>
 
-Finally, I include as a reference the final line as the maximum physical capacity of the solar panels constituting Nevada's solar utility installations. 
-Treating the highest generation of any hour in the year as the physical output (in megawatts) assuming full ideal sun, the panels could physically 
-generate 47,000 MWh in a 24-hour period.  While it is impossible to expect any solar utility to reach even half of this level (the sun doesn't shine
-at night), it is still a useful benchmark because we can measure all other outputs against this quantity.   Even before taking into account weather, it
-may be that some geographies are better at taking a fixed capital input (a solar panel) and converting it into electricity due to day lengths, 
+Finally, I include the final line above as an estimate maximum physical capacity of the solar panels constituting Nevada's solar utility installations. 
+Treating the highest generation of any hour in the year as the physical output (in megawatts) assuming full ideal sun at the best angle, the panels 
+could physically generate 47,000 MWh in a 24-hour period.  While it is impossible to expect any solar utility to reach even half of this level (the sun 
+doesn't shine at night), it is still a useful benchmark because we can measure all other outputs against this quantity.  Even before taking into account 
+weather, it may be that some geographies are better at taking a fixed capital input (a solar panel) and converting it into electricity due to day lengths, 
 angles of the sun and permanent obstructions like mountains or nearby forests.  
 
-This is akin to asking (for example) whether a 1 kW rooftop solar installation can expect to generate 500, 1,500 or 3,000 kWh in a year at your location
+This is akin to asking (for example) whether a 1 kW rooftop solar installation can expect to generate 500, 1,000 or 2,000 kWh in a year at your location
 (given 8,760 hours in a year). 
-
 
 ## Putting it All Together
 
