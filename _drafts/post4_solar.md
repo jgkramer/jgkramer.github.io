@@ -96,7 +96,7 @@ TD{font-family: Arial; font-size: 8pt; text-align: center;}
 --->
 </STYLE>
 <table>
-    <col> <colgroup span="1"></colgroup><colgroup span="3"></colgroup>
+    <col> <colgroup span="1"></colgroup><colgroup span="4"></colgroup>
     <tr>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE"></th>
         <th colspan="3" scope ="colgroup" style="background-color: #D6EEEE">Full Capacity</th>
