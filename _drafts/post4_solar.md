@@ -124,7 +124,8 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
 
 Finally, I include the final line above as an estimate maximum physical capacity of the solar panels constituting Nevada's solar utility installations. 
 Treating the highest generation of any hour in the year as the physical output (in megawatts) assuming full ideal sun at the best angle, the panels 
-could physically generate 47,000 MWh in a 24-hour period.  By this standard, in June, Nevada's best-case solar generation (before weather) is 48% of the physical capacity of the panels.   In December, it is 25%.  
+could physically generate 47,000 MWh in a 24-hour period.  By this standard, in June, Nevada's best-case solar generation (before weather) is 48% of the physical capacity of the panels (i.e., 11.5 hours of maximum physical output per day).   
+In December, it is 25% (5.9 hours of maximum physical output).
 
 While it is impossible to expect any solar utility to reach even half of this level (the sun doesn't shine at night), it is still a useful benchmark
 because we can measure all other outputs against this quantity.  Even before taking into account weather, it may be that some geographies are better at 
@@ -137,10 +138,19 @@ We are finally equipped to paint a full year picture of the ebbs and flows of so
 benchmark of the full capacity of the plants, we will see how much of that benchmark is produced and when, taking into account (1) daily cycles, (2) 
 seasonal cycles and (3) weather, to reach actual production. 
 
+![Monthly Capacity Curve](/assets/images/post4_NVPower_monthly.png)
+
 
 [line chart...flat line in each month of max 24h, then series one for "model" daily output, then actual average output.]
 
-### Exploring Different Geographies
+## Exploring Different Geographies
+
+Finally, I performed the same analysis above on three other locations in states with relatively high solar energy generation -- Florida, Texas and 
+North Carolina.   Once again, I examined both (1) what is the pattern of "ideal" (without weather interruption) solar power generation throughout the
+year and (2) how far short of that ideal does reality fall? 
+
+As with the previous chart, I normalize the analysis for size of the system by showing electricity generation in terms of hours of system peak output
+per day.   
 
 
 
