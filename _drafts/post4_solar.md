@@ -85,7 +85,7 @@ ignoring weather obstructions or other outages.
 There are two key patterns to note: compared to the summer months, solar generation in the winter can only generate about **half as much** electricity
 per day as in the summer, for two reasons.  
 
-1. There are more hours in the day where the sun is shining.   In June, generation covers 13 hours: starting from the 5-6am slot and ending in the 6-7pm slot.[^1].  Contrast December, where generation runs about 8 hours: from the 7-8am hour until the 3-4pm hour.  
+1. There are more hours in the day where the sun is shining.   In June, generation runs from the 5-6am slot until the 6-7pm slot.[^1].  Contrast December, where generation runs from the 7-8am hour until the 3-4pm hour.  
 
 2. The maximum generation per hour is **higher in the summer** due to the higher angle of the sun in the sky.  Full sun in December generates only ~75% as much power as full sun in June.  
 
@@ -104,15 +104,16 @@ TD{font-family: Arial; font-size: 8pt; text-align: center;}
     <tr>
         <th scope="col" style="background-color: #D6EEEE">Month</th> 
         <th scope="col" style="background-color: #D6EEEE">Daily Generation Capacity (MWh)</th> 
-        <th scope="col" style="background-color: #D6EEEE">Max Hourly Rate (MWh)</th> 
-        <th scope="col" style="background-color: #D6EEEE">Hours of Full Generation</th>
+        <th scope="col" style="background-color: #D6EEEE">Max Hourly Rate (MWh)</th>
+        <th scope="col" style="background-color: #D6EEEE">Hours Active per Day</th>
+        <th scope="col" style="background-color: #D6EEEE">Equiv. Hours of Max Power</th>
     </tr>
 <tr>
   <th scope="col" style="background-color: #D6EEEE">June</th>
- <td>22,515</td><td>1,952</td><td>11.5</td></tr>
+ <td>22,515</td><td>1,952</td><td>14</td><td>11.5</td></tr>
 <tr>
   <th scope="col" style="background-color: #D6EEEE">December</th>
- <td>11,689</td><td>1,505</td><td>7.8</td></tr>
+ <td>11,689</td><td>1,505</td><td>9</td><td>7.8</td></tr>
 </table>
 
 The intraday generation results for June are below: 
@@ -160,7 +161,7 @@ TD{font-family: Arial; font-size: 8pt; text-align: center;}
 --->
 </STYLE>
 <table>
-    <col> <colgroup span="1"></colgroup><colgroup span="3"></colgroup><colgroup span ="5"></colgroup>
+    <col> <colgroup span="1"></colgroup><colgroup span="4"></colgroup>
     <tr>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE"></th>
         <th colspan="3" scope ="colgroup" style="background-color: #D6EEEE">Full Capacity</th>
@@ -169,7 +170,9 @@ TD{font-family: Arial; font-size: 8pt; text-align: center;}
         <th scope="col" style="background-color: #D6EEEE">Month</th> 
         <th scope="col" style="background-color: #D6EEEE">Daily Generation Capacity (MWh)</th> 
         <th scope="col" style="background-color: #D6EEEE">Max Hourly Rate (MWh)</th> 
-        <th scope="col" style="background-color: #D6EEEE">Hours of Full Generation</th>
+        <th scope="col" style="background-color: #D6EEEE">Number of Active Hours</th> 
+        <th scope="col" style="background-color: #D6EEEE">Equiv. Full Hours</th>
+        <th
     </tr>
 <tr>
   <th scope="col" style="background-color: #D6EEEE">December</th>
