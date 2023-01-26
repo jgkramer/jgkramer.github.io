@@ -164,7 +164,7 @@ TD{font-family: Arial; font-size: 8pt; text-align: center;}
     <col> <colgroup span="1"></colgroup><colgroup span="4"></colgroup>
     <tr>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE"></th>
-        <th colspan="3" scope ="colgroup" style="background-color: #D6EEEE">Full Capacity</th>
+        <th colspan="4" scope ="colgroup" style="background-color: #D6EEEE">Full Capacity</th>
     </tr>
     <tr>
         <th scope="col" style="background-color: #D6EEEE">Month</th> 
