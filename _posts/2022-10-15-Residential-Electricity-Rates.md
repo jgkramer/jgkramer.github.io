@@ -5,6 +5,37 @@ date: "2022-10-15"
 excerpt_separator: <!--more-->
 ---
 
+<STYLE TYPE="text/css">
+<!--
+TH{font-family: Arial; font-size: 8pt; text-align: center;}
+TD{font-family: Arial; font-size: 8pt; text-align: center;}
+--->
+</STYLE>
+<table>
+    <col> <colgroup span="1"></colgroup><colgroup span="4"></colgroup>
+    <tr>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE"></th>
+        <th colspan="4" scope ="colgroup" style="background-color: #D6EEEE">Full Capacity</th>
+    </tr>
+    <tr>
+        <th scope="col" style="background-color: #D6EEEE">Month</th> 
+        <th scope="col" style="background-color: #D6EEEE">Daily Generation Capacity (MWh)</th> 
+        <th scope="col" style="background-color: #D6EEEE">Max Hourly Rate (MWh)</th>
+        <th scope="col" style="background-color: #D6EEEE">Hours Active per Day</th>
+        <th scope="col" style="background-color: #D6EEEE">Equiv. Hours of Max Power</th>
+    </tr>
+<tr>
+  <th scope="col" style="background-color: #D6EEEE">June</th>
+ <td>22,515</td><td>1,952</td><td>14</td><td>11.5</td></tr>
+<tr>
+  <th scope="col" style="background-color: #D6EEEE">December</th>
+ <td>11,689</td><td>1,505</td><td>9</td><td>7.8</td></tr>
+<tr>
+<th scope="col" style="background-color: #D6EEEE">24h Full Output</th>/n<td>47,176</td> <td>1,966</td><td>-</td><td>-</td></tr>    
+</table>
+
+
+
 This is the first of a sequence of posts exploring the structure of residential electricity rates in the U.S. 
 
 The project was inspired by a conversation I had with a friend who lives near San Diego, California.  Owning an electric vehicle,
