@@ -140,6 +140,14 @@ seasonal cycles and (3) weather, to reach actual production.
 
 ![Monthly Capacity Curve](/assets/images/post4_NVPower_monthly.png)
 
+Compared to the full-blast summer output of the Nevada solar installations of 1,966 MWh per hour, we see that full capacity throughout the year runs
+between 5.9 hour outputs in the winter and 11.5 in the summer, with an average throughout the year of 9.38 hour-equivalents of full-blast production.  
+Actual production every month in 2022 was between 10% and 30% lower than full capacity, depending on the month.   It ranged between the equivalent 
+of 4.2 hours in January to 10.4 hours in May, and averaged the equivalent of 7.66 hours per day throughout the year (18% lower than capacity). 
+
+The months where the weather slippage was the greatest are not intuitively surprising to me given my experience of Nevada weather -- there can be 
+cloud cover and sometimes precipitation in the coldest part of the winter, and there is the summer monsoon season in July/August with frequent 
+rain as well.  
 
 [line chart...flat line in each month of max 24h, then series one for "model" daily output, then actual average output.]
 
