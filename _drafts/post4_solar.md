@@ -153,9 +153,9 @@ rain as well.
 ## Exploring Different Geographies
 
 Finally, I performed the same analysis above on three other locations in states with relatively high solar energy generation -- Texas and parts of 
-Florida and North Carolina.  Once again, I examined both (1) what is the pattern of "ideal" (without weather interruption) solar power generation 
-throughout the year and (2) how far short of that ideal does reality fall?   As with the previous section, I normalize the analysis for size of the 
-system by showing electricity generation in terms of hours of system peak output per day.   
+Florida and North Carolina.  Starting with the pattern of "full capacity" (without weather interruption) throughout the year in each locale: 
+
+
 
 
 
