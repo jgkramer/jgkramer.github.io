@@ -152,6 +152,8 @@ rain as well.
 
 ## Exploring Different Geographies
 
+### Capacity Curves
+
 Finally, I performed the same analysis above on three other locations in states with relatively high solar energy generation -- Texas and parts of 
 Florida and North Carolina.  Starting with the pattern of "full capacity" (without weather interruption) throughout the year in each locale: 
 
@@ -165,6 +167,12 @@ Texas and Florida, respectively.[^2]
 [^2] One (speculative!) possible explanation is that different utilities in different locations have different physical panels that contribute to differential capturing of the sun.  For example, when looking at the June hourly capacity chart for different locations (below), notice that in North Carolina, generation is only briefly at its peak; whereas in Nevada, the shape of the curve is a flat-topped plateau (5 hours above 90% of peak for NC, vs. 9 hours for NV).   If the Nevada utility had motorized solar panels that could track the sun across the sky, while the North Carolina utility did not, this type of chart could result.  
 
 ![Monthly Capacity Curve by State](/assets/images/post4_multi_state_june_hours.png) 
+
+### The Weather
+
+Finally, we see the impact of the weather.   
+
+![Overall Actual vs Capacity](/assets/images/post4_multi_state_bar.png) 
 
 
 
