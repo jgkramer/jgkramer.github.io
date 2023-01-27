@@ -170,15 +170,16 @@ Texas and Florida, respectively.[^2]
 
 ### The Weather
 
-Finally, we see the impact of the weather.   
+Finally, we see the impact of the weather.  As presaged at the beginning, desert climate Nevada loses relatively little solar generation little to 
+non-sunny skies relative, and in 2022 its average solar production was 7.7 "full blast" hours per day throughout the year.  The other locales all have
+more variable weather with greater cloud cover and precipitation, and as such suffer another ~30% generation loss instead of ~18% in the desert.  Texas 
+comes in second at 6.6 "full blast" hours, Florida at 5.7 hours, and North Carolina at 5.2 hours.
 
 ![Overall Actual vs Capacity](/assets/images/post4_multi_state_bar.png) 
 
+### ChatGPT
 
-
-
-
-
-
-
+A quick note that while the writing, analytics and the coding were all authored by me, I got a small amount of help late in this project by querying 
+ChatGPT to find convenient python library functions to use, rather than searching for them on the internet or reading about them in package documentation. 
+It was definitely labor-saving, and I expect to be doing more of it in the future. 
 
