@@ -155,6 +155,8 @@ rain as well.
 Finally, I performed the same analysis above on three other locations in states with relatively high solar energy generation -- Texas and parts of 
 Florida and North Carolina.  Starting with the pattern of "full capacity" (without weather interruption) throughout the year in each locale: 
 
+![Monthly Capacity Curve by State](/assets/images/post4_multi_state.png)
+
 
 
 
