@@ -150,16 +150,12 @@ The months where the weather slippage was the greatest are not intuitively surpr
 cloud cover and sometimes precipitation in the coldest part of the winter, and there is the summer monsoon season in July/August with frequent 
 rain as well.  
 
-[line chart...flat line in each month of max 24h, then series one for "model" daily output, then actual average output.]
-
 ## Exploring Different Geographies
 
-Finally, I performed the same analysis above on three other locations in states with relatively high solar energy generation -- Florida, Texas and 
-North Carolina.   Once again, I examined both (1) what is the pattern of "ideal" (without weather interruption) solar power generation throughout the
-year and (2) how far short of that ideal does reality fall? 
-
-As with the previous chart, I normalize the analysis for size of the system by showing electricity generation in terms of hours of system peak output
-per day.   
+Finally, I performed the same analysis above on three other locations in states with relatively high solar energy generation -- Texas and parts of 
+Florida and North Carolina.  Once again, I examined both (1) what is the pattern of "ideal" (without weather interruption) solar power generation 
+throughout the year and (2) how far short of that ideal does reality fall?   As with the previous section, I normalize the analysis for size of the 
+system by showing electricity generation in terms of hours of system peak output per day.   
 
 
 
