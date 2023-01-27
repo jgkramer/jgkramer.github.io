@@ -157,7 +157,10 @@ Florida and North Carolina.  Starting with the pattern of "full capacity" (witho
 
 ![Monthly Capacity Curve by State](/assets/images/post4_multi_state.png)
 
-
+The results shown in the above chart are not intuitive to me.   While different geographies have different climates, this chart measures
+weather-free "full capacity" in different months of the year, benchmarked against maximum one-hour summer utility output.  As such, I was not expecting
+significant variability across locations.   But they are: the average capacity throughout the year is 9.4 hours, 7.6 hours, 9.1 hours and 8.0 hours in 
+Nevada, North Carolina, Texas and Florida, respectively. 
 
 
 
