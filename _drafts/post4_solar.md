@@ -179,7 +179,7 @@ comes in second at 6.6 "full blast" hours, Florida at 5.7 hours, and North Carol
 
 ## ChatGPT
 
-A quick note that while the writing, analytics and the coding were all authored by me, I got a small amount of help late in this project by querying 
-ChatGPT to find convenient python library functions to use, rather than searching for them on the internet or reading about them in package documentation. 
-It was definitely labor-saving, and I expect to be doing more of it in the future. 
+While the writing, analytics and the coding here were all authored by me, I got a small amount of help from querying ChatGPT to find convenient python 
+library functions to use (and how to use them), rather than searching for them on the internet or reading about them in package documentation.  It was 
+definitely labor-saving, and I expect to be doing more of this in the future to speed things along. 
 
