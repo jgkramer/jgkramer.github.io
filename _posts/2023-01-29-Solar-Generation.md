@@ -38,7 +38,7 @@ clouds and rain in the Western United States), and how natural gas production do
 Most of this post uses the Nevada balancing authority, Nevada Power.[^1]  Besides living here, I chose this region because it is mostly desert.  With 
 less weather obstruction, I will be able to get a more accurate picture of idealized / unobstructed solar productivity.  All data is from 2022. 
 
-[^1] It's not clear to me exactly what region this covers.   The balancing authority map on the EIA website suggests that this the less-populated area of the state excluding the Las Vegas area in the southern extreme.   However, NV Power, which also does business as NV Energy, services the entire state as an electric utility, and its solar assets include those in the [Las Vegas vicinity](https://www.nvenergy.com/cleanenergy/renewable-energy-portfolio/solar-resources)
+[^1]: It's not clear to me exactly what region this covers.   The balancing authority map on the EIA website suggests that this the less-populated area of the state excluding the Las Vegas area in the southern extreme.   However, NV Power, which also does business as NV Energy, services the entire state as an electric utility, and its solar assets include those in the [Las Vegas vicinity](https://www.nvenergy.com/cleanenergy/renewable-energy-portfolio/solar-resources)
 
 ## Ideal Solar Generation: Methodology
 
@@ -96,7 +96,7 @@ for two reasons.
 
 2. The winter has fewer hours of sunlight per day.  In June, generation runs from the 5-6am slot until the 6-7pm slot.[^2].  Contrast December, where generation runs from the 7-8am hour until the 3-4pm hour.  Both of these stats are in-line with the length of daylight hours in the summer and winter outlined above (15+ and 9+). 
 
-[^2] All times have converted to Standard Time for comparability, which is why the sunset time in June may seem early for those used to Daylight Savings time.
+[^2]: All times have converted to Standard Time for comparability, which is why the sunset time in June may seem early for those used to Daylight Savings time.
 
 
 The graph, and table below, also shows that the "shoulder" months in the fall and spring are closer to higher summer than they are to lower winter 
@@ -171,7 +171,7 @@ Finally, I performed the same analysis above on three other locations in states 
 Florida and North Carolina.[^3]  Below is the pattern of ideal solar generation: potential generation throughout the year in each locale stripping out
 generation shortfalls due to weather.  As above, these are benchmarked against maximum physical output for an hour in that location. 
 
-[^3] Specifically, in North Carolina I used the region covered by the balancing authority "Duke Energy Progress East" and in Florida, "Duke Energy Florida."  Larger regions appeared to suffer from incomplete data. 
+[^3]: Specifically, in North Carolina I used the region covered by the balancing authority "Duke Energy Progress East" and in Florida, "Duke Energy Florida."  Larger regions appeared to suffer from incomplete data. 
     
 ![Monthly Capacity Curve by State](/assets/images/post4_multi_state.png)
 
