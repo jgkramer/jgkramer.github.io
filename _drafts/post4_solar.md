@@ -74,16 +74,15 @@ Here's what happens in July 2022 using the two alternative approaches:
 
 ![July 2022](/assets/images/post4_NVPowerJulyDays.png)
 
-Deriving July capacity for each hour of the day by taking the best 3 hours in that time slot throughout the month (mixing and matching days) does indeed
-produce a more complete estimate of solar utility capacity.   Visible from the light blue lines the first part of the month had weak morning generation, 
-but strong afternoon generation.   Later parts of the month had some days with strong morning generation but inconsistent afternoon generation.   
-Taking the best 3 complete days results in a capacity estimate of 20,200 MWh, with a better morning than afternoon profile (this methodology seems to 
-avoid the early-July days).   Taking the best 3 hours for each hourly slot increases this to 21,500 MWh -- 6% higher and much more likely a more 
-complete picture of what generation could be in July.
+The hour-by-hour approach makes a difference.  The light blue lines indicate that the first part of the month had weak morning generation but strong
+afternoon generation.  Later parts of the month had some days with strong morning output but inconsistent afternoons.  Taking the best 3 complete days
+results in a capacity estimate of 20,200 MWh per day, with a better morning than afternoon profile (seemingly taken from the late-July days).   Taking the 
+best 3 hours for each hourly slot increases this to 21,500 MWh per day -- 6% higher and much more likely a more complete picture of what generation could 
+be in July.
 
 ## Seasonality of Ideal Solar Generation 
 
-I apply this same methodology to every month of the year, and the result is the following "ideal" solar generation in Nevada for each month of the year,
+I apply this same methodology to every month of the year, and the result is the following ideal solar generation in Nevada for each month of the year,
 ignoring weather obstructions or other outages. 
 
 ![All months](/assets/images/post4_NVPower_all_hourly.png)
