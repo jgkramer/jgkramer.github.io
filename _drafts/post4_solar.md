@@ -6,18 +6,19 @@ hide: true
 excerpt_separator: <!--more-->
 ---
 
-In this post, I use grid-level data to explore a number of real-world considerations that the electricity market must take into account 
-when incorporating utility-scale solar power into the mix of generation.  This post will explore: 
+In this post, I use grid-level data to explore a number of real-world considerations that need to be taken into account when incorporating utility-scale 
+solar power into the mix of generation.  This post will explore: 
 
-- **The Difference Between Generating Capacity and Actual Output**: Unlike some sources (e.g., Nuclear, Coal), which when active can more or less always generate electricity at their maximum capacity, solar does not.  This post will take noisy utility generation data from U.S. regions and use that to both get an estimate of what generation capacity solar generation has at scale, and then see the impact of weather and other factors. 
-- **The Daily Cycle**: Solar generates electricity only during the day, contributing from between 7-8 hours in winter to 11-12 hours in summer.  On average this is less than half the day because of minimal generation in the hour just after sunrise or before sunset
+- **The Difference Between Generating Capacity and Actual Output**: Unlike some sources (e.g., Nuclear, Coal), which when active can more or less always generate electricity at their maximum capacity, solar does not.  This post will take noisy generation data from a few U.S. regions and use that to estimate both what utility-scale solar is physically capable of generating, and also how it falls short of that capability (predictably and unpredictably). 
+- **The Daily Cycle**: Solar generates electricity only during the day, and so in the real world is capable of generating electricity at most half the time.  In fact, solar generation is somewhat less than half-time, because there is minimal generation in the early morning or later afternoon when the sun is low in the sky. 
 - **The Seasonal Cycle**: Both because of shorter daylight hours and lower solar intensity, solar panels in winter generate meaningfully less juice than in summer.  This post goes into details.
 - **Differences in Geography**:  While there is some variability across the U.S. in seasonal / the daily cycle, geography also brings climate and weather pattern differences.   I will look at a few solar-heavy U.S. states to see just how big these differences are. 
 
-I have two goals.  The first is to provide real data that concretely fleshes out some of the features of solar generation that are often qualitatively
-addressed in much energy commentary (e.g., intermittency).   The second is to start generating a mathematical model of solar energy as a variable 
-electricity **supply**.  This can then be matched up against fluctuating **demand** for electricity.   How the supply and demand flucutations interact can 
-generate other interesting outputs such as (1) how much energy storage is useful in the grid and/or (2) what other sources of generation (e.g., natural gas) may be needed to fill gaps. 
+I have two goals.   The first is to show real data that concretely explores features of solar generation that are often qualitatively presented (e.g., 
+intermittency).   The second is to start generating a reasonably accurate mathematical model of solar as a variable electricity **supply**.   This can then 
+be matched up against the fluctuating **demand** levels for electricity that I have explored in previous posts.  The intersection of supply and demand
+can generate other interesting outputs such as (1) how much energy storage is useful to have on the grid and/or (2) how much "overcapacity" needs to be 
+built to fill gaps. 
 
 <!--more-->
 
@@ -28,22 +29,24 @@ has hourly granularity by region on a number of variables.  These include total 
 (balanced by import / export from neighboring regions), as well as a detailed look at generation by type of source (e.g., coal, nuclear, 
 natural gas, solar, wind).  
 
-An example of the latter is shown below, which shows the daily generation cycle of solar, days where power output is 
-lower due to weather, and how natural gas plants are ramped up and down each day to offset the solar generation cycle.   
-The chart also shows how on some days, solar generation is weak, implying that natural gas production doesn't ramp down as much. 
+An example of the latter is below, which shows the daily cycle of solar generation, and how natural gas plants are ramped up and down each day to 
+offset the solar daily cycle.  The chart also shows how on some days, solar generation is weak due to weather (the end of December 2022 saw a lot of 
+clouds and rain in the Western United States), and how natural gas production doesn't ramp down as much. 
 
 <img src="/assets/images/post4_generation_sample.png"  width="70%" height="70%">
 
-In much of this post I focus my efforts on the Nevada balancing authority, Nevada Power.  I choose this region because it is mostly desert, 
-and so weather should not obstruct solar generation on too many days, which enables me to get a better picture of idealized / unobstructed 
-solar productivity.
+Most of this post uses the Nevada balancing authority, Nevada Power.  Besides living here, I chose this region because it is mostly desert.  With less
+weather obstruction, I will be able to get a more accurate picture of idealized / unobstructed solar productivity.  The data used in this inquiry is 
+calendar year 2022: this provides me with a complete picture of seasonal changes without getting exposed (too much) to the confounding effect of additional 
+build-out over time. 
 
 ## Ideal Solar Generation: Methodology
 
-My goal is to create a model of solar generation in Nevada to match against electricity demand, which requires a picture of how it fluctuates over 
-hours of the day, and times of the year (daylight hours and sun position).  
+My goal is to create a model of solar generation in Nevada: how power production fluctuates over the hours of the day, and times of the year.  Step "zero",
+before understanding the fluctuations, is identifying the maximum possible output of the installed panels based on 
 
-My first simplifying assumption is that maximum solar generation capacity is uniform throughout each calendar month (i.e.,t he day length and angle
+
+My first simplifying assumption is that maximum solar generation capacity is uniform throughout each calendar month (i.e., the day length and angle
 of the sun are consistent within the month).   This is likely to be close to true for winter and summer months (the day length at Boulder City, NV
 varies from 9 hours 42 minutes to 9:53 in December and from 14:26 to 15:36 in June), and a less good approximation for spring and fall (March is 11:25
 to 12:33).  
