@@ -6,18 +6,19 @@ hide: true
 excerpt_separator: <!--more-->
 ---
 
-In this post, I use grid-level data to explore a number of real-world considerations that the electricity market must take into account 
-when incorporating utility-scale solar power into the mix of generation.  This post will explore: 
+In this post, I use grid-level data to explore a number of real-world considerations that need to be taken into account when incorporating utility-scale 
+solar power into the mix of generation.  This post will explore: 
 
-- **The Difference Between Generating Capacity and Actual Output**: Unlike some sources (e.g., Nuclear, Coal), which when active can more or less always generate electricity at their maximum capacity, solar does not.  This post will take noisy utility generation data from U.S. regions and use that to both get an estimate of what generation capacity solar generation has at scale, and then see the impact of weather and other factors. 
-- **The Daily Cycle**: Solar generates electricity only during the day, contributing from between 7-8 hours in winter to 11-12 hours in summer.  On average this is less than half the day because of minimal generation in the hour just after sunrise or before sunset
+- **The Difference Between Generating Capacity and Actual Output**: Unlike some sources (e.g., Nuclear, Coal), which when active can more or less always generate electricity at their maximum capacity, solar does not.  This post will take noisy generation data from a few U.S. regions and use that to estimate both what utility-scale solar is physically capable of generating, and also how it falls short of that capability (predictably and unpredictably). 
+- **The Daily Cycle**: Solar generates electricity only during the day, and so in the real world is capable of generating electricity at most half the time.  In fact, solar generation is somewhat less than half-time, because there is minimal generation in the early morning or later afternoon when the sun is low in the sky. 
 - **The Seasonal Cycle**: Both because of shorter daylight hours and lower solar intensity, solar panels in winter generate meaningfully less juice than in summer.  This post goes into details.
 - **Differences in Geography**:  While there is some variability across the U.S. in seasonal / the daily cycle, geography also brings climate and weather pattern differences.   I will look at a few solar-heavy U.S. states to see just how big these differences are. 
 
-I have two goals.  The first is to provide real data that concretely fleshes out some of the features of solar generation that are often qualitatively
-addressed in much energy commentary (e.g., intermittency).   The second is to start generating a mathematical model of solar energy as a variable 
-electricity **supply**.  This can then be matched up against fluctuating **demand** for electricity.   How the supply and demand flucutations interact can 
-generate other interesting outputs such as (1) how much energy storage is useful in the grid and/or (2) what other sources of generation (e.g., natural gas) may be needed to fill gaps. 
+I have two goals.   The first is to show real data that concretely explores features of solar generation that are often qualitatively presented (e.g., 
+intermittency).   The second is to start generating a reasonably accurate mathematical model of solar as a variable electricity **supply**.   This can then 
+be matched up against the fluctuating **demand** levels for electricity that I have explored in previous posts.  The intersection of supply and demand
+can generate other interesting outputs such as (1) how much energy storage is useful to have on the grid and/or (2) how much "overcapacity" needs to be 
+built to fill gaps. 
 
 <!--more-->
 
@@ -28,69 +29,76 @@ has hourly granularity by region on a number of variables.  These include total 
 (balanced by import / export from neighboring regions), as well as a detailed look at generation by type of source (e.g., coal, nuclear, 
 natural gas, solar, wind).  
 
-An example of the latter is shown below, which shows the daily generation cycle of solar, days where power output is 
-lower due to weather, and how natural gas plants are ramped up and down each day to offset the solar generation cycle.   
-The chart also shows how on some days, solar generation is weak, implying that natural gas production doesn't ramp down as much. 
+An example of the latter is below, which shows the daily cycle of solar generation, and how natural gas plants are ramped up and down each day to 
+offset the solar daily cycle.  The chart also shows how on some days, solar generation is weak due to weather (the end of December 2022 saw a lot of 
+clouds and rain in the Western United States), and how natural gas production doesn't ramp down as much. 
 
 <img src="/assets/images/post4_generation_sample.png"  width="70%" height="70%">
 
-In much of this post I focus my efforts on the Nevada balancing authority, Nevada Power.  I choose this region because it is mostly desert, 
-and so weather should not obstruct solar generation on too many days, which enables me to get a better picture of idealized / unobstructed 
-solar productivity.
+Most of this post uses the Nevada balancing authority, Nevada Power.  Besides living here, I chose this region because it is mostly desert.  With less
+weather obstruction, I will be able to get a more accurate picture of idealized / unobstructed solar productivity.  All data is from 2022. 
 
 ## Ideal Solar Generation: Methodology
 
-My goal is to create a model of solar generation in Nevada to match against electricity demand, which requires a picture of how it fluctuates over 
-hours of the day, and times of the year (daylight hours and sun position).  
+Step "zero", before understanding the daily and seasonal flucutations of solar generation, is to identify the maximum possible output of the installed
+panels under ideal sunlight conditions (i.e., summer mid-day).  I will refer to this as the **maximum physical output** of the solar generation system.  
+For Nevada Power in 2022 that was 1,983 MWh per hour (derived using the average of the top three hours of production throughout the year).  Assuming 
+that for these few hours the system was outputting its full capacity, this is equivalent to saying that Nevada Power includes roughly 2 GW of utility
+solar generation.
 
-My first simplifying assumption is that maximum solar generation capacity is uniform throughout each calendar month (i.e.,t he day length and angle
-of the sun are consistent within the month).   This is likely to be close to true for winter and summer months (the day length at Boulder City, NV
-varies from 9 hours 42 minutes to 9:53 in December and from 14:26 to 15:36 in June), and a less good approximation for spring and fall (March is 11:25
-to 12:33).  
+Next I turn to identifying **ideal solar generation** as a function of day / night and seasonal changes in sunlight, stripping out the effects of weather.
 
-My second task is to try to filter out weather-driven variability to get a sense of what solar generation can produce if there were perfect weather 
-every day. 
+Since I am trying to derive this function from "actual" generation data that includes weather obstruction, I use the data itself to separate good weather 
+days (close to ideal solar generation for the time of year) from bad weather days.  
+
+First, I assume that that ideal solar generation is uniform throughout the calendar month.   In other words, this assumes day length and angle of the
+sun are consistent throughout the month.  This is approximately true for winter and summer months (the day length at Boulder City, NV varies from 9 hours
+42 minutes to 9:53 in December and from 14:26 to 14:36 in June).  It's a rougher approximation in spring and fall (March ranges from 11:25 to 12:33 and 
+11:51 to 12:55 in September).  But this assumption will enable me to estimate ideal solar generation from the **best** generation hours and days 
+within the assumed-constant month.  
 
 ![2022](/assets/images/post4_NVPowerDailyChart.png)
 
-The chart above shows how meaningful weather-driven inconsistency is even in a desert area for solar generation.   The noisy blue line is actual 
-output by day in 2022.   The orange line connects the **top 3** days of output in each month, and could be a starting point for estimating 
-maximum generation capacity.   But this approach has the shortcoming that even the best days in a month could still have a couple of hours of cloud 
-cover and so still systematically understate solar capacity in that month.   In the chart above, July and August (monsoon season in the desert 
-southwest with frequent clouds and even rain) may have this problem, as even the orange curve falls short of where I expect given the levels of 
-April through June. 
+The chart above shows how meaningful weather-driven inconsistency is even in a desert area.   The noisy blue line is actual output by day 
+in 2022.  The orange line connects the **top 3** days of output in each month, and could be a starting point for estimating maximum 
+generation capacity.  But even the highest-producing days in a month could still have a couple of horus of clouds and so underestimate that 
+month's ideal solar generation.  In the chart above, July and August (monsoon season in the desert southwest with a surpring amount of rain) 
+may have this problem, as even the orange curve falls short of what I'd expect given the April through June data. 
 
-A more robust approach is, for each of the 24 hours in the day, to find the instances where solar generation during **that hour** was among the top 3
-of generation in that specific time slot.  If one day has morning clouds and afternoon sun, while a second day has morning sun and afternoon clouds, 
+A more robust approach is to, for each of the 24 hours of the day, find the instances where solar generation during **that hour** was among 
+the top three of generation in that specific time slot in the month.  For example, I estimate the ideal solar generation in the 10-11am time
+slot in July by looking at output for the thirty-one 10-11am hours in the month of July, and taking the top three.  These may occur on different
+days than the 2-3pm time slot.  If one day has morning clouds and afternoon sun, while a second day has morning sun and afternoon clouds, 
 I can compute the solar generation capacity in the period using the first day's afternoon hours and the second day's morning hours. 
 
 Here's what happens in July 2022 using the two alternative approaches: 
 
 ![July 2022](/assets/images/post4_NVPowerJulyDays.png)
 
-Deriving July capacity for each hour of the day by taking the best 3 hours in that time slot throughout the month (mixing and matching days) does indeed
-produce a more complete estimate of solar utility capacity.   Visible from the light blue lines the first part of the month had weak morning generation, 
-but strong afternoon generation.   Later parts of the month had some days with strong morning generation but inconsistent afternoon generation.   
-Taking the best 3 complete days results in a capacity estimate of 20,200 MWh, with a better morning than afternoon profile (this methodology seems to 
-avoid the early-July days).   Taking the best 3 hours for each hourly slot increases this to 21,500 MWh -- 6% higher and much more likely a more 
-complete picture of what generation could be in July.
+The hour-by-hour approach makes a difference.  The light blue lines indicate that the first part of the month had weak morning generation but strong
+afternoon generation.  Later parts of the month had some days with strong morning output but inconsistent afternoons.  Taking the best 3 complete days
+results in a capacity estimate of 20,200 MWh per day, with a better morning than afternoon profile (seemingly taken from the late-July days).  Taking the 
+best 3 hours for each hourly slot increases this to 21,500 MWh per day -- 6% higher and much more likely a more complete picture of what generation could 
+be in July.
 
 ## Seasonality of Ideal Solar Generation 
 
-I apply this same methodology to every month of the year, and the result is the following "ideal" solar generation in Nevada for each month of the year,
-ignoring weather obstructions or other outages. 
+Applying this approach to each month of 2022, I generate the following ideal solar generation function in Nevada for each month (ignoring weather
+obstructions or other outages). 
 
 ![All months](/assets/images/post4_NVPower_all_hourly.png)
 
-There are two key patterns to note: compared to the summer months, solar generation in the winter can only generate about **half as much** electricity
-per day as in the summer, for two reasons.  
+One key result of this analysis is that solar generation in the winter can only generate about **half as much** electricity per day as in the summer,
+for two reasons. 
 
-1. The maximum generation per hour is **higher in the summer** due to the higher angle of the sun in the sky.  Full sun in December generates only ~77% as much power as full sun in June.  
+1. The maximum generation per hour is **higher in the summer** due to the higher angle of the sun in the sky (approaching the maximum physical output).  Full sun in December generates only ~77% as much power as full sun in June.
 
-2. There are more hours in the day where the sun is shining.   In June, generation runs from the 5-6am slot until the 6-7pm slot.[^1].  Contrast December, where generation runs from the 7-8am hour until the 3-4pm hour.  Both of these stats are in-line with the length of daylight hours in the summer and winter outlined above (15+ and 9+). 
+2. The winter has fewer hours of sunlight per day.  In June, generation runs from the 5-6am slot until the 6-7pm slot.[^1].  Contrast December, where generation runs from the 7-8am hour until the 3-4pm hour.  Both of these stats are in-line with the length of daylight hours in the summer and winter outlined above (15+ and 9+). 
 
 [^1] All times have converted to Standard Time for comparability, which is why the sunset time in June may seem early for those used to Daylight Savings time. 
 
+The graph, and table below, also shows that the "shoulder" months in the fall and spring are closer to higher summer than they are to lower winter 
+production.  For example, ideal solar generation per day in March is 84% that of June (compared to December at 52%).  
 
 <STYLE TYPE="text/css">
 <!--
@@ -102,7 +110,7 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
     <col> <colgroup span="1"></colgroup><colgroup span="5"></colgroup>
     <tr>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE"></th>
-        <th colspan="5" scope ="colgroup" style="background-color: #D6EEEE">Full Capacity</th>
+        <th colspan="5" scope ="colgroup" style="background-color: #D6EEEE">Average Daily Ideal Solar Generation</th>
     </tr>
     <tr>
         <th scope="col" style="background-color: #D6EEEE">Month</th> 
@@ -113,44 +121,52 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
         <th scope="col" ="background-color: #D6EEEE">Equiv. Hours @ Maximum Physical Output</th>
     </tr>
 <tr>
+  <th scope="col" style="background-color: #D6EEEE">March</th>
+ <td>18,931</td><td>1,924</td><td>12</td><td>9.8</td><td>9.5</td></tr>
+
+<tr>
   <th scope="col" style="background-color: #D6EEEE">June</th>
- <td>22,515</td><td>1,952</td><td>14</td><td>11.5</td><td>11.5</td></tr>
+ <td>22,515</td><td>1,952</td><td>14</td><td>11.5</td><td>11.4</td></tr>
+
 <tr>
   <th scope="col" style="background-color: #D6EEEE">December</th>
  <td>11,689</td><td>1,505</td><td>9</td><td>7.8</td><td>5.9</td></tr>
+
 <tr>
-<th scope="col" style="background-color: #D6EEEE">24h of Max. Summer Sun</th>/n<td>47,176</td> <td>1,966</td><td>-</td><td>-</td><td>24</td></tr>
-</table>
+<th scope="col" style="background-color: #D6EEEE">24h x Max. Physical Output</th>/n<td>47,584</td> <td>1,983</td><td>-</td><td>-</td><td>24</td></tr>
 
-Finally, I include the final line above as an estimate maximum physical capacity of the solar panels constituting Nevada's solar utility installations. 
-Treating the highest generation of any hour in the year as the physical output (in megawatts) assuming full ideal sun at the best angle, the panels 
-could physically generate 47,000 MWh in a 24-hour period.  By this standard, in June, Nevada's best-case solar generation (before weather) is 48% of the physical capacity of the panels (i.e., 11.5 hours of maximum physical output per day).   
-In December, it is 25% (5.9 hours of maximum physical output).
+Note the last row: if solar were capable of generating power at the maximum physical output level at this level 24 hours a day, Nevada's installations
+could physically produce 47,000 MWh in a 24-hour period.  Against this benchmark, Nevada's ideal (pre-weather) solar generation is 48% of the 
+physical capacity of the panels (i.e., 11.5 hours of maximum physical output per day).   In December that falls to 25% (5.9 hours of maximum 
+physical output per day). 
 
-While it is impossible to expect any solar utility to reach even half of this level (the sun doesn't shine at night), it is still a useful benchmark
-because we can measure all other outputs against this quantity.  Even before taking into account weather, it may be that some geographies are better at 
-taking a fixed capital input (a solar panel) and converting it into electricity due to day lengths, angles of the sun and permanent obstructions like 
-mountains or nearby forests.
+While it is impossible for any Earth-based system to get anywhere near 100% of maximum phsyical output, this can still be useful benchmark because we can 
+measure all other outputs against this quantity.  Even before taking into account weather, some geographies may be better at taking a fixed capital input 
+(a solar panel) and converting it into electricity due to latitude, angles of the sun and permanent obstructions like mountains or nearby forests.  
+Some generators may also be better in managing their solar generation assets as an operational and engineering matter (for example, 
+ensuring solar panels adjust to follow the sun), and using this benchmark can help suss this out. 
 
 ## Putting it All Together
 
-We are finally equipped to paint a full year picture of the ebbs and flows of solar generation in Nevada: starting with a top line (unrealizable) 
-benchmark of the full capacity of the plants, we will see how much of that benchmark is produced and when, taking into account (1) daily cycles, (2) 
-seasonal cycles and (3) weather, to reach actual production. 
+Now we can paint a full-year picture of the ebbs and flows of solar generation in Nevada.  Starting with the top-line (unrealizable) maximum physical 
+output benchmark, we will see how much of that benchmark is produced and when, taking into account (1) daily cycles, (2) seasonal cycles and (3) weather, 
+to reach actual production. 
 
 ![Monthly Capacity Curve](/assets/images/post4_NVPower_monthly.png)
 
-Compared to the full-blast summer output of the Nevada solar installations of 1,966 MWh per hour, we see that full capacity throughout the year runs
-between 5.9 hour outputs in the winter and 11.5 in the summer, with an average throughout the year of 9.38 hour-equivalents of full-blast production
-per day.  Actual production every month in 2022 was between 10% and 30% lower than full capacity, depending on the month.   It ranged between the 
-equivalent of 4.2 hours in January to 10.4 hours in May, and averaged the equivalent of 7.66 hours per day throughout the year (18% lower than 
+Compared to the full-blast maximum physical output of the Nevada solar installations of 1,983 MWh per hour, we see that ideal solar generation 
+throughout the year  runs between 5.9 hour outputs in the winter and 11.4 in the summer.  The full-year average is 9.3 hours of maximum physical output 
+per day.  **Actual** generation in 2022 was between 10% and 30% lower than full capacity, depending on the month.  It ranged between 4.2 hours worth 
+of maximum physical output in December to 10.3 hours in May.   The full-year average was 7.6 hours worth of maximum output per day (18% lower than ideal 
 capacity). 
 
-The months where the weather slippage was the greatest are not intuitively surprising to me given my experience of Nevada weather -- there can be 
+The months where the weather slippage was the greatest are not surprising to me given my experience of Nevada weather -- there can be 
 cloud cover and sometimes precipitation in the coldest part of the winter, and there is the summer monsoon season in July/August with frequent 
 rain as well.  
 
 ## Exploring Different Geographies
+
+### Capacity Curves
 
 Finally, I performed the same analysis above on three other locations in states with relatively high solar energy generation -- Texas and parts of 
 Florida and North Carolina.  Starting with the pattern of "full capacity" (without weather interruption) throughout the year in each locale: 
@@ -162,15 +178,22 @@ different months of the year, benchmarked against maximum one-hour summer utilit
 across locations.   But they are: the average capacity throughout the year is 9.4 hours, 7.6 hours, 9.1 hours and 8.0 hours in Nevada, North Carolina,
 Texas and Florida, respectively.[^2]
 
-[^2] One (speculative!) possible explanation is that different utilities in different locations have different physical panels that contribute to differential capturing of the sun.  For example, when looking at the June hourly capacity chart for different locations (below), notice that in North Carolina, generation is only briefly at its peak; whereas in Nevada, the shape of the curve is a flat-topped plateau.   If the Nevada utility had motorized solar panels that could track the sun across the sky, while the North Carolina utility did not, this type of chart could result.  
+[^2] One (speculative!) possible explanation is that different utilities in different locations have different physical panels that contribute to differential capturing of the sun.  For example, when looking at the June hourly capacity chart for different locations (below), notice that in North Carolina, generation is only briefly at its peak; whereas in Nevada, the shape of the curve is a flat-topped plateau (5 hours above 90% of peak for NC, vs. 9 hours for NV).   If the Nevada utility had motorized solar panels that could track the sun across the sky, while the North Carolina utility did not, this type of chart could result.  
 
 ![Monthly Capacity Curve by State](/assets/images/post4_multi_state_june_hours.png) 
 
+### The Weather
 
+Finally, we see the impact of the weather.  As presaged at the beginning, desert climate Nevada loses relatively little solar generation little to 
+non-sunny skies relative, and in 2022 its average solar production was 7.7 "full blast" hours per day throughout the year.  The other locales all have
+more variable weather with greater cloud cover and precipitation, and as such suffer another ~30% generation loss instead of ~18% in the desert.  Texas 
+comes in second at 6.6 "full blast" hours, Florida at 5.7 hours, and North Carolina at 5.2 hours.
 
+![Overall Actual vs Capacity](/assets/images/post4_multi_state_bar.png) 
 
+## ChatGPT
 
-
-
-
+While the writing, analytics and the coding here were all authored by me, I got a small amount of help from querying ChatGPT to find convenient python 
+library functions to use (and how to use them), rather than searching for them on the internet or reading about them in package documentation.  It was 
+definitely labor-saving, and I expect to be doing more of this in the future to speed things along. 
 
