@@ -174,7 +174,7 @@ Finally, I performed the same analysis above on three other locations in states 
 Florida and North Carolina.[^3]  Below is the pattern of ideal solar generation: potential generation throughout the year in each locale stripping out
 generation shortfalls due to weather.  As above, these are benchmarked against maximum physical output for an hour in that location. 
 
-[^3] Specifically, in North Carolina I used the region covered by the balancing authority "Duke Progress East" and in Florida, "Duke Florida."  Larger regions appeared to suffer from incomplete data. 
+[^3] Specifically, in North Carolina I used the region covered by the balancing authority "Duke Energy Progress East" and in Florida, "Duke Energy Florida."  Larger regions appeared to suffer from incomplete data. 
     
 ![Monthly Capacity Curve by State](/assets/images/post4_multi_state.png)
 
