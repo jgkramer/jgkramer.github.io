@@ -112,7 +112,7 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
     <col> <colgroup span="1"></colgroup><colgroup span="5"></colgroup>
     <tr>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE"></th>
-        <th colspan="5" scope ="colgroup" style="background-color: #D6EEEE">Average Daily Ideal Solar Generation</th>
+        <th colspan="5" scope ="colgroup" style="background-color: #D6EEEE">Ideal Solar Generation</th>
     </tr>
     <tr>
         <th scope="col" style="background-color: #D6EEEE">Month</th> 
@@ -124,10 +124,12 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
     </tr>
 <tr>
   <th scope="col" style="background-color: #D6EEEE">March</th>
- <td>18,931</td><td>1,924</td><td>12</td><td>9.8</td><td>9.5</td></tr>
+    <td>18,931</td><td>1,924</td><td>12</td><td>9.8</td><td>9.5</td>
+</tr>
 <tr>
-  <th scope="col" style="background-color: #D6EEEE">June</th>
- <td>22,515</td><td>1,952</td><td>14</td><td>11.5</td><td>11.4</td></tr>
+ <th scope="col" style="background-color: #D6EEEE">June</th>
+ <td>22,515</td><td>1,952</td><td>14</td><td>11.5</td><td>11.4</td>
+</tr>
 <tr>
   <th scope="col" style="background-color: #D6EEEE">December</th>
  <td>11,689</td><td>1,505</td><td>9</td><td>7.8</td><td>5.9</td></tr>
