@@ -122,16 +122,18 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
     </tr>
 <tr>
   <th scope="col" style="background-color: #D6EEEE">March</th>
- <td>18,931</td><td>1,924</td><td>12</td><td>9.8</td><td>9.6</td></tr>
-  <tr>
+ <td>18,931</td><td>1,924</td><td>12</td><td>9.8</td><td>9.5</td></tr>
+
+<tr>
   <th scope="col" style="background-color: #D6EEEE">June</th>
- <td>22,515</td><td>1,952</td><td>14</td><td>11.5</td><td>11.5</td></tr>
+ <td>22,515</td><td>1,952</td><td>14</td><td>11.5</td><td>11.4</td></tr>
+
 <tr>
   <th scope="col" style="background-color: #D6EEEE">December</th>
  <td>11,689</td><td>1,505</td><td>9</td><td>7.8</td><td>5.9</td></tr>
+
 <tr>
-<th scope="col" style="background-color: #D6EEEE">24h x Max. Physical</th>/n<td>47,176</td> <td>1,966</td><td>-</td><td>-</td><td>24</td></tr>
-</table>
+<th scope="col" style="background-color: #D6EEEE">24h x Max. Physical Output</th>/n<td>47,584</td> <td>1,983</td><td>-</td><td>-</td><td>24</td></tr>
 
 Note the last row: if solar were capable of generating power at the maximum physical output level at this level 24 hours a day, Nevada's installations
 could physically produce 47,000 MWh in a 24-hour period.  Against this benchmark, Nevada's ideal (pre-weather) solar generation is 48% of the 
