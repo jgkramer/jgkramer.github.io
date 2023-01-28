@@ -35,18 +35,18 @@ clouds and rain in the Western United States), and how natural gas production do
 
 <img src="/assets/images/post4_generation_sample.png"  width="70%" height="70%">
 
-Most of this post uses the Nevada balancing authority, Nevada Power.[^1]  Besides living here, I chose this region because it is mostly desert.  With less
-weather obstruction, I will be able to get a more accurate picture of idealized / unobstructed solar productivity.  All data is from 2022. 
+Most of this post uses the Nevada balancing authority, Nevada Power.[^1]  Besides living here, I chose this region because it is mostly desert.  
+With less weather obstruction, I will be able to get a more accurate picture of idealized / unobstructed solar productivity.  
+All data is from 2022. 
 
 [^1] It's not clear to me exactly what region this covers.   The balancing authority map on the EIA website suggests that this the less-populated area of the state excluding the Las Vegas area in the southern extreme.   However, NV Power, which also does business as NV Energy, services the entire state as an electric utility, and its solar assets include those in the [Las Vegas vicinity](https://www.nvenergy.com/cleanenergy/renewable-energy-portfolio/solar-resources)
 
 ## Ideal Solar Generation: Methodology
 
-Step "zero", before understanding the daily and seasonal flucutations of solar generation, is to identify the maximum possible output of the installed
-panels under ideal sunlight conditions (i.e., summer mid-day).  I will refer to this as the **maximum physical output** of the solar generation system.  
-For Nevada Power in 2022 that was 1,983 MWh per hour (derived using the average of the top three hours of production throughout the year).  Assuming 
-that for these few hours the system was outputting its full capacity, this is equivalent to saying that Nevada Power includes roughly 2 GW of utility
-solar generation.
+Step "zero", before understanding the daily and seasonal flucutations of solar generation, is to identify the maximum possible output of the 
+installed panels under ideal sunlight conditions (i.e., summer mid-day).  I will refer to this as the **maximum physical output** of the solar 
+generation system.   For Nevada Power in 2022 that was 1,983 MWh per hour (derived using the average of the top three hours of production 
+throughout the year).  Assuming that for these few hours the system was outputting its full capacity, this is equivalent to saying that Nevada Power includes roughly 2 GW of utility solar generation.
 
 Next I turn to identifying **ideal solar generation** as a function of day / night and seasonal changes in sunlight, stripping out the effects of weather.
 
