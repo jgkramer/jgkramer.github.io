@@ -188,7 +188,7 @@ One (speculative!) possible explanation is that different utilities in different
 differential effectiveness in capturing sunlight.  For example, when looking at the June hourly capacity chart for different locations (below), 
 notice that in North Carolina, generation is only briefly at its peak; whereas in Nevada, the shape of the curve is a flat-topped plateau 
 (5 hours above 90% of peak for NC, vs. 9 hours for NV).   If the Nevada utility had motorized solar panels that could track the sun across the sky, 
-while the North Carolina utility did not, this type of chart might result.  
+while the North Carolina utility did not, this type of chart might result.   
 
 ![Monthly Capacity Curve by State](/assets/images/post4_multi_state_june_hours.png) 
 
