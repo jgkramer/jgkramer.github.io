@@ -110,7 +110,7 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
     <col> <colgroup span="1"></colgroup><colgroup span="5"></colgroup>
     <tr>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE"></th>
-        <th colspan="5" scope ="colgroup" style="background-color: #D6EEEE">Full Capacity</th>
+        <th colspan="5" scope ="colgroup" style="background-color: #D6EEEE">Average Daily Ideal Solar Generation</th>
     </tr>
     <tr>
         <th scope="col" style="background-color: #D6EEEE">Month</th> 
@@ -130,7 +130,7 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
   <th scope="col" style="background-color: #D6EEEE">December</th>
  <td>11,689</td><td>1,505</td><td>9</td><td>7.8</td><td>5.9</td></tr>
 <tr>
-<th scope="col" style="background-color: #D6EEEE">24h of Max. Summer Sun</th>/n<td>47,176</td> <td>1,966</td><td>-</td><td>-</td><td>24</td></tr>
+<th scope="col" style="background-color: #D6EEEE">24h x Max. Physical</th>/n<td>47,176</td> <td>1,966</td><td>-</td><td>-</td><td>24</td></tr>
 </table>
 
 For reference, the above table includes the maximum physical output of Nevada's solar utility installations.  If solar were capable of generating power
