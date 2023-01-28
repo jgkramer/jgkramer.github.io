@@ -96,7 +96,7 @@ for two reasons.
 
 2. The winter has fewer hours of sunlight per day.  In June, generation runs from the 5-6am slot until the 6-7pm slot.[^2].  Contrast December, where generation runs from the 7-8am hour until the 3-4pm hour.  Both of these stats are in-line with the length of daylight hours in the summer and winter outlined above (15+ and 9+). 
 
-[^2] All times have converted to Standard Time for comparability, which is why the sunset time in June may seem early for those used to Daylight Savings time. 
+[^2] All times have converted to Standard Time for comparability, which is why the sunset time in June may seem early for those used to Daylight Savings time.
 
 The graph, and table below, also shows that the "shoulder" months in the fall and spring are closer to higher summer than they are to lower winter 
 production.  For example, ideal solar generation per day in March is 84% that of June (compared to December at 52%).  
@@ -107,6 +107,7 @@ TH{font-family: Arial; font-size: 9pt; text-align: center;}
 TD{font-family: Arial; font-size: 9pt; text-align: center;}
 --->
 </STYLE>
+
 <table>
     <col> <colgroup span="1"></colgroup><colgroup span="5"></colgroup>
     <tr>
@@ -124,15 +125,12 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
 <tr>
   <th scope="col" style="background-color: #D6EEEE">March</th>
  <td>18,931</td><td>1,924</td><td>12</td><td>9.8</td><td>9.5</td></tr>
-
 <tr>
   <th scope="col" style="background-color: #D6EEEE">June</th>
  <td>22,515</td><td>1,952</td><td>14</td><td>11.5</td><td>11.4</td></tr>
-
 <tr>
   <th scope="col" style="background-color: #D6EEEE">December</th>
  <td>11,689</td><td>1,505</td><td>9</td><td>7.8</td><td>5.9</td></tr>
-
 <tr>
 <th scope="col" style="background-color: #D6EEEE">24h x Max. Physical Output</th>/n<td>47,584</td> <td>1,983</td><td>-</td><td>-</td><td>24</td></tr>
 
