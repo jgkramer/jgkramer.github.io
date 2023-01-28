@@ -95,9 +95,9 @@ for two reasons.
 
 1. The maximum generation per hour is **higher in the summer** due to the higher angle of the sun in the sky (approaching the maximum physical output).  Full sun in December generates only ~77% as much power as full sun in June.
 
-2. The winter has fewer hours of sunlight per day.  In June, generation runs from the 5-6am slot until the 6-7pm slot.[^1].  Contrast December, where generation runs from the 7-8am hour until the 3-4pm hour.  Both of these stats are in-line with the length of daylight hours in the summer and winter outlined above (15+ and 9+). 
+2. The winter has fewer hours of sunlight per day.  In June, generation runs from the 5-6am slot until the 6-7pm slot.[^2].  Contrast December, where generation runs from the 7-8am hour until the 3-4pm hour.  Both of these stats are in-line with the length of daylight hours in the summer and winter outlined above (15+ and 9+). 
 
-[^1] All times have converted to Standard Time for comparability, which is why the sunset time in June may seem early for those used to Daylight Savings time. 
+[^2] All times have converted to Standard Time for comparability, which is why the sunset time in June may seem early for those used to Daylight Savings time. 
 
 The graph, and table below, also shows that the "shoulder" months in the fall and spring are closer to higher summer than they are to lower winter 
 production.  For example, ideal solar generation per day in March is 84% that of June (compared to December at 52%).  
@@ -171,34 +171,38 @@ rain as well.
 ### Ideal Solar Generation Curves
 
 Finally, I performed the same analysis above on three other locations in states with relatively high solar energy generation -- Texas and parts of 
-Florida and North Carolina.[^2]  Below is the pattern of ideal solar generation: potential generation throughout the year in each locale stripping out
+Florida and North Carolina.[^3]  Below is the pattern of ideal solar generation: potential generation throughout the year in each locale stripping out
 generation shortfalls due to weather.  As above, these are benchmarked against maximum physical output for an hour in that location. 
 
-[^2] Specifically, in North Carolina I used the region covered by the balancing authority "Duke Progress East" and in Florida, "Duke Florida."  Larger regions appeared to suffer from incomplete data. 
+[^3] Specifically, in North Carolina I used the region covered by the balancing authority "Duke Progress East" and in Florida, "Duke Florida."  Larger regions appeared to suffer from incomplete data. 
     
 ![Monthly Capacity Curve by State](/assets/images/post4_multi_state.png)
 
-While the general pattern of summer peak and winter valleys is consistent, the overall height of these curves is not intuitive.  I was expecting 
+While the general pattern of summer peak and winter valleys is consistent, the heights of these curves is not intuitive.  I was expecting 
 climate variability in different locations to drive divergence in **actual** solar genration.   But because all of these locations are in the southern tier 
 of the continental U.S., I was not expecting much difference in pre-weather ideal solar generation.  But they are quite different: the average ideal 
 generation throughout the year is 9.4 hours, 7.6 hours, 9.1 hours and 8.0 hours in Nevada, North Carolina, Texas and Florida, respectively.
 
-One (speculative!) possible explanation is that different utilities in different locations have different physical panels that contribute to differential capturing of the sun.  For example, when looking at the June hourly capacity chart for different locations (below), notice that in North Carolina, generation is only briefly at its peak; whereas in Nevada, the shape of the curve is a flat-topped plateau (5 hours above 90% of peak for NC, vs. 9 hours for NV).   If the Nevada utility had motorized solar panels that could track the sun across the sky, while the North Carolina utility did not, this type of chart could result.  
+One (speculative!) possible explanation is that different utilities in different locations have different physical panels that contribute to 
+differential effectiveness in capturing sunlight.  For example, when looking at the June hourly capacity chart for different locations (below), 
+notice that in North Carolina, generation is only briefly at its peak; whereas in Nevada, the shape of the curve is a flat-topped plateau 
+(5 hours above 90% of peak for NC, vs. 9 hours for NV).   If the Nevada utility had motorized solar panels that could track the sun across the sky, 
+while the North Carolina utility did not, this type of chart might result.  
 
 ![Monthly Capacity Curve by State](/assets/images/post4_multi_state_june_hours.png) 
 
-### The Weather
+### Weather Intermittancy
 
-Finally, we see the impact of the weather.  As presaged at the beginning, desert climate Nevada loses relatively little solar generation little to 
-non-sunny skies relative, and in 2022 its average solar production was 7.7 "full blast" hours per day throughout the year.  The other locales all have
-more variable weather with greater cloud cover and precipitation, and as such suffer another ~30% generation loss instead of ~18% in the desert.  Texas 
-comes in second at 6.6 "full blast" hours, Florida at 5.7 hours, and North Carolina at 5.2 hours.
+Finally, we see the impact of the weather.  Desert state Nevada loses relatively little solar output due to non-sunny skies, and in 2022 its average  
+production was 7.6 hours (18% below ideal solar generation levels).  The other locales have more variable weather with greater cloud cover and 
+precipitation, and as such suffer ~30% generation loss compared to their ideal solar generation levels.   Texas comes in second with average actual 
+production equivalent to 6.5 hours of maximum physical output per day, Florida at 5.7 hours, and North Carolina at 5.2 hours. 
 
 ![Overall Actual vs Capacity](/assets/images/post4_multi_state_bar.png) 
 
 ## ChatGPT
 
-While the writing, analytics and the coding here were all authored by me, I got a small amount of help from querying ChatGPT to find convenient python 
-library functions to use (and how to use them), rather than searching for them on the internet or reading about them in package documentation.  It was 
-definitely labor-saving, and I expect to be doing more of this in the future to speed things along. 
+In this post, I got a small amount of help from querying ChatGPT to find convenient python library functions to use (and how to use them), rather than 
+searching for them on the internet or reading about them in package documentation.  It was definitely labor-saving, and I expect to be doing more of 
+this in the future to speed things along. 
 
