@@ -105,7 +105,7 @@ production.  For example, ideal solar generation per day in March is 84% that of
 <!--
 TH{font-family: Arial; font-size: 9pt; text-align: center;}
 TD{font-family: Arial; font-size: 9pt; text-align: center;}
--->
+--->
 </STYLE>
 <table>
     <col> <colgroup span="1"></colgroup><colgroup span="5"></colgroup>
