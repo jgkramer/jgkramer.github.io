@@ -121,15 +121,15 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
         <th scope="col" ="background-color: #D6EEEE">Equiv. Hours @ Maximum Physical Output</th>
     </tr>
 <tr>
+  <th scope="col" style="background-color: #D6EEEE">March</th>
+ <td>18,931</td><td>1,924</td><td>12</td><td>9.8</td><td>9.6</td></tr>
+  <tr>
   <th scope="col" style="background-color: #D6EEEE">June</th>
  <td>22,515</td><td>1,952</td><td>14</td><td>11.5</td><td>11.5</td></tr>
 <tr>
   <th scope="col" style="background-color: #D6EEEE">December</th>
  <td>11,689</td><td>1,505</td><td>9</td><td>7.8</td><td>5.9</td></tr>
 <tr>
-<tr>
-  <th scope="col" style="background-color: #D6EEEE">March</th>
- <td>18,931</td><td>1,924</td><td>12</td><td>9.8</td><td>9.6</td></tr>
 <th scope="col" style="background-color: #D6EEEE">24h of Max. Summer Sun</th>/n<td>47,176</td> <td>1,966</td><td>-</td><td>-</td><td>24</td></tr>
 </table>
 
