@@ -36,36 +36,39 @@ clouds and rain in the Western United States), and how natural gas production do
 <img src="/assets/images/post4_generation_sample.png"  width="70%" height="70%">
 
 Most of this post uses the Nevada balancing authority, Nevada Power.  Besides living here, I chose this region because it is mostly desert.  With less
-weather obstruction, I will be able to get a more accurate picture of idealized / unobstructed solar productivity.  The data used in this inquiry is 
-calendar year 2022: this provides me with a complete picture of seasonal changes without getting exposed (too much) to the confounding effect of additional 
-build-out over time. 
+weather obstruction, I will be able to get a more accurate picture of idealized / unobstructed solar productivity.  All data is from 2022. 
 
 ## Ideal Solar Generation: Methodology
 
-My goal is to create a model of solar generation in Nevada: how power production fluctuates over the hours of the day, and times of the year.  Step "zero",
-before understanding the fluctuations, is identifying the maximum possible output of the installed panels based on 
+Step "zero", before understanding the daily and seasonal flucutations of solar generation, is to identify the maximum possible output of the installed
+panels under ideal sunlight conditions (i.e., summer mid-day).  I will refer to this as the **maximum physical output** of the solar generation system.  
+For Nevada Power in 2022 that was 1,983 MWh per hour (derived using the average of the top three hours of production throughout the year).  Assuming 
+that for these few hours the system was outputting its full capacity, this is equivalent to saying that Nevada Power includes roughly 2 GW of utility
+solar generation.
 
+Next I turn to identifying **ideal solar generation** as a function of day / night and seasonal changes in sunlight, stripping out the effects of weather.
 
-My first simplifying assumption is that maximum solar generation capacity is uniform throughout each calendar month (i.e., the day length and angle
-of the sun are consistent within the month).   This is likely to be close to true for winter and summer months (the day length at Boulder City, NV
-varies from 9 hours 42 minutes to 9:53 in December and from 14:26 to 15:36 in June), and a less good approximation for spring and fall (March is 11:25
-to 12:33).  
+Since I am trying to derive this function from "actual" generation data that includes weather obstruction, I use the data itself to separate good weather 
+days (close to ideal solar generation for the time of year) from bad weather days.  
 
-My second task is to try to filter out weather-driven variability to get a sense of what solar generation can produce if there were perfect weather 
-every day. 
+First, I assume that that ideal solar generation is uniform throughout the calendar month.   In other words, this assumes day length and angle of the
+sun are consistent throughout the month.  This is approximately true for winter and summer months (the day length at Boulder City, NV varies from 9 hours
+42 minutes to 9:53 in December and from 14:26 to 14:36 in June).  It's a rougher approximation in spring and fall (March ranges from 11:25 to 12:33 and 
+11:51 to 12:55 in September).  But this assumption will enable me to estimate ideal solar generation from the **best** generation hours and days 
+within the assumed-constant month.  
 
 ![2022](/assets/images/post4_NVPowerDailyChart.png)
 
-The chart above shows how meaningful weather-driven inconsistency is even in a desert area for solar generation.   The noisy blue line is actual 
-output by day in 2022.   The orange line connects the **top 3** days of output in each month, and could be a starting point for estimating 
-maximum generation capacity.   But this approach has the shortcoming that even the best days in a month could still have a couple of hours of cloud 
-cover and so still systematically understate solar capacity in that month.   In the chart above, July and August (monsoon season in the desert 
-southwest with frequent clouds and even rain) may have this problem, as even the orange curve falls short of where I expect given the levels of 
-April through June. 
+The chart above shows how meaningful weather-driven inconsistency is even in a desert area.   The noisy blue line is actual output by day in 2022.   
+The orange line connects the **top 3** days of output in each month, and could be a starting point for estimating maximum generation capacity.   
+But even the highest-producing days in a month could still have a couple of horus of clouds and so underestimate that month's ideal solar generation. 
+In the chart above, July and August (monsoon season in the desert southwest with a surpring amount of rain) may have this problem, as even the orange
+curve falls short of what I'd expect given the April through June data. 
 
-A more robust approach is, for each of the 24 hours in the day, to find the instances where solar generation during **that hour** was among the top 3
-of generation in that specific time slot.  If one day has morning clouds and afternoon sun, while a second day has morning sun and afternoon clouds, 
-I can compute the solar generation capacity in the period using the first day's afternoon hours and the second day's morning hours. 
+A more robust approach is to, for each of the 24 hours of the day, find the instances where solar generation during **that hour** was among the top three
+of generation in that specific time slot in the month.  For example, I estimate the ideal solar generation in the 10-11am time slot in July by looking 
+at output for the thirty-one 10-11am hours in the month of July, and taking the top three.  These may occur on different days than the 2-3pm time slot.  
+If one day has morning clouds and afternoon sun, while a second day has morning sun and afternoon clouds, I can compute the solar generation capacity in the period using the first day's afternoon hours and the second day's morning hours. 
 
 Here's what happens in July 2022 using the two alternative approaches: 
 
