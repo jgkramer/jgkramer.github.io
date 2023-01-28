@@ -107,7 +107,6 @@ TH{font-family: Arial; font-size: 9pt; text-align: center;}
 TD{font-family: Arial; font-size: 9pt; text-align: center;}
 --->
 </STYLE>
-
 <table>
     <col> <colgroup span="1"></colgroup><colgroup span="5"></colgroup>
     <tr>
@@ -133,6 +132,7 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
  <td>11,689</td><td>1,505</td><td>9</td><td>7.8</td><td>5.9</td></tr>
 <tr>
 <th scope="col" style="background-color: #D6EEEE">24h x Max. Physical Output</th>/n<td>47,584</td> <td>1,983</td><td>-</td><td>-</td><td>24</td></tr>
+
 
 Note the last row: if solar were capable of generating power at the maximum physical output level at this level 24 hours a day, Nevada's installations
 could physically produce 48,000 MWh in a 24-hour period.  Against this benchmark, Nevada's ideal (pre-weather) solar generation is 48% of the 
