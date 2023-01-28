@@ -168,19 +168,22 @@ rain as well.
 
 ## Exploring Different Geographies
 
-### Capacity Curves
+### Ideal Solar Generation Curves
 
 Finally, I performed the same analysis above on three other locations in states with relatively high solar energy generation -- Texas and parts of 
-Florida and North Carolina.  Starting with the pattern of "full capacity" (without weather interruption) throughout the year in each locale: 
+Florida and North Carolina.[^2]  Below is the pattern of ideal solar generation: potential generation throughout the year in each locale stripping out
+generation shortfalls due to weather.  As above, these are benchmarked against maximum physical output for an hour in that location. 
 
+[^2] Specifically, in North Carolina I used the region covered by the balancing authority "Duke Progress East" and in Florida, "Duke Florida."  Larger regions appeared to suffer from incomplete data. 
+    
 ![Monthly Capacity Curve by State](/assets/images/post4_multi_state.png)
 
-These results are not intuitive to me.   While different geographies have different climates, this chart measures weather-free "full capacity" in 
-different months of the year, benchmarked against maximum one-hour summer utility output.  As such, I was not expecting significant variability 
-across locations.   But they are: the average capacity throughout the year is 9.4 hours, 7.6 hours, 9.1 hours and 8.0 hours in Nevada, North Carolina,
-Texas and Florida, respectively.[^2]
+While the general pattern of summer peak and winter valleys is consistent, the overall height of these curves is not intuitive.  I was expecting 
+climate variability in different locations to drive divergence in **actual** solar genration.   But because all of these locations are in the southern tier 
+of the continental U.S., I was not expecting much difference in pre-weather ideal solar generation.  But they are quite different: the average ideal 
+generation throughout the year is 9.4 hours, 7.6 hours, 9.1 hours and 8.0 hours in Nevada, North Carolina, Texas and Florida, respectively.
 
-[^2] One (speculative!) possible explanation is that different utilities in different locations have different physical panels that contribute to differential capturing of the sun.  For example, when looking at the June hourly capacity chart for different locations (below), notice that in North Carolina, generation is only briefly at its peak; whereas in Nevada, the shape of the curve is a flat-topped plateau (5 hours above 90% of peak for NC, vs. 9 hours for NV).   If the Nevada utility had motorized solar panels that could track the sun across the sky, while the North Carolina utility did not, this type of chart could result.  
+One (speculative!) possible explanation is that different utilities in different locations have different physical panels that contribute to differential capturing of the sun.  For example, when looking at the June hourly capacity chart for different locations (below), notice that in North Carolina, generation is only briefly at its peak; whereas in Nevada, the shape of the curve is a flat-topped plateau (5 hours above 90% of peak for NC, vs. 9 hours for NV).   If the Nevada utility had motorized solar panels that could track the sun across the sky, while the North Carolina utility did not, this type of chart could result.  
 
 ![Monthly Capacity Curve by State](/assets/images/post4_multi_state_june_hours.png) 
 
