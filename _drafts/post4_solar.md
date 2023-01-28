@@ -133,31 +133,32 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
 <th scope="col" style="background-color: #D6EEEE">24h x Max. Physical</th>/n<td>47,176</td> <td>1,966</td><td>-</td><td>-</td><td>24</td></tr>
 </table>
 
-For reference, the above table includes the maximum physical output of Nevada's solar utility installations.  If solar were capable of generating power
-at this level 24 hours a day, Nevada's installations could physically produce 47,000 MWh in a 24-hour period.  Against this benchmark, Nevada's ideal 
-(pre-weather) solar generation is 48% of the physical capacity of the panels (i.e., 11.5 hours of maximum physical output per day).   In December
-that falls to 25% (5.9 hours of maximum physical output per day). 
+Note the last row: if solar were capable of generating power at the maximum physical output level at this level 24 hours a day, Nevada's installations
+could physically produce 47,000 MWh in a 24-hour period.  Against this benchmark, Nevada's ideal (pre-weather) solar generation is 48% of the 
+physical capacity of the panels (i.e., 11.5 hours of maximum physical output per day).   In December that falls to 25% (5.9 hours of maximum 
+physical output per day). 
 
-While it is impossible for an earth-based solar installation to achieve these levels, this can still be useful benchmark because we can measure all 
-other outputs against this quantity.  Even before taking into account weather, it may be that some geographies are better at taking a fixed capital 
-input (a solar panel) and converting it into electricity due to day lengths, angles of the sun and permanent obstructions like mountains or 
-nearby forests. 
+While it is impossible for any Earth-based system to get anywhere near 100% of maximum phsyical output, this can still be useful benchmark because we can 
+measure all other outputs against this quantity.  Even before taking into account weather, some geographies may be better at taking a fixed capital input 
+(a solar panel) and converting it into electricity due to latitude, angles of the sun and permanent obstructions like mountains or nearby forests.  
+Some generators may also be better in managing their solar generation assets as an operational and engineering matter (for example, 
+ensuring solar panels adjust to follow the sun), and using this benchmark can help suss this out. 
 
 ## Putting it All Together
 
-We are finally equipped to paint a full year picture of the ebbs and flows of solar generation in Nevada: starting with a top line (unrealizable) 
-benchmark of the full capacity of the plants, we will see how much of that benchmark is produced and when, taking into account (1) daily cycles, (2) 
-seasonal cycles and (3) weather, to reach actual production. 
+Now we can paint a full-year picture of the ebbs and flows of solar generation in Nevada.  Starting with the top-line (unrealizable) maximum physical 
+output benchmark, we will see how much of that benchmark is produced and when, taking into account (1) daily cycles, (2) seasonal cycles and (3) weather, 
+to reach actual production. 
 
 ![Monthly Capacity Curve](/assets/images/post4_NVPower_monthly.png)
 
-Compared to the full-blast summer output of the Nevada solar installations of 1,966 MWh per hour, we see that full capacity throughout the year runs
-between 5.9 hour outputs in the winter and 11.5 in the summer, with an average throughout the year of 9.38 hour-equivalents of full-blast production
-per day.  Actual production every month in 2022 was between 10% and 30% lower than full capacity, depending on the month.   It ranged between the 
-equivalent of 4.2 hours in January to 10.4 hours in May, and averaged the equivalent of 7.66 hours per day throughout the year (18% lower than 
+Compared to the full-blast maximum physical output of the Nevada solar installations of 1,983 MWh per hour, we see that ideal solar generation 
+throughout the year  runs between 5.9 hour outputs in the winter and 11.4 in the summer.  The full-year average is 9.3 hours of maximum physical output 
+per day.  **Actual** generation in 2022 was between 10% and 30% lower than full capacity, depending on the month.  It ranged between 4.2 hours worth 
+of maximum physical output in December to 10.3 hours in May.   The full-year average was 7.6 hours worth of maximum output per day (18% lower than ideal 
 capacity). 
 
-The months where the weather slippage was the greatest are not intuitively surprising to me given my experience of Nevada weather -- there can be 
+The months where the weather slippage was the greatest are not surprising to me given my experience of Nevada weather -- there can be 
 cloud cover and sometimes precipitation in the coldest part of the winter, and there is the summer monsoon season in July/August with frequent 
 rain as well.  
 
