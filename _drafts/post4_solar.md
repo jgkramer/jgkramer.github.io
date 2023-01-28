@@ -179,9 +179,10 @@ generation shortfalls due to weather.  As above, these are benchmarked against m
 ![Monthly Capacity Curve by State](/assets/images/post4_multi_state.png)
 
 While the general pattern of summer peak and winter valleys is consistent, the heights of these curves is not intuitive.  I was expecting 
-climate variability in different locations to drive divergence in **actual** solar genration.   But because all of these locations are in the southern tier 
-of the continental U.S., I was not expecting much difference in pre-weather ideal solar generation.  But they are quite different: the average ideal 
-generation throughout the year is 9.4 hours, 7.6 hours, 9.1 hours and 8.0 hours in Nevada, North Carolina, Texas and Florida, respectively.
+climate variability in different locations to drive divergence in **actual** solar genration.   But because all of these locations are in the 
+southern tier of the continental U.S., I was not expecting much difference in pre-weather ideal solar generation.  But they are quite different: 
+the average ideal generation throughout the year is 9.4 hours, 7.6 hours, 9.1 hours and 8.0 hours in Nevada, North Carolina, Texas and Florida,
+respectively.
 
 One (speculative!) possible explanation is that different utilities in different locations have different physical panels that contribute to 
 differential effectiveness in capturing sunlight.  For example, when looking at the June hourly capacity chart for different locations (below), 
@@ -191,12 +192,12 @@ while the North Carolina utility did not, this type of chart might result.
 
 ![Monthly Capacity Curve by State](/assets/images/post4_multi_state_june_hours.png) 
 
-### Weather Intermittancy
+### Weather
 
-Finally, we see the impact of the weather.  Desert state Nevada loses relatively little solar output due to non-sunny skies, and in 2022 its average  
-production was 7.6 hours (18% below ideal solar generation levels).  The other locales have more variable weather with greater cloud cover and 
-precipitation, and as such suffer ~30% generation loss compared to their ideal solar generation levels.   Texas comes in second with average actual 
-production equivalent to 6.5 hours of maximum physical output per day, Florida at 5.7 hours, and North Carolina at 5.2 hours. 
+Finally, we see the impact of the weather.  Desert state Nevada loses relatively little solar output due to non-sunny skies, and in 2022 
+its average  production was 7.6 hours (18% below ideal solar generation levels).  The other locales have more variable weather with greater 
+cloud cover and precipitation, and as such suffer ~30% generation loss compared to their ideal solar generation levels.   Texas comes in second 
+with average actual production equivalent to 6.5 hours of maximum physical output per day, Florida at 5.7 hours, and North Carolina at 5.2 hours. 
 
 ![Overall Actual vs Capacity](/assets/images/post4_multi_state_bar.png) 
 
