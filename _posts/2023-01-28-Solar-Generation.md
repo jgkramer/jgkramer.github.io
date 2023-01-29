@@ -10,7 +10,7 @@ This post explores a number of real-world considerations that need to be taken i
 mix of electricity generation.  It will cover: 
 
 - **The Difference Between Generating Capacity and Actual Output**: Unlike some sources (e.g., nuclear, coal), which when active can consistently generate power very close to their maximum capacity, solar does not.  I will use noisy generation data from a few U.S. regions to estimate both what utility-scale solar is physically capable of generating, and also how it falls short of that capability (predictably and unpredictably). 
-- **The Daily Cycle**: Solar generates electricity only during the day, and so in the real world is capable of generating electricity at most half the time.  In fact, it is somewhat less than half-time, because there is minimal generation in the early morning or later afternoon when the sun is low in the sky. 
+- **The Daily Cycle**: Solar produces electricity only during the day, and so in the real world it produces at most half of its maximum physical output.  In fact, it is somewhat less than half, because there is minimal generation in the early morning or later afternoon when the sun is low in the sky.
 - **The Seasonal Cycle**: Both because of shorter daylight hours and lower solar intensity, solar panels in winter generate meaningfully less juice than in summer.  This post goes into details.
 - **Differences in Geography**:  While there is some variability across the U.S. in the seasonal / the daily cycle of how the sun moves across the sky, geography also brings climate differences.   I will look at a few solar-heavy U.S. states to see just how big these differences are, and how much they detract from solar electricity generation. 
 
