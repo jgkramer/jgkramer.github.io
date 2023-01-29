@@ -148,9 +148,9 @@ at maximum summer strength for 24 hours a day, Nevada solar would generate 48,00
 
 While it is impossible for any Earth-based system to get anywhere near 100% of maximum phsyical output, this can still be useful benchmark because we can 
 measure all other outputs against this quantity.  Even before taking into account weather, some geographies may be better at taking a fixed capital input 
-(a solar panel) and converting it into electricity due to latitude, angles of the sun and permanent obstructions like mountains or nearby forests.  
-Some generators may also be better in managing their solar generation assets as an operational and engineering matter (for example, 
-ensuring solar panels adjust to follow the sun), and using this benchmark can help suss this out. 
+(a solar panel) and converting it into electricity due to latitude, angles of the sun and permanent obstructions like mountains or nearby forests.  Some 
+generators may also be better in managing their solar generation assets as an operational and engineering matter (for example, ensuring solar panels 
+adjust to follow the sun), and using this benchmark can help suss this out. 
 
 ## Putting it All Together
 
@@ -176,18 +176,19 @@ rain as well.
 
 ### Ideal Solar Generation Curves
 
-Finally, I performed the same analysis above on three other locations in states with relatively high solar energy generation -- Texas and parts of 
-Florida and North Carolina.[^4]  Below is the pattern of ideal solar generation: potential generation throughout the year in each locale stripping out
-generation shortfalls due to weather.  As above, these are benchmarked against maximum physical output for an hour in that location. 
+Finally, I performed the same analysis above on three other locations in states with relatively high solar energy penetration -- Texas and parts of 
+Florida and North Carolina.[^4]  Below is their patterns of ideal solar generation: solar capacity throughout the year in each locale taking into account
+seasons and day lengths but stripping out generation shortfalls due to weather or other interruptions.  As above, I benchmarke against maximum physical
+output for an hour in that location. 
 
 [^4]: Specifically, in North Carolina I used the region covered by the balancing authority "Duke Energy Progress East" and in Florida, "Duke Energy Florida."  Larger regions appeared to suffer from incomplete data. 
     
 ![Monthly Capacity Curve by State](/assets/images/post4_multi_state.png)
 
 While the general pattern of summer peak and winter valleys is consistent, the heights of these curves is not intuitive.  I was expecting 
-climate variability in different locations to drive divergence in **actual** solar genration.   But because all of these locations are in the 
+climate variability in different locations to drive divergence in **actual** solar genration.  But because all of these locations are in the 
 southern tier of the continental U.S., I was not expecting much difference in pre-weather ideal solar generation.  But they are quite different: 
-the average ideal generation throughout the year is 9.4 hours, 7.6 hours, 9.1 hours and 8.0 hours in Nevada, North Carolina, Texas and Florida,
+the average ideal generation throughout the year is 9.3 hours, 7.5 hours, 8.9 hours and 8.0 hours in Nevada, North Carolina, Texas and Florida,
 respectively.
 
 One (speculative!) possible explanation is that different utilities in different locations have different physical panels that contribute to 
@@ -201,8 +202,8 @@ while the North Carolina utility did not, this type of chart might result.
 ### Weather
 
 Finally, we see the impact of the weather.  Desert state Nevada loses relatively little solar output due to non-sunny skies, and in 2022 
-its average  production was 7.6 hours (18% below ideal solar generation levels).  The other locales have more variable weather with greater 
-cloud cover and precipitation, and as such suffer ~30% generation loss compared to their ideal solar generation levels.   Texas comes in second 
+its average production was 7.6 hours (18% below ideal solar generation levels).  The other locales have more variable weather with greater 
+cloud cover and precipitation, and as such suffer ~30% generation loss compared to their ideal solar generation levels.  Texas comes in second 
 with average actual production equivalent to 6.5 hours of maximum physical output per day, Florida at 5.7 hours, and North Carolina at 5.2 hours. 
 
 ![Overall Actual vs Capacity](/assets/images/post4_multi_state_bar.png) 
