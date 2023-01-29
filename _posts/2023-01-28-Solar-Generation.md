@@ -89,7 +89,7 @@ obstructions or other outages).
 
 ![All months](/assets/images/post4_NVPower_all_hourly.png)
 
-One key result of this analysis is that solar generation in the winter can only generate about **half as much** electricity per day as in the summer,
+One key result of this analysis is that solar plants in the winter can only generate about **half as much** electricity per day as in the summer,
 for two reasons. 
 
 1. The maximum generation per hour is **higher in the summer** due to the higher angle of the sun in the sky (approaching the maximum physical output).  Full sun in December generates only ~77% as much power as full sun in June.
@@ -98,9 +98,8 @@ for two reasons.
 
 [^2]: All times have converted to Standard Time for comparability, which is why the sunset time in June may seem early for those used to Daylight Savings time.
 
-The graph, and table below, also shows that the "shoulder" months in the fall and spring are closer to higher summer than they are to lower winter 
-production.  For example, ideal solar generation per day in March is 84% that of June (compared to December at 52%).
-
+Note also that the "shoulder" months in the fall and spring are closer to higher summer than they are to lower winter production.  For example, 
+ideal solar generation per day in March is 84% that of June (compared to December at 52%).
 
 <STYLE TYPE="text/css">
 <!--
@@ -137,10 +136,12 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
 <th scope="col" style="background-color: #D6EEEE">24h x Max. Physical Output</th> <td>47,584</td> <td>1,983</td><td>-</td><td>-</td><td>24</td></tr>
 </table>
 
-Note the last row: if solar were capable of generating power at the maximum physical output level at this level 24 hours a day, Nevada's installations
-could physically produce 48,000 MWh in a 24-hour period.  Against this benchmark, Nevada's ideal (pre-weather) solar generation is 48% of the 
-physical capacity of the panels (i.e., 11.5 hours of maximum physical output per day).   In December that falls to 25% (5.9 hours of maximum 
-physical output per day). 
+The second key observation is that while solar actively generates some power about half the time (9 hours a day in December, 12 in March and 
+14 in December), 1-2 hour slot on each end of the day generates at low intensity with the sun low in the sky.   While there is power flowing for 14 hours
+a day in June, this is worth about 11.5 hours worth of mid-day June sun.   Similarly December -- power flows for 9 hours a day but sunrise / sunset 
+makes this worth only about 7.8 hours of mid-day December sun.   Effectively, the sun works somewhat less than half-time. 
+
+Finally, the table references the hypothetical generation of Nevada's solar installations using their maximum physical output.  If sun were at maximum summer strength for 24 hours a day, Nevada solar would generate 48,000 MWh in a 24 hour period.  
 
 While it is impossible for any Earth-based system to get anywhere near 100% of maximum phsyical output, this can still be useful benchmark because we can 
 measure all other outputs against this quantity.  Even before taking into account weather, some geographies may be better at taking a fixed capital input 
@@ -157,8 +158,10 @@ to reach actual production.
 ![Monthly Capacity Curve](/assets/images/post4_NVPower_monthly.png)
 
 Compared to the full-blast maximum physical output of the Nevada solar installations of 1,983 MWh per hour, we see that ideal solar generation 
-throughout the year  runs between 5.9 hour outputs in the winter and 11.4 in the summer.  The full-year average is 9.3 hours of maximum physical output 
-per day.  **Actual** generation in 2022 was between 10% and 30% lower than full capacity, depending on the month.  It ranged between 4.2 hours worth 
+throughout the year  runs between 5.9 hours worth of output in winter (25% of maximum physical output) outputs in the winter and 11.4 in the summer (48% of 
+maximum physical output).  The full-year average is 9.3 hours of maximum physical output per day (39% of maximum physical output). 
+
+**Actual** generation in 2022 was between 10% and 30% lower than the ideal solar generation, depending on the month.  It ranged between 4.2 hours worth 
 of maximum physical output in December to 10.3 hours in May.   The full-year average was 7.6 hours worth of maximum output per day (18% lower than ideal 
 capacity). 
 
