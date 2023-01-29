@@ -136,12 +136,13 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
 <th scope="col" style="background-color: #D6EEEE">24h x Max. Physical Output</th> <td>47,584</td> <td>1,983</td><td>-</td><td>-</td><td>24</td></tr>
 </table>
 
-The second key observation is that while solar actively generates some power about half the time (9 hours a day in December, 12 in March and 
-14 in December), 1-2 hour slot on each end of the day generates at low intensity with the sun low in the sky.   While there is power flowing for 14 hours
-a day in June, this is worth about 11.5 hours worth of mid-day June sun.   Similarly December -- power flows for 9 hours a day but sunrise / sunset 
-makes this worth only about 7.8 hours of mid-day December sun.   Effectively, the sun works somewhat less than half-time. 
+The second key observation is that while solar actively generates **some** power about half the time, there are 1-2 hours at each end of the day with 
+lower output when the sun is low in the sky.  So 14 hours of active generation in June in reality is about 11.5 hours worth of peak June sun.  Similarly
+December -- power is on for 9 hours a day but sunrise / sunset make this worth only about 7.8 days of mid-day December sun.  Effectively, the sun \
+works somewhat less than half-time. 
 
-Finally, the table references the hypothetical generation of Nevada's solar installations using their maximum physical output.  If sun were at maximum summer strength for 24 hours a day, Nevada solar would generate 48,000 MWh in a 24 hour period.  
+Finally, the table above references the hypothetical generation of Nevada's solar installations using their maximum physical output.  If sun were
+at maximum summer strength for 24 hours a day, Nevada solar would generate 48,000 MWh in a 24 hour period.  
 
 While it is impossible for any Earth-based system to get anywhere near 100% of maximum phsyical output, this can still be useful benchmark because we can 
 measure all other outputs against this quantity.  Even before taking into account weather, some geographies may be better at taking a fixed capital input 
