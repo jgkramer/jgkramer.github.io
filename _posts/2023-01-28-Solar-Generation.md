@@ -35,7 +35,7 @@ clouds and rain in the Western U.S.), and how on these days natural gas producti
 
 <img src="/assets/images/post4_generation_sample.png"  width="70%" height="70%">
 
-I focus on Nevada's balancing authority, Nevada Power.[^1]  Besides living here, I chose this region because it is mostly desert.  With 
+I focus mostly on Nevada's balancing authority, Nevada Power.[^1]  Besides living here, I chose this region because it is mostly desert.  With 
 less weather obstruction, I will be able to get a more accurate picture of idealized / unobstructed solar productivity.  All data is from 2022. 
 
 [^1]: It's not clear to me exactly what region this covers.   The balancing authority map on the EIA website suggests that this the less-populated area of the state excluding the Las Vegas area in the southern extreme.   However, NV Power, which also does business as NV Energy, services the entire state as an electric utility, and its solar assets include those in the [Las Vegas vicinity](https://www.nvenergy.com/cleanenergy/renewable-energy-portfolio/solar-resources)
