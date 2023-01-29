@@ -6,15 +6,15 @@ hide: true
 excerpt_separator: <!--more-->
 ---
 
-In this post, I use grid-level data to explore a number of real-world considerations that need to be taken into account when incorporating utility-scale 
-solar power into the mix of generation.  This post will explore: 
+This post explores a number of real-world considerations that need to be taken into account when incorporating utility-scale solar power into the 
+mix of electricity generation.  It will cover: 
 
-- **The Difference Between Generating Capacity and Actual Output**: Unlike some sources (e.g., Nuclear, Coal), which when active can more or less always generate electricity at their maximum capacity, solar does not.  This post will take noisy generation data from a few U.S. regions and use that to estimate both what utility-scale solar is physically capable of generating, and also how it falls short of that capability (predictably and unpredictably). 
-- **The Daily Cycle**: Solar generates electricity only during the day, and so in the real world is capable of generating electricity at most half the time.  In fact, solar generation is somewhat less than half-time, because there is minimal generation in the early morning or later afternoon when the sun is low in the sky. 
+- **The Difference Between Generating Capacity and Actual Output**: Unlike some sources (e.g., nuclear, coal), which when active can consistently generate power very close to their maximum capacity, solar does not.  I will use noisy generation data from a few U.S. regions to estimate both what utility-scale solar is physically capable of generating, and also how it falls short of that capability (predictably and unpredictably). 
+- **The Daily Cycle**: Solar generates electricity only during the day, and so in the real world is capable of generating electricity at most half the time.  In fact, it is somewhat less than half-time, because there is minimal generation in the early morning or later afternoon when the sun is low in the sky. 
 - **The Seasonal Cycle**: Both because of shorter daylight hours and lower solar intensity, solar panels in winter generate meaningfully less juice than in summer.  This post goes into details.
-- **Differences in Geography**:  While there is some variability across the U.S. in seasonal / the daily cycle, geography also brings climate and weather pattern differences.   I will look at a few solar-heavy U.S. states to see just how big these differences are. 
+- **Differences in Geography**:  While there is some variability across the U.S. in the seasonal / the daily cycle of how the sun moves across the sky, geography also brings climate differences.   I will look at a few solar-heavy U.S. states to see just how big these differences are, and how much they detract from solar electricity generation. 
 
-I have two goals.   The first is to show real data that concretely explores features of solar generation that are often qualitatively presented (e.g., 
+I have two goals.   The first is to show real data to quantify features of solar generation that are often qualitatively presented (e.g., 
 intermittency).   The second is to start generating a reasonably accurate mathematical model of solar as a variable electricity **supply**.   This can then 
 be matched up against the fluctuating **demand** levels for electricity that I have explored in previous posts.  The intersection of supply and demand
 can generate other interesting outputs such as (1) how much energy storage is useful to have on the grid and/or (2) how much "overcapacity" needs to be 
