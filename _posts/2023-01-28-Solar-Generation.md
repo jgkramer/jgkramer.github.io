@@ -15,10 +15,10 @@ mix of electricity generation.  It will cover:
 - **Differences in Geography**:  While there is some variability across the U.S. in the seasonal / the daily cycle of how the sun moves across the sky, geography also brings climate differences.   I will look at a few solar-heavy U.S. states to see just how big these differences are, and how much they detract from solar electricity generation. 
 
 I have two goals.   The first is to show real data to quantify features of solar generation that are often qualitatively presented (e.g., 
-intermittency).   The second is to start generating a reasonably accurate mathematical model of solar as a variable electricity **supply**.   This can then 
+intermittency).   The second is to begin constructing a realistic model of solar as a variable electricity **supply**.   This supply can then 
 be matched up against the fluctuating **demand** levels for electricity that I have explored in previous posts.  The intersection of supply and demand
-can generate other interesting outputs such as (1) how much energy storage is useful to have on the grid and/or (2) how much "overcapacity" needs to be 
-built to fill gaps. 
+can generate other interesting outputs such as (1) how much energy storage is useful to have on the grid and/or (2) how much "overcapacity" of electricity
+generation needs to be built to fill gaps. 
 
 <!--more-->
 
@@ -31,11 +31,11 @@ natural gas, solar, wind).
 
 An example of the latter is below, which shows the daily cycle of solar generation, and how natural gas plants are ramped up and down each day to 
 offset the solar daily cycle.  The chart also shows how on some days, solar generation is weak due to weather (the end of December 2022 saw a lot of 
-clouds and rain in the Western United States), and how natural gas production doesn't ramp down as much. 
+clouds and rain in the Western U.S.), and how on these days natural gas production doesn't ramp down as much. 
 
 <img src="/assets/images/post4_generation_sample.png"  width="70%" height="70%">
 
-Most of this post uses the Nevada balancing authority, Nevada Power.[^1]  Besides living here, I chose this region because it is mostly desert.  With 
+I focus on Nevada's balancing authority, Nevada Power.[^1]  Besides living here, I chose this region because it is mostly desert.  With 
 less weather obstruction, I will be able to get a more accurate picture of idealized / unobstructed solar productivity.  All data is from 2022. 
 
 [^1]: It's not clear to me exactly what region this covers.   The balancing authority map on the EIA website suggests that this the less-populated area of the state excluding the Las Vegas area in the southern extreme.   However, NV Power, which also does business as NV Energy, services the entire state as an electric utility, and its solar assets include those in the [Las Vegas vicinity](https://www.nvenergy.com/cleanenergy/renewable-energy-portfolio/solar-resources)
