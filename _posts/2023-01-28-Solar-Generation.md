@@ -117,7 +117,7 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
         <th scope="col" style="background-color: #D6EEEE">Month</th> 
         <th scope="col" style="background-color: #D6EEEE">Daily Generation Capacity (MWh)</th> 
         <th scope="col" style="background-color: #D6EEEE">Monthly Peak Hour (MWh)</th>
-        <th scope="col" style="background-color: #D6EEEE">Hours Active per Day<p markdown="1">[^3]</p></th>
+        <th scope="col" style="background-color: #D6EEEE"><p markdown="1">**Hours Active per Day**[^3]</p></th>
         <th scope="col" style="background-color: #D6EEEE">Equiv. Hours @ Monthly Peak</th>
         <th scope="col" style="background-color: #D6EEEE">Equiv. Hours @ Maximum Physical Output</th>
     </tr>
