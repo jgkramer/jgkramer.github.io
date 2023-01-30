@@ -3,6 +3,7 @@ layout: post
 title: "Anecdotes on Electricity Usage"
 date: "2022-11-7"
 hide: true
+author: Jared Kramer
 excerpt_separator: <!--more-->
 ---
 The [previous post's](https://jgkramer.github.io/2022/10/15/Residential-Electricity-Rates.html) foray into electricity rates, 
