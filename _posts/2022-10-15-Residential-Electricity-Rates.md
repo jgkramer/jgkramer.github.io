@@ -2,6 +2,7 @@
 layout: post
 title: "Introduction to Residential Electricity Rates"
 date: "2022-10-15"
+author: Jared Kramer
 excerpt_separator: <!--more-->
 ---
 
