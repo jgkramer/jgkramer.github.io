@@ -1,6 +1,7 @@
 
 ---
 layout: default
+theme: minima
 title: About
 ---
 
