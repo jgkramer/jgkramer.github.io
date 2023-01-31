@@ -3,6 +3,7 @@
 layout: default
 theme: minima
 title: About
+permalink: /about/
 ---
 
 My name is Jared Kramer and you can reach out to me at turkeysinthedesert -at- gmail -dot- com.
