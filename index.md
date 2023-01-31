@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Turkeys in the Desert
 ---
 
 Hello, world! This blog will be a forum for me to explore topics that can be addressed with data, assisted by code. 
