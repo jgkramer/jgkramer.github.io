@@ -209,7 +209,7 @@ with average actual production equivalent to 6.5 hours of maximum physical outpu
 
 ![Overall Actual vs Capacity](/assets/images/post4_multi_state_bar.png) 
 
-## ChatGPT
+## ChatGPT 
 
 In this post, I got a small amount of help from querying ChatGPT to find convenient python library functions to use (and how to use them), rather than 
 searching for them on the internet or reading about them in package documentation.  It was definitely labor-saving, and I expect to be doing more of 
