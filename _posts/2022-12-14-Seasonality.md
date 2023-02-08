@@ -10,7 +10,7 @@ This post explores the seasonality of electricity usage, using both state-wide d
 * I start with a warm climate (Nevada, where I currently live), and notice a two-peak distribution throughout the year of electricity usage: a big peak in the summer (cooling) and a smaller, but distinctive, peak in the winter (likely heating).
 * I then compare this to electricity usage in a cooler climate (Connecticut), which similarly has a two-peak pattern.   Not surprisingly, the summer peak in Connecticut is smaller than Nevada; but the winter peak is not as prominent as I might have expected, likely because much of heating **energy** usage is not supplied by **electricity** but rather by fossil fuels directly (oil and gas).  A good reminder that **electricity consumption** is not the same as **total energy consumption**.
 * To see if this two-peak pattern was universal, I checked the extremes: Alaska and Florida.   Indeed, these two states (almost uniquely) have only one peak: Alaska's climate requires little to no cooling in the summer (so there is only a winter heating peak) and Florida requires little heating (so there is only a summer cooling peak). 
-* Finally, I look (with a neat mapping package in Python) at the size of the summer and winter peaks throughout the country.  Summer follows climate relatively intuitively: the hotter the summer, the bigger the summer electricity consumption peak.   Winter is more complicated, and reflects both climate as well as the electricity / energy distinction, because homes in different parts of the country are heated by different means. 
+* Finally, I look at the size of the summer and winter peaks throughout the country.  Summer follows climate relatively intuitively: the hotter the summer, the bigger the summer electricity consumption peak.   Winter is more complicated, and reflects both climate as well as the electricity / energy distinction, because homes in different parts of the country are heated by different means. 
 <!--more-->
 
 ## Nevada: Double Peak, Emphasis on Summer Cooling
@@ -143,8 +143,7 @@ electricity generation.
 ## Code and Coda
 
 The [coding](www.github.com/jgkramer/hummingbird) for this post was fun, and I focused particularly on modularizing the reading of 
-utility-provided CSV files with home usage of various cadence (all the way from 15-minute granularity to monthly usage data).  I was pleasantly 
-surprised by the choropleth map functionality available in [plotly](https://plotly.com/python/choropleth-maps/), which was almost plug-and-play for me.
+utility-provided CSV files with home usage of various cadence (all the way from 15-minute granularity to monthly usage data).  The mapping visualization was provided by [plotly](https://plotly.com/python/choropleth-maps/).
 
 I welcome a discussion with any readers who care to share data and draw lessons from it, especially commercial / industrial customers with energy as 
 a significant input to operations, and who face a more complicated set of decisions (including demand-spike based pricing). 
