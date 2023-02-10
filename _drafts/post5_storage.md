@@ -17,6 +17,7 @@ In all of these situations there will be a question of whether it is more effici
 
 This post will attempt to illustrate, using reasonably realistic electricity demand models and overly simplistic supply models (with no unplanned outages) what profile of storage could be useful: how much energy capacity is needed and how frequently it cycles.  
 
+## The Approach: Start at Home
 
 
 
