@@ -1,4 +1,4 @@
- ---
+---
 layout: post
 title: "Thoughts on Electricity Storage"
 date: "2023-02-28"
