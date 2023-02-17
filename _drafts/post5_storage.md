@@ -21,11 +21,14 @@ This post will attempt to illustrate, using reasonably realistic electricity dem
 
 This post uses the following approach: 
 
-1. We have access to electricity storage of indeterminate size; the experiments 
+1. We have access to electricity storage (e.g., battery storage).  The battery can be "full" (its initial condition) but it can be drawn down in an arbitrarily large amount.  
 2. Demand for electricity consumption is taken as a given as a function of time (measured hourly) and supply (whether from the grid or from storage) must be supplied to meet that demand at all times
 3. I can specify a maximum grid supply, also as a function of time (hourly).  The supply value at any time could be greater or less than demand at that time. 
-3. If the supply exceeds demand at a given time, the excess will be used, first, to "refill" 
+4. If the supply exceeds demand at a given time, the excess will be used, first, to "refill" the energy storage system; and second, if the energy storage is full, the supply is "lost" (this would in reality result in a reduction in generation).
+5. If the grid supply is inadequate to meed demand, the difference will be supplied by a drawdown of the balance in energy storage. 
+6. The exercise in each scenario analyzed will be to identify how much battery capacity is actually needed, and how frequently the battery is cycled.  
 
+## Individual Scenarios
 
 ![KramerMedianPeak](/assets/images/post5_KramerMedianPeak.png)
 
