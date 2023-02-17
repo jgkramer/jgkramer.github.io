@@ -17,7 +17,16 @@ In all of these situations there will be a question of whether it is more effici
 
 This post will attempt to illustrate, using reasonably realistic electricity demand models and overly simplistic supply models (with no unplanned outages) what profile of storage could be useful: how much energy capacity is needed and how frequently it cycles.  
 
-## The Approach: Start at Home
+## The Approach
 
+This post uses the following approach: 
+
+1. We have access to electricity storage of indeterminate size; the experiments 
+2. Demand for electricity consumption is taken as a given as a function of time (measured hourly) and supply (whether from the grid or from storage) must be supplied to meet that demand at all times
+3. I can specify a maximum grid supply, also as a function of time (hourly).  The supply value at any time could be greater or less than demand at that time. 
+3. If the supply exceeds demand at a given time, the excess will be used, first, to "refill" 
+
+
+[graph1](
 
 
