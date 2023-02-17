@@ -27,6 +27,7 @@ This post uses the following approach:
 3. If the supply exceeds demand at a given time, the excess will be used, first, to "refill" 
 
 
-[graph1](
+![KramerMedianPeak](/assets/images/post5_KramerMedianPeak.png)
+
 
 
