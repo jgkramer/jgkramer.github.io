@@ -30,6 +30,8 @@ This post uses the following approach:
 
 ## Individual Scenarios
 
+Here is a scenario using my own home's data from September 2021. 
+
 ![KramerMedianPeak](/assets/images/post5_KramerMedianPeak.png)
 
 
