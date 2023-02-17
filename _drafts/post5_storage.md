@@ -32,6 +32,8 @@ This post uses the following approach:
 
 Here is a scenario using my own home's data.  The blue line in the top chart below shows the electricity my home used for each hour in September 2021.  Consider a scenario where I am limited to some maximum level of electricity from the grid, for example an amount equal to the median peak hourly use  during the month.  This scenario might be driven by a utility plan that encourages me (or requires me, through a smart grid device) to avoid drawing excessive power at peak times in order to protect the grid.
 
+If I want to use more power than this amount, I must supply it myself by drawing from a home battery system that has stored energy from prior periods when my usage was lower. 
+
 ![KramerMedianPeak](/assets/images/post5_KramerMedianPeak.png)
 
 
