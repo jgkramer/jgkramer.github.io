@@ -40,6 +40,8 @@ If I want to use more power than 11.5 kWh per in any hour during my own peak con
 
 Since the grid electrical input in this scenario is enough to cover usage for all but a few hours a day on 15 days, we can imagine a battery cycling to supply the gap.  For example, on August 3, air-conditioning driven demand exceeds supply from 2pm to 8pm by between 1 - 3 kWh per hour.  By 8pm slot, the battery would have needed to supply a total of 8.05 kWh.  Once the sun sets, hourly usage falls to under 7 kWh, and the excess up to 11.5 kWh refills the battery by 10pm.
 
-Across the entire month, the largest daily battery usage would have been 8.9 kWh (on August 1).  There are a number of home battery storage products available in the 10-20 kWh capacity area, so this solution seems feasible.   However, at a battery cost for this capacity in the $10,000 - $20,000 area, it may not be economical as an individual solution. 
+Across the entire month, the largest daily battery usage would have been 8.9 kWh (on August 1).  There are a number of home battery storage products available in the 10-20 kWh capacity area, so this solution seems feasible.  However, at a battery cost for this capacity in the $10,000 - $20,000 area, it may not be economical as an individual solution.[^1]
+
+[^1] Using the same analysis as in [post 2], smoothing out peak demand like this would save less than $200 on an annual basis under Nevada's time-of-use plans, so the payback period for this storage solution is very long. 
 
 ![KramerSolarAugust](/assets/images/post5_KramerSolar.png)
