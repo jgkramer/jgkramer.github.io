@@ -42,6 +42,6 @@ Since the grid electrical input in this scenario is enough to cover usage for al
 
 Across the entire month, the largest daily battery usage would have been 8.9 kWh (on August 1).  There are a number of home battery storage products available in the 10-20 kWh capacity area, so this solution seems feasible.  However, at a battery cost for this capacity in the $10,000 - $20,000 area, it may not be economical as an individual solution.[^1]
 
-[^1]: Using the same analysis as in this [earlier post](https://jgkramer.github.io/2022/11/07/Electricity_Usage_Anecdotes.html), smoothing out peak demand like this would save less than $200 on an annual basis under Nevada's time-of-use plans, so the payback period for this storage solution is very long. 
+[^1]: At the rates described in [this post](https://jgkramer.github.io/2022/11/07/Electricity_Usage_Anecdotes.html), this storage scheme would save less than $25 per year by transferring up to 8 kWh from peak times to off-peak times (a savings of $0.31 per kWh) on half the days during the 4 summer peak months.
 
 ![KramerSolarAugust](/assets/images/post5_KramerSolar.png)
