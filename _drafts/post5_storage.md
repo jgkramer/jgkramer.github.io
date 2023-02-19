@@ -32,12 +32,12 @@ This post uses the following approach:
 
 ### Replace Peak Grid
 
-Here is a scenario using my home's data.  The blue line in the top chart shows the electricity my family consumed for each hour in August 2021.  Consider a scenario where I am limited to drawing some maximum level of power at any time from the grid.  For example, this might be the median of each day's peak hourly usage in the evening.  This set-up could be driven by a utility plan that encourages me (avoid peak pricing) or requires me (e.g., smart grid device) to avoid drawing excessive power at peak times in order to protect the grid. 
+Here is a scenario using my home's data.  The blue line in the top chart shows the electricity my family consumed hourly in August 2021.  Imagine I am limited to drawing a maximum level of power at any time from the grid.  For example, this might be the median of each day's peak hourly usage in the evening.  The red line in the top chart shows this limit of 11.5 kW.  This set-up could be driven by a utility plan that encourages me (avoid peak pricing) or requires me (e.g., smart grid device) to avoid drawing excessive power at peak times in order to protect the grid. 
 
-If I want to use more power than this during my own peak consumption hours, I'm on my own.   I must use home battery system that has stored energy from prior periods with lower usage. 
+If I want to use more power than 11.5 kWh per in any hour during my own peak consumption hours, I must use home battery system that has stored energy from prior periods with lower usage.  So the red line in the bottom chart shows how much aggregate has been drawn down from a full battery (represented by a 0 y-value at the top).   
 
 ![KramerMedianPeakAugust](/assets/images/post5_KramerMedianPeak.png)
 
-Since the grid electrical input in this scenario is enough to cover usage for all but a few hours a day on 15 days, we can imagine a battery cycling to supply the gap.   For example, on August 3, air-conditioning driven demand exceeds supply from 2pm to 8pm by between 1 - 3 kWh per hour.  By the 7-8pm slot, the battery would have needed to supply a total of 8.05 kWh.  Once the evening cools the electricity demanded 
+Since the grid electrical input in this scenario is enough to cover usage for all but a few hours a day on 15 days, we can imagine a battery cycling to supply the gap.  For example, on August 3, air-conditioning driven demand exceeds supply from 2pm to 8pm by between 1 - 3 kWh per hour.  By 8pm slot, the battery would have needed to supply a total of 8.05 kWh.  Once the sun sets, hourly usage falls to under 7 kWh, and the excess up to 11.5 kWh refills the battery by 10pm.
 
 ![KramerSolarAugust](/assets/images/post5_KramerSolar.png)
