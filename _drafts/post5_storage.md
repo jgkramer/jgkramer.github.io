@@ -36,7 +36,8 @@ Here is a scenario using my home's data.  The blue line in the top chart shows t
 
 If I want to use more power than this during my own peak consumption hours, I'm on my own.   I must use home battery system that has stored energy from prior periods with lower usage. 
 
-![KramerMedianPeak](/assets/images/post5_KramerMedianPeak.png)
+![KramerMedianPeakAugust](/assets/images/post5_KramerMedianPeak.png)
 
+Since the grid electrical input in this scenario is enough to cover usage for all but a few hours a day on 15 days, we can imagine a battery cycling to supply the gap.   For example, on August 3, air-conditioning driven demand exceeds supply from 2pm to 8pm by between 1 - 3 kWh per hour.  By the 7-8pm slot, the battery would have needed to supply a total of 8.05 kWh.  Once the evening cools the electricity demanded 
 
-
+![KramerSolarAugust](/assets/images/post5_KramerSolar.png)
