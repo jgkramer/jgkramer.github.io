@@ -32,7 +32,7 @@ This post uses the following approach:
 
 ### Replace Peak Grid
 
-Here is a scenario using my home's data.  The blue line in the top chart shows the electricity my family consumed for each hour in August 2021.  Consider a scenario where I am limited to drawing some maximum level of power at any time from the grid.  For example, this might be the median of each day's peak hourly usage in the evening.  This set-up could be driven by a utility plan that encourages me (or requires me, through a smart dervice) to avoid drawing excessive power at peak times in order to protect the grid. 
+Here is a scenario using my home's data.  The blue line in the top chart shows the electricity my family consumed for each hour in August 2021.  Consider a scenario where I am limited to drawing some maximum level of power at any time from the grid.  For example, this might be the median of each day's peak hourly usage in the evening.  This set-up could be driven by a utility plan that encourages me (avoid peak pricing) or requires me (e.g., smart grid device) to avoid drawing excessive power at peak times in order to protect the grid. 
 
 If I want to use more power than this during my own peak consumption hours, I'm on my own.   I must use home battery system that has stored energy from prior periods with lower usage. 
 
