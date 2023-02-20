@@ -40,13 +40,24 @@ If I want to use more power than 11.5 kWh per in any hour during my own peak con
 
 Since the grid electrical input in this scenario is enough to cover usage for all but a few hours a day on 15 days, we can imagine a battery cycling to supply the gap.  For example, on August 3, air-conditioning driven demand exceeds supply from 2pm to 8pm by between 1 - 3 kWh per hour.  By 8pm slot, the battery would have needed to supply a total of 8.05 kWh.  Once the sun sets, hourly usage falls to under 7 kWh, and the excess up to 11.5 kWh refills the battery by 10pm.
 
-Across the entire month, the largest daily battery usage would have been 8.9 kWh (on August 1).  There are a number of home battery storage products available in the 10-20 kWh capacity area, so this solution seems feasible.  However, at a battery cost for this capacity in the $10,000 - $20,000 area, it may not be economical as an individual solution.[^1]
+Across the entire month, the largest daily battery usage would have been 8.9 kWh (on August 1).  There are a number of home battery storage products available in the 10-20 kWh capacity area, so this solution seems feasible.  However, at a battery cost for this capacity in the $10,000 - $15,000 area, it may not be economical as an individual solution.[^1]
 
 [^1]: At the rates described in [this post](https://jgkramer.github.io/2022/11/07/Electricity_Usage_Anecdotes.html), this storage scheme would save less than $25 per year by transferring up to 8 kWh from peak times to off-peak times (a savings of $0.31 per kWh) on half the days during the 4 summer peak months.
 
-### Solar Power
+### Solar Power and Supply Driven 
 
 Battery storage is a requirement of any electricity scheme that relied heavily on solar power.  Even if solar generates enough electricity in aggregate, 
-a meaningful portion of the day's usage needs to be time shifted from the daytime, when the sun is shining, to nighttime.  
+a meaningful portion of the day's usage needs to be time shifted from the daytime, when the sun is shining, to nighttime.  One might ask, for example, 
+whether it is possible to use a combination of solar + battery to supply all electricity needs and go "off grid".   
+
+The below analysis assumes the same relative output throughout an **August** day in Nevada as explored in the [last post](https://jgkramer.github.io/2023/01/28/Solar-Generation.html), but scaled down so that the total output over the month is either 110% or 130% of the total electricity consumed in the month.  Note that this generation function is **ideal solar generation**: the system generates electricity assuming good weather and no interruptions.   
 
 ![KramerSolarAugust](/assets/images/post5_KramerSolar.png)
+
+Notice the daily cycle: solar generation is strongest in the mid-day, when the need for air conditioning has not yet ramped up, so at this point the battery is filling up.  Solar generation drops by more than 50% from the 4-5pm hour to the 6-7pm hour, and falls away entirely after that until the next morning.  Meanwhile, the air conditioning peak generally runs until 8pm, so there is a sharp drawdown from storage in the evening that continues at a slower pace until the next morning. 
+
+One thing that makes this plan tricky is that daily demand fluctuates considerably with both behavior (laundry is a big one) and weather (temperature / AC needs).   Compared to an average of 148 kWh, daily use ranged from 99 kWh (67% of average) to 193 kWh (130% of average).   So in order for the battery to fully recharge every day, we needed a solar generation system that was capable of delivering 130% of the average day's consumption every day (orange lines).  With this level of input, the energy storage needs to be at least **69 kWh**.   This is a much larger and more expensive battery but still in the range of quasi-mass production: many electric vehicle batteries fall in the capacity range of 80-120 kWh.   
+
+However, if we only have enough solar capacity to deliver 110% of the average day's consumption (pink lines), we begin to run into trouble.  The beginning of August 2021 had a number of consecutive days with consumption greater than 110% of average, so day-to-day the battery never had a chance to recharge fully.   The result was a bigger and bigger drawdown of storage capacity until the middle of the month.   The total size of battery needed was at least **156 kWh**. 
+
+All of this occurs without two complications: (1) seasonality (with much larger swings in demand and, for solar, supply) and (2) weather-driven shortfalls.   If we take into account the likelihood that solar generation is not only lower than ideal (in Nevada, [82%](https://jgkramer.github.io/2023/01/28/Solar-Generation.html)), but lower in lumpy ways (i.e., some days with only 50% or less of ideal production), then storage capacity will have to be considerably higher to get through those days. 
