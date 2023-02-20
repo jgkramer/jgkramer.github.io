@@ -75,5 +75,9 @@ in practice as U.S. regions can import power from other regions to meet peaking 
 
 Storage is an alternative solution: if generating capacity is adequate to supply the grid's consumption on **most** days, storage can supply the rest if there are days with a few hours of peak demand in excess of that.
 
+![NevadaPeaksFullYear](/assets/images/post5_NevadaPeaksYear.png)
+
+THEN ADD A TABLE WITH SUMMARY STATS
+
 
 
