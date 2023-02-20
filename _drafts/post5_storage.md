@@ -44,4 +44,9 @@ Across the entire month, the largest daily battery usage would have been 8.9 kWh
 
 [^1]: At the rates described in [this post](https://jgkramer.github.io/2022/11/07/Electricity_Usage_Anecdotes.html), this storage scheme would save less than $25 per year by transferring up to 8 kWh from peak times to off-peak times (a savings of $0.31 per kWh) on half the days during the 4 summer peak months.
 
+### Solar Power
+
+Battery storage is a requirement of any electricity scheme that relied heavily on solar power.  Even if solar generates enough electricity in aggregate, 
+a meaningful portion of the day's usage needs to be time shifted from the daytime, when the sun is shining, to nighttime.  
+
 ![KramerSolarAugust](/assets/images/post5_KramerSolar.png)
