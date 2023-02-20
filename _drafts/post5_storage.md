@@ -75,9 +75,22 @@ in practice as U.S. regions can import power from other regions to meet peaking 
 
 Storage is an alternative solution: if generating capacity is adequate to supply the grid's consumption on **most** days, storage can supply the rest if there are days with a few hours of peak demand in excess of that.
 
-![NevadaPeaksFullYear](/assets/images/post5_NevadaPeaks.png)
+![NevadaPeaksFullYear](/assets/images/post5_NVPeaks.png)
 
 THEN ADD A TABLE WITH SUMMARY STATS
 
+Average Summer Peak: 
+Largest Storage Drawdown: -11.4 GWh 
+Sum usage: 39,383.7 GWh
+Max usage: 9.0 GWh
+Sum supply: 64,114.9 GWh
+Average supply: 7.3 GWh
+
+95th percentile full year peak. 
+Largest Storage Drawdown: -2.6 GWh 
+Sum usage: 39,383.7 GWh
+Max usage: 9.0 GWh
+Sum supply: 73,223.9 GWh
+Average supply: 8.3 GWh
 
 
