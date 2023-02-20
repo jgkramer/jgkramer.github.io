@@ -30,9 +30,11 @@ This post uses the following approach:
 
 ## Individual Scenarios
 
-### Replace Peak Grid
+I'll begin by looking at individual home data for my residence in the Las Vegas, Nevada area.  To keep things simple, I only look at a single month (August 2021), to keep electricity usage relatively consistent.  Things get harder across an entire year when usage between seasons experience much larger swings.
 
-Here is a scenario using my home's data.  The blue line in the top chart shows the electricity my family consumed hourly in August 2021.  Imagine I am limited to drawing a maximum level of power at any time from the grid.  For example, this might be the median of each day's peak hourly usage in the evening.  The red line in the top chart shows this limit of 11.5 kW.  This set-up could be driven by a utility plan that encourages me (try to shift some peak usage to off-peak hours) or requires me (e.g., smart grid device) to avoid drawing excessive power at peak times in order to protect the grid. 
+### Replace Super-Peak Grid Usage
+
+In the chart below, the blue line in the top chart shows the electricity my family consumed hourly in August 2021.  Imagine I am limited to drawing a maximum level of power at any time from the grid.  For example, this might be the median of each day's peak hourly usage in the evening.  The red line in the top chart shows this limit of 11.5 kW.  This set-up could be driven by a utility plan that encourages me (try to shift some peak usage to off-peak hours) or requires me (e.g., smart grid device) to avoid drawing excessive power at peak times in order to protect the grid. 
 
 If I want to use more power than 11.5 kWh per in any hour during my own peak consumption hours, I must use home battery system that has stored energy from prior periods with lower usage.  So the red line in the bottom chart shows how much aggregate has been drawn down from a full battery (represented by a 0 y-value at the top).   
 
@@ -61,3 +63,17 @@ One thing that makes this plan tricky is that daily demand fluctuates considerab
 However, if we only have enough solar capacity to deliver 110% of the average day's consumption (pink lines), we begin to run into trouble.  The beginning of August 2021 had a number of consecutive days with consumption greater than 110% of average, so day-to-day the battery never had a chance to recharge fully.   The result was a bigger and bigger drawdown of storage capacity until the middle of the month.   The total size of battery needed was at least **156 kWh**. 
 
 All of this occurs without two complications: (1) seasonality (with much larger swings in demand and, for solar, supply) and (2) weather-driven shortfalls.   If we take into account the likelihood that solar generation is not only lower than ideal (in Nevada, [82%](https://jgkramer.github.io/2023/01/28/Solar-Generation.html)), but lower in lumpy ways (i.e., some days with only 50% or less of ideal production), then storage capacity will have to be considerably higher to get through those days. 
+
+## Regional Data
+
+We now step back and consider the grid-scale question of how much storage can be useful to economize on generation capacity by looking at the EIA's total demand data for Nevada.  
+
+### Replace Super-Peak Grid Usage
+
+The electrical grid right now is roughly set up such that generating capacity is approximately capable of handling peak demand.  This is not always used 
+in practice as U.S. regions can import power from other regions to meet peaking demand.  For example, where Nevada's summer electricity demand is 1.8x the spring/fall usage, the state in July/August 2022 imported an average of 1.5 GWh every hour (often 2+ GWh during the afternoon), compared to an average of 0.4 GWh in January 2022. 
+
+Storage is an alternative solution: if generating capacity is adequate to supply the grid's consumption on **most** days, storage can supply the rest if there are days with a few hours of peak demand in excess of that.
+
+
+
