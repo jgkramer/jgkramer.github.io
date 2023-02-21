@@ -75,9 +75,13 @@ in practice as U.S. regions can import power from other regions to meet peaking 
 
 Storage is an alternative solution: if generating capacity is adequate to supply the grid's consumption on **most** days, storage can supply the rest if there are days with a few hours of peak demand in excess of that.  In the analysis below, we assumed generating capacity based on two possible benchmarks that are close to, but not quite equal to, the peak hourly usage in a 12-month period: 
 
-1. The average of the daily consumption peaks during the 4 summer months with peak pricing (June to September), which is enough to supply 163% of the 
+1. The average of the daily consumption peaks during the 4 summer months with peak pricing (June to September), which is enough to supply 163% of the average electricity consumption across the year and 81% of the peak hourly usage throughout the year.   
+
+2. The 95th percentile of the 365 daily peak hourly consumption values throughout the year, which is enough to supply 186% of the average electricity consumption across the year and 93% of the peak usage. 
 
 ![NevadaPeaksFullYear](/assets/images/post5_NVPeaks.png)
+
+Because these supply levels are close to the highest hourly peak consumption in the hot summers, with consumption only exceeding these levels for at most a few hours a day, the hypothetical battery storage is always able to fully recharge every day (unlike the 110% solar example above).  Thus the maximum demand on storage is simply how far above the supply level the consumption gets, for how many hours.
 
 <STYLE TYPE="text/css">
 <!--
@@ -98,7 +102,7 @@ TR.plum TD, TR.plum TH {color: #BA55D3;}
     </tr>
 <tr>
   <th scope="col" style="background-color: #E8E8E8">Demand</th>
-    <td>39,384</td> <td>1.00x</td> <td>4.5</td> <td>9.0</td> <td>n/a</td> </tr> 
+    <td>39,384</td> <td>1.00x</td> <td>4.5</td> <td>8.97 </td> <td>n/a</td> </tr> 
  <tr>
   <th scope="col" style="background-color: #E8E8E8">Average Summer Peak</th>
    <td>64,115</td> <td>1.63x</td> <td>7.3</td> <td>7.3</td> <td> <b>11.4 GWh</b></td> </tr>
@@ -107,3 +111,7 @@ TR.plum TD, TR.plum TH {color: #BA55D3;}
   <td>73,224</td> <td>1.86x</td> <td>8.3</td> <td>8.3</td> <td> <b>2.6 GWh</b></td> </tr>
 </table>
 
+The results of these plans seem very feasible: higher-generation grid architecture would get by with 3 GWh of storage (delivered at a 0.7 GW rate, the difference between 9 GW peak demand and 8.3 GW supply).  There are numerous pumped-hydro storage facilities in the U.S. that can store 10 GWh.[^2]
+    
+ 
+    
