@@ -115,10 +115,8 @@ The results of these plans seem very feasible, especially higher-generation grid
     
 [^2]: The [Ludington Pumped Storage Power Plant](https://en.wikipedia.org/wiki/Ludington_Pumped_Storage_Power_Plant) in Michigan, for example, has a storage capacity of 19.5 GWh.  The [Northfield Mountain facility](https://en.wikipedia.org/wiki/Northfield_Mountain_(hydroelectricity_facility))
  
-Feasibility begins to slip if the generation is limited to 1.5x the annual average (not shown in the graph), which at 6.3 GWh per hour is 70% of the summer maximum hour.  The difficulty here is that there are a number of days in the summer (in 2022 it was mostly July, with a shorter episode in a west coast heat wave in early September) where the annual daily electricity consumption exceeded 24 hours x 6.3 = 151 GWh, so storage was not able to refill.   The result was a much larger storage requirement of 138 GWh.
-    
-The synthesis 
-    
+Feasibility begins to slip if the generation is limited to 1.5x the annual average (not shown in the graph), which at 6.3 GWh per hour is 70% of the summer maximum hour.  The difficulty here is that there are a number of days in the summer (in 2022 it was mostly July, with a shorter episode in a west coast heat wave in early September) where the annual daily electricity consumption exceeded 24 hours x 6.3 = 151 GWh, so storage was not able to refill daily during these periods, and kept getting drawn down further.   The result was a much larger storage requirement of 138 GWh, a very large number compared to the current scale of electricity storage facilities. 
+        
 ### Solar
     
 Hello. 
