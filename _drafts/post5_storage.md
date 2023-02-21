@@ -89,7 +89,7 @@ TH{font-family: Arial; font-size: 9pt; text-align: center;}
 TD{font-family: Arial; font-size: 9pt; text-align: center;}
 TR.coral TD, TR.coral TH {color: #FF7F50;}
 TR.plum TD, TR.plum TH {color: #BA55D3;}
---->
+-->
 </STYLE>
 <table>
     <col> <colgroup span="1"></colgroup><colgroup span="5">
