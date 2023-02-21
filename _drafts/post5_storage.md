@@ -73,7 +73,9 @@ We now step back and consider the grid-scale question of how much storage can be
 The electrical grid right now is roughly set up such that generating capacity is approximately capable of handling peak demand.  This is not always used 
 in practice as U.S. regions can import power from other regions to meet peaking demand.  For example, where Nevada's summer electricity demand is 1.8x the spring/fall usage, the state in July/August 2022 imported an average of 1.5 GWh every hour (often 2+ GWh during the afternoon), compared to an average of 0.4 GWh in January 2022. 
 
-Storage is an alternative solution: if generating capacity is adequate to supply the grid's consumption on **most** days, storage can supply the rest if there are days with a few hours of peak demand in excess of that.
+Storage is an alternative solution: if generating capacity is adequate to supply the grid's consumption on **most** days, storage can supply the rest if there are days with a few hours of peak demand in excess of that.  In the analysis below, we assumed generating capacity based on two possible benchmarks that are close to, but not quite equal to, the peak hourly usage in a 12-month period: 
+
+1. The average of the daily consumption peaks during the 4 summer months with peak pricing (June to September), which is enough to supply 163% of the 
 
 ![NevadaPeaksFullYear](/assets/images/post5_NVPeaks.png)
 
@@ -99,7 +101,7 @@ TR.plum TD TR.plum TH {color: #DDA0DD;}
  <tr>
   <th scope="col" style="background-color: #D3D3D3">Average Summer Peak</th>
    <td>64,115</td> <td>1.63x</td> <td>7.3 / 7.3</td> <td> <b>11.4 GWh</b></td> </tr>
-<tr>
+<tr class="plum">
   <th scope="col" style="background-color: #D3D3D3">Full Year 95th Percentile Peak</th>
   <td>73,224</td> <td>1.86x</td> <td>8.3 / 8.3</td> <td> <b>2.6 GWh</b></td> </tr>
 </table>
