@@ -56,28 +56,29 @@ natural gas + solar need to join forces to meet peak evening demand.
 <!--
 TH{font-family: Arial; font-size: 9pt; text-align: center;}
 TD{font-family: Arial; font-size: 9pt; text-align: center;}
-
-TR.coral TH, TR.coral TD {color: #FF7F50;}
-TR.plum TH, TR.plum TD {color: #BA55D3;}
---->
+TR.coral TD, TR.coral TH {color: #FF7F50;}
+TR.plum TD, TR.plum TH {color: #BA55D3;}
+TR.blue TD, TR.blue TH {color: blue;}
+-->
 </STYLE>
 <table>
-    <col> <colgroup span="1"></colgroup><colgroup span="2"></colgroup><colgroup span="2"></colgroup>
+    <col> <colgroup span="1"></colgroup><colgroup span="5">
     <tr>
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8"></th> 
         <th colspan="2" scope ="colgroup" style="background-color: #E8E8E8">Total (GWh)</th> 
-        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Average / Peak Hourly (GWh/h)</th>   
-        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Largest Storage Drawdown </th>
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Average Hourly (GWh/h)</th> 
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Peak Hourly (GWh/h)</th>   
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Storage Needed</th>
     </tr>
-<tr>
+<tr class="blue">
   <th scope="col" style="background-color: #E8E8E8">Demand</th>
-  <td>39,384</td> <td>1.00x</td> <td>4.5 / 9.0</td> <td>n/a</td> </tr> 
+    <td>39,384</td> <td>1.00x</td> <td>4.48</td> <td>8.97 </td> <td>n/a</td> </tr> 
  <tr class="coral">
   <th scope="col" style="background-color: #E8E8E8">Average Summer Peak</th>
-   <td>64,115</td> <td>1.63x</td> <td>7.3 / 7.3</td> <td> <b>11.4 GWh</b></td> </tr>
+   <td>64,115</td> <td>1.63x</td> <td>7.30</td> <td>7.30</td> <td> <b>11.4 GWh</b></td> </tr>
 <tr class="plum">
-  <th scope="col" style="background-color: #E8E8E8">Full Year 95th Percentile Peak</th>
-  <td>73,224</td> <td>1.86x</td> <td>8.3 / 8.3</td> <td> <b>2.6 GWh</b></td> </tr>
+  <th scope="col" style="background-color: #E8E8E8">Year's 95th %ile Peak</th>
+  <td>73,224</td> <td>1.86x</td> <td>8.34</td> <td>8.34</td> <td> <b>2.6 GWh</b></td> </tr>
 </table>
 
 
