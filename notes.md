@@ -56,6 +56,7 @@ natural gas + solar need to join forces to meet peak evening demand.
 <!--
 TH{font-family: Arial; font-size: 9pt; text-align: center;}
 TD{font-family: Arial; font-size: 9pt; text-align: center;}
+
 TR.coral TD TR.coral TH {color: #FF7F50;}
 TR.plum TD TR.plum TH {color: #DDA0DD;}
 --->
@@ -71,7 +72,7 @@ TR.plum TD TR.plum TH {color: #DDA0DD;}
 <tr>
   <th scope="col" style="background-color: #D3D3D3">Demand</th>
   <td>39,384</td> <td>1.00x</td> <td>4.5 / 9.0</td> <td>n/a</td> </tr> 
- <tr>
+ <tr class="coral">
   <th scope="col" style="background-color: #D3D3D3">Average Summer Peak</th>
    <td>64,115</td> <td>1.63x</td> <td>7.3 / 7.3</td> <td> <b>11.4 GWh</b></td> </tr>
 <tr class="plum">
