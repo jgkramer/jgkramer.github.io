@@ -93,7 +93,7 @@ TR.plum TD, TR.plum TH {color: #BA55D3;}
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8"></th> 
         <th colspan="2" scope ="colgroup" style="background-color: #E8E8E8">Total (GWh)</th> 
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Average / Peak Hourly (GWh/h)</th>   
-        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Largest Storage Drawdown </th>
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Storage Needed</th>
     </tr>
 <tr>
   <th scope="col" style="background-color: #E8E8E8">Demand</th>
