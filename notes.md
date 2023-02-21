@@ -49,3 +49,34 @@ In Nevada, where there is no nuclear baseload and a lot of solar, gas is INVERSE
 In North Carolina (Duke East), where there is a big nuclear baseload, and solar is a smaller fraction, the natural gas spike is in the evening -- 
 natural gas + solar need to join forces to meet peak evening demand.   
 
+
+### table test
+
+<STYLE TYPE="text/css">
+<!--
+TH{font-family: Arial; font-size: 9pt; text-align: center;}
+TD{font-family: Arial; font-size: 9pt; text-align: center;}
+TR.coral TD TR.coral TH {color: #FF7F50;}
+TR.plum TD TR.plum TH {color: #DDA0DD;}
+--->
+</STYLE>
+<table>
+    <col> <colgroup span="1"></colgroup><colgroup span="2"></colgroup><colgroup span="2"></colgroup>
+    <tr>
+        <th colspan="1" scope ="colgroup" style="background-color: #D3D3D3"></th> 
+        <th colspan="2" scope ="colgroup" style="background-color: #D3D3D3">Total (GWh)</th> 
+        <th colspan="1" scope ="colgroup" style="background-color: #D3D3D3">Average / Peak Hourly (GWh/h)</th>   
+        <th colspan="1" scope ="colgroup" style="background-color: #D3D3D3">Largest Storage Drawdown </th>
+    </tr>
+<tr>
+  <th scope="col" style="background-color: #D3D3D3">Demand</th>
+  <td>39,384</td> <td>1.00x</td> <td>4.5 / 9.0</td> <td>n/a</td> </tr> 
+ <tr>
+  <th scope="col" style="background-color: #D3D3D3">Average Summer Peak</th>
+   <td>64,115</td> <td>1.63x</td> <td>7.3 / 7.3</td> <td> <b>11.4 GWh</b></td> </tr>
+<tr>
+  <th scope="col" style="background-color: #D3D3D3">Full Year 95th Percentile Peak</th>
+  <td>73,224</td> <td>1.86x</td> <td>8.3 / 8.3</td> <td> <b>2.6 GWh</b></td> </tr>
+</table>
+
+
