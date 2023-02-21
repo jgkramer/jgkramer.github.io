@@ -89,6 +89,7 @@ TH{font-family: Arial; font-size: 9pt; text-align: center;}
 TD{font-family: Arial; font-size: 9pt; text-align: center;}
 TR.coral TD, TR.coral TH {color: #FF7F50;}
 TR.plum TD, TR.plum TH {color: #BA55D3;}
+TR.blue TD, TR.blue TH {color: blue;}
 -->
 </STYLE>
 <table>
@@ -103,7 +104,7 @@ TR.plum TD, TR.plum TH {color: #BA55D3;}
 <tr>
   <th scope="col" style="background-color: #E8E8E8">Demand</th>
     <td>39,384</td> <td>1.00x</td> <td>4.48</td> <td>8.97 </td> <td>n/a</td> </tr> 
- <tr>
+ <tr class="coral">
   <th scope="col" style="background-color: #E8E8E8">Average Summer Peak</th>
    <td>64,115</td> <td>1.63x</td> <td>7.30</td> <td>7.30</td> <td> <b>11.4 GWh</b></td> </tr>
 <tr class="plum">
