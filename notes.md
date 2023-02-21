@@ -58,7 +58,7 @@ TH{font-family: Arial; font-size: 9pt; text-align: center;}
 TD{font-family: Arial; font-size: 9pt; text-align: center;}
 
 TR.coral TH, TR.coral TD {color: #FF7F50;}
-TR.plum TH, TR.plum TD {color: #DDA0DD;}
+TR.plum TH, TR.plum TD {color: #BA55D3;}
 --->
 </STYLE>
 <table>
