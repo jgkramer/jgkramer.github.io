@@ -74,7 +74,7 @@ TR.plum TD TR.plum TH {color: #DDA0DD;}
  <tr>
   <th scope="col" style="background-color: #D3D3D3">Average Summer Peak</th>
    <td>64,115</td> <td>1.63x</td> <td>7.3 / 7.3</td> <td> <b>11.4 GWh</b></td> </tr>
-<tr>
+<tr class="plum">
   <th scope="col" style="background-color: #D3D3D3">Full Year 95th Percentile Peak</th>
   <td>73,224</td> <td>1.86x</td> <td>8.3 / 8.3</td> <td> <b>2.6 GWh</b></td> </tr>
 </table>
