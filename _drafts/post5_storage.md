@@ -79,18 +79,32 @@ Storage is an alternative solution: if generating capacity is adequate to supply
 
 THEN ADD A TABLE WITH SUMMARY STATS
 
-Average Summer Peak: 
-Largest Storage Drawdown: -11.4 GWh 
-Sum usage: 39,383.7 GWh
-Max usage: 9.0 GWh
-Sum supply: 64,114.9 GWh
-Average supply: 7.3 GWh
 
-95th percentile full year peak. 
-Largest Storage Drawdown: -2.6 GWh 
-Sum usage: 39,383.7 GWh
-Max usage: 9.0 GWh
-Sum supply: 73,223.9 GWh
-Average supply: 8.3 GWh
+<STYLE TYPE="text/css">
+<!--
+TH{font-family: Arial; font-size: 9pt; text-align: center;}
+TD{font-family: Arial; font-size: 9pt; text-align: center;}
+--->
+</STYLE>
+<table>
+    <col> <colgroup span="1"></colgroup><colgroup span="5"></colgroup>
+    <tr>
+        <th scope="col" style="background-color: #D6EEEE">Supply/Demand (GWh)</th> 
+        <th scope="col" style="background-color: #D6EEEE">Total (GWh)</th> 
+        <th scope="col" style="background-color: #D6EEEE"></th> 
+        <th scope="col" style="background-color: #D6EEEE">Average / Peak Hourly (GWh/h)</th>   
+        <th scope="col" style="background-color: #D6EEEE">Largest Storage Drawdown </th>
+    </tr>
+<tr>
+  <th scope="col" style="background-color: #D6EEEE">Demand</th>
+  <td>39,384</td> <td>1.00x</td> <td>4.5 / 9.0</td> <td>n/a</td> </tr> 
+ <tr>
+  <th scope="col" style="background-color: #D6EEEE">Average Summer Peak</th>
+   <td>64,115</td> <td>1.63x</td> <td>7.3 / 7.3</td> <td> <b>11.4 GWh</b></td> </tr>
+<tr>
+  <th scope="col" style="background-color: #D6EEEE">Full Year 95th Percentile Peak</th>
+  <td>73,224</td> <td>1.86x</td> <td>8.3 / 8.3</td> <td> <b>2.6 GWh</b></td> </tr>
+
+
 
 
