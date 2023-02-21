@@ -84,12 +84,12 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
 --->
 </STYLE>
 <table>
-    <col> <colgroup span="1"></colgroup><colgroup span="2"></colgroup><colgroup span="3"></colgroup>
+    <col> <colgroup span="1"></colgroup><colgroup span="2"></colgroup><colgroup span="2"></colgroup>
     <tr>
-        <th scope="col" style="background-color: #D6EEEE">Supply/Demand (GWh)</th> 
-        <th scope="col" style="background-color: #D6EEEE">Total (GWh)</th> 
-        <th scope="col" style="background-color: #D6EEEE">Average / Peak Hourly (GWh/h)</th>   
-        <th scope="col" style="background-color: #D6EEEE">Largest Storage Drawdown </th>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE"></th> 
+        <th colspan="2" scope ="colgroup" style="background-color: #D6EEEE">Total (GWh)</th> 
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Average / Peak Hourly (GWh/h)</th>   
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Largest Storage Drawdown </th>
     </tr>
 <tr>
   <th scope="col" style="background-color: #D6EEEE">Demand</th>
