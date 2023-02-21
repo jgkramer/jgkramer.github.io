@@ -77,9 +77,6 @@ Storage is an alternative solution: if generating capacity is adequate to supply
 
 ![NevadaPeaksFullYear](/assets/images/post5_NVPeaks.png)
 
-THEN ADD A TABLE WITH SUMMARY STATS
-
-
 <STYLE TYPE="text/css">
 <!--
 TH{font-family: Arial; font-size: 9pt; text-align: center;}
@@ -104,7 +101,5 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
 <tr>
   <th scope="col" style="background-color: #D6EEEE">Full Year 95th Percentile Peak</th>
   <td>73,224</td> <td>1.86x</td> <td>8.3 / 8.3</td> <td> <b>2.6 GWh</b></td> </tr>
-
-
-
+</table>
 
