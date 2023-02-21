@@ -111,7 +111,14 @@ TR.plum TD, TR.plum TH {color: #BA55D3;}
   <td>73,224</td> <td>1.86x</td> <td>8.3</td> <td>8.3</td> <td> <b>2.6 GWh</b></td> </tr>
 </table>
 
-The results of these plans seem very feasible: higher-generation grid architecture would get by with 3 GWh of storage (delivered at a 0.7 GW rate, the difference between 9 GW peak demand and 8.3 GW supply).  There are numerous pumped-hydro storage facilities in the U.S. that can store 10 GWh.[^2]
+The results of these plans seem very feasible, especially higher-generation grid architecture.  This could get by with 3 GWh of storage (delivered at a 0.7 GW rate, the difference between 9 GW peak demand and 8.3 GW supply).  There are numerous pumped-hydro storage facilities in the U.S. that can store 10 GWh.[^2].  More modern chemical or gravity/weight based storage projects are, as of 2022, in the range of 250 - 500 MWh per project, and a few of these 
     
+[^2]: The [Ludington Pumped Storage Power Plant](https://en.wikipedia.org/wiki/Ludington_Pumped_Storage_Power_Plant) in Michigan, for example, has a storage capacity of 19.5 GWh.  The [Northfield Mountain facility](https://en.wikipedia.org/wiki/Northfield_Mountain_(hydroelectricity_facility))
  
+Feasibility begins to slip if the generation is limited to 1.5x the annual average (not shown in the graph), which at 6.3 GWh per hour is 70% of the summer maximum hour.  The difficulty here is that there are a number of days in the summer (in 2022 it was mostly July, with a shorter episode in a west coast heat wave in early September) where the annual daily electricity consumption exceeded 24 hours x 6.3 = 151 GWh, so storage was not able to refill.   The result was a much larger storage requirement of 138 GWh.
     
+The synthesis 
+    
+### Solar
+    
+    Hello. 
