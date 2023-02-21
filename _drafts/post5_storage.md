@@ -84,7 +84,7 @@ Storage is an alternative solution: if generating capacity is adequate to supply
 TH{font-family: Arial; font-size: 9pt; text-align: center;}
 TD{font-family: Arial; font-size: 9pt; text-align: center;}
 TR.coral TD, TR.coral TH {color: #FF7F50;}
-TR.plum TD, TR.plum TH {color: #DDA0DD;}
+TR.plum TD, TR.plum TH {color: #BA55D3;}
 --->
 </STYLE>
 <table>
