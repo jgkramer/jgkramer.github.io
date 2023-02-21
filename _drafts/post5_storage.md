@@ -101,7 +101,7 @@ TR.blue TD, TR.blue TH {color: blue;}
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Peak Hourly (GWh/h)</th>   
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Storage Needed</th>
     </tr>
-<tr>
+<tr class="blue">
   <th scope="col" style="background-color: #E8E8E8">Demand</th>
     <td>39,384</td> <td>1.00x</td> <td>4.48</td> <td>8.97 </td> <td>n/a</td> </tr> 
  <tr class="coral">
