@@ -79,7 +79,7 @@ Storage is an alternative solution: if generating capacity is adequate to supply
 
 2. The 95th percentile of the 365 daily peak hourly consumption values throughout the year, which is enough to supply 186% of the average electricity consumption across the year and 93% of the peak usage. 
 
-![NevadaPeaksFullYear](/assets/images/post5_NVHighFixed.png)
+![NevadaPeaksFullYear](/assets/images/post5_NV_HighFixed.png)
 
 Because these supply levels are close to the highest hourly peak consumption in the hot summers, with consumption only exceeding these levels for at most a few hours a day, the hypothetical battery storage is always able to fully recharge every day (unlike the 110% solar example above).  Thus the maximum demand on storage is simply how far above the supply level the consumption gets, for how many hours.
 
@@ -120,7 +120,7 @@ The results of these plans seem very feasible, especially higher-generation grid
   
 Feasibility begins to worsen if generation falls to levels where there start to be numerous consecutive days with daily total/average consumption in excess of our generation levels.  In these scenarios, storage does not refill on a daily basis, and there are accumulating drawdowns as time progresses.  In Nevada, for a generation model that is based on traditional generation sources with constant capacity (Nuclear, Coal, Gas), the risk of this occuring is in the summer.   To illustrate this effect, the chart below (1) eliminates the hourly variability to display daily totals and (2) plots the storage results for fixed generation at levels equal to 1.5x and 1.35x the full-year average (i.e., if always on, enough to supply 1.5x / 1.35x the total annual consumption). 
 
-![NevadaPeaksFullYear](/assets/images/post5_NV_HighFixed.png)
+![NevadaPeaksFullYear](/assets/images/post5_NV_MediumFixed.png)
     
   
         
