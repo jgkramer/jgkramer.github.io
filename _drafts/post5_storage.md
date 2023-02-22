@@ -79,7 +79,7 @@ Storage is an alternative solution: if generating capacity is adequate to supply
 
 2. The 95th percentile of the 365 daily peak hourly consumption values throughout the year, which is enough to supply 186% of the average electricity consumption across the year and 93% of the peak usage. 
 
-![NevadaPeaksFullYear](/assets/images/post5_NVPeaks.png)
+![NevadaPeaksFullYear](/assets/images/post5_NVHighFixed.png)
 
 Because these supply levels are close to the highest hourly peak consumption in the hot summers, with consumption only exceeding these levels for at most a few hours a day, the hypothetical battery storage is always able to fully recharge every day (unlike the 110% solar example above).  Thus the maximum demand on storage is simply how far above the supply level the consumption gets, for how many hours.
 
@@ -116,8 +116,14 @@ The results of these plans seem very feasible, especially higher-generation grid
     
 [^2]: The [Ludington Pumped Storage Power Plant](https://en.wikipedia.org/wiki/Ludington_Pumped_Storage_Power_Plant) in Michigan, for example, has a storage capacity of 19.5 GWh.  The [Northfield Mountain facility](https://en.wikipedia.org/wiki/Northfield_Mountain_(hydroelectricity_facility))
  
-Feasibility begins to slip if the generation is limited to 1.5x the annual average (not shown in the graph), which at 6.3 GWh per hour is 70% of the summer maximum hour.  The difficulty here is that there are a number of days in the summer (in 2022 it was mostly July, with a shorter episode in a west coast heat wave in early September) where the annual daily electricity consumption exceeded 24 hours x 6.3 = 151 GWh, so storage was not able to refill daily during these periods, and kept getting drawn down further.   The result was a much larger storage requirement of 138 GWh, a very large number compared to the current scale of electricity storage facilities. 
+### Limits of Replacing Peak Generation with Storage
+  
+Feasibility begins to worsen if generation falls to levels where there start to be numerous consecutive days with daily total/average consumption in excess of our generation levels.  In these scenarios, storage does not refill on a daily basis, and there are accumulating drawdowns as time progresses.  In Nevada, for a generation model that is based on traditional generation sources with constant capacity (Nuclear, Coal, Gas), the risk of this occuring is in the summer.   To illustrate this effect, the chart below (1) eliminates the hourly variability to display daily totals and (2) plots the storage results for fixed generation at levels equal to 1.5x and 1.35x the full-year average (i.e., if always on, enough to supply 1.5x / 1.35x the total annual consumption). 
+
+![NevadaPeaksFullYear](/assets/images/post5_NVHighFixed.png)
+    
+  
         
-### Solar
+### How About Solar? 
     
 Hello. 
