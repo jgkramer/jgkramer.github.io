@@ -120,7 +120,7 @@ The results of these plans seem very feasible, especially higher-generation grid
   
 Feasibility begins to worsen if generation falls to levels where there start to be numerous consecutive days with daily total/average consumption in excess of our generation levels.  In these scenarios, storage does not refill on a daily basis, and there are accumulating drawdowns as time progresses.  In Nevada, for a generation model that is based on traditional generation sources with constant capacity (Nuclear, Coal, Gas), the risk of this occuring is in the summer.   To illustrate this effect, the chart below (1) eliminates the hourly variability to display daily totals and (2) plots the storage results for fixed generation at levels equal to 1.5x and 1.35x the full-year average (i.e., if always on, enough to supply 1.5x / 1.35x the total annual consumption). 
 
-![NevadaPeaksFullYear](/assets/images/post5_NVHighFixed.png)
+![NevadaPeaksFullYear](/assets/images/post5_NVFixedHigh.png)
     
   
         
