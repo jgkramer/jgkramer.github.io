@@ -150,3 +150,9 @@ In the case where generation can supply 1.5x of the annual average consumption (
 ### Solar: Some Helpful Supply Variability, Some Costly
     
 
+Irreducible storage requirement: around 68 GWh even for an extremely large solar supply - peak is in September when daylight shortens more quickly than temperatures cool. 
+    
+    
+![KramerMedianPeakAugust](/assets/images/post5_NV_MediumSolar.png)
+    
+
