@@ -32,7 +32,7 @@ This post uses the following approach:
 
 I'll begin by looking at individual home data for my residence in the Las Vegas, Nevada area.  To keep things simple, I only look at a single month (August 2021), to keep electricity usage relatively consistent.  Things get harder across an entire year when usage between seasons experience much larger swings.
 
-### Replace Super-Peak Grid Usage
+### Demand Variability: Storage to Replace Super-Peak Grid Usage
 
 In the chart below, the blue line in the top chart shows the electricity my family consumed hourly in August 2021.  Imagine I am limited to drawing a maximum level of power at any time from the grid.  For example, this might be the median of each day's peak hourly usage in the evening.  The red line in the top chart shows this limit of 11.5 kW.  This set-up could be driven by a utility plan that encourages me (try to shift some peak usage to off-peak hours) or requires me (e.g., smart grid device) to avoid drawing excessive power at peak times in order to protect the grid. 
 
@@ -46,32 +46,30 @@ Across the entire month, the largest daily battery usage would have been 8.9 kWh
 
 [^1]: At the rates described in [this post](https://jgkramer.github.io/2022/11/07/Electricity_Usage_Anecdotes.html), this storage scheme would save less than $25 per year by transferring up to 8 kWh from peak times to off-peak times (a savings of $0.31 per kWh) on half the days during the 4 summer peak months.
 
-### Solar Power and Supply Driven 
+### Supply Variability: Solar Power
 
-Battery storage is a requirement of any electricity scheme that relied heavily on solar power.  Even if solar generates enough electricity in aggregate, 
-a meaningful portion of the day's usage needs to be time shifted from the daytime, when the sun is shining, to nighttime.  One might ask, for example, 
-whether it is possible to use a combination of solar + battery to supply all electricity needs and go "off grid".   
+Battery storage is a requirement of any electricity scheme that relied heavily on solar power, because electricity supply is much more variable through time than demand.  Even if solar generates enough electricity in aggregate, a meaningful portion of the day's usage needs to be time shifted from the daytime, when the sun is shining, to nighttime.  One might ask, for example, whether it is possible to use a combination of solar + battery to supply all electricity needs and go "off grid".   
 
 The below analysis assumes the same relative output throughout an **August** day in Nevada as explored in the [last post](https://jgkramer.github.io/2023/01/28/Solar-Generation.html), but scaled down so that the total output over the month is either 110% or 130% of the total electricity consumed in the month.  Note that this generation function is **ideal solar generation**: the system generates electricity assuming good weather and no interruptions.   
 
 ![KramerSolarAugust](/assets/images/post5_KramerSolar.png)
 
-Notice the daily cycle: solar generation is strongest in the mid-day, when the need for air conditioning has not yet ramped up, so at this point the battery is filling up.  Solar generation drops by more than 50% from the 4-5pm hour to the 6-7pm hour, and falls away entirely after that until the next morning.  Meanwhile, the air conditioning peak generally runs until 8pm, so there is a sharp drawdown from storage in the evening that continues at a slower pace until the next morning. 
+Notice the daily cycle: solar generation is strongest in the mid-day, when the need for air conditioning has not yet ramped up, so at this point the battery is filling up.  But generation drops by 50% by the 6-7pm hour, and falls away entirely shortly after.  Meanwhile, the air conditioning peak generally runs until at leaset 8pm, so there is a sharp drawdown from storage in the evening that continues at a slower pace until the next morning. 
 
-One thing that makes this plan tricky is that daily demand fluctuates considerably with both behavior (laundry is a big one) and weather (temperature / AC needs).   Compared to an average of 148 kWh, daily use ranged from 99 kWh (67% of average) to 193 kWh (130% of average).   So in order for the battery to fully recharge every day, we needed a solar generation system that was capable of delivering 130% of the average day's consumption every day (orange lines).  With this level of input, the energy storage needs to be at least **69 kWh**.   This is a much larger and more expensive battery but still in the range of quasi-mass production: many electric vehicle batteries fall in the capacity range of 80-120 kWh.   
+One thing that makes this plan tricky is that daily demand fluctuates considerably with both behavior (laundry is a big one) and weather (temperature / AC needs).   Compared to an average of 148 kWh, daily use ranged from 99 kWh (67% of average) to 193 kWh (130% of average), just in one month.  So in order for the battery to fully recharge every day, we needed a solar generation system that was capable of delivering 130% of the average day's consumption every day (orange lines).  With this level of input, the energy storage needs to be at least **69 kWh**.   This is a much larger and more expensive battery but still in the range of quasi-mass production: many electric vehicle batteries fall in the capacity range of 80-120 kWh.   
 
-However, if we only have enough solar capacity to deliver 110% of the average day's consumption (pink lines), we begin to run into trouble.  The beginning of August 2021 had a number of consecutive days with consumption greater than 110% of average, so day-to-day the battery never had a chance to recharge fully.   The result was a bigger and bigger drawdown of storage capacity until the middle of the month.   The total size of battery needed was at least **156 kWh**. 
+If we only have enough solar capacity to deliver 110% of the average day's consumption (pink lines), we run into trouble.  The beginning of August 2021 had a number of consecutive days with consumption greater than 110% of average, so day-to-day the battery never had a chance to recharge fully.   The result was a bigger and bigger drawdown of storage capacity until the middle of the month.   The total size of battery needed was at least **156 kWh**. 
 
-All of this occurs without two complications: (1) seasonality (with much larger swings in demand and, for solar, supply) and (2) weather-driven shortfalls.   If we take into account the likelihood that solar generation is not only lower than ideal (in Nevada, [82%](https://jgkramer.github.io/2023/01/28/Solar-Generation.html)), but lower in lumpy ways (i.e., some days with only 50% or less of ideal production), then storage capacity will have to be considerably higher to get through those days. 
+All of this occurs without two complications: (1) seasonality (with much larger swings in demand and, for solar, supply) and (2) weather-driven shortfalls.   If we take into account the likelihood that solar generation is not only lower than ideal (in Nevada, [82%](https://jgkramer.github.io/2023/01/28/Solar-Generation.html)), but lower in lumpy ways (i.e., some days with only 50% or less of ideal production), then storage capacity will have to be considerably higher to get through those days.
 
-## Regional Data
+## State-Level Grid Analysis
 
-We now step back and consider the grid-scale question of how much storage can be useful to economize on generation capacity by looking at the EIA's total demand data for Nevada.  
+I now step back and consider the grid-scale question of how much storage can be useful to economize on generation capacity by looking at the EIA's total demand data for Nevada.  I will also cover a full one-year period (ending November 1, 2022) to capture the challenges arising from seasonality. 
 
-### Replace Super-Peak Grid Usage
+### Demand Variability: Storage to Replace Super-Peak Grid Usage
 
-The electrical grid right now is roughly set up such that generating capacity is approximately capable of handling peak demand.  This is not always used 
-in practice as U.S. regions can import power from other regions to meet peaking demand.  For example, where Nevada's summer electricity demand is 1.8x the spring/fall usage, the state in July/August 2022 imported an average of 1.5 GWh every hour (often 2+ GWh during the afternoon), compared to an average of 0.4 GWh in January 2022. 
+The grid right now is roughly set up such that generating capacity is approximately capable of handling peak demand.  This is not always used 
+in practice as U.S. regions can import power from other regions to meet peaking demand.  For example, where Nevada's summer electricity demand is 1.8x the spring/fall usage, the state in July/August 2022 imported an average of 1.5 GWh every hour (often 2+ GWh during the afternoon). 
 
 Storage is an alternative solution: if generating capacity is adequate to supply the grid's consumption on **most** days, storage can supply the rest if there are days with a few hours of peak demand in excess of that.  In the analysis below, we assumed generating capacity based on two possible benchmarks that are close to, but not quite equal to, the peak hourly usage in a 12-month period: 
 
@@ -118,9 +116,11 @@ The results of these plans seem very feasible, especially higher-generation grid
     
 [^2]: The [Ludington Pumped Storage Power Plant](https://en.wikipedia.org/wiki/Ludington_Pumped_Storage_Power_Plant) in Michigan, for example, has a storage capacity of 19.5 GWh.  The [Northfield Mountain facility](https://en.wikipedia.org/wiki/Northfield_Mountain_(hydroelectricity_facility))
  
+### Power Cycling
+    
 ### Limits of Replacing Peak Generation with Storage
   
-Feasibility begins to worsen if generation falls to levels where there start to be numerous consecutive days with daily total/average consumption in excess of our generation levels.  In these scenarios, storage does not refill on a daily basis, and there are accumulating drawdowns as time progresses.  In Nevada, for a generation model that is based on traditional generation sources with constant capacity (Nuclear, Coal, Gas), the risk of this occuring is in the summer.   To illustrate this effect, the chart below (1) eliminates the hourly variability to display daily totals and (2) plots the storage results for fixed generation at levels equal to 1.5x and 1.35x the full-year average (i.e., if always on, enough to supply 1.5x / 1.35x the total annual consumption). 
+Feasibility decays if generation falls to levels where there start to be numerous consecutive days with daily total/average consumption in excess of our generation levels.  In these scenarios, storage does not refill on a daily basis, and there are accumulating drawdowns as time progresses.  In Nevada, for a generation model that is based on traditional generation sources with constant capacity (Nuclear, Coal, Gas), the risk of this occuring is in the summer.   To illustrate this effect, the chart below (1) eliminates the hourly variability to display daily totals and (2) plots the storage results for fixed generation at levels equal to 1.5x and 1.35x the full-year average (i.e., if always on, enough to supply 1.5x / 1.35x the total annual consumption). 
 
 ![NevadaPeaksFullYear](/assets/images/post5_NV_MediumFixed.png)
     
@@ -147,6 +147,6 @@ In the case where generation can supply 1.5x of the annual average consumption (
    <td>53,045</td> <td>1.35x</td> <td>6.06</td> <td>6.06</td> <td>41</td> <td> <b>215.6 GWh</b></td> </tr>
 </table>
         
-### How About Solar? 
+### Solar: Some Helpful Supply Variability, Some Costly
     
-Hello. 
+
