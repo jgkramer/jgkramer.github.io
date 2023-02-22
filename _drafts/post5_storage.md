@@ -90,6 +90,8 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
 TR.coral TD, TR.coral TH {color: #FF7F50;}
 TR.plum TD, TR.plum TH {color: #BA55D3;}
 TR.blue TD, TR.blue TH {color: blue;}
+TR.limegreen TD, TR.limegreen TH {color: limegreen;}
+TR.slateblue TD, TR.slateblue TH {color: slateblue;}
 -->
 </STYLE>
 <table>
@@ -122,7 +124,25 @@ Feasibility begins to worsen if generation falls to levels where there start to 
 
 ![NevadaPeaksFullYear](/assets/images/post5_NV_MediumFixed.png)
     
-  
+In the case where generation can supply 1.5x of the annual average consumption (6.73 GWh / h), there are many days in the summer where the afternoon and evening consumption this (up to 8.97 GWh at the highest peaks).  Thus many summer days see electricity storage drawdowns on the order of 10 GWh per day, as high afternoon demand uses storage that is refilled at lower-demand nighttime and morning.  There were a **few** days in July where total consumption exceeded 24 hours x 6.73 GWh / h =  161.5 GWh, so the storage usage, while higher than the scenarios above, remained relatively contained at 28 GWh.  If generation is reduced to 1.35x of average, there were more than a month worth of days with consumption in excess of supply in the summer, and with storage not refilling, the storage requirement balloons ato 216 GWh.  
+    
+<table>
+    <col> <colgroup span="1"></colgroup><colgroup span="6">
+    <tr>
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8"></th> 
+        <th colspan="2" scope ="colgroup" style="background-color: #E8E8E8">Total (GWh)</th> 
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Average Hourly (GWh/h)</th> 
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Peak Hourly (GWh/h)</th>   
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Days with Demand &gt Supply</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Storage Needed</th>
+    </tr>
+<tr class="slateblue">
+  <th scope="col" style="background-color: #E8E8E8">Constant Generation 1.5x</th>
+   <td>58,938</td> <td>1.50x</td> <td>6.34</td> <td>6.34</td> <td>7</td> <td> <b>27.5 GWh</b></td> </tr>
+<tr class="limegreen">
+  <th scope="col" style="background-color: #E8E8E8">Year's 95th %ile Peak</th>
+   <td>53,045</td> <td>1.35x</td> <td>6.06</td> <td>6.06</td> <td>41</td> <td> <b>215.6 GWh</b></td> </tr>
+</table>
         
 ### How About Solar? 
     
