@@ -93,13 +93,14 @@ TR.slateblue TD, TR.slateblue TH {color: slateblue;}
 -->
 </STYLE>
 <table>
-    <col> <colgroup span="1"></colgroup><colgroup span="5">
+    <col> <colgroup span="1"></colgroup><colgroup span="6">
     <tr>
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8"></th> 
         <th colspan="2" scope ="colgroup" style="background-color: #E8E8E8">Total (GWh)</th> 
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Average Hourly (GWh/h)</th> 
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Peak Hourly (GWh/h)</th>   
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Storage Needed</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8"># Days with Non-Zero Storage</th>   
     </tr>
 <tr class="blue">
   <th scope="col" style="background-color: #E8E8E8">Demand</th>
