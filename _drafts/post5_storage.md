@@ -118,8 +118,8 @@ The results of these plans seem very feasible, especially higher-generation grid
 [^2]: The [Ludington Pumped Storage Power Plant](https://en.wikipedia.org/wiki/Ludington_Pumped_Storage_Power_Plant) in Michigan, for example, has a storage capacity of 19.5 GWh.  The [Northfield Mountain facility](https://en.wikipedia.org/wiki/Northfield_Mountain_(hydroelectricity_facility))
    
 The result of this experiment is (approximately) that 3 GWh of electricity storage would enable Nevada to eliminate about ~600 MW of electricity generation capacity (8.34 vs. 8.97 peak consumption) or the equivalent in inter-region transfers which may become less reliable over time; 12 GWh of storage would enable Nevada to eliminate ~1.6 GW of electricity generation capacity. 
- 
-### Power Cycling
+    
+### Power Cycling and Economic Feasibility
 
 Whether that kind of tradeoff is economical may depend on how much the battery gets used: in the 1.86x example above, the benefit of 18 days of batter usage may not justify the capital cost of a 3 GWh storage project (i.e., capital cost savings of 700 MWh less generation may not compensate).  Further economic justification for the capital cost of the storage project can come from using it more frequently in non-peak times **if** it results in fuel savings costs.   
     
@@ -128,16 +128,14 @@ Fuel savings costs through the use of storage cannot come from reduction in aggr
 Economizing can only arise if time-shifting allows the grid to replace genreation from high-cost sources at peak times (e.g., petroleum or less efficient natural gas plants on the right of the supply curve) with lower-cost sources at off-peak times (e.g., nuclear, coal or solar on the left side of the supply curve). 
 
 ![EIA Supply Curve](/assets/images/EIA_supply_curve.png)
-    
-
-    
+     
 ### Limits of Replacing Peak Generation with Storage
   
-Feasibility decays if generation falls to levels where there start to be numerous consecutive days with daily total/average consumption in excess of our generation levels.  In these scenarios, storage does not refill on a daily basis, and there are accumulating drawdowns as time progresses.  In Nevada, for a generation model that is based on traditional generation sources with constant capacity (Nuclear, Coal, Gas), the risk of this occuring is in the summer.   To illustrate this effect, the chart below (1) eliminates the hourly variability to display daily totals and (2) plots the storage results for fixed generation at levels equal to 1.5x and 1.35x the full-year average (i.e., if always on, enough to supply 1.5x / 1.35x the total annual consumption). 
+Compared to the examples above with generation in excess of 160%+ of average consumption, feasibility decays if generation capacity falls to levels where there are numerous consecutive days with daily total consumption in excess of that capacity.  In these scenarios, storage does not refill on a daily basis, and there are accumulating drawdowns as time progresses.  In Nevada, for a generation model that is based on traditional generation sources with constant capacity (Nuclear, Coal, Gas), the risk of this occuring is in the summer.   To illustrate this effect, the chart below (1) eliminates the hourly variability to display daily totals and (2) plots the storage results for fixed generation at levels equal to 1.5x and 1.35x the full-year average (i.e., if always on, enough to supply 1.5x / 1.35x the total annual consumption). 
 
 ![NevadaPeaksFullYear](/assets/images/post5_NV_MediumFixed.png)
     
-In the case where generation can supply 1.5x of the annual average consumption (6.73 GWh / h), there are many days in the summer where the afternoon and evening consumption this (up to 8.97 GWh at the highest peaks).  Thus many summer days see electricity storage drawdowns on the order of 10 GWh per day, as high afternoon demand uses storage that is refilled at lower-demand nighttime and morning.  There were a **few** days in July where total consumption exceeded 24 hours x 6.73 GWh / h =  161.5 GWh, so the storage usage, while higher than the scenarios above, remained relatively contained at 28 GWh.  If generation is reduced to 1.35x of average, there were more than a month worth of days with consumption in excess of supply in the summer, and with storage not refilling, the storage requirement balloons ato 216 GWh.  
+In the case where generation can supply 1.5x of the annual average consumption (6.73 GWh / h), there are many days in the summer where the afternoon and evening consumption this (up to 8.97 GWh at the highest peaks).  Thus many summer days see electricity storage drawdowns on the order of 10 GWh per day, as high afternoon demand uses storage that is refilled at lower-demand nighttime and morning.  There were a **few** days in July where total consumption exceeded 24 hours x 6.73 GWh / h =  161.5 GWh, so the storage usage, while higher than the scenarios above, remained relatively contained at 28 GWh.  If generation is reduced to 1.35x of average, there were more than a month worth of days with consumption in excess of supply in the summer, and with storage not refilling, the storage requirement balloons to 216 GWh.  
     
 <table>
     <col> <colgroup span="1"></colgroup><colgroup span="6">
@@ -159,7 +157,7 @@ In the case where generation can supply 1.5x of the annual average consumption (
   <th scope="col" style="background-color: #E8E8E8">Year's 95th %ile Peak</th>
    <td>53,045</td> <td>1.35x</td> <td>6.06</td> <td>6.06</td> <td>41</td> <td> <b>215.6 GWh</b></td> </tr>
 </table>
-        
+    
 ### Solar: Some Helpful Supply Variability, Some Costly
     
 
