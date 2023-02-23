@@ -69,13 +69,13 @@ I now step back and consider the grid-scale question of how much storage can be 
 ### Demand Variability: Storage to Replace Super-Peak Grid Usage
 
 The grid right now is roughly set up such that generating capacity is approximately capable of handling peak demand.  This is not always used 
-in practice as U.S. regions can import power from other regions to meet peaking demand.  For example, where Nevada's summer electricity demand is 1.8x the spring/fall usage, the state in July/August 2022 imported an average of 1.5 GWh every hour (often 2+ GWh during the afternoon). 
+in practice as regional balancing authorities import power from other regions to meet peaking demand.  For example, where Nevada's summer electricity demand is 1.8x the spring/fall usage, the state in July/August 2022 imported an average of 1.5 GWh every hour (often 2+ GWh during the afternoon). 
 
-Storage is an alternative solution: if generating capacity is adequate to supply the grid's consumption on **most** days, storage can supply the rest if there are days with a few hours of peak demand in excess of that.  In the analysis below, we assumed generating capacity based on two possible benchmarks that are close to, but not quite equal to, the peak hourly usage in a 12-month period: 
+Storage offers an alternative: if generating capacity can supply the grid's consumption at **most** times, storage can supply the difference on days with a few hours of peak demand that are higher.  In this first example, I assume generating based on the following two benchmarks: 
 
-1. The average of the daily consumption peaks during the 4 summer months with peak pricing (June to September), which is enough to supply 163% of the average electricity consumption across the year and 81% of the peak hourly usage throughout the year.   
+1. The average of the daily consumption peaks during the 4 peak summer months (June to September), which is enough to supply 163% of the average electricity consumption across the year and 81% of the peak hourly usage.
 
-2. The 95th percentile of the 365 daily peak hourly consumption values throughout the year, which is enough to supply 186% of the average electricity consumption across the year and 93% of the peak usage. 
+2. The 95th percentile among the 365 "peak hour" consumptions for each day in the year.   This level is 186% of average consumption, and 93% of the maximum peak hour.
 
 ![NevadaPeaksFullYear](/assets/images/post5_NV_HighFixed.png)
 
@@ -112,11 +112,16 @@ TR.slateblue TD, TR.slateblue TH {color: slateblue;}
   <td>73,224</td> <td>1.86x</td> <td>8.34</td> <td>8.34</td> <td> <b>2.6 GWh</b></td> </tr>
 </table>
 
-The results of these plans seem very feasible, especially higher-generation grid architecture.  This could get by with 3 GWh of storage (delivered at a 0.7 GW rate, the difference between 9 GW peak demand and 8.3 GW supply).  There are numerous pumped-hydro storage facilities in the U.S. that can store 10 GWh.[^2].  More modern chemical or gravity/weight based storage projects are, as of 2022, in the range of 250 - 500 MWh per project, and a few of these 
-    
+The results of these plans seem very feasible, especially higher-generation grid architecture.  This could get by with 3 GWh of storage (delivered at a 0.7 GW rate, the difference between 9 GW peak demand and 8.3 GW supply).  There are numerous pumped-hydro storage facilities in the U.S. that can store 10 GWh.[^2].  More modern chemical or gravity/weight based storage projects are, as of 2022, in the range of 250 - 500 MWh per project, and a few of these would cover the 3 GWh need.  
+
 [^2]: The [Ludington Pumped Storage Power Plant](https://en.wikipedia.org/wiki/Ludington_Pumped_Storage_Power_Plant) in Michigan, for example, has a storage capacity of 19.5 GWh.  The [Northfield Mountain facility](https://en.wikipedia.org/wiki/Northfield_Mountain_(hydroelectricity_facility))
+   
+The result of this experiment is (approximately) that 3 GWh of electricity storage would enable Nevada to eliminate about ~600 MW of electricity generation capacity (8.34 vs. 8.97 peak consumption) or the equivalent in inter-region transfers which may become less reliable over time; 12 GWh of storage would enable Nevada to eliminate ~1.6 GW of electricity generation capacity. 
  
 ### Power Cycling
+
+Whether that kind of tradeoff is economical may depend on 
+
     
 ### Limits of Replacing Peak Generation with Storage
   
