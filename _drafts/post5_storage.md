@@ -13,14 +13,22 @@ Electricity storage systems (chemical batteries, pumped hydro storage, gravity-b
 
 In all cases there will be a real-world question whether it is more efficient to invest in storage or more generation capacity to compensate; this question is beyond the scope of this post.
 
-This post will illustrate, using real-world electricity demand data and overly simplistic supply models (with **no unplanned outages or weather intermittency**) what profile of storage could be useful: how much energy capacity is needed and how frequently it is used. 
+This post will illustrate, using real-world electricity demand data and overly simplistic supply models (with **no unplanned outages or weather intermittency**) what profile of storage could be useful: how much energy capacity is needed and how frequently it is used.   Here is a summary of the findings: 
 
-## The Approach
+- In a constant generation model, it appears feasible to usage storagae solutions to substitute for power generation that would cover the last ~10 - 20% of peak demand.  Somewhat frustratingly, the strong variability of demand still means that this implies generation capacity that is adequate to supply more than 1.5 times the aggregate **energy needs** (in GWh). 
+
+- Using a solar generation model, there is some benefit in warm climates with mild winters from aligning higher summer generation with higher summer demand.   But substantial storage is needed (probably more than is economical) to manage the day-night cycle.   As with fixed generation however, there is so much variability of demand over time that the generation capacity measured in GWh needs to be a reasonable multiple of aggregate energy consumed. 
+ 
+- A combination, heavily weighted towards fixed, can get benefits of both fixed generation (no daily cycle) and solar (more generation with higher summer demand). 
+
+ <!--more-->
+
+## Modeling Approach
 
 This post uses the following approach: 
 
 1. We have access to electricity storage (e.g., battery storage).  The battery can be "full" (its initial condition) but it can be drawn down in an arbitrarily large amount.  
-2. Demand for electricity consumption is taken as a given as a function of time (measured hourly) and supply (whether from the grid or from storage) must be supplied to meet that demand at all times
+2. Demand for electricity consumption is taken as a given as a function of time (measured hourly).  Electricity (whether from the grid or from storage) must be supplied to meet that demand at all times.
 3. I can specify a maximum grid supply, also as a function of time (hourly).  The supply value at any time could be greater or less than demand at that time. 
 4. If the supply exceeds demand at a given time, the excess will be used to "refill" the energy storage system
 5. If the grid supply is inadequate to meed demand, the difference will be supplied by a drawdown of the balance in energy storage. 
