@@ -103,20 +103,21 @@ TR.slateblue TD, TR.slateblue TH {color: slateblue;}
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8"></th> 
         <th colspan="2" scope ="colgroup" style="background-color: #E8E8E8">Total (GWh)</th> 
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Average Hourly (GWh/h)</th> 
-        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Peak Hourly (GWh/h)</th>   
-        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8"># Days with Non-Zero Storage</th>   
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Peak Hourly (GWh/h)</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8"># Days with Non-Zero Storage</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8"># Days with Demand &gt; Demand (accumulation)</th>   
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Storage Needed</th>
 
     </tr>
 <tr class="blue">
   <th scope="col" style="background-color: #E8E8E8">Demand</th>
-    <td>39,292</td> <td>1.00x</td> <td>4.49</td> <td>8.97 </td> <td>--</td> <td>--</td> </tr> 
+    <td>39,292</td> <td>1.00x</td> <td>4.49</td> <td>8.97 </td> <td>--</td> <td>--</td> <td>--</td> </tr> 
  <tr class="coral">
   <th scope="col" style="background-color: #E8E8E8">Average Summer Peak</th>
-   <td>64,115</td> <td>1.63x</td> <td>7.30</td> <td>7.30</td>  <td>18</td> <td> <b>11.4 GWh</b></td></tr>
+   <td>64,115</td> <td>1.63x</td> <td>7.30</td> <td>7.30</td>  <td>18</td> <td>7</td> <td> <b>11.4 GWh</b></td></tr>
 <tr class="plum">
   <th scope="col" style="background-color: #E8E8E8">Year's 95th %ile Peak</th>
-  <td>73,224</td> <td>1.86x</td> <td>8.34</td> <td>8.34</td>  <td>68</td> <td> <b>2.6 GWh</b></td></tr>
+  <td>73,224</td> <td>1.86x</td> <td>8.34</td> <td>8.34</td>  <td>68</td> <td>0</td> <td><b>2.6 GWh</b></td></tr>
 </table>
 
 **check these numbers**
@@ -144,21 +145,22 @@ If generation is reduced to 1.35x average, there were more than a month worth of
         <th colspan="2" scope ="colgroup" style="background-color: #E8E8E8">Total (GWh)</th> 
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Average Hourly (GWh/h)</th> 
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Peak Hourly (GWh/h)</th>   
-        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Days with Demand &gt Supply</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8"># Days with Non-Zero Storage</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Days with Demand &gt; Supply</th>
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Storage Needed</th>
     </tr>
     
   <tr class="blue">
   <th scope="col" style="background-color: #E8E8E8">Demand</th>
-    <td>39,292</td> <td>1.00x</td> <td>4.49</td> <td>8.97 </td> <td>--</td> <td>--</td> </tr> 
+      <td>39,292</td> <td>1.00x</td> <td>4.49</td> <td>8.97</td> <td>--</td> <td>--</td> <td>--</td> </tr> 
     
   <tr class="slateblue">
   <th scope="col" style="background-color: #E8E8E8">Constant Generation 1.5x</th>
-   <td>58,938</td> <td>1.50x</td> <td>6.73</td> <td>6.73</td> <td>7</td> <td> <b>27.5 GWh</b></td> </tr>
+      <td>58,938</td> <td>1.50x</td> <td>6.73</td> <td>6.73</td> <td>365</td> <td>7</td> <td> <b>27.5 GWh</b></td> </tr>
     
 <tr class="limegreen">
   <th scope="col" style="background-color: #E8E8E8">Constant Generation 1.35x</th>
-   <td>53,045</td> <td>1.35x</td> <td>6.06</td> <td>6.06</td> <td>41</td> <td><b>215.6 GWh</b></td> </tr>
+   <td>53,045</td> <td>1.35x</td> <td>6.06</td> <td>6.06</td> <td>365</td>  <td>41</td> <td><b>215.6 GWh</b></td> </tr>
     
 </table>
     
