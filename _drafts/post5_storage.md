@@ -37,7 +37,7 @@ This post uses the following approach:
 
 ## Individual Scenarios
 
-I'll begin by looking at individual home data for my residence in the Las Vegas, Nevada area.  To keep things simple, I only look at a single month (August 2021), to keep electricity usage relatively consistent.  Things get harder across an entire year when usage between seasons experience much larger swings.
+I'll warm up by looking at data for my own home in the Las Vegas area.  To keep things simple, I only look at a single month (August 2021).  This avoids the larger swings of demand between seasons.
 
 ### Demand Variability: Storage to Replace Super-Peak Grid Usage
 
