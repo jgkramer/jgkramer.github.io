@@ -157,7 +157,7 @@ If generation is reduced to 1.35x average, there were more than a month worth of
    <td>58,938</td> <td>1.50x</td> <td>6.73</td> <td>6.73</td> <td>7</td> <td> <b>27.5 GWh</b></td> </tr>
     
 <tr class="limegreen">
-  <th scope="col" style="background-color: #E8E8E8">Constant Generation 1.35</th>
+  <th scope="col" style="background-color: #E8E8E8">Constant Generation 1.35x</th>
    <td>53,045</td> <td>1.35x</td> <td>6.06</td> <td>6.06</td> <td>41</td> <td><b>215.6 GWh</b></td> </tr>
     
 </table>
