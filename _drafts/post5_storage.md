@@ -130,8 +130,10 @@ Compared to the examples above with generation in excess of 160%+ of average con
 
 ![NevadaPeaksFullYear](/assets/images/post5_NV_MediumFixed.png)
     
-In the case where generation can supply 1.5x of the annual average consumption (6.73 GWh / h), there are many days in the summer where the afternoon and evening consumption this (up to 8.97 GWh at the highest peaks).  Thus many summer days see electricity storage drawdowns on the order of 10 GWh per day, as high afternoon demand uses storage that is refilled at lower-demand nighttime and morning.  There were a **few** days in July where total consumption exceeded 24 hours x 6.73 GWh / h =  161.5 GWh, so the storage usage, while higher than the scenarios above, remained relatively contained at 28 GWh.  If generation is reduced to 1.35x of average, there were more than a month worth of days with consumption in excess of supply in the summer, and with storage not refilling, the storage requirement balloons to 216 GWh.  
-    
+In the case where generation can supply 1.5x of the annual average consumption (6.73 GWh / h), there are many days in the summer where the afternoon and evening consumption this (up to 8.97 GWh at the highest peaks).  Thus many summer days see electricity storage drawdowns on the order of 10 GWh per day, as high afternoon demand uses storage that is refilled at lower-demand nighttime and morning.  There were a **few** days in July where total consumption exceeded 24 hours x 6.73 GWh / h =  161.5 GWh, so the storage usage reached 28 GWh.  This is a large number but given the size of existing projects, may be feasible.   
+
+If generation is reduced to 1.35x average, there were more than a month worth of days with consumption in exceeding supply and storage not refilling.  This baloons the storage requirement to a challening 216 GWh.
+
 <table>
     <col> <colgroup span="1"></colgroup><colgroup span="6"></colgroup>
     <tr>
@@ -166,6 +168,8 @@ The below model assumes generation at ideal solar capacity throughout the year, 
 ![KramerMedianPeakAugust](/assets/images/post5_NV_MediumSolar.png)
  
 Compared to the 
+
+can't get below 73.8 Gwh
     
     
 
