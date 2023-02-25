@@ -206,6 +206,9 @@ The 135% generation profile also carries some lessons.  Like 135% fixed generati
 ### Solar / Fixed Blend: 
     
     
+![20% Solar-80% Fixed Blend](/assets/images/post5_NV_80-20.png)
+ 
+    
     
 ### A Word on Power Cycling and Economic Feasibility
 
