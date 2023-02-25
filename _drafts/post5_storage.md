@@ -118,9 +118,9 @@ TR.slateblue TD, TR.slateblue TH {color: slateblue;}
   <td>73,224</td> <td>1.86x</td> <td>8.34</td> <td>8.34</td> <td> <b>2.6 GWh</b></td> <td>68</td> </tr>
 </table>
 
-The results of these plans seem very feasible, especially higher-generation grid architecture.  This could get by with 3 GWh of storage (delivered at a 0.7 GW rate, the difference between 9 GW peak demand and 8.3 GW supply).  There are numerous pumped-hydro storage facilities in the U.S. that can store 10 GWh[^2].  More modern chemical or gravity/weight based storage projects are, as of 2022, in the range of 250 - 500 MWh per project, and a few of these would cover the 3 GWh need.  
+The results of these plans seem very feasible, especially higher-generation grid architecture.  This could get by with 3 GWh of storage (delivered at a 0.7 GW rate, the difference between 9 GW peak demand and 8.3 GW supply).  There are numerous pumped-hydro storage facilities in the U.S. that can store 10 GWh[^3].  More modern chemical or gravity/weight based storage projects are, as of 2022, in the range of 250 - 500 MWh per project, and a few of these would cover the 3 GWh need.  
 
-[^2]: The [Ludington Pumped Storage Power Plant](https://en.wikipedia.org/wiki/Ludington_Pumped_Storage_Power_Plant) in Michigan, for example, has a storage capacity of 19.5 GWh.  The [Northfield Mountain facility](https://en.wikipedia.org/wiki/Northfield_Mountain_(hydroelectricity_facility)).
+[^3]: The [Ludington Pumped Storage Power Plant](https://en.wikipedia.org/wiki/Ludington_Pumped_Storage_Power_Plant) in Michigan, for example, has a storage capacity of 19.5 GWh.  The [Northfield Mountain facility](https://en.wikipedia.org/wiki/Northfield_Mountain_(hydroelectricity_facility)).
    
 The result of this experiment is (approximately) that 3 GWh of electricity storage would enable Nevada to eliminate about ~600 MW of electricity generation capacity (8.34 vs. 8.97 peak consumption) or the equivalent in inter-region transfers which may become less reliable over time; 12 GWh of storage would enable Nevada to eliminate ~1.6 GW of electricity generation capacity. 
      
