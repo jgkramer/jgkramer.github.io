@@ -154,22 +154,27 @@ If generation is reduced to 1.35x average, there were more than a month worth of
    <td>58,938</td> <td>1.50x</td> <td>6.34</td> <td>6.34</td> <td>7</td> <td> <b>27.5 GWh</b></td> </tr>
     
 <tr class="limegreen">
-  <th scope="col" style="background-color: #E8E8E8">Year's 95th %ile Peak</th>
+  <th scope="col" style="background-color: #E8E8E8">Constant Generation 1.35x/th>
    <td>53,045</td> <td>1.35x</td> <td>6.06</td> <td>6.06</td> <td>41</td> <td><b>215.6 GWh</b></td> </tr>
     
 </table>
     
 ### Solar: Some Helpful Supply Variability, Some Costly
 
-Besides its carbon-free generation properties (net of PV panels' energy- and mining-intensive supply chain), solar generates more power in the summer than in the winter.  This feature can be deployed help address one of the features of constant generation that there can be **too little** electricity supply in some parts of the year (high demand summer) and **too much** in other parts (low demand winter), at least in a hot desert state like Nevada without much of a winter heating usage peak.  
+Besides its carbon-free generation properties (net of PV panels' energy- and mining-intensive supply chain), solar generates more power in the summer than in the winter.  This feature might be deployable to address the feature of constant (but sub-peak) generation that there can be **too little** electricity supply during the summer and **too much** in the winter, at least in a hot desert state like Nevada without much of a winter heating consumption uptick.
 
-The below model assumes generation at ideal solar capacity throughout the year, scaled to produce 150% and 135%, respectively, of the [TODO]
+The below model assumes generation at ideal solar capacity throughout the year, scaled to produce 150% and 135%, respectively, of annual average consumption.   
+
+
+
+
+[TODO]
     
 ![KramerMedianPeakAugust](/assets/images/post5_NV_MediumSolar.png)
  
 Compared to the 
 
-can't get below 73.8 Gwh
+Solar: 73.8 Gwh even at 2.5x
     
     
 
@@ -183,4 +188,53 @@ Fuel savings costs through the use of storage cannot come from reduction in aggr
     
 Economizing can only arise if time-shifting allows the grid to replace genreation from high-cost sources at peak times (e.g., petroleum or less efficient natural gas plants on the right of the supply curve) with lower-cost sources at off-peak times (e.g., nuclear, coal or solar on the left side of the supply curve). 
 
+
+ Solar @ 150% and 135%
+Largest Storage Drawdown: -76.4 GWh 
+Sum usage: 39,292.24 GWh
+Average usage: 4.49 GWh
+Max usage: 8.97 GWh
+Sum supply: 58,938.4 GWh
+Average supply: 6.73 GWh
+Usage days above supply: 0
+Non-zero storage days: 365
+
+Largest Storage Drawdown: -153.1 GWh 
+Sum usage: 39,292.24 GWh
+Average usage: 4.49 GWh
+Max usage: 8.97 GWh
+Sum supply: 53,044.5 GWh
+Average supply: 6.06 GWh
+Usage days above supply: 40
+Non-zero storage days: 365
+
+
 ![EIA Supply Curve](/assets/images/EIA_supply_curve.png)
+
+<table>
+    <col> <colgroup span="1"></colgroup><colgroup span="6"></colgroup>
+    <tr>
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8"></th> 
+        <th colspan="2" scope ="colgroup" style="background-color: #E8E8E8">Total (GWh)</th> 
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Average Hourly (GWh/h)</th> 
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Peak Hourly (GWh/h)</th>   
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Days with Demand &gt Supply</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Storage Needed</th>
+    </tr>
+    
+  <tr class="blue">
+  <th scope="col" style="background-color: #E8E8E8">Demand</th>
+    <td>39,384</td> <td>1.00x</td> <td>4.48</td> <td>8.97 </td> <td>--</td> <td>--</td> </tr> 
+    
+  <tr class="slateblue">
+  <th scope="col" style="background-color: #E8E8E8">Solar Generation 1.5x</th>
+   <td>58,938</td> <td>1.50x</td> <td>6.34</td> <td>6.34</td> <td>7</td> <td> <b>27.5 GWh</b></td> </tr>
+    
+<tr class="limegreen">
+  <th scope="col" style="background-color: #E8E8E8">Solar Generation 1.35x</th>
+   <td>53,045</td> <td>1.35x</td> <td>6.06</td> <td>6.06</td> <td>41</td> <td><b>215.6 GWh</b></td> </tr>
+    
+</table>
+
+
+
