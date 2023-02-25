@@ -114,13 +114,11 @@ TR.slateblue TD, TR.slateblue TH {color: slateblue;}
     <td>39,292</td> <td>1.00x</td> <td>4.49</td> <td>8.97 </td> <td>--</td> <td>--</td> <td>--</td> </tr> 
  <tr class="coral">
   <th scope="col" style="background-color: #E8E8E8">Average Summer Peak</th>
-   <td>64,115</td> <td>1.63x</td> <td>7.30</td> <td>7.30</td>  <td>18</td> <td>7</td> <td> <b>11.4 GWh</b></td></tr>
+   <td>64,115</td> <td>1.63x</td> <td>7.30</td> <td>7.30</td> <td>18</td> <td>7</td> <td><b>11.4 GWh</b></td></tr>
 <tr class="plum">
   <th scope="col" style="background-color: #E8E8E8">Year's 95th %ile Peak</th>
   <td>73,224</td> <td>1.86x</td> <td>8.34</td> <td>8.34</td>  <td>68</td> <td>0</td> <td><b>2.6 GWh</b></td></tr>
 </table>
-
-**check these numbers**
 
 The results of these plans seem very feasible, especially higher-generation grid architecture.  This could get by with 3 GWh of storage (delivered at a 0.7 GW rate, the difference between 9 GW peak demand and 8.3 GW supply).  There are numerous pumped-hydro storage facilities in the U.S. that can store 10 GWh[^3].  More modern chemical or gravity/weight based storage projects are, as of 2022, in the range of 250 - 500 MWh per project, and a few of these would cover the 3 GWh need.  
 
