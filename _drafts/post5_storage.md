@@ -183,21 +183,22 @@ That said, all-solar generation has an irreducible -- and very large -- storage 
         <th colspan="2" scope ="colgroup" style="background-color: #E8E8E8">Total (GWh)</th> 
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Average Hourly (GWh/h)</th> 
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Peak Hourly (GWh/h)</th>   
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8"># Days with Non-Zero Storage</th>
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Days with Demand &gt Supply</th>
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Storage Needed</th>
     </tr>
     
   <tr class="blue">
   <th scope="col" style="background-color: #E8E8E8">Demand</th>
-    <td>39,292</td> <td>1.00x</td> <td>4.49</td> <td>8.97 </td> <td>--</td> <td>--</td> </tr> 
+    <td>39,292</td> <td>1.00x</td> <td>4.49</td> <td>8.97 </td>  <td>--</td> <td>--</td> <td>--</td> </tr> 
     
   <tr class="slateblue">
   <th scope="col" style="background-color: #E8E8E8">Solar 1.5x</th>
-   <td>58,938</td> <td>1.50x</td> <td>6.73</td> <td>18.03</td> <td>0</td> <td> <b>76.4 GWh</b></td> </tr>
+   <td>58,938</td> <td>1.50x</td> <td>6.73</td> <td>18.03</td> <td>365</td> <td>0</td> <td> <b>76.4 GWh</b></td> </tr>
     
   <tr class="limegreen">
   <th scope="col" style="background-color: #E8E8E8">Solar 1.35x</th>
-   <td>53,045</td> <td>1.35x</td> <td>6.06</td> <td>16.22</td> <td>40</td> <td><b>153.1 GWh</b></td> </tr>
+   <td>53,045</td> <td>1.35x</td> <td>6.06</td> <td>16.22</td> <td>365</td> <td>40</td> <td><b>153.1 GWh</b></td> </tr>
     
 </table>
 
