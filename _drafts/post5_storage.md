@@ -15,7 +15,7 @@ In all cases there will be a real-world question whether it is more efficient to
 
 This post will illustrate, using real-world electricity demand data and overly simplistic supply models (with **no unplanned outages or weather intermittency**) what profile of storage could be useful: how much energy capacity is needed and how frequently it is used.   Here is a summary of the findings: 
 
-- In a constant generation model, it appears feasible to usage storagae solutions to substitute for power generation that would cover the last ~10 - 20% of peak demand.  Somewhat frustratingly, the strong variability of demand still means that this implies generation capacity that is adequate to supply more than 1.5 times the aggregate **energy needs** (in GWh). 
+- In a constant generation model, it appears feasible to usage storagae solutions to substitute for power generation that would cover the last ~10 - 20% of peak demand.  Somewhat frustratingly, the strong variability of demand still means that this implies generation capacity that is adequate to supply more than 1.5 times the aggregate energy needs (in GWh). 
 
 - Using a solar generation model, there is some benefit in warm climates with mild winters from aligning higher summer generation with higher summer demand.   But substantial storage is needed (probably more than is economical) to manage the day-night cycle.   As with fixed generation however, there is so much variability of demand over time that the generation capacity measured in GWh needs to be a reasonable multiple of aggregate energy consumed. 
  
@@ -23,35 +23,34 @@ This post will illustrate, using real-world electricity demand data and overly s
 
  <!--more-->
 
-## Modeling Approach
+## Analytical Approach
 
-This post uses the following approach: 
+This post and the underlying code uses the following analytical approach: 
 
-1. We have access to electricity storage (e.g., battery storage).  The battery can be "full" (its initial condition) but it can be drawn down in an arbitrarily large amount.  
+1. We have access to electricity storage (e.g., battery storage).  The battery can be "full" (its initial condition and it can be drawn down in an arbitrarily large amount.  In the model outputs below, a full battery is denoted by a zero value, and drawdowns are represented by negative quantitites.  
 2. Demand for electricity consumption is taken as a given as a function of time (measured hourly).  Electricity (whether from the grid or from storage) must be supplied to meet that demand at all times.
 3. I can specify a maximum grid supply, also as a function of time (hourly).  The supply value at any time could be greater or less than demand at that time. 
-4. If the supply exceeds demand at a given time, the excess will be used to "refill" the energy storage system
-5. If the grid supply is inadequate to meed demand, the difference will be supplied by a drawdown of the balance in energy storage. 
-6. Supply up to the maximum grid supply is "dispatchable", i.e., if neither consumption nor storage refill needs to be powered, generation can be turned down (i.e., to save on fuel costs).
+4. If the supply exceeds demand at a given time, the excess will be used to "refill" the energy storage system up towards zero.
+5. If the grid supply is inadequate to meed demand, the difference will be supplied by a drawdown of the balance in energy storage -- making the storage balance more negative. 
+6. Supply up to the maximum grid supply is "dispatchable."   If storage is full and there is more generation capacity during that hour than demand, generation is assumed to be turned down to match demand.
 7. Each scenario will then analyzed will be to identify how much battery capacity is actually needed, which can then be used to get a sense of feasibility.
 
 ## Individual Scenarios
 
-I'll warm up by looking at data for my own home in the Las Vegas area.  To keep things simple, I only look at a single month (August 2021).  This avoids the larger swings of demand between seasons.
+I'll warm up with data for my own home in the Las Vegas area.  To keep things simple, I only look at a single month (August 2021).  This avoids the larger swings of demand between seasons.
 
 ### Demand Variability: Storage to Replace Super-Peak Grid Usage
 
-In the chart below, the blue line in the top chart shows the electricity my family consumed hourly in August 2021.  Imagine I am limited to drawing a maximum level of power at any time from the grid.  For example, this might be the median of each day's peak hourly usage in the evening.  The red line in the top chart shows this limit of 11.5 kW.  This set-up could be driven by a utility plan that encourages me (try to shift some peak usage to off-peak hours) or requires me (e.g., smart grid device) to avoid drawing excessive power at peak times in order to protect the grid. 
+In the chart below, the blue line in the top graph shows my family's electricity consumption by hour in August 2021.  Imagine I am limited to drawing a maximum level of power at any time from the grid.  For example, this might be the median of each day's peak hourly usage in the evening.  The red line in the top chart shows this limit of 11.5 kW.  This limitation could be driven by a utility plan that encourages me (through price incentives) or requires me (e.g., smart grid throttling) to avoid drawing excessive power at peak times to protect the grid. 
 
-If I want to use more power than 11.5 kWh per in any hour during my own peak consumption hours, I must use home battery system that has stored energy from prior periods with lower usage.  So the red line in the bottom chart shows how much aggregate has been drawn down from a full battery (represented by a 0 y-value at the top).   
-
+If I want to use more than 11.5 kW during my own peak consumption hours, I must use a home battery system with previously-stored energy to make up the difference.  So the red line in the bottom chart shows how much aggregate has been drawn down from a full battery (represented by a 0 y-value at the top).   
 ![KramerMedianPeakAugust](/assets/images/post5_KramerMedianPeak.png)
 
-Since the grid electrical input in this scenario is enough to cover usage for all but a few hours a day on 15 days, we can imagine a battery cycling to supply the gap.  For example, on August 3, air-conditioning driven demand exceeds supply from 2pm to 8pm by between 1 - 3 kWh per hour.  By 8pm slot, the battery would have needed to supply a total of 8.05 kWh.  Once the sun sets, hourly usage falls to under 7 kWh, and the excess up to 11.5 kWh refills the battery by 10pm.
+Since the grid supplies enough power to cover usage for all but a few hours a day on 15 days, a battery can readily fill the gap.  For example, on August 3, air-conditioning driven demand exceeds supply from 2pm to 8pm by between 1 - 3 kWh per hour.  By 8pm, the battery would have needed to supply a total of 8.05 kWh.  Once the sun sets, hourly usage falls to under 7 kWh, and the excess up to 11.5 kWh refills the battery by 10pm.
 
-Across the entire month, the largest daily battery usage would have been 8.9 kWh (on August 1).  There are a number of home battery storage products available in the 10-20 kWh capacity area, so this solution seems feasible.  However, at a battery cost for this capacity in the $10,000 - $15,000 area, it may not be economical as an individual solution.[^1]
+Across the entire month, the largest daily battery usage would have been 8.9 kWh (on August 2).  There are a number of home battery storage products available in the 10-20 kWh capacity area, so this solution seems feasible.  However, at a battery cost for this capacity in the $10,000 - $15,000 area, it may not be an economical solution based on current prices, absent a hard supply constraint at the grid level.[^1]
 
-[^1]: At the rates described in [this post](https://jgkramer.github.io/2022/11/07/Electricity_Usage_Anecdotes.html), this storage scheme would save less than $25 per year by transferring up to 8 kWh from peak times to off-peak times (a savings of $0.31 per kWh) on half the days during the 4 summer peak months.
+[^1]: At the rates described in [this post](https://jgkramer.github.io/2022/11/07/Electricity_Usage_Anecdotes.html), this storage scheme would save less than $25 per year by transferring up to 8 kWh from peak times to off-peak times (a savings of $0.31 per kWh) on half the days during the 4 summer peak months, so the breakeven.
 
 ### Supply Variability: Solar Power
 
