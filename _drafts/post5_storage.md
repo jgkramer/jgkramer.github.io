@@ -78,8 +78,7 @@ I now step back and consider the grid-scale question of how much storage can be 
 
 ### Demand Variability: Storage to Replace Super-Peak Grid Usage
 
-The grid right now is roughly set up such that generating capacity is approximately capable of handling peak demand.  This is not always used 
-in practice as regional balancing authorities import power from other regions to meet peaking demand.  For example, where Nevada's summer electricity demand is 1.8x the spring/fall usage, the state in July/August 2022 imported an average of 1.5 GWh every hour (often 2+ GWh during the afternoon). 
+The U.S. grid right now is roughly set up such that generating capacity is approximately capable of handling maximum demand, with the caveat that regional balancing authorities import power from other reasons to meet peaks.  For example, where Nevada's summer electricity demand is 1.8x the spring/fall usage, the state in July/August 2022 imported an average of 1.5 GWh every hour (often 2+ GWh during the afternoon). 
 
 Storage offers an alternative: if generating capacity can supply the grid's consumption at **most** times, storage can supply the difference on days with a few hours of peak demand that are higher.  In this first example, I assume generating based on the following two benchmarks: 
 
