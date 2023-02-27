@@ -172,15 +172,15 @@ If generation is reduced to 135% of average, there are more than a month worth o
 
 ### Solar: Some Helpful Supply Variability, Some Costly
 
-Beyond its carbon-free generation properties (net of photovoltaic panels' energy- and mining-intensive supply chain), solar generates more power in the summer than in the winter.  This feature might be deployable to address the feature of constant (but sub-peak) generation that there can be **too little** electricity supply during the summer but **more than enough** in the winter, at least in a hot desert state like Nevada without much of a winter heating consumption uptick.
+Solar generates more power in the summer than in the winter, a fact that might be employed to address the feature of constant (but sub-peak) generation that there can be **too little** supply during the summer but **more than enough** in the winter, at least in a hot desert state like Nevada without much of a winter heating electriicty consumption uptick.
 
 The below model assumes generation at ideal solar capacity throughout the year, scaled to produce 150% and 135%, respectively, of annual average consumption.
     
 ![KramerMedianPeakAugust](/assets/images/post5_NV_MediumSolar.png)
  
-Theh 150% profile shows that the idea of seasonal alignment of supply and demand works out reasonably well.  Contrast the fixed-generation model where there were a handful of days in the summer without enough power generation, on all days the total ideal solar generation capacity exceeds total demand.  There is thus no accumulation of storage from one high-demand day to the next.
+Theh 150% profile shows that the idea of seasonal alignment of supply and demand has some value.  Contrast the fixed-generation model where there were seven summer days without enough aggregate power generation, on **all** days the 24-hour ideal solar generation capacity exceeds 24-hour demand.  There is thus no accumulation of storage from one high-demand day to the next.
 
-That said, all-solar generation has an irreducible -- and very large -- storage need to simply transfer some energy from daytime production to nighttime use.  Even extremely large solar generation (e.g., that can generate 3x aggregate usage) require 73.8 GWh of storage to manage this daily cycle.  At 150%, this quantity is 76.4 GWh.
+But an all-solar generation model has an irreducible -- and very large -- storage need to simply transfer some energy from daytime production to nighttime use.  Even extremely large solar generation (e.g., that can generate 3x aggregate usage) requires 74 GWh of storage to manage this daily cycle.  At 150%, this quantity is **76.4 GWh**.
 
 <table>
     <col> <colgroup span="1"></colgroup><colgroup span="6"></colgroup>
