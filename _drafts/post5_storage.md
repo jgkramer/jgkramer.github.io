@@ -85,9 +85,9 @@ The U.S. grid right now is roughly set up such that generating capacity is appro
 
 Storage offers an alternative.  If generation can supply all of the grid's consumption at **most** times, and most of the consumption at the rest, the excess on days with a few hours of peak demand that are a little bit higher can be powered from stored electricity.  In this first example, I assume generation capacity at two levels:  
 
-1. The average of the daily consumption peaks during the 4 peak summer months (June to September), which is enough to supply 163% of the year's total electricity consumption and 81% of the peak hourly usage.
+1. The average of the daily consumption peaks during the 4 peak summer months (June to September), equal to 163% of the full-year average (i..e, enough to supply 163% of the full year consumption if always on), and 81% of peak
 
-2. The 95th percentile among the 365 "peak hour" consumptions for each day in the year.   This level can supply 186% of total consumption, and 93% of the maximum peak hour.
+2. The 95th percentile among the 365 "peak hour" consumptions for each day in the year.   This is 186% of average consumption, and 93% of the maximum peak hour.
 
 ![NevadaPeaksFullYear](/assets/images/post5_NV_HighFixed.png)
 
