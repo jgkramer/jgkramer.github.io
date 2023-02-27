@@ -41,16 +41,17 @@ I'll warm up with data for my own home in the Las Vegas area.  To keep things si
 
 ### Demand Variability: Storage to Replace Super-Peak Grid Usage
 
-In the top chart below, the blue line shows my family's electricity consumption by hour.  Imagine I am limited to drawing a maximum level of power at any time from the grid.  For example, this might be the median of each day's peak hourly usage in the evening.  The red line in the top chart shows this limit of 11.5 kW.  This limitation could be driven by a utility plan that encourages me (through price incentives) or requires me (e.g., smart grid throttling) to avoid drawing excessive power at peak times to protect the grid. 
+In the top chart below, the blue line shows my family's electricity consumption by hour.  Imagine I am limited to drawing a maximum level of power at any time from the grid.  For example, this might be the median of each day's peak hourly usage in the evening (red line; 11.5 kW).  This limitation could be driven by a utility plan that encourages me (through price incentives) or requires me (e.g., smart grid throttling) to avoid drawing excessive power at peak times to protect the grid. 
 
-If I want to use more than 11.5 kW during my own peak consumption hours, I must use a home battery system with previously-stored energy to make up the difference.  So the red line in the bottom chart shows how much aggregate has been drawn down from a full battery (represented by a 0 y-value at the top).   
+If I want to use more than 11.5 kW at any time, I must use a home battery system with previously-stored energy to make up the difference.  So the red line in the bottom chart shows how much aggregate must be drawn from the full battery (y = 0).   
+
 ![KramerMedianPeakAugust](/assets/images/post5_KramerMedianPeak.png)
 
 Since the grid supplies enough power to cover usage for all but a few hours a day on 15 days, a battery can readily fill the gap.  For example, on August 3, air-conditioning driven demand exceeds supply from 2pm to 8pm by between 1 - 3 kWh per hour.  By 8pm, the battery would have needed to supply a total of 8.05 kWh.  Once the sun sets, hourly usage falls to under 7 kWh, and the excess up to 11.5 kWh refills the battery by 10pm.
 
 Across the entire month, the largest daily battery usage would have been 8.9 kWh (on August 2).  There are a number of home battery storage products available in the 10-20 kWh capacity area, so this solution seems feasible.  However, at a battery cost for this capacity in the $10,000 - $15,000 area, it may not be an economical solution based on current prices, absent a hard supply constraint at the grid level.[^2]
 
-[^2]: At the rates described in [this post](https://jgkramer.github.io/2022/11/07/Electricity_Usage_Anecdotes.html), this storage scheme would save less than $25 per year by transferring up to 8 kWh from peak times to off-peak times (a savings of $0.31 per kWh) on half the days during the 4 summer peak months, so the breakeven.
+[^2]: At the rates described in [this post](https://jgkramer.github.io/2022/11/07/Electricity_Usage_Anecdotes.html), the transfering 8 kWh from peak to off-peak times (a savings of $0.31 per kWh) every day day during NV Energy's 4 peak summer months represents $300 a year of savings, so the breakeven on this size battery is measured in decades. 
 
 ### Supply Variability: Solar Power
 
