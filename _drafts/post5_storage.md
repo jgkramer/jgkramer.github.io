@@ -75,7 +75,7 @@ Finally, all of this ignores two real-world complexities: (1) seasonality (with 
 
 ## State-Level Grid Analysis
 
-I now step back and consider the grid-scale question of how storage might economize on generation capacity by looking at the EIA's total demand data for Nevada.  I cover a full one-year period to capture the challenges arising from seasonality.[^4]
+I now step back and consider the grid-scale question of how storage might economize on generation capacity by looking at the EIA's total demand data for Nevada.  I cover a full one-year period to capture the challenges arising from seasonality.[^4].  We'll begin with an assumption of **fixed** generation capacity. 
 
 [^4]: I use 1-Nov-21 to 1-Nov-22 to avoid the analytical period beginning or ending in either a summer or winter peak / trough of supply or demand.
 
@@ -85,7 +85,7 @@ The U.S. grid right now is roughly set up such that generating capacity is appro
 
 Storage offers an alternative.  If generation can supply all of the grid's consumption at **most** times, and most of the consumption at the rest, the excess on days with a few hours of peak demand that are a little bit higher can be powered from stored electricity.  In this first example, I assume generation capacity at two levels:  
 
-1. The average of the daily consumption peaks during the 4 peak summer months (June to September), equal to 163% of the full-year average (i..e, enough to supply 163% of the full year consumption if always on), and 81% of peak
+1. The average of the daily consumption peaks during the 4 peak summer months (June to September), equal to 163% of the full-year average (i.e., enough to supply 163% of the full year consumption if always on), and 81% of peak
 
 2. The 95th percentile among the 365 "peak hour" consumptions for each day in the year.   This is 186% of average consumption, and 93% of the maximum peak hour.
 
@@ -108,8 +108,8 @@ TR.slateblue TD, TR.slateblue TH {color: slateblue;}
     <col> <colgroup span="1"></colgroup><colgroup span="7"></colgroup>
     <tr>
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8"></th> 
-        <th colspan="2" scope ="colgroup" style="background-color: #E8E8E8">Total (GWh)</th> 
-        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Average Hourly (GWh/h)</th> 
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Total (GWh)</th> 
+        <th colspan="2" scope ="colgroup" style="background-color: #E8E8E8">Average Hourly (GWh/h)</th> 
         <th colspan="2" scope ="colgroup" style="background-color: #E8E8E8">Peak Hourly (GWh/h)</th>
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8"># Days with Non-Zero Storage</th>
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8"># Days with Demand &gt; Demand (accumulation)</th>   
@@ -118,13 +118,13 @@ TR.slateblue TD, TR.slateblue TH {color: slateblue;}
     </tr>
 <tr class="blue">
   <th scope="col" style="background-color: #E8E8E8">Demand</th>
-    <td>39,292</td> <td>100%</td> <td>4.49</td> <td>8.97 </td> <td>100%</td> <td>--</td> <td>--</td> <td>--</td> </tr> 
+    <td>39,292</td> <td>4.49</td> <td>100%</td> <td>8.97 </td> <td>100%</td> <td>--</td> <td>--</td> <td>--</td> </tr> 
  <tr class="coral">
   <th scope="col" style="background-color: #E8E8E8">Average Summer Peak</th>
-   <td>64,115</td> <td>163%</td> <td>7.30</td> <td>7.30</td> <td>82%</td> <td>18</td> <td>7</td> <td><b>11.4 GWh</b></td></tr>
+   <td>64,115</td> <td>7.30</td> <td>163%</td> <td>7.30</td> <td>82%</td> <td>18</td> <td>7</td> <td><b>11.4 GWh</b></td></tr>
 <tr class="plum">
   <th scope="col" style="background-color: #E8E8E8">Year's 95th %ile Peak</th>
-  <td>73,224</td> <td>186%</td> <td>8.34</td> <td>8.34</td> <td>93%</td> <td>68</td> <td>0</td> <td><b>2.6 GWh</b></td></tr>
+  <td>73,224</td>  <td>8.34</td> <td>186%</td> <td>8.34</td> <td>93%</td> <td>68</td> <td>0</td> <td><b>2.6 GWh</b></td></tr>
 </table>
 
 The results of these plans seem very feasible, especially higher-generation grid architecture.  This could get by with 3 GWh of storage (delivered at a 0.7 GW rate, the difference between 9 GW peak demand and 8.3 GW supply).  There are numerous pumped-hydro storage facilities in the U.S. that can store 10 GWh[^5].  More modern chemical or gravity/weight based storage projects are, as of 2022, in the range of 250 - 500 MWh per project, and a few of these would cover the 3 GWh need.  
@@ -137,7 +137,7 @@ I can interpret this as follows: 3 GWh of electricity storage would enable Nevad
      
 ### Limits of Replacing Peak Generation with Storage
     
-Compared to the examples above with generation in excess of 160%+ of average consumption, feasibility decays if generation capacity falls to levels where there are numerous consecutive days with daily total consumption in excess of that capacity.  In these scenarios, storage does not refill on a daily basis, and there are accumulating drawdowns as time progresses.  In Nevada, for a generation model that is based on traditional generation sources with constant capacity (Nuclear, Coal, Gas), the risk of this occuring is in the summer.   To illustrate this effect, the chart below (1) eliminates the hourly variability to display daily totals and (2) plots the storage results for fixed generation at levels equal to 1.5x and 1.35x the full-year average (i.e., if always on, enough to supply 1.5x / 1.35x the total annual consumption). 
+Feasibility decays when fixed generation falls to levels where there are numerous consecutive days with daily total consumption in excess of generation levels.  In these scenarios, storage does not refill daily, and there are accumulating drawdowns as time progresses.  In Nevada, in a grid model based on traditional generation sources with constant capacity (Nuclear, Coal, Gas), the risk of this occuring is in the summer.  To illustrate this effect, the chart below (1) eliminates the hourly variability to display daily totals and (2) plots the storage results for fixed generation at levels equal to 150% and 135% of the full-year average (i.e., if always on, enough to supply 1.5x / 1.35x the total annual consumption). 
 
 ![NevadaPeaksFullYear](/assets/images/post5_NV_MediumFixed.png)
     
@@ -146,12 +146,12 @@ In the case where generation can supply 1.5x of the annual average consumption (
 If generation is reduced to 1.35x average, there were more than a month worth of days with consumption in exceeding supply and storage not refilling.  This baloons the storage requirement to a challening 216 GWh.
 
 <table>
-    <col> <colgroup span="1"></colgroup><colgroup span="6"></colgroup>
+    <col> <colgroup span="1"></colgroup><colgroup span="7"></colgroup>
     <tr>
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8"></th> 
-        <th colspan="2" scope ="colgroup" style="background-color: #E8E8E8">Total (GWh)</th> 
-        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Average Hourly (GWh/h)</th> 
-        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Peak Hourly (GWh/h)</th>   
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Total (GWh)</th> 
+        <th colspan="2" scope ="colgroup" style="background-color: #E8E8E8">Average Hourly (GWh/h)</th> 
+        <th colspan="2" scope ="colgroup" style="background-color: #E8E8E8">Peak Hourly (GWh/h)</th>   
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8"># Days with Non-Zero Storage</th>
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Days with Demand &gt; Supply</th>
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Storage Needed</th>
@@ -159,15 +159,15 @@ If generation is reduced to 1.35x average, there were more than a month worth of
     
   <tr class="blue">
   <th scope="col" style="background-color: #E8E8E8">Demand</th>
-      <td>39,292</td> <td>1.00x</td> <td>4.49</td> <td>8.97</td> <td>--</td> <td>--</td> <td>--</td> </tr> 
+      <td>39,292</td> <td>4.49</td> <td>100%</td> <td>8.97</td> <td>100%</td>  <td>--</td> <td>--</td> <td>--</td> </tr> 
     
   <tr class="slateblue">
   <th scope="col" style="background-color: #E8E8E8">Constant Generation 1.5x</th>
-      <td>58,938</td> <td>1.50x</td> <td>6.73</td> <td>6.73</td> <td>365</td> <td>7</td> <td> <b>27.5 GWh</b></td> </tr>
+      <td>58,938</td> <td>6.73</td> <td>150% </td>  <td>6.73</td> <td>75%</td> <td>365</td> <td>7</td> <td> <b>27.5 GWh</b></td> </tr>
     
 <tr class="limegreen">
   <th scope="col" style="background-color: #E8E8E8">Constant Generation 1.35x</th>
-   <td>53,045</td> <td>1.35x</td> <td>6.06</td> <td>6.06</td> <td>365</td>  <td>41</td> <td><b>215.6 GWh</b></td> </tr>
+   <td>53,045</td> <td>6.06</td> <td>135% </td> <td>6.06</td>  <td>68%</td> <td>365</td>  <td>41</td> <td><b>215.6 GWh</b></td> </tr>
     
 </table>
     
