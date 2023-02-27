@@ -75,7 +75,9 @@ Finally, all of this ignores two real-world complexities: (1) seasonality (with 
 
 ## State-Level Grid Analysis
 
-I now step back and consider the grid-scale question of how much storage can be useful to economize on generation capacity by looking at the EIA's total demand data for Nevada.  I will also cover a full one-year period (ending November 1, 2022) to capture the challenges arising from seasonality. 
+I now step back and consider the grid-scale question of how storage might economize on generation capacity by looking at the EIA's total demand data for Nevada.  I cover a full one-year period to capture the challenges arising from seasonality.[^4]
+
+[^4]: I use 1-Nov-21 to 1-Nov-22 to avoid the analytical period beginning or ending in either a summer or winter peak / trough of supply or demand.
 
 ### Demand Variability: Storage to Replace Super-Peak Grid Usage
 
@@ -125,9 +127,9 @@ TR.slateblue TD, TR.slateblue TH {color: slateblue;}
   <td>73,224</td> <td>1.86x</td> <td>8.34</td> <td>8.34</td>  <td>68</td> <td>0</td> <td><b>2.6 GWh</b></td></tr>
 </table>
 
-The results of these plans seem very feasible, especially higher-generation grid architecture.  This could get by with 3 GWh of storage (delivered at a 0.7 GW rate, the difference between 9 GW peak demand and 8.3 GW supply).  There are numerous pumped-hydro storage facilities in the U.S. that can store 10 GWh[^4].  More modern chemical or gravity/weight based storage projects are, as of 2022, in the range of 250 - 500 MWh per project, and a few of these would cover the 3 GWh need.  
+The results of these plans seem very feasible, especially higher-generation grid architecture.  This could get by with 3 GWh of storage (delivered at a 0.7 GW rate, the difference between 9 GW peak demand and 8.3 GW supply).  There are numerous pumped-hydro storage facilities in the U.S. that can store 10 GWh[^5].  More modern chemical or gravity/weight based storage projects are, as of 2022, in the range of 250 - 500 MWh per project, and a few of these would cover the 3 GWh need.  
 
-[^4]: The [Ludington Pumped Storage Power Plant](https://en.wikipedia.org/wiki/Ludington_Pumped_Storage_Power_Plant) in Michigan, for example, has a storage capacity of 19.5 GWh.  The [Northfield Mountain facility](https://en.wikipedia.org/wiki/Northfield_Mountain_(hydroelectricity_facility)).
+[^5]: The [Ludington Pumped Storage Power Plant](https://en.wikipedia.org/wiki/Ludington_Pumped_Storage_Power_Plant) in Michigan, for example, has a storage capacity of 19.5 GWh.  The [Northfield Mountain facility](https://en.wikipedia.org/wiki/Northfield_Mountain_(hydroelectricity_facility)).
    
 The result of this experiment is (approximately) that 3 GWh of electricity storage would enable Nevada to eliminate about ~600 MW of electricity generation capacity (8.34 vs. 8.97 peak consumption) or the equivalent in inter-region transfers which may become less reliable over time; 12 GWh of storage would enable Nevada to eliminate ~1.6 GW of electricity generation capacity. 
      
