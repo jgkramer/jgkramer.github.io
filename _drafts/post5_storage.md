@@ -55,9 +55,9 @@ Across the entire month, the largest daily battery usage would have been 8.9 kWh
 
 ### Supply Variability: Solar Power
 
-Any electricity supply architecture that relies heavily on solar power needs storage, because supply is much more variable through time than demand.  Even if solar generates enough electricity in aggregate over time, energy needs to be time shifted from the daytime, when the sun is shining, to nighttime.  A motivating example is whether it is possible to use a combination of solar + battery to supply all one's electricity needs and go "off grid".   
+Any electricity architecture that relies heavily on solar power needs storage.  Even if solar generates enough electricity in aggregate over time, energy needs to be time shifted from the daytime, when the sun is shining, to nighttime.  A motivating example is whether it is possible to use a combination of solar + battery to supply a home's electricity needs and go "off the grid".   
 
-The below analysis assumes the same relative output throughout an **August** day in Nevada as explored in the [last post](https://jgkramer.github.io/2023/01/28/Solar-Generation.html), but scaled down so that the total output over the month is either 110% or 130% of the total electricity consumed in the month.  Note that this generation function is **ideal solar generation**: the system generates electricity assuming good weather and no interruptions.[^3]   
+The below analysis assumes the same relative output throughout an **August** day in Nevada as explored in the [last post](https://jgkramer.github.io/2023/01/28/Solar-Generation.html), but scaled proportionally down so that the total output over the month is either 110% or 130% of the total electricity consumed in the month.  Note that this generation function is **ideal solar generation**: the system generates electricity assuming good weather and no interruptions.[^3]   
 
 ![KramerSolarAugust](/assets/images/post5_KramerSolar.png)
 
