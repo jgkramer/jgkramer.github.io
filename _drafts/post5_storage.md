@@ -170,9 +170,11 @@ If generation is reduced to 135% of average, there are more than a month worth o
    <td>53,045</td> <td>6.06</td> <td>135% </td> <td>6.06</td>  <td>68%</td> <td>116</td>  <td>41</td> <td><b>215.6 GWh</b></td> </tr>   
 </table>
 
+The winter electricity usage is below average, so generation at 135% of average is more than adequate. 
+
 ### Solar: Some Helpful Supply Variability, Some Costly
 
-Beyond its carbon-free generation properties (net of photovoltaic panels' energy- and mining-intensive supply chain), solar generates more power in the summer than in the winter.  This feature might be deployable to address the feature of constant (but sub-peak) generation that there can be **too little** electricity supply during the summer but **too much** in the winter, at least in a hot desert state like Nevada without much of a winter heating consumption uptick.
+Beyond its carbon-free generation properties (net of photovoltaic panels' energy- and mining-intensive supply chain), solar generates more power in the summer than in the winter.  This feature might be deployable to address the feature of constant (but sub-peak) generation that there can be **too little** electricity supply during the summer but **more than enough** in the winter, at least in a hot desert state like Nevada without much of a winter heating consumption uptick.
 
 The below model assumes generation at ideal solar capacity throughout the year, scaled to produce 150% and 135%, respectively, of annual average consumption.
     
