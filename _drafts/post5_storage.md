@@ -238,7 +238,7 @@ This model works reasonably well.  Compared to the all-fixed 150% generation mod
     <td>39,292</td> <td>100%</td> <td>4.49</td> <td>8.97 </td>  <td>--</td> <td>--</td> <td>--</td> </tr> 
     
   <tr class="purple">
-  <th scope="col" style="background-color: #E8E8E8">Solar 150%</th>
+  <th scope="col" style="background-color: #E8E8E8">20% Solar / 80% Fixed @ 150%</th>
    <td>58,938</td> <td>150%</td> <td>6.73</td> <td>18.03</td> <td>133</td> <td>0</td> <td> <b>14.4 GWh</b></td> </tr>
  </table>
 
