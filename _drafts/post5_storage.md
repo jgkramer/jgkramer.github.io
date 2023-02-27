@@ -139,7 +139,7 @@ Feasibility decays when fixed generation falls to levels where there are numerou
 
 ![NevadaPeaksFullYear](/assets/images/post5_NV_MediumFixed.png)
 
-*Note: This chart switches to plotting **daily** aggregate generation and usage quantities, to improve visibility.   The underlying analysis remains hourly, however, and the bottom storage drawdown chart shows the maximum storage need on the indicated day. 
+*Note: This chart switches to plotting **daily** aggregate generation and usage quantities, to improve visibility.   The underlying analysis remains hourly, however, and the bottom storage drawdown chart shows the maximum storage need on the indicated day.*
     
 In the 150% case (fixed supply of 6.73 GWh / h), there are many days in the summer where the afternoon and evening exceed consumption this (up to 8.97 GWh at the highest peaks).  Thus many summer days see electricity storage drawdowns on the order of 10 GWh per day, as high afternoon demand uses storage that is refilled at lower-demand nighttime and morning.  There are a **few** days in July where 24-hour usage exceeded 24h x 6.73 GWh / h =  161.5 GWh, causing storage use to increase day-over-day, reaching a maximum of **28 GWh**.  This is a large number but given the size of existing projects, may be feasible.   
 
