@@ -139,9 +139,9 @@ Feasibility decays when fixed generation falls to levels where there are numerou
 
 ![NevadaPeaksFullYear](/assets/images/post5_NV_MediumFixed.png)
     
-In the case where generation can supply 1.5x of the annual average consumption (6.73 GWh / h), there are many days in the summer where the afternoon and evening consumption this (up to 8.97 GWh at the highest peaks).  Thus many summer days see electricity storage drawdowns on the order of 10 GWh per day, as high afternoon demand uses storage that is refilled at lower-demand nighttime and morning.  There were a **few** days in July where total consumption exceeded 24 hours x 6.73 GWh / h =  161.5 GWh, so the storage usage reached 28 GWh.  This is a large number but given the size of existing projects, may be feasible.   
+In the 150% case (fixed supply of 6.73 GWh / h), there are many days in the summer where the afternoon and evening exceed consumption this (up to 8.97 GWh at the highest peaks).  Thus many summer days see electricity storage drawdowns on the order of 10 GWh per day, as high afternoon demand uses storage that is refilled at lower-demand nighttime and morning.  There are a **few** days in July where 24-hour usage exceeded 24h x 6.73 GWh / h =  161.5 GWh, causing storage use to increase day-over-day, reaching a maximum of **28 GWh**.  This is a large number but given the size of existing projects, may be feasible.   
 
-If generation is reduced to 1.35x average, there were more than a month worth of days with consumption in exceeding supply and storage not refilling.  This baloons the storage requirement to a challening 216 GWh.
+If generation is reduced to 135% of average, there are more than a month worth of days with consumption in exceeding supply and storage not refilling.  This baloons the storage requirement to a very challenging **216 GWh**.
 
 <table>
     <col> <colgroup span="1"></colgroup><colgroup span="7"></colgroup>
@@ -160,12 +160,12 @@ If generation is reduced to 1.35x average, there were more than a month worth of
       <td>39,292</td> <td>4.49</td> <td>100%</td> <td>8.97</td> <td>100%</td>  <td>--</td> <td>--</td> <td>--</td> </tr> 
     
   <tr class="slateblue">
-  <th scope="col" style="background-color: #E8E8E8">Constant Generation 1.5x</th>
-      <td>58,938</td> <td>6.73</td> <td>150% </td>  <td>6.73</td> <td>75%</td> <td>365</td> <td>7</td> <td> <b>27.5 GWh</b></td> </tr>
+  <th scope="col" style="background-color: #E8E8E8">Fixed Generation 150%</th>
+      <td>58,938</td> <td>6.73</td> <td>150% </td>  <td>6.73</td> <td>75%</td> <td>87</td> <td>7</td> <td> <b>27.5 GWh</b></td> </tr>
     
 <tr class="limegreen">
-  <th scope="col" style="background-color: #E8E8E8">Constant Generation 1.35x</th>
-   <td>53,045</td> <td>6.06</td> <td>135% </td> <td>6.06</td>  <td>68%</td> <td>365</td>  <td>41</td> <td><b>215.6 GWh</b></td> </tr>
+  <th scope="col" style="background-color: #E8E8E8">Fixed Generation 135%</th>
+   <td>53,045</td> <td>6.06</td> <td>135% </td> <td>6.06</td>  <td>68%</td> <td>116</td>  <td>41</td> <td><b>215.6 GWh</b></td> </tr>
     
 </table>
     
