@@ -252,5 +252,8 @@ As always, my modeling is meant to be illustrative rather than complete, and it 
 
 - The analysis in this post (and my data) had hourly granularity when in reality demand and supply needs to be balanced constantly
 - I assume a frictionless universe, without taking into account real world physical constraints such as transmission required when generation and consumption are not in the same place.   I also assume that storage solutions can output 100% of the energy stored into them, when in reality this is more like 80%
-- 
-   
+- I make no effort to take into account fuel costs, operating costs or capital costs of storage and generation alternatives, and 
+- No account was taken for intermittency or weather-related outages
+- Different climates have different seasonality profiles (and geographies) and will need different solutions
+
+I will try to address some of these points in future work. 
