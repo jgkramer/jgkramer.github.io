@@ -138,6 +138,8 @@ I interpret this as follows: 3 GWh of electricity storage would enable Nevada to
 Feasibility decays when fixed generation falls to levels where there are numerous consecutive days with daily total consumption in excess of generation levels.  In these scenarios, storage does not refill daily, and there are accumulating drawdowns as time progresses.  In Nevada, in a grid model based on traditional generation sources with constant capacity (Nuclear, Coal, Gas), the risk of this occuring is in the summer.  To illustrate this effect, the chart below (1) eliminates the hourly variability to display daily totals and (2) plots the storage results for fixed generation at levels equal to 150% and 135% of the full-year average (i.e., if always on, enough to supply 1.5x / 1.35x the total annual consumption). 
 
 ![NevadaPeaksFullYear](/assets/images/post5_NV_MediumFixed.png)
+
+*Note: This chart switches to plotting **daily** aggregate generation and usage quantities, to improve visibility.   The underlying analysis remains hourly, however, and the bottom storage drawdown chart shows the maximum storage need on the indicated day. 
     
 In the 150% case (fixed supply of 6.73 GWh / h), there are many days in the summer where the afternoon and evening exceed consumption this (up to 8.97 GWh at the highest peaks).  Thus many summer days see electricity storage drawdowns on the order of 10 GWh per day, as high afternoon demand uses storage that is refilled at lower-demand nighttime and morning.  There are a **few** days in July where 24-hour usage exceeded 24h x 6.73 GWh / h =  161.5 GWh, causing storage use to increase day-over-day, reaching a maximum of **28 GWh**.  This is a large number but given the size of existing projects, may be feasible.   
 
@@ -165,13 +167,12 @@ If generation is reduced to 135% of average, there are more than a month worth o
     
 <tr class="limegreen">
   <th scope="col" style="background-color: #E8E8E8">Fixed Generation 135%</th>
-   <td>53,045</td> <td>6.06</td> <td>135% </td> <td>6.06</td>  <td>68%</td> <td>116</td>  <td>41</td> <td><b>215.6 GWh</b></td> </tr>
-    
+   <td>53,045</td> <td>6.06</td> <td>135% </td> <td>6.06</td>  <td>68%</td> <td>116</td>  <td>41</td> <td><b>215.6 GWh</b></td> </tr>   
 </table>
-    
+
 ### Solar: Some Helpful Supply Variability, Some Costly
 
-Besides its carbon-free generation properties (net of PV panels' energy- and mining-intensive supply chain), solar generates more power in the summer than in the winter.  This feature might be deployable to address the feature of constant (but sub-peak) generation that there can be **too little** electricity supply during the summer and **too much** in the winter, at least in a hot desert state like Nevada without much of a winter heating consumption uptick.
+Beyond its carbon-free generation properties (net of PV panels' energy- and mining-intensive supply chain), solar generates more power in the summer than in the winter.  This feature might be deployable to address the feature of constant (but sub-peak) generation that there can be **too little** electricity supply during the summer and **too much** in the winter, at least in a hot desert state like Nevada without much of a winter heating consumption uptick.
 
 The below model assumes generation at ideal solar capacity throughout the year, scaled to produce 150% and 135%, respectively, of annual average consumption.
     
