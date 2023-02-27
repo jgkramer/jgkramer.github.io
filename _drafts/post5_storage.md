@@ -5,19 +5,19 @@ date: "2023-02-28"
 excerpt_separator: <!--more-->
 ---
 
-Electricity storage systems (chemical batteries, pumped hydro storage, gravity-based batteries) transport electricity through time, from generation earlier to consumption later.  Storage works when the aggregate amount of electricity generated is adequate to satisfy aggregate demand, but there is a mismatch in the timing of supply and demand.  Some basic fact patterns are: 
+Storage systems (chemical batteries, pumped hydro storage, gravity-based batteries) transport electricity through time, from generation earlier to consumption later.  Storage works when the aggregate amount of energy generated is adequate to satisfy aggregate demand, but there is a mismatch in the timing of supply and demand.  Some basic fact patterns are: 
 
 - **Demand More Variable than Supply**.  As discussed in previous posts, there is both a daily and a seasonal cycle to electricity usage.  If a region's generation is dominated by traditional base-load type power plants with high and constant generation capacity (nuclear, coal) or are quickly dispatchable (natural gas), there are two basic choices for meeting demand: either have enough generation capacity to cover the peak usage at any time, or marry sub-peak generation with the ability to store energy when demand is below supply and then release it for use when demand exceeds capacity.
 - **Supply More Variable through time than Demand**.  Supply can also be more variable than demand.  Solar, for instance, generates electricity only during an 8-14 hour period during the daytime.  The daily cycle of electricity usage varies but not this much: there is meaningful demand in the evening and through the night.  So a grid with significant solar power will likely need to store daytime-generated energy to be deployed at night.
-- **Unplanned Intermittancy**.  Power outages due to storms or maintenance issues, or merely unfavorable weather conditions such as low-wind and low-sun [dunkefulflaute](https://en.wikipedia.org/wiki/Dunkelflaute) may mean there is less generation capacity than planned for.
+- **Unplanned Intermittancy**.  A special case of supply variability: power outages due to storms or maintenance, or unfavorable weather conditions for solar / wind, can cause generation to temporarily fall short of demand. 
 
-In all cases there will be a real-world question whether it is more efficient to invest in storage or more generation capacity to compensate; this question is beyond the scope of this post.
+This post will illustrate, using real-world electricity demand data and overly simplistic supply models (with **no unplanned outages or weather intermittency**) what profile of storage could be useful: how much energy capacity is needed and how frequently it is used.  In all cases there will be a real-world question of whether it is more efficient to deploy capital in storage solutions or more generation capacity to compensate.  The answers to that question is beyond the scope of this post, but my analysis provides some indication of feasibility of different architectures.  Here's a summary:
 
-This post will illustrate, using real-world electricity demand data and overly simplistic supply models (with **no unplanned outages or weather intermittency**) what profile of storage could be useful: how much energy capacity is needed and how frequently it is used.   Here is a summary of the findings: 
+- In the **constant generation model** of traditional generation plants, it appears feasible to use battery storage to substitute for power generation that would cover the last ~10 - 20% of peak demand.  Somewhat frustratingly, the strong variability of demand still means that this implies generation capacity that is adequate to supply more than 1.5 times the aggregate energy needs. 
 
-- In a constant generation model, it appears feasible to usage storagae solutions to substitute for power generation that would cover the last ~10 - 20% of peak demand.  Somewhat frustratingly, the strong variability of demand still means that this implies generation capacity that is adequate to supply more than 1.5 times the aggregate energy needs (in GWh). 
+- In a variable generation model like **predominanetly solar**,[^1] there is some benefit in warm climates with mild winters from aligning higher summer generation with higher summer demand.   But substantial storage is needed (probably more than is economical) to manage the day-night cycle.   As with fixed generation however, there is so much variability of demand over time that the generation capacity measured in GWh needs to be a reasonable multiple of aggregate energy consumed. 
 
-- Using a solar generation model, there is some benefit in warm climates with mild winters from aligning higher summer generation with higher summer demand.   But substantial storage is needed (probably more than is economical) to manage the day-night cycle.   As with fixed generation however, there is so much variability of demand over time that the generation capacity measured in GWh needs to be a reasonable multiple of aggregate energy consumed. 
+[^1]:  This post ignores wind power, which is too unpredictable for me to handle at this time. 
  
 - A combination, heavily weighted towards fixed, can get benefits of both fixed generation (no daily cycle) and solar (more generation with higher summer demand). 
 
@@ -25,44 +25,44 @@ This post will illustrate, using real-world electricity demand data and overly s
 
 ## Analytical Approach
 
-This post and the underlying code uses the following analytical approach: 
+This post and the underlying code use the following analytical approach: 
 
-1. We have access to electricity storage (e.g., battery storage).  The battery can be "full" (its initial condition and it can be drawn down in an arbitrarily large amount.  In the model outputs below, a full battery is denoted by a zero value, and drawdowns are represented by negative quantitites.  
-2. Demand for electricity consumption is taken as a given as a function of time (measured hourly).  Electricity (whether from the grid or from storage) must be supplied to meet that demand at all times.
-3. I can specify a maximum grid supply, also as a function of time (hourly).  The supply value at any time could be greater or less than demand at that time. 
-4. If the supply exceeds demand at a given time, the excess will be used to "refill" the energy storage system up towards zero.
-5. If the grid supply is inadequate to meed demand, the difference will be supplied by a drawdown of the balance in energy storage -- making the storage balance more negative. 
-6. Supply up to the maximum grid supply is "dispatchable."   If storage is full and there is more generation capacity during that hour than demand, generation is assumed to be turned down to match demand.
+1. We have access to electricity storage (e.g., battery storage).  The battery can be "full" (its initial condition) and it can be drawn down in an arbitrarily large amount.  In the model outputs below, a full battery is denoted by a zero value, and drawdowns are represented by negative quantitites.  
+2. Demand for electricity consumption is taken as a given as a function of time (measured hourly).  Electricity, whether from the grid or from storage, must be supplied to meet that demand at all times.
+3. I can specify a maximum grid supply, also as a function of time (hourly).  
+4. If the grid supply is inadequate to meed demand, the difference will be supplied by a drawdown of the balance in energy storage -- making the storage balance more negative. 
+5. If the supply exceeds demand at a given time, the excess will be used to "refill" the energy storage system up towards zero.
+6. If storage is full (zero) and there is more generation capacity during that hour than demand, generation is assumed to be turned down to match demand.
 7. Each scenario will then analyzed will be to identify how much battery capacity is actually needed, which can then be used to get a sense of feasibility.
 
-## Individual Scenarios
+## Individual Home Scenarios
 
 I'll warm up with data for my own home in the Las Vegas area.  To keep things simple, I only look at a single month (August 2021).  This avoids the larger swings of demand between seasons.
 
 ### Demand Variability: Storage to Replace Super-Peak Grid Usage
 
-In the chart below, the blue line in the top graph shows my family's electricity consumption by hour in August 2021.  Imagine I am limited to drawing a maximum level of power at any time from the grid.  For example, this might be the median of each day's peak hourly usage in the evening.  The red line in the top chart shows this limit of 11.5 kW.  This limitation could be driven by a utility plan that encourages me (through price incentives) or requires me (e.g., smart grid throttling) to avoid drawing excessive power at peak times to protect the grid. 
+In the top chart below, the blue line shows my family's electricity consumption by hour.  Imagine I am limited to drawing a maximum level of power at any time from the grid.  For example, this might be the median of each day's peak hourly usage in the evening.  The red line in the top chart shows this limit of 11.5 kW.  This limitation could be driven by a utility plan that encourages me (through price incentives) or requires me (e.g., smart grid throttling) to avoid drawing excessive power at peak times to protect the grid. 
 
 If I want to use more than 11.5 kW during my own peak consumption hours, I must use a home battery system with previously-stored energy to make up the difference.  So the red line in the bottom chart shows how much aggregate has been drawn down from a full battery (represented by a 0 y-value at the top).   
 ![KramerMedianPeakAugust](/assets/images/post5_KramerMedianPeak.png)
 
 Since the grid supplies enough power to cover usage for all but a few hours a day on 15 days, a battery can readily fill the gap.  For example, on August 3, air-conditioning driven demand exceeds supply from 2pm to 8pm by between 1 - 3 kWh per hour.  By 8pm, the battery would have needed to supply a total of 8.05 kWh.  Once the sun sets, hourly usage falls to under 7 kWh, and the excess up to 11.5 kWh refills the battery by 10pm.
 
-Across the entire month, the largest daily battery usage would have been 8.9 kWh (on August 2).  There are a number of home battery storage products available in the 10-20 kWh capacity area, so this solution seems feasible.  However, at a battery cost for this capacity in the $10,000 - $15,000 area, it may not be an economical solution based on current prices, absent a hard supply constraint at the grid level.[^1]
+Across the entire month, the largest daily battery usage would have been 8.9 kWh (on August 2).  There are a number of home battery storage products available in the 10-20 kWh capacity area, so this solution seems feasible.  However, at a battery cost for this capacity in the $10,000 - $15,000 area, it may not be an economical solution based on current prices, absent a hard supply constraint at the grid level.[^2]
 
-[^1]: At the rates described in [this post](https://jgkramer.github.io/2022/11/07/Electricity_Usage_Anecdotes.html), this storage scheme would save less than $25 per year by transferring up to 8 kWh from peak times to off-peak times (a savings of $0.31 per kWh) on half the days during the 4 summer peak months, so the breakeven.
+[^2]: At the rates described in [this post](https://jgkramer.github.io/2022/11/07/Electricity_Usage_Anecdotes.html), this storage scheme would save less than $25 per year by transferring up to 8 kWh from peak times to off-peak times (a savings of $0.31 per kWh) on half the days during the 4 summer peak months, so the breakeven.
 
 ### Supply Variability: Solar Power
 
 Any electricity supply architecture that relies heavily on solar power needs storage, because supply is much more variable through time than demand.  Even if solar generates enough electricity in aggregate over time, energy needs to be time shifted from the daytime, when the sun is shining, to nighttime.  A motivating example is whether it is possible to use a combination of solar + battery to supply all one's electricity needs and go "off grid".   
 
-The below analysis assumes the same relative output throughout an **August** day in Nevada as explored in the [last post](https://jgkramer.github.io/2023/01/28/Solar-Generation.html), but scaled down so that the total output over the month is either 110% or 130% of the total electricity consumed in the month.  Note that this generation function is **ideal solar generation**: the system generates electricity assuming good weather and no interruptions.[^2]   
+The below analysis assumes the same relative output throughout an **August** day in Nevada as explored in the [last post](https://jgkramer.github.io/2023/01/28/Solar-Generation.html), but scaled down so that the total output over the month is either 110% or 130% of the total electricity consumed in the month.  Note that this generation function is **ideal solar generation**: the system generates electricity assuming good weather and no interruptions.[^3]   
 
 ![KramerSolarAugust](/assets/images/post5_KramerSolar.png)
 
 Notice the daily cycle: solar generation is strongest in the mid-day, when the need for air conditioning has not yet ramped up, so at this point the battery is filling up.  But generation drops by 50% by the 6-7pm hour, and falls away entirely shortly after.  Meanwhile, the air conditioning peak generally runs until at leaset 8pm, so there is a sharp drawdown from storage in the evening that continues at a slower pace until the next morning. 
 
-[^2]:  Eagle-eyed readers of the last post can see that in some months (including August) overnight solar generation was non-zero.  The ideal solar generation capacity data is taken from statewide Nevada grid-level solar generation data from the EIA, and there are a number of days in the 2022 data set with up to ~110 MWh of solar generation per hour in the nighttime hours (a bit over 5% of maximum daytime generation).  This is **probably** not an anomaly, as there is a 110 MWh (!) thermal solar with attached storage system that can generate round-the-clock electricity in [Tonopah, NV](https://en.wikipedia.org/wiki/Crescent_Dunes_Solar_Energy_Project), whose months of operation correspond to months with non-zero solar generation.  A generation facility that incororates its own storage muddies the waters for determining how much storage is needed in a solar-based system.  Thus I have subtracted a constant amount of generation from all hours equal to the overnight minimum, and used that as the ideal solar generation function for this post. 
+[^3]:  Eagle-eyed readers of the last post can see that in some months (including August) overnight solar generation was non-zero.  The ideal solar generation capacity data is taken from statewide Nevada grid-level solar generation data from the EIA, and there are a number of days in the 2022 data set with up to ~110 MWh of solar generation per hour in the nighttime hours (a bit over 5% of maximum daytime generation).  This is **probably** not an anomaly, as there is a 110 MWh (!) thermal solar with attached storage system that can generate round-the-clock electricity in [Tonopah, NV](https://en.wikipedia.org/wiki/Crescent_Dunes_Solar_Energy_Project), whose months of operation correspond to months with non-zero solar generation.  A generation facility that incororates its own storage muddies the waters for determining how much storage is needed in a solar-based system.  Thus I have subtracted a constant amount of generation from all hours equal to the overnight minimum, and used that as the ideal solar generation function for this post. 
 
 One thing that makes this plan tricky is that daily demand fluctuates considerably with both behavior (laundry is a big one) and weather (temperature / AC needs).   Compared to an average of 148 kWh, daily use ranged from 99 kWh (67% of average) to 193 kWh (130% of average), just in one month.  So in order for the battery to fully recharge every day, we needed a solar generation system that was capable of delivering more than 130% the average day's consumption every day (orange lines).  Using a 135% generation level, the energy storage needs to be at least **79 kWh**.   This is a much larger and more expensive battery but still in the range of quasi-mass production: many electric vehicle batteries fall in the capacity range of 80-120 kWh.   
 
@@ -124,9 +124,9 @@ TR.slateblue TD, TR.slateblue TH {color: slateblue;}
   <td>73,224</td> <td>1.86x</td> <td>8.34</td> <td>8.34</td>  <td>68</td> <td>0</td> <td><b>2.6 GWh</b></td></tr>
 </table>
 
-The results of these plans seem very feasible, especially higher-generation grid architecture.  This could get by with 3 GWh of storage (delivered at a 0.7 GW rate, the difference between 9 GW peak demand and 8.3 GW supply).  There are numerous pumped-hydro storage facilities in the U.S. that can store 10 GWh[^3].  More modern chemical or gravity/weight based storage projects are, as of 2022, in the range of 250 - 500 MWh per project, and a few of these would cover the 3 GWh need.  
+The results of these plans seem very feasible, especially higher-generation grid architecture.  This could get by with 3 GWh of storage (delivered at a 0.7 GW rate, the difference between 9 GW peak demand and 8.3 GW supply).  There are numerous pumped-hydro storage facilities in the U.S. that can store 10 GWh[^4].  More modern chemical or gravity/weight based storage projects are, as of 2022, in the range of 250 - 500 MWh per project, and a few of these would cover the 3 GWh need.  
 
-[^3]: The [Ludington Pumped Storage Power Plant](https://en.wikipedia.org/wiki/Ludington_Pumped_Storage_Power_Plant) in Michigan, for example, has a storage capacity of 19.5 GWh.  The [Northfield Mountain facility](https://en.wikipedia.org/wiki/Northfield_Mountain_(hydroelectricity_facility)).
+[^4]: The [Ludington Pumped Storage Power Plant](https://en.wikipedia.org/wiki/Ludington_Pumped_Storage_Power_Plant) in Michigan, for example, has a storage capacity of 19.5 GWh.  The [Northfield Mountain facility](https://en.wikipedia.org/wiki/Northfield_Mountain_(hydroelectricity_facility)).
    
 The result of this experiment is (approximately) that 3 GWh of electricity storage would enable Nevada to eliminate about ~600 MW of electricity generation capacity (8.34 vs. 8.97 peak consumption) or the equivalent in inter-region transfers which may become less reliable over time; 12 GWh of storage would enable Nevada to eliminate ~1.6 GW of electricity generation capacity. 
      
