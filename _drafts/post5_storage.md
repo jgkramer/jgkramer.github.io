@@ -102,6 +102,7 @@ TR.plum TD, TR.plum TH {color: #BA55D3;}
 TR.blue TD, TR.blue TH {color: blue;}
 TR.limegreen TD, TR.limegreen TH {color: limegreen;}
 TR.slateblue TD, TR.slateblue TH {color: slateblue;}
+TR.purple TD, TR.purple TH {color: purple;}
 -->
 </STYLE>
 <table>
@@ -186,8 +187,8 @@ But an all-solar generation model has an irreducible -- and very large -- storag
     <col> <colgroup span="1"></colgroup><colgroup span="6"></colgroup>
     <tr>
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8"></th> 
-        <th colspan="2" scope ="colgroup" style="background-color: #E8E8E8">Total (GWh)</th> 
-        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Average Hourly (GWh/h)</th> 
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Total (GWh)</th> 
+        <th colspan="2" scope ="colgroup" style="background-color: #E8E8E8">Average Hourly (GWh/h)</th> 
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Peak Hourly (GWh/h)</th>   
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8"># Days with Non-Zero Storage</th>
         <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Days with Demand &gt Supply</th>
@@ -196,15 +197,15 @@ But an all-solar generation model has an irreducible -- and very large -- storag
     
   <tr class="blue">
   <th scope="col" style="background-color: #E8E8E8">Demand</th>
-    <td>39,292</td> <td>1.00x</td> <td>4.49</td> <td>8.97 </td>  <td>--</td> <td>--</td> <td>--</td> </tr> 
+    <td>39,292</td> <td>4.49</td> <td>100%</td> <td>8.97 </td>  <td>--</td> <td>--</td> <td>--</td> </tr> 
     
   <tr class="slateblue">
-  <th scope="col" style="background-color: #E8E8E8">Solar 1.5x</th>
-   <td>58,938</td> <td>1.50x</td> <td>6.73</td> <td>18.03</td> <td>365</td> <td>0</td> <td> <b>76.4 GWh</b></td> </tr>
+  <th scope="col" style="background-color: #E8E8E8">Solar 150%</th>
+   <td>58,938</td> <td>6.73</td> <td>150%</td> <td>18.03</td> <td>365</td> <td>0</td> <td> <b>76.4 GWh</b></td> </tr>
     
   <tr class="limegreen">
-  <th scope="col" style="background-color: #E8E8E8">Solar 1.35x</th>
-   <td>53,045</td> <td>1.35x</td> <td>6.06</td> <td>16.22</td> <td>365</td> <td>40</td> <td><b>153.1 GWh</b></td> </tr>
+  <th scope="col" style="background-color: #E8E8E8">Solar 135%</th>
+   <td>53,045</td> <td>6.06</td> <td>135%</td> <td>16.22</td> <td>365</td> <td>40</td> <td><b>153.1 GWh</b></td> </tr>
     
 </table>
 
@@ -220,6 +221,26 @@ Finally I end with a mix of the two: **mostly** fixed generation (Nuclear, Coal,
 
 This model works reasonably well.  Compared to the all-fixed 150% generation model needing 27.5 GWh of storage (due to a bit of summer shortfall) and 150% solar needing 73.8 GWh (the daily time-shift), the blended model requires only **14.4 GWh** of storage, bringing the requirement into the zone of potentially feasible capital costs. 
  
+<table>
+    <col> <colgroup span="1"></colgroup><colgroup span="6"></colgroup>
+    <tr>
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8"></th> 
+        <th colspan="2" scope ="colgroup" style="background-color: #E8E8E8">Total (GWh)</th> 
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Average Hourly (GWh/h)</th> 
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Peak Hourly (GWh/h)</th>   
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8"># Days with Non-Zero Storage</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Days with Demand &gt Supply</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #E8E8E8">Storage Needed</th>
+    </tr>
+    
+  <tr class="blue">
+  <th scope="col" style="background-color: #E8E8E8">Demand</th>
+    <td>39,292</td> <td>100%</td> <td>4.49</td> <td>8.97 </td>  <td>--</td> <td>--</td> <td>--</td> </tr> 
+    
+  <tr class="purple">
+  <th scope="col" style="background-color: #E8E8E8">Solar 150%</th>
+   <td>58,938</td> <td>150%</td> <td>6.73</td> <td>18.03</td> <td>365</td> <td>0</td> <td> <b>76.4 GWh</b></td> </tr>
+ </table>
     
 ### Limits of the Modeling Exercise
 
