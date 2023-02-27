@@ -173,7 +173,7 @@ If generation is reduced to 135% of average, there are more than a month worth o
 
 ### Solar: Some Helpful Supply Variability, Some Costly
 
-Solar generates more power in the summer than in the winter, a fact that might be employed to address the feature of constant (but sub-peak) generation that there can be **too little** supply during the summer but **more than enough** in the winter, at least in a hot desert state like Nevada without much of a winter heating electriicty consumption uptick.
+Solar generates more power in the summer than in the winter, a fact that might be employed to address the feature of constant (but sub-peak) generation that there can be **too little** supply during the summer but **more than enough** in the winter, at least in a hot desert state like Nevada without much of a winter heating electricity consumption uptick.
 
 The below model assumes generation at ideal solar capacity throughout the year, scaled to produce 150% and 135%, respectively, of annual average consumption.
     
@@ -211,7 +211,7 @@ But an all-solar generation model has an irreducible -- and very large -- storag
 
 The 135% generation profile also carries some lessons.   Like the 150% case, we still have the daily cycles to the tune of 50 - 75 GWh per day.  But with we again have a number of days where the total usage exceeds total supply.  Note that this problem does not occur in the summer: increased solar production covers that increase in demand.  Instead it happens in winter where solar electricity supply falls even more than electricity consumption does.  This phenenomenon would be exacerbated in climates where winter electricity consumption increases (e.g., for electric heat) while solar generation falls.  
 
-One subtle point visible in the graph is that the seasonality of solar electricity supply does not quite match the seasonality of electricity demand.   Temperature lags the solar calendar by about a month because the atmosphere takes some time to warm up and cool down after solar energy input changes.   This is why in the northern hemisphere the length of daylight is longest is in June but the hottest weather is generally in July and August.  HVAC electricity usage follows temperature, so peak consumption occurs in July through September, when the solar output has begun to fall from early summer peaks.
+The graph also demonstrates that the seasonality of solar electricity supply does not quite match the seasonality of electricity demand.   Temperature lags the solar calendar by about a month because the atmosphere takes some time to warm up and cool down after solar energy input changes.   This is why in the northern hemisphere the length of daylight is longest is in June but the hottest weather is generally in July and August.  HVAC electricity usage follows temperature, so peak consumption occurs in July through September, when the solar output has begun to fall from early summer peaks.
 
 ### Solar / Fixed Blend: 
     
@@ -239,10 +239,18 @@ This model works reasonably well.  Compared to the all-fixed 150% generation mod
     
   <tr class="purple">
   <th scope="col" style="background-color: #E8E8E8">Solar 150%</th>
-   <td>58,938</td> <td>150%</td> <td>6.73</td> <td>18.03</td> <td>365</td> <td>0</td> <td> <b>76.4 GWh</b></td> </tr>
+   <td>58,938</td> <td>150%</td> <td>6.73</td> <td>18.03</td> <td>133</td> <td>0</td> <td> <b>14.4 GWh</b></td> </tr>
  </table>
-    
+
+There are many days where some storage is used, but the elevated summer generation from the solar ensures that every day's 24-hour demand is covered by that day's 24-hour supply.  And a solar ratio of 20% turns out to be a bit of a sweet spot, at least at the 150% average generation level.  At lower fractions, we don't get enough of a lift of generation capacity from more sun in the summer to match higher electricity demand in summer.  At higher fractions, the fixed portion of the generation portfolio becomes too low to supply evening / overnight consumption, and the daily time-shifting cycle of storing during daytime to release at night enlarges.
+
+And, while not modeled, keeping weather-dependent generation to a small fraction of the total protects the grid from intermittency and inability to meed consumption requirements. 
+
 ### Limits of the Modeling Exercise
 
+As always, my modeling is meant to be illustrative rather than complete, and it is important to bear key limitations in mind: 
 
+- The analysis in this post (and my data) had hourly granularity when in reality demand and supply needs to be balanced constantly
+- I assume a frictionless universe, without taking into account real world physical constraints such as transmission required when generation and consumption are not in the same place.   I also assume that storage solutions can output 100% of the energy stored into them, when in reality this is more like 80%
+- 
    
