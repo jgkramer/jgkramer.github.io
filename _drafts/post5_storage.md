@@ -173,15 +173,15 @@ If generation is reduced to 135% of average, there are more than a month worth o
 
 ### Solar: Some Helpful Supply Variability, Some Costly
 
-Solar generates more power in the summer than in the winter, a fact that might be employed to address the feature of constant (but sub-peak) generation that there can be **too little** supply during the summer but **more than enough** in the winter, at least in a hot desert state like Nevada without much of a winter heating electricity consumption uptick.
+Solar generates more power in the summer than in the winter, a fact that might be employed to address the feature of constant (but sub-peak) generation that there can be **too little** supply during the summer but **more than enough** in the winter, at least in a place like Nevada without much of a winter heating electricity consumption uptick.
 
 The below model assumes generation at ideal solar capacity throughout the year, scaled to produce 150% and 135%, respectively, of annual average consumption.
     
 ![KramerMedianPeakAugust](/assets/images/post5_NV_MediumSolar.png)
  
-Theh 150% profile shows that the idea of seasonal alignment of supply and demand has some value.  Contrast the fixed-generation model where there were seven summer days without enough aggregate power generation, on **all** days the 24-hour ideal solar generation capacity exceeds 24-hour demand.  There is thus no accumulation of storage from one high-demand day to the next.
+The 150% profile shows that seasonal alignment of supply and demand can have some value.  In the fixed model, there were seven summer days without enough total power generation.  Here, on **all** days the 24-hour ideal solar capacity exceeds 24-hour demand.  There is no accumulation of storage requirement from one day to the next. 
 
-But an all-solar generation model has an irreducible -- and very large -- storage need to simply transfer some energy from daytime production to nighttime use.  Even extremely large solar generation (e.g., that can generate 3x aggregate usage) requires 74 GWh of storage to manage this daily cycle.  At 150%, this quantity is **76.4 GWh**.
+But an all-solar model has an irreducible -- and very large -- storage need to simple transfer energy from daytime production to nighttime use.  At 150%, this quantity is **76.4 GWh**, and doubling solar generation capacity again only reduces the requirement to 74 GWh.  
 
 <table>
     <col> <colgroup span="1"></colgroup><colgroup span="6"></colgroup>
@@ -209,9 +209,9 @@ But an all-solar generation model has an irreducible -- and very large -- storag
     
 </table>
 
-The 135% generation profile also carries some lessons.   Like the 150% case, we still have the daily cycles to the tune of 50 - 75 GWh per day.  But with we again have a number of days where the total usage exceeds total supply.  Note that this problem does not occur in the summer: increased solar production covers that increase in demand.  Instead it happens in winter where solar electricity supply falls even more than electricity consumption does.  This phenenomenon would be exacerbated in climates where winter electricity consumption increases (e.g., for electric heat) while solar generation falls.  
+The 135% generation profile also carries some lessons.   Like the 150% case, we  have the daily cycles to the tune of 50 - 75 GWh per day.  But with lower capacity we again have a number of days where the total usage exceeds total supply.  Now this shortfall is not in the summer because increased solar production covers that increase in demand.  Rather it is in winter when solar supply falls even more than electricity usage does.  This phenenomenon would be exacerbated in climates where winter electricity consumption increases (e.g., for electric heat) while solar generation falls.  
 
-The graph also demonstrates that the seasonality of solar electricity supply does not quite match the seasonality of electricity demand.   Temperature lags the solar calendar by about a month because the atmosphere takes some time to warm up and cool down after solar energy input changes.   This is why in the northern hemisphere the length of daylight is longest is in June but the hottest weather is generally in July and August.  HVAC electricity usage follows temperature, so peak consumption occurs in July through September, when the solar output has begun to fall from early summer peaks.
+The graph also demonstrates that the seasonality of solar electricity supply does not **quite** match the seasonality of electricity demand.   Temperature lags the solar calendar by about a month because the atmosphere takes some time to warm up and cool down after solar energy input changes.   This is why in the northern hemisphere the length of daylight is longest is in June but the hottest weather is generally in July and August.  HVAC electricity usage follows temperature, so peak consumption occurs in July through September, when the solar output has begun to fall from early summer peaks.
 
 ### Solar / Fixed Blend: 
     
