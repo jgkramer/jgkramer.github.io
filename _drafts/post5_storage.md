@@ -211,15 +211,15 @@ But an all-solar model has an irreducible -- and very large -- storage need to s
 
 The 135% generation profile also carries some lessons.   Like the 150% case, we  have the daily cycles to the tune of 50 - 75 GWh per day.  But with lower capacity we again have a number of days where the total usage exceeds total supply.  Now this shortfall is not in the summer because increased solar production covers that increase in demand.  Rather it is in winter when solar supply falls even more than electricity usage does.  This phenenomenon would be exacerbated in climates where winter electricity consumption increases (e.g., for electric heat) while solar generation falls.  
 
-The graph also demonstrates that the seasonality of solar electricity supply does not **quite** match the seasonality of electricity demand.   Temperature lags the solar calendar by about a month because the atmosphere takes some time to warm up and cool down after solar energy input changes.   This is why in the northern hemisphere the length of daylight is longest is in June but the hottest weather is generally in July and August.  HVAC electricity usage follows temperature, so peak consumption occurs in July through September, when the solar output has begun to fall from early summer peaks.
+The graph also demonstrates that the seasonality of solar electricity supply does not quite match the seasonality of electricity demand.   Temperature lags the solar calendar by about a month because the atmosphere takes time to warm up and cool down.  This is why in the northern hemisphere the hottest weather arrives in July and August, a month after the summer solstice.  HVAC electricity usage follows temperature, so peak consumption occurs in July through September, when the solar output has begun to fall from early summer peaks.
 
 ### Solar / Fixed Blend: 
     
-Finally I end with a mix of the two: **mostly** fixed generation (Nuclear, Coal, Gas) to limit the magnitude of the daily time-shift cycles, with **some** solar generation so that we get a bit more power in the summer when demand is highest.  The chart below shows a total generation capacity of 150% of the full-year aggregate, with an 80% fixed / 20% solar mix.  
+Finally I end with a blend: **mostly** fixed generation (Nuclear, Coal, Gas) to limit the magnitude of the daily time-shift cycles, with **some** solar generation so that we get a bit more power in the summer when demand is highest.  The chart below shows a total generation capacity of 150% of the full-year aggregate, with 80% fixed / 20% solar.  
     
 ![20% Solar-80% Fixed Blend](/assets/images/post5_NV_80-20.png)
 
-This model works reasonably well.  Compared to the all-fixed 150% generation model needing 27.5 GWh of storage (due to a bit of summer shortfall) and 150% solar needing 73.8 GWh (the daily time-shift), the blended model requires only **14.4 GWh** of storage, bringing the requirement into the zone of potentially feasible capital costs. 
+This model works reasonably well.  Compared to the all-fixed 150% generation model needing 27.5 GWh of storage (summer strain) and 150% solar needing 73.8 GWh (big daily time-shift), the blended model requires only **14.4 GWh** of storage, bringing the requirement into the zone of potentially feasible capital costs. 
  
 <table>
     <col> <colgroup span="1"></colgroup><colgroup span="6"></colgroup>
@@ -242,18 +242,19 @@ This model works reasonably well.  Compared to the all-fixed 150% generation mod
    <td>58,938</td> <td>150%</td> <td>6.73</td> <td>18.03</td> <td>133</td> <td>0</td> <td> <b>14.4 GWh</b></td> </tr>
  </table>
 
-There are many days where some storage is used, but the elevated summer generation from the solar ensures that every day's 24-hour demand is covered by that day's 24-hour supply.  And a solar ratio of 20% turns out to be a bit of a sweet spot, at least at the 150% average generation level.  At lower fractions, we don't get enough of a lift of generation capacity from more sun in the summer to match higher electricity demand in summer.  At higher fractions, the fixed portion of the generation portfolio becomes too low to supply evening / overnight consumption, and the daily time-shifting cycle of storing during daytime to release at night enlarges.
+A solar ratio of 20% turns out to be a bit of a sweet spot, at least at the 150% average generation level.  At lower fractions, we don't get enough of a lift of generation capacity from more sun in the summer to match higher electricity demand in summer.  At higher fractions, the fixed portion of the generation portfolio becomes too low to supply evening / overnight consumption, and the daytime to nighttime storage requirements get bigger.
 
-And, while not modeled, keeping weather-dependent generation to a small fraction of the total protects the grid from intermittency and inability to meed consumption requirements. 
+And, while not modeled, keeping weather-dependent generation to a small fraction of the total provides valuable grid reliability. 
 
 ### Limits of the Modeling Exercise
 
-As always, my modeling is meant to be illustrative rather than complete, and it is important to bear key limitations in mind: 
+As always, this work is meant to be illustrative rather than complete, and it is important to bear key limitations in mind: 
 
 - The analysis in this post (and my data) had hourly granularity when in reality demand and supply needs to be balanced constantly
-- I assume a frictionless universe, without taking into account real world physical constraints such as transmission required when generation and consumption are not in the same place.   I also assume that storage solutions can output 100% of the energy stored into them, when in reality this is more like 80%
-- I make no effort to take into account fuel costs, operating costs or capital costs of storage and generation alternatives, and 
+- I assume a frictionless universe, without taking into account real world physical constraints such as transmission required when generation and consumption are not in the same place.  I also assume that storage solutions can output 100% of the energy stored into them, when in reality this is more like 80%
+- I measure only whether there is adequate energy in GWh to go around, and ignore the importance of voltage stability to the grid
+- I make no effort to take into account fuel costs, operating costs or capital costs of storage and generation alternatives 
 - No account was taken for intermittency or weather-related outages
 - Different climates have different seasonality profiles (and geographies) and will need different solutions
 
-I will try to address some of these points in future work. 
+I will aim to address some of these points in future work. 
