@@ -3,7 +3,6 @@ layout: post
 title: "North vs. South: Seasonality in Electricity Consumption"
 date: "2022-12-14"
 hide: true
-author: "Scott Evil"
 excerpt_separator: <!--more-->
 ---
 
