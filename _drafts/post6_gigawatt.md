@@ -11,7 +11,7 @@ I sometimes find it frustrating as an observer of energy markets and policy to u
 
 - **War in Ukraine**  European wholesale natural gas prices (Dutch Title Transfer Facility or Dutch TTF) ran from &euro;88 per MegaWatt hour (MWh) in February 2022 before Russia's invasion of Ukraine, to a peak of &euro;340 per MWh in August 2022 when concerns about a shortage ran highest.   After conservation efforts, European countries securing liquefied natural gas imports, and a warmer-than-feared winter, prices fell back to [&euro;76](https://www.nytimes.com/2023/01/03/business/europe-natural-gas-prices.html) [or lower](https://www.wsj.com/articles/sliding-natural-gas-prices-deal-surprise-reprieve-to-europe-11673005590) by the start of 2023.
 
-- **U.S. Natural Gas Prices**.  Quoted in MMBTU (million british thermal units).  Often are in the $2 - 3 range, but driven by Ukraine-driven supply shocks, [briefly exceeded $9.](https://www.wsj.com/articles/natural-gas-prices-plunge-and-drillers-dial-back-236a2a9).  In California, however, a pipeline closure limited supply and prices averaged [$19.40 per MMBTU in early January](https://www.wsj.com/articles/natural-gas-prices-have-fallen-back-to-earthexcept-in-california-11673411627) while the Henry Hub benchmark was under $4.00. 
+- **U.S. Natural Gas Prices**.  Quoted in MMBTU (million british thermal units).  Often are in the $2 - 3 range, but driven by Ukraine-driven supply shocks, [briefly exceeded $9.](https://www.wsj.com/articles/natural-gas-prices-plunge-and-drillers-dial-back-236a2a9).  In California, however, a pipeline closure limited supply and prices averaged [$19.40 per MMBTU in early January](https://www.wsj.com/articles/natural-gas-prices-have-fallen-back-to-earthexcept-in-california-11673411627) while the Henry Hub benchmark was under $4.00.  It's not clear how these compare to Eu
 
 - **French Nuclear Power** After experiencing major maintenance issues earlier in the year, it was reported in December 2022 with significant relief that the French nuclear power plant fleet was generating above 40 GW of electricity for the [first time in 9 months](https://www.reuters.com/business/energy/french-nuclear-production-surpasses-40-gw-grid-operator-2022-12-11/)
 
@@ -19,7 +19,7 @@ I sometimes find it frustrating as an observer of energy markets and policy to u
 
 - **Global Energy Consumption**.  BP's [Statistical Review of World Energy 2022] reported that global primary energy consumption was 595 exajoules (EJ), 31 EJ above 2020 and 8 EJ higher than the pre-COVID 2019 levels.
 
-- **Utility Bills**.  Electricity customers are generally billed in cents per kilowatt-hour (kWh).  Utility natural gas seems to be more varied: in Connecticut I was billed per "CCF" (hundred cubic feet).  In Nevada I am billed per "Therm" (100,000 BTU).   In the U.K., natural gas is billed per kWh.   In Australia, billing for gas is in megajoules (MJ).  Heating oil is sold in gallons. 
+- **Utility Bills**.  Electricity customers are generally billed in cents per kilowatt-hour (kWh).  Utility natural gas seems to be more varied: in Connecticut I was billed per "CCF" (hundred cubic feet).  In Nevada I am billed per "Therm" (100,000 BTU).   In Europe, natural gas is typicallyd billed per kWh.   In Australia, billing for gas is in megajoules (MJ).  Heating oil is sold in gallons. 
 
 This is heavy. 
 
