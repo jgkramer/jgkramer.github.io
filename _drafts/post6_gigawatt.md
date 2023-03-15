@@ -35,8 +35,8 @@ If I lift the bottle against the force of gravity to a height of 1 meter from th
 
 **Power** is a rate of flow or transfer of energy, and is measured in quantity of energy per unit time.  A **watt** is the SI unit, defined as joules per second.   Lifting and dropping a liter bottle from a height of 1 meter once per second generates power at a rate of 5 watts.  If this could be harnessed with a cable, pulley and alternator system (this is the basic principle behind gravity based storage), for example, it theoretically would be enough power to light up the lightbulb on my night table.  
 
-
-
+Taking this relationship backwards, a joule is the amount of energy delivered from one watt of power for one second; in other words, a joule equals 
+one "watt second."  Since one hour is 3,600 seconds, a **watt hour** is 3,600 joules and the unit of consumption for residential electricity, a **kilowatt  hour (kWh)** is one thousand of those: 3,600,000 joules or 3.6 megajoules (MJ).   
 
 
 
