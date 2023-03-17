@@ -96,18 +96,13 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
     </tr>    
     <tr>
          <td>1,000 TWh</td><td>3.6 EJ</td><td>3.4 billion MMBTU</td><td>Exa = 10^18</td>
-    </tr>
-
-
-    
-  
+    </tr>  
 </table>
-
-
 
 
 ### Thermal Energy vs. Electrical Energy
 
+Another concept that can confuse matters is the difference in forms of energy.   Most relevant
 
 
 
