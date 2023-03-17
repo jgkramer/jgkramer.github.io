@@ -11,9 +11,9 @@ I sometimes find it frustrating as an observer of energy markets and policy to u
 
 - **War in Ukraine**  European wholesale natural gas prices (Dutch Title Transfer Facility or Dutch TTF) ran from &euro;88 per MegaWatt hour (MWh) in February 2022 before Russia's invasion of Ukraine, to a peak of &euro;340 per MWh in August 2022 when concerns about a shortage ran highest.   After conservation efforts, European countries securing liquefied natural gas imports, and a warmer-than-feared winter, prices fell back to [&euro;76](https://www.nytimes.com/2023/01/03/business/europe-natural-gas-prices.html) [or lower](https://www.wsj.com/articles/sliding-natural-gas-prices-deal-surprise-reprieve-to-europe-11673005590) by the start of 2023.
 
-- **U.S. Natural Gas Prices**.  Quoted in MMBTU (million british thermal units).  Often are in the $2 - 3 range, but driven by Ukraine-driven supply shocks, [briefly exceeded $9.](https://www.wsj.com/articles/natural-gas-prices-plunge-and-drillers-dial-back-236a2a9).  In California, however, a pipeline closure limited supply and prices averaged [$19.40 per MMBTU in early January](https://www.wsj.com/articles/natural-gas-prices-have-fallen-back-to-earthexcept-in-california-11673411627) while the Henry Hub benchmark was under $4.00.  It's not clear how these compare to Eu
+- **U.S. Natural Gas Prices**.  Quoted in MMBTU (million british thermal units).  Often are in the $2 - 3 range, but driven by Ukraine-driven supply shocks, [briefly exceeded $9.](https://www.wsj.com/articles/natural-gas-prices-plunge-and-drillers-dial-back-236a2a9).  In California, however, a pipeline closure limited supply and prices averaged [$19.40 per MMBTU in early January](https://www.wsj.com/articles/natural-gas-prices-have-fallen-back-to-earthexcept-in-california-11673411627) while the Henry Hub benchmark was under $4.00.  With different units, 
 
-- **Cost of U.S. Nuclear**.  Millstone 49.99 per MWh.
+- **Cost of U.S. Nuclear**.  In 2019, the State of Connecticut and the owner of the Millstone nuclear power plant in Waterbury, CT reached a 10-year agreement in which the state's utilities would agree to purchase up to 50% of the plant's electricity generation at a price of [$49.99 per MWh](https://www.cga.ct.gov/2020/rpt/pdf/2020-R-0203.pdf); the deal at the time was criticized as potentially increasing electricity costs given the low prices of natural gas.  At the time, natural gas prices in connecticut for were in the range of [$3 - $5 per thousand cubic feet](https://www.eia.gov/dnav/ng/hist/n3045ct3m.htm).  How much additional expense per MWh of electricity did this appear to incur at the time and what kinds of natural gas prices reflected a more breakeven level? 
 
 - **French Nuclear Power** After experiencing major maintenance issues earlier in the year, it was reported in December 2022 with significant relief that the French nuclear power plant fleet was generating above 40 GW of electricity for the [first time in 9 months](https://www.reuters.com/business/energy/french-nuclear-production-surpasses-40-gw-grid-operator-2022-12-11/)
 
@@ -48,20 +48,20 @@ To compare some big numbers across markets.
 - By contrast, the United State's broader total primary energy consumption in 2021 was 93 EJ, about 16% of global energy consumption.
 
 That is energy.   How about power? 
-- Simply dividing 4,000 TWh of annual electricity generation by 365 x 24 = 8,760 hours per year gives us an **average power** consumption of 0.46 terawatts or 456 GW.   
+- Simply dividing 4,000 TWh of annual electricity generation by 365 x 24 = 8,760 hours per year gives us an **average power** consumption of 0.46 terawatts or 456 GW.  According to the EIA, at the end of 2021 the U.S. had [1,144 GW total](https://www.eia.gov/energyexplained/electricity/electricity-in-the-us-generation-capacity-and-sales.php) of utility-scale electricity generation capacity, or about 2.5x the average power consumption (this ratio makes sense given the significant deviations across hours of the day and seasons of electricity usage). 
 
 #### Another Unit: BTU's
 
+One more important unit of (thermal) energy, at least in the U.S., is the BTU (British Thermal Unit).  Originally conceived as the amount of heat energy required to raise the temperature of one pound of water by 1&deg;F, it is now defined as [~1,055 joules](https://www.britannica.com/science/British-thermal-unit).  A BTU is a small unit of energy practically speakin: a Therm (my residential billing unit for utility natural gas) is 100,000, and trading prices for natural gas in the U.S. are quoted in MMBTU, or millions of BTU. 
 
-
+BTU's are a typical unit of sizing for air conditioning units in the U.S. (e.g., a window air conditioner might be a 10,000 BTU unit).   This measures the amount of heat energy transferred out of the space being cooled per hour (e.g., 10,000 BTU of heat energy removed per hour to cool a room). 
 
 #### Comparison Table
 
 
 
-#### Fluid Volumes!
-
 ### Thermal Energy vs. Electrical Energy
+
 
 
 
