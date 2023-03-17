@@ -54,7 +54,9 @@ That is energy.   How about power?
 
 One more important unit of (thermal) energy, at least in the U.S., is the BTU (British Thermal Unit).  Originally conceived as the amount of heat energy required to raise the temperature of one pound of water by 1&deg;F, it is now defined as [~1,055 joules](https://www.britannica.com/science/British-thermal-unit).  A BTU is a small unit of energy practically speakin: a Therm (my residential billing unit for utility natural gas) is 100,000, and trading prices for natural gas in the U.S. are quoted in MMBTU, or millions of BTU. 
 
-BTU's are a typical unit of sizing for air conditioning units in the U.S. (e.g., a window air conditioner might be a 10,000 BTU unit).   This measures the amount of heat energy transferred out of the space being cooled per hour (e.g., 10,000 BTU of heat energy removed per hour to cool a room). 
+BTU's are a typical unit of sizing for air conditioning units in the U.S. (e.g., a window air conditioner might be a 10,000 BTU unit).   This measures the amount of heat energy transferred out of the space being cooled per hour (e.g., 10,000 BTU of heat energy removed per hour to cool a room).  Larger air conditioning units like central A/C are often measured in "tons", equivalent to 12,000 BTU, why not.[^3]
+
+[^3].  It's called a "ton" because melting a ton of ice requires [286,000 BTU](https://davisac.com/blog/the-reason-air-conditioner-capacity-is-measured-in-tons#:~:text=Rounding%20up%2011%2C917%20Btu%2Fhr,ton%20of%20air%20conditioner%20capacity) of thermal energy: spread over 24 hours, this is about 12,000 BTU per hour of heat transfer.   That IS heavy. 
 
 #### Comparison Table
 
