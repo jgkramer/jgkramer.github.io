@@ -68,7 +68,7 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
 </STYLE>
 <table>
     <tr>
-        <th colspan="4" scope ="colgroup" style="background-color: #D6EEEE">From Joules</th>
+        <th colspan="4" scope ="colgroup" style="background-color: #D6EEEE">Using Watt-hours</th>
     </tr>
     <tr>
         <th scope="col" style="background-color: #D6EEEE">Watt-hours</th> 
@@ -76,10 +76,17 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
         <th scope="col" style="background-color: #D6EEEE">BTU</th>
         <th scope="col" style="background-color: #D6EEEE">Explanation</th>
     </tr>
-<tr>
-    <td>1 W s</td><td>1 J </td><td>0.00095 BTU</td><td>Definition (watt = joule / s)</td>
-</tr>
-  <td>1 W h</td><td>3.6 kJ</td><td>3.41 BTU</td><td>Hour = 3,6000 seconds </td>
+    <tr>
+        <td>1 W s</td><td>1 J </td><td>0.00095 BTU</td><td>Definition (watt = joule / s)</td>
+    </tr>
+    <tr>
+        <td>1 W h</td><td>3.6 kJ</td><td>3.41 BTU</td><td>Hour = 3,600 seconds</td>
+    </tr>
+    <tr>
+        <td>1 kWh</td><td>3.6 MJ</td><td>3,410 BTU</td><td>x1000</td>
+    </tr>
+    
+    
   
 </table>
 
