@@ -37,7 +37,7 @@ If I lift the bottle against the force of gravity to a height of 1 meter from th
 
 **Power** is a rate of flow or transfer of energy, and is measured in quantity of energy per unit time.  A **watt** is the SI unit, defined as joules per second.   Lifting and dropping a liter bottle from a height of 1 meter once per second generates power at a rate of 5 watts.  If this could be harnessed with a cable, pulley and alternator system (this is the basic principle behind gravity based storage), for example, it theoretically would be enough power to light up the lightbulb on my night table.[^2]
 
-[^2].  *What the hell is a gigawatt?*.  1 billion watts, or approximately the power output from a large convential powerplant such as a nuclear, coal or natural gas plant.  A double decker Airbus A380 has a mass of about half a million kilograms when full.   200 of these super-jumbo jets together represents 100 million kilograms, and raising them all one meter off the ground gives them 100 MM kg x 10m/s^2 * 1 m = 1 billion joules (1 gigajoule) of gravitational potential energy.  Dropping them to the ground over the course of 1 second converts that energy into kinetic energy at a rate of 1 GJ per second, a power rate of 1 gigawatt (GW).  Figure out how to do that over and over again and you've got yourself a 1 gigawatt power plant.  Doing this with 242 planes gives you 1.21 gigawatts!
+[^2].  *What the hell is a gigawatt??*  It's 1 billion watts, about the power output from a large convential powerplant such as a nuclear, coal or natural gas plant.  Comparing this to dropping bottles of water?  A double decker Airbus A380 airplane has a mass of about half a million kilograms when full.   200 of these super-jumbo jets together represents 100 million kilograms, and raising them all one meter off the ground gives them 100 MM kg x 10m/s^2 * 1 m = 1 billion joules (1 gigajoule) of gravitational potential energy.  Dropping them to the ground over the course of 1 second converts that energy into kinetic energy at a rate of 1 GJ per second, a power rate of 1 gigawatt (GW).  Do that over and over again and you've got yourself a 1 gigawatt power plant.  Doing this with 242 planes gives you 1.21 gigawatts!
 
 Taking this relationship backwards, a joule is the amount of energy delivered from one watt of power for one second; in other words, a joule equals 
 one "watt second."  Since one hour is 3,600 seconds, a **watt hour** is 3,600 joules and the unit of consumption for residential electricity, a **kilowatt  hour (kWh)** is one thousand of those: 3,600,000 joules or 3.6 megajoules (MJ).
@@ -59,6 +59,30 @@ BTU's are a typical unit of sizing for air conditioning units in the U.S. (e.g.,
 [^3].  It's called a "ton" because melting a ton of ice requires [286,000 BTU](https://davisac.com/blog/the-reason-air-conditioner-capacity-is-measured-in-tons#:~:text=Rounding%20up%2011%2C917%20Btu%2Fhr,ton%20of%20air%20conditioner%20capacity) of thermal energy: spread over 24 hours, this is about 12,000 BTU per hour of heat transfer.   That IS heavy. 
 
 #### Comparison Table
+
+<STYLE TYPE="text/css">
+<!--
+TH{font-family: Arial; font-size: 9pt; text-align: center;}
+TD{font-family: Arial; font-size: 9pt; text-align: center;}
+--->
+</STYLE>
+<table>
+    <tr>
+        <th colspan="4" scope ="colgroup" style="background-color: #D6EEEE">From Joules</th>
+    </tr>
+    <tr>
+        <th scope="col" style="background-color: #D6EEEE">Watt-hours</th> 
+        <th scope="col" style="background-color: #D6EEEE">Joules</th> 
+        <th scope="col" style="background-color: #D6EEEE">BTU</th>
+        <th scope="col" style="background-color: #D6EEEE">Explanation</th>
+    </tr>
+<tr>
+    <td>1 W s</td><td>1 J </td><td>0.00095 BTU</td><td>Definition (watt = joule / s)</td>
+</tr>
+  <td>1 W h</td><td>3.6 kJ</td><td>3.41 BTU</td><td>Hour = 3,6000 seconds </td>
+  
+</table>
+
 
 
 
