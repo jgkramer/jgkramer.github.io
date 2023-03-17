@@ -93,9 +93,8 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
     </tr>
      <tr>
          <td>1 TWh</td><td>3.6 PJ</td><td>3.4 million MMBTU</td><td>Peta = 10^15</td>
-    </tr>
-    
-     <tr>
+    </tr>    
+    <tr>
          <td>1,000 TWh</td><td>3.6 EJ</td><td>3.4 billion MMBTU</td><td>Exa = 10^18</td>
     </tr>
 
