@@ -141,7 +141,7 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
     </tr>
     <tr>
         <th style="background-color: #D6EEEE"> </th> 
-        <td> $ / MMBTU$ </td><td> $MMBTU / BTU$ </td><td> $BTU / kWh electric$ </td><td> $ / kWh </td>
+        <td> $ / MMBTU </td><td> $MMBTU / BTU$ </td><td> $BTU / kWh$ electric </td><td> $ / kWh </td>
     </tr>
 </table>
 
