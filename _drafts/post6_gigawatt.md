@@ -113,14 +113,34 @@ Modern furnaces are very efficient, and in usage (1) above more than 95% of the 
 
 [^4].  Carnot's Theorem states that a heat engine operating between a hot temperature $T_H$ (measured against absolute zero) and a cold temperature $T_C$ cannot have efficiency exceeding ${T_H - T_C} \over T_H$.  
 
-In practice, the efficiency of a power plant's conversion of thermal energy in fuel into electrical energy is quantified by the plant's **Heat Rate**.  
-Heat rate is [generally defined](https://www.eia.gov/tools/faqs/faq.php?id=107&t=3)
- as the number of BTU's of (thermal) energy input required to generate 1 kWh of electricity.   1 kWh is 3,412 BTU's, so all heat rates are higher than 3,412.   A heat rate of 6,800 has a 50% energy conversion efficiency: fuel with 6,800 BTU of thermal energy is needed to produce 3,400 kWh of electricity.   Efficient natural gas plants have heat rates in the [7,000 to 8,000 area](https://www.eia.gov/electricity/annual/html/epa_08_01.html), with coal plants around 10,000.
+In practice, the efficiency of a power plant's conversion of thermal energy in fuel into electrical energy is quantified by the plant's **Heat Rate**.  Heat rate is [generally defined](https://www.eia.gov/tools/faqs/faq.php?id=107&t=3) as the number of BTU's of (thermal) energy input required to generate 1 kWh of electricity.   1 kWh is 3,412 BTU's, so all heat rates are higher than 3,412.  A heat rate of 6,800 has a 50% energy conversion efficiency: fuel with 6,800 BTU of thermal energy is needed to produce 3,400 kWh of electricity.  Efficient natural gas plants have heat rates in the [7,000 to 8,000 area](https://www.eia.gov/electricity/annual/html/epa_08_01.html), with coal plants around 10,000.
  
-Now 
+#### Applications
 
+Now we are equipped to resolve some of these 
 
 **TABLE WITH examples***
+
+
+<table>
+    <tr>
+        <th colspan="4" scope ="colgroup" style="background-color: #D6EEEE">Using Watt-hours</th>
+    </tr>
+    <tr>
+        <th scope="col" style="background-color: #D6EEEE">Watt-hours</th> 
+        <th scope="col" style="background-color: #D6EEEE">Joules</th> 
+        <th scope="col" style="background-color: #D6EEEE">BTU</th>
+        <th scope="col" style="background-color: #D6EEEE">Explanation</th>
+    </tr>
+    <tr>
+        <th>style="background-color: #D6EEEE">Normal U.S. Natural Gas Prices</th> 
+        <td>$2.50</td><td>$\times 1 \over 1,000,000$
+    </tr>
+    <tr>
+        <th>style="background-color: #D6EEEE">units</th> 
+        <td>$ / MMBTU$</td><td>$MMBTU / BTU$</td> 
+    </tr>
+</table>
 
 
 #### Heat Pumps and COP
