@@ -11,7 +11,7 @@ I sometimes find it frustrating as an observer of energy markets and policy to u
 
 - **War in Ukraine**  European wholesale natural gas prices (Dutch Title Transfer Facility or Dutch TTF) ran from &euro;88 per MegaWatt hour (MWh) in February 2022 before Russia's invasion of Ukraine, to a peak of &euro;340 per MWh in August 2022 when concerns about a shortage ran highest.   After conservation efforts, European countries securing liquefied natural gas imports, and a warmer-than-feared winter, prices fell back to [&euro;76](https://www.nytimes.com/2023/01/03/business/europe-natural-gas-prices.html) [or lower](https://www.wsj.com/articles/sliding-natural-gas-prices-deal-surprise-reprieve-to-europe-11673005590) by the start of 2023.
 
-- **U.S. Natural Gas Prices**.  Quoted in MMBTU (million british thermal units).  Often are in the $2 - 3 range, but driven by Ukraine-driven supply shocks, [briefly exceeded $9.](https://www.wsj.com/articles/natural-gas-prices-plunge-and-drillers-dial-back-236a2a9).  In California, however, a pipeline closure limited supply and prices averaged [$19.40 per MMBTU in early January](https://www.wsj.com/articles/natural-gas-prices-have-fallen-back-to-earthexcept-in-california-11673411627) while the Henry Hub benchmark was under $4.00.  With different units, 
+- **U.S. Natural Gas Prices**.  Quoted in MMBTU (million british thermal units).  Often are in the $2 - 3 range, but driven by Ukraine-driven supply shocks, [briefly exceeded $9](https://www.wsj.com/articles/natural-gas-prices-plunge-and-drillers-dial-back-236a2a9).  In California, however, a pipeline closure limited supply and prices averaged [$19.40 per MMBTU in early January](https://www.wsj.com/articles/natural-gas-prices-have-fallen-back-to-earthexcept-in-california-11673411627) while the Henry Hub benchmark was under $4.00.  With different units, 
 
 - **Cost of U.S. Nuclear**.  In 2019, the State of Connecticut and the owner of the Millstone nuclear power plant in Waterbury, CT reached a 10-year agreement in which the state's utilities would agree to purchase up to 50% of the plant's electricity generation at a price of [$49.99 per MWh](https://www.cga.ct.gov/2020/rpt/pdf/2020-R-0203.pdf); the deal at the time was criticized as potentially increasing electricity costs given the low prices of natural gas.  At the time, natural gas prices in connecticut for were in the range of [$3 - $5 per thousand cubic feet](https://www.eia.gov/dnav/ng/hist/n3045ct3m.htm).  How much additional expense per MWh of electricity did this appear to incur at the time and what kinds of natural gas prices reflected a more breakeven level? 
 
@@ -99,10 +99,35 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
     </tr>  
 </table>
 
-
 ### Thermal Energy vs. Electrical Energy
 
-Another concept that can confuse matters is the difference in forms of energy.   Most relevant
+#### Heat Engines and Heat Rate
+
+Another important concept is the difference in forms of energy.  Most relevant to energy markets are two kinds: thermal (heat) energy and electrical 
+energy.  **Fuels** can be thought of as containing thermal energy (stored in chemical bonds and released through combustion).   These can be: 
+
+(1) Combusted and the resulting heat consumed directly, as with utility natural gas burned in my home's furnace to heat my house; or 
+(2) Combusted and the resulting heat used in a heat engine or turbine to convert the energy to electrical energy, as with natural gas burned in a power plant to heat another gas that drives a turbine which in turn generates electricity. 
+
+Modern furnaces are very efficient, and in usage (1) above more than 95% of the thermal energy stored in natural gas, for example, can be captured to heat a home.  Converting heat energy to electrical energy via (2) results in lost energy due to the thermodynamic constraints of heat engines.[^4]
+
+[^4].  Carnot's Theorem states that a heat engine operating between a hot temperature TH (measured against absolute zero) and a cold temperature TC cannot have efficiency exceeding (TH - TC) / TH.  
+
+In practice, the efficiency of a power plant's conversion of thermal energy in fuel into electrical energy is quantified by the plant's **Heat Rate**.  
+Heat rate is [generally defined](https://www.eia.gov/tools/faqs/faq.php?id=107&t=3)
+ as the number of BTU's of (thermal) energy input required to generate 1 kWh of electricity.   1 kWh is 3,412 BTU's, so all heat rates are higher than 3,412.   A heat rate of 6,800 has a 50% energy conversion efficiency: fuel with 6,800 BTU of thermal energy is needed to produce 3,400 kWh of electricity.   Efficient natural gas plants have heat rates in the [7,000 to 8,000 area](https://www.eia.gov/electricity/annual/html/epa_08_01.html), with coal plants around 10,000.
+ 
+Now 
+
+
+**TABLE WITH examples***
+
+
+#### Heat Pumps and COP
+
+
+
+
 
 
 
