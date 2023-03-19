@@ -148,16 +148,17 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
         <td> $ / MMBTU </td><td> $MMBTU / BTU$ </td><td> $BTU / kWh$ electric </td><td> $ / kWh </td>
     </tr>
     <tr>
-        <th style="background-color: #D6EEEE">August 2022 European Gas Spike</th> 
-        <td>&euro;340</td></td><td> $\times 1 \over {3.41 \times 10^6}$ </td><td> $\times 7500$ </td><td> $=$ &euro; $0.019$ </td>
+        <th style="background-color: #D6EEEE">Ukraine-Spike August 2022 European Gas</th> 
+        <td>&euro;340</td></td><td> $\times 1 \over {3.41 \times 10^6}$ </td><td> $\times 7500$ </td><td> $=$ &euro; $0.75$ </td>
+    </tr>
+    <tr>
+        <th style="background-color: #D6EEEE">Calmer January 2023 European Gas Prices</th> 
+        <td>&euro;76</td></td><td> $\times 1 \over {3.41 \times 10^6}$ </td><td> $\times 7500$ </td><td> $=$ &euro; $0.17$ </td>
+    </tr>
     <tr>
         <th style="background-color: #D6EEEE"></th> 
         <td> &euro; / MWh thermal </td><td> $MWh / BTU$ </td><td> $BTU / kWh$ electric </td><td> &euro; / kWh </td>
     </tr>
-
-
-<td>1 MWh</td><td>3.6 GJ</td><td>3.41 MMBTU</td
-
 </table>
 
 #### Heat Pumps and COP
