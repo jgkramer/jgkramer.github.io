@@ -135,7 +135,6 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
         <th scope="col" style="background-color: #D6EEEE">Heat Rate</th>
         <th scope="col" style="background-color: #D6EEEE">Cost per kWh of Electricity</th>
     </tr>
-    
     <tr>
         <th style="background-color: #D6EEEE">Normal U.S. Natural Gas Prices</th> 
         <td>$2.50</td><td> $\times 1 / 1,000,000$ </td><td> $ \times 7500 $ </td><td> $ = 0.15 $ </td>
