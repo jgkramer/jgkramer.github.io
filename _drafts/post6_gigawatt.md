@@ -43,12 +43,12 @@ Taking this relationship backwards, a joule is the amount of energy delivered fr
 one "watt second."  Since one hour is 3,600 seconds, a **watt hour** is 3,600 joules and the unit of consumption for residential electricity, a **kilowatt  hour (kWh)** is one thousand of those: 3,600,000 joules or 3.6 megajoules (MJ).
 
 To compare some big numbers across markets. 
-- The U.S. generates and consumes [about 4,000 TWh](https://www.eia.gov/energyexplained/electricity/electricity-in-the-us-generation-capacity-and-sales.php) of electricity per year.   A terawatt hour is one billion kWh, so this is $(4,000 \times 10^9 kWh) \times (3.6 \times 10^6 J / kWh) = 1.44 \times 10^{19} J$.  10^18 gets a prefix "exa", so this is 14.4 exajoules (14.4 EJ). 
+- The U.S. generates and consumes [about 4,000 TWh](https://www.eia.gov/energyexplained/electricity/electricity-in-the-us-generation-capacity-and-sales.php) of electricity per year.   A terawatt hour is one billion kWh, so this is $(4,000 \times 10^9 kWh) \times (3.6 \times 10^6 J / kWh) = 1.44 \times 10^{19} J$.  $10^{18}$ gets a prefix "exa", so this is 14.4 exajoules (14.4 EJ). 
 - So the U.S. **electricity consumption** alone (not including other uses of energy like heat and transportation) represents 2.3% of the 595 EJ of total global primary energy consumption in 2021.
 - By contrast, the United State's broader total primary energy consumption in 2021 was 93 EJ, about 16% of global energy consumption.
 
 That is energy.   How about power? 
-- Simply dividing 4,000 TWh of annual electricity generation by 365 x 24 = 8,760 hours per year gives us an **average power** consumption of 0.46 terawatts or 456 GW.  According to the EIA, at the end of 2021 the U.S. had [1,144 GW total](https://www.eia.gov/energyexplained/electricity/electricity-in-the-us-generation-capacity-and-sales.php) of utility-scale electricity generation capacity, or about 2.5x the average power consumption (this ratio makes sense given the significant deviations across hours of the day and seasons of electricity usage). 
+- Simply dividing 4,000 TWh of annual electricity generation by $365 \times 24 = 8,760$ hours per year gives us an **average power** consumption of 0.46 terawatts or 456 GW.  According to the EIA, at the end of 2021 the U.S. had [1,144 GW total](https://www.eia.gov/energyexplained/electricity/electricity-in-the-us-generation-capacity-and-sales.php) of utility-scale electricity generation capacity, or about 2.5x the average power consumption (this ratio makes sense given the significant deviations across hours of the day and seasons of electricity usage). 
 
 #### Another Unit: BTU's
 
