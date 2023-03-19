@@ -125,7 +125,7 @@ Now we are equipped to resolve some of these
 <table>
     <tr>
         <th style="background-color: #D6EEEE">Normal U.S. Natural Gas Prices</th> 
-        <td>$2.50</td><td>$ \times {1 \over 1,000,000}$</td>
+        <td>$2.50</td><td>$ \times 1 / 1,000,000$</td>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">units</th> 
