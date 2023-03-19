@@ -7,7 +7,7 @@ author: "Great Scott"
 excerpt_separator: <!--more-->
 ---
 
-I sometimes find it frustrating as an observer of energy markets and policy to understand the quantities those markets deal in.  News and commentators quote prices in units that consumers may be unfamiliar with, making it difficult to intuit the importance of htose prices.  Here are some examples: 
+I sometimes find it frustrating as an observer of energy markets and policy to understand the quantities those markets deal in.  News and commentators quote prices in units that consumers may be unfamiliar with, making it difficult to intuit the importance of those prices.  Here are some examples: 
 
 - **War in Ukraine**  European wholesale natural gas prices (Dutch Title Transfer Facility or Dutch TTF) ran from &euro;88 per MegaWatt hour (MWh) in February 2022 before Russia's invasion of Ukraine, to a peak of &euro;340 per MWh in August 2022 when concerns about a shortage ran highest.   After conservation efforts, European countries securing liquefied natural gas imports, and a warmer-than-feared winter, prices fell back to [&euro;76](https://www.nytimes.com/2023/01/03/business/europe-natural-gas-prices.html) [or lower](https://www.wsj.com/articles/sliding-natural-gas-prices-deal-surprise-reprieve-to-europe-11673005590) by the start of 2023.
 
@@ -89,7 +89,7 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
         <td>1 MWh</td><td>3.6 GJ</td><td>3.41 MMBTU</td><td>x1000</td>
     </tr>
      <tr>
-         <td>1 GWh</td><td>3.6 TJ</td><td>3,410 MMBTU</td><td>Tera = 10^12</td>
+         <td>1 GWh</td><td>3.6 TJ</td><td>3,410 MMBTU</td><td>Tera = $10^12$</td>
     </tr>
      <tr>
          <td>1 TWh</td><td>3.6 PJ</td><td>3.4 million MMBTU</td><td>Peta = 10^15</td>
