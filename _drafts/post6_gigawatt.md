@@ -161,11 +161,4 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
     </tr>
 </table>
 
-#### Heat Pumps and COP
-
-
-
-
-
-
-
+This gives me a better sense of what was happening in the market.   Compared to an average U.S. retail price price of electriicty of around [$0.14 per kWh in 2021](https://www.eia.gov/todayinenergy/detail.php?id=51438), an increase of $0.05 for the fuel cost of producing a kWh of electricity is a big enough (~30%) increase to catch media and politicians' attention.  But fuel prices up to &euro;0.75 in Europe are staggering and explain the extraordinary measures that European governments went to help citizens absorb these costs. 
