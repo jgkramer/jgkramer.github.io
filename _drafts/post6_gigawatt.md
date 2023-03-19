@@ -29,11 +29,11 @@ This is heavy.
 
 ### Energy and Power
 
-A **joule** is the standard (SI) unit of **energy**, equivalent the work done by applying 1 Newton of force over 1 meter of distance.  A 500 mL single-serve bottole of Poland Spring water has a mass of 0.5 kg.  Gravity on the Earth's surface causes acceleration of ~10 m/s^2,[^1] so the weight of gravity applies about 0.5kg x 10 m / s^2 = 5 Newtons of force on the bottle.  
+A **joule** is the standard (SI) unit of **energy**, equivalent the work done by applying 1 Newton of force over 1 meter of distance.  A 500 mL single-serve bottole of Poland Spring water has a mass of 0.5 kg.  Gravity on the Earth's surface causes acceleration of ~10 $m/s^2$,[^1] so the weight of gravity applies about $0.5 kg \times 10 m / s^2 = 5 N$ of force on the bottle.  
 
-[^1].  Actually 9.8 m/s^2, but the math is simpler at 10. 
+[^1].  Actually $9.8 m/s^2$, but the math is simpler at 10. 
 
-If I lift the bottle against the force of gravity to a height of 1 meter from the floor (stomach height for me), I have increased the bottle's gravitational potential energy by 5 N x 1 m = 5 joules of gravitational potential energy.  If I drop it, by the time it hits gthe ground it is moving with about 5 joules of kinetic energy.  If I do the same exercise at a height of 20 cm (~8 inches), the quantity of energy involved is 1 joule. 
+If I lift the bottle against the force of gravity to a height of 1 meter from the floor (stomach height for me), I have increased the bottle's gravitational potential energy by $5 N \times 1 m = 5 J$ of gravitational potential energy.  If I drop it, by the time it hits gthe ground it is moving with about 5 joules of kinetic energy.  If I do the same exercise at a height of 20 cm (~8 inches), the quantity of energy involved is 1 joule. 
 
 **Power** is a rate of flow or transfer of energy, and is measured in quantity of energy per unit time.  A **watt** is the SI unit, defined as joules per second.   Lifting and dropping a liter bottle from a height of 1 meter once per second generates power at a rate of 5 watts.  If this could be harnessed with a cable, pulley and alternator system (this is the basic principle behind gravity based storage), for example, it theoretically would be enough power to light up the lightbulb on my night table.[^2]
 
