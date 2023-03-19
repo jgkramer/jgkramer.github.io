@@ -137,14 +137,17 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">Normal U.S. Natural Gas Prices</th> 
-        <td>$2.50</td><td> $\times 1 / 1,000,000$ </td><td> $\times 7500$ </td><td> $= 0.15$ </td>
+        <td>$2.50</td><td> $\times 1 / 1,000,000$ </td><td> $\times 7500$ </td><td> $= 0.019$ </td>
+    </tr>
+    <tr>
+        <th style="background-color: #D6EEEE">Ukraine-Elevated U.S. Prices</th> 
+        <td>$9.00</td><td> $\times 1 / 1,000,000$ </td><td> $\times 7500$ </td><td> $= 0.068$ </td>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE"> </th> 
-        <td> $ / MMBTU </td><td> $MMBTU / BTU$ </td><td> $BTU / kWh$ electric </td><td> $ / kWh </td>
+        <td> $ / MMBTU </td><td> $MMBTU / BTU$ </td><td> $BTU / kWh$ electric </td><td> $ / kWh </td><td>
     </tr>
 </table>
-
 
 #### Heat Pumps and COP
 
