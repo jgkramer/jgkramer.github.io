@@ -137,16 +137,27 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">Normal U.S. Natural Gas Prices</th> 
-        <td>$2.50</td><td> $\times 1 / 1,000,000$ </td><td> $\times 7500$ </td><td> $= 0.019$ </td>
+        <td>$2.50</td><td> $\times 1 / 1,000,000$ </td><td> $\times 7500$ </td><td> $= \$0.019$ </td>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">Ukraine-Elevated U.S. Prices</th> 
-        <td>$9.00</td><td> $\times 1 / 1,000,000$ </td><td> $\times 7500$ </td><td> $= 0.068$ </td>
+        <td>$9.00</td><td> $\times 1 / 1,000,000$ </td><td> $\times 7500$ </td><td> $= \$0.068$ </td>
     </tr>
     <tr>
-        <th style="background-color: #D6EEEE"> </th> 
-        <td> $ / MMBTU </td><td> $MMBTU / BTU$ </td><td> $BTU / kWh$ electric </td><td> $ / kWh </td><td>
+        <th style="background-color: #D6EEEE"></th> 
+        <td> $ / MMBTU </td><td> $MMBTU / BTU$ </td><td> $BTU / kWh$ electric </td><td> $ / kWh </td>
     </tr>
+    <tr>
+        <th style="background-color: #D6EEEE">August 2022 European Gas Spike</th> 
+        <td>&euro;340</td></td><td> $\times 1 \over {3.41 \times 10^6}$ </td><td> $\times 7500$ </td><td> $= \euro0.019$ </td>
+    <tr>
+        <th style="background-color: #D6EEEE"></th> 
+        <td> &euro; / MWh thermal </td><td> $MWh / BTU$ </td><td> $BTU / kWh$ electric </td><td> &euro; / kWh </td>
+    </tr>
+
+
+<td>1 MWh</td><td>3.6 GJ</td><td>3.41 MMBTU</td
+
 </table>
 
 #### Heat Pumps and COP
