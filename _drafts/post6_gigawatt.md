@@ -129,12 +129,20 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
 </STYLE>
 <table>
     <tr>
+        <th scope="col" style="background-color: #D6EEEE"> </th> 
+        <th scope="col" style="background-color: #D6EEEE">Base Price</th> 
+        <th scope="col" style="background-color: #D6EEEE">Conversion to BTU</th>
+        <th scope="col" style="background-color: #D6EEEE">Heat Rate</th>
+        <th scope="col" style="background-color: #D6EEEE">Cost per kWh of Electricity</th>
+    </tr>
+    
+    <tr>
         <th style="background-color: #D6EEEE">Normal U.S. Natural Gas Prices</th> 
-        <td>$2.50</td><td> $\times 1 / 1,000,000$ </td>
+        <td>$2.50</td><td> $\times 1 / 1,000,000$ </td><td> $ \times 7500 $ </td><td> $ = 0.15 $ </td>
     </tr>
     <tr>
-        <th style="background-color: #D6EEEE">units</th> 
-        <td>$ / MMBTU$</td><td> $MMBTU / BTU$ </td> 
+        <th style="background-color: #D6EEEE"> </th> 
+        <td> $ / MMBTU$ </td><td> $MMBTU / BTU$ </td><td> $ BTU / kWh electric $ </td><td> $ / kWh </td>
     </tr>
 </table>
 
