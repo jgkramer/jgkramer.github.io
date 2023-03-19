@@ -117,7 +117,7 @@ In practice, the efficiency of a power plant's conversion of thermal energy in f
  
 #### Applications
 
-Now we are equipped to resolve some of these 
+Now we are equipped to resolve some of the disparate **FINISH**
 
 **TABLE WITH examples***
 
