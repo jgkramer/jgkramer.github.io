@@ -111,7 +111,7 @@ energy.  **Fuels** can be thought of as containing thermal energy (stored in che
 
 Modern furnaces are very efficient, and in usage (1) above more than 95% of the thermal energy stored in natural gas, for example, can be captured to heat a home.  Converting heat energy to electrical energy via (2) results in lost energy due to the thermodynamic constraints of heat engines.[^4]
 
-[^4].  Carnot's Theorem states that a heat engine operating between a hot temperature TH (measured against absolute zero) and a cold temperature TC cannot have efficiency exceeding (TH - TC) / TH.  
+[^4].  Carnot's Theorem states that a heat engine operating between a hot temperature $T_H$ (measured against absolute zero) and a cold temperature $T_C$ cannot have efficiency exceeding ${T_H - T_C} \over T_H$.  
 
 In practice, the efficiency of a power plant's conversion of thermal energy in fuel into electrical energy is quantified by the plant's **Heat Rate**.  
 Heat rate is [generally defined](https://www.eia.gov/tools/faqs/faq.php?id=107&t=3)
