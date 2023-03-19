@@ -121,15 +121,20 @@ Now we are equipped to resolve some of these
 
 **TABLE WITH examples***
 
-
+<STYLE TYPE="text/css">
+<!--
+TH{font-family: Arial; font-size: 9pt; text-align: center;}
+TD{font-family: Arial; font-size: 9pt; text-align: center;}
+--->
+</STYLE>
 <table>
     <tr>
         <th style="background-color: #D6EEEE">Normal U.S. Natural Gas Prices</th> 
-        <td>$2.50</td><td>$ \times 1 / 1,000,000$</td>
+        <td>$2.50</td><td> $\times 1 / 1,000,000$ </td>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">units</th> 
-        <td>$ / MMBTU$</td><td>$MMBTU / BTU$</td> 
+        <td>$ / MMBTU$</td><td> $MMBTU / BTU$ </td> 
     </tr>
 </table>
 
