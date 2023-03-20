@@ -117,7 +117,7 @@ In practice, the efficiency of a power plant's conversion of thermal energy in f
  
 ### Applications
 
-Now we are equipped to resolve some of the disparate price quotations we have seen.  We'll begin with a simple one: the prices of natural gas, as used directly by consumers for thermal energy.  A couple of points of reference: in the Las Vegas area, with mild winters, my family consumed 1,420 therms of gas in 2022, with about 72% of this coming in January, February, November and December.  A **therm** is 100,000 BTU, so my annual gas utility gas gost reflects 14.2 MM BTU.  By way of comparison, the U.K. residential energy provider, Ofgem, estimates that a typical 4-5 person home consumes $17,000 KWh \times 3,412 BTU / KWh \times 1 MMBTU \over {10^6 BTU} = 58 MMBTU$
+Now we are equipped to resolve some of the disparate price quotations we have seen.  We'll begin with a simple one: the prices of natural gas, as used directly by consumers for thermal energy.  A couple of points of reference: in the Las Vegas area, with mild winters, my family consumed 1,420 therms of gas in 2022, with about 72% of this coming in January, February, November and December.  A **therm** is 100,000 BTU, so my annual gas utility gas gost reflects 14.2 MM BTU.  By way of comparison, the U.K. residential energy provider, Ofgem, estimates that a typical 4-5 person home consumes $17,000 KWh \times 3,412 BTU / KWh \times 1 MMBTU \over{10^6 BTU} = 58 MMBTU$
 
 
 https://www.ofgem.gov.uk/information-consumers/energy-advice-households/average-gas-and-electricity-use-explained#:~:text=Ofgem%20estimates%20the%20typical%20household,of%20gas%20in%20a%20year.
