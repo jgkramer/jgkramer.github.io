@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 
 I sometimes find it frustrating as an observer of energy markets and policy to understand the quantities those markets deal in.  News and commentators quote prices in units that consumers may be unfamiliar with, making it difficult to intuit the importance of those prices.  Here are some examples: 
 
-- **War in Ukraine**  European wholesale natural gas prices (Dutch Title Transfer Facility or Dutch TTF) ran from &euro;88 per MegaWatt hour (MWh) in February 2022 before Russia's invasion of Ukraine, to a peak of &euro;340 per MWh in August 2022 when concerns about a shortage ran highest.   After conservation efforts, European countries securing liquefied natural gas imports, and a warmer-than-feared winter, prices fell back to [&euro;76](https://www.nytimes.com/2023/01/03/business/europe-natural-gas-prices.html) [or lower](https://www.wsj.com/articles/sliding-natural-gas-prices-deal-surprise-reprieve-to-europe-11673005590) by the start of 2023.
+- **War in Ukraine**  European wholesale natural gas prices (Dutch Title Transfer Facility or Dutch TTF) ran from &euro;88 per MegaWatt hour (MWh) in February 2022 before Russia's invasion of Ukraine, to a peak of &euro;340 per MWh in August 2022 when concerns about a shortage ran highest.   After conservation efforts, European countries securing liquefied natural gas imports, and a warmer-than-feared winter, prices fell back to [&euro;76](https://www.nytimes.com/2023/01/03/business/europe-natural-gas-prices.html) [or lower](https://www.wsj.com/articles/sliding-natural-gas-prices-deal-surprise-reprieve-to-europe-11673005590) by the start of 2023.  In 2020, these prices were under &euro;20 per MWh.
 
 - **U.S. Natural Gas Prices**.  Quoted in MMBTU (million british thermal units).  Often are in the $2 - 3 range, but driven by Ukraine-driven supply shocks, [briefly exceeded $9](https://www.wsj.com/articles/natural-gas-prices-plunge-and-drillers-dial-back-236a2a9).  In California, however, a pipeline closure limited supply and prices averaged [$19.40 per MMBTU in early January](https://www.wsj.com/articles/natural-gas-prices-have-fallen-back-to-earthexcept-in-california-11673411627) while the Henry Hub benchmark was under $4.00.  With different units, 
 
@@ -115,9 +115,53 @@ Modern furnaces are very efficient, and in usage (1) above more than 95% of the 
 
 In practice, the efficiency of a power plant's conversion of thermal energy in fuel into electrical energy is quantified by the plant's **Heat Rate**.  Heat rate is [generally defined](https://www.eia.gov/tools/faqs/faq.php?id=107&t=3) as the number of BTU's of (thermal) energy input required to generate 1 kWh of electricity.   1 kWh is 3,412 BTU's, so all heat rates are higher than 3,412.  A heat rate of 6,800 has a 50% energy conversion efficiency: fuel with 6,800 BTU of thermal energy is needed to produce 3,400 kWh of electricity.  Efficient natural gas plants have heat rates in the [7,000 to 8,000 area](https://www.eia.gov/electricity/annual/html/epa_08_01.html), with coal plants around 10,000.
  
-#### Applications
+### Applications
 
-Now we are equipped to resolve some of the disparate **FINISH**
+Now we are equipped to resolve some of the disparate price quotations we have seen.  We'll begin with a simple one: the prices of natural gas, as used directly by consumers for thermal energy.  A couple of points of reference: in the Las Vegas area, with mild winters, my family consumes about 300 therms of gas in the coldest winter months of December and January.  A **therm** is 100,000 BTU, so my monthly bill reflects 30 MM BTU.  Friends of mine who live in Connecticut with much colder winters use [1000 therms] in the coldest winter months.
+
+<STYLE TYPE="text/css">
+<!--
+TH{font-family: Arial; font-size: 9pt; text-align: center;}
+TD{font-family: Arial; font-size: 9pt; text-align: center;}
+--->
+</STYLE>
+<table>
+    <tr>
+        <th scope="col" style="background-color: #D6EEEE"> </th> 
+        <th scope="col" style="background-color: #D6EEEE">Quoted Price</th>
+        <th scope="col" style="background-color: #D6EEEE">Conversion to MMBTU</th>
+        <th scope="col" style="background-color: #D6EEEE">Price per MMBTU</th>
+        <th scope="col" style="background-color: #D6EEEE">Cost for 1 Nevada winter month (30 MMBTU)</th>
+        <th scope="col" style="background-color: #D6EEEE">Cost for 1 Connecticut winter month (100 MMBTU)</th>
+    </tr>
+    <tr>
+        <th style="background-color: #D6EEEE">Normal U.S. Natural Gas Prices</th> 
+        <td>$2.50 / MMBTU </td><td> $\times 1 =$ </td><td> $2.50 </td><td> $75 </td><td> $250 </td>
+    </tr>
+    <tr>
+        <th style="background-color: #D6EEEE">Ukraine-Elevated U.S. Prices</th> 
+        <td>$9.00 / MMBTU </td><td> $\times 1 =$ </td><td> $9.00 </td><td> $270 </td><td> $900 </td>
+    </tr>
+    <tr>
+        <th style="background-color: #D6EEEE">California Supply-Disrupted Gas Prices</th>
+        <td>$40.00 / MMBTU </td><td> $\times 1 =$ </td><td> $40.00 </td><td> $1,200 </td><td> $4,000 </td>
+    </tr>
+    <tr>
+        <th style="background-color: #D6EEEE">2020 European Gas Prices</th> 
+        <td>&euro;15 / MWh </td></td><td> $\times{1 MWh \over {3.41 MMBTU} =$ </td><td>&euro;4.40 (~$4.62)</td><td> $139 </td> <td> $462 </td>
+    </tr>
+    <tr>
+        <th style="background-color: #D6EEEE">Ukraine-Spike August 2022 European Gas</th> 
+        <td>&euro;340 / MWh </td></td><td> $\times{1 MWh \over {3.41 MMBTU} =$ </td><td>&euro;99.71 (~$105)</td><td> $3,140 </td><td>$10,469</td>
+    </tr>
+</table>
+
+
+
+
+
+
+
 
 **TABLE WITH examples***
 
@@ -149,7 +193,7 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">Ukraine-Spike August 2022 European Gas</th> 
-        <td>&euro;340</td></td><td> $\times{1 \over {3.41 \times 10^6}}$ </td><td> $\times 7500$ </td><td> $=$ &euro; $0.75$ </td>
+        <td>&euro;340 / MM</td></td><td> $\times{1  \over {3.41 \times 10^6}}$ </td><td> $\times 7500$ </td><td> $=$ &euro; $0.75$ </td>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">Calmer January 2023 European Gas Prices</th> 
