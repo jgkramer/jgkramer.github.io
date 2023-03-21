@@ -155,11 +155,11 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">2020 European Gas Prices</th> 
-        <td>&euro;15 / MWh </td> <td> $\times 1.05 USD / EUR \times 1 MWh / 1000 kWh </td><td>$0.016</td><td> $656 </td> <td> $189 </td>
+        <td>&euro;15 / MWh </td> <td> $\times 1.05 USD / EUR \times 1 MWh / 1000 kWh$ </td><td>$0.016</td><td> $656 </td> <td> $189 </td>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">Ukraine-Spike August 2022 European Gas</th> 
-        <td>&euro;340 / MWh </td> <td> $\times 1.05 USD / EUR \times 1 MWh / 1000 kWh </td><td>$0.357</td><td> $14,858 </td> <td> $4,284 </td>
+        <td>&euro;340 / MWh </td> <td> $\times 1.05 USD / EUR \times 1 MWh / 1000 kWh$ </td><td>$0.357</td><td> $14,858 </td> <td> $4,284 </td>
     </tr>
 </table>
 
