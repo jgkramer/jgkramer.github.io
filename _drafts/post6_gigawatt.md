@@ -80,16 +80,16 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
         <td>1 W s</td><td>1 J </td><td>0.00095 BTU</td><td>Definition (watt = joule / s)</td>
     </tr>
     <tr>
-        <td>1 W h</td><td>3.6 kJ</td><td>3.41 BTU</td><td>Hour = 3,600 seconds</td>
+        <td>1 W h</td><td>3.6 kJ</td><td>3.412 BTU</td><td>Hour = 3,600 seconds</td>
     </tr>
     <tr>
-        <td>1 kWh</td><td>3.6 MJ</td><td>3,410 BTU</td><td>x1000</td>
+        <td>1 kWh</td><td>3.6 MJ</td><td>3,412 BTU</td><td>x1000</td>
     </tr>
     <tr>
-        <td>1 MWh</td><td>3.6 GJ</td><td>3.41 MMBTU</td><td>x1000</td>
+        <td>1 MWh</td><td>3.6 GJ</td><td>3.412 MMBTU</td><td>x1000</td>
     </tr>
      <tr>
-         <td>1 GWh</td><td>3.6 TJ</td><td>3,410 MMBTU</td><td>Tera = $10^{12}$</td>
+         <td>1 GWh</td><td>3.6 TJ</td><td>3,412 MMBTU</td><td>Tera = $10^{12}$</td>
     </tr>
      <tr>
          <td>1 TWh</td><td>3.6 PJ</td><td>3.4 million MMBTU</td><td>Peta = $10^{15}$</td>
@@ -121,7 +121,7 @@ In practice, the efficiency of a power plant's conversion of thermal energy in f
 
 Now we are equipped to resolve some of the disparate price quotations we have seen.  We'll begin with a simple one: the prices of natural gas, as used directly by consumers for thermal energy.  
 
-A couple of points of reference: in the Las Vegas area, with mild winters, my family consumed 1,420 therms of gas in 2022, with about 72% of this coming in January, February, November and December.  A **therm** is 100,000 BTU, so my annual gas utility gas gost reflects 14.2 million BTU.  Converting this into kilowatt hours, that is $14.2 x 10^6 BTU \times 1 kWh / 3412 BTU = 4,162 kWh$ of thermal energy.  By contrast, my home used 30,314 kWh of electricity over the course of a year; this low ratio of gas to electricity usage makes intuitve sense in a warm climate where heating needs are limited and air-conditioning needs are high.   By way of comparison, the U.K. residential energy provider, Ofgem, [estimates](https://www.ofgem.gov.uk/information-consumers/energy-advice-households/average-gas-and-electricity-use-explained) that a typical 4-5 person home consumes 17,000 kWh of natural gas in year, and 4,300 kWh of electricity in a year.  
+A couple of points of reference: in the Las Vegas area, with mild winters, my family consumed 1,420 therms of gas in 2022, with about 72% of this coming in January, February, November and December.  A **therm** is 100,000 BTU, so my annual gas utility gas gost reflects 142 million BTU.  Converting this into kilowatt hours, that is $142 x 10^6 BTU \times 1~kWh / 3412~BTU = 41,620~kWh$ of thermal energy.  By contrast, my home used 30,314 kWh of electricity over the course of a year; this low ratio of gas to electricity usage makes intuitve sense in a warm climate where heating needs are limited and air-conditioning needs are high.   By way of comparison, the U.K. residential energy provider, Ofgem, [estimates](https://www.ofgem.gov.uk/information-consumers/energy-advice-households/average-gas-and-electricity-use-explained) that a typical 4-5 person home consumes 17,000 kWh of natural gas in year, and 4,300 kWh of electricity in a year.  
 
 <STYLE TYPE="text/css">
 <!--
@@ -140,7 +140,7 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">Normal U.S. Natural Gas Prices</th> 
-        <td>$2.50 / MMBTU </td><td> $\times {3.41~MMBTU \over 1000~kWh} =$ </td><td> $2.50 </td><td> $75 </td><td> $250 </td>
+        <td>$2.50 / MMBTU </td><td> $\times {3.41~MMBTU \over 1000~kWh} =$ </td><td> $0.0085 </td><td> $75 </td><td> $250 </td>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">Ukraine-Elevated U.S. Prices</th> 
