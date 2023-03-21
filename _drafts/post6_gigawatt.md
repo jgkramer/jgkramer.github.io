@@ -113,7 +113,10 @@ Modern furnaces are very efficient, and in usage (1) above more than 95% of the 
 
 [^4].  Carnot's Theorem states that a heat engine operating between a hot temperature $T_H$ (measured against absolute zero) and a cold temperature $T_C$ cannot have efficiency exceeding ${T_H - T_C} \over T_H$.  
 
-In practice, the efficiency of a power plant's conversion of thermal energy in fuel into electrical energy is quantified by the plant's **Heat Rate**.  Heat rate is [generally defined](https://www.eia.gov/tools/faqs/faq.php?id=107&t=3) as the number of BTU's of (thermal) energy input required to generate 1 kWh of electricity.   1 kWh is 3,412 BTU's, so all heat rates are higher than 3,412.  A heat rate of 6,800 has a 50% energy conversion efficiency: fuel with 6,800 BTU of thermal energy is needed to produce 3,400 kWh of electricity.  Efficient natural gas plants have heat rates in the [7,000 to 8,000 area](https://www.eia.gov/electricity/annual/html/epa_08_01.html), with coal plants around 10,000.
+In practice, the efficiency of a power plant's conversion of thermal energy in fuel into electrical energy is quantified by the plant's **Heat Rate**.  Heat rate is [generally defined](https://www.eia.gov/tools/faqs/faq.php?id=107&t=3) as the amount of fuel energy required to generate a given amount of eletricity.  In the U.S., this is typically cited in BTU's of (thermal) energy input required to generate 1 kWh of electricity.   1 kWh is 3,412 BTU's, so all heat rates are higher than 3,412.  A heat rate of 6,800 has a 50% energy conversion efficiency: fuel with 6,800 BTU of thermal energy is needed to produce 3,400 kWh of electricity.  Efficient natural gas plants have heat rates in the [7,000 to 8,000 area](https://www.eia.gov/electricity/annual/html/epa_08_01.html), with coal plants around 10,000.
+
+In European countries where thermal energy tends to be quoted in kWh / MWh, this concept is more directly expressed in [percentage efficiency](https://www.statista.com/statistics/548943/thermal-efficiency-gas-turbine-stations-uk/), i.e., a 50% effcient natural gas plant requires 2 kWh of gas to generate 1 kWh of electricity. 
+
  
 ### Applications
 
@@ -121,7 +124,7 @@ In practice, the efficiency of a power plant's conversion of thermal energy in f
 
 Now we are equipped to resolve some of the disparate price quotations we have seen.  We'll begin with a simple one: the prices of natural gas, as used directly by consumers for thermal energy.  
 
-A couple of points of reference: in the Las Vegas area, with mild winters, my family consumed 1,420 therms of gas in 2022, with about 72% of this coming in January, February, November and December.  A **therm** is 100,000 BTU, so my annual gas utility gas gost reflects 142 million BTU.  Converting this into kilowatt hours, that is $142 x 10^6 BTU \times 1~kWh / 3412~BTU = 41,620~kWh$ of thermal energy.  By contrast, my home used 30,314 kWh of electricity over the course of a year; this low ratio of gas to electricity usage makes intuitve sense in a warm climate where heating needs are limited and air-conditioning needs are high.   By way of comparison, the U.K. residential energy provider, Ofgem, [estimates](https://www.ofgem.gov.uk/information-consumers/energy-advice-households/average-gas-and-electricity-use-explained) that a typical 4-5 person home consumes 17,000 kWh of natural gas in year, and 4,300 kWh of electricity in a year.  
+A couple of points of reference: in the Las Vegas area, with mild winters, my family consumed 1,420 therms of gas in 2022, with about 72% of this coming in January, February, November and December.  A **therm** is 100,000 BTU, so my annual gas utility gas gost reflects 142 million BTU.  Converting this into kilowatt hours, that is $142 x 10^6 BTU \times 1 kWh / 3412 BTU = 41,620~kWh$ of thermal energy.  More directly in the teeth of the European energy concerns this past winter, the U.K. energy utility [reported](https://www.ofgem.gov.uk/information-consumers/energy-advice-households/average-gas-and-electricity-use-explained#:~:text=Ofgem%20estimates%20the%20typical%20household,of%20gas%20in%20a%20year) that the average household there uses 12,000 kWh of natural gas.
 
 <STYLE TYPE="text/css">
 <!--
@@ -135,31 +138,32 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
         <th scope="col" style="background-color: #D6EEEE">Quoted Price</th>
         <th scope="col" style="background-color: #D6EEEE">Conversion to kWh</th>
         <th scope="col" style="background-color: #D6EEEE">Price per kWh</th>
-        <th scope="col" style="background-color: #D6EEEE">Cost for 1 Nevada year of heating (4,162 kWh)</th>
-        <th scope="col" style="background-color: #D6EEEE">Cost for 1 U.K. year of heating (17,000 kWh)</th>
+        <th scope="col" style="background-color: #D6EEEE">1 Year of My Nevada Heating (41,620 kWh)</th>
+        <th scope="col" style="background-color: #D6EEEE">1 Year of Average U.K. heating (12,000 kWh)</th>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">Normal U.S. Natural Gas Prices</th> 
-        <td>$2.50 / MMBTU </td><td> $\times {3.41~MMBTU \over 1000~kWh} =$ </td><td> $0.0085 </td><td> $75 </td><td> $250 </td>
+        <td>$2.50 / MMBTU </td><td> $\times {3.41~MMBTU \over 1000~kWh} =$ </td><td> $0.009 </td><td> $355 </td><td> $102 </td>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">Ukraine-Elevated U.S. Prices</th> 
-        <td>$9.00 / MMBTU </td><td> $\times 1 =$ </td><td> $9.00 </td><td> $270 </td><td> $900 </td>
+        <td>$9.00 / MMBTU </td><td> $\times {3.41~MMBTU \over 1000~kWh} =$ </td><td> $0.031 </td><td> $1,278 </td><td> $368 </td>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">California Supply-Disrupted Gas Prices</th>
-        <td>$40.00 / MMBTU </td><td> $\times 1 =$ </td><td> $40.00 </td><td> $1,200 </td><td> $4,000 </td>
+        <td>$40.00 / MMBTU </td><td> $\times {3.41~MMBTU \over 1000~kWh} =$ </td><td> $0.137 </td><td> $5,680 </td><td> $1,637 </td>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">2020 European Gas Prices</th> 
-        <td>&euro;15 / MWh </td></td><td> $\times{1 MWh \over {3.41 MMBTU} =$ </td><td>&euro;4.40 (~$4.62)</td><td> $139 </td> <td> $462 </td>
+        <td>&euro;15 / MWh </td> <td> $\times 1.05 USD / EUR \times 1 MWh / 1000 kWh </td><td>$0.016</td><td> $656 </td> <td> $189 </td>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">Ukraine-Spike August 2022 European Gas</th> 
-        <td>&euro;340 / MWh </td></td><td> $\times{1 MWh \over {3.41 MMBTU} =$ </td><td>&euro;99.71 (~$105)</td><td> $3,140 </td><td>$10,469</td>
+        <td>&euro;340 / MWh </td> <td> $\times 1.05 USD / EUR \times 1 MWh / 1000 kWh </td><td>$0.357</td><td> $14,858 </td> <td> $4,284 </td>
     </tr>
 </table>
 
+The above prices are based on traded prices in commodities markets, and are more akin to wholesale prices, with retail prices being even higher after taking into account the costs of delivery and customer service.  However, they give some context to energy prices quoted in the news.  In the U.S., natural gas heating costs 
 
 
 
