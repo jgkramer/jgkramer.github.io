@@ -140,7 +140,7 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">Normal U.S. Natural Gas Prices</th> 
-        <td>$2.50 / MMBTU </td><td> $\times {1000~kWh \over 3.41~MMBTU} =$ </td><td> $2.50 </td><td> $75 </td><td> $250 </td>
+        <td>$2.50 / MMBTU </td><td> $\times {3.41~MMBTU \over 1000~kWh} =$ </td><td> $2.50 </td><td> $75 </td><td> $250 </td>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">Ukraine-Elevated U.S. Prices</th> 
