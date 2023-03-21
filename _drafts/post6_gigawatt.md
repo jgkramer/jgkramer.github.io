@@ -116,7 +116,6 @@ Modern furnaces are very efficient, and in usage (1) above more than 95% of the 
 In practice, the efficiency of a power plant's conversion of thermal energy in fuel into electrical energy is quantified by the plant's **Heat Rate**.  Heat rate is [generally defined](https://www.eia.gov/tools/faqs/faq.php?id=107&t=3) as the amount of fuel energy required to generate a given amount of eletricity.  In the U.S., this is typically cited in BTU's of (thermal) energy input required to generate 1 kWh of electricity.   1 kWh is 3,412 BTU's, so all heat rates are higher than 3,412.  A heat rate of 6,800 has a 50% energy conversion efficiency: fuel with 6,800 BTU of thermal energy is needed to produce 3,400 kWh of electricity.  Efficient natural gas plants have heat rates in the [7,000 to 8,000 area](https://www.eia.gov/electricity/annual/html/epa_08_01.html), with coal plants around 10,000.
 
 In European countries where thermal energy tends to be quoted in kWh / MWh, this concept is more directly expressed in [percentage efficiency](https://www.statista.com/statistics/548943/thermal-efficiency-gas-turbine-stations-uk/), i.e., a 50% effcient natural gas plant requires 2 kWh of gas to generate 1 kWh of electricity. 
-
  
 ### Applications
 
@@ -163,9 +162,7 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
     </tr>
 </table>
 
-The above prices are based on traded prices in commodities markets, and are more akin to wholesale prices, with retail prices being even higher after taking into account the costs of delivery and customer service.  However, they give some context to energy prices quoted in the news.  In the U.S., natural gas heating costs 
-
-
+The above prices are based on traded prices in commodities markets, and are more akin to wholesale prices, with retail prices being even higher after taking into account the costs of delivery and customer service.  However, they give some context to energy prices quoted in the news.  In the U.S., natural gas heating costs are low compared to other parts of the world, and while the Russian invasion of Ukraine caused prices to spike and heating bills to rise at a rate of hundreds of dollars per year.   But in Europe this impact was thousands of dollars per year.  This is why, for example, the U.K. spent on the order of [&pound;70 billion](https://www.reuters.com/business/energy/uk-energy-support-schemes-cost-halved-mild-winter-tames-prices-nao-2023-02-07/) in energy subsidies during the 2022-2023 winter.  The same kind of subsidy-policy impact was achieved in the U.S., only at the $40 / MMBTU gas level in California in early 2023, [where the state responded with energy bill credits to consumers.](https://www.gov.ca.gov/2023/02/06/governor-newsom-calls-for-federal-investigation-of-high-natural-gas-prices-as-california-provides-relief/)
 
 **TABLE WITH examples***
 
@@ -210,3 +207,6 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
 </table>
 
 This gives me a better sense of what was happening in the market.   Compared to an average U.S. retail price price of electriicty of around [$0.14 per kWh in 2021](https://www.eia.gov/todayinenergy/detail.php?id=51438), an increase of $0.05 for the fuel cost of producing a kWh of electricity is a big enough (~30%) increase to catch media and politicians' attention.  But fuel prices up to &euro;0.75 in Europe are staggering and explain the extraordinary measures that European governments went to help citizens absorb these costs. 
+
+
+
