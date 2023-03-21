@@ -117,12 +117,11 @@ In practice, the efficiency of a power plant's conversion of thermal energy in f
  
 ### Applications
 
-Now we are equipped to resolve some of the disparate price quotations we have seen.  We'll begin with a simple one: the prices of natural gas, as used directly by consumers for thermal energy.  A couple of points of reference: in the Las Vegas area, with mild winters, my family consumed 1,420 therms of gas in 2022, with about 72% of this coming in January, February, November and December.  A **therm** is 100,000 BTU, so my annual gas utility gas gost reflects 14.2 MM BTU.  By way of comparison, the U.K. residential energy provider, Ofgem, estimates that a typical 4-5 person home consumes $17,000 KWh \times 3,412 BTU / KWh$ $\times$ ${1 MMBTU}\over{10^6 BTU}$ = 58 MMBTU
+#### Heating Bills 
 
+Now we are equipped to resolve some of the disparate price quotations we have seen.  We'll begin with a simple one: the prices of natural gas, as used directly by consumers for thermal energy.  
 
-https://www.ofgem.gov.uk/information-consumers/energy-advice-households/average-gas-and-electricity-use-explained#:~:text=Ofgem%20estimates%20the%20typical%20household,of%20gas%20in%20a%20year.
-
-Friends of mine who live in Connecticut with much colder winters use [1000 therms] in the coldest winter months.
+A couple of points of reference: in the Las Vegas area, with mild winters, my family consumed 1,420 therms of gas in 2022, with about 72% of this coming in January, February, November and December.  A **therm** is 100,000 BTU, so my annual gas utility gas gost reflects 14.2 million BTU.  Converting this into kilowatt hours, that is $14.2 x 10^6 BTU \times 1 kWh / 3412 BTU = 4,162 kWh$ of thermal energy.  By contrast, my home used 30,314 kWh of electricity over the course of a year; this low ratio of gas to electricity usage makes intuitve sense in a warm climate where heating needs are limited and air-conditioning needs are high.   By way of comparison, the U.K. residential energy provider, Ofgem, [estimates](https://www.ofgem.gov.uk/information-consumers/energy-advice-households/average-gas-and-electricity-use-explained) that a typical 4-5 person home consumes 17,000 kWh of natural gas in year, and 4,300 kWh of electricity in a year.  
 
 <STYLE TYPE="text/css">
 <!--
@@ -134,14 +133,14 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
     <tr>
         <th scope="col" style="background-color: #D6EEEE"> </th> 
         <th scope="col" style="background-color: #D6EEEE">Quoted Price</th>
-        <th scope="col" style="background-color: #D6EEEE">Conversion to MMBTU</th>
-        <th scope="col" style="background-color: #D6EEEE">Price per MMBTU</th>
-        <th scope="col" style="background-color: #D6EEEE">Cost for 1 Nevada winter month (30 MMBTU)</th>
-        <th scope="col" style="background-color: #D6EEEE">Cost for 1 Connecticut winter month (100 MMBTU)</th>
+        <th scope="col" style="background-color: #D6EEEE">Conversion to kWh</th>
+        <th scope="col" style="background-color: #D6EEEE">Price per kWh</th>
+        <th scope="col" style="background-color: #D6EEEE">Cost for 1 Nevada year of heating (4,162 kWh)</th>
+        <th scope="col" style="background-color: #D6EEEE">Cost for 1 U.K. year of heating (17,000 kWh)</th>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">Normal U.S. Natural Gas Prices</th> 
-        <td>$2.50 / MMBTU </td><td> $\times 1 =$ </td><td> $2.50 </td><td> $75 </td><td> $250 </td>
+        <td>$2.50 / MMBTU </td><td> $\times {1000 kWh}\over{3.41 MMBTU} =$ </td><td> $2.50 </td><td> $75 </td><td> $250 </td>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">Ukraine-Elevated U.S. Prices</th> 
