@@ -15,13 +15,13 @@ I sometimes find it frustrating as an observer of energy markets and policy to u
 
 - **Cost of U.S. Nuclear**.  In 2019, the State of Connecticut and the owner of the Millstone nuclear power plant in Waterbury, CT reached a 10-year agreement in which the state's utilities would agree to purchase up to 50% of the plant's electricity generation at a price of [$49.99 per MWh](https://www.cga.ct.gov/2020/rpt/pdf/2020-R-0203.pdf); the deal at the time was criticized as potentially increasing electricity costs given the low prices of natural gas.  At the time, natural gas prices in connecticut for were in the range of [$3 - $5 per thousand cubic feet](https://www.eia.gov/dnav/ng/hist/n3045ct3m.htm).  How much additional expense per MWh of electricity did this appear to incur at the time and what kinds of natural gas prices reflected a more breakeven level? 
 
-- **French Nuclear Power** After experiencing major maintenance issues earlier in the year, it was reported in December 2022 with significant relief that the French nuclear power plant fleet was generating above 40 GW of electricity for the [first time in 9 months](https://www.reuters.com/business/energy/french-nuclear-production-surpasses-40-gw-grid-operator-2022-12-11/)
-
 - **Wholesale electricity**  In February 2023, New England faced a cold snap that saw next-day wholesale electricity prices jump ["by 140% to about $237 per megawatt hour."](https://www.reuters.com/business/energy/wholesale-power-prices-spike-us-northeast-arctic-blast-arrives-2023-02-03/).  In 2020 the Millstone nuclear plant in Connecticut was kept in operation in part for a deal where the plant operator was guaranteed to sell half of its generation for [$49.99 per MWh](https://www.cga.ct.gov/2020/rpt/pdf/2020-R-0203.pdf).
 
 - **Global Energy Consumption**.  BP's [Statistical Review of World Energy 2022] reported that global primary energy consumption was 595 exajoules (EJ), 31 EJ above 2020 and 8 EJ higher than the pre-COVID 2019 levels.
 
 - **Utility Bills**.  Electricity customers are generally billed in cents per kilowatt-hour (kWh).  Utility natural gas is frequently billed in "CCF" (hundred cubic feed) or "Therms" (100,000 BTU), which are actually equivalent.  In Europe, natural gas is typically billed per kWh.   In Australia, billing for gas is in megajoules (MJ).  
+
+- **Oil**.  And of course, crude oil is always quoted by market participants in dollars per **barrel**.  And heating oil is sold in gallons. 
 
 This is heavy. 
 
@@ -29,7 +29,7 @@ This is heavy.
 
 ### Energy and Power
 
-A **joule** is the standard (SI) unit of **energy**, equivalent the work done by applying 1 Newton of force over 1 meter of distance.  A 500 mL single-serve bottole of Poland Spring water has a mass of 0.5 kg.  Gravity on the Earth's surface causes acceleration of ~10 $m/s^2$,[^1] so the weight of gravity applies about $0.5~kg \times 10~m s^2 = 5 N$ of force on the bottle.  
+A **joule** is the standard (SI) unit of **energy**, equivalent the work done by applying 1 Newton of force over 1 meter of distance.  A 500 mL single-serve bottole of Poland Spring water has a mass of 0.5 kg.  Gravity on the Earth's surface causes acceleration of ~10 $m/s^2$,[^1] so the weight of gravity applies about $0.5 kg \times 10 m / s^2 = 5 N$ of force on the bottle.  
 
 [^1].  Actually $9.8 m/s^2$, but the math is simpler at 10. 
 
@@ -52,7 +52,7 @@ That is energy.   How about power?
 
 #### Another Unit: BTU's
 
-One more important unit of (thermal) energy, at least in the U.S., is the BTU (British Thermal Unit).  Originally conceived as the amount of heat energy required to raise the temperature of one pound of water by 1&deg;F, it is now defined as [~1,055 joules](https://www.britannica.com/science/British-thermal-unit).  A BTU is a small unit of energy practically speakin: a Therm (my residential billing unit for utility natural gas) is 100,000, and trading prices for natural gas in the U.S. are quoted in MMBTU, or millions of BTU. 
+One more important unit of (thermal) energy, at least in the U.S., is the BTU (British Thermal Unit).  Originally conceived as the amount of heat energy required to raise the temperature of one pound of water by 1&deg;F, it is now defined as [~1,055 joules](https://www.britannica.com/science/British-thermal-unit).  A BTU is a small unit of energy practically speakin: a Therm (my residential billing unit for utility natural gas) is 100,000, and trading prices for natural gas in the U.S. are quoted in MMBTU, or millions of BTU.   
 
 BTU's are a typical unit of sizing for air conditioning units in the U.S. (e.g., a window air conditioner might be a 10,000 BTU unit).   This measures the amount of heat energy transferred out of the space being cooled per hour (e.g., 10,000 BTU of heat energy removed per hour to cool a room).  Larger air conditioning units like central A/C are often measured in "tons", equivalent to 12,000 BTU, why not.[^3]
 
@@ -99,6 +99,10 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
     </tr>  
 </table>
 
+#### Oil: Barrels and Gallons.
+
+A barrel of oil is 42 gallons.   More relevant to this conversation: a barrell of oil contains [5.7 million BTU](https://www.eia.gov/energyexplained/units-and-calculators/).  And a gallon of home heating oil (how I used to heat my old home in Connecticut) has 138,500 BTU of thermal energy.
+
 ### Thermal Energy vs. Electrical Energy
 
 #### Heat Engines and Heat Rate
@@ -119,11 +123,11 @@ In European countries where thermal energy tends to be quoted in kWh / MWh, this
  
 ### Applications
 
-#### Heating Bills 
+#### Heating Prices 
 
 Now we are equipped to resolve some of the disparate price quotations we have seen.  We'll begin with a simple one: the prices of natural gas, as used directly by consumers for thermal energy.  
 
-A couple of points of reference: in the Las Vegas area, with mild winters, my family consumed 1,420 therms of gas in 2022, with about 72% of this coming in January, February, November and December.  A **therm** is 100,000 BTU, so my annual gas utility gas gost reflects 142 million BTU.  Converting this into kilowatt hours, that is $142 x 10^6 BTU \times 1 kWh / 3412 BTU = 41,620~kWh$ of thermal energy.  More directly in the teeth of the European energy concerns this past winter, the U.K. energy utility [reported](https://www.ofgem.gov.uk/information-consumers/energy-advice-households/average-gas-and-electricity-use-explained#:~:text=Ofgem%20estimates%20the%20typical%20household,of%20gas%20in%20a%20year) that the average household there uses 12,000 kWh of natural gas.
+A couple of points of reference: in the Las Vegas area, with mild winters, my family consumed 1,420 therms of gas in 2022, with about 72% of this coming in January, February, November and December.  A therm is 100,000 BTU, so my annual gas utility gas gost reflects 142 million BTU.  Converting this into kilowatt hours, that is $142 x 10^6 BTU \times 1 kWh / 3412 BTU = 41,620~kWh$ of thermal energy.  More directly in the teeth of the European energy concerns this past winter, the U.K. energy utility [reported](https://www.ofgem.gov.uk/information-consumers/energy-advice-households/average-gas-and-electricity-use-explained#:~:text=Ofgem%20estimates%20the%20typical%20household,of%20gas%20in%20a%20year) that the average household there uses 12,000 kWh of natural gas.
 
 <STYLE TYPE="text/css">
 <!--
@@ -141,8 +145,8 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
         <th scope="col" style="background-color: #D6EEEE">1 Year of Average U.K. heating (12,000 kWh)</th>
     </tr>
     <tr>
-        <th style="background-color: #D6EEEE">Normal U.S. Natural Gas Prices</th> 
-        <td>$2.50 / MMBTU </td><td> $\times {3.41~MMBTU \over 1000~kWh} =$ </td><td> $0.009 </td><td> $355 </td><td> $102 </td>
+        <th style="background-color: #D6EEEE">Avg. U.S. Natural Gas Prices since 2010</th> 
+        <td>$3.50 / MMBTU </td><td> $\times {3.41~MMBTU \over 1000~kWh} =$ </td><td> $0.011 </td><td> $497 </td><td> $143 </td>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">Ukraine-Elevated U.S. Prices</th> 
@@ -162,9 +166,13 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
     </tr>
 </table>
 
-The above prices are based on traded prices in commodities markets, and are more akin to wholesale prices, with retail prices being even higher after taking into account the costs of delivery and customer service.  However, they give some context to energy prices quoted in the news.  In the U.S., natural gas heating costs are low compared to other parts of the world, and while the Russian invasion of Ukraine caused prices to spike and heating bills to rise at a rate of hundreds of dollars per year.   But in Europe this impact was thousands of dollars per year.  This is why, for example, the U.K. spent on the order of [&pound;70 billion](https://www.reuters.com/business/energy/uk-energy-support-schemes-cost-halved-mild-winter-tames-prices-nao-2023-02-07/) in energy subsidies during the 2022-2023 winter.  The same kind of subsidy-policy impact was achieved in the U.S., only at the $40 / MMBTU gas level in California in early 2023, [where the state responded with energy bill credits to consumers.](https://www.gov.ca.gov/2023/02/06/governor-newsom-calls-for-federal-investigation-of-high-natural-gas-prices-as-california-provides-relief/)
+The above prices are based on traded prices in commodities markets, and are more akin to wholesale prices, with retail prices being even higher after taking into account the costs of delivery and customer service.  However, they give some context to energy prices quoted in the news.  In the U.S., natural gas heating costs are low compared to other parts of the world, and while the Russian invasion of Ukraine caused prices to spike and heating bills to rise at a rate of hundreds of dollars per year.   But in Europe this impact was thousands of dollars per year.  This is why, for example, the U.K. spent on the order of [&pound;70 billion](https://www.reuters.com/business/energy/uk-energy-support-schemes-cost-halved-mild-winter-tames-prices-nao-2023-02-07/) in energy subsidies during the 2022-2023 winter.  The same kind of subsidy-policy impact was achieved in the U.S., only at the $40 / MMBTU gas level in California in early 2023, [where the state responded with energy bill credits to consumers.](https://www.gov.ca.gov/2023/02/06/governor-newsom-calls-for-federal-investigation-of-high-natural-gas-prices-as-california-provides-relief/).
 
-**TABLE WITH examples***
+#### Electricity 
+
+In dealing with electricity, we need to be cognizant of the conversion from thermal energy inputs to electricity outputs.  
+
+For example, since the low cost of natural gas (and electricity generation by natural gas plants) has been identified as an economic culprit for the closure of nuclear power plants in the U.S., we'll benchmark the fuel-component cost of gas-generated electricity against Connecticut's contract to purchase electricity from Millstone power plant at $49.99 per MWh, or $0.05 per kWh.
 
 <STYLE TYPE="text/css">
 <!--
@@ -178,35 +186,61 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
         <th scope="col" style="background-color: #D6EEEE">Base Price</th> 
         <th scope="col" style="background-color: #D6EEEE">Conversion to BTU</th>
         <th scope="col" style="background-color: #D6EEEE">Heat Rate</th>
-        <th scope="col" style="background-color: #D6EEEE">Cost per kWh of Electricity</th>
+        <th scope="col" style="background-color: #D6EEEE">Cost per kWh / MWh of Electricity</th>
     </tr>
     <tr>
-        <th style="background-color: #D6EEEE">Normal U.S. Natural Gas Prices</th> 
-        <td>$2.50</td><td> $\times 1 / 1,000,000$ </td><td> $\times 7500$ </td><td> $= \$0.019$ </td>
+        <th style="background-color: #D6EEEE">Avg. U.S. Natural Gas Prices since 2010</th> 
+        <td>$3.50</td><td> $\times 1 / 1,000,000$ </td><td> $\times 7500$ </td><td> $= \$0.0263 / $26.25$ </td>
     </tr>
     <tr>
-        <th style="background-color: #D6EEEE">Ukraine-Elevated U.S. Prices</th> 
-        <td>$9.00</td><td> $\times 1 / 1,000,000$ </td><td> $\times 7500$ </td><td> $= \$0.068$ </td>
+        <th style="background-color: #D6EEEE">90th Percentile Natural Gas Prices Since 2010</th> 
+        <td>$5.00</td><td> $\times 1 / 1,000,000$ </td><td> $\times 7500$ </td><td> $= \$0.0375 / $37.50 $ </td>
     </tr>
     <tr>
-        <th style="background-color: #D6EEEE"></th> 
-        <td> $ / MMBTU </td><td> $MMBTU / BTU$ </td><td> $BTU / kWh$ electric </td><td> $ / kWh </td>
-    </tr>
-    <tr>
-        <th style="background-color: #D6EEEE">Ukraine-Spike August 2022 European Gas</th> 
-        <td>&euro;340 / MM</td></td><td> $\times{1  \over {3.41 \times 10^6}}$ </td><td> $\times 7500$ </td><td> $=$ &euro; $0.75$ </td>
-    </tr>
-    <tr>
-        <th style="background-color: #D6EEEE">Calmer January 2023 European Gas Prices</th> 
-        <td>&euro;76</td></td><td> $\times{1 \over {3.41 \times 10^6}}$ </td><td> $\times 7500$ </td><td> $=$ &euro; $0.17$ </td>
-    </tr>
-    <tr>
-        <th style="background-color: #D6EEEE"></th> 
-        <td> &euro; / MWh thermal </td><td> $MWh / BTU$ </td><td> $BTU / kWh$ electric </td><td> &euro; / kWh </td>
+        <th style="background-color: #D6EEEE">Ukraine-Driven Spike in U.S. Natural Gas Prices</th>
+        <td>$9.00</td><td> $\times 1 / 1,000,000$ </td><td> $\times 7500$ </td><td> $= \$0.0675 / $67.50$ </td>
     </tr>
 </table>
 
-This gives me a better sense of what was happening in the market.   Compared to an average U.S. retail price price of electriicty of around [$0.14 per kWh in 2021](https://www.eia.gov/todayinenergy/detail.php?id=51438), an increase of $0.05 for the fuel cost of producing a kWh of electricity is a big enough (~30%) increase to catch media and politicians' attention.  But fuel prices up to &euro;0.75 in Europe are staggering and explain the extraordinary measures that European governments went to help citizens absorb these costs. 
+The simple economic criticism of nuclear has some appeal: most of the time, natural gas prices are low enough that the $50 / MWh Connecticut agrement is a higher price for wholesale electricity than would otherwise be available.   But this simple analysis does not take into account the zero-carbon nature of nuclear generation compared to gas.  Nor does it account for the volatility in the gas market and the possibility that as liquefied natural gas exports become more common in the U.S., that the low prices of U.S. gas may converge towards the higher global prices. 
+
+#### Oil
+
+Oil is not frequently used for electricity generation, but it is used for home heating in New England.  Home heating oil is often panned as a more expensive fuel for home heating than natural gas.   I'll test that hypothesis using: (1) the current cost of home heating oil in New England [($3.00 wholesale)](https://www.eia.gov/dnav/pet/pet_pri_wfr_a_EPD2F_PWR_dpgal_w.htm), (2) the trading price of WTI crude oil ($70 / barrel), (3) the February 2023 average natural gas prices in the U.S. ($2.38 / MMBTU) and (4) the March 2023 natural gas prices (&euro;40 per MWh).  
+
+<STYLE TYPE="text/css">
+<!--
+TH{font-family: Arial; font-size: 9pt; text-align: center;}
+TD{font-family: Arial; font-size: 9pt; text-align: center;}
+--->
+</STYLE>
+<table>
+    <tr>
+        <th scope="col" style="background-color: #D6EEEE"> </th> 
+        <th scope="col" style="background-color: #D6EEEE">Base Price</th> 
+        <th scope="col" style="background-color: #D6EEEE">Conversion 1</th>
+        <th scope="col" style="background-color: #D6EEEE">Conversion 2</th>
+        <th scope="col" style="background-color: #D6EEEE">Cost per kWh heating energy</th>
+    </tr>
+    <tr>
+        <th style="background-color: #D6EEEE">Home Heating Oil</th>
+        <td>$3.00 / gallon </td><td> $\times 1 gal / 138,500 BTU$ </td><td> $\times 3412 BTU / 1 kWh$ </td><td> $= \$0.074 $</td>
+    </tr>
+    <tr>
+        <th style="background-color: #D6EEEE">WTI Crude Oil</th>
+        <td>$70 / barrel </td><td> $\times 1 barrel / 5.7 million BTU$ </td><td> $\times 3412 BTU / 1 kWh$ </td><td> $= \$0.042 $</td>
+    </tr>
+    <tr>
+        <th style="background-color: #D6EEEE">U.S. Natural Gas</th>
+        <td>$2.38 / MMBTU </td><td> $\times 3.412 MMBTU / 1 MWh $ </td><td> $\times 1 MWh / 1,000 kWh $ </td><td> $= \$0.008$ </td>
+    </tr>
+    
+    <tr>
+        <th style="background-color: #D6EEEE">Euro Natural Gas</th>
+        <td>&euro;40 / MWh </td><td> $\times 1 EUR / 1.09 USD $ </td><td> $\times 1 MWh / 1,000 kWh $ </td><td> $= \$0.037$ </td>
+    </tr>
+</table>
+
 
 
 
