@@ -190,15 +190,15 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">Avg. U.S. Natural Gas Prices since 2010</th> 
-        <td>$3.50</td><td> $\times 1 / 1,000,000$ </td><td> $\times 7500$ </td><td> $= $0.0263 / $26.25$ </td>
+        <td>$3.50</td><td> $\times 1 / 1,000,000$ </td><td> $\times 7500$ </td><td> $= \$0.0263 / \$26.25$ </td>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">90th Percentile Natural Gas Prices Since 2010</th> 
-        <td>$5.00</td><td> $\times 1 / 1,000,000$ </td><td> $\times 7500$ </td><td> $= $0.0375 / $37.50 $ </td>
+        <td>$5.00</td><td> $\times 1 / 1,000,000$ </td><td> $\times 7500$ </td><td> $= \$0.0375 / \$37.50 $ </td>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">Ukraine-Driven Spike in U.S. Natural Gas Prices</th>
-        <td>$9.00</td><td> $\times 1 / 1,000,000$ </td><td> $\times 7500$ </td><td> $= $0.0675 / $67.50$ </td>
+        <td>$9.00</td><td> $\times 1 / 1,000,000$ </td><td> $\times 7500$ </td><td> $= \$0.0675 / \$67.50$ </td>
     </tr>
 </table>
 
