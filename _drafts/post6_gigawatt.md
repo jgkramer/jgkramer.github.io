@@ -232,11 +232,11 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">U.S. Natural Gas</th>
-        <td>$2.38 / MMBTU </td><td> $\times 3.412 MMBTU / 1 MWh $ </td><td> $\times 1 MWh / 1,000 kWh $ </td><td> $= \$0.008$ </td>
+        <td>$2.38 / MMBTU </td><td> $\times 3.412 MMBTU / 1 MWh$ </td><td> $\times 1 MWh / 1,000 kWh$ </td><td> $= \$0.008$ </td>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">Euro Natural Gas</th>
-        <td>&euro;40 / MWh </td><td> $\times 1 EUR / 1.09 USD $ </td><td> $\times 1 MWh / 1,000 kWh $ </td><td> $= \$0.037$ </td>
+        <td>&euro;40 / MWh </td><td> $\times 1 EUR / 1.09 USD$ </td><td> $\times 1 MWh / 1,000 kWh$ </td><td> $= \$0.037$ </td>
     </tr>
 </table>
 
