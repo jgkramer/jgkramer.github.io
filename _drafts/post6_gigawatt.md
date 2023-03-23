@@ -21,7 +21,7 @@ I sometimes find it frustrating as an observer of energy markets and policy to u
 
 - **Global Energy Consumption**.  BP's [Statistical Review of World Energy 2022] reported that global primary energy consumption was 595 exajoules (EJ), 31 EJ above 2020 and 8 EJ higher than the pre-COVID 2019 levels.
 
-- **Utility Bills**.  Electricity customers are generally billed in cents per kilowatt-hour (kWh).  Utility natural gas seems to be more varied: in Connecticut I was billed per "CCF" (hundred cubic feet).  In Nevada I am billed per "Therm" (100,000 BTU).   In Europe, natural gas is typicallyd billed per kWh.   In Australia, billing for gas is in megajoules (MJ).  Heating oil is sold in gallons. 
+- **Utility Bills**.  Electricity customers are generally billed in cents per kilowatt-hour (kWh).  Utility natural gas is frequently billed in "CCF" (hundred cubic feed) or "Therms" (100,000 BTU), which are actually equivalent.  In Europe, natural gas is typically billed per kWh.   In Australia, billing for gas is in megajoules (MJ).  
 
 This is heavy. 
 
@@ -29,7 +29,7 @@ This is heavy.
 
 ### Energy and Power
 
-A **joule** is the standard (SI) unit of **energy**, equivalent the work done by applying 1 Newton of force over 1 meter of distance.  A 500 mL single-serve bottole of Poland Spring water has a mass of 0.5 kg.  Gravity on the Earth's surface causes acceleration of ~10 $m/s^2$,[^1] so the weight of gravity applies about $0.5 kg \times 10 m / s^2 = 5 N$ of force on the bottle.  
+A **joule** is the standard (SI) unit of **energy**, equivalent the work done by applying 1 Newton of force over 1 meter of distance.  A 500 mL single-serve bottole of Poland Spring water has a mass of 0.5 kg.  Gravity on the Earth's surface causes acceleration of ~10 $m/s^2$,[^1] so the weight of gravity applies about $0.5~kg \times 10~m s^2 = 5 N$ of force on the bottle.  
 
 [^1].  Actually $9.8 m/s^2$, but the math is simpler at 10. 
 
