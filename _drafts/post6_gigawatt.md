@@ -37,18 +37,20 @@ If I apply 5 N of upward force to offset the gravity and lift the bottle to a he
 
 **Power** is a rate of energy flow or energy transfer, and is measured in quantity of energy per unit time.  A **watt** is the SI unit, defined as joules per second.   Lifting and dropping a liter bottle from a height of 1 meter (5 J each) once per second generates power at a rate of 5 watts.  If this could be harnessed with a cable, pulley and alternator system (this is the basic principle behind gravity based storage), for example, it theoretically would be enough power to light up the lightbulb on my night table.[^2]
 
-[^2].  *What the hell is a gigawatt??*  It's 1 billion watts, about the power output from a large convential powerplant such as a nuclear, coal or natural gas plant.  Comparing this to dropping bottles of water?  A double decker Airbus A380 airplane has a mass of about half a million kilograms when full.   200 of these super-jumbo jets together represents 100 million kilograms, and raising them all one meter off the ground gives them $(100 \times 10^6~kg) \times 10m/s^2 \times 1 m = 10^9 J$ or 1 gigajoule of gravitational potential energy.  Dropping them to the ground over the course of 1 second converts that energy into kinetic energy at a rate of 1 GJ per second, a power rate of 1 gigawatt (GW).  Do that over and over again and you've got yourself a 1 gigawatt power plant.  Obviously, doing this with 242 planes gives you 1.21 gigawatts.
+[^2].  *What the hell is a gigawatt??*  It's 1 billion watts, about the power output from a large convential powerplant such as a nuclear, coal or natural gas plant.  Comparing this to dropping bottles of water?  A double decker Airbus A380 airplane has a mass of about half a million kilograms when full.   200 of these super-jumbo jets together represents 100 million kilograms, and raising them all one meter off the ground gives them $(100 \times 10^6~kg) \times 10m/s^2 \times 1 m = 10^9 J$ or 1 gigajoule of gravitational potential energy.  Dropping them to the ground over the course of 1 second converts that energy into kinetic energy at a rate of 1 GJ per second, a power rate of 1 gigawatt (GW).  Do that over and over again and you've got yourself a 1 gigawatt power plant.  Doing this with 242 planes gives you 1.21 gigawatts.
 
 Taking this relationship backwards, a joule is the amount of energy delivered from one watt of power for one second; in other words, a joule equals 
 one "watt second."  Since one hour is 3,600 seconds, a **watt hour** is 3,600 joules and the unit of consumption for residential electricity, a **kilowatt  hour (kWh)** is one thousand of those: 3,600,000 joules or 3.6 megajoules (MJ).
 
-To compare some big numbers across markets. 
-- The U.S. generates and consumes [about 4,000 TWh](https://www.eia.gov/energyexplained/electricity/electricity-in-the-us-generation-capacity-and-sales.php) of electricity per year.   A terawatt hour is one billion kWh, so this is $(4,000 \times 10^9 kWh) \times (3.6 \times 10^6 J / kWh) = 1.44 \times 10^{19} J$.  $10^{18}$ gets a prefix "exa", so this is 14.4 exajoules (14.4 EJ). 
-- So the U.S. **electricity consumption** alone (not including other uses of energy like heat and transportation) represents 2.3% of the 595 EJ of total global primary energy consumption in 2021.
-- By contrast, the United State's broader total primary energy consumption in 2021 was 93 EJ, about 16% of global energy consumption.
+To compare some big numbers at the macroscopic scale:  
 
-That is energy.   How about power? 
-- Simply dividing 4,000 TWh of annual electricity generation by $365 \times 24 = 8,760$ hours per year gives us an **average power** consumption of 0.46 terawatts or 456 GW.  According to the EIA, at the end of 2021 the U.S. had [1,144 GW total](https://www.eia.gov/energyexplained/electricity/electricity-in-the-us-generation-capacity-and-sales.php) of utility-scale electricity generation capacity, or about 2.5x the average power consumption (this ratio makes sense given the significant deviations across hours of the day and seasons of electricity usage). 
+- The U.S. generates and consumes [about 4,000 TWh](https://www.eia.gov/energyexplained/electricity/electricity-in-the-us-generation-capacity-and-sales.php) of electricity per year.   A terawatt hour is one billion kWh, so this is $(4,000 \times 10^9 kWh) \times (3.6 \times 10^6 J / kWh) = 1.44 \times 10^{19} J$.  $10^{18}$ gets a prefix "exa", so this is 14.4 exajoules (14.4 EJ). 
+- So U.S. **electricity consumption** alone (not including other uses of energy like heat and transportation) represents 2.3% of the 595 EJ of total global primary energy consumption in 2021.
+- By contrast, the United State's broader total primary energy consumption in 2021 was 93 EJ, about 16% of global energy consumption.
+- Note that electricity consumption in the U.S. reflects only ~15% of total energy use. 
+
+That's energy.  How about power? 
+- Simply dividing 4,000 TWh of annual electricity generation by $365 \times 24 = 8,760$ hours per year gives us an **average power** consumption of 0.456 terawatts or 456 GW.  According to the EIA, at the end of 2021 the U.S. had [1,144 GW total](https://www.eia.gov/energyexplained/electricity/electricity-in-the-us-generation-capacity-and-sales.php) of utility-scale electricity generation capacity, or about 2.5x the average power consumption (this ratio makes sense given the significant deviations across hours of the day and seasons of electricity usage). 
 
 #### Another Unit: BTU's
 
@@ -110,14 +112,14 @@ A barrel of oil is 42 gallons.   More relevant to this conversation: a barrell o
 Another important concept is the difference in forms of energy.  Most relevant to energy markets are two kinds: thermal (heat) energy and electrical 
 energy.  **Fuels** can be thought of as containing thermal energy (stored in chemical bonds and released through combustion).   These can be: 
 
-(1) Combusted and the resulting heat consumed directly, as with utility natural gas burned in my home's furnace to heat my house; or 
-(2) Combusted and the resulting heat used in a heat engine or turbine to convert the energy to electrical energy, as with natural gas burned in a power plant to heat another gas that drives a turbine which in turn generates electricity. 
+1. Combusted and the resulting heat consumed directly, as with utility natural gas burned in my home's furnace to heat my house; or 
+2. Combusted and the resulting heat used in a heat engine or turbine to convert the energy to electrical energy, as with natural gas burned in a power plant to heat another gas that drives a turbine which in turn generates electricity. 
 
-Modern furnaces are very efficient, and in usage (1) above more than 95% of the thermal energy stored in natural gas, for example, can be captured to heat a home.  Converting heat energy to electrical energy via (2) results in lost energy due to the thermodynamic constraints of heat engines.[^4]
+Modern furnaces are very efficient.  In usage (1) above more than 95% of the thermal energy stored in natural gas, for example, can be captured to heat a home.  Converting heat energy to electrical energy via (2) results in lost energy due to the thermodynamic constraints of heat engines.[^4]
 
-[^4].  Carnot's Theorem states that a heat engine operating between a hot temperature $T_H$ (measured against absolute zero) and a cold temperature $T_C$ cannot have efficiency exceeding ${T_H - T_C} \over T_H$.  
+[^4].  Carnot's Theorem states that a heat engine operating between a hot temperature $T_H$ (measured against absolute zero) and a cold temperature $T_C$ cannot have efficiency exceeding ${T_H - T_C} \over T_H$.
 
-In practice, the efficiency of a power plant's conversion of thermal energy in fuel into electrical energy is quantified by the plant's **Heat Rate**.  Heat rate is [generally defined](https://www.eia.gov/tools/faqs/faq.php?id=107&t=3) as the amount of fuel energy required to generate a given amount of eletricity.  In the U.S., this is typically cited in BTU's of (thermal) energy input required to generate 1 kWh of electricity.   1 kWh is 3,412 BTU's, so all heat rates are higher than 3,412.  A heat rate of 6,800 has a 50% energy conversion efficiency: fuel with 6,800 BTU of thermal energy is needed to produce 3,400 kWh of electricity.  Efficient natural gas plants have heat rates in the [7,000 to 8,000 area](https://www.eia.gov/electricity/annual/html/epa_08_01.html), with coal plants around 10,000.
+In practice, the efficiency of a power plant's conversion of thermal energy in fuel into electrical energy is quantified by the plant's **heat rate**.  Heat rate is [generally defined](https://www.eia.gov/tools/faqs/faq.php?id=107&t=3) as the amount of fuel energy required to generate a given amount of eletricity.  In the U.S., this is typically quoted as the number of BTU's of (thermal) energy input required to generate 1 kWh of electricity.   1 kWh is 3,412 BTU's, so all heat rates are higher than 3,412.  A heat rate of 6,800 has a 50% energy conversion efficiency: fuel with 6,800 BTU of thermal energy is needed to produce 3,400 kWh of electricity.  Efficient natural gas plants have heat rates in the [7,000 to 8,000 area](https://www.eia.gov/electricity/annual/html/epa_08_01.html), with coal plants around 10,000.
 
 In European countries where thermal energy tends to be quoted in kWh / MWh, this concept is more directly expressed in [percentage efficiency](https://www.statista.com/statistics/548943/thermal-efficiency-gas-turbine-stations-uk/), i.e., a 50% effcient natural gas plant requires 2 kWh of gas to generate 1 kWh of electricity. 
  
@@ -202,11 +204,11 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
     </tr>
 </table>
 
-The simple economic criticism of nuclear has some appeal: most of the time, natural gas prices are low enough that the $50 / MWh Connecticut agrement is a higher price for wholesale electricity than would otherwise be available.   But this simple analysis does not take into account the zero-carbon nature of nuclear generation compared to gas.  Nor does it account for the volatility in the gas market and the possibility that as liquefied natural gas exports become more common in the U.S., that the low prices of U.S. gas may converge towards the higher global prices. 
+The simple economic criticism of nuclear has some appeal: most of the time, natural gas prices are low enough that the $50 / MWh Connecticut agrement is a higher price for wholesale electricity than would otherwise be available (the brekaeven is around $6.67).  But this simple analysis does not take into account the zero-carbon nature of nuclear generation compared to gas.  Nor does it account for the volatility in the gas market and the possibility that as liquefied natural gas exports become more common in the U.S., that the low prices of U.S. gas may converge towards the higher global prices. 
 
 #### Oil
 
-Oil is not frequently used for electricity generation, but it is used for home heating in New England.  Home heating oil is often panned as a more expensive fuel for home heating than natural gas.   I'll test that hypothesis using: (1) the current cost of home heating oil in New England [($3.00 wholesale)](https://www.eia.gov/dnav/pet/pet_pri_wfr_a_EPD2F_PWR_dpgal_w.htm), (2) the trading price of WTI crude oil ($70 / barrel), (3) the February 2023 average natural gas prices in the U.S. ($2.38 / MMBTU) and (4) the March 2023 natural gas prices (&euro;40 per MWh).  
+Oil is not frequently used for electricity generation, but it is used for home heating in New England.  Home heating oil is often regarded as a more expensive fuel for home heating than natural gas.   I'll test that hypothesis using: (1) the current cost of home heating oil in New England [($3.00 wholesale)](https://www.eia.gov/dnav/pet/pet_pri_wfr_a_EPD2F_PWR_dpgal_w.htm), (2) the trading price of WTI crude oil ($70 / barrel), (3) the trading price of Henry Hub natural gas in the U.S. in February 2023 ($2.38 / MMBTU for Henry Hub) and (4) the trading price of Dutch TTF natural gas in Europe as of March 2023 (&euro;40 per MWh).  
 
 <STYLE TYPE="text/css">
 <!--
@@ -240,6 +242,7 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
     </tr>
 </table>
 
+The relationship between the first two prices is intuitive: heating oil is a more finished product and its price reflects both the cost of the raw input commodity, crude oil, as well as the costs of processing.  Homes aren't heated with crude oil directly.  
 
-
+The price per kWh of natural gas heating seems shockingly low compared to heating oil, cheaper by a factor of ~9x.  By contrast, the EIA estimates that oil-heating homes costs about [2.5x the cost](https://www.eia.gov/outlooks/steo/report/winterfuels.php) of gas-heating homes.   What is likely happening there is that the heating oil price, being a finished product that is relatively cheap and easy to transport, likely represents a price that is close to that paid by retail customers.  Natural gas commodity trading levels, by contrast, is the price of a product that is far away from end customers.  Natural gas is difficult and costly to store and transport, and as such the residential price is often [multiples of the traded price](https://www.eia.gov/todayinenergy/detail.php?id=20272).
 
