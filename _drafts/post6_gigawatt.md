@@ -148,19 +148,19 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">Avg. U.S. Natural Gas Prices since 2010</th> 
-        <td>$3.50 / MMBTU </td><td> $\times 3.41~MMBTU / 1000~kWh$ </td><td> $0.011 </td><td> $497 </td><td> $143 </td>
+        <td>$3.50 / MMBTU </td><td> $\times 3.41~MMBTU / 1000~kWh$ </td><td> $= \$0.011$ </td><td> $497 </td><td> $143 </td>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">Ukraine-Elevated U.S. Prices</th> 
-        <td>$9.00 / MMBTU </td><td> $\times 3.41~MMBTU / 1000~kWh$ </td><td> $0.031 </td><td> $1,278 </td><td> $368 </td>
+        <td>$9.00 / MMBTU </td><td> $\times 3.41~MMBTU / 1000~kWh$ </td><td> $= \$0.031$ </td><td> $1,278 </td><td> $368 </td>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">California Supply-Disrupted Gas Prices</th>
-        <td>$40.00 / MMBTU </td><td> $\times 3.41~MMBTU / 1000~kWh$ </td><td> $0.137 </td><td> $5,680 </td><td> $1,637 </td>
+        <td>$40.00 / MMBTU </td><td> $\times 3.41~MMBTU / 1000~kWh$ </td><td> $= \$0.137$ </td><td> $5,680 </td><td> $1,637 </td>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">2020 European Gas Prices</th> 
-        <td>&euro;15 / MWh </td> <td> $\times 1.05 USD / EUR \times 1 MWh / 1000 kWh$ </td><td>$0.016</td><td> $656 </td> <td> $189 </td>
+        <td>&euro;15 / MWh </td> <td> $\times 1.05 USD / EUR \times 1 MWh / 1000 kWh$ </td><td> $= \$0.016$</td><td> $656 </td> <td> $189 </td>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">Ukraine-Spike August 2022 European Gas</th> 
