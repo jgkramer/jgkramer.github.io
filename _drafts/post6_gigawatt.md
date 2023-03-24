@@ -17,9 +17,9 @@ I sometimes find it frustrating as an observer of energy markets and policy to u
 
 - **Wholesale electricity**  In February 2023, New England faced a cold snap that saw next-day wholesale electricity prices jump ["by 140% to about $237 per megawatt hour."](https://www.reuters.com/business/energy/wholesale-power-prices-spike-us-northeast-arctic-blast-arrives-2023-02-03/).  In 2020 the Millstone nuclear plant in Connecticut was kept in operation in part for a deal where the plant operator was guaranteed to sell half of its generation for [$49.99 per MWh](https://www.cga.ct.gov/2020/rpt/pdf/2020-R-0203.pdf).
 
-- **Global Energy Consumption**.  BP's [Statistical Review of World Energy 2022] reported that global primary energy consumption was 595 exajoules (EJ), 31 EJ above 2020 and 8 EJ higher than the pre-COVID 2019 levels.
+- **Global Energy Consumption**.  BP's [Statistical Review of World Energy 2022](https://www.bp.com/content/dam/bp/business-sites/en/global/corporate/pdfs/energy-economics/statistical-review/bp-stats-review-2022-full-report.pdf) reported that global primary energy consumption was 595 exajoules (EJ) in 2021, 31 EJ above 2020 and 8 EJ higher than the pre-COVID 2019 levels.
 
-- **Utility Bills**.  Electricity customers are generally billed in cents per kilowatt-hour (kWh).  Utility natural gas is frequently billed in "CCF" (hundred cubic feed) or "Therms" (100,000 BTU), which are actually equivalent.  In Europe, natural gas is typically billed per kWh.   In Australia, billing for gas is in megajoules (MJ).  
+- **Utility Bills**.  Electricity customers are generally billed in cents per kilowatt-hour (kWh).  Utility natural gas is frequently billed in "CCF" (hundred cubic feed) or "Therms" (100,000 BTU).  In Europe, natural gas is typically billed per kWh.   In Australia, billing for gas is in megajoules (MJ). 
 
 - **Oil**.  And of course, crude oil is always quoted by market participants in dollars per **barrel**.  And heating oil is sold in gallons. 
 
