@@ -134,9 +134,9 @@ In usage (1) above more than 95% of the thermal energy stored in natural gas, fo
 
 [^6].  Carnot's Theorem states that a heat engine operating between a hot temperature $T_H$ (measured against absolute zero) and a cold temperature $T_C$ cannot have efficiency exceeding ${T_H - T_C} \over T_H$.
 
-In practice, the efficiency of a power plant's conversion of thermal energy in fuel into electrical energy is quantified by the plant's **heat rate**.  Heat rate is [generally defined](https://www.eia.gov/tools/faqs/faq.php?id=107&t=3) as the amount of fuel energy required to generate a given amount of eletricity.  In the U.S., this is quoted as the number of BTU's of (thermal) energy input required to generate 1 kWh of electricity.   1 kWh is 3,412 BTU's, so all heat rates are higher than 3,412.  A heat rate of 6,800 has a 50% energy conversion efficiency: fuel with 6,800 BTU of thermal energy is needed to produce 3,400 kWh of electricity.  Efficient natural gas plants have heat rates in the [7,000 to 8,000 area](https://www.eia.gov/electricity/annual/html/epa_08_01.html), with coal plants around 10,000.
+The efficiency of a power plant's conversion of thermal energy in fuel into electrical energy is referred to as the plant's **heat rate**.  Heat rate is [generally defined](https://www.eia.gov/tools/faqs/faq.php?id=107&t=3) as the amount of fuel energy required to generate a given amount of eletricity.  In the U.S., this is quoted as the number of BTU's of (thermal) energy input required to generate 1 kWh of electricity.   1 kWh is 3,412 BTU's, so all heat rates are higher than 3,412.  A heat rate of 6,800 has a 50% energy conversion efficiency: fuel with 6,800 BTU of thermal energy is needed to produce 3,400 kWh of electricity.  Efficient natural gas plants have heat rates in the [7,000 to 8,000 area](https://www.eia.gov/electricity/annual/html/epa_08_01.html), with coal plants around 10,000.
 
-In European countries where thermal energy tends to be quoted in kWh or MWh, this concept is more directly expressed in [percentage efficiency](https://www.statista.com/statistics/548943/thermal-efficiency-gas-turbine-stations-uk/), i.e., a 50% effcient natural gas plant requires 2 kWh of gas to generate 1 kWh of electricity. 
+In European countries where thermal energy is quoted in kWh or MWh, this concept is more directly expressed in [percentage efficiency](https://www.statista.com/statistics/548943/thermal-efficiency-gas-turbine-stations-uk/), i.e., a 50% effcient natural gas plant requires gas with 2 kWh of thermal energy to generate 1 kWh of electricity.
  
 ### Applications
 
@@ -144,7 +144,7 @@ In European countries where thermal energy tends to be quoted in kWh or MWh, thi
 
 Now we are equipped to wrangle some of the disparate price quotations we have seen.  We'll begin with a simple one: the prices of natural gas, as used directly by consumers for thermal energy.  
 
-A couple of points of reference: in the Las Vegas area, with mild winters, my family consumed 1,420 therms of gas in 2022, with about 72% of this coming in January, February, November and December.  A therm is 100,000 BTU, so my annual gas utility gas gost reflects 142 million BTU.  Converting this into kilowatt hours, that is $142 \times 10^6 BTU \times 1 kWh / 3412 BTU = 41,620~kWh$ of thermal energy.  Friends of ours in Connecticut consume about 2,300 therms of gas in a year, equivalent to 67400 kWh.  
+A couple of points of reference: in the Las Vegas area, with mild winters, my family consumed 1,420 therms of gas in 2022, with about 72% of this coming in January, February, November and December.  A therm is 100,000 BTU, so my annual gas utility gas gost reflects 142 million BTU.  Converting this into kilowatt hours, that is $142 \times 10^6 BTU \times 1 kWh / 3412 BTU = 41,620~kWh$ of thermal energy.  Friends of ours in Connecticut consume about 2,300 therms of gas in a year, about $67,400\ kWh$.  
 
 <STYLE TYPE="text/css">
 <!--
@@ -262,3 +262,7 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
 The relationship between the first two prices is intuitive: heating oil is a more finished product and its price reflects both the cost of the raw input commodity, crude oil, as well as the costs of processing.  Homes aren't heated with crude oil directly.  
 
 The price per kWh of natural gas heating seems shockingly low compared to heating oil, cheaper by a factor of ~9x.  By contrast, the EIA estimates that oil-heating homes costs about [2.5x the cost](https://www.eia.gov/outlooks/steo/report/winterfuels.php) of gas-heating homes.   What is likely happening there is that the heating oil price, being a finished product that is relatively cheap and easy to transport, likely represents a price that is close to that paid by retail customers.  Natural gas commodity trading levels, by contrast, is the price of a product that is far away from end customers.  Natural gas is difficult and costly to store and transport, and as such the residential price is often [multiples of the traded price](https://www.eia.gov/todayinenergy/detail.php?id=20272).
+
+### Wrap
+
+Plutonium isn't yet available in every corner drug store, but multiplication and dimensional analysis is readily available to help make sense of a lot of energy numbers floating around.  Safe travels!
