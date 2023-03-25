@@ -52,7 +52,7 @@ To compare some energy numbers at the macroscopic scale:
 
 And power:
 
-- Simply dividing my 30,000 kWh of annual electricity use in a year by $365 \times 24 = 8,760$ gives an **average power consumption** for my house of 3.4 kW.  But my [actual power usage](https://jgkramer.github.io/2022/11/07/Electricity_Usage_Anecdotes.html) ranges from ~1 kW to a peak power of ~14 kW with the air conditioners running full-blast in the summer.  The difference between average power and peak power is why one needs to be skeptical in reading stats stating how many homes a power plant can power [(which often consider only averages)](https://www.cnet.com/home/energy-and-utilities/gigawatt-the-solar-energy-term-you-should-know-about/).
+- Simply dividing my 30,000 kWh of annual electricity use in a year by $365 \times 24 = 8,760$ gives an **average power consumption** for my house of 3.4 kW.  But my [actual power usage](https://jgkramer.github.io/2022/11/07/Electricity_Usage_Anecdotes.html) ranges from ~1 kW to a peak power of ~14 kW with the air conditioners running full-blast in the summer.  The difference between average power and peak power is why one needs to be careful in reading stats stating how many homes [power plants can serve](https://www.cnet.com/home/energy-and-utilities/gigawatt-the-solar-energy-term-you-should-know-about/), especially when it comes to renewable sources where generation is non-constant.
 - For the entire U.S., dividing $4,000\ TWh$ by 8,760 hours per year gives us an **average U.S. power** consumption of 0.456 terawatts or 456 GW.  According to the EIA, at the end of 2021 the U.S. had [1,144 GW total](https://www.eia.gov/energyexplained/electricity/electricity-in-the-us-generation-capacity-and-sales.php) of utility-scale electricity generation capacity, or about 2.5x the average power consumption.  This "overcapacity" makes sense given the significant deviations across hours of the day and seasons of electricity usage.
 
 #### Another Unit: BTU's
@@ -65,7 +65,7 @@ BTU's are also a typical unit of sizing for air conditioning units in the U.S. (
 
 [^4].  It's called a "ton" because melting a ton of ice requires [286,000 BTU](https://davisac.com/blog/the-reason-air-conditioner-capacity-is-measured-in-tons#:~:text=Rounding%20up%2011%2C917%20Btu%2Fhr,ton%20of%20air%20conditioner%20capacity) of thermal energy: spread over 24 hours, this is about 12,000 BTU per hour of heat transfer.   Sounds pretty heavy!
 
-#### Comparison Table
+#### Conversion Reference Table
 
 Here is a conversion table between watt hours, joules and BTU.
 
