@@ -105,6 +105,14 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
 
 A barrel of oil is 42 gallons.   More relevant to this conversation: a barrell of oil contains [5.7 million BTU](https://www.eia.gov/energyexplained/units-and-calculators/).  And a gallon of home heating oil (how I used to heat my old home in Connecticut) has 138,500 BTU of thermal energy.
 
+How important is oil to the global energy mix? 
+
+- Global oil production as of 2021 is about [90 million barrels per day](https://www.statista.com/statistics/265203/global-oil-production-since-in-barrels-per-day), or about 32.8 billion barrels per year.
+- In energy terms this equates to $32.8 x 10^9 bbl \times 5.7 MMBTU / bbl \times 3.6 EJ / 3.4 x 10^9 MMBTU = 198 EJ$ of total energy.   
+- Oil therefore speaks for one-third of global primary energy consumption of 595 EJ.[^4]
+
+[^4].  BP's statistical review reports that coal and natural gas each represent another ~25% of total energy consumption, with nuclear, hydro and renewables representing the rest. 
+
 ### Thermal Energy vs. Electrical Energy
 
 #### Heat Engines and Heat Rate
@@ -247,4 +255,3 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
 The relationship between the first two prices is intuitive: heating oil is a more finished product and its price reflects both the cost of the raw input commodity, crude oil, as well as the costs of processing.  Homes aren't heated with crude oil directly.  
 
 The price per kWh of natural gas heating seems shockingly low compared to heating oil, cheaper by a factor of ~9x.  By contrast, the EIA estimates that oil-heating homes costs about [2.5x the cost](https://www.eia.gov/outlooks/steo/report/winterfuels.php) of gas-heating homes.   What is likely happening there is that the heating oil price, being a finished product that is relatively cheap and easy to transport, likely represents a price that is close to that paid by retail customers.  Natural gas commodity trading levels, by contrast, is the price of a product that is far away from end customers.  Natural gas is difficult and costly to store and transport, and as such the residential price is often [multiples of the traded price](https://www.eia.gov/todayinenergy/detail.php?id=20272).
-
