@@ -7,7 +7,9 @@ author: "Great Scott"
 excerpt_separator: <!--more-->
 ---
 
-I sometimes find it frustrating as an observer of energy markets and policy to understand the quantities those markets deal in.  News and commentators quote prices in units that consumers may be unfamiliar with, making it difficult to intuit the importance of those prices.  Here are some examples: 
+I sometimes find it frustrating as an observer of energy markets and policy to understand the quantities those markets deal in.  News and commentators quote prices in units that consumers may be unfamiliar with, making it difficult to intuit the importance of those prices.  This post will serve as a gentle reference for what energy quantities mean and how to convert between different standard market conventions. 
+
+Here are some examples: 
 
 - **War in Ukraine**  European wholesale natural gas prices (Dutch Title Transfer Facility or Dutch TTF) ran from &euro;88 per MegaWatt hour (MWh) in February 2022 before Russia's invasion of Ukraine, to a peak of &euro;340 per MWh in August 2022 when concerns about a shortage ran highest.   After conservation efforts, European countries securing liquefied natural gas imports, and a warmer-than-feared winter, prices fell back to [&euro;76](https://www.nytimes.com/2023/01/03/business/europe-natural-gas-prices.html) by January 2023 and to [&euro;40](https://www.nasdaq.com/articles/europe-gas-dutch-benchmark-hits-19-month-low-on-strong-winds-and-milder-weather) by March.  In 2020, these prices were under &euro;20 per MWh.
 
@@ -19,7 +21,7 @@ I sometimes find it frustrating as an observer of energy markets and policy to u
 
 - **Global Energy Consumption**.  BP's [Statistical Review of World Energy 2022](https://www.bp.com/content/dam/bp/business-sites/en/global/corporate/pdfs/energy-economics/statistical-review/bp-stats-review-2022-full-report.pdf) reported that global primary energy consumption was 595 exajoules (EJ) in 2021, 31 EJ above 2020 and 8 EJ higher than the pre-COVID 2019 levels.
 
-- **Utility Bills**.  Electricity customers are generally billed in cents per kilowatt-hour (kWh).  Utility natural gas is frequently billed in "CCF" (hundred cubic feed) or "Therms" (100,000 BTU).  In Europe, natural gas is typically billed per kWh.   In Australia, billing for gas is in megajoules (MJ). 
+- **Utility Bills**.  Electricity customers are generally billed in cents per kilowatt-hour (kWh).  Utility natural gas is frequently billed in "Therms" (100,000 BTU) or "CCF" (hundred cubic feed, which is 1.037 Therms).  In Europe, natural gas is typically billed per kWh.   In Australia, billing for gas is in megajoules (MJ). 
 
 - **Oil**.  And of course, crude oil is always quoted by market participants in dollars per **barrel**.  And heating oil is sold in gallons. 
 
@@ -123,9 +125,9 @@ energy.  **Fuels** can be thought of as containing thermal energy (stored in che
 1. Combusted and the resulting heat consumed directly, as with utility natural gas burned in my home's furnace to heat my house; or 
 2. Combusted and the resulting heat used in a heat engine or turbine to convert the energy to electrical energy, as with natural gas burned in a power plant to heat another gas that drives a turbine which in turn generates electricity. 
 
-Modern furnaces are very efficient.  In usage (1) above more than 95% of the thermal energy stored in natural gas, for example, can be captured to heat a home.  Converting heat energy to electrical energy via (2) results in lost energy due to the thermodynamic constraints of heat engines.[^4]
+Modern furnaces are very efficient.  In usage (1) above more than 95% of the thermal energy stored in natural gas, for example, can be captured to heat a home.  Converting heat energy to electrical energy via (2) results in lost energy due to the thermodynamic constraints of heat engines.[^5]
 
-[^4].  Carnot's Theorem states that a heat engine operating between a hot temperature $T_H$ (measured against absolute zero) and a cold temperature $T_C$ cannot have efficiency exceeding ${T_H - T_C} \over T_H$.
+[^5].  Carnot's Theorem states that a heat engine operating between a hot temperature $T_H$ (measured against absolute zero) and a cold temperature $T_C$ cannot have efficiency exceeding ${T_H - T_C} \over T_H$.
 
 In practice, the efficiency of a power plant's conversion of thermal energy in fuel into electrical energy is quantified by the plant's **heat rate**.  Heat rate is [generally defined](https://www.eia.gov/tools/faqs/faq.php?id=107&t=3) as the amount of fuel energy required to generate a given amount of eletricity.  In the U.S., this is typically quoted as the number of BTU's of (thermal) energy input required to generate 1 kWh of electricity.   1 kWh is 3,412 BTU's, so all heat rates are higher than 3,412.  A heat rate of 6,800 has a 50% energy conversion efficiency: fuel with 6,800 BTU of thermal energy is needed to produce 3,400 kWh of electricity.  Efficient natural gas plants have heat rates in the [7,000 to 8,000 area](https://www.eia.gov/electricity/annual/html/epa_08_01.html), with coal plants around 10,000.
 
