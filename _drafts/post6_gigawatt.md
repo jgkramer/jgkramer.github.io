@@ -113,7 +113,7 @@ A barrel of oil is 42 gallons.   One barrel of crude oil contains about [5.7 mil
 How important is oil to the global energy mix? 
 
 - Global oil production as of 2021 is about [90 million barrels per day](https://www.statista.com/statistics/265203/global-oil-production-since-in-barrels-per-day), or about 32.8 billion barrels per year.
-- In energy terms this equates to $32.8 x 10^9 bbl \times 5.7 MMBTU / bbl \times 3.6 EJ / 3.4 x 10^9 MMBTU = 198 EJ$ of total energy.   
+- In energy terms this equates to $32.8 \times 10^9~bbl \times 5.7~MMBTU / bbl \times 3.6~EJ / 3.4 \times 10^9 MMBTU = 198 EJ$ of total energy.   
 - Oil therefore speaks for one-third of global primary energy consumption of 595 EJ.[^5]
 
 [^5].  BP's statistical review reports that coal and natural gas each represent another ~25% of total energy consumption, with nuclear, hydro and renewables representing the rest. 
