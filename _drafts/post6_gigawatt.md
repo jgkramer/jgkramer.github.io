@@ -241,19 +241,19 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">Home Heating Oil</th>
-        <td>$3.00 / gallon </td><td> $\times 1 gal / 138,500 BTU$ </td><td> $\times 3412 BTU / 1 kWh$ </td><td> $= \$0.074 $</td>
+        <td>$3.00 / gallon </td><td> $\times 1\ gal / 138,500\ BTU$ </td><td> $\times 3412\ BTU / 1\ kWh$ </td><td> $= \$0.074 $</td>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">WTI Crude Oil</th>
-        <td>$70 / barrel </td><td> $\times 1 barrel / 5.7 million BTU$ </td><td> $\times 3412 BTU / 1 kWh$ </td><td> $= \$0.042 $</td>
+        <td>$70 / barrel </td><td> $\times 1\ barrel / 5.7\ million\ BTU$ </td><td> $\times\ 3412 BTU / 1 kWh$ </td><td> $= \$0.042 $</td>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">U.S. Natural Gas</th>
-        <td>$2.38 / MMBTU </td><td> $\times 3.412 MMBTU / 1 MWh$ </td><td> $\times 1 MWh / 1,000 kWh$ </td><td> $= \$0.008$ </td>
+        <td>$2.38 / MMBTU </td><td> $\times 3.412 MMBTU / 1 MWh$ </td><td> $\times 1\ MWh / 1,000\ kWh$ </td><td> $= \$0.008$ </td>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">Euro Natural Gas</th>
-        <td>&euro;40 / MWh </td><td> $\times 1 EUR / 1.09 USD$ </td><td> $\times 1 MWh / 1,000 kWh$ </td><td> $= \$0.037$ </td>
+        <td>&euro;40 / MWh </td><td> $\times 1\ EUR / 1.09\ USD$ </td><td> $\times 1\ MWh / 1,000\ kWh$ </td><td> $= \$0.037$ </td>
     </tr>
 </table>
 
