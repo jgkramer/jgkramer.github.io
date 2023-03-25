@@ -39,28 +39,33 @@ If I apply 5 N of upward force to offset gravity and lift the bottle 1 meter fro
 
 [^2].  *What the hell is a gigawatt??*  It's 1 billion watts, about the power output from a large convential powerplant such as a nuclear, coal or natural gas plant.  Comparing this to dropping bottles of water?  A double decker Airbus A380 airplane has a mass of about half a million kilograms when full.   200 of these super-jumbo jets together represents 100 million kilograms, and raising them all one meter off the ground gives them $(100 \times 10^6~kg) \times 10m/s^2 \times 1 m = 10^9 J$ or 1 gigajoule of gravitational potential energy.  Dropping them to the ground over the course of 1 second converts that energy into kinetic energy at a rate of 1 GJ per second, a power rate of 1 gigawatt (GW).  Do that over and over again and you've got yourself a 1 gigawatt power plant.  Doing this with 242 planes gives you 1.21 gigawatts.
 
-Taking this relationship backwards, a joule is the amount of energy delivered from one watt of power for one second; in other words, a joule equals 
+Taking this relationship backwards, a joule is the amount of energy delivered from one watt of power for one second: one joule equals 
 one "watt second."  Since one hour is 3,600 seconds, a **watt hour** is 3,600 joules and the unit of consumption for residential electricity, a **kilowatt  hour (kWh)** is one thousand of those: 3,600,000 joules or 3.6 megajoules (MJ).
 
-To compare some big numbers at the macroscopic scale:  
+To compare some big energy numbers at the macroscopic scale:  
 
 - The U.S. generates and consumes [about 4,000 TWh](https://www.eia.gov/energyexplained/electricity/electricity-in-the-us-generation-capacity-and-sales.php) of electricity per year.   A terawatt hour is one billion kWh, so this is $(4,000 \times 10^9 kWh) \times (3.6 \times 10^6 J / kWh) = 1.44 \times 10^{19} J$.  $10^{18}$ gets a prefix "exa", so this is 14.4 exajoules (14.4 EJ). 
 - So U.S. **electricity consumption** alone (not including other uses of energy like heat and transportation) represents 2.3% of the 595 EJ of total global primary energy consumption in 2021.
 - By contrast, the United State's broader total primary energy consumption in 2021 was 93 EJ, about 16% of global energy consumption.
 - Note that electricity consumption in the U.S. reflects only ~15% of total energy use. 
 
-That's energy.  How about power? 
-- Simply dividing 4,000 TWh of annual electricity generation by $365 \times 24 = 8,760$ hours per year gives us an **average power** consumption of 0.456 terawatts or 456 GW.  According to the EIA, at the end of 2021 the U.S. had [1,144 GW total](https://www.eia.gov/energyexplained/electricity/electricity-in-the-us-generation-capacity-and-sales.php) of utility-scale electricity generation capacity, or about 2.5x the average power consumption (this ratio makes sense given the significant deviations across hours of the day and seasons of electricity usage). 
+And power:
+
+- Simply dividing 4,000 TWh of annual electricity generation by $365 \times 24 = 8,760$ hours per year gives us an **average U.S. power** consumption of 0.456 terawatts or 456 GW.  According to the EIA, at the end of 2021 the U.S. had [1,144 GW total] (https://www.eia.gov/energyexplained/electricity/electricity-in-the-us-generation-capacity-and-sales.php) of utility-scale electricity generation capacity, or about 2.5x the average power consumption.  This "overcapacity" makes sense given the significant deviations across hours of the day and seasons of electricity usage.
 
 #### Another Unit: BTU's
 
-One more important unit of (thermal) energy, at least in the U.S., is the BTU (British Thermal Unit).  Originally conceived as the amount of heat energy required to raise the temperature of one pound of water by 1&deg;F, it is now defined as [~1,055 joules](https://www.britannica.com/science/British-thermal-unit).  A BTU is a small unit of energy practically speakin: a Therm (my residential billing unit for utility natural gas) is 100,000, and trading prices for natural gas in the U.S. are quoted in MMBTU, or millions of BTU.   
+One more important unit of (thermal) energy, at least in the U.S., is the BTU (British Thermal Unit).  Originally conceived the heat energy required to raise the temperature of one pound of water by 1&deg;F, it is now defined as [~1,055 joules](https://www.britannica.com/science/British-thermal-unit).  A BTU is a small unit of energy practically speakin: a Therm (my residential billing unit for utility natural gas) is 100,000, and trading prices for natural gas in the U.S. are quoted in MMBTU, or millions of BTU.[^3]  
 
-BTU's are a typical unit of sizing for air conditioning units in the U.S. (e.g., a window air conditioner might be a 10,000 BTU unit).   This measures the amount of heat energy transferred out of the space being cooled per hour (e.g., 10,000 BTU of heat energy removed per hour to cool a room).  Larger air conditioning units like central A/C are often measured in "tons", equivalent to 12,000 BTU, why not.[^3]
+[^3].  Traded prices also generally specify a location: for example, Henry Hub gas prices refer to natural gas delivered at a particular distribution hub in Erath, Lousiana. 
 
-[^3].  It's called a "ton" because melting a ton of ice requires [286,000 BTU](https://davisac.com/blog/the-reason-air-conditioner-capacity-is-measured-in-tons#:~:text=Rounding%20up%2011%2C917%20Btu%2Fhr,ton%20of%20air%20conditioner%20capacity) of thermal energy: spread over 24 hours, this is about 12,000 BTU per hour of heat transfer.   That IS heavy. 
+BTU's are also a typical unit of sizing for air conditioning units in the U.S. (e.g., a window air conditioner might be an 8,000 BTU unit).   This measures the amount of heat energy transferred out of the space being cooled per hour (e.g., 8,000 BTU of heat energy per hour removed to the outside to cool a room).  Larger air conditioning units like central A/C are often measured in "tons", equivalent to 12,000 BTU, why not.[^4]
+
+[^4].  It's called a "ton" because melting a ton of ice requires [286,000 BTU](https://davisac.com/blog/the-reason-air-conditioner-capacity-is-measured-in-tons#:~:text=Rounding%20up%2011%2C917%20Btu%2Fhr,ton%20of%20air%20conditioner%20capacity) of thermal energy: spread over 24 hours, this is about 12,000 BTU per hour of heat transfer.   That's heavy, Doc!
 
 #### Comparison Table
+
+Here is a conversion table between watt hours, joules and BTU.
 
 <STYLE TYPE="text/css">
 <!--
@@ -103,41 +108,41 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
 
 #### Oil: Barrels and Gallons.
 
-A barrel of oil is 42 gallons.   More relevant to this conversation: a barrell of oil contains [5.7 million BTU](https://www.eia.gov/energyexplained/units-and-calculators/).  And a gallon of home heating oil (how I used to heat my old home in Connecticut) has 138,500 BTU of thermal energy.
+A barrel of oil is 42 gallons.   One barrel of crude oil contains about [5.7 million BTU](https://www.eia.gov/energyexplained/units-and-calculators/).  And a gallon of home heating oil (how I used to heat my old home in Connecticut) has 138,500 BTU of thermal energy.
 
 How important is oil to the global energy mix? 
 
 - Global oil production as of 2021 is about [90 million barrels per day](https://www.statista.com/statistics/265203/global-oil-production-since-in-barrels-per-day), or about 32.8 billion barrels per year.
 - In energy terms this equates to $32.8 x 10^9 bbl \times 5.7 MMBTU / bbl \times 3.6 EJ / 3.4 x 10^9 MMBTU = 198 EJ$ of total energy.   
-- Oil therefore speaks for one-third of global primary energy consumption of 595 EJ.[^4]
+- Oil therefore speaks for one-third of global primary energy consumption of 595 EJ.[^5]
 
-[^4].  BP's statistical review reports that coal and natural gas each represent another ~25% of total energy consumption, with nuclear, hydro and renewables representing the rest. 
+[^5].  BP's statistical review reports that coal and natural gas each represent another ~25% of total energy consumption, with nuclear, hydro and renewables representing the rest. 
 
 ### Thermal Energy vs. Electrical Energy
 
 #### Heat Engines and Heat Rate
 
 Another important concept is the difference in forms of energy.  Most relevant to energy markets are two kinds: thermal (heat) energy and electrical 
-energy.  **Fuels** can be thought of as containing thermal energy (stored in chemical bonds and released through combustion).   These can be: 
+energy.  Fuels such as oil and gas can be thought of as containing thermal energy (stored in chemical bonds and released through combustion).   These can be: 
 
 1. Combusted and the resulting heat consumed directly, as with utility natural gas burned in my home's furnace to heat my house; or 
-2. Combusted and the resulting heat used in a heat engine or turbine to convert the energy to electrical energy, as with natural gas burned in a power plant to heat another gas that drives a turbine which in turn generates electricity. 
+2. Combusted and the resulting heat used in a heat engine or turbine to convert the energy to electrical energy, as with natural gas burned in a power plant to heat another fluid that drives a turbine which in turn generates electricity. 
 
-Modern furnaces are very efficient.  In usage (1) above more than 95% of the thermal energy stored in natural gas, for example, can be captured to heat a home.  Converting heat energy to electrical energy via (2) results in lost energy due to the thermodynamic constraints of heat engines.[^5]
+In usage (1) above more than 95% of the thermal energy stored in natural gas, for example, can be captured to heat a home.  Converting heat energy to electrical energy via (2) results in lost energy due to the thermodynamic constraints of heat engines.[^6]
 
-[^5].  Carnot's Theorem states that a heat engine operating between a hot temperature $T_H$ (measured against absolute zero) and a cold temperature $T_C$ cannot have efficiency exceeding ${T_H - T_C} \over T_H$.
+[^6].  Carnot's Theorem states that a heat engine operating between a hot temperature $T_H$ (measured against absolute zero) and a cold temperature $T_C$ cannot have efficiency exceeding ${T_H - T_C} \over T_H$.
 
-In practice, the efficiency of a power plant's conversion of thermal energy in fuel into electrical energy is quantified by the plant's **heat rate**.  Heat rate is [generally defined](https://www.eia.gov/tools/faqs/faq.php?id=107&t=3) as the amount of fuel energy required to generate a given amount of eletricity.  In the U.S., this is typically quoted as the number of BTU's of (thermal) energy input required to generate 1 kWh of electricity.   1 kWh is 3,412 BTU's, so all heat rates are higher than 3,412.  A heat rate of 6,800 has a 50% energy conversion efficiency: fuel with 6,800 BTU of thermal energy is needed to produce 3,400 kWh of electricity.  Efficient natural gas plants have heat rates in the [7,000 to 8,000 area](https://www.eia.gov/electricity/annual/html/epa_08_01.html), with coal plants around 10,000.
+In practice, the efficiency of a power plant's conversion of thermal energy in fuel into electrical energy is quantified by the plant's **heat rate**.  Heat rate is [generally defined](https://www.eia.gov/tools/faqs/faq.php?id=107&t=3) as the amount of fuel energy required to generate a given amount of eletricity.  In the U.S., this is quoted as the number of BTU's of (thermal) energy input required to generate 1 kWh of electricity.   1 kWh is 3,412 BTU's, so all heat rates are higher than 3,412.  A heat rate of 6,800 has a 50% energy conversion efficiency: fuel with 6,800 BTU of thermal energy is needed to produce 3,400 kWh of electricity.  Efficient natural gas plants have heat rates in the [7,000 to 8,000 area](https://www.eia.gov/electricity/annual/html/epa_08_01.html), with coal plants around 10,000.
 
-In European countries where thermal energy tends to be quoted in kWh / MWh, this concept is more directly expressed in [percentage efficiency](https://www.statista.com/statistics/548943/thermal-efficiency-gas-turbine-stations-uk/), i.e., a 50% effcient natural gas plant requires 2 kWh of gas to generate 1 kWh of electricity. 
+In European countries where thermal energy tends to be quoted in kWh or MWh, this concept is more directly expressed in [percentage efficiency](https://www.statista.com/statistics/548943/thermal-efficiency-gas-turbine-stations-uk/), i.e., a 50% effcient natural gas plant requires 2 kWh of gas to generate 1 kWh of electricity. 
  
 ### Applications
 
 #### Heating Prices 
 
-Now we are equipped to resolve some of the disparate price quotations we have seen.  We'll begin with a simple one: the prices of natural gas, as used directly by consumers for thermal energy.  
+Now we are equipped to wrangle some of the disparate price quotations we have seen.  We'll begin with a simple one: the prices of natural gas, as used directly by consumers for thermal energy.  
 
-A couple of points of reference: in the Las Vegas area, with mild winters, my family consumed 1,420 therms of gas in 2022, with about 72% of this coming in January, February, November and December.  A therm is 100,000 BTU, so my annual gas utility gas gost reflects 142 million BTU.  Converting this into kilowatt hours, that is $142 \times 10^6 BTU \times 1 kWh / 3412 BTU = 41,620~kWh$ of thermal energy.  More directly in the teeth of the European energy concerns this past winter, the U.K. energy utility [reported](https://www.ofgem.gov.uk/information-consumers/energy-advice-households/average-gas-and-electricity-use-explained#:~:text=Ofgem%20estimates%20the%20typical%20household,of%20gas%20in%20a%20year) that the average household there uses 12,000 kWh of natural gas.
+A couple of points of reference: in the Las Vegas area, with mild winters, my family consumed 1,420 therms of gas in 2022, with about 72% of this coming in January, February, November and December.  A therm is 100,000 BTU, so my annual gas utility gas gost reflects 142 million BTU.  Converting this into kilowatt hours, that is $142 \times 10^6 BTU \times 1 kWh / 3412 BTU = 41,620~kWh$ of thermal energy.  Friends of ours in Connecticut consume about 2,300 therms of gas in a year, equivalent to 67400 kWh.  
 
 <STYLE TYPE="text/css">
 <!--
@@ -152,27 +157,27 @@ TD{font-family: Arial; font-size: 9pt; text-align: center;}
         <th scope="col" style="background-color: #D6EEEE">Conversion to kWh</th>
         <th scope="col" style="background-color: #D6EEEE">Price per kWh</th>
         <th scope="col" style="background-color: #D6EEEE">1 Year of My Nevada Heating (41,620 kWh)</th>
-        <th scope="col" style="background-color: #D6EEEE">1 Year of Average U.K. heating (12,000 kWh)</th>
+        <th scope="col" style="background-color: #D6EEEE">1 Year of Connecticut heating (67,400 kWh)</th>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">Avg. U.S. Natural Gas Prices since 2010</th> 
-        <td>$3.50 / MMBTU </td><td> $\times 3.41~MMBTU / 1000~kWh$ </td><td> $= \$0.011$ </td><td> $497 </td><td> $143 </td>
+        <td>$3.50 / MMBTU </td><td> $\times 3.41~MMBTU / 1000~kWh$ </td><td> $= \$0.011$ </td><td> $497 </td><td> $805 </td>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">Ukraine-Elevated U.S. Prices</th> 
-        <td>$9.00 / MMBTU </td><td> $\times 3.41~MMBTU / 1000~kWh$ </td><td> $= \$0.031$ </td><td> $1,278 </td><td> $368 </td>
+        <td>$9.00 / MMBTU </td><td> $\times 3.41~MMBTU / 1000~kWh$ </td><td> $= \$0.031$ </td><td> $1,278 </td><td> $2,070 </td>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">California Supply-Disrupted Gas Prices</th>
-        <td>$40.00 / MMBTU </td><td> $\times 3.41~MMBTU / 1000~kWh$ </td><td> $= \$0.137$ </td><td> $5,680 </td><td> $1,637 </td>
+        <td>$40.00 / MMBTU </td><td> $\times 3.41~MMBTU / 1000~kWh$ </td><td> $= \$0.137$ </td><td> $5,680 </td><td> $9,200 </td>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">2020 European Gas Prices</th> 
-        <td>&euro;15 / MWh </td> <td> $\times 1.05 USD / EUR \times 1 MWh / 1000 kWh$ </td><td> $= \$0.016$</td><td> $656 </td> <td> $189 </td>
+        <td>&euro;15 / MWh </td> <td> $\times 1.05 USD / EUR \times 1 MWh / 1000 kWh$ </td><td> $= \$0.016$</td><td> $656 </td> <td> $1,061 </td>
     </tr>
     <tr>
         <th style="background-color: #D6EEEE">Ukraine-Spike August 2022 European Gas</th> 
-        <td>&euro;340 / MWh </td> <td> $\times 1.05 USD / EUR \times 1 MWh / 1000 kWh$ </td><td> $= \$0.357$</td><td> $14,858 </td> <td> $4,284 </td>
+        <td>&euro;340 / MWh </td> <td> $\times 1.05 USD / EUR \times 1 MWh / 1000 kWh$ </td><td> $= \$0.357$</td><td> $14,858 </td> <td> $24,062 </td>
     </tr>
 </table>
 
