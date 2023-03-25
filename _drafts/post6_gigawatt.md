@@ -23,7 +23,7 @@ Here are some examples:
 
 - **Oil**.  And of course, crude oil is always quoted by market participants in dollars per barrel.  And heating oil is sold in gallons when it is delivered by truck into New England homes.
 
-I hope this post will serve as a guide to thinking about what all these quantities mean and how they compare. 
+Here we go!
 
 <!--more-->
 
@@ -33,17 +33,18 @@ A **joule (J)** is the standard (SI) unit of **energy**, equivalent to the work 
 
 [^1]. Actually $9.8 m/s^2$, but the math is easier at 10. 
 
-If I apply 5 N of upward force to offset gravity and lift the bottle 1 meter from the floor (stomach height for me), I have increased the bottle's gravitational potential energy by $5 N \times 1 m = 5 J$ of gravitational potential energy.  If I drop it, by the time it hits the ground it is moving with about 5 J of kinetic energy.  If I do the same exercise at a height of 20 cm (~8 inches), the quantity of energy involved is 1 joule. 
+If I apply $5\ N$ of upward force to offset gravity and lift the bottle 1 meter from the floor (stomach height for me), I have increased the bottle's gravitational potential energy by $5\ N \times 1\ m = 5\ J$ of gravitational potential energy.  If I drop it, by the time it hits the ground it is moving with about $5\ J$ of kinetic energy.  If I do the same exercise at a height of 20 cm (~8 inches), the quantity of energy involved is 1 joule. 
 
-**Power** is a rate of energy flow or energy transfer, and is measured in quantity of energy per unit time.  A **watt** is the SI unit, defined as joules per second.   Lifting and dropping a liter bottle from a height of 1 meter (5 J each) once per second generates power at a rate of 5 watts.  If this could be harnessed with a cable, pulley and alternator system (this is the basic principle behind gravity based storage), for example, it theoretically would be enough power to light up the lightbulb on my night table.[^2]
+**Power** is a rate of energy flow or energy transfer, and is measured in quantity of energy per unit time.  A **watt** is the SI unit, defined as joules per second.   Lifting and dropping a liter bottle from a height of 1 meter ($5\ J$ each) once per second generates power at a rate of 5 watts.  If this could be harnessed with a cable, pulley and alternator system (this is the basic principle behind gravity based storage), for example, it theoretically would be enough power to light up the lightbulb on my night table.[^2]
 
-[^2].  *What the hell is a gigawatt??*  It's 1 billion watts, about the power output from a large convential powerplant such as a nuclear, coal or natural gas plant.  Comparing this to dropping bottles of water?  A double decker Airbus A380 airplane has a mass of about half a million kilograms when full.   200 of these super-jumbo jets together represents 100 million kilograms, and raising them all one meter off the ground gives them $(100 \times 10^6~kg) \times 10m/s^2 \times 1 m = 10^9 J$ or 1 gigajoule of gravitational potential energy.  Dropping them to the ground over the course of 1 second converts that energy into kinetic energy at a rate of 1 GJ per second, a power rate of 1 gigawatt (GW).  Do that over and over again and you've got yourself a 1 gigawatt power plant.  Doing this with 242 planes gives you 1.21 gigawatts.
+[^2].  *What the hell is a gigawatt??*  It's 1 billion watts, about the power output from a large convential powerplant such as a nuclear, coal or natural gas plant.  Comparing this to dropping bottles of water?  A double decker Airbus A380 airplane has a mass of about half a million kilograms when full.  200 of these super-jumbo jets together represents 100 million kg, and raising them all one meter off the ground gives them $(100 \times 10^6~kg) \times 10\ m/s^2 \times 1\ m = 10^9\ J$ or 1 gigajoule of gravitational potential energy.  Dropping them to the ground over the course of 1 second converts that energy into kinetic energy at a rate of 1 GJ per second, a power rate of 1 gigawatt (GW).  Do that over and over again and you've got yourself a 1 gigawatt power plant.  Doing this with 242 planes gives you 1.21 gigawatts!
 
 Taking this relationship backwards, a joule is the amount of energy delivered from one watt of power for one second: one joule equals 
 one "watt second."  Since one hour is 3,600 seconds, a **watt hour** is 3,600 joules and the unit of consumption for residential electricity, a **kilowatt  hour (kWh)** is one thousand of those: 3,600,000 joules or 3.6 megajoules (MJ).
 
-To compare some big energy numbers at the macroscopic scale:  
+To compare some energy numbers at the macroscopic scale:  
 
+- My house uses about 30,000 kWh (a.k.a. 30 MWh) of electricity in a year. 
 - The U.S. generates and consumes [about 4,000 TWh](https://www.eia.gov/energyexplained/electricity/electricity-in-the-us-generation-capacity-and-sales.php) of electricity per year.   A terawatt hour is one billion kWh, so this is $(4,000 \times 10^9 kWh) \times (3.6 \times 10^6 J / kWh) = 1.44 \times 10^{19} J$.  $10^{18}$ gets a prefix "exa", so this is 14.4 exajoules (14.4 EJ). 
 - So U.S. **electricity consumption** alone (not including other uses of energy like heat and transportation) represents 2.3% of the 595 EJ of total global primary energy consumption in 2021.
 - By contrast, the United State's broader total primary energy consumption in 2021 was 93 EJ, about 16% of global energy consumption.
@@ -51,7 +52,8 @@ To compare some big energy numbers at the macroscopic scale:
 
 And power:
 
-- Simply dividing 4,000 TWh of annual electricity generation by $365 \times 24 = 8,760$ hours per year gives us an **average U.S. power** consumption of 0.456 terawatts or 456 GW.  According to the EIA, at the end of 2021 the U.S. had [1,144 GW total] (https://www.eia.gov/energyexplained/electricity/electricity-in-the-us-generation-capacity-and-sales.php) of utility-scale electricity generation capacity, or about 2.5x the average power consumption.  This "overcapacity" makes sense given the significant deviations across hours of the day and seasons of electricity usage.
+- Simply dividing my 30,000 kWh of annual electricity use in a year by $365 \times 24 = 8,760$ gives an **average power consumption** for my house of 3.4 kW.  But my [actual power usage](https://jgkramer.github.io/2022/11/07/Electricity_Usage_Anecdotes.html) ranges from ~1 kW to a peak power of ~14 kW with the air conditioners running full-blast in the summer.  The difference between average power and peak power is why one needs to be skeptical in reading stats stating how many homes a power plant can power [(which often consider only averages)](https://www.mercurynews.com/2011/11/08/california-hits-renewable-energy-milestone-1-gigawatt-of-solar-power-installed-to-date/](https://www.cnet.com/home/energy-and-utilities/gigawatt-the-solar-energy-term-you-should-know-about/).
+- For the entire U.S., dividing $4,000\ TWh$ by 8,760 hours per year gives us an **average U.S. power** consumption of 0.456 terawatts or 456 GW.  According to the EIA, at the end of 2021 the U.S. had [1,144 GW total] (https://www.eia.gov/energyexplained/electricity/electricity-in-the-us-generation-capacity-and-sales.php) of utility-scale electricity generation capacity, or about 2.5x the average power consumption.  This "overcapacity" makes sense given the significant deviations across hours of the day and seasons of electricity usage.
 
 #### Another Unit: BTU's
 
