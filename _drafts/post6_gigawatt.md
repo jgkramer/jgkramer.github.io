@@ -144,7 +144,7 @@ In European countries where thermal energy is quoted in kWh or MWh, this concept
 
 Now we are equipped to wrangle some of the disparate price quotations we have seen.  We'll begin with a simple one: the prices of natural gas, as used directly by consumers for thermal energy.  
 
-A couple of points of reference: in the Las Vegas area, with mild winters, my family consumed 1,420 therms of gas in 2022, with about 72% of this coming in January, February, November and December.  A therm is 100,000 BTU, so my annual gas utility gas gost reflects 142 million BTU.  Converting this into kilowatt hours, that is $142 \times 10^6 BTU \times 1 kWh / 3412 BTU = 41,620~kWh$ of thermal energy.  Friends of ours in Connecticut consume about 2,300 therms of gas in a year, about $67,400\ kWh$.  
+A couple of points of reference: in the Las Vegas area, with mild winters, my family consumed 1,420 therms of gas in 2022, with about 72% of this coming in January, February, November and December.  A therm is 100,000 BTU, so my annual gas utility gas gost reflects 142 million BTU.  Converting this into kilowatt hours, that is $142 \times 10^6\ BTU \times 1\ kWh / 3,412\ BTU = 41,620\ kWh$ of thermal energy.  Friends of ours in Connecticut consume about 2,300 therms of gas in a year, about $67,400\ kWh$.  
 
 <STYLE TYPE="text/css">
 <!--
