@@ -63,7 +63,7 @@ One more important unit of (thermal) energy, at least in the U.S., is the BTU (B
 
 BTU's are also a typical unit of sizing for air conditioning units in the U.S. (e.g., a window air conditioner might be an 8,000 BTU unit).   This measures the amount of heat energy transferred out of the space being cooled per hour (e.g., 8,000 BTU of heat energy per hour removed to the outside to cool a room).  Larger air conditioning units like central A/C are often measured in "tons", equivalent to 12,000 BTU, why not.[^4]
 
-[^4].  It's called a "ton" because melting a ton of ice requires [286,000 BTU](https://davisac.com/blog/the-reason-air-conditioner-capacity-is-measured-in-tons#:~:text=Rounding%20up%2011%2C917%20Btu%2Fhr,ton%20of%20air%20conditioner%20capacity) of thermal energy: spread over 24 hours, this is about 12,000 BTU per hour of heat transfer.   That's heavy, Doc!
+[^4].  It's called a "ton" because melting a ton of ice requires [286,000 BTU](https://davisac.com/blog/the-reason-air-conditioner-capacity-is-measured-in-tons#:~:text=Rounding%20up%2011%2C917%20Btu%2Fhr,ton%20of%20air%20conditioner%20capacity) of thermal energy: spread over 24 hours, this is about 12,000 BTU per hour of heat transfer.   Sounds pretty heavy!
 
 #### Comparison Table
 
