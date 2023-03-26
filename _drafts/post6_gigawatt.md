@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "What the Hell Is a Gigawatt?"
-date: "2023-03-15"
+date: "2023-03-26"
 hide: true
 author: "Great Scott"
 excerpt_separator: <!--more-->
 ---
-
+ 
 I sometimes find it frustrating as an observer of energy markets and policy to understand the quantities those markets deal in.  News and commentators quote prices in units that consumers may be unfamiliar with, making it difficult to intuit the importance of those prices.  This post will serve as a gentle reference for what energy quantities mean and how to convert between different standard market conventions. 
 
 Here are some examples: 
@@ -31,13 +31,13 @@ Here we go!
 
 A **joule (J)** is the standard (SI) unit of **energy**, equivalent to the work done by applying 1 Newton of force over 1 meter of distance.  A 500 mL single-serve bottle of water has a mass of 0.5 kg.  Gravity at the Earth's surface causes acceleration of ~10 $m/s^2$,[^1] so the weight of gravity applies about $0.5 kg \times 10 m / s^2 = 5 N$ of force on the bottle.  
 
-[^1]. Actually $9.8 m/s^2$, but the math is easier at 10. 
+[^1]: Actually $9.8 m/s^2$, but the math is easier at 10. 
 
 If I apply $5\ N$ of upward force to offset gravity and lift the bottle 1 meter from the floor (stomach height for me), I have increased the bottle's gravitational potential energy by $5\ N \times 1\ m = 5\ J$ of gravitational potential energy.  If I drop it, by the time it hits the ground it is moving with about $5\ J$ of kinetic energy.  If I do the same exercise at a height of 20 cm (~8 inches), the quantity of energy involved is 1 joule. 
 
 **Power** is a rate of energy flow or energy transfer, and is measured in quantity of energy per unit time.  A **watt** is the SI unit, defined as joules per second.   Lifting and dropping a liter bottle from a height of 1 meter ($5\ J$ each) once per second generates power at a rate of 5 watts.  If this could be harnessed with a cable, pulley and alternator system (this is the basic principle behind gravity based storage), for example, it theoretically would be enough power to light up the lightbulb on my night table.[^2]
 
-[^2].  *What the hell is a gigawatt??*  It's 1 billion watts, about the power output from a large convential powerplant such as a nuclear, coal or natural gas plant.  Comparing this to dropping bottles of water?  A double decker Airbus A380 airplane has a mass of about half a million kilograms when full.  200 of these super-jumbo jets together represents 100 million kg, and raising them all one meter off the ground gives them $(100 \times 10^6~kg) \times 10\ m/s^2 \times 1\ m = 10^9\ J$ or 1 gigajoule of gravitational potential energy.  Dropping them to the ground over the course of 1 second converts that energy into kinetic energy at a rate of 1 GJ per second, a power rate of 1 gigawatt (GW).  Do that over and over again and you've got yourself a 1 gigawatt power plant.  Doing this with 242 planes gives you 1.21 gigawatts!
+[^2]:  *What the hell is a gigawatt??*  It's 1 billion watts, about the power output from a large convential powerplant such as a nuclear, coal or natural gas plant.  Comparing this to dropping bottles of water?  A double decker Airbus A380 airplane has a mass of about half a million kilograms when full.  200 of these super-jumbo jets together represents 100 million kg, and raising them all one meter off the ground gives them $(100 \times 10^6~kg) \times 10\ m/s^2 \times 1\ m = 10^9\ J$ or 1 gigajoule of gravitational potential energy.  Dropping them to the ground over the course of 1 second converts that energy into kinetic energy at a rate of 1 GJ per second, a power rate of 1 gigawatt (GW).  Do that over and over again and you've got yourself a 1 gigawatt power plant.  Doing this with 242 planes gives you 1.21 gigawatts!
 
 Taking this relationship backwards, a joule is the amount of energy delivered from one watt of power for one second: one joule equals 
 one "watt second."  Since one hour is 3,600 seconds, a **watt hour** is 3,600 joules and the unit of consumption for residential electricity, a **kilowatt  hour (kWh)** is one thousand of those: 3,600,000 joules or 3.6 megajoules (MJ).
@@ -59,11 +59,11 @@ And power:
 
 One more important unit of (thermal) energy, at least in the U.S., is the BTU (British Thermal Unit).  Originally conceived the heat energy required to raise the temperature of one pound of water by 1&deg;F, it is now defined as [~1,055 joules](https://www.britannica.com/science/British-thermal-unit).  A BTU is a small unit of energy practically speakin: a Therm (my residential billing unit for utility natural gas) is 100,000, and trading prices for natural gas in the U.S. are quoted in MMBTU, or millions of BTU.[^3]
 
-[^3].  Traded prices also generally specify a location: for example, Henry Hub gas prices refer to natural gas delivered at a particular distribution hub in Erath, Lousiana. 
+[^3]:  Traded prices also generally specify a location: for example, Henry Hub gas prices refer to natural gas delivered at a particular distribution hub in Erath, Lousiana. 
 
 BTU's are also a typical unit of sizing for air conditioning units in the U.S. (e.g., a window air conditioner might be an 8,000 BTU unit).   This measures the amount of heat energy transferred out of the space being cooled per hour (e.g., 8,000 BTU of heat energy per hour removed to the outside to cool a room).  Larger air conditioning units like central A/C are often measured in "tons", equivalent to 12,000 BTU, why not.[^4]
 
-[^4].  It's called a "ton" because melting a ton of ice requires [286,000 BTU](https://davisac.com/blog/the-reason-air-conditioner-capacity-is-measured-in-tons#:~:text=Rounding%20up%2011%2C917%20Btu%2Fhr,ton%20of%20air%20conditioner%20capacity) of thermal energy: spread over 24 hours, this is about 12,000 BTU per hour of heat transfer.   Sounds pretty heavy!
+[^4]:  It's called a "ton" because melting a ton of ice requires [286,000 BTU](https://davisac.com/blog/the-reason-air-conditioner-capacity-is-measured-in-tons#:~:text=Rounding%20up%2011%2C917%20Btu%2Fhr,ton%20of%20air%20conditioner%20capacity) of thermal energy: spread over 24 hours, this is about 12,000 BTU per hour of heat transfer.   Sounds pretty heavy!
 
 #### Conversion Reference Table
 
@@ -118,7 +118,7 @@ How important is oil to the global energy mix?
 - In energy terms this equates to $32.8 \times 10^9\ bbl \times 5.7\ MMBTU / bbl \times 3.6~EJ / 3.4 \times 10^9\ MMBTU = 198\ EJ$ of total energy.   
 - Oil therefore speaks for one-third of global primary energy consumption of 595 EJ.[^5]
 
-[^5].  BP's statistical review reports that coal and natural gas each represent another ~25% of total energy consumption, with nuclear, hydro and renewables representing the rest. 
+[^5]:  BP's statistical review reports that coal and natural gas each represent another ~25% of total energy consumption, with nuclear, hydro and renewables representing the rest. 
 
 ### Thermal Energy vs. Electrical Energy
 
@@ -132,7 +132,7 @@ energy.  Fuels such as oil and gas can be thought of as containing thermal energ
 
 In usage (1) above more than 95% of the thermal energy stored in natural gas, for example, can be captured to heat a home.  Converting heat energy to electrical energy via (2) results in lost energy due to the thermodynamic constraints of heat engines.[^6]
 
-[^6].  Carnot's Theorem states that a heat engine operating between a hot temperature $T_H$ (measured against absolute zero) and a cold temperature $T_C$ cannot have efficiency exceeding ${T_H - T_C} \over T_H$.
+[^6]:  Carnot's Theorem states that a heat engine operating between a hot temperature $T_H$ (measured against absolute zero) and a cold temperature $T_C$ cannot have efficiency exceeding ${T_H - T_C} \over T_H$.
 
 The efficiency of a power plant's conversion of thermal energy in fuel into electrical energy is referred to as the plant's **heat rate**.  Heat rate is [generally defined](https://www.eia.gov/tools/faqs/faq.php?id=107&t=3) as the amount of fuel energy required to generate a given amount of eletricity.  In the U.S., this is quoted as the number of BTU's of (thermal) energy input required to generate 1 kWh of electricity.   1 kWh is 3,412 BTU's, so all heat rates are higher than 3,412.  A heat rate of 6,800 has a 50% energy conversion efficiency: fuel with 6,800 BTU of thermal energy is needed to produce 3,400 kWh of electricity.  Efficient natural gas plants have heat rates in the [7,000 to 8,000 area](https://www.eia.gov/electricity/annual/html/epa_08_01.html), with coal plants around 10,000.
 
