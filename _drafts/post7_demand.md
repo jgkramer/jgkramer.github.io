@@ -17,18 +17,21 @@ rather than aggregate energy consumption and so is often priced on a per-kW (rat
 
 <!--more-->
 
+### Why is there a Demand Charge for Commercial and Industrial Customers? 
+
 The idea of pricing for peak demand (especially during heavy use periods such as summer afternoons) is derived from the physical need of an electricity grid to 
 continuously balance electricity supply and consumption.  Large electricity consumers such as commercial and industrial users pose a greater risk to grid 
 reliability through sharp spikes in the quantity of electricity demanded -- they may require bringing online additional "peaking" generation capacity and in the 
 limit may result in more electriicty being demanded than supplied.   As such, usage spikes are priced at a premium, both to cover the infrastructure costs of the 
 utility providing this flexibility as well as to incentivize a smoother usage profile.
 
-National Grid, a utility operator in the northeast U.S., explains the concept [thus](https://www9.nationalgridus.com/niagaramohawk/non_html/eff_elec-demand.pdf): 
-
-> Both consumption and demand charges are part of every electricity consumer's service bill. Residential customers pay one rate of charges for electricity service, covering both consumption of electricity and demand. This simple, combined charge is possible because there is relatively little variation in electricity use from home to home.
+National Grid, a utility operator in the northeast U.S., [explains](https://www9.nationalgridus.com/niagaramohawk/non_html/eff_elec-demand.pdf) that while residential consumers have simple rate structures based on consumptinonly because "there is relatively little variation in electricity use from home to home..."
 
 > This is not the case among commercial and industrial energy users, whose electricity use--both consumption and demand--vary greatly. Some need large amounts of electricity once in a while--others, almost constantly. Complicating this is the fact that electricity cannot be stored. It must be generated and supplied to each customer as it is called for--instantly, day or night, in extremely variable quantities. Meeting these customers' needs requires keeping a vast array of expensive equipment--transformers, wires, substations and even generating stations--on constant standby. The amount and size of this equipment must be large enough to meet peak consumption periods, i.e., when the need for electricity is highest.
 
+### An Example
+
+#### Nevada 
 
 
 
