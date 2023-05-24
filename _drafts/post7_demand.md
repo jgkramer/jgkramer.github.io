@@ -35,8 +35,8 @@ National Grid, a utility operator in the northeast U.S., [explains](https://www9
  <table>
     <tr>
         <th colspan="2" scope ="colgroup" style="background-color: #E8E8E8"></th> 
-        <th colspan="2" scope ="colgroup" style="background-color: #E8E8E8">Small Business (monthly usage < 3,500 kWh)</th> 
-        <th colspan="2" scope ="colgroup" style="background-color: #E8E8E8">Medium Business (monthly usage > 3,500 kWh, demand < 299 kW)</th> 
+        <th colspan="2" scope ="colgroup" style="background-color: #E8E8E8">Small Business <p>(monthly usage < 3,500 kWh)</th> 
+        <th colspan="2" scope ="colgroup" style="background-color: #E8E8E8">Medium Business <p> (monthly usage > 3,500 kWh, demand < 299 kW)</th> 
     </tr>    
     <tr>
      <th  colspan="2" style="background-color: #E8E8E8">Fixed vs. TOU</th>
