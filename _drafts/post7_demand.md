@@ -65,12 +65,12 @@ National Grid, a utility operator in the northeast U.S., [explains](https://www9
      <td>-</td> <td>-</td> <td>$7.69</td> <td>$0.00</td>
          </tr>
      <tr>
-     <th rowspan="2" style="background-color: #E8E8E8">Summer - Off-Peak</th>
+     <th rowspan="2" style="background-color: #E8E8E8">Winter</th>
      <th style="background-color: #E8E8E8">Consumption / kWh</th>
-     <td>$0.116</td> <td>$0.113</td> <td>$0.114</td> <td>$0.106</td>
+     <td>$0.116</td> <td>$0.092</td> <td>$0.114</td> <td>$0.105</td>
     </tr>
      <tr>
      <th style="background-color: #E8E8E8">Demand / kW</th>
-     <td>-</td> <td>-</td> <td>$7.69</td> <td>$0.00</td>
+     <td>-</td> <td>-</td> <td>$7.69</td> <td>$3.97</td>
     </tr>    
  </table>
