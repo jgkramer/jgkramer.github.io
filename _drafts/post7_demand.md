@@ -41,12 +41,11 @@ National Grid, a utility operator in the northeast U.S., [explains](https://www9
         <th colspan="2" scope ="colgroup" style="background-color: #E8E8E8">Medium Business (monthly usage > 3,500 kWh, demand < 299 kW)</th> 
     </tr>    
     <tr>
-     <th scope="col" style="background-color: #E8E8E8">Fixed vs. TOU</th>
-     <td></td>
+     <th scope="colgroup" colspan="2" style="background-color: #E8E8E8">Fixed vs. TOU</th>
      <td>Fixed</td><td>TOU</td><td>Fixed</td><td>TOU</td>
     </tr>
     <tr>
-     <th scope="col" style="background-color: #E8E8E8">Demand</th>
+     <th scope="colgroup" colspan="2" style="background-color: #E8E8E8">Demand Pricing?</th>
      <td></td>
      <td>No</td><td>No</td><td>Yes</td><td>Yes</td>
     </tr>
@@ -55,10 +54,4 @@ National Grid, a utility operator in the northeast U.S., [explains](https://www9
  
 
      
-    
-  <tr class="purple">
-  <th scope="col" style="background-color: #E8E8E8">20% Solar / 80% Fixed @ 150%</th>
-   <td>58,938</td> <td>150%</td> <td>6.73</td> <td>18.03</td> <td>133</td> <td>0</td> <td> <b>14.4 GWh</b></td> </tr>
- </table>
-
 
