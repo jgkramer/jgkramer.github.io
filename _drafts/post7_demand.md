@@ -34,7 +34,6 @@ National Grid, a utility operator in the northeast U.S., [explains](https://www9
 #### Nevada 
 
 <table>
-    <col> <colgroup span="2"></colgroup><colgroup span="4"></colgroup>
     <tr>
         <th colspan="2" scope ="colgroup" style="background-color: #E8E8E8"></th> 
         <th colspan="2" scope ="colgroup" style="background-color: #E8E8E8">Small Business (monthly usage < 3,500 kWh)</th> 
