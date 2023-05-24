@@ -32,14 +32,24 @@ National Grid, a utility operator in the northeast U.S., [explains](https://www9
 ### An Example
  
 #### Nevada 
+
+<STYLE TYPE="text/css">
+<!--
+TH{font-family: Arial; font-size: 9pt; text-align: center;}
+TD{font-family: Arial; font-size: 9pt; text-align: center;}
+TR.gray TD, TR.gray TH {background-color: lightgray;}
+TR.blue TD, TR.blue TH {background-color: #E8E8E8;}
+TD.purple TH.purple {background-color: #E6E6FA;}
+-->
+</STYLE>
  <table>
-    <tr>
-        <th colspan="2" scope ="colgroup" style="background-color: #E8E8E8"></th> 
-        <th colspan="2" scope ="colgroup" style="background-color: #E8E8E8">Small Business <p>(monthly usage < 3,500 kWh)</th> 
-        <th colspan="2" scope ="colgroup" style="background-color: #E8E8E8">Medium Business <p> (monthly usage > 3,500 kWh, demand < 299 kW)</th> 
+    <tr class="blue">
+        <th colspan="2" scope ="colgroup"></th> 
+        <th colspan="2" scope ="colgroup">Small Business <p>(monthly usage < 3,500 kWh)</th> 
+        <th colspan="2" scope ="colgroup">Medium Business <p> (monthly usage > 3,500 kWh, demand < 299 kW)</th> 
     </tr>    
-    <tr>
-     <th  colspan="2" style="background-color: #E8E8E8">Fixed vs. TOU</th>
+    <tr class="gray">
+     <th  colspan="2">Fixed vs. TOU</th>
      <td>Fixed</td><td>TOU</td><td>Fixed</td><td>TOU</td>
     </tr>
     <tr>
@@ -47,30 +57,30 @@ National Grid, a utility operator in the northeast U.S., [explains](https://www9
      <td>No</td><td>No</td><td>Yes</td><td>Yes</td>
     </tr> 
     <tr>
-     <th rowspan="2" style="background-color: #E8E8E8">Summer - Peak</th>
-     <th style="background-color: #E8E8E8">Consumption / kWh</th>
+     <th rowspan="2" class="purple">Summer - Peak</th>
+     <th class="purple"">Consumption / kWh</th>
      <td>$0.116</td> <td>$0.161</td> <td>$0.114</td> <td>$0.209</td>
     </tr>
      <tr>
-     <th style="background-color: #E8E8E8">Demand / kW</th>
+     <th class="purple">Demand / kW</th>
      <td>-</td> <td>-</td> <td>$7.69</td> <td>$11.28</td>
     </tr>
     <tr>
-     <th rowspan="2" style="background-color: #E8E8E8">Summer - Off-Peak</th>
-     <th style="background-color: #E8E8E8">Consumption / kWh</th>
+     <th rowspan="2" class="purple">Summer - Off-Peak</th>
+     <th class="purple">Consumption / kWh</th>
      <td>$0.116</td> <td>$0.113</td> <td>$0.114</td> <td>$0.106</td>
     </tr>
      <tr>
-     <th style="background-color: #E8E8E8">Demand / kW</th>
+     <th class="purple">Demand / kW</th>
      <td>-</td> <td>-</td> <td>$7.69</td> <td>$0.00</td>
          </tr>
      <tr>
-     <th rowspan="2" style="background-color: #E8E8E8">Winter</th>
-     <th style="background-color: #E8E8E8">Consumption / kWh</th>
+     <th rowspan="2" class="purple">Winter</th>
+     <th class="purple">Consumption / kWh</th>
      <td>$0.116</td> <td>$0.092</td> <td>$0.114</td> <td>$0.105</td>
     </tr>
      <tr>
-     <th style="background-color: #E8E8E8">Demand / kW</th>
+     <th class="purple">Demand / kW</th>
      <td>-</td> <td>-</td> <td>$7.69</td> <td>$3.97</td>
     </tr>    
  </table>
