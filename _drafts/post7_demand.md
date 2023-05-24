@@ -42,23 +42,25 @@ TR.blue TD, TR.blue TH {background-color: #E8E8E8;}
 TD.purple TH.purple {background-color: #E6E6FA;}
 -->
 </STYLE>
- <table>
+<table>
     <tr class="blue">
         <th colspan="2" scope ="colgroup"></th> 
-        <th colspan="2" scope ="colgroup">Small Business <p>(monthly usage < 3,500 kWh)</th> 
-        <th colspan="2" scope ="colgroup">Medium Business <p> (monthly usage > 3,500 kWh, demand < 299 kW)</th> 
+         <th colspan="2" scope ="colgroup">Small Business <p style="margin-bottom: 0.25em">(monthly usage < 3,500 kWh)</p></th> 
+        <th colspan="2" scope ="colgroup">Medium Business 
+          <p style="margin-bottom: 0.25em">(monthly usage > 3,500 kWh,</p>
+          <p style="margin-bottom: 0.25em">demand < 299 kW)</p></th> 
     </tr>    
     <tr class="gray">
      <th  colspan="2">Fixed vs. TOU</th>
      <td>Fixed</td><td>TOU</td><td>Fixed</td><td>TOU</td>
     </tr>
-    <tr>
-     <th colspan="2" style="background-color: #E8E8E8">Demand Pricing?</th>
+    <tr class="gray">
+     <th colspan="2">Demand Pricing?</th>
      <td>No</td><td>No</td><td>Yes</td><td>Yes</td>
     </tr> 
     <tr>
      <th rowspan="2" class="purple">Summer - Peak</th>
-     <th class="purple"">Consumption / kWh</th>
+     <th class="purple">Consumption / kWh</th>
      <td>$0.116</td> <td>$0.161</td> <td>$0.114</td> <td>$0.209</td>
     </tr>
      <tr>
@@ -83,4 +85,6 @@ TD.purple TH.purple {background-color: #E6E6FA;}
      <th class="purple">Demand / kW</th>
      <td>-</td> <td>-</td> <td>$7.69</td> <td>$3.97</td>
     </tr>    
- </table>
+</table>
+                       
+
