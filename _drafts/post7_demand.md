@@ -44,6 +44,15 @@ National Grid, a utility operator in the northeast U.S., [explains](https://www9
      <th scope="col" style="background-color: #E8E8E8">Fixed vs. TOU</th>
      <td></td>
      <td>Fixed</td><td>TOU</td><td>Fixed</td><td>TOU</td>
+    </tr>
+    <tr>
+     <th scope="col" style="background-color: #E8E8E8">Demand</th>
+     <td></td>
+     <td>No</td><td>No</td><td>Yes</td><td>Yes</td>
+    </tr>
+
+     
+ 
 
      
     
