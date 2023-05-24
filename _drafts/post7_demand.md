@@ -61,8 +61,7 @@ National Grid, a utility operator in the northeast U.S., [explains](https://www9
      <td>$7.69</td>
      <td>$11.28</td>
     </tr>
-
-     <tr>
+    <tr>
      <th rowspan="2" style="background-color: #E8E8E8">Summer - Off-Peak</th>
      <th style="background-color: #E8E8E8">Consumption / kWh</th>
      <td>$0.116</td>
@@ -77,3 +76,4 @@ National Grid, a utility operator in the northeast U.S., [explains](https://www9
      <td>$7.69</td>
      <td>$0.00</td>
     </tr>
+ </table>
