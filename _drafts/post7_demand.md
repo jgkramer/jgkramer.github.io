@@ -45,7 +45,6 @@ National Grid, a utility operator in the northeast U.S., [explains](https://www9
     </tr>
     <tr>
      <th scope="colgroup" colspan="2" style="background-color: #E8E8E8">Demand Pricing?</th>
-     <td></td>
      <td>No</td><td>No</td><td>Yes</td><td>Yes</td>
     </tr>
 
