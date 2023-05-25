@@ -51,7 +51,7 @@ TD.purple TH.purple {background-color: #E6E6FA;}
      <th colspan="1" scope ="colgroup">Massachusetts (National Grid)</th>
     <tr class="blue">
      <th colspan="2">Plan Name</th>
-     <th>LGS-1</th> <th>OLGS-1</th> <th>General Service Demand</th><th>General Service Demand-TOU</th><th>General Service-Demand</th><th>General Service-Demand+TOU</th>
+     <th>LGS-1</th> <th>OLGS-1</th> <th>General Service Demand</th><th>General Service Demand-TOU</th><th>General Service-Demand</th>
     </tr>
     <tr class="blue">
      <th colspan="2">Applicable customers:</th>
