@@ -84,7 +84,7 @@ TD.purple TH.purple {background-color: #E6E6FA;}
     </tr>
     <tr>
      <th class="purple">Demand / kW</th>
-     <td>$7.69</td><td>$11.28</td>
+     <td>$7.69</td><td>$0.00</td>
      <td>$11.29</td><td>$0.00</td>
      <td>$12.47</td>
     <tr>
