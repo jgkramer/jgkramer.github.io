@@ -6,6 +6,10 @@ hide: true
 author: "Jared Kramer"
 excerpt_separator: <!--more-->
 ---
+
+<head>
+  {% include latex.html %}
+</head>
  
 In this post I return to the structure of electricity pricing in the U.S., this time focusing on a pricing concept that is mandatory for business customers that 
 exceed a certain size (measured in monthly electricity consumption): **Demand Pricing.**  Under a demand pricing scheme, an electricity customer is charged in two separate ways: 
