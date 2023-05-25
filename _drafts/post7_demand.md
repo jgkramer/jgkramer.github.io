@@ -84,8 +84,8 @@ TD.purple TH.purple {background-color: #E6E6FA;}
     </tr>
     <tr>
      <th class="purple">Demand / kW</th>
-     <td>$7.69</td><td>$0.00</td>
-     <td>$11.29</td><td>$0.00</td>
+     <td>$7.69</td><td>-</td>
+     <td>$11.29</td><td>-</td>
      <td>$12.47</td>
     <tr>
      <th rowspan="2" class="purple">Winter - Peak</th>
@@ -109,7 +109,7 @@ TD.purple TH.purple {background-color: #E6E6FA;}
     <tr>
      <th class="purple">Demand / kW</th>
      <td>$7.69</td><td>$3.97</td>
-     <td>$11.29</td><td>$0.00</td>
+     <td>$11.29</td><td>-</td>
      <td>$12.47</td>
 </table>
                        
