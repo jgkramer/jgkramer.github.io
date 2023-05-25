@@ -43,7 +43,7 @@ This plan has an $0.114 / kWh usage charge, and $7.69 demand charge.   Note that
 
 A medical facility that uses 8,000 kWh per month but is open only 20 days a month for 10 hours and high air conditioning use during those hours, might have an **average** usage of 40 kW but a peak demand of 100 kW, and thus be charged $$8,000 kWh \times \$0.114 / kWh + 100 kW \times \$7.69 / kW = \$1,681.$$
 
-Meanwhile a small highly automated manufacturing facility with limited human staffing and HVAC use may have its machines running 25 days a month for 16 hours, of an **average** usage of 20 kW but with a peak demand of only 40 kW.  Its charge will be $0.114 x 8,000 + $7.69 x 40 = $1,220.  The automated facility has a 25% lower energy bill with the same usage, solely because its usage is more spread out over time than the HVAC-intensive medical facility. 
+Meanwhile a small highly automated manufacturing facility with limited human staffing and HVAC use may have its machines running 25 days a month for 16 hours, of an **average** usage of 20 kW but with a peak demand of only 40 kW.  Its charge will be $$8,000 kWh \times \$0.114 + 40 kW \times \$7.69 / kW = $1,220$$.  The automated facility has a 25% lower energy bill with the same usage, solely because its usage is more spread out over time than the HVAC-intensive medical facility. 
 
 #### Real World Usage Data
 
