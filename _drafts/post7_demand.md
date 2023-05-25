@@ -31,6 +31,8 @@ National Grid, a utility operator in the northeast U.S., [explains](https://www9
 
 ### Some Examples
 
+#### Rate Structures
+
 The table below presents a few examples of demand-based business rates in different U.S. statess.   Often, a customer ends up in a rate category based on their usage patterns 
 (for example, in Nevada, business customers who consume less than 3,500 kWh per month are in a non-demand based plan). 
 
@@ -113,4 +115,12 @@ TD.purple TH.purple {background-color: #E6E6FA;}
      <td>$12.47</td>
 </table>
                        
+A couple of points to notice: 
+
+**Demand vs. Consumption Trade-off**.   Note that demand charges are priced in **dollars** whereas energy consumption charges are priced in **cents**.  This means that an incremental 1 kWh of consumption has different costs depending on whether that kWh is at the moment of peak demand or not.   For example, in the TOU plan in Nevada, if a customer adds an extra kWh of consumption during its peak hour of the month (i.e., more air conditioning on a hot summer afternoon), then that kWh costs $11.28 because it increases demand.   In contrast, if that kWh was consumed at any other time, it would cost 21 cents.  The cost of the incremental **demand** is thus 54x that of the cost of incremental **consumption**.  This shows the relative cost to the system of concentrating electricity usage at times of peak demand.   
+
+Different states have different ratios: in Florida's TOU plan, for example, the ratio of the cost of incremntal demand to incremental consumption is 113x.  In Massachusetts it is 201x.  In these latter states it is especially critical for business electricity consumers to try to smooth out their electricity use throughout the day. 
+
+
+- 
 
