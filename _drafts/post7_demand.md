@@ -61,7 +61,7 @@ TD.purple TH.purple {background-color: #E6E6FA;}
     </tr>
     <tr class="gray">
      <th  colspan="2">Fixed vs. TOU</th>
-     <td>Fixed</td><td>TOU</td><td>Fixed</td><td>TOU</td><td>Fixed</td>
+     <td>Fixed</td><td>TOU</td><td>Fixed</td><td>TOU</td>
     </tr>
     <tr>
      <th rowspan="2" class="purple">Summer - Peak</th>
