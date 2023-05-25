@@ -69,30 +69,27 @@ TD.purple TH.purple {background-color: #E6E6FA;}
      <th class="purple">Consumption / kWh</th>
      <td>$0.114</td><td>$0.209</td>
      <td>$0.068</td><td>$0.100</td>
-     <td>$0.062</td><td>$0.053></td>
+     <td>$0.062</td><td>$0.053</td>
     </tr>
-     <tr>
+    <tr>
      <th class="purple">Demand / kW</th>
-     <td>-</td> <td>-</td> <td>$7.69</td> <td>$11.28</td>
-    </tr>
+     <td>$7.69</td><td>$11.28</td>
+     <td>$11.29</td><td>$11.29</td>
+     <td>$12.47</td><td>$8.98</td>
     <tr>
      <th rowspan="2" class="purple">Summer - Off-Peak</th>
      <th class="purple">Consumption / kWh</th>
-     <td>$0.116</td> <td>$0.113</td> <td>$0.114</td> <td>$0.106</td>
+     <td>$0.114</td><td>$0.106</td>
+     <td>$0.068</td><td>$0.055</td>
+     <td>$0.062</td><td>$0.051</td>
     </tr>
-     <tr>
+    <tr>
      <th class="purple">Demand / kW</th>
-     <td>-</td> <td>-</td> <td>$7.69</td> <td>$0.00</td>
-         </tr>
-     <tr>
-     <th rowspan="2" class="purple">Winter</th>
-     <th class="purple">Consumption / kWh</th>
-     <td>$0.116</td> <td>$0.092</td> <td>$0.114</td> <td>$0.105</td>
-    </tr>
-     <tr>
-     <th class="purple">Demand / kW</th>
-     <td>-</td> <td>-</td> <td>$7.69</td> <td>$3.97</td>
-    </tr>    
+     <td>$7.69</td><td>$11.28</td>
+     <td>$11.29</td><td>$0.00</td>
+     <td>$12.47</td><td>$8.98</td>
+
+     
 </table>
                        
 
