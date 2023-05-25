@@ -50,16 +50,14 @@ TD.purple TH.purple {background-color: #E6E6FA;}
         <th colspan="2" scope ="colgroup"></th> 
          <th colspan="2" scope ="colgroup">Southern Nevada (NV Energy)</th> 
          <th colspan="2" scope ="colgroup">Florida (FPL)</th>
-     <th colspan="1" scope ="colgroup">Massachusetts (National Grid)</th>
     <tr class="blue">
      <th colspan="2">Plan Name</th>
-     <th>LGS-1</th> <th>OLGS-1</th> <th>General Service Demand</th><th>General Service Demand-TOU</th><th>General Service-Demand</th>
+     <th>LGS-1</th> <th>OLGS-1</th> <th>General Service Demand</th><th>General Service Demand-TOU</th>
     </tr>
     <tr class="blue">
      <th colspan="2">Applicable customers:</th>
      <th colspan="2">Medium (monthly usage > 3500 kWh, demand < 200 kW), choice between two</th>
      <th colspan="2">Businesses larger than small businesses, choice betwen two</th>
-     <th>Average use > 10,000 kWh / month, demand < 200 kW</th>
     </tr>
     <tr class="gray">
      <th  colspan="2">Fixed vs. TOU</th>
@@ -70,49 +68,41 @@ TD.purple TH.purple {background-color: #E6E6FA;}
      <th class="purple">Consumption / kWh</th>
      <td>$0.114</td><td>$0.209</td>
      <td>$0.068</td><td>$0.100</td>
-     <td>$0.062</td>
     </tr>
     <tr>
      <th class="purple">Demand / kW</th>
      <td>$7.69</td><td>$11.28</td>
      <td>$11.29</td><td>$11.29</td>
-     <td>$12.47</td>
     <tr>
      <th rowspan="2" class="purple">Summer - Off-Peak</th>
      <th class="purple">Consumption / kWh</th>
      <td>$0.114</td><td>$0.106</td>
      <td>$0.068</td><td>$0.055</td>
-     <td>$0.062</td>
     </tr>
     <tr>
      <th class="purple">Demand / kW</th>
      <td>$7.69</td><td>-</td>
      <td>$11.29</td><td>-</td>
-     <td>$12.47</td>
     <tr>
      <th rowspan="2" class="purple">Winter - Peak</th>
      <th class="purple">Consumption / kWh</th>
      <td>n/a</td><td>n/a</td>
      <td>$0.068</td><td>$0.100</td>
-     <td>$0.062</td>
     </tr>
     <tr>
      <th class="purple">Demand / kW</th>
      <td>n/a</td><td>n/a</td>
      <td>$11.29</td><td>$11.29</td>
-     <td>$12.47</td>
     <tr>
      <th rowspan="2" class="purple">Winter - Off-Peak</th>
      <th class="purple">Consumption / kWh</th>
      <td>$0.114</td><td>$0.105</td>
      <td>$0.068</td><td>$0.055</td>
-     <td>$0.062</td>
     </tr>
     <tr>
      <th class="purple">Demand / kW</th>
      <td>$7.69</td><td>$3.97</td>
      <td>$11.29</td><td>-</td>
-     <td>$12.47</td>
 </table>
                        
 A couple of points to notice: 
