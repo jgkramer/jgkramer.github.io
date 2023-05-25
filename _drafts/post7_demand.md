@@ -41,7 +41,9 @@ A medical facility that uses 8,000 kWh per month but is open only 20 days a mont
 
 Meanwhile a small highly automated manufacturing facility with limited human staffing and HVAC use may have its machines running 25 days a month for 16 hours, of an **average** usage of 20 kW but with a peak demand of only 40 kW.  Its charge will be $0.114 x 8,000 + $7.69 x 40 = $1,220.  The automated facility has a 25% lower energy bill with the same usage, solely because its usage is more spread out over time than the HVAC-intensive medical facility. 
 
-#### Real Data
+#### Real World Usage Data
+
+
 
 
 #### Rate Structures in Different States
