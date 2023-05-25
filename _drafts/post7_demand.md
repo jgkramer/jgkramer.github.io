@@ -29,9 +29,10 @@ National Grid, a utility operator in the northeast U.S., [explains](https://www9
 
 > This is not the case among commercial and industrial energy users, whose electricity use--both consumption and demand--vary greatly. Some need large amounts of electricity once in a while--others, almost constantly. Complicating this is the fact that electricity cannot be stored. It must be generated and supplied to each customer as it is called for--instantly, day or night, in extremely variable quantities. Meeting these customers' needs requires keeping a vast array of expensive equipment--transformers, wires, substations and even generating stations--on constant standby. The amount and size of this equipment must be large enough to meet peak consumption periods, i.e., when the need for electricity is highest.
 
-### An Example
- 
-#### Nevada 
+### Some Examples
+
+The table below presents a few examples of demand-based business rates in different U.S. statess.   Often, a customer ends up in a rate category based on their usage patterns 
+(for example, in Nevada, business customers who consume less than 3,500 kWh per month are in a non-demand based plan). 
 
 <STYLE TYPE="text/css">
 <!--
@@ -45,23 +46,29 @@ TD.purple TH.purple {background-color: #E6E6FA;}
 <table>
     <tr class="blue">
         <th colspan="2" scope ="colgroup"></th> 
-         <th colspan="2" scope ="colgroup">Small Business <p style="margin-bottom: 0.25em">(monthly usage < 3,500 kWh)</p></th> 
-        <th colspan="2" scope ="colgroup">Medium Business 
-          <p style="margin-bottom: 0.25em">(monthly usage > 3,500 kWh,</p>
-          <p style="margin-bottom: 0.25em">demand < 299 kW)</p></th> 
-    </tr>    
+         <th colspan="2" scope ="colgroup">Southern Nevada (NV Energy)</th> 
+         <th colspan="2" scope ="colgroup">Florida (FPL)</th>
+     <th colspan="2" scope ="colgroup">Massachusetts (National Grid)</th>
+    <tr class="blue">
+     <th colspan="2">Plan Name</th>
+     <th>LGS-1</th> <th>OLGS-1</th> <th>General Service Demand</th><th>General Service Demand-TOU</th><th>General Service-Demand</th><th>General Service-Demand+TOU</th>
+    </tr>
+    <tr class="blue">
+     <th colspan="2">Applicable customers:</th>
+     <th colspan="2">Medium (monthly usage > 3500 kWh, demand < 200 kW), choice between two</th>
+     <th colspan="2">Businesses larger than small businesses, choice betwen two</th>
+     <th>Average use > 10,000 kWh / month, demand < 200 kW</th>
+     <th>Demand > 200 kW</th>
+    </tr>
+    
     <tr class="gray">
      <th  colspan="2">Fixed vs. TOU</th>
-     <td>Fixed</td><td>TOU</td><td>Fixed</td><td>TOU</td>
+     <td>Fixed</td><td>TOU</td><td>Fixed</td><td>TOU</td><td>Fixed</td><td>TOU</td>
     </tr>
-    <tr class="gray">
-     <th colspan="2">Demand Pricing?</th>
-     <td>No</td><td>No</td><td>Yes</td><td>Yes</td>
-    </tr> 
     <tr>
      <th rowspan="2" class="purple">Summer - Peak</th>
      <th class="purple">Consumption / kWh</th>
-     <td>$0.116</td> <td>$0.161</td> <td>$0.114</td> <td>$0.209</td>
+     <td>
     </tr>
      <tr>
      <th class="purple">Demand / kW</th>
