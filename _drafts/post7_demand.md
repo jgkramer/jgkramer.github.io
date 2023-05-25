@@ -117,7 +117,7 @@ TD.purple TH.purple {background-color: #E6E6FA;}
     <tr>
      <th class="purple">Demand / kW</th>
       <td>-</td>
-     <td>$11.29</td><td>-</td>
+      <td>-</td>
     <tr>
      <th rowspan="2" class="purple">Winter - Peak</th>
      <th class="purple">Consumption / kWh</th>
