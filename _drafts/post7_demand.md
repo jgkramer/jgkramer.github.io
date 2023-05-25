@@ -60,7 +60,6 @@ TD.purple TH.purple {background-color: #E6E6FA;}
      <th>Average use > 10,000 kWh / month, demand < 200 kW</th>
      <th>Demand > 200 kW</th>
     </tr>
-    
     <tr class="gray">
      <th  colspan="2">Fixed vs. TOU</th>
      <td>Fixed</td><td>TOU</td><td>Fixed</td><td>TOU</td><td>Fixed</td><td>TOU</td>
