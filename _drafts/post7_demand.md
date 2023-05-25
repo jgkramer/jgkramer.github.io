@@ -67,7 +67,9 @@ TD.purple TH.purple {background-color: #E6E6FA;}
     <tr>
      <th rowspan="2" class="purple">Summer - Peak</th>
      <th class="purple">Consumption / kWh</th>
-     <td>
+     <td>$0.114</td><td>$0.209</td>
+     <td>$0.068</td><td>$0.100</td>
+     <td>$0.062</td><td>$0.053></td>
     </tr>
      <tr>
      <th class="purple">Demand / kW</th>
