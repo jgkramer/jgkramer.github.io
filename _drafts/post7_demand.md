@@ -57,20 +57,10 @@ August 22 was similalry a hot day, but my house had only one active A/C unit bec
 
 The total consumption on these two days was similar, with the single A/C day using slightly more total energy (155.9 kWh vs. 150.2).   So under a residential billing program based on energy consumption, the two A/C set-up would be cheaper.   But because it has a higher demand, the demand charge inverts the cost, making the two A/C unit more expensive assuming a 30-day month of identical days.  Details below:
 
-| | 2 A/C Units | 1 A/C Unit |
-|:-------------|:--------------:|:--------------:|
-| Day's Usage (kWh)|150.2|155.9|
-|1 Month Usage (kWh)|4,504|4,676|
-|Peak Demand (kW)|14.1|9.7|
-|Usage Charge|$513.41|$533.03|
-|Demand Charge|$108.18|$74.89|
-|**Total Cost**|**$621.59**|**$607.90**|
-
 | |Day's Usage (kWh)|Monthly Usage (kWh)|Peak Demand (kW)|Usage Cost|Demand Cost|**Total Cost**|
 |:-------------|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
 |1&nbsp;A/C&nbsp;Unit|155.9|4,676|9.7|$533.03|$74.89|**$607.90**|
 |2&nbsp;A/C&nbsp;Units|150.2|4,504|14.1|$513.41|$108.18|**$621.59**|
-
 
 This example is contrived: my house was much more unpleasant with a single A/C unit than with two: the zone with the working unit was too cold and the side with the broken unit was too hot.   But it illustrates the point that demand (power) vs. usage (energy) may point in different directions. 
 
