@@ -68,8 +68,8 @@ The total consumption on these two days was similar, with the single A/C day usi
 
 | |Day's Usage (kWh)|Monthly Usage (kWh)|Peak Demand (kW)|Usage Cost|Demand Cost|**Total Cost**|
 |:-------------|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
-|1 A/C Unit|155.9|4,676|9.7|$533.03|$74.89|**$607.90**|
-|2 A/C Units|150.2|4,504|14.1|$513.41|$108.18|**$621.59**|
+|1&nbsp;A/C&nbsp;Unit|155.9|4,676|9.7|$533.03|$74.89|**$607.90**|
+|2&nbsp;A/C&nbsp;Units|150.2|4,504|14.1|$513.41|$108.18|**$621.59**|
 
 
 This example is contrived: my house was much more unpleasant with a single A/C unit than with two: the zone with the working unit was too cold and the side with the broken unit was too hot.   But it illustrates the point that demand (power) vs. usage (energy) may point in different directions. 
