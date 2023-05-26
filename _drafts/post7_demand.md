@@ -66,10 +66,15 @@ This example is contrived: my house was much more unpleasant with a single A/C u
 
 #### Real Example 2: Staggering vs. Parallel Use of Equipment
 
-The second example is more realistic, and reflects the electricity usage over 6 days of friends with an electric vehicle.  Visible in the chart is the overnight charging of the EV at a power of 8 kW (scheduled to end at 6:00 am, and start however long is needed before that to fully charge the car), as well as the running of their pool filter at ~1.5 kW from 5:00 to 11:00 am. 
+The second example is more realistic, and reflects the electricity usage over 6 days of San Diego-based friends with an electric vehicle.  Visible in the chart is the overnight EV charging at 8 kW of power (scheduled to end at 6:00 am, and start however long is needed before that to fully charge the car), as well as the running of their pool filter at about 1.5 kW from 5:00 to 11:00 am. 
 
 ![Overlapping equipment](/assets/images/post7_overlap.png)
 
+The 1 hour overlap of EV charging and pool filter runnning causes the electricity consumption in each of the four 15-minute periods between 5 and 6am to be about 0.4 kWh higher.  Starting (and stopping) the pool filter an hour later would leave total energy consumption exactly the same (about 40 kWh per day).   But eliminating the overlap would reduce **peak demand** during this period by 1.3 kW from 9.64 kW to 8.34 kW.  In the Nevada fixed-rate plan described above, this would save about $10 per month.   Under a demand-based rate plan in San Diego, where demand is priced at $30 / kW, this would save $40 per month.[^2]
+
+[^2].  Again, this is an motivating example.  In the real world, utilities often offer separate plans for EV owners, with EV charging separately metered. 
+
+For actual commercial and industrial users, with electricity usage hundreds or thousands the magnitudes described here, intelligently sequencing the operation of power-hungry equipment to avoid overlaps if possible can have a meaningful impact on cost and grid stability (as can selecting the time of day they are used under TOU plans). 
 
 ### Rate Structures in Different States
 
