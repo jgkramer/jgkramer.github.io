@@ -66,7 +66,7 @@ The total consumption on these two days was similar, with the single A/C day usi
 |Demand Charge|$108.18|$74.89|
 |**Total Cost**|**$621.59**|**$607.90**|
 
-| |Day's Consumption (kWh)|Monthly Usage (kWh)|Peak Demand (kW)|Usage Cost|Demand Cost|**Total Cost**|
+| |Day's Usage (kWh)|Monthly Usage (kWh)|Peak Demand (kW)|Usage Cost|Demand Cost|**Total Cost**|
 |:-------------|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
 |1 A/C Unit|155.9|4,676|9.7|$533.03|$74.89|**$607.90**|
 |2 A/C Units|150.2|4,504|14.1|$513.41|$108.18|**$621.59**|
