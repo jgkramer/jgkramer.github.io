@@ -71,7 +71,7 @@ The second example is more realistic, and reflects the electricity usage over 6 
 
 ![Overlapping equipment](/assets/images/post7_overlap.png)
 
-The 1 hour overlap of EV charging and pool filter runnning causes the electricity consumption in each of the four 15-minute periods between 5 and 6am to be about 0.4 kWh higher.  Starting (and stopping) the pool filter an hour later would leave total energy consumption exactly the same (about 40 kWh per day).   But eliminating the overlap would reduce **peak demand** during this period by 1.3 kW from 9.64 kW to 8.34 kW.  In the Nevada fixed-rate plan described above, this would save about $10 per month.   Under San Diego commercial plans, in which demand is priced at $30 / kW, this would save $40 per month.[^2]
+The 1 hour overlap of EV charging and pool filter runnning causes the electricity consumption in each of the four 15-minute periods between 5 and 6am to be about 0.4 kWh higher.  Starting (and stopping) the pool filter an hour later would leave total energy consumption exactly the same (about 40 kWh per day).   But eliminating the overlap would reduce **peak demand** during this period by 1.3 kW from 9.64 kW to 8.34 kW.  In the Nevada fixed-rate plan described above, this would save about $10 per month.   Under San Diego commercial plans, in which demand is priced at $60 / kW, this would save $80 per month.[^2]
 
 [^2].  Again, this is an motivating example.  In the real world, utilities often offer separate plans for EV owners, with EV charging separately metered. 
 
@@ -154,13 +154,19 @@ TD.purple TH.purple {background-color: #E6E6FA;}
                        
 A couple of points to notice: 
 
-**Peak vs. Off-Peak**.  Pricing structures that charge more for electricity usage during peak times (e.g., afternoons in the summer) apply in demand plans as well as in plans that charge for energy consumption only.  The differential in demand pricing is in fact quite stark: both Nevada and Florida have non-zero demand charges **only** for peak periods (Nevada has no peak vs. off-peak distinction in winter); the maximum power consumption during off-peak hours is totally ignored. 
+**Peak vs. Off-Peak**.  Pricing plans that charge more for energy usage during peak times (e.g., summer afternoons) apply the same idea to demand charges as well.  In fact, the differential in demand pricing is more stark: both Nevada and Florida plans listed above have non-zero demand charges **only** for peak periods (Nevada has no peak/off-peak distinction in winter): the maximum power consumption during off-peak hours is totally ignored. 
 
-This pricing structure suggests that it is system-wide constraints, such as limited **generation capacity**, that demand pricing is primarily attempting to address, since that constraint is tested only in periods of peak system-wide usage.  The costs of stressing more localized constraints such as local transmission and transformer equipment, would be more applicable at all times.  
+This set-up suggests that it is system-wide constraints, such as finite generation capacity, that demand pricing is primarily targeting, since that constraint is tested only during peak system-wide usage periods.  The costs of stressing more local constraints such as local transmission and transformer equipment would be more applcable at all times. 
 
-**Demand vs. Consumption Trade-off**.   Note that demand charges are priced in **dollars** whereas energy consumption charges are priced in **cents**.  This means that an incremental 1 kWh of consumption has different costs depending on whether that kWh is at the moment of peak demand or not.   For example, in the TOU plan in Nevada, if a customer adds an extra kWh of consumption during its peak hour of the month (i.e., more air conditioning on a hot summer afternoon), then that kWh costs $11.28 because it increases demand.   In contrast, if that kWh was consumed at any other time, it would cost 21 cents.  The cost of the incremental **demand** is thus 54x that of the cost of incremental **consumption**.  This shows the relative cost to the system of concentrating electricity usage at times of peak demand.   
+**Demand vs. Consumption Exchange Ratio**.   Power demand is priced in **dollars** (per kW) whereas energy consumption is priced in **cents** (per kWh).  This means that an extra kWh consumed at the moment of peak demand costs multiples of a kWh consumed at any other time.  
 
-Different states have different ratios: in Florida's TOU plan, for example, the ratio of the cost of incremntal demand to incremental consumption is 113x.  In Massachusetts it is 201x.  In these latter states it is especially critical for business electricity consumers to try to smooth out their electricity use throughout the day. 
+For example, in Nevada's TOU plan, an extra kWh of consumption during the peak hour of the month costs $11.28 during the summer.  At any other peak time it costs 21 cents.  The cost of incremental demand is thus 54x that of the cost of incremental consumption.  In Florida's TOU plan, the cost of incremental demand is 113x that of non-peak incremental consumption.  As we'll see below, a San Diego commercial plan has a $60 / kW demand charge and a $0.023 / kWh consumption charge, a 2600x ratio. 
+
+The differences in these exchange ratios could rationally reflect differential marginal costs of the grid supplying incremental peak electricity vs. non-peak electricity.  For example, California is [awash with solar-generated kWh](https://www.etcc-ca.com/news/california%E2%80%99s-duck-problem-and-how-fix-it-cheaply) during the middle of the day, but still experiences a large ramp-up in power demanded in the early evening.  
+
+A moderate ratio between demand and consumption charges may (like the differential between peak and off-peak consumption) may simply reflect the higher cost of generation: solar may make the incremental kWh nearly free during mid-day but the need to use coal or gas during peak evening hours means more fuel costs.   A high ratio like San Diegos may indicate that the marginal cost of evening power may not simply reflect fuel but begin to reflect the high capital costs of building "peaking" generation capacity.   
+
+Marginal costs may not be the driver of these differences, however.  The setting of electric rates -- typically requiring state public utility commission approval -- is a political process and therefore may reflect the policy preferences of non-economic stakeholders as well. 
 
 #### More Complex: Multiple Types of Demand
 
