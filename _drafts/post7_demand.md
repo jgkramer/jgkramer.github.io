@@ -154,7 +154,9 @@ TD.purple TH.purple {background-color: #E6E6FA;}
                        
 A couple of points to notice: 
 
-**Peak vs. Off-Peak**.  Pricing structures that charge more for electricity usage during peak times (e.g., afternoons in the summer) apply in demand plans as well as in plans that charge for energy consumption only. 
+**Peak vs. Off-Peak**.  Pricing structures that charge more for electricity usage during peak times (e.g., afternoons in the summer) apply in demand plans as well as in plans that charge for energy consumption only.  The differential in demand pricing is in fact quite stark: both Nevada and Florida have non-zero demand charges **only** for peak periods (Nevada has no peak vs. off-peak distinction in winter); the maximum power consumption during off-peak hours is totally ignored. 
+
+This pricing structure suggests that it is system-wide constraints, such as limited **generation capacity**, that demand pricing is primarily attempting to address, since that constraint is tested only in periods of peak system-wide usage.  The costs of stressing more localized constraints such as local transmission and transformer equipment, would be more applicable at all times.  
 
 **Demand vs. Consumption Trade-off**.   Note that demand charges are priced in **dollars** whereas energy consumption charges are priced in **cents**.  This means that an incremental 1 kWh of consumption has different costs depending on whether that kWh is at the moment of peak demand or not.   For example, in the TOU plan in Nevada, if a customer adds an extra kWh of consumption during its peak hour of the month (i.e., more air conditioning on a hot summer afternoon), then that kWh costs $11.28 because it increases demand.   In contrast, if that kWh was consumed at any other time, it would cost 21 cents.  The cost of the incremental **demand** is thus 54x that of the cost of incremental **consumption**.  This shows the relative cost to the system of concentrating electricity usage at times of peak demand.   
 
