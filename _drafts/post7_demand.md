@@ -169,7 +169,7 @@ This set-up suggests that it is system-wide constraints, such as finite generati
 
 **Demand vs. Consumption Exchange Ratio**.   Power demand is priced in **dollars** (per kW) whereas energy consumption is priced in **cents** (per kWh).  This means that an extra kWh consumed at the moment of peak demand costs multiples of a kWh consumed at any other time.  
 
-For example, in Nevada's TOU plan, an extra kWh of consumption during the peak hour of the month costs $11.28 during the summer.  At any other peak time it costs 21 cents.  The cost of incremental demand is thus 54x that of the cost of incremental consumption.  In Florida's TOU plan, the cost of incremental demand is 113x that of non-peak incremental consumption.  As we'll see below, a San Diego commercial plan has a $60 / kW demand charge and a $0.023 / kWh consumption charge, a 2600x ratio. 
+For example, in Nevada's TOU plan, an extra kWh of consumption during the peak hour of the month costs $11.28 during the summer.  At any other peak time it costs 21 cents.  The cost of incremental demand is thus 54x that of the cost of incremental consumption.  Florida and Virginia's ratios are 113x and 375x.  A more complicated San Diego plan has a ~$60 / kW demand charge with incremental consumption almost free: $0.023 / kWh, a 2600x ratio.
 
 The differences in these exchange ratios could rationally reflect differential marginal costs of the grid supplying incremental peak electricity vs. non-peak electricity.  For example, California is [awash with solar-generated kWh](https://www.etcc-ca.com/news/california%E2%80%99s-duck-problem-and-how-fix-it-cheaply) during the middle of the day, but still experiences a large ramp-up in power demanded in the early evening.  
 
@@ -177,9 +177,6 @@ A moderate ratio between demand and consumption charges may (like the differenti
 
 Marginal costs may not be the driver of these differences, however.  The setting of electric rates -- typically requiring state public utility commission approval -- is a political process and therefore may reflect the policy preferences of non-economic stakeholders as well. 
 
-#### More Complex: Multiple Types of Demand
-
-We have Nevada and we have San Diego.   So good. 
-
 ### Another Way of Looking at Consumption Cost
+
 
