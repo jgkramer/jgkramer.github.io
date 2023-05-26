@@ -11,13 +11,14 @@ excerpt_separator: <!--more-->
   {% include latex.html %}
 </head>
  
-In this post I return to the structure of electricity pricing in the U.S., this time focusing on a pricing concept that is mandatory for business customers that 
-exceed a certain size (measured in monthly electricity consumption): **Demand Pricing.**  Under a demand pricing scheme, an electricity customer is charged in two separate ways: 
+In this post I return to the electricity pricing in the U.S., this time focusing on a concept that absent for most residential customers but mandatory for business customers that exceed a certain size: **demand pricing**.   Under a demand pricing scheme, an electricity customer is charged in two separate ways: 
 
-(1) First, energy consumption.  This is the concept described in [earlier](https://jgkramer.github.io/2022/10/15/Residential-Electricity-Rates.html) [posts](https://jgkramer.github.io/2022/11/07/Electricity_Usage_Anecdotes.html) -- the total energy consumption, measured in kilowatt-hours (kWh), during a month is measured, and a per-kWh rate is applied.   The per-kWh charge may depend on the season and time of day (as in a Time of Use Plan), or it may be fixed.  
+(1) **Energy consumption.**  Described in [earlier](https://jgkramer.github.io/2022/10/15/Residential-Electricity-Rates.html) [posts](https://jgkramer.github.io/2022/11/07/Electricity_Usage_Anecdotes.html), like residential plans most demand plans charge for total energy consumption, measured in kilowatt-hours (kWh), and a per-kWh rate is applied.   The per-kWh charge may depend on the season and time of day (as in a Time of Use Plan), or it may be fixed.
 
-(2) Second, electricity "demand."  Here, utilities bill not for the energy consumed (in kWh), but rather for the maximum **rate** of energy consumption in a short period of time (such as a 15 minute period), at any time during the billing period (typically monthly).  This is a measurement of maximum **power** 
+(2) **Demand (maximum power).**  Here, utilities bill not for the energy consumed (in kWh), but rather for the maximum **rate** of energy consumption in a short period of time (such as a 15 minute period), at any time during the billing period (typically monthly).  This is a measurement of maximum **power** 
 rather than aggregate energy consumption and so is often priced on a per-kW (rather than per-kWh).   The demand charge can also depend on the season and time of day. 
+
+**(a little outline here)**
 
 <!--more-->
 
@@ -159,6 +160,7 @@ Different states have different ratios: in Florida's TOU plan, for example, the 
 
 #### More Complex: Multiple Types of Demand
 
+We have Nevada and we have San Diego.   So good. 
 
 ### Another Way of Looking at Consumption Cost
 
