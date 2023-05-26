@@ -63,7 +63,7 @@ August 22 was similalry a hot day, but my house had only one active A/C unit bec
 |Peak Demand (kW)|14.1|9.7|
 |Usage Charge|$513.41|$533.03|
 |Demand Charge|$108.18|$74.89|
-|Total Cost|$621.59|$607.90|
+|**Total Cost**|**$621.59**|**$607.90**|
 
 #### Real Example 2: Staggering vs. Parallel Use of Equipment
 
