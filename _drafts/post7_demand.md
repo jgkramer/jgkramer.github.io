@@ -120,7 +120,7 @@ TD.purple TH.purple {background-color: #E6E6FA;}
      <td>$0.056</td><td>$0.041</td>
     </tr>
     <tr>
-     <th class="purple">Demand / kW</th>
+     <th class="purple">Demand&nbsp;/kW</th>
      <td>$7.69</td><td>$11.28</td>
      <td>$11.29</td><td>$11.29</td>
      <td>$11.77</td><td>$15.33</td> 
@@ -132,7 +132,7 @@ TD.purple TH.purple {background-color: #E6E6FA;}
      <td>$0.040</td><td>$0.035</td>
     </tr>
     <tr>
-     <th class="purple">Demand / kW</th>
+     <th class="purple">Demand&nbsp;/kW</th>
       <td>$0.00</td>
       <td>$0.00</td>
       <td>$0.00</td><td>$0.00</td>
@@ -143,7 +143,7 @@ TD.purple TH.purple {background-color: #E6E6FA;}
       <td>$0.100</td>
     </tr>
     <tr>
-     <th class="purple">Demand / kW</th>
+     <th class="purple">Demand&nbsp;/kW</th>
       <td>n/a</td>
       <td>$11.29</td>
     <tr>
@@ -153,7 +153,7 @@ TD.purple TH.purple {background-color: #E6E6FA;}
       <td>$0.055</td>
     </tr>
     <tr>
-     <th class="purple">Demand / kW</th>
+     <th class="purple">Demand&nbsp;/kW</th>
       <td>$3.97</td>
       <td>-</td>
 </table>
