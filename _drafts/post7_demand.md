@@ -53,9 +53,9 @@ Ignoring the fact that I am a residential customer rather than a commercial one,
 
 ![1 vs. 2 A/C Comparison](/assets/images/post7_august_comparison.png)
 
-August 22 was similalry a hot day, but my house had only one active A/C unit because the second one had broken.  The single unit struggled to cool the house during the hottest part of the day, and made up for that by operating a higher percentage of the time (like the automated manufacturer in the above example).  The highest 15-minute period of consumption was 2.4 kWh around noon (probably the A/C plus the oven working on lunch), a demand of ~9.6 kW. 
+August 22 was similarly a hot day, but I had only one A/C unit because the second one had broken.  The single unit struggled to cool the house during the hottest part of the day, and made up for that by operating many more hours (like the automated manufacturer in the above example).  The highest 15-minute period of consumption was 2.4 kWh around noon (probably the A/C plus the oven working on lunch), a demand of ~9.6 kW. 
 
-The total consumption on these two days was similar, with the single A/C day using slightly more total energy (155.9 kWh vs. 150.2).   So under a residential billing program based on energy consumption, the two A/C set-up would be cheaper.   But because it has a higher demand, the demand charge inverts the cost, making the two A/C unit more expensive assuming a 30-day month of identical days.  Details below:
+The total consumption on these days was similar, with the one-A/C day using slightly more total energy (155.9 kWh vs. 150.2).  So under a residential billing program based on energy consumption, the two-A/C set-up would be cheaper.  But because it had a higher demand, the demand charge inverts the cost, making the two A/C unit more expensive assuming a 30-day month of identical days.  Details below:
 
 | |Day's Usage (kWh)|Monthly Usage (kWh)|Peak Demand (kW)|Usage Cost|Demand Cost|**Total Cost**|
 |:-------------|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
@@ -74,7 +74,7 @@ The 1 hour overlap of EV charging and pool filter runnning causes the electricit
 
 [^2].  Again, this is an motivating example.  In the real world, utilities often offer separate plans for EV owners, with EV charging separately metered. 
 
-For actual commercial and industrial users, with electricity usage hundreds or thousands the magnitudes described here, intelligently sequencing the operation of power-hungry equipment to avoid overlaps if possible can have a meaningful impact on cost and grid stability (as can selecting the time of day they are used under TOU plans). 
+For actual commercial and industrial users, with electricity usage hundreds or thousands the magnitudes described here, managing the operation of power-hungry equipment to be sequential rather than parallel can generate large cost reductions (and improvements in grid stability). 
 
 ### Rate Structures in Different States
 
