@@ -141,21 +141,25 @@ TD.purple TH.purple {background-color: #E6E6FA;}
      <th class="purple">Energy&nbsp;/&nbsp;kWh</th>
       <td>n/a</td>
       <td>$0.100</td>
+      <td>$0.056</td><td rowspan="2">Same as summer</td>
     </tr>
     <tr>
      <th class="purple">Demand&nbsp;/&nbsp;kW</th>
       <td>n/a</td>
       <td>$11.29</td>
+       <td>$9.21</td>
     <tr>
      <th rowspan="2" class="purple">Winter&nbsp;Off-Peak</th>
      <th class="purple">Energy&nbsp;/&nbsp;kWh</th>
       <td>$0.105</td>
       <td>$0.055</td>
+      <td>$0.040</td>
     </tr>
     <tr>
      <th class="purple">Demand&nbsp;/&nbsp;kW</th>
       <td>$3.97</td>
-      <td>-</td>
+      <td>$0.00</td>
+      <td>$0.00</td>
 </table>
                        
 A couple of points to notice: 
