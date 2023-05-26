@@ -151,7 +151,7 @@ TD.purple TH.purple {background-color: #E6E6FA;}
     <tr>
      <th rowspan="2" class="purple">Winter&nbsp;Off-Peak</th>
      <th class="purple">Energy&nbsp;/&nbsp;kWh</th>
-      <td rowspan="2">Winter: 1 rate only</td>
+      <td rowspan="2">Winter:<p>One rate only</td>
       <td>$0.055</td>
       <td>$0.040</td>
     </tr>
