@@ -141,7 +141,7 @@ TD.purple TH.purple {background-color: #E6E6FA;}
      <th class="purple">Energy&nbsp;/&nbsp;kWh</th>
       <td>n/a</td>
       <td>$0.100</td>
-      <td>$0.056</td><td rowspan="2">Same as summer</td>
+      <td>$0.056</td><td rowspan="4">Same as summer</td>
     </tr>
     <tr>
      <th class="purple">Demand&nbsp;/&nbsp;kW</th>
