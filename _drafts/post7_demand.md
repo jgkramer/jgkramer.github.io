@@ -71,7 +71,7 @@ The second example is more realistic, and reflects the electricity usage over 6 
 
 ![Overlapping equipment](/assets/images/post7_overlap.png)
 
-The 1 hour overlap of EV charging and pool filter runnning causes the electricity consumption in each of the four 15-minute periods between 5 and 6am to be about 0.4 kWh higher.  Starting (and stopping) the pool filter an hour later would leave total energy consumption exactly the same (about 40 kWh per day).   But eliminating the overlap would reduce **peak demand** during this period by 1.3 kW from 9.64 kW to 8.34 kW.  In the Nevada fixed-rate plan described above, this would save about $10 per month.   Under a demand-based rate plan in San Diego, where demand is priced at $30 / kW, this would save $40 per month.[^2]
+The 1 hour overlap of EV charging and pool filter runnning causes the electricity consumption in each of the four 15-minute periods between 5 and 6am to be about 0.4 kWh higher.  Starting (and stopping) the pool filter an hour later would leave total energy consumption exactly the same (about 40 kWh per day).   But eliminating the overlap would reduce **peak demand** during this period by 1.3 kW from 9.64 kW to 8.34 kW.  In the Nevada fixed-rate plan described above, this would save about $10 per month.   Under San Diego commercial plans, in which demand is priced at $30 / kW, this would save $40 per month.[^2]
 
 [^2].  Again, this is an motivating example.  In the real world, utilities often offer separate plans for EV owners, with EV charging separately metered. 
 
