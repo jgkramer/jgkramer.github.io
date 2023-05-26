@@ -55,6 +55,7 @@ Ignoring the fact that I am a residential customer rather than a commercial one,
 
 August 22 was similalry a hot day, but my house had only one active A/C unit because the second one had broken.  The single unit struggled to cool the house during the hottest part of the day, and made up for that by operating a higher percentage of the time (like the automated manufacturer in the above example).  The highest 15-minute period of consumption was 2.4 kWh around noon (probably the A/C plus the oven working on lunch), a demand of ~9.6 kW. 
 
+The total consumption on these two days was similar, with the single A/C day using slightly more total energy (155.9 kWh vs. 150.2).   So under a residential billing program based on energy consumption, the two A/C set-up would be cheaper.   But because it has a higher demand, the demand charge inverts the cost, making the two A/C unit more expensive assuming a 30-day month of identical days.  Details below:
 
 | | 2 A/C Units | 1 A/C Unit |
 |:-------------|:--------------:|:--------------:|
@@ -64,6 +65,8 @@ August 22 was similalry a hot day, but my house had only one active A/C unit bec
 |Usage Charge|$513.41|$533.03|
 |Demand Charge|$108.18|$74.89|
 |**Total Cost**|**$621.59**|**$607.90**|
+
+This example is contrived: my house was much more unpleasant with a single A/C unit than with two: the zone with the working unit was too cold and the side with the broken unit was too hot.   But it illustrates the point that demand (power) vs. usage (energy) may point in different directions. 
 
 #### Real Example 2: Staggering vs. Parallel Use of Equipment
 
