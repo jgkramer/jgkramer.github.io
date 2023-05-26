@@ -35,9 +35,9 @@ National Grid, a utility operator in the northeast U.S., [explains](https://www9
 
 [^1]:  FPL [helpfully uses](https://www.fpl.com/rates/understand-demand.html#:~:text=What%20is%20Demand%3F,demand%20for%20each%20billing%20period.) a water utility analogy.  While most customers can be served with a standard one-inch-pipe,  one who uses significant water in bursts will require special equipment from the water company (larger main lines or service pipes), with "demand" charges covering the costs of equipment needed to handle more flow than standard.  
 
-### Gentle Introduction to Demand
+### A Gentle Introduction to Demand
 
-#### Nevada Fixed Demand Structure
+#### A Simple Pricing Plan (Nevada)
 
 We'll begin with a simple example: the Southern Nevada LGS-1 plan, which is for medium sized businesses (monthly consumption averaging above 3,500 kWh and demand < 200 kWh), and is constant throughout times of day and seasons.  There is also a time-of-use plan available (described below). 
 
@@ -66,7 +66,7 @@ This example is contrived: my house was much more unpleasant with a single A/C u
 
 #### Real Example 2: Staggering vs. Parallel Use of Equipment
 
-
+The second example is more realistic, and reflects the electricity usage over 6 days of friends with an electric vehicle.  Visible in the chart is the overnight charging of the EV at a power of 8 kW (scheduled to end at 6:00 am, and start however long is needed before that to fully charge the car), as well as the running of their pool filter at ~1.5 kW from 5:00 to 11:00 am. 
 
 
 ### Rate Structures in Different States
