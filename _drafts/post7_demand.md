@@ -104,8 +104,8 @@ TD.purple TH.purple {background-color: #E6E6FA;}
     </tr>
     <tr class="blue">
      <th colspan="2">Applicable customers:</th>
-     <th colspan="2">Medium (monthly usage > 3500 kWh, demand < 200 kW), choice between two</th>
-     <th colspan="2">Businesses larger than small businesses, choice betwen two</th>
+     <th colspan="2">Medium (monthly usage > 3500 kWh, demand < 200 kW), can choose:/th>
+     <th colspan="2">Businesses larger than small businesses can choose:</th>
       <th>Demand < 500 kW</th><th>Demand > 500 kW</th>
     </tr>
     <tr class="gray">
