@@ -113,8 +113,8 @@ TD.purple TH.purple {background-color: #E6E6FA;}
       <td>No</td><td>Yes</td><td>No</td><td>Yes</td><td>Yes</td><td>Yes</td>
     </tr>
     <tr>
-     <th rowspan="2" class="purple">Summer - Peak</th>
-     <th class="purple">Consumption / kWh</th>
+     <th rowspan="2" class="purple">Summer&nbsp;Peak</th>
+     <th class="purple">Energy&nbsp;/kWh</th>
      <td>$0.114</td><td>$0.209</td>
      <td>$0.068</td><td>$0.100</td>
      <td>$0.056</td><td>$0.041</td>
@@ -125,8 +125,8 @@ TD.purple TH.purple {background-color: #E6E6FA;}
      <td>$11.29</td><td>$11.29</td>
      <td>$11.77</td><td>$15.33</td> 
     <tr>
-     <th rowspan="2" class="purple">Summer - Off-Peak</th>
-     <th class="purple">Consumption / kWh</th>
+     <th rowspan="2" class="purple">Summer&nbsp;Off-Peak</th>
+     <th class="purple">Energy&nbsp;/kWh</th>
      <td rowspan="6">Same</td><td>$0.106</td>
      <td rowspan="6">Same</td><td>$0.055</td>
      <td>$0.040</td><td>$0.035</td>
@@ -137,8 +137,8 @@ TD.purple TH.purple {background-color: #E6E6FA;}
       <td>$0.00</td>
       <td>$0.00</td><td>$0.00</td>
     <tr>
-     <th rowspan="2" class="purple">Winter - Peak</th>
-     <th class="purple">Consumption / kWh</th>
+     <th rowspan="2" class="purple">Winter&nbsp;Peak</th>
+     <th class="purple">Energy&nbsp;/kWh</th>
       <td>n/a</td>
       <td>$0.100</td>
     </tr>
@@ -147,8 +147,8 @@ TD.purple TH.purple {background-color: #E6E6FA;}
       <td>n/a</td>
       <td>$11.29</td>
     <tr>
-     <th rowspan="2" class="purple">Winter - Off-Peak</th>
-     <th class="purple">Consumption / kWh</th>
+     <th rowspan="2" class="purple">Winter&nbsp;Off-Peak</th>
+     <th class="purple">Energy&nbsp;/kWh</th>
       <td>$0.105</td>
       <td>$0.055</td>
     </tr>
