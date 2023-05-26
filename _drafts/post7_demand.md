@@ -49,16 +49,21 @@ Meanwhile a small highly automated manufacturing facility with limited human sta
 
 #### Real Example 1: One A/C vs. Two
 
-Ignoring the fact that I am a residential customer rather than a commercial one, I examined two days of my home's electricity consumption in August 2022 to intuitively explore the impact of demand vs. consumption pricing.  August 16, 2022 was a normal hot summer day in Southern Nevada, and it is easy to see the operation in the afternoon and early evening of my two central air-conditionng units, each of which can consume ~1 kWh in 15-minute increments (~4 kW power consumption).  Note that the highest consumption was around 5pm, with both A/C units running and using a total of 3.5 kWh in 15 minutes, which is an average power rate of ~14 kW during this period. 
+Ignoring the fact that I am a residential customer rather than a commercial one, I examined two days of my home's electricity consumption in August 2022 to intuitively explore the impact of demand vs. consumption pricing.  August 16, 2022 was a normal hot summer day in Southern Nevada, and it is easy to see the operation in the afternoon and early evening of my two central air-conditionng units, each of which can consume ~1 kWh in 15-minute increments (~4 kW power consumption).  Note that the highest consumption was around 5pm, with both A/C units running and using a total of 3.5 kWh in 15 minutes, which is an average demand power of ~14 kW during this period. 
 
 ![KramerAugust2022](/assets/images/post7_august_comparison.png)
 
 August 22 was similalry a hot day, but my house had only one active A/C unit because the second one had broken.  The single unit struggled to cool the house during the hottest part of the day, and made up for that by operating a higher percentage of the time (like the automated manufacturer in the above example).  The highest 15-minute period of consumption was 2.4 kWh around noon (probably the A/C plus the oven working on lunch), a demand of ~9.6 kW. 
 
 
-
-
-
+| | 2 A/C Units | 1 A/C Unit |
+|:-------------|:--------------:|:--------------:|
+| Day's Usage (kWh)|150.2|155.9|
+|1 Month Usage (kWh)|4,504|4,676|
+|Peak Demand (kW)|14.1|9.7|
+|Usage Charge|$513.41|$533.03|
+|Demand Charge|$108.18|$74.89|
+|Total Cost|$621.59|$607.90|
 
 #### Real Example 2: Staggering vs. Parallel Use of Equipment
 
