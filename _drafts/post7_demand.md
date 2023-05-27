@@ -183,7 +183,7 @@ Another way to think about the two dimensions of price (demand and energy consum
 
 Taking the total costs above (demand plus energy consumption) and dividing by the total kWh of energy consumed, we get a blended cost per kWh.  That number is lower for the more constant consumption, running the equivalent of 16 hours a day, than the more jagged consumption, running fewer hours per day. 
 
-| |Day's Usage (kWh)|Peak Demand (kW)|Equivalent Hours/Day||Monthly kWh|**Monthly Cost**|**Blended Cost per kWh**|
+| |Day's Usage (kWh)|Peak Demand (kW)|Equivalent Hours/Day|Monthly kWh|**Monthly Cost**|**Blended Cost per kWh**|
 |:-------------|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
 |1&nbsp;A/C&nbsp;Unit|155.9|9.7|16.1|4,676|**$607.90**|**$0.130**|
 |2&nbsp;A/C&nbsp;Units|150.2|14.1|10.7|4,504|**$621.59**|**$0.138**|
