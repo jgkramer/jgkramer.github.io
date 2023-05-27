@@ -204,9 +204,13 @@ The capital costs of constructing fewer vs. many data are clear, but for a large
 
 [^3]: In a similar vein, always-on data centers like the type used by cryptocurrency miners have a [particularly synergistic relationship](https://www.world-nuclear-news.org/Articles/First-nuclear-powered-data-centre-at-Susquehanna-c) with baseload power operators like nuclear power plants.  The generator benefits from having a consistent demand without fluctuation from other grid users, and the consumer can thereby receive lower energy prices.
 
-
-
 ### Further Work
+
+This post has introduced the mechanics of simple demand pricing plans, the economic rationale for them on the supply side, and how consumers can think about them on the demand side.  
+
+The next post will dive into more variants of demand pricing, in which demand-pricing can include one or both of the current period's maximum power usage and some dependence on prior months' as well. 
+
+
 
 
 
