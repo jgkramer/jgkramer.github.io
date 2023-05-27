@@ -188,9 +188,9 @@ Taking the total costs above (demand plus energy consumption) and dividing by th
 |1&nbsp;A/C&nbsp;Unit|155.9|9.7|**16.1**|4,676|$607.90|**$0.130**|
 |2&nbsp;A/C&nbsp;Units|150.2|14.1|**10.7**|4,504|$621.59|**$0.138**|
 
-The graph below plots the blended cost per kWh of three states above (Nevada, Florida, Virginia): 
+The graph below plots the blended cost per kWh as a function of hours per day active, for three state plans listed above (Nevada, Florida, Virginia): 
 
-[Blended kWh cost](/assets/images/post7_blended_kWh.png)
+![Blended kWh cost](/assets/images/post7_blended_kWh.png)
 
 
 
