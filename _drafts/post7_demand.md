@@ -169,7 +169,7 @@ This set-up suggests that it is system-wide constraints, such as finite generati
 
 **Demand vs. Consumption Exchange Ratio**.   Power demand is priced in **dollars** (per kW) whereas energy consumption is priced in **cents** (per kWh).  This means that an extra kWh consumed at the moment of peak demand costs multiples of a kWh consumed at any other time.  
 
-For example, in Nevada's TOU plan, an extra kWh of consumption during the peak hour of the month costs $11.28 during the summer.  At any other peak time it costs 21 cents.  The cost of incremental demand is thus 54x that of the cost of incremental consumption.  Florida and Virginia's ratios are 113x and 375x.  A more complicated San Diego plan has a ~$60 / kW demand charge with incremental consumption almost free: $0.023 / kWh, a 2600x ratio.
+For example, in Nevada's TOU plan, an extra kWh of consumption during the peak hour of the month costs $11.28 during the summer.  At any other peak time it costs 21 cents.  The cost of incremental demand is thus 54x that of the cost of incremental consumption.  Florida and Virginia's ratios are 113x and 374x.  A more complicated San Diego plan has a ~$60 / kW demand charge with incremental consumption almost free: $0.023 / kWh, a 2600x ratio.
 
 The differences in these exchange ratios could rationally reflect differential marginal costs of the grid supplying incremental peak electricity vs. non-peak electricity.  For example, California is [awash with solar-generated kWh](https://www.etcc-ca.com/news/california%E2%80%99s-duck-problem-and-how-fix-it-cheaply) during the middle of the day, but still experiences a large ramp-up in power demanded in the early evening.  
 
@@ -188,9 +188,18 @@ Taking the total costs above (demand plus energy consumption) and dividing by th
 |1&nbsp;A/C&nbsp;Unit|155.9|9.7|**16.1**|4,676|$607.90|**$0.130**|
 |2&nbsp;A/C&nbsp;Units|150.2|14.1|**10.7**|4,504|$621.59|**$0.138**|
 
-The graph below plots the blended cost per kWh as a function of hours per day active, for three state plans listed above (Nevada, Florida, Virginia): 
+It is a bit counter-intuitive that a much smoother consumption profile (16.1 hours vs. 10.7 hours) produces only a 6% decrease in the per-kWh cost of electricity between these two profiles.  But this phenomenon is a function of the relatively low ratio in the Nevada non-TOU plan between the demand charge per kWh and the energy consumption charge.  The graph below plots the blended cost per kWh as a function of hours per day active, for three state plans listed above (Nevada, Florida, Virginia): 
 
 ![Blended kWh cost](/assets/images/post7_blended_kWh.png)
+
+In the Virginia plan, with its 374x ratio of demand to consumption charges, there is a much higher incentive to smoothe out the energy profile: the 2 A/C profile at 10.7 hours / day costs 8.9 cents per kWh whereas the 1 A/C profile at 16.1 hours per day costs 7.3 cents per kWh, an 18% decrease.  
+
+#### Commercial-scale Thought Experiment
+
+
+
+
+
 
 
 
