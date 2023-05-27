@@ -181,11 +181,15 @@ Marginal costs may not be the driver of these differences, however.  The setting
 
 Another way to think about the two dimensions of price (demand and energy consumption) is to think of these plans as offering a variable price per kWh of energy consumed, as a function of **how even** that energy consumption is.  To return to the example of my air conditioning units.   With 2 A/Cs, my peak demand was 14.1 kW.   The total energy usage in a day of 150.2 kWh is the equivalent of 10.7 hours at full blast.   With 1 A/C, my peak demand was 9.7 kW.   The total energy usage was 155.9 kWh, the equivalent of 16.1 hours at full blast.  
 
+Taking the total costs above (demand plus energy consumption) and dividing by the total kWh of energy consumed, we get a blended cost per kWh.  That number is lower for the more constant consumption, running the equivalent of 16 hours a day, than the more jagged consumption, running fewer hours per day. 
 
-| |Day's Usage (kWh)|Peak Demand (kW)|Equivalent Hours|**Monthly Cost**|**Blended Cost per kWh**|
+| |Day's Usage (kWh)|Peak Demand (kW)|Equivalent Hours/Day||Monthly kWh|**Monthly Cost**|**Blended Cost per kWh**|
 |:-------------|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
-|1&nbsp;A/C&nbsp;Unit|155.9|9.7|16.1|**$607.90**|**$0.130**|
-|2&nbsp;A/C&nbsp;Units|150.2|14.1|10.7|**$621.59**|**$0.138**|
+|1&nbsp;A/C&nbsp;Unit|155.9|9.7|16.1|4,676|**$607.90**|**$0.130**|
+|2&nbsp;A/C&nbsp;Units|150.2|14.1|10.7|4,504|**$621.59**|**$0.138**|
+
+
+
 
 
 
