@@ -177,6 +177,20 @@ A moderate ratio between demand and consumption charges may (like the differenti
 
 Marginal costs may not be the driver of these differences, however.  The setting of electric rates -- typically requiring state public utility commission approval -- is a political process and therefore may reflect the policy preferences of non-economic stakeholders as well. 
 
-### Another Way of Looking at Consumption Cost
+### Energy Price as a Function of Smoothness
 
+Another way to think about the two dimensions of price (demand and energy consumption) is to think of these plans as offering a variable price per kWh of energy consumed, as a function of **how even** that energy consumption is.  To return to the example of my air conditioning units.   With 2 A/Cs, my peak demand was 14.1 kW.   The total energy usage in a day of 150.2 kWh is the equivalent of 10.7 hours at full blast.   With 1 A/C, my peak demand was 9.7 kW.   The total energy usage was 155.9 kWh, the equivalent of 16.1 hours at full blast.  
+
+
+| |Day's Usage (kWh)|Peak Demand (kW)|Equivalent Hours|**Monthly Cost**|**Blended Cost per kWh**|
+|:-------------|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
+|1&nbsp;A/C&nbsp;Unit|155.9|9.7|16.1|**$607.90**|**$0.130**|
+|2&nbsp;A/C&nbsp;Units|150.2|14.1|10.7|**$621.59**|**$0.138**|
+
+
+
+
+
+155.9|4,676|9.7|
+150.2|4,504|14.1
 
