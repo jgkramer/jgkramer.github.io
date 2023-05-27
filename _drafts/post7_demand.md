@@ -73,7 +73,7 @@ The second example is more realistic, and reflects the electricity usage over 6 
 
 The 1 hour overlap of EV charging and pool filter runnning causes the electricity consumption in each of the four 15-minute periods between 5 and 6am to be about 0.4 kWh higher.  Starting (and stopping) the pool filter an hour later would leave total energy consumption exactly the same (about 40 kWh per day).   But eliminating the overlap would reduce **peak demand** during this period by 1.3 kW from 9.64 kW to 8.34 kW.  In the Nevada fixed-rate plan described above, this would save about $10 per month.   Under San Diego commercial plans, in which demand is priced at $60 / kW, this would save $80 per month.[^2]
 
-[^2].  Again, this is an motivating example.  In the real world, utilities often offer separate plans for EV owners, with EV charging separately metered. 
+[^2]:  Again, this is an motivating example.  In the real world, utilities often offer separate plans for EV owners, with EV charging separately metered. 
 
 For actual commercial and industrial users, with electricity usage hundreds or thousands the magnitudes described here, managing the operation of power-hungry equipment to be sequential rather than parallel can generate large cost reductions (and improvements in grid stability). 
 
@@ -202,7 +202,7 @@ If latency is not a significant concern (perhaps because users' devices can buff
 
 The capital costs of constructing fewer vs. many data are clear, but for a large commercial consumer of electricity with data centers, energy costs will also be material.   Under a plan like Virginia's with high demand costs relative to energy costs, consoilidating into fewer data centers that run 16 hours a day instead of 4 at peak power would lower energy costs by more than 50% (e.g., from $0.169 / kWh to $0.073 / kWh).[^3]
 
-[^3].  In a similar vein, always-on data centers like the type used by cryptocurrency miners have a [particularly synergistic relationship](https://www.world-nuclear-news.org/Articles/First-nuclear-powered-data-centre-at-Susquehanna-c) with baseload power operators like nuclear power plants.  The generator benefits from having a consistent demand without fluctuation from other grid users, and the consumer can thereby receive lower energy prices.
+[^3]: In a similar vein, always-on data centers like the type used by cryptocurrency miners have a [particularly synergistic relationship](https://www.world-nuclear-news.org/Articles/First-nuclear-powered-data-centre-at-Susquehanna-c) with baseload power operators like nuclear power plants.  The generator benefits from having a consistent demand without fluctuation from other grid users, and the consumer can thereby receive lower energy prices.
 
 
 
