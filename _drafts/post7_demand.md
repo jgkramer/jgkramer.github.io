@@ -163,7 +163,7 @@ TD.purple TH.purple {background-color: #E6E6FA;}
                        
 A couple of points to notice: 
 
-**Peak vs. Off-Peak**.  Pricing plans that charge more for energy usage during peak times (e.g., summer afternoons) apply the same idea to demand charges as well.  In fact, the differential in demand pricing is more stark: both Nevada and Florida plans listed above have non-zero demand charges **only** for peak periods (Nevada has no peak/off-peak distinction in winter): the maximum power consumption during off-peak hours is totally ignored. 
+**Off-Peak Demand Doesn't Matter Much.**  Pricing plans that charge more for energy usage during peak times (e.g., summer afternoons) apply the same idea to demand charges as well.  In fact, the differential in demand pricing is more stark: both Nevada and Florida plans listed above have non-zero demand charges **only** for peak periods (Nevada has no peak/off-peak distinction in winter): the maximum power consumption during off-peak hours is totally ignored. 
 
 This set-up suggests that it is system-wide constraints, such as finite generation capacity, that demand pricing is primarily targeting, since that constraint is tested only during peak system-wide usage periods.  The costs of stressing more local constraints such as local transmission and transformer equipment would be more applcable at all times. 
 
