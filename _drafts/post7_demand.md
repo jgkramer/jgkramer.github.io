@@ -13,9 +13,9 @@ excerpt_separator: <!--more-->
  
 In this post I return to the electricity pricing in the U.S., this time focusing on a concept that absent for most residential customers but mandatory for business customers that exceed a certain size: **demand pricing**.   Under a demand pricing scheme, an electricity customer is charged in two separate ways: 
 
-(1) **Energy consumption.**  Described in [earlier](https://jgkramer.github.io/2022/10/15/Residential-Electricity-Rates.html) [posts](https://jgkramer.github.io/2022/11/07/Electricity_Usage_Anecdotes.html), like residential plans most demand plans charge for total energy consumption, measured in kilowatt-hours (kWh), and a per-kWh rate is applied.   The per-kWh charge may depend on the season and time of day (as in a Time of Use Plan), or it may be fixed.
+(1) **Consumption: Energy.**  Described in [earlier](https://jgkramer.github.io/2022/10/15/Residential-Electricity-Rates.html) [posts](https://jgkramer.github.io/2022/11/07/Electricity_Usage_Anecdotes.html), like residential plans most demand plans charge for total energy consumption, measured in kilowatt-hours (kWh), and a per-kWh rate is applied.   The per-kWh charge may depend on the season and time of day (as in a Time of Use Plan), or it may be fixed.
 
-(2) **Demand (maximum power).**  Here, utilities bill not for the energy consumed (in kWh), but rather for the maximum **rate** of energy consumption in a short period of time (such as a 15 minute period), at any time during the billing period (typically monthly).  This is a measurement of maximum **power** 
+(2) **Demand: Power.**  Here, utilities bill not for the energy consumed (in kWh), but rather for the maximum **rate** of energy consumption in a short period of time (such as a 15 minute period), at any time during the billing period (typically monthly).  This is a measurement of maximum **power** 
 rather than aggregate energy consumption and so is often priced on a per-kW (rather than per-kWh).   The demand charge can also depend on the season and time of day. 
 
 **(a little outline here)**
@@ -195,6 +195,20 @@ It is a bit counter-intuitive that a much smoother consumption profile (16.1 hou
 In the Virginia plan, with its 374x ratio of demand to consumption charges, there is a much higher incentive to smoothe out the energy profile: the 2 A/C profile at 10.7 hours / day costs 8.9 cents per kWh whereas the 1 A/C profile at 16.1 hours per day costs 7.3 cents per kWh, an 18% decrease.  
 
 #### Commercial-scale Thought Experiment
+
+Imagine you operate a global streaming-video service whose customers tend to consume your content between the hours of 7pm and 11pm local time.  If you own your own data centers, you may have a data center in each region so that the data sits geographically close to your customers in that region and has low latency.  If you pursue this strategy, each data center may only operate around 4 hours per day (7pm to 11pm).  
+
+If latency is not a significant concern (perhaps because users' devices can buffer some amount of content), you may consolidate into only a few large data centers that run nearly all the time.  7pm to 11pm in many global time zones may result in the up-time of data centers in this strategy operating 16 hours a day. 
+
+The capital costs of constructing fewer vs. many data are clear, but for a large commercial consumer of electricity with data centers, energy costs will also be material.   Under a plan like Virginia's with high demand costs relative to energy costs, consoilidating into fewer data centers that run 16 hours a day instead of 4 at peak power would lower energy costs by more than 50% (e.g., from $0.169 / kWh to $0.073 / kWh).[^3]
+
+[^3].  In a similar vein, always-on data centers like the type used by cryptocurrency miners have a [particularly synergistic relationship](https://www.world-nuclear-news.org/Articles/First-nuclear-powered-data-centre-at-Susquehanna-c) with baseload power operators like nuclear power plants.  The generator benefits from having a consistent demand without fluctuation from other grid users, and the consumer can thereby receive lower energy prices.
+
+
+
+### Further Work
+
+
 
 
 
