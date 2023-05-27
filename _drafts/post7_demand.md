@@ -208,7 +208,7 @@ The capital costs of constructing fewer vs. many data are clear, but for a large
 
 This post has introduced the mechanics of simple demand pricing plans, the economic rationale for them on the supply side, and how consumers can think about them on the demand side.  
 
-The next post will dive into more variants of demand pricing, in which demand-pricing can include one or both of the current period's maximum power usage and some dependence on prior months' as well. 
+The next post will dive into more variants of demand pricing, in which demand-based pricing can be based on inputs more varied than a simple measure of "this month's maximum power." 
 
 
 
