@@ -13,28 +13,27 @@ excerpt_separator: <!--more-->
  
 In this post I return to the electricity pricing in the U.S., this time focusing on a concept that absent for most residential customers but mandatory for business customers that exceed a certain size: **demand pricing**.   Under a demand pricing scheme, an electricity customer is charged in two separate ways: 
 
-(1) **Consumption: Energy.**  Described in [earlier](https://jgkramer.github.io/2022/10/15/Residential-Electricity-Rates.html) [posts](https://jgkramer.github.io/2022/11/07/Electricity_Usage_Anecdotes.html), like residential plans most demand plans charge for total energy consumption, measured in kilowatt-hours (kWh), and a per-kWh rate is applied.   The per-kWh charge may depend on the season and time of day (as in a Time of Use Plan), or it may be fixed.
+(1) **Consumption: Energy.**  Like [residential plans](https://jgkramer.github.io/2022/10/15/Residential-Electricity-Rates.html) most demand plans charge for total energy consumption, measured in kilowatt-hours (kWh), and a per-kWh rate is applied.   The per-kWh charge may be fixed, may depend on the quantity used (i.e., more expensive as usage goes up) or it may depend on the season and time of day in a Time of Use plan. 
 
-(2) **Demand: Power.**  Here, utilities bill not for the energy consumed (in kWh), but rather for the maximum **rate** of energy consumption in a short period of time (such as a 15 minute period), at any time during the billing period (typically monthly).  This is a measurement of maximum **power** 
-rather than aggregate energy consumption and so is often priced on a per-kW (rather than per-kWh).   The demand charge can also depend on the season and time of day. 
+(2) **Demand: Power.**  In addition, utilities charge not just for energy consumed (in kWh) but also for the maximum **rate** of energy consumption in a short period of time (such as a 15 or 30 minute period), at **any time** during the billing period (typically monthly).  This is a measure of maximum **power** use rather than enregy consumption and so is priced on a per-kW basis.   Demand charges can also depend on the season and time of day. 
 
-**(a little outline here)**
+This post will discuss (with examples along the way): 
+- Why the costs of infrastructure and risks to grid stability from sharp fluctutations in power by large customers justify demand-based pricing systems
+- How the presence of demand charges creates different incentives to shift usage patterns than energy-consumption pricing alone, and how using electricity-consuming equipment serially rather than in parallel can save costs
+- How different states structure their plans: in particular different states have different ratios between energy consumption costs and demand costs, which leads to different strengths of economic incentives to smooth out energy usage over time
 
 <!--more-->
 
 ### Why is there a Demand Charge for Commercial and Industrial Customers? 
 
-The idea of pricing for peak demand (especially during heavy use periods such as summer afternoons) is derived from the physical need of an electricity grid to 
-continuously balance electricity supply and consumption.  Large electricity consumers such as commercial and industrial users pose a greater risk to grid 
-reliability through sharp spikes in the quantity of electricity demanded -- they may require bringing online additional "peaking" generation capacity and in the 
-limit may result in more electriicty being demanded than supplied.   As such, usage spikes are priced at a premium, both to cover the infrastructure costs of the 
-utility providing this flexibility as well as to incentivize a smoother usage profile.
+The idea of pricing for peak demand (especially during heavy use periods such as summer afternoons) is derived from the physical need of an electricity grid to continuously balance electricity supply and consumption.  Large electricity consumers such as commercial and industrial users pose a greater risk to grid 
+reliability through sharp spikes in the quantity of electricity demanded -- they may require bringing online additional "peaking" generation capacity and in the limit may result in more electriicty being demanded than supplied.   As such, usage spikes are priced at a premium, both to cover the infrastructure costs of the utility providing this flexibility as well as to incentivize a smoother usage profile.
 
 National Grid, a utility operator in the northeast U.S., [explains](https://www9.nationalgridus.com/niagaramohawk/non_html/eff_elec-demand.pdf) that while residential consumers have simple rate structures based on consumptinonly because "there is relatively little variation in electricity use from home to home..."
 
 > This is not the case among commercial and industrial energy users, whose electricity use--both consumption and demand--vary greatly. Some need large amounts of electricity once in a while--others, almost constantly. Complicating this is the fact that electricity cannot be stored. It must be generated and supplied to each customer as it is called for--instantly, day or night, in extremely variable quantities. Meeting these customers' needs requires keeping a vast array of expensive equipment--transformers, wires, substations and even generating stations--on constant standby. The amount and size of this equipment must be large enough to meet peak consumption periods, i.e., when the need for electricity is highest.[^1]
 
-[^1]:  FPL [helpfully uses](https://www.fpl.com/rates/understand-demand.html#:~:text=What%20is%20Demand%3F,demand%20for%20each%20billing%20period.) a water utility analogy.  While most customers can be served with a standard one-inch-pipe,  one who uses significant water in bursts will require special equipment from the water company (larger main lines or service pipes), with "demand" charges covering the costs of equipment needed to handle more flow than standard.  
+[^1]:  FPL [helpfully uses](https://www.fpl.com/rates/understand-demand.html#:~:text=What%20is%20Demand%3F,demand%20for%20each%20billing%20period.) a water utility analogy.  While most customers can be served with a standard one-inch-pipe,  one who uses significant water in bursts will require special equipment from the water company (larger main lines or service pipes), with "demand" charges covering the costs of equipment needed to handle more flow than standard. 
 
 ### A Gentle Introduction to Demand
 
