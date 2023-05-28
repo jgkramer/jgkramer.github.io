@@ -195,11 +195,11 @@ In the Virginia plan, with its 374x ratio of demand to consumption charges, ther
 
 #### Commercial-scale Thought Experiment
 
-Imagine you operate a global streaming-video service whose customers tend to consume your content between the hours of 7pm and 11pm local time.  If you own your own data centers, you may have a data center in each region so that the data sits geographically close to your customers in that region and has low latency.  If you pursue this strategy, each data center may only operate around 4 hours per day (7pm to 11pm).  
+Imagine a global sreaming-video service whose customers watch videos between 7:00pm and 11:00pm local time.  It may choose to have a data center in each geographical region so that video data sits geographically close to customers in that region and thus has low latency.  With this strategy, each data center may only operate near peak power consumption around 4 hours each day (7 to 11pm). 
 
-If latency is not a significant concern (perhaps because users' devices can buffer some amount of content), you may consolidate into only a few large data centers that run nearly all the time.  7pm to 11pm in many global time zones may result in the up-time of data centers in this strategy operating 16 hours a day. 
+If latency is not a major concern (perhaps users' devices can buffer 1-2 minutes of video), the company may consolidate into only a few large data centers that run nearly all the time.  7 to 11pm in many global time zones may mean data centers are running near peak power consumption 16 hours per day. 
 
-The capital costs of constructing fewer vs. many data are clear, but for a large commercial consumer of electricity with data centers, energy costs will also be material.   Under a plan like Virginia's with high demand costs relative to energy costs, consoilidating into fewer data centers that run 16 hours a day instead of 4 at peak power would lower energy costs by more than 50% (e.g., from $0.169 / kWh to $0.073 / kWh).[^3]
+Clearly these choices have different capital costs, but for a large commercial electricity user with data centers, energy costs will also be material.   Under a plan like Virginia's with high demand costs relative to energy costs, consolidating into fewer data centers that run 16 hours a day instead of 4 hours at peak power would lower energy costs by **more than 50%** (e.g., from $0.169 to $0.073 per kWh).[^3]
 
 [^3]: In a similar vein, always-on data centers like the type used by cryptocurrency miners have a [particularly synergistic relationship](https://www.world-nuclear-news.org/Articles/First-nuclear-powered-data-centre-at-Susquehanna-c) with baseload power operators like nuclear power plants.  The generator benefits from having a consistent demand without fluctuation from other grid users, and the consumer can thereby receive lower energy prices.
 
