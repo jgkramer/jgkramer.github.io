@@ -19,7 +19,7 @@ In this post I return to the electricity pricing in the U.S., this time focusing
 
 This post will discuss (with examples along the way): 
 - Why the costs of infrastructure and risks to grid stability from sharp fluctutations in power by large customers justify demand-based pricing systems
-- How the presence of demand charges creates different incentives to shift usage patterns than energy-consumption pricing alone, and how using electricity-consuming equipment serially rather than in parallel can save costs
+- How the presence of demand charges creates different incentives to shift usage patterns than energy-consumption pricing alone, and how using electricity-consuming equipment in a staggered rather than parallel manner can meaningfully cut costs
 - How different states structure their plans: in particular different states have different ratios between energy consumption costs and demand costs, which leads to different strengths of economic incentives to smooth out energy usage over time
 
 <!--more-->
@@ -64,17 +64,17 @@ The total consumption on these days was similar, with the one-A/C day using slig
 
 This example is contrived: my house was much more unpleasant with a single A/C unit than with two: the zone with the working unit was too cold and the side with the broken unit was too hot.   But it illustrates the point that demand (power) vs. usage (energy) may point in different directions. 
 
-#### Real Example 2: Staggering vs. Parallel Use of Equipment
+#### Staggered vs. Parallel Use of Equipment
 
-The second example is more realistic, and reflects the electricity usage over 6 days of San Diego-based friends with an electric vehicle.  Visible in the chart is the overnight EV charging at 8 kW of power (scheduled to end at 6:00 am, and start however long is needed before that to fully charge the car), as well as the running of their pool filter at about 1.5 kW from 5:00 to 11:00 am. 
+The second real-world example depicts the electricity usage over 6 days of San Diego-based friends with an electric vehicle.  Visible in the chart is the overnight EV charging at 8 kW of power (it is scheduled to end at 6:00 am, and begins however long is needed before that to fully charge the car), as well as the running of their pool filter at about 1.5 kW from 5:00 to 11:00 am. 
 
 ![Overlapping equipment](/assets/images/post7_overlap.png)
 
-The 1 hour overlap of EV charging and pool filter runnning causes the electricity consumption in each of the four 15-minute periods between 5 and 6am to be about 0.4 kWh higher.  Starting (and stopping) the pool filter an hour later would leave total energy consumption exactly the same (about 40 kWh per day).   But eliminating the overlap would reduce **peak demand** during this period by 1.3 kW from 9.64 kW to 8.34 kW.  In the Nevada fixed-rate plan described above, this would save about $10 per month.   Under San Diego commercial plans, in which demand is priced at $60 / kW, this would save $80 per month.[^2]
+The 1 hour overlap of EV charging and pool filter runnning causes the electricity consumption in each of the four 15-minute periods between 5 and 6am to be about 0.4 kWh higher.  Starting (and stopping) the pool filter an hour later would leave total energy consumption exactly the same (about 40 kWh per day).   But eliminating the overlap would reduce **peak demand** during this period by 1.3 kW from 9.64 kW to 8.34 kW.  In the Nevada fixed-rate plan described above, this would save about $10 per month.  Under San Diego commercial plans, in which demand is priced at $60 / kW, this would save $80 per month.[^2]
 
-[^2]:  Again, this is an motivating example.  In the real world, utilities often offer separate plans for EV owners, with EV charging separately metered. 
+[^2]:  In the real world, since these are residential customers they are not charged for demand.   Instead, they would save money by running their pool filter between midnight and 6am as well, which are super-off peak hours with energy charges of ~$0.15 instead of ~$0.45 per kWH. 
 
-For actual commercial and industrial users, with electricity usage hundreds or thousands the magnitudes described here, managing the operation of power-hungry equipment to be sequential rather than parallel can generate large cost reductions (and improvements in grid stability). 
+For actual commercial and industrial users, with electricity usage hundreds or thousands the magnitudes described here, managing the operation of power-hungry equipment to be sequential rather than parallel can generate large cost reductions (and downstream grid stability benefits).
 
 ### Rate Structures in Different States
 
