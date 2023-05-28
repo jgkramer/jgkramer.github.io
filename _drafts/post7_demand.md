@@ -178,16 +178,19 @@ Marginal costs may not be the driver of these differences, however.  The setting
 
 ### Energy Price as a Function of Smoothness
 
-Another way to think about the two dimensions of price (demand and energy consumption) is to think of these plans as offering a variable price per kWh of energy consumed, as a function of **how even** that energy consumption is.  To return to the example of my air conditioning units.   With 2 A/Cs, my peak demand was 14.1 kW.   The total energy usage in a day of 150.2 kWh is the equivalent of 10.7 hours at full blast.   With 1 A/C, my peak demand was 9.7 kW.   The total energy usage was 155.9 kWh, the equivalent of 16.1 hours at full blast.  
+Another way to think about the two dimensions of price (demand and energy consumption) is to think of these plans as offering a variable price per kWh of energy consumed, as a function of **how evenly** that energy consumption is spread throughout the billign period.  
 
-Taking the total costs above (demand plus energy consumption) and dividing by the total kWh of energy consumed, we get a blended cost per kWh.  That number is lower for the more constant consumption, running the equivalent of 16 hours a day, than the more jagged consumption, running fewer hours per day. 
+Returning to the air conditioning example: with 2 A/C units, my peak demand was 14.1 kW.  The total daily energy usage -- 150.2 kWh -- was the equivalent of 10.7 hours of peak power.  With 1 A/C, my peak demand was 9.7 kW.  The total daily energy usage (155.9 kWh) was the equivalent of 16.1 hours at peak power.
+
+Taking the total costs (demand plus energy charges) and dividing by the quantity of energy consumed, we get a blended cost per kWh.  That number is lower for the more constant consumption (more hours per day) than for the more jagged consumption running fewer hours per day. 
 
 ||Day's Usage (kWh)|Peak Demand (kW)|**Equivalent Hours / Day**|Monthly kWh|Monthly Cost|**Blended Cost per kWh**|
 |:-------------|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
 |1&nbsp;A/C&nbsp;Unit|155.9|9.7|**16.1**|4,676|$607.90|**$0.130**|
 |2&nbsp;A/C&nbsp;Units|150.2|14.1|**10.7**|4,504|$621.59|**$0.138**|
 
-It is a bit counter-intuitive that a much smoother consumption profile (16.1 hours vs. 10.7 hours) produces only a 6% decrease in the per-kWh cost of electricity between these two profiles.  But this phenomenon is a function of the relatively low ratio in the Nevada non-TOU plan between the demand charge per kWh and the energy consumption charge.  The graph below plots the blended cost per kWh as a function of hours per day active, for three state plans listed above (Nevada, Florida, Virginia): 
+It is a bit counterintuitive that a much smoother consumption profile (16.1 hours vs. 10.7 hours) produces only a 6% decrease in the per-kWh cost of electricity.  
+But this is a function of the relatively low ratio in the Nevada non-TOU plan between the demand charge and energy consumption charge.  The graph below plots the blended cost per kWh as a function of hours per day active, for three state plans listed above (Nevada, Florida, Virginia): 
 
 ![Blended kWh cost](/assets/images/post7_blended_kWh.png)
 
