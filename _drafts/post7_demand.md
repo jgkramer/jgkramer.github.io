@@ -190,11 +190,11 @@ Taking the total costs (demand plus energy charges) and dividing by the quantity
 |2&nbsp;A/C&nbsp;Units|150.2|14.1|**10.7**|4,504|$621.59|**$0.138**|
 
 It is a bit counterintuitive that a much smoother consumption profile (16.1 hours vs. 10.7 hours) produces only a 6% decrease in the per-kWh cost of electricity.  
-But this is a function of the relatively low ratio in the Nevada non-TOU plan between the demand charge and energy consumption charge.  The graph below plots the blended cost per kWh as a function of hours per day active, for three state plans listed above (Nevada, Florida, Virginia): 
+But this is a function of the low 54x ratio in the Nevada non-TOU plan between the demand charge and energy consumption charge.  The graph below plots the blended cost per kWh as a function of hours per day active, for three state plans listed above (Nevada, Florida, Virginia): 
 
 ![Blended kWh cost](/assets/images/post7_blended_kWh.png)
 
-In the Virginia plan, with its 374x ratio of demand to consumption charges, there is a much higher incentive to smoothe out the energy profile: the 2 A/C profile at 10.7 hours / day costs 8.9 cents per kWh whereas the 1 A/C profile at 16.1 hours per day costs 7.3 cents per kWh, an 18% decrease.  
+In the Virginia plan, with its 374x ratio of demand to consumption charges, there is a much higher incentive to smoothe out the energy profile: the 2 A/C profile at 10.7 hours / day costs 8.9 cents per kWh whereas the 1 A/C profile at 16.1 hours per day costs 7.3 cents per kWh, an 18% decrease.
 
 #### Commercial-scale Thought Experiment
 
