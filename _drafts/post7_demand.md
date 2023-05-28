@@ -13,7 +13,7 @@ excerpt_separator: <!--more-->
  
 In this post I return to the electricity pricing in the U.S., this time focusing on a concept that absent for most residential customers but mandatory for business customers that exceed a certain size: **demand pricing**.   Under a demand pricing scheme, an electricity customer is charged in two separate ways: 
 
-(1) **Consumption: Energy.**  Like [residential plans](https://jgkramer.github.io/2022/10/15/Residential-Electricity-Rates.html) most demand plans charge for total energy consumption, measured in kilowatt-hours (kWh), and a per-kWh rate is applied.   The per-kWh charge may be fixed, may depend on the quantity used (i.e., more expensive as usage goes up) or it may depend on the season and time of day in a Time of Use plan. 
+(1) **Consumption: Energy.**  Like [residential plans](https://jgkramer.github.io/2022/10/15/Residential-Electricity-Rates.html), demand-based plans still charge for total energy consumption, measured in kilowatt-hours (kWh).  The per-kWh charge may be fixed, may depend on the quantity used (i.e., more expensive as usage goes up) or it may depend on the season and time of day in a Time of Use plan. 
 
 (2) **Demand: Power.**  In addition, utilities charge not just for energy consumed (in kWh) but also for the maximum **rate** of energy consumption in a short period of time (such as a 15 or 30 minute period), at **any time** during the billing period (typically monthly).  This is a measure of maximum **power** use rather than enregy consumption and so is priced on a per-kW basis.   Demand charges can also depend on the season and time of day. 
 
