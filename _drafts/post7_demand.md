@@ -15,12 +15,12 @@ In this post I return to the electricity pricing in the U.S., this time focusing
 
 (1) **Consumption: Energy.**  Like [residential plans](https://jgkramer.github.io/2022/10/15/Residential-Electricity-Rates.html), demand-based plans still charge for total energy consumption, measured in kilowatt-hours (kWh).  The per-kWh charge may be fixed, may depend on the quantity used (i.e., more expensive as usage goes up) or it may depend on the season and time of day in a Time of Use plan. 
 
-(2) **Demand: Power.**  In addition, utilities charge not just for energy consumed (in kWh) but also for the maximum **rate** of energy consumption in a short period of time (such as a 15 or 30 minute period), at **any time** during the billing period (typically monthly).  This is a measure of maximum **power** use rather than enregy consumption and so is priced on a per-kW basis.   Demand charges can also depend on the season and time of day. 
+(2) **Demand: Power.**  In addition, utilities charge not just for energy consumed (in kWh) but also for the maximum **rate** of energy consumption in a short period of time (typically 15 or 30 minutes), at **any time** during the billing period (typically monthly).  This is a measure of maximum **power** use rather than enregy consumption and so is priced on a per-kW basis.  Demand charges can also depend on the season and time of day. 
 
-This post will discuss (with examples along the way): 
-- Why the costs of infrastructure and risks to grid stability from sharp fluctutations in power by large customers justify demand-based pricing systems
-- How the presence of demand charges creates different incentives to shift usage patterns than energy-consumption pricing alone, and how using electricity-consuming equipment in a staggered rather than parallel manner can meaningfully cut costs
-- How different states structure their plans: in particular different states have different ratios between energy consumption costs and demand costs, which leads to different strengths of economic incentives to smooth out energy usage over time
+This post will discuss: 
+- Why the infrastructure costs and risks to grid stability from sharp fluctutations in power use by large customers justify demand-based pricing systems,
+- How demand pricing creates different incentives for consumers than energy-consumption pricing alone, and how using electricity-consuming equipment in a staggered rather than parallel manner can meaningfully cut costs, and
+- How different states structure their plans.  In particular, different states have different ratios between energy consumption costs and demand costs, which leads to different strengths of economic incentives to smooth out energy usage over time.
 
 <!--more-->
 
