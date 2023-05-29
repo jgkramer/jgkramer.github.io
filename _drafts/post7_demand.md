@@ -54,24 +54,24 @@ Ignoring the fact that I am a residential customer, two days of my home's electr
 
 ![1 vs. 2 A/C Comparison](/assets/images/post7_august_comparison.png)
 
-August 22 was similarly a hot day, but I had only one A/C unit because the second one had broken.  The single unit struggled to cool the house during the hottest part of the day, and made up for that by operating many more hours (like the automated manufacturer in the above example).  The highest 15-minute period of consumption was 2.4 kWh around noon (probably the A/C plus the oven working on lunch), a demand of ~9.6 kW. 
+August 22 was similarly a hot day, but I had only one operational A/C because the second was waiting for repairs.  The single unit struggled to cool the house during the hottest part of the day, and made up for that by operating many more hours (like the automated manufacturer in the above example).  The highest 15-minute period of consumption was 2.4 kWh around noon (probably the A/C plus the oven working on lunch), a demand of ~9.6 kW. 
 
-The total consumption on these days was similar, with the one-A/C day using slightly more total energy (155.9 kWh vs. 150.2).  So under a residential billing program based on energy consumption, the two-A/C set-up would be cheaper.  But because it had a higher demand, the demand charge inverts the cost, making the two A/C unit more expensive assuming a 30-day month of identical days.  Details below:
+The total consumption on these days was similar, with the one-A/C day using slightly more total energy (155.9 kWh vs. 150.2).  So under a residential billing program based on energy consumption, the two-A/C set-up would be cheaper.  But because it had a higher maximum power draw, the demand charge inverts the cost, making the two A/C unit more expensive assuming a 30-day month of identical days.  Details below:
 
 | |Day's Usage (kWh)|Monthly Usage (kWh)|Peak Demand (kW)|Usage Cost|Demand Cost|**Total Cost**|
 |:-------------|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
 |1&nbsp;A/C&nbsp;Unit|155.9|4,676|9.7|$533.03|$74.89|**$607.90**|
 |2&nbsp;A/C&nbsp;Units|150.2|4,504|14.1|$513.41|$108.18|**$621.59**|
 
-This example is contrived: my house was much more unpleasant with a single A/C unit than with two: the zone with the working unit was too cold and the side with the broken unit was too hot.   But it illustrates the point that demand (power) vs. usage (energy) may point in different directions. 
+This example is contrived: my house was much more unpleasant with a single A/C unit than with two: the zone with the working unit was too cold and the side with the broken unit was too hot.   But it illustrates the point that demand (power) vs. usage (energy) may cause price incentives to point in different directions.
 
 #### Staggered vs. Parallel Use of Equipment
 
-The second real-world example depicts the electricity usage over 6 days of San Diego-based friends with an electric vehicle.  Visible in the chart is the overnight EV charging at 8 kW of power (it is scheduled to end at 6:00 am, and begins however long is needed before that to fully charge the car), as well as the running of their pool filter at about 1.5 kW from 5:00 to 11:00 am. 
+A second real-world example depicts the electricity usage over 6 days of San Diego-based friends with an electric vehicle.  Visible in the chart is the overnight EV charging at 8 kW of power (it is scheduled to end at 6:00 am, and begins however long is needed before that to fully charge the car), as well as the running of their pool filter at about 1.5 kW from 5:00 to 11:00 am. 
 
 ![Overlapping equipment](/assets/images/post7_overlap.png)
 
-The 1 hour overlap of EV charging and pool filter runnning causes the electricity consumption in each of the four 15-minute periods between 5 and 6am to be about 0.4 kWh higher.  Starting (and stopping) the pool filter an hour later would leave total energy consumption exactly the same (about 40 kWh per day).   But eliminating the overlap would reduce **peak demand** during this period by 1.3 kW from 9.64 kW to 8.34 kW.  In the Nevada fixed-rate plan described above, this would save about $10 per month.  Under San Diego commercial plans, in which demand is priced at $60 / kW, this would save $80 per month.[^3]
+The overlap of EV charging and pool filter between 5 and 6am is the time of their peak demand.  The overlap causes the energy consumption during this hour to be about 0.4 kWh higher in each 15 minute period.  Shifting the pool filter's run time an hour later would leave total energy consumption exactly the same (about 40 kWh per day).   But eliminating the overlap would reduce **peak demand** during this period by 1.3 kW from 9.64 kW to 8.34 kW.  In the Nevada fixed-rate plan described above, this would save about $10 per month.  Under San Diego commercial plans, in which demand is priced at $60 / kW, this would save $80 per month.[^3]
 
 [^3]:  In the real world, since these are residential customers they are not charged for demand.   Instead, they would save money by running their pool filter between midnight and 6am as well, which are super-off peak hours with energy charges of ~$0.15 instead of ~$0.45 per kWH. 
 
@@ -81,7 +81,7 @@ For actual commercial and industrial users, with electricity usage hundreds or t
 
 #### Simple Structures
 
-The table below presents a few examples of demand-based business rates in different U.S. statess.   Often, a customer ends up in a rate category based on their usage patterns 
+The table below presents a few examples of demand-based business rates in different U.S. states.   Often, a customer ends up in a rate category based on their usage patterns. 
 
 <STYLE TYPE="text/css">
 <!--
