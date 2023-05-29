@@ -26,10 +26,9 @@ This post will discuss:
 
 ### Why is there a Demand Charge for Commercial and Industrial Customers? 
 
-The idea of pricing for peak demand (especially during heavy use periods such as summer afternoons) is derived from the physical requirement that the grid continuously balance electricity supply and consumption.  Large electricity consumers such as commercial and industrial users pose a greater risk to grid 
-stability through sharp spikes in the quantity of electricity demanded -- they may require bringing online additional "peaking" generation capacity and in the limit may result in more electricity being demanded than supplied.   As such, usage spikes are priced at a premium, both to cover the infrastructure costs of the utility providing this flexibility as well as to incentivize a smoother usage profile by consumers. 
+The idea of pricing for peak demand (especially during heavy use periods such as summer afternoons) derives from the physical requirement that the grid continuously balance electricity supply and consumption.  Large electricity consumers such as commercial and industrial users pose a greater risk to grid stability through sharp spikes in the quantity of electricity demanded -- they may require bringing online additional "peaking" generation capacity and in the limit may result in more electricity being demanded than supplied.   As such, usage spikes are priced at a premium, both to cover the infrastructure costs of the utility providing this flexibility as well as to incentivize a smoother usage profile by consumers.
 
-National Grid, a utility operator in the northeast U.S., [explains](https://www9.nationalgridus.com/niagaramohawk/non_html/eff_elec-demand.pdf) that while residential consumers have simple rate structures based on consumptinonly because "there is relatively little variation in electricity use from home to home..."
+National Grid, a utility operator in the northeast U.S., [explains](https://www9.nationalgridus.com/niagaramohawk/non_html/eff_elec-demand.pdf) that while residential consumers have simple rate structures based on consumption because "there is relatively little variation in electricity use from home to home..."
 
 > This is not the case among commercial and industrial energy users, whose electricity use--both consumption and demand--vary greatly. Some need large amounts of electricity once in a while--others, almost constantly. Complicating this is the fact that electricity cannot be stored. It must be generated and supplied to each customer as it is called for--instantly, day or night, in extremely variable quantities. Meeting these customers' needs requires keeping a vast array of expensive equipment--transformers, wires, substations and even generating stations--on constant standby. The amount and size of this equipment must be large enough to meet peak consumption periods, i.e., when the need for electricity is highest.[^1]
 
@@ -39,7 +38,9 @@ National Grid, a utility operator in the northeast U.S., [explains](https://www9
 
 #### A Simple Pricing Plan (Nevada)
 
-We'll begin with a simple example: the Southern Nevada LGS-1 plan, which is for medium sized businesses (monthly consumption averaging above 3,500 kWh and demand < 200 kWh), and is constant throughout times of day and seasons.  There is also a time-of-use plan available (described below). 
+We'll begin with a simple example: the Southern Nevada LGS-1 plan, which is for medium sized businesses (monthly consumption averaging above 3,500 kWh[^2] and demand < 200 kWh), and is constant throughout times of day and seasons.  There is also a time-of-use plan available (described below). 
+
+[^2]:  Business customers below this threshold are charged for energy consumption only, like residential customers.
 
 This plan has an $0.114 / kWh usage charge, and $7.69 demand charge.   Note that the demand charge is quoted in **dollars** per kWh rather than the usage charge in **cents** per kWh, indicating that a business's energy bill is much more sensitive to how much its electricity usage peaks at its maximum consumption point in a month, than to its overall usage. 
 
@@ -70,9 +71,9 @@ The second real-world example depicts the electricity usage over 6 days of San D
 
 ![Overlapping equipment](/assets/images/post7_overlap.png)
 
-The 1 hour overlap of EV charging and pool filter runnning causes the electricity consumption in each of the four 15-minute periods between 5 and 6am to be about 0.4 kWh higher.  Starting (and stopping) the pool filter an hour later would leave total energy consumption exactly the same (about 40 kWh per day).   But eliminating the overlap would reduce **peak demand** during this period by 1.3 kW from 9.64 kW to 8.34 kW.  In the Nevada fixed-rate plan described above, this would save about $10 per month.  Under San Diego commercial plans, in which demand is priced at $60 / kW, this would save $80 per month.[^2]
+The 1 hour overlap of EV charging and pool filter runnning causes the electricity consumption in each of the four 15-minute periods between 5 and 6am to be about 0.4 kWh higher.  Starting (and stopping) the pool filter an hour later would leave total energy consumption exactly the same (about 40 kWh per day).   But eliminating the overlap would reduce **peak demand** during this period by 1.3 kW from 9.64 kW to 8.34 kW.  In the Nevada fixed-rate plan described above, this would save about $10 per month.  Under San Diego commercial plans, in which demand is priced at $60 / kW, this would save $80 per month.[^3]
 
-[^2]:  In the real world, since these are residential customers they are not charged for demand.   Instead, they would save money by running their pool filter between midnight and 6am as well, which are super-off peak hours with energy charges of ~$0.15 instead of ~$0.45 per kWH. 
+[^3]:  In the real world, since these are residential customers they are not charged for demand.   Instead, they would save money by running their pool filter between midnight and 6am as well, which are super-off peak hours with energy charges of ~$0.15 instead of ~$0.45 per kWH. 
 
 For actual commercial and industrial users, with electricity usage hundreds or thousands the magnitudes described here, managing the operation of power-hungry equipment to be sequential rather than parallel can generate large cost reductions (and downstream grid stability benefits).
 
@@ -202,9 +203,9 @@ Imagine a global sreaming-video service whose customers watch videos between 7:0
 
 If latency is not a major concern (perhaps users' devices can buffer 1-2 minutes of video), the company may consolidate into only a few large data centers that run nearly all the time.  7 to 11pm in many global time zones may mean data centers are running near peak power consumption 16 hours per day. 
 
-Clearly these choices have different capital costs, but for a large commercial electricity user with data centers, energy costs will also be material.   Under a plan like Virginia's with high demand costs relative to energy costs, consolidating into fewer data centers that run 16 hours a day instead of 4 hours at peak power would lower energy costs by **more than 50%** (e.g., from $0.169 to $0.073 per kWh).[^3]
+Clearly these choices have different capital costs, but for a large commercial electricity user with data centers, energy costs will also be material.   Under a plan like Virginia's with high demand costs relative to energy costs, consolidating into fewer data centers that run 16 hours a day instead of 4 hours at peak power would lower energy costs by **more than 50%** (e.g., from $0.169 to $0.073 per kWh).[^4]
 
-[^3]: In a similar vein, always-on data centers like the type used by cryptocurrency miners have a [particularly synergistic relationship](https://www.world-nuclear-news.org/Articles/First-nuclear-powered-data-centre-at-Susquehanna-c) with baseload power operators like nuclear power plants.  The generator benefits from having a consistent demand without fluctuation from other grid users, and the consumer can thereby receive lower energy prices.
+[^4]: In a similar vein, always-on data centers like the type used by cryptocurrency miners have a [particularly synergistic relationship](https://www.world-nuclear-news.org/Articles/First-nuclear-powered-data-centre-at-Susquehanna-c) with baseload power operators like nuclear power plants.  The generator benefits from having a consistent demand without fluctuation from other grid users, and the consumer can thereby receive lower energy prices.
 
 ### Further Work
 
