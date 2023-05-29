@@ -110,7 +110,7 @@ TD.purple TH.purple {background-color: #E6E6FA;}
     </tr>
     <tr class="gray">
      <th  colspan="2">Time-of-Use?</th>
-      <td>No</td><td>Yes</td><td>No</td><td>Yes</td><td>Yes</td><td>Yes</td>
+      <th>No</th><th>Yes</th><th>No</th><th>Yes</th><th>Yes</th><th>Yes</th>
     </tr>
     <tr>
      <th rowspan="2" class="purple">Summer&nbsp;Peak</th>
