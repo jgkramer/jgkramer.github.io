@@ -48,7 +48,7 @@ A medical facility that uses 8,000 kWh per month but is open only 20 days a mont
 
 Meanwhile a small highly automated manufacturing facility with limited human staffing and HVAC use may have its machines running 25 days a month for 16 hours, of an **average** usage of 20 kW but with a peak demand of only 40 kW.  Its charge will be $$8,000 kWh \times \$0.114 + 40 kW \times \$7.69 / kW = $1,220.$$  The automated facility has a 25% lower energy bill with the same usage, solely because its use is more spread out and has a lower peak power consumption than the HVAC-intensive medical facility. 
 
-#### Higher Demand can be More Costly, even with Lower Energy Consumption
+#### An Example from Real Life
 
 Ignoring the fact that I am a residential customer, two days of my home's electricity consumption in August 2022, shown below, illustrate the impact of demand vs. energy consumption pricing.  August 16, 2022 was a hot summer day in Southern Nevada, and it is easy to see the operation in the afternoon and early evening of my two central air-conditiong units, each of which can consume ~1 kWh in 15-minute increments (~4 kW power).  Note that the highest consumption was around 5pm, with both A/C units running and using a total of 3.5 kWh in 15 minutes, which is an average demand power of ~14 kW during this period. 
 
