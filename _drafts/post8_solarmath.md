@@ -15,6 +15,7 @@ Nerd alert.
 
 This post is inspired by the shape of this chart, showing the maximum utility solar electricity generation in Nevada by hour of the day, for each month.  
 
-![solar](/assets/images/post4_NVPowerJulyDays.png)
+![solar](/assets/images/post4_NVPower_all_hourly.png)
+
 
 
