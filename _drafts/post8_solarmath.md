@@ -25,7 +25,13 @@ The data is consistent with **single-axis** solar tracking panels adjusts the po
 
 In the winter, the two-peak shape occurs because the sun is overall quite low in the sky.  In the mid-day the sun is in the south.  The best the panel can do is to be horizontal, but the sun is low enough that the angle of incidence is not very perpendicular.  The best angles occur in morning and afternoon when the sun is further east and west, and the panel can be adjusted to point east and west.  The dip does not occur in the summer because the elevation of the sun is high enough that a horizontal panel has a good angle of incidence.
 
-### 
+### NV Energy Panels
+
+
+
+
+
+###
  
 
 
