@@ -11,7 +11,7 @@ excerpt_separator: <!--more-->
   {% include latex.html %}
 </head>
  
-Nerd alert.  This post uses trigonometry of solar angles and the physical attributes of utility-scale solar panels to explain the shape of the graph below.   The graph shows Nevada's utility-scale solar generation by hour of the day, for each month. 
+Nerd alert.  This post uses math (trigonometry and linear algebra) of solar angles and the physical attributes of utility-scale solar panels to explain the shape of the graph below.   The graph shows Nevada's utility-scale solar generation by hour of the day, for each month. 
 
 ![solar](/assets/images/post8_NV_solar_by_month.png)
 
