@@ -27,7 +27,7 @@ In the winter, the two-peak shape occurs because the sun is overall quite low in
 
 ### Solar Angles
 
-![angles](/assets/images/post8_angles_1.jpeg)
+![angles](/assets/images/post8_angles_1.png)
 
 
 
@@ -35,7 +35,7 @@ In the winter, the two-peak shape occurs because the sun is overall quite low in
 
 For a single panel, solar yield is maximized by **dual-axis** tracking: which can be rotated on two axes (e.g., horizontal and vertical) to point at any point in the sky.  But most utility scale solar arrays (including those in Nevada) are **single-axis** trackers, and look like the below near Las Vegas:
 
-![solar array](/assets/images/post8_nellis-solar-array.png)
+![solar array](/assets/images/post8_nellis-solar-array.jpeg)
 
 The panels sit in long parallel rows and can be most effiienntly managed and spaced by rotating them together on a single axis of rotation.   Here, a horizontal axis that allows the panels to point east in the morning, tilt towards horizontal to point overhead at mid-day, then 
 
