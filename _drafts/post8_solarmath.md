@@ -27,10 +27,7 @@ In the winter, the two-peak shape occurs because the sun is overall quite low in
 
 ### Solar Angles
 
-<img src="/assets/images/post8_angles_1.png" alt="Image" width="300" height="200">
-![angles](/assets/images/post8_angles_1.png)
-
-
+<img src="/assets/images/post8_angles_1.png" alt="Image" width="900" height="496">
 
 ### Single-Axis Tracking Panels
 
