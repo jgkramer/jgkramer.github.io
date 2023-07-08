@@ -27,7 +27,12 @@ In the winter, the two-peak shape occurs because the sun is overall quite low in
 
 ### Solar Angles
 
+To analyze the input of light onto a solar panel, we first need to describe the position of the sun in the sky.  This is done with two angles: 
+
 <img src="/assets/images/post8_angles_1.png" alt="Image" width="900" height="496">
+
+
+
 
 ### Single-Axis Tracking Panels
 
