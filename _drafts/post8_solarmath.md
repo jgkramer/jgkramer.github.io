@@ -25,12 +25,25 @@ The data is consistent with **single-axis** solar tracking panels adjusts the po
 
 In the winter, the two-peak shape occurs because the sun is overall quite low in the sky.  In the mid-day the sun is in the south.  The best the panel can do is to be horizontal, but the sun is low enough that the angle of incidence is not very perpendicular.  The best angles occur in morning and afternoon when the sun is further east and west, and the panel can be adjusted to point east and west.  The dip does not occur in the summer because the elevation of the sun is high enough that a horizontal panel has a good angle of incidence.
 
+### A Simplified Model of Solar Panels
+
+I don't have enough information to mathematically model the absolute power output of solar panels in Nevada.  However, with an analysis of the angle of the sun and the position of panels (plus some data about the intensity of the sun's rays in Nevada) we can get at the output of panels relative to their maximum capacity, and so can validate the shape of the generaiton curves above. 
+
+The
+
+
+
 ### Solar Angles
 
-To analyze the input of light onto a solar panel, we first need to describe the position of the sun in the sky.  This is done with two angles: 
+To analyze the outp
+
+
+we first need to describe the position of the sun in the sky.  This is done with two angles: 
 
 1.  The **elevation** angle of the sun above the horizon, which I denote as $\phi$ (this can go from 0&deg; at the horizon to 90&deg; directly overhead)
-2.  The **azimuth** angle, which is position on the 
+2.  The **azimuth** angle, which is the direction on the horizon that the sun is over, ranging over 0&deg; for North, to 90&deg; East, 180&deg; South, 270&deg; West and up to 360&deg; to go back to North.
+
+
 
 <img src="/assets/images/post8_angles_1.png" alt="Image" width="900" height="496">
 
