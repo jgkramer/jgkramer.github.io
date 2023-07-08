@@ -27,6 +27,7 @@ In the winter, the two-peak shape occurs because the sun is overall quite low in
 
 ### Solar Angles
 
+<img src="/assets/images/post8_angles_1.png" alt="Image" width="300" height="200">
 ![angles](/assets/images/post8_angles_1.png)
 
 
@@ -41,6 +42,8 @@ The panels sit in long parallel rows and can be most effiienntly managed and spa
 
 ###
  
+
+
 
 
 The strong hours in the summer are particularly long because the sun rises in the north-east, and gets to due east around 9:00 a.m. (8 a.m. standard time).   At this point an east-west orientation can point a panel directly at the sun.   Ih the afternoon, the sun gets to due west around 5:00 p.m. (4 p.m. standard time).  
