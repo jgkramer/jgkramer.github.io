@@ -30,7 +30,11 @@ In the winter, the two-peak shape occurs because the sun is overall quite low in
 
 ### NV Energy Panels
 
-For a single panel, solar yield is maximized by **dual-axis** tracking: which can be oriented along a horizontal axis (to point 
+For a single panel, solar yield is maximized by **dual-axis** tracking: which can be rotated on two axes (e.g., horizontal and vertical) to point at any point in the sky.  Most utility scale solar arrays (including those in Nevada) are **single-axis** tracking, which look like the below: 
+
+![solar array](/assets/images/post8_nellis-solar-array.jpeg)
+
+
 
 
 
