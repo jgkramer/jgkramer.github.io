@@ -29,7 +29,7 @@ In the winter, the two-peak shape occurs because the sun is overall quite low in
 
 To analyze the input of light onto a solar panel, we first need to describe the position of the sun in the sky.  This is done with two angles: 
 
-1.  The **elevation** angle of the sun above the horizon, which I denote as $\phi$ (this can go from 0 degrees at the horizon to 90 degrees directly overhead)
+1.  The **elevation** angle of the sun above the horizon, which I denote as $\phi$ (this can go from 0&deg; at the horizon to 90&deg; directly overhead)
 2.  The **azimuth** angle, which is position on the 
 
 <img src="/assets/images/post8_angles_1.png" alt="Image" width="900" height="496">
