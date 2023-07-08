@@ -11,7 +11,7 @@ excerpt_separator: <!--more-->
   {% include latex.html %}
 </head>
  
-Nerd alert.  This post uses math (trigonometry and linear algebra) of solar angles and the physical attributes of utility-scale solar panels to explain the shape of the graph below.   The graph shows Nevada's utility-scale solar generation by hour of the day, for each month. 
+Nerd alert.  This post uses math (trigonometry and linear algebra) of solar angles and the physical attributes of utility-scale solar panels to explain the shape of the graph below.  The graph shows Nevada's utility-scale solar generation by hour of the day, for each month. 
 
 ![solar](/assets/images/post8_NV_solar_by_month.png)
 
@@ -27,16 +27,17 @@ In the winter, the two-peak shape occurs because the sun is overall quite low in
 
 ### Solar Angles
 
+![angles](/assets/images/post8_angles_1.jpeg)
 
-### NV Energy Panels
 
-For a single panel, solar yield is maximized by **dual-axis** tracking: which can be rotated on two axes (e.g., horizontal and vertical) to point at any point in the sky.  Most utility scale solar arrays (including those in Nevada) are **single-axis** tracking, which look like the below: 
+
+### Single-Axis Tracking Panels
+
+For a single panel, solar yield is maximized by **dual-axis** tracking: which can be rotated on two axes (e.g., horizontal and vertical) to point at any point in the sky.  But most utility scale solar arrays (including those in Nevada) are **single-axis** trackers, and look like the below near Las Vegas:
 
 ![solar array](/assets/images/post8_nellis-solar-array.jpeg)
 
-
-
-
+The panels sit in long parallel rows and can be most effiienntly managed and spaced by rotating them together on a single axis of rotation.   Here, a horizontal axis that allows the panels to point east in the morning, tilt towards horizontal to point overhead at mid-day, then 
 
 ###
  
