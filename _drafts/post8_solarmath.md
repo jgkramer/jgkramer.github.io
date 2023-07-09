@@ -38,7 +38,7 @@ The sun's position vector is described with two angles.
 1.  The **elevation** angle of the sun above the horizon, which I denote as $\phi$ (this can go from 0&deg; at the horizon to 90&deg; directly overhead)
 2.  The **azimuth** angle, which is the direction on the horizon that the sun is over, ranging over 0&deg; for North, to 90&deg; East, 180&deg; South, 270&deg; West and up to 360&deg; to go back to North.
 
-<img src="/assets/images/post8_angles_1.png" alt="Image" width="900" height="496">
+<img src="/assets/images/post8_angles_1.png" alt="Image" width="900" height="550">
 
 
 ### Single-Axis Tracking Panels
