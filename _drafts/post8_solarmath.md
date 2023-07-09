@@ -11,7 +11,7 @@ excerpt_separator: <!--more-->
   {% include latex.html %}
 </head>
  
-Nerd alert.  This post uses math (trigonometry and linear algebra) of solar angles and the physical attributes of utility-scale solar panels to explain the shape of the graph below.   The graph shows Nevada's utility-scale solar generation by hour of the day, for each month. 
+Nerd alert.  This post uses math (trigonometry and linear algebra) of solar angles and the physical attributes of utility-scale solar panels to explain the shape of the graph below.  The graph shows Nevada's utility-scale solar generation by hour of the day, for each month. 
 
 ![solar](/assets/images/post8_NV_solar_by_month.png)
 
@@ -25,21 +25,38 @@ The data is consistent with **single-axis** solar tracking panels adjusts the po
 
 In the winter, the two-peak shape occurs because the sun is overall quite low in the sky.  In the mid-day the sun is in the south.  The best the panel can do is to be horizontal, but the sun is low enough that the angle of incidence is not very perpendicular.  The best angles occur in morning and afternoon when the sun is further east and west, and the panel can be adjusted to point east and west.  The dip does not occur in the summer because the elevation of the sun is high enough that a horizontal panel has a good angle of incidence.
 
-### Solar Angles
+### A Simplified Model of Solar Panels
+
+I don't have enough information to mathematically model the absolute power output of solar panels in Nevada.  However, with an analysis of the angle of the sun and the position of panels (plus some data about the intensity of the sun's rays) we can approximate at the output of panels relative to their maximum capacity, and so can validate the shape of the generation curves above. 
+
+The collection of solar radiation by a flat PV panel is based on the "flux" of the sun's rays into the surface: sunlight landing perpendicular to the surface generate the most energy; sunlight parallel to the surface generates no energy.  Hence we want to measure the angle between that vector and the normal (perpendicular) vector $\vec{N}$ to the panel's surface.   If those vectors have zero angle between them, the sun is shining perpendicular to surface, and energy is maximized.   Higher angle means the sun is shining less directly on the panel.   Mathematically then, the solar energy that the panel can capture is proportional to the [cosine](https://www.e-education.psu.edu/eme812/node/896) of the angle between the sun's position vector and the normal vector of the solar panel. 
+
+### Sun Position
+
+The sun's position vector is described with two angles.  
+
+1.  The **elevation** angle of the sun above the horizon, which I denote as $\phi$ (this can go from 0&deg; at the horizon to 90&deg; directly overhead)
+2.  The **azimuth** angle, which is the direction on the horizon that the sun is over, ranging over 0&deg; for North, to 90&deg; East, 180&deg; South, 270&deg; West and up to 360&deg; to go back to North.
 
 
-### NV Energy Panels
 
-For a single panel, solar yield is maximized by **dual-axis** tracking: which can be rotated on two axes (e.g., horizontal and vertical) to point at any point in the sky.  Most utility scale solar arrays (including those in Nevada) are **single-axis** tracking, which look like the below: 
+<img src="/assets/images/post8_angles_1.png" alt="Image" width="900" height="496">
+
+
+
+
+### Single-Axis Tracking Panels
+
+For a single panel, solar yield is maximized by **dual-axis** tracking: which can be rotated on two axes (e.g., horizontal and vertical) to point at any point in the sky.  But most utility scale solar arrays (including those in Nevada) are **single-axis** trackers, and look like the below near Las Vegas:
 
 ![solar array](/assets/images/post8_nellis-solar-array.jpeg)
 
-
-
-
+The panels sit in long parallel rows and can be most effiienntly managed and spaced by rotating them together on a single axis of rotation.   Here, a horizontal axis that allows the panels to point east in the morning, tilt towards horizontal to point overhead at mid-day, then 
 
 ###
  
+
+
 
 
 The strong hours in the summer are particularly long because the sun rises in the north-east, and gets to due east around 9:00 a.m. (8 a.m. standard time).   At this point an east-west orientation can point a panel directly at the sun.   Ih the afternoon, the sun gets to due west around 5:00 p.m. (4 p.m. standard time).  
