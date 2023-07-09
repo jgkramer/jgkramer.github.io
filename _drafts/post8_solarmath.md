@@ -31,12 +31,9 @@ I don't have enough information to mathematically model the absolute power outpu
 
 The collection of solar radiation by a flat PV panel is based on the "flux" of the sun's rays into the surface: sunlight landing perpendicular to the surface generate the most energy; sunlight parallel to the surface generates no energy.  Hence we want to measure the angle between that vector and the normal (perpendicular) vector $\vec{N}$ to the panel's surface.   If those vectors have zero angle between them, the sun is shining perpendicular to surface, and energy is maximized.   Higher angle means the sun is shining less directly on the panel.   Mathematically then, the solar energy that the panel can capture is proportional to the [cosine](https://www.e-education.psu.edu/eme812/node/896) of the angle between the sun's position vector and the normal vector of the solar panel. 
 
-### Solar Angles
+### Sun Position
 
-To analyze the outp
-
-
-we first need to describe the position of the sun in the sky.  This is done with two angles: 
+The sun's position vector is described with two angles.  
 
 1.  The **elevation** angle of the sun above the horizon, which I denote as $\phi$ (this can go from 0&deg; at the horizon to 90&deg; directly overhead)
 2.  The **azimuth** angle, which is the direction on the horizon that the sun is over, ranging over 0&deg; for North, to 90&deg; East, 180&deg; South, 270&deg; West and up to 360&deg; to go back to North.
