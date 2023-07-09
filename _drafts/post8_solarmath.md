@@ -41,8 +41,6 @@ The sun's position vector is described with two angles.
 <img src="/assets/images/post8_angles_1.png" alt="Image" width="900" height="496">
 
 
-
-
 ### Single-Axis Tracking Panels
 
 For a single panel, solar yield is maximized by **dual-axis** tracking: which can be rotated on two axes (e.g., horizontal and vertical) to point at any point in the sky.  But most utility scale solar arrays (including those in Nevada) are **single-axis** trackers, and look like the below near Las Vegas:
