@@ -23,7 +23,9 @@ Two features of the data are unintuitive:
 
 The data is consistent with **single-axis** solar tracking panels adjusts the position of a solar panel along one axis of rotation (i.e., east to west) to make the sun's rays strike the panel as close to perpendicular as possible.  By pointing east in the morning, rotating to be horizontal at mid-day, and then pointing towards the west in the afternoon, a tracking panel can lengthen the period of time that the sun's rays strike at a near-perpendicular angle to the panel.  
 
-In the winter, the two-peak shape occurs because the sun is overall quite low in the sky.  In the mid-day the sun is in the south.  The best the panel can do is to be horizontal, but the sun is low enough that the angle of incidence is not very perpendicular.  The best angles occur in morning and afternoon when the sun is further east and west, and the panel can be adjusted to point east and west.  The dip does not occur in the summer because the elevation of the sun is high enough that a horizontal panel has a good angle of incidence.
+In the winter, the two-peak shape occurs because the sun is overall quite low in the sky.  In the mid-day the sun is in the south.  The best the panel can do is to be horizontal, but the sun is low enough that the angle of incidence is not very perpendicular.  The best angles occur in morning and afternoon when the sun is further east and west, and the panel can be adjusted to point east and west.  The dip does not occur in the summer because the elevation of the sun is high enough that a horizontal panel has a good angle of incidence.  
+
+The strong hours in the summer are particularly long because the sun rises in the north-east, and gets to due east around 9:00 a.m. (8 a.m. standard time).   At this point an east-west orientation can point a panel directly at the sun.   Ih the afternoon, the sun gets to due west around 5:00 p.m. (4 p.m. standard time).  So the hours where the panel can get a nearly-perpendicular angle to the sun span more than this 8-hour period.
 
 ### A Simplified Model of Solar Panels
 
@@ -39,7 +41,7 @@ Imagine our solar panel is at the origin in a 3-dimensional plot.   The vector o
 2.  The **azimuth** angle, which is the direction on the horizon that the sun is over, ranging over 0&deg; for North, to 90&deg; East, 180&deg; South, 270&deg; West and up to 360&deg; to go back to North.
 
 <div style="padding: 0; margin: 0;">
-  <img src="/assets/images/post8_angles_1.png" alt="Image" width="870" height="550">
+  <img src="/assets/images/post8_angles_2.png" alt="Image" width="655" height="409">
 </div>
 
 We'll eventually want to find the angle between the sun's position vector and the vector normal to a solar panel on the ground, so we'll derive the (x, y, z) coordinates of the sun's position on a unit sphere from the angles.   From triangle trigonometry, the z-coordinate is simply 1 times the sine of the elevation angle, $sin \phi$.  Similarly, the length of the distance from the origin to the projection of the sun onto the xy plane is $cos \phi$.  The x and y coordinates are then the projections of that point onto the x and y axis using the azimuth angle: the x-coordinate is $sin \phi\~cos \theta$ and the y-coordinate is $sin \phi\~sin \theta$.   Thus the position vector of the sun ends up as the unit vector $[cos \phi\~cos \theta,\~cos \phi\~sin \theta,\~sin \phi\]$.  
@@ -50,15 +52,16 @@ For a single panel, solar yield is maximized by **dual-axis** tracking: which ca
 
 ![solar array](/assets/images/post8_nellis-solar-array.jpeg)
 
-The panels sit in long parallel rows and can be most efficiently managed and spaced by rotating them together on a single axis of rotation (i.e. rotating a single bar rotates the entire row of panels).  Here, a horizontal axis that allows the panels to point east in the morning, tilt towards horizontal to point overhead at mid-day, then point towards the west in the evening, will be optimal.   
+The panels sit in long parallel rows and can be most efficiently managed and spaced by rotating them together on a single axis of rotation (i.e. rotating a single bar rotates the entire row of panels).  Here, a horizontal axis that allows the panels to point east in the morning, tilt towards horizontal to point overhead at mid-day, then point towards the west in the evening, will be optimal.
 
-### 
+### Finding the Angle of Incidence and then Optimizing It
+
+Imagine that we tilt our solar panel an angle $\alpha$ away from vertical, with positive $\alpha$'s toward the east and negative $\alpha$'s toward the west.  Again assuming a unit sphere model of the sky, the direction the panel points lies on the xz plane, at the unit vector $[cos \alpha, 0, sin \alpha]$.  
+
  
 
 
 
-
-The strong hours in the summer are particularly long because the sun rises in the north-east, and gets to due east around 9:00 a.m. (8 a.m. standard time).   At this point an east-west orientation can point a panel directly at the sun.   Ih the afternoon, the sun gets to due west around 5:00 p.m. (4 p.m. standard time).  
 
 
 
