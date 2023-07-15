@@ -38,7 +38,7 @@ Imagine our solar panel is at the origin in a 3-dimensional plot.   The vector o
 1.  The **elevation** angle of the sun above the horizon, which I denote as $\phi$ (this can go from 0&deg; at the horizon to 90&deg; directly overhead)
 2.  The **azimuth** angle, which is the direction on the horizon that the sun is over, ranging over 0&deg; for North, to 90&deg; East, 180&deg; South, 270&deg; West and up to 360&deg; to go back to North.
 
-<img src="/assets/images/post8_angles_1.png" alt="Image" width="880" height="560">
+<img src="/assets/images/post8_angles_1.png" alt="Image" width="870" height="550">
 
 We'll eventually want to find the angle between the sun's position vector and the vector normal to a solar panel on the ground, so we'll derive the (x, y, z) coordinates of the sun's position on a unit sphere from the angles.   From triangle trigonometry, the z-coordinate is simply 1 times the sine of the elevation angle, $sin \phi$.  Similarly, the length of the distance from the origin to the projection of the sun onto the xy plane is $cos \phi$.  The x and y coordinates are then the projections of that point onto the x and y axis using the azimuth angle: the x-coordinate is $sin \phi\~cos \theta$ and the y-coordinate is $sin \phi\~sin \theta$.   Thus the position vector of the sun ends up as the unit vector $[cos \phi\~cos \theta,\~cos \phi\~sin \theta,\~sin \phi\]$.  
 
