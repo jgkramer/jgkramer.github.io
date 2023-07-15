@@ -56,7 +56,8 @@ The panels sit in long parallel rows and can be most efficiently managed and spa
 
 ### Finding the Angle of Incidence and then Optimizing It
 
-Imagine that we tilt our solar panel an angle $\alpha$ away from vertical, with positive $\alpha$'s toward the east and negative $\alpha$'s toward the west.  Again assuming a unit sphere model of the sky, the direction the panel points lies on the xz plane, at x-coordinate $cos \alpha$ and z-coordinate $sin \alpha$.  
+Imagine that we tilt our solar panel an angle $\alpha$ away from vertical, with positive $\alpha$'s toward the east and negative $\alpha$'s toward the west.  Again assuming a unit sphere model of the sky, the direction the panel points lies on the xz plane, at the unit vector $[cos \alpha, 0, sin \alpha]$.  
+
  
 
 
