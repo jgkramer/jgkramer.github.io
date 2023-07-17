@@ -78,7 +78,7 @@ $tan\~\alpha\ = \frac{cos\~\theta\~cos\~\phi}{sin\~\phi}$
 
 I pause here because we don't actually need to find the optimal $\alpha$; we just need to find the value of $\cos\~\beta$ at the optimal $\alpha$.  Notice that the expression for $cos\~\beta$ can be rewritten by factoring out $cos\~\alpha$:
 
-$cos\~\beta = $cos\~\alpha\ (tan\~\alpha\~cos\~\phi\~cos\~\theta + ~sin\~\phi$). 
+$cos\~\beta = cos\~\alpha\ (tan\~\alpha\~cos\~\phi\~cos\~\theta + ~sin\~\phi$). 
 
 
 
