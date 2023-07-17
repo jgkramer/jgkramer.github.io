@@ -62,11 +62,18 @@ Imagine that we tilt our solar panel an angle $\alpha$ away from vertical, with 
   <img src="/assets/images/post8_angles_3.png" alt="Image" width="655" height="409">
 </div>
 
-So we are looking for the angle, $\beta$, between the dashed blue vector where the panel is pointing and the yellow vector representing the sun's position.  But our ultimate target is actually $cos\~\beta$ to determine the solar flux onto the panel.  Because the panel vector and the solar position vector are both unit vectors, $cos\~\beta$ is simply the dot product of these two vectors.  Hence: 
+So we are looking for the angle, $\beta$, between the dashed blue vector where the panel is pointing and the yellow vector representing the sun's position.  But our ultimate target is actually $cos\~\beta$ to determine the solar flux onto the panel.  Because the panel vector and the solar position vector are both unit vectors, $cos\~\beta$ is simply the **dot product** of these two vectors.  Hence: 
 
 $cos\~\beta = sin\~\alpha\~cos\~\phi\~cos\~\theta + cos\~\alpha\~sin\~\phi$
 
-To maximize solar power generation, we want to pick $\alpha$ to maximize $cos\~\beta$, i.e., we set $\frac{\partial}{\partial{\alpha}}cos\~\beta = 0$.
+The solar operator only contols the tilt angle of the panels $\alpha$.  So to maximize solar power generation, I assume that the utilitty sets $\alpha$ to maximize $cos\~\beta$, i.e., we set $\frac{\partial}{\partial{\alpha}}cos\~\beta = 0$.   Taking the partial derivative of the above equation yields: 
+
+$0 = cos\~\alpha\~cos\~\phi\~cos\~\theta - sin\~\alpha\~sin\~\phi$
+
+$sin\~\alpha\~sin\~\phi = cos\~\alpha\~cos\~\phi\~cos\~\theta$
+
+$tan\~\alpha\~sin\~\phi = cos\~\phi\~cos\~\theta$
+
 
 
 
