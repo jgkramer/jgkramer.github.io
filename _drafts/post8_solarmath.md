@@ -74,7 +74,7 @@ Rearranging and dividing by $cos\~\phi\~cos\~\alpha$ gets us that at the optimal
 
 $tan\~\alpha\ = \frac{cos\~\theta}{tan\~\phi}$
 
-I pause here because for this article's analysis, I don't need the optimal $\alpha$ itself.  To estimate the solar output at different times of day, with different sun posiitons, I just need to solve for the value of $\cos\~\beta$ at the optimal $\alpha$. The expression for $cos\~\beta$ uses both $\cos\~\alpha$ and $sin\~\alpha$, both of which can be derived from $tan\~\alpha\$: 
+For this article's analysis, I don't need the optimal $\alpha$ itself.  To estimate the solar output at different times of day, with different sun posiitons, I just need to solve for the value of $\cos\~\beta$ at the optimal $\alpha$. The expression for $cos\~\beta$ uses both $\cos\~\alpha$ and $sin\~\alpha$, both of which can be derived from $tan\~\alpha\$: 
 
 $cos\~\alpha\ = \dfrac{1}{\sqrt{1 + tan^2\~\alpha}} = \dfrac{tan\~\phi}{\sqrt{tan^2\~\phi + cos^2\~\theta}}$, and
 
