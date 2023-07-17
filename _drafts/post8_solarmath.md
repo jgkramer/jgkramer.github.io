@@ -80,7 +80,7 @@ Since $cos\~\alpha\ = \dfrac{1}{\sqrt{1 + tan^2\~\alpha}}$, we get: $cos\~\alpha
 
 We now have expressions for both tangent and cosine of $\alpha$ which can be substituted into our expression for $cos\~\beta$:
 
-$cos\~\beta = \dfrac{tan \~\phi}{\sqrt{tan^2\~\phi + cos^2\~\theta}} \times (\dfrac{cos^2\~\theta ~cos\~\phi\}{tan\~\phi} + ~sin\~\phi).  This ultimately simplifies to:
+$cos\~\beta = \dfrac{tan \~\phi}{\sqrt{tan^2\~\phi + cos^2\~\theta}} \times (\dfrac{cos^2\~\theta ~cos\~\phi\}{tan\~\phi} + ~sin\~\phi)$.  This ultimately simplifies to:
 
 $cos\~\beta = \sqrt{1 + cos^2\~\phi\ cos^2\~\theta}$
  
