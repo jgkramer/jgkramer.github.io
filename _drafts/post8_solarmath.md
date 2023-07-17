@@ -68,11 +68,11 @@ $cos\~\beta = sin\~\alpha\~cos\~\phi\~cos\~\theta + cos\~\alpha\~sin\~\phi$
 
 The solar operator only contols the tilt angle of the panels $\alpha$.  So to maximize solar power generation, I assume that the utilitty sets $\alpha$ to maximize $cos\~\beta$, i.e., we set $\frac{\partial}{\partial{\alpha}}cos\~\beta = 0$.   Taking the partial derivative of the above, we are looking to find $\alpha$ such that.
 
-$0 = cos\~\alpha\~cos\~\phi\~cos\~\theta - sin\~\alpha\~sin\~\phi$.   Rearranging and dividing by $cos\~\phi\~cos\~\alpha$ gets us the equation for the optimal alpha.  
+$0 = cos\~\alpha\~cos\~\phi\~cos\~\theta - sin\~\alpha\~sin\~\phi$.   Rearranging and dividing by $cos\~\phi\~cos\~\alpha$ gets us the equation for the optimal alpha: 
 
 $tan\~\alpha\ = \frac{cos\~\theta}{tan\~\phi}$
 
-I pause here because we don't actually need to find the optimal $\alpha$; we just need to find the value of $\cos\~\beta$ at the optimal $\alpha$.  Notice that the expression for $cos\~\beta$ can be rewritten by factoring out $cos\~\alpha$:
+I pause here because for this article's analysis, I don't need the optimal $\alpha$ itself.  To estimate the solar output at different times of day, with different sun posiitons, I just need to solve for the value of $\cos\~\beta$ at the optimal $\alpha$.  Notice that the expression for $cos\~\beta$ can be rewritten by factoring out $cos\~\alpha$:
 
 $cos\~\beta = cos\~\alpha\ (tan\~\alpha\~cos\~\phi\~cos\~\theta + ~sin\~\phi)$. 
 
