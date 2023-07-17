@@ -80,7 +80,7 @@ I pause here because we don't actually need to find the optimal $\alpha$; we jus
 
 $cos\~\beta = cos\~\alpha\ (tan\~\alpha\~cos\~\phi\~cos\~\theta + ~sin\~\phi$). 
 
-Since $cos\~\alpha\ = \frac{1}{\sqrt{1 + tan alpha}$ 
+Since $cos\~\alpha\ = \frac{1}{\sqrt{1 + tan alpha}}$ 
 
 
 
