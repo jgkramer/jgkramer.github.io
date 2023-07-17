@@ -70,7 +70,7 @@ The solar operator only contols the tilt angle of the panels $\alpha$.  So to ma
 
 $0 = cos\~\alpha\~cos\~\phi\~cos\~\theta - sin\~\alpha\~sin\~\phi$.  Moving the terms to opposite sides and dividing by $cos\~\alpha\~cos\~\phi$ yields: 
 
-$tan\~\alpha\~tan\~\phi = cos\~\theta$, so $\textbf{tan\~\alpha\ = \frac{cos\~\theta}{tan\~\phi}}$
+$tan\~\alpha\~tan\~\phi = cos\~\theta$, so $tan\~\alpha\ = \frac{cos\~\theta}{tan\~\phi}$
 
 I pause here because we don't actually need to find the optimal $\alpha$; we just need to find the value of $\cos\~\beta$ at the optimal $\alpha$.  Notice that the expression for $cos\~\beta$ can be rewritten by factoring out $cos\~\alpha$:
 
