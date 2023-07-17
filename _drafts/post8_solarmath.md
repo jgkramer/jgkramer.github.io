@@ -68,7 +68,9 @@ $cos\~\beta = sin\~\alpha\~cos\~\phi\~cos\~\theta + cos\~\alpha\~sin\~\phi$
 
 The solar operator only contols the tilt angle of the panels $\alpha$.  So to maximize solar power generation, I assume that the utilitty sets $\alpha$ to maximize $cos\~\beta$, i.e., we set $\frac{\partial}{\partial{\alpha}}cos\~\beta = 0$.   Taking the partial derivative of the above, we are looking to find $\alpha$ such that.
 
-$0 = cos\~\alpha\~cos\~\phi\~cos\~\theta - sin\~\alpha\~sin\~\phi$.   Rearranging and dividing by $cos\~\phi\~cos\~\alpha$ gets us the equation for the optimal alpha: 
+$0 = cos\~\alpha\~cos\~\phi\~cos\~\theta - sin\~\alpha\~sin\~\phi$.   
+
+Rearranging and dividing by $cos\~\phi\~cos\~\alpha$ gets us that at the optimal tilt angle $\alpha$,
 
 $tan\~\alpha\ = \frac{cos\~\theta}{tan\~\phi}$
 
