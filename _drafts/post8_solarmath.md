@@ -76,9 +76,11 @@ $tan\~\alpha\ = \frac{cos\~\theta}{tan\~\phi}$
 
 I pause here because for this article's analysis, I don't need the optimal $\alpha$ itself.  To estimate the solar output at different times of day, with different sun posiitons, I just need to solve for the value of $\cos\~\beta$ at the optimal $\alpha$. The expression for $cos\~\beta$ uses both $\cos\~\alpha$ and $sin\~\alpha$, both of which can be derived from $tan\~\alpha\$: 
 
-$cos\~\alpha\ = \dfrac{1}{\sqrt{1 + tan^2\~\alpha}}$, and $sin\~\alpha\ = \dfrac{tan\~\alpha}{\sqrt{1 + tan^2\~\alpha}}$
+$cos\~\alpha\ = \dfrac{1}{\sqrt{1 + tan^2\~\alpha}} = \dfrac{tan\~\phi}{\sqrt{tan^2\~\phi + cos^2\~\theta}}$, and
 
-We now have expressions for both tangent and cosine of $\alpha$ which can be substituted into our expression for $cos\~\beta$:
+$sin\~\alpha\ = \dfrac{tan\~\alpha}{\sqrt{1 + tan^2\~\alpha}} = \dfrac{cos\~\theta}{\sqrt{tan^2\~\phi + cos^2\~\theta}}$.
+
+We now have expressions for both sine and cosine of $\alpha$ which can be substituted into our expression for $cos\~\beta$:
 
 $cos\~\beta = \dfrac{tan \~\phi}{\sqrt{tan^2\~\phi + cos^2\~\theta}} \times (\dfrac{cos^2\~\theta ~cos\~\phi\}{tan\~\phi} + ~sin\~\phi)$.  This ultimately simplifies to:
 
