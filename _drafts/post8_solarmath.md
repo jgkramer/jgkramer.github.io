@@ -90,7 +90,7 @@ $cos\~\beta = \dfrac{tan \~\phi}{\sqrt{tan^2\~\phi + cos^2\~\theta}} \times (\df
 
 This then simplifies to: 
 
-$cos\~\beta = cos\~\phi\ \times \sqrt{tan^2\~\phi + cos^2\~\theta}
+$cos\~\beta = cos\~\phi\ \times \sqrt{tan^2\~\phi + cos^2\~\theta}$
  
 
 
