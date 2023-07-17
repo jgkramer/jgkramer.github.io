@@ -76,7 +76,9 @@ I pause here because we don't actually need to find the optimal $\alpha$; we jus
 
 $cos\~\beta = cos\~\alpha\ (tan\~\alpha\~cos\~\phi\~cos\~\theta + ~sin\~\phi)$. 
 
-Since $cos\~\alpha\ = \frac{1}{\sqrt{1 + tan^2\~\alpha}}$, we get $cos\~\alpha\ = \dfrac{1}{\sqrt{1 + \frac{cos^2\~\theta}{tan^2\~\phi}}} = \dfrac{tan \~\phi}{\sqrt{tan^2\~\phi + cos^2\~\theta}}$.   
+Since $cos\~\alpha\ = \frac{1}{\sqrt{1 + tan^2\~\alpha}}$, we get 
+
+we get $cos\~\alpha\ = \dfrac{1}{\sqrt{1 + \frac{cos^2\~\theta}{tan^2\~\phi}}} = \dfrac{tan \~\phi}{\sqrt{tan^2\~\phi + cos^2\~\theta}}$.   
 
 Substituting this and our expression for $tan\~\alpha$ back into the $cos\~\beta$ equation, we get: 
 
