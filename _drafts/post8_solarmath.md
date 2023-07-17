@@ -74,6 +74,11 @@ $sin\~\alpha\~sin\~\phi = cos\~\alpha\~cos\~\phi\~cos\~\theta$
 
 $tan\~\alpha\~sin\~\phi = cos\~\phi\~cos\~\theta$  
 
+$tan\~\alpha\ = \frac{cos\~\theta}{sin\~\phi}$
+
+
+
+
 
 
 
