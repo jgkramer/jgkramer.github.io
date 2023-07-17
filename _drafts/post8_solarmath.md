@@ -78,7 +78,7 @@ $cos\~\beta = cos\~\alpha\ (tan\~\alpha\~cos\~\phi\~cos\~\theta + ~sin\~\phi)$.
 
 Since $cos\~\alpha\ = \frac{1}{\sqrt{1 + tan^2\~\alpha}}$, we get 
 
-$cos\~\beta = \dfrac{(tan\~\alpha\~cos\~\phi\~cos\~\theta + ~sin\~\phi)}{\sqrt{1 + tan^2\~\alpha}$
+$cos\~\beta = \dfrac{(tan\~\alpha\~cos\~\phi\~cos\~\theta + sin\~\phi)}{\sqrt{1 + tan^2\~\alpha}$
 
 $cos\~\beta = \dfrac{tan \~\phi}{\sqrt{tan^2\~\phi + cos^2\~\theta}} \times (\dfrac{cos^2\~\theta ~cos\~\phi\}{tan\~\phi} + ~sin\~\phi) = \dfrac{tan \~\phi}{\sqrt{tan^2\~\phi + cos^2\~\theta}} \times (\dfrac{cos^2\~\theta}{tan\~\phi} + tan\~\phi) \times cos\~\phi\ = \dfrac{1}{\sqrt{tan^2\~\phi + cos^2\~\theta}} \times (cos^2\~\theta + tan^2\~\phi) \times cos\~\phi\$
 
