@@ -88,7 +88,7 @@ Substituting this and our expression for $tan\~\alpha$ back into the $cos\~\beta
 
 $cos\~\beta = \dfrac{tan \~\phi}{\sqrt{tan^2\~\phi + cos^2\~\theta}} \times (\dfrac{cos^2\~\theta ~cos\~\phi\}{tan\~\phi} + ~sin\~\phi)$
 
-$cos\~\beta = \dfrac{tan \~\phi}{\sqrt{tan^2\~\phi + cos^2\~\theta}} \times ~cos\~\phi\ (\dfrac{cos^2\~\theta}{tan\~\phi} + ~tan\~\phi) $
+$cos\~\beta = \dfrac{tan \~\phi}{\sqrt{tan^2\~\phi + cos^2\~\theta}} \times ~cos\~\phi\ (\dfrac{cos^2\~\theta}{tan\~\phi} + ~tan\~\phi)$
 
 
 
