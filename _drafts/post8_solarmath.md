@@ -72,7 +72,8 @@ $0 = cos\~\alpha\~cos\~\phi\~cos\~\theta - sin\~\alpha\~sin\~\phi$
 
 $sin\~\alpha\~sin\~\phi = cos\~\alpha\~cos\~\phi\~cos\~\theta$
 
-$tan\~\alpha\~sin\~\phi = cos\~\phi\~cos\~\theta$
+$tan\~\alpha\~sin\~\phi = cos\~\phi\~cos\~\theta$  (divide by $sin\~\alpha$)
+
 
 
 
