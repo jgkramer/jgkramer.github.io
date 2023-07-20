@@ -84,7 +84,7 @@ These two expressions can now be substituted into the expression of $cos\~\beta$
 
 $cos\~\beta = \dfrac{sin^2\~\theta\~cos\~\phi}{\sqrt{tan^2\~\phi + cos^2\~\theta}} + \dfrac{tan\~\phi\~sin\~\phi}{\sqrt{tan^2\~\phi + cos^2\~\theta}}$, which ultimately simplifies to: 
 
-$cos\~\beta = \sqrt{1 + cos^2\~\theta\~cos^2\~\phi}$
+$cos\~\beta = \sqrt{sin^2\~\theta\~cos^2\~\phi + sin^2\~\phi}$
  
 
 
