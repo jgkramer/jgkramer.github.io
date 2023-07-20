@@ -70,15 +70,15 @@ The solar operator only contols the tilt angle of the panels $\alpha$.  So to ma
 
 $0 = cos\~\alpha\~cos\~\phi\~sin\~\theta - sin\~\alpha\~sin\~\phi$.   
 
-Rearranging and dividing by $cos\~\phi\~cos\~\alpha$ gets us that at the optimal tilt angle $\alpha$,
+Rearranging and dividing by $cos\~\alpha\~sin\~\phi$ gets us that at the optimal tilt angle $\alpha$,
 
 $tan\~\alpha\ = \frac{sin\~\theta}{tan\~\phi}$ 
 
 For this article's analysis, I don't need the optimal $\alpha$ itself.  To estimate the solar output at different times of day, with different sun posiitons, I just need to solve for the value of $\cos\~\beta$ at the optimal $\alpha$. The expression for $cos\~\beta$ uses both $\cos\~\alpha$ and $sin\~\alpha$, both of which can be derived from $tan\~\alpha\$: 
 
-$cos\~\alpha\ = \dfrac{1}{\sqrt{1 + tan^2\~\alpha}} = \dfrac{tan\~\phi}{\sqrt{tan^2\~\phi + cos^2\~\theta}}$, and
+$cos\~\alpha\ = \dfrac{1}{\sqrt{1 + tan^2\~\alpha}} = \dfrac{tan\~\phi}{\sqrt{tan^2\~\phi + sin^2\~\theta}}$, and
 
-$sin\~\alpha\ = \dfrac{tan\~\alpha}{\sqrt{1 + tan^2\~\alpha}} = \dfrac{cos\~\theta}{\sqrt{tan^2\~\phi + cos^2\~\theta}}$.
+$sin\~\alpha\ = \dfrac{tan\~\alpha}{\sqrt{1 + tan^2\~\alpha}} = \dfrac{sin\~\theta}{\sqrt{tan^2\~\phi + sin^2\~\theta}}$.
 
 These two expressions can now be substituted into the expression of $cos\~\beta$ from equation (1): 
 
