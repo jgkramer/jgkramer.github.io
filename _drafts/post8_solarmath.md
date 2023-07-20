@@ -72,7 +72,7 @@ $0 = cos\~\alpha\~cos\~\phi\~cos\~\theta - sin\~\alpha\~sin\~\phi$.
 
 Rearranging and dividing by $cos\~\phi\~cos\~\alpha$ gets us that at the optimal tilt angle $\alpha$,
 
-$tan\~\alpha\ = \frac{cos\~\theta}{tan\~\phi}$
+$tan\~\alpha\ = \frac{cos\~\theta}{tan\~\phi}$ 
 
 For this article's analysis, I don't need the optimal $\alpha$ itself.  To estimate the solar output at different times of day, with different sun posiitons, I just need to solve for the value of $\cos\~\beta$ at the optimal $\alpha$. The expression for $cos\~\beta$ uses both $\cos\~\alpha$ and $sin\~\alpha$, both of which can be derived from $tan\~\alpha\$: 
 
