@@ -64,15 +64,15 @@ Imagine that we tilt our solar panel an angle $\alpha$ away from vertical, with 
 
 So we are looking for the angle, $\beta$, between the dashed blue vector where the panel is pointing and the yellow vector representing the sun's position.  But our ultimate target is actually $cos\~\beta$ to determine the solar flux onto the panel.  Because the panel vector and the solar position vector are both unit vectors, $cos\~\beta$ is simply the **dot product** of these two vectors.  Hence: 
 
-$cos\~\beta = sin\~\alpha\~cos\~\phi\~sin\~\theta - cos\~\alpha\~sin\~\phi\~\~\~\~(1)$
+$cos\~\beta = sin\~\alpha\~cos\~\phi\~sin\~\theta + cos\~\alpha\~sin\~\phi\~\~\~\~(1)$
 
 The solar operator only contols the tilt angle of the panels $\alpha$.  So to maximize solar power generation, I assume that the utilitty sets $\alpha$ to maximize $cos\~\beta$, i.e., we set $\frac{\partial}{\partial{\alpha}}cos\~\beta = 0$.   Taking the partial derivative of the above, we are looking to find $\alpha$ such that.
 
-$0 = cos\~\alpha\~cos\~\phi\~cos\~\theta - sin\~\alpha\~sin\~\phi$.   
+$0 = cos\~\alpha\~cos\~\phi\~sin\~\theta - sin\~\alpha\~sin\~\phi$.   
 
 Rearranging and dividing by $cos\~\phi\~cos\~\alpha$ gets us that at the optimal tilt angle $\alpha$,
 
-$tan\~\alpha\ = \frac{cos\~\theta}{tan\~\phi}$ 
+$tan\~\alpha\ = \frac{sin\~\theta}{tan\~\phi}$ 
 
 For this article's analysis, I don't need the optimal $\alpha$ itself.  To estimate the solar output at different times of day, with different sun posiitons, I just need to solve for the value of $\cos\~\beta$ at the optimal $\alpha$. The expression for $cos\~\beta$ uses both $\cos\~\alpha$ and $sin\~\alpha$, both of which can be derived from $tan\~\alpha\$: 
 
