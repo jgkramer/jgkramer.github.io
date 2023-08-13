@@ -85,6 +85,14 @@ These two expressions can now be substituted into the expression of $cos\~\beta$
 $cos\~\beta = \dfrac{sin^2\~\theta\~cos\~\phi}{\sqrt{tan^2\~\phi + cos^2\~\theta}} + \dfrac{tan\~\phi\~sin\~\phi}{\sqrt{tan^2\~\phi + cos^2\~\theta}}$, which ultimately simplifies to: 
 
 $cos\~\beta = \sqrt{1 - cos^2\~\theta\~cos^2\~\phi}$
+
+A quick gut check validates this formula: when the sun is due East or West, $\phi$ is 90&deg; or 270&deg;, $cos\~\phi$ is 1 or -1, so the entire expression simplifies to $cos\~\beta = 1$.  This makes sense because an East-West tilting panel can point straight at the sun and receive maximum solar flux.   This is similarly true when the sun is directly overhead, making $\theta =$ 90&deg;.  
+
+### Adjusting for Lower Solar Intensity at Lower Angles
+
+We're almost there: 
+
+
  
 
 
