@@ -86,11 +86,12 @@ $cos\~\beta = \dfrac{sin^2\~\theta\~cos\~\phi}{\sqrt{tan^2\~\phi + cos^2\~\theta
 
 $cos\~\beta = \sqrt{1 - cos^2\~\theta\~cos^2\~\phi}$
 
-A quick gut check validates this formula: when the sun is due East or West, $\phi$ is 90&deg; or 270&deg;, $cos\~\phi$ is 1 or -1, so the entire expression simplifies to $cos\~\beta = 1$.  This makes sense because an East-West tilting panel can point straight at the sun and receive maximum solar flux.   This is similarly true when the sun is directly overhead, making $\theta =$ 90&deg;.  
+A quick gut check validates this formula: when the sun is due East or West, $\phi$ is 90&deg; or 270&deg;, $cos\~\phi$ is 1 or -1, so the entire expression simplifies to $cos\~\beta = 1$.  This makes sense because an East-West tilting panel can point straight at the sun and receive maximum solar flux.   This is similarly true when the sun is directly overhead, with $\theta =$ 90&deg;, $cos\~\phi = 1$ and $cos\~\beta = 1$.
 
 ### Adjusting for Lower Solar Intensity at Lower Angles
 
-We're almost there: 
+The last piece of this analysis is to reflect the fact that sunlight is less intense when the sun is lower in the sky -- even with a panel pointed directly at the sun.  This is because sunlight has to pass through more atmosphere (dimming it) at lower angles rather than higher angles.  The intensity of the sunlight reaching a panel pointed directly at the sun (the panel surface is perpendicular or `normal` to the sunlight rays) is called [Direct Normal Irradiance](https://en.wikipedia.org/wiki/Solar_irradiance) and can be measured empirically at given locations. 
+
 
 
  
