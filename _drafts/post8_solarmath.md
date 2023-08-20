@@ -44,7 +44,9 @@ Imagine our solar panel is at the origin in a 3-dimensional plot.   The vector o
   <img src="/assets/images/post8_angles_2.png" alt="Image" width="655" height="409">
 </div>
 
-We'll eventually want to find the angle between the sun's position vector and the vector normal to a solar panel on the ground, so we'll derive the (x, y, z) coordinates of the sun's position on a unit sphere from the angles.   From triangle trigonometry, the z-coordinate is simply 1 times the sine of the elevation angle, $sin \phi$.  Similarly, the length of the distance from the origin to the projection of the sun onto the xy plane is $cos \phi$.  The x and y coordinates are then the projections of that point onto the x and y axis using the azimuth angle: the x-coordinate is $cos \phi\~sin \theta$ and the y-coordinate is $-cos \phi\~cos \theta$ (the negative sign comes from my chosen orientation of the positive y-axis as being south).   Thus the position vector of the sun ends up as the unit vector $[cos \phi\~sin \theta,\~-cos \phi\~cos \theta,\~sin \phi\]$.  
+We'll eventually want to find the angle between the sun's position vector and the vector normal to a solar panel on the ground, so we'll derive the (x, y, z) coordinates of the sun's position on a unit sphere from the angles.   From triangle trigonometry, the z-coordinate is simply 1 times the sine of the elevation angle, $sin \phi$.  Similarly, the length of the distance from the origin to the projection of the sun onto the xy plane is $cos \phi$.  The x and y coordinates are then the projections of that point onto the x and y axis using the azimuth angle: the x-coordinate is $cos \phi\~sin \theta$ and the y-coordinate is $-cos \phi\~cos \theta$ (the negative sign comes from my chosen orientation of the positive y-axis as being south).   Thus the position vector of the sun ends up as the unit vector $[cos \phi\~sin \theta,\~-cos \phi\~cos \theta,\~sin \phi\]$.
+
+But first, 
 
 ### Single-Axis Tracking Panels
 
@@ -92,11 +94,13 @@ A quick gut check validates this formula: when the sun is due East or West, $\ph
 
 The last piece of this analysis is to reflect the fact that sunlight is less intense when the sun is lower in the sky -- even with a panel pointed directly at the sun.  This is because sunlight has to pass through more atmosphere (dimming it) at lower angles rather than higher angles.  The intensity of the sunlight reaching a panel pointed directly at the sun (the panel surface is perpendicular or `normal` to the sunlight rays) is called [Direct Normal Irradiance](https://en.wikipedia.org/wiki/Solar_irradiance) ("DNI") and can be measured empirically at given locations.
 
-The [National Solar Radiation Database](https://nsrdb.nrel.gov/data-viewer) provides data sets of solar radiation metrics at various locations on the earth's surface for every day in 10-minute increments.   The chart below of "Clearsky" DNI in Las Vegas is from their 2021 data set, and is averaged over each month shown (both to smooth out irregularities and also to match the solar generation data we started with). 
+The [National Solar Radiation Database](https://nsrdb.nrel.gov/data-viewer) provides data sets of solar radiation metrics at various locations on the earth's surface for every day in 10-minute increments.  The chart below shows "Clearsky" DNI in Las Vegas from 2021, with all days in a given month averaged into a single time series (both to smooth out irregularitize and to match the solar generation data we started with). 
 
 ![DNI](/assets/images/post8_NV_dni_by_month.png)
 
+### All Together
 
+Finally, we can estimate total solar generation by combining the angular analysis -- how closely aligned to the sun can 
 
 
 
