@@ -65,8 +65,9 @@ TD.purple TH.purple {background-color: #E6E6FA;}
     <tr class="blue">
       <th colspan="2" scope = "colgroup"></th> 
       <th colspan="1" scope = "colgroup">8:00 a.m.</th>
-      <th colspan="1" scope = "colgroup">12:00 noon</th>
-      <th colspan="1" scope = "colgroup">4:00 p.m.</th>
+      <th colspan="1" scope = "colgroup">11:00 a.m.</th>
+      <th colspan="1" scope = "colgroup">2:00 p.m.</th>
+      <th colspan="1" scope = "colgroup">5:00 p.m.</th>
     <tr>
      <th rowspan="2" class="purple">June 15</th>
      <th class="purple">Elevation</th>
