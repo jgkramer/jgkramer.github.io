@@ -94,7 +94,7 @@ The last piece of this analysis is to reflect the fact that sunlight is less int
 
 The [National Solar Radiation Database](https://nsrdb.nrel.gov/data-viewer) provides data sets of solar radiation metrics at various locations on the earth's surface for every day in 10-minute increments.   The chart below of "Clearsky" DNI in Las Vegas is from their 2021 data set, and is averaged over each month shown (both to smooth out irregularities and also to match the solar generation data we started with). 
 
-![DNI](/assets/images/post8_NV_DNI_by_month.png)
+![DNI](/assets/images/post8_NV_dni_by_month.png)
 
 
 
