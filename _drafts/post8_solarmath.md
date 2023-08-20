@@ -52,12 +52,12 @@ Here's a few examples:
 
 | hello | 8:00 am | 12:00 noon | 4:00 pm |
 | --- | --- | --- |
-| June 15 - Elevation | 12&deg | 12&deg | 12&deg |
-| June 15 - Azimuth | 12&deg | 12&deg | 12&deg |
-| September 15 - Elevation | 12&deg | 12&deg | 12&deg |
-| September 15 - Azimuth | 12&deg | 12&deg | 12&deg |
-| December 15 - Elevation | 12&deg | 12&deg | 12&deg |
-| December 15 - Azimuth | 12&deg | 12&deg | 12&deg |
+| June 15 - Elevation | 12&deg; | 12&deg; | 12&deg; |
+| June 15 - Azimuth | 12&deg; | 12&deg; | 12&deg; |
+| September 15 - Elevation | 12&deg; | 12&deg; | 12&deg; |
+| September 15 - Azimuth | 12&deg; | 12&deg; | 12&deg; |
+| December 15 - Elevation | 12&deg; | 12&deg; | 12&deg; |
+| December 15 - Azimuth | 12&deg; | 12&deg; | 12&deg; |
 
 ### Single-Axis Tracking Panels
 
