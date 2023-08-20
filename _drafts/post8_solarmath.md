@@ -52,6 +52,41 @@ Finding these two angles for the sun's position at any location on Earth at any 
 
 Here's a few examples: 
 
+<STYLE TYPE="text/css">
+<!--
+TH{font-family: Arial; font-size: 9pt; text-align: center;}
+TD{font-family: Arial; font-size: 9pt; text-align: center;}
+TR.gray TD, TR.gray TH {background-color: lightgray;}
+TR.blue TD, TR.blue TH {background-color: #E8E8E8;}
+TD.purple TH.purple {background-color: #E6E6FA;}
+-->
+</STYLE>
+<table>
+    <tr class="blue">
+      <th colspan="2" scope = "colgroup"></th> 
+      <th colspan="1" scope = "colgroup">8:00 a.m.</th>
+      <th colspan="1" scope = "colgroup">12:00 noon</th>
+      <th colspan="1" scope = "colgroup">4:00 p.m.</th>
+    <tr>
+     <th rowspan="2" class="purple">June 15</th>
+     <th class="purple">Elevation</th>
+     <td>$0.114</td><td>$0.209</td><td>$0.068</td><td>$0.100</td>
+    </tr>
+    <tr>
+     <th class="purple">Azimuth</th>
+     <td>$7.69</td><td>$11.28</td><td>$11.29</td><td>$11.29</td>
+    </tr>
+    <tr>
+      <th rowspan="2" class="purple">September 15</th>
+      <th class="purple">Elevation</th>
+      <td>$0.114</td><td>$0.209</td><td>$0.068</td><td>$0.100</td>
+    </tr>
+    <tr>
+     <th class="purple">Azimuth</th>
+     <td>$7.69</td><td>$11.28</td><td>$11.29</td><td>$11.29</td>
+    </tr>
+</table>
+
 
 
 ### Single-Axis Tracking Panels
