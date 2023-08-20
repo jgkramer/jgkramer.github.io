@@ -27,6 +27,10 @@ In the winter, the two-peak shape occurs because the sun is overall quite low in
 
 The strong hours in the summer are particularly long because the sun rises in the north-east, and gets to due east around 9:00 a.m. (8 a.m. standard time).   At this point an east-west orientation can point a panel directly at the sun.   Ih the afternoon, the sun gets to due west around 5:00 p.m. (4 p.m. standard time).  So the hours where the panel can get a nearly-perpendicular angle to the sun span more than this 8-hour period.
 
+There are a few other features of the generation chart I noticed that are less intuitive:  First, the darkest winter months of December / January seem to be outliers to the downside (i.e., November and February represent big steps-up in generation).   Second, the maximum generation months do not appear to be symmetrical around June (the month with the most hours of daylight), but instead appear to be skewed towards the spring: April and May are better generation months that July and August. 
+
+Let's dig in. 
+
 <!--more-->
 
 ### A Simplified Model of Solar Panels
@@ -98,8 +102,6 @@ TD.purple TH.purple {background-color: #E6E6FA;}
     </tr>
 </table>
 
-
-
 ### Single-Axis Tracking Panels
 
 For a single panel, solar yield is maximized by **dual-axis** tracking: which can be rotated on two axes (e.g., horizontal and vertical) to point at any point in the sky.  But most utility scale solar arrays (including those in Nevada) are **single-axis** trackers, and look like the below near Las Vegas:
@@ -168,7 +170,13 @@ These **modeled** curves match many of the features of the **actual** solar gene
 
 (2) The double-peak in winter months, with a trough in generation at mid-day when an east-west tilting panel cannot get as good an angle on the sun low in the sky in the south, as it can in the late morning / early afternoon when the sun, still low, is more east or west in the sky. 
 
-The modeled outputs also capture a third feature of the Nevada solar generation data: the winter months of December / January are particularly low-output.  In other words, fall/spring output is closer to the higher summer levels than to the lower winter levels.  This is likely a function of solar angles: from March through September there is always some time of day where the sun crosses the east-west axis and a single-axis panel can point directly at the sun.   It is only in the winter months where this is not possible. 
+#### Other Features
+
+The modeled outputs also captures the less obvious features of the Nevada solar generation data described above.
+
+First, the winter months of December / January are particularly low-output.  In other words, fall/spring output is closer to the higher summer levels than to the lower winter levels.  This is likely a function of solar angles: from March through September there is always some time of day where the sun crosses the east-west axis and a single-axis panel can point directly at the sun.   It is only in the winter months where this is not possible. 
+
+Second, April is better than August!  
 
 ### Shortcomings
 
