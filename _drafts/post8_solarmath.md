@@ -135,7 +135,7 @@ The discrepancy could be from a number of sources, including:
 
 ### Conclusion
 
-Shortcomings notwithstanding, this exercise validates the premise that the physics of the world (the intensity of the sun's rays and the angle of the sun in the sky) as well as engineering choices (how panel installations are built) predictably determine what is possible to expect from an energy generation installation.  
+Shortcomings notwithstanding, this exercise validates the premise that the physics of the world (the angle of the sun in the sky and how much radiation is absorbed by the atmosphere at different times of day) as well as engineering choices (how panel installations are built) predictably determine what is possible to expect from an energy generation installation.
 
 
 
