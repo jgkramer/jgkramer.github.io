@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why Winter Solar Generation Is a Two-Humped Camel: Solar Trigonometry"
+title: "Winter Solar Generation Is a Two-Humped Camel: Solar Trigonometry"
 date: "2023-07-10"
 hide: true
 author: "Jared Kramer"
