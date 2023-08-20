@@ -46,7 +46,7 @@ Imagine our solar panel is at the origin in a 3-dimensional plot.   The vector o
 
 We'll eventually want to find the angle between the sun's position vector and the vector normal to a solar panel on the ground, so we'll derive the (x, y, z) coordinates of the sun's position on a unit sphere from the angles.   From triangle trigonometry, the z-coordinate is simply 1 times the sine of the elevation angle, $sin \phi$.  Similarly, the length of the distance from the origin to the projection of the sun onto the xy plane is $cos \phi$.  The x and y coordinates are then the projections of that point onto the x and y axis using the azimuth angle: the x-coordinate is $cos \phi\~sin \theta$ and the y-coordinate is $-cos \phi\~cos \theta$ (the negative sign comes from my chosen orientation of the positive y-axis as being south).   Thus the position vector of the sun ends up as the unit vector $[cos \phi\~sin \theta,\~-cos \phi\~cos \theta,\~sin \phi\]$.
 
-But first, 
+Finding these two angles for the sun's position at any location on Earth at any time is a [straightforward computation](https://gml.noaa.gov/grad/solcalc/azel.html) based on longitude, latitude, time of day and day of year (and timezone).  
 
 ### Single-Axis Tracking Panels
 
@@ -100,7 +100,17 @@ The [National Solar Radiation Database](https://nsrdb.nrel.gov/data-viewer) prov
 
 ### All Together
 
-Finally, we can estimate total solar generation by combining the angular analysis -- how closely aligned to the sun can 
+Finally, we can estimate total solar generation over the course of any day in Nevada by: 
+
+- Computing the solar angle positions $\phi$ and $\theta$ for the day and time at that location
+- From those solar angles, determining the best angle to position a single-axis solar panel at to point most directly at the sun, and then what proportion of solar energy -- i.e., $cos\~\beta$ -- can be captured at that angle
+- Multiplying this proportion by the total direct solar radiation (DNI) reaching the ground at that time
+
+The results of this exercise are shown below. 
+
+![Modeled Results](/assets/images/post8_NV_modeled_by_month.png)
+
+
 
 
 
