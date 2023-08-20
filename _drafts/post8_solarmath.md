@@ -122,7 +122,7 @@ These **modeled** curves match many of the features of the **actual** solar gene
 
 (2) The double-peak in winter months, with a trough in generation at mid-day when an east-west tilting panel cannot get as good an angle on the sun low in the sky in the south, as it can in the late morning / early afternoon when the sun, still low, is more east or west in the sky. 
 
-The modeled outputs also capture a third feature of 
+The modeled outputs also capture a third feature of the Nevada solar generation data: that 
 
 
 
