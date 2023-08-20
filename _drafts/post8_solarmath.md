@@ -126,7 +126,7 @@ The modeled outputs also capture a third feature of the Nevada solar generation 
 
 ### Shortcomings
 
-The modeled analysis does diverge from observed data, including the fact that in the real world, winter output appears to be a higher proportion of summer output than in the modeled output.   For example, the "real world" mid-day December level is about 70% of the mid-day June level, whereas in the modeled output this is about 53%.  
+The modeled analysis does diverge from observed data, including the fact that in the real world, winter output appears to be a higher proportion of summer output than in the modeled output.   For example, the "real world" mid-day December level is about 70% of the mid-day June level, whereas in the modeled output this is about 55%.  
 
 The discrepancy could be from a number of sources, including: 
 - The fact that solar energy used for generation comes not from direct light of the sun (DNI) but also from diffuse light scattered from the entire sky; this component of light is less angle-sensitive 
@@ -134,6 +134,8 @@ The discrepancy could be from a number of sources, including:
 - There could be "throttling" of generation, if the amount of power generated from solar panels exceeds either the power demanded at the time or transmission capabilities of the grid
 
 ### Conclusion
+
+Shortcomings notwithstanding, this exercise validates the premise that the physics of the world (the intensity of the sun's rays and the angle of the sun in the sky) as well as engineering choices (how panel installations are built) predictably determine what is possible to expect from an energy generation installation.  
 
 
 
