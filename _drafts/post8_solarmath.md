@@ -65,26 +65,36 @@ TD.purple TH.purple {background-color: #E6E6FA;}
     <tr class="blue">
       <th colspan="2" scope = "colgroup"></th> 
       <th colspan="1" scope = "colgroup">8:00 a.m.</th>
-      <th colspan="1" scope = "colgroup">11:00 a.m.</th>
+      <th colspan="1" scope = "colgroup">10:00 a.m.</th>
+      <th colspan="1" scope = "colgroup">12:00 noon</th>
       <th colspan="1" scope = "colgroup">2:00 p.m.</th>
-      <th colspan="1" scope = "colgroup">5:00 p.m.</th>
+      <th colspan="1" scope = "colgroup">4:00 p.m.</th>
     <tr>
      <th rowspan="2" class="purple">June 15</th>
      <th class="purple">Elevation</th>
-     <td>$0.114</td><td>$0.209</td><td>$0.068</td><td>$0.100</td>
+     <td> 41.1&deg;</td><td>64.8&deg;</td><td>76.5&deg;</td><td>57.4&deg;</td><td>33.3&deg; </td>
     </tr>
     <tr>
      <th class="purple">Azimuth</th>
-     <td>$7.69</td><td>$11.28</td><td>$11.29</td><td>$11.29</td>
+     <td> 89.3&deg;</td><td>113.7&deg;</td><td>199.3&deg;</td><td>256.5&deg;</td><td>276.1&deg; </td>
     </tr>
     <tr>
       <th rowspan="2" class="purple">September 15</th>
       <th class="purple">Elevation</th>
-      <td>$0.114</td><td>$0.209</td><td>$0.068</td><td>$0.100</td>
+      <td> 30.5&deg;</td><td>50.3&deg;</td><td>56.5&deg;</td><td>43.1&deg;</td><td>21.0&deg; </td>
     </tr>
     <tr>
      <th class="purple">Azimuth</th>
-     <td>$7.69</td><td>$11.28</td><td>$11.29</td><td>$11.29</td>
+     <td> 110.5&deg;</td><td>140.6&deg;</td><td>191.0&deg;</td><td>233.7&deg;</td><td>257.9&deg; </td>
+    </tr>
+  <tr>
+      <th rowspan="2" class="purple">September 15</th>
+      <th class="purple">Elevation</th>
+      <td> 11.8&deg;</td><td>26.4&deg;</td><td>30.3&deg;</td><td>21.5&deg;</td><td>3.9&deg; </td>
+    </tr>
+    <tr>
+     <th class="purple">Azimuth</th>
+     <td> 130.6&deg;</td><td>155.4&deg;</td><td>186.4&deg;</td><td>215.5&deg;</td><td>237.3&deg; </td>
     </tr>
 </table>
 
