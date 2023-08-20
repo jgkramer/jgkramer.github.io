@@ -48,6 +48,18 @@ We'll eventually want to find the angle between the sun's position vector and th
 
 Finding these two angles for the sun's position at any location on Earth at any time is a [straightforward computation](https://gml.noaa.gov/grad/solcalc/azel.html) based on longitude, latitude, time of day and day of year (and timezone).  
 
+Here's a few examples: 
+          
+June 15 8am 
+June 15 Noon
+June 15 4pm
+September 15 8am
+September 15 noon
+September 15 4pm
+December 15 8am
+December 15 noon
+December 15 4pm
+
 ### Single-Axis Tracking Panels
 
 For a single panel, solar yield is maximized by **dual-axis** tracking: which can be rotated on two axes (e.g., horizontal and vertical) to point at any point in the sky.  But most utility scale solar arrays (including those in Nevada) are **single-axis** trackers, and look like the below near Las Vegas:
@@ -110,6 +122,13 @@ The results of this exercise are shown below.
 
 ![Modeled Results](/assets/images/post8_NV_modeled_by_month.png)
 
+These **modeled** curves match many of the features of the **actual** solar generation curves shown at the beginning, suggesting that my model of how utility solar panels work in Nevada is accurate. 
+
+(1) the extra long hours of near-peak generation throughout many hours of the day in summer that comes from being able to track the sun while it is high in the sky appears in the June curve above. 
+
+(2) The double-peak in winter months, with a trough in generation at mid-day when an east-west tilting panel cannot get as good an angle on the sun low in the sky in the south, as it can in the late morning / early afternoon when the sun, still low, is more east or west in the sky. 
+
+The modeled outputs also capture a third feature of 
 
 
 
