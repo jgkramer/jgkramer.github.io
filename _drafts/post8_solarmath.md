@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Solar Geometry"
-date: "2023-07-10"
+title: "Winter Solar Generation Is a Two-Humped Camel: Math Really Works"
+date: "2023-08-22"
 hide: true
 author: "Jared Kramer"
 excerpt_separator: <!--more-->
@@ -11,11 +11,11 @@ excerpt_separator: <!--more-->
   {% include latex.html %}
 </head>
  
-Nerd alert.  This post uses math (trigonometry and linear algebra) of solar angles and the physical attributes of utility-scale solar panels to explain the shape of the graph below.  The graph shows Nevada's utility-scale solar generation by hour of the day, for each month. 
+The graph shows Nevada's utility-scale solar generation by hour of the day, for each month.  This post uses math (trigonometry and linear algebra) of solar angles and the physical attributes of utility-scale solar panels to explain the funny shape of the curves.
 
 ![solar](/assets/images/post8_NV_solar_by_month.png)
 
-Three features of the data are notable:
+Two features of the data are notable:
 
 1.  Long hours of consistently high output in summer.  Of the roughly 14 hours per day of production in June, 10 of those are at least 90% of the peak: the intensity drops off only during the two hours after sunrise and two hours before sunset.  
 
@@ -26,6 +26,12 @@ The data is consistent with **single-axis** solar tracking panels adjusts the po
 In the winter, the two-peak shape occurs because the sun is overall quite low in the sky.  In the mid-day the sun is in the south.  The best the panel can do is to be horizontal, but the sun is low enough that the angle of incidence is not very perpendicular.  The best angles occur in morning and afternoon when the sun is further east and west, and the panel can be adjusted to point east and west.  The dip does not occur in the summer because the elevation of the sun is high enough that a horizontal panel has a good angle of incidence.  
 
 The strong hours in the summer are particularly long because the sun rises in the north-east, and gets to due east around 9:00 a.m. (8 a.m. standard time).   At this point an east-west orientation can point a panel directly at the sun.   Ih the afternoon, the sun gets to due west around 5:00 p.m. (4 p.m. standard time).  So the hours where the panel can get a nearly-perpendicular angle to the sun span more than this 8-hour period.
+
+There are a few other features of the generation chart I noticed that are less intuitive:  First, the darkest winter months of December / January seem to be outliers to the downside (i.e., November and February represent big steps-up in generation).   Second, the maximum generation months do not appear to be symmetrical around June (the month with the most hours of daylight), but instead appear to be skewed towards the spring: April and May are better generation months that July and August. 
+
+Let's dig in. 
+
+<!--more-->
 
 ### A Simplified Model of Solar Panels
 
@@ -44,7 +50,57 @@ Imagine our solar panel is at the origin in a 3-dimensional plot.   The vector o
   <img src="/assets/images/post8_angles_2.png" alt="Image" width="655" height="409">
 </div>
 
-We'll eventually want to find the angle between the sun's position vector and the vector normal to a solar panel on the ground, so we'll derive the (x, y, z) coordinates of the sun's position on a unit sphere from the angles.   From triangle trigonometry, the z-coordinate is simply 1 times the sine of the elevation angle, $sin \phi$.  Similarly, the length of the distance from the origin to the projection of the sun onto the xy plane is $cos \phi$.  The x and y coordinates are then the projections of that point onto the x and y axis using the azimuth angle: the x-coordinate is $cos \phi\~sin \theta$ and the y-coordinate is $-cos \phi\~cos \theta$ (the negative sign comes from my chosen orientation of the positive y-axis as being south).   Thus the position vector of the sun ends up as the unit vector $[cos \phi\~sin \theta,\~-cos \phi\~cos \theta,\~sin \phi\]$.  
+We'll eventually want to find the angle between the sun's position vector and the vector normal to a solar panel on the ground, so we'll derive the (x, y, z) coordinates of the sun's position on a unit sphere from the angles.   From triangle trigonometry, the z-coordinate is simply 1 times the sine of the elevation angle, $sin \phi$.  Similarly, the length of the distance from the origin to the projection of the sun onto the xy plane is $cos \phi$.  The x and y coordinates are then the projections of that point onto the x and y axis using the azimuth angle: the x-coordinate is $cos \phi\~sin \theta$ and the y-coordinate is $-cos \phi\~cos \theta$ (the negative sign comes from my chosen orientation of the positive y-axis as being south).   Thus the position vector of the sun ends up as the unit vector $[cos \phi\~sin \theta,\~-cos \phi\~cos \theta,\~sin \phi\]$.
+
+Finding these two angles for the sun's position at any location on Earth at any time is a [straightforward computation](https://gml.noaa.gov/grad/solcalc/azel.html) based on longitude, latitude, time of day and day of year (and timezone).  
+
+Here's a few examples: 
+
+<STYLE TYPE="text/css">
+<!--
+TH{font-family: Arial; font-size: 9pt; text-align: center;}
+TD{font-family: Arial; font-size: 9pt; text-align: center;}
+TR.gray TD, TR.gray TH {background-color: lightgray;}
+TR.blue TD, TR.blue TH {background-color: #E8E8E8;}
+TD.purple TH.purple {background-color: #E6E6FA;}
+-->
+</STYLE>
+<table>
+    <tr class="blue">
+      <th colspan="2" scope = "colgroup"></th> 
+      <th colspan="1" scope = "colgroup">8:00 a.m.</th>
+      <th colspan="1" scope = "colgroup">10:00 a.m.</th>
+      <th colspan="1" scope = "colgroup">12:00 noon</th>
+      <th colspan="1" scope = "colgroup">2:00 p.m.</th>
+      <th colspan="1" scope = "colgroup">4:00 p.m.</th>
+    <tr>
+     <th rowspan="2" class="purple">June 15</th>
+     <th class="purple">Elevation</th>
+     <td> 41.1&deg;</td><td>64.8&deg;</td><td>76.5&deg;</td><td>57.4&deg;</td><td>33.3&deg; </td>
+    </tr>
+    <tr>
+     <th class="purple">Azimuth</th>
+     <td> 89.3&deg;</td><td>113.7&deg;</td><td>199.3&deg;</td><td>256.5&deg;</td><td>276.1&deg; </td>
+    </tr>
+    <tr>
+      <th rowspan="2" class="purple">September 15</th>
+      <th class="purple">Elevation</th>
+      <td> 30.5&deg;</td><td>50.3&deg;</td><td>56.5&deg;</td><td>43.1&deg;</td><td>21.0&deg; </td>
+    </tr>
+    <tr>
+     <th class="purple">Azimuth</th>
+     <td> 110.5&deg;</td><td>140.6&deg;</td><td>191.0&deg;</td><td>233.7&deg;</td><td>257.9&deg; </td>
+    </tr>
+  <tr>
+      <th rowspan="2" class="purple">December 15</th>
+      <th class="purple">Elevation</th>
+      <td> 11.8&deg;</td><td>26.4&deg;</td><td>30.3&deg;</td><td>21.5&deg;</td><td>3.9&deg; </td>
+    </tr>
+    <tr>
+     <th class="purple">Azimuth</th>
+     <td> 130.6&deg;</td><td>155.4&deg;</td><td>186.4&deg;</td><td>215.5&deg;</td><td>237.3&deg; </td>
+    </tr>
+</table>
 
 ### Single-Axis Tracking Panels
 
@@ -92,9 +148,49 @@ A quick gut check validates this formula: when the sun is due East or West, $\ph
 
 The last piece of this analysis is to reflect the fact that sunlight is less intense when the sun is lower in the sky -- even with a panel pointed directly at the sun.  This is because sunlight has to pass through more atmosphere (dimming it) at lower angles rather than higher angles.  The intensity of the sunlight reaching a panel pointed directly at the sun (the panel surface is perpendicular or `normal` to the sunlight rays) is called [Direct Normal Irradiance](https://en.wikipedia.org/wiki/Solar_irradiance) ("DNI") and can be measured empirically at given locations.
 
-The [National Solar Radiation Database](https://nsrdb.nrel.gov/data-viewer) provides data sets of solar radiation metrics at various locations on the earth's surface for every day in 10-minute increments.   The chart below of "Clearsky" DNI in Las Vegas is from their 2021 data set, and is averaged over each month shown (both to smooth out irregularities and also to match the solar generation data we started with). 
+The [National Solar Radiation Database](https://nsrdb.nrel.gov/data-viewer) provides data sets of solar radiation metrics at various locations on the earth's surface for every day in 10-minute increments.  The chart below shows "Clearsky" DNI in Las Vegas from 2021, with all days in a given month averaged into a single time series (both to smooth out irregularitize and to match the solar generation data we started with). 
 
-![DNI](/assets/images/post8_NV_DNI_by_month.png)
+![DNI](/assets/images/post8_NV_dni_by_month.png)
+
+### All Together
+
+Finally, we can estimate total solar generation over the course of any day in Nevada by: 
+
+- Computing the solar angle positions $\phi$ and $\theta$ for the day and time at that location
+- From those solar angles, determining the best angle to position a single-axis solar panel at to point most directly at the sun, and then what proportion of solar energy -- i.e., $cos\~\beta$ -- can be captured at that angle
+- Multiplying this proportion by the total direct solar radiation (DNI) reaching the ground at that time
+
+The results of this exercise are shown below. 
+
+![Modeled Results](/assets/images/post8_NV_modeled_by_month.png)
+
+These **modeled** curves match many of the features of the **actual** solar generation curves shown at the beginning, suggesting that my model of how utility solar panels work in Nevada is accurate. 
+
+(1) the extra long hours of near-peak generation throughout many hours of the day in summer that comes from being able to track the sun while it is high in the sky appears in the June curve above. 
+
+(2) The double-peak in winter months, with a trough in generation at mid-day when an east-west tilting panel cannot get as good an angle on the sun low in the sky in the south, as it can in the late morning / early afternoon when the sun, still low, is more east or west in the sky. 
+
+#### Other Features
+
+The modeled outputs also captures the less obvious features of the Nevada solar generation data described above.
+
+First, the winter months of December / January are particularly low-output.  In other words, fall/spring output is closer to the higher summer levels than to the lower winter levels.  This is likely a function of solar angles: from March through September there is always some time of day where the sun crosses the east-west axis and a single-axis panel can point directly at the sun.   It is only in the winter months where this is not possible. 
+
+Second, April is better than August!  
+
+### Shortcomings
+
+The modeled analysis does diverge from observed data, including the fact that in the real world, winter output appears to be a higher proportion of summer output than in the modeled output.   For example, the "real world" mid-day December level is about 70% of the mid-day June level, whereas in the modeled output this is about 55%.  
+
+The discrepancy could be from a number of sources, including: 
+- The fact that solar energy used for generation comes not from direct light of the sun (DNI) but also from diffuse light scattered from the entire sky; this component of light is less angle-sensitive 
+- Solar generation in Nevada may come from a number of different kinds of panels, not simply
+- There could be "throttling" of generation, if the amount of power generated from solar panels exceeds either the power demanded at the time or transmission capabilities of the grid
+
+### Conclusion
+
+Shortcomings notwithstanding, this exercise validates the premise that the physics of the world (the angle of the sun in the sky and how much radiation is absorbed by the atmosphere at different times of day) as well as engineering choices (how panel installations are built) predictably determine what is possible to expect from an energy generation installation.
+
 
 
 
