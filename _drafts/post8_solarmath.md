@@ -122,7 +122,20 @@ These **modeled** curves match many of the features of the **actual** solar gene
 
 (2) The double-peak in winter months, with a trough in generation at mid-day when an east-west tilting panel cannot get as good an angle on the sun low in the sky in the south, as it can in the late morning / early afternoon when the sun, still low, is more east or west in the sky. 
 
-The modeled outputs also capture a third feature of the Nevada solar generation data: that 
+The modeled outputs also capture a third feature of the Nevada solar generation data: the winter months of December / January are particularly low-output.  In other words, fall/spring output is closer to the higher summer levels than to the lower winter levels.  This is likely a function of solar angles: from March through September there is always some time of day where the sun crosses the east-west axis and a single-axis panel can point directly at the sun.   It is only in the winter months where this is not possible. 
+
+### Shortcomings
+
+The modeled analysis does diverge from observed data, including the fact that in the real world, winter output appears to be a higher proportion of summer output than in the modeled output.   For example, the "real world" mid-day December level is about 70% of the mid-day June level, whereas in the modeled output this is about 53%.  
+
+The discrepancy could be from a number of sources, including: 
+- The fact that solar energy used for generation comes not from direct light of the sun (DNI) but also from diffuse light scattered from the entire sky; this component of light is less angle-sensitive 
+- Solar generation in Nevada may come from a number of different kinds of panels, not simply
+- There could be "throttling" of generation, if the amount of power generated from solar panels exceeds either the power demanded at the time or transmission capabilities of the grid
+
+### Conclusion
+
+
 
 
 
