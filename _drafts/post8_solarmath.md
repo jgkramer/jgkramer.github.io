@@ -90,7 +90,11 @@ A quick gut check validates this formula: when the sun is due East or West, $\ph
 
 ### Adjusting for Lower Solar Intensity at Lower Angles
 
-The last piece of this analysis is to reflect the fact that sunlight is less intense when the sun is lower in the sky -- even with a panel pointed directly at the sun.  This is because sunlight has to pass through more atmosphere (dimming it) at lower angles rather than higher angles.  The intensity of the sunlight reaching a panel pointed directly at the sun (the panel surface is perpendicular or `normal` to the sunlight rays) is called [Direct Normal Irradiance](https://en.wikipedia.org/wiki/Solar_irradiance) and can be measured empirically at given locations. 
+The last piece of this analysis is to reflect the fact that sunlight is less intense when the sun is lower in the sky -- even with a panel pointed directly at the sun.  This is because sunlight has to pass through more atmosphere (dimming it) at lower angles rather than higher angles.  The intensity of the sunlight reaching a panel pointed directly at the sun (the panel surface is perpendicular or `normal` to the sunlight rays) is called [Direct Normal Irradiance](https://en.wikipedia.org/wiki/Solar_irradiance) ("DNI") and can be measured empirically at given locations.
+
+The [National Solar Radiation Database](https://nsrdb.nrel.gov/data-viewer) provides data sets of solar radiation metrics at various locations on the earth's surface for every day in 10-minute increments.   The chart below of "Clearsky" DNI in Las Vegas is from their 2021 data set, and is averaged over each month shown (both to smooth out irregularities and also to match the solar generation data we started with). 
+
+
 
 
 
