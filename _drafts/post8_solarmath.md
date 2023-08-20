@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Winter Solar Generation Is a Two-Humped Camel: Solar Trigonometry Really Works"
-date: "2023-07-10"
+date: "2023-08-22"
 hide: true
 author: "Jared Kramer"
 excerpt_separator: <!--more-->
