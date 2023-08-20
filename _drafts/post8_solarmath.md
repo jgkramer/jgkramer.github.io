@@ -88,7 +88,7 @@ TD.purple TH.purple {background-color: #E6E6FA;}
      <td> 110.5&deg;</td><td>140.6&deg;</td><td>191.0&deg;</td><td>233.7&deg;</td><td>257.9&deg; </td>
     </tr>
   <tr>
-      <th rowspan="2" class="purple">September 15</th>
+      <th rowspan="2" class="purple">December 15</th>
       <th class="purple">Elevation</th>
       <td> 11.8&deg;</td><td>26.4&deg;</td><td>30.3&deg;</td><td>21.5&deg;</td><td>3.9&deg; </td>
     </tr>
