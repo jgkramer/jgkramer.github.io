@@ -49,16 +49,15 @@ We'll eventually want to find the angle between the sun's position vector and th
 Finding these two angles for the sun's position at any location on Earth at any time is a [straightforward computation](https://gml.noaa.gov/grad/solcalc/azel.html) based on longitude, latitude, time of day and day of year (and timezone).  
 
 Here's a few examples: 
-          
-June 15 8am 
-June 15 Noon
-June 15 4pm
-September 15 8am
-September 15 noon
-September 15 4pm
-December 15 8am
-December 15 noon
-December 15 4pm
+
+|.|8:00 am|12:00 noon|4:00 pm|
+|---|---|---|
+|June 15 - Elevation|12&deg|12&deg|12&deg|
+|June 15 - Azimuth|12&deg|12&deg|12&deg|
+|September 15 - Elevation|12&deg|12&deg|12&deg|
+|September 15 - Azimuth|12&deg|12&deg|12&deg|
+|December 15 - Elevation|12&deg|12&deg|12&deg|
+|December 15 - Azimuth|12&deg|12&deg|12&deg|
 
 ### Single-Axis Tracking Panels
 
