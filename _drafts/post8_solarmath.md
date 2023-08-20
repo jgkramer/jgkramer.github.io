@@ -176,15 +176,13 @@ The modeled outputs also captures the less obvious features of the Nevada solar 
 
 First, the winter months of December / January are particularly low-output.  In other words, fall/spring output is closer to the higher summer levels than to the lower winter levels.  This is likely a function of solar angles: from March through September there is always some time of day where the sun crosses the east-west axis and a single-axis panel can point directly at the sun.   It is only in the winter months where this is not possible. 
 
-Second, April is better than August!   Despite 
+Second, April is better than August!   Despite the solar angles (and the fraction of solar flux $cos\~\beta$ that can get captured by panels) being similar between the two months, the intensity of sunlight in April is lower than in August.  Whatever the atmospheric cause of this may be (temperature / humidity is higher in August), the higher spring than summer DNI levels directly follow through to electricity generation. 
 
 |     | Cos $\beta$ April | Cos $\beta$ August | DNI April | DNI August |
 | --- | --- | --- | --- | --- |
 | 8:00 a.m. | 0.98 | 0.99 | 860 | 747 |
 | 12:00 noon | 0.89 | 0.93 | 973 | 862 | 
 | 4:00 p.m. | 0.99 | 0.99 | 784 | 733 | 
-
-
 
 ### Shortcomings
 
