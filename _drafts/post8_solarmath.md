@@ -150,13 +150,13 @@ A quick gut check validates this formula: when the sun is due East or West, $\th
 
 ### Adjusting for Lower Solar Intensity at Lower Angles
 
-The last piece of this analysis is to reflect the fact that sunlight is less intense when the sun is lower in the sky -- even with a panel pointed directly at the sun.  This is because sunlight has to pass through more atmosphere (dimming it) at lower angles rather than higher angles.  The intensity of the sunlight reaching a panel pointed directly at the sun (the panel surface is perpendicular or `normal` to the sunlight rays) is called [Direct Normal Irradiance](https://en.wikipedia.org/wiki/Solar_irradiance) ("DNI") and can be measured empirically at given locations.
+The last piece of this analysis is to reflect the fact that sunlight is less intense when the sun is lower in the sky -- even with a panel pointed directly at the sun.  This is because sunlight has to pass through more atmosphere (dimming it) at lower angles rather than higher angles.  The intensity of the sunlight reaching a panel pointed directly at the sun (the panel surface is **normal** to the sunlight rays) is called [Direct Normal Irradiance](https://en.wikipedia.org/wiki/Solar_irradiance) ("DNI") and can be measured empirically at given locations.
 
-The [National Solar Radiation Database](https://nsrdb.nrel.gov/data-viewer) provides data sets of solar radiation metrics at various locations on the earth's surface for every day in 10-minute increments.  The chart below shows "Clearsky" DNI in Las Vegas from 2021, with all days in a given month averaged into a single time series (both to smooth out irregularitize and to match the solar generation data we started with). 
+The [National Solar Radiation Database](https://nsrdb.nrel.gov/data-viewer) provides data sets of solar radiation metrics at various locations on the earth's surface for every day in 10-minute increments.  The chart below shows "Clearsky" DNI in Las Vegas from 2021, with all days in a given month averaged into a single time series (both to smooth out irregularities and to match my month-based analysis of generation data).  
 
 ![DNI](/assets/images/post8_NV_dni_by_month.png)
 
-### All Together
+### Putting It All Together
 
 Finally, we can estimate total solar generation over the course of any day in Nevada by: 
 
@@ -168,7 +168,7 @@ The results of this exercise are shown below.
 
 ![Modeled Results](/assets/images/post8_NV_modeled_by_month.png)
 
-These **modeled** curves match many of the features of the **actual** solar generation curves shown at the beginning, suggesting that my model of how utility solar panels work in Nevada is accurate. 
+These **modeled** curves match the features of the **actual** solar generation curves shown up top, suggesting that my model of how utility solar panels work in Nevada is reasonably accurate.
 
 (1) the extra long hours of near-peak generation throughout many hours of the day in summer that comes from being able to track the sun while it is high in the sky appears in the June curve above. 
 
@@ -176,11 +176,9 @@ These **modeled** curves match many of the features of the **actual** solar gene
 
 #### Other Features
 
-The modeled outputs also captures the less obvious features of the Nevada solar generation data described above.
+The modeled outputs also captures the two less obvious features of the Nevada solar generation data described above.
 
-First, the winter months of December / January are particularly low-output.  In other words, fall/spring output is closer to the higher summer levels than to the lower winter levels.  This is likely a function of solar angles: from March through September there is always some time of day where the sun crosses the east-west axis and a single-axis panel can point directly at the sun.   It is only in the winter months where this is not possible. 
-
-Second, April is better than August!   Despite the solar angles (and the fraction of solar flux $cos\~\beta$ that can get captured by panels) being similar between the two months, the intensity of sunlight in April is lower than in August.  Whatever the atmospheric cause of this may be (temperature / humidity is higher in August), the higher spring than summer DNI levels directly follow through to electricity generation. 
+First, April is indeeed better than August!   Despite the solar angles (and the fraction of solar flux $cos\~\beta$ that can get captured by panels) being similar between the two months, the intensity of sunlight in April is lower than in August.  Whatever the atmospheric cause of this may be (temperature / humidity is higher in August), the higher spring than summer DNI levels directly follow through to electricity generation. 
 
 |     | Cos $\beta$ April | Cos $\beta$ August | DNI April | DNI August |
 | --- | --- | --- | --- | --- |
@@ -188,20 +186,20 @@ Second, April is better than August!   Despite the solar angles (and the fractio
 | 12:00 noon | 0.89 | 0.93 | 973 | 862 | 
 | 4:00 p.m. | 0.99 | 0.99 | 784 | 733 | 
 
+Second, the winter months of December / January are particularly low-output.  In other words, fall/spring output is closer to the higher summer levels than to the lower winter levels.  This is a function of solar angles: from March through September there is always some time of day where the sun crosses the east-west axis and a single-axis panel can point directly at the sun.   It is only in the winter months where this is not possible. 
+
 ### Shortcomings
 
 The modeled analysis does diverge from observed data, including the fact that in the real world, winter output appears to be a higher proportion of summer output than in the modeled output.   For example, the "real world" mid-day December level is about 70% of the mid-day June level, whereas in the modeled output this is about 55%.  
 
 The discrepancy could be from a number of sources, including: 
 - The fact that solar energy used for generation comes not from direct light of the sun (DNI) but also from diffuse light scattered from the entire sky; this component of light is less angle-sensitive 
-- Solar generation in Nevada may come from a number of different kinds of panels, not simply
+- Solar generation in Nevada may come from a number of different kinds of panels, not simply single-axis panels
 - There could be "throttling" of generation, if the amount of power generated from solar panels exceeds either the power demanded at the time or transmission capabilities of the grid
 
 ### Conclusion
 
 Shortcomings notwithstanding, this exercise validates the premise that the physics of the world (the angle of the sun in the sky and how much radiation is absorbed by the atmosphere at different times of day) as well as engineering choices (how panel installations are built) predictably determine what is possible to expect from an energy generation installation.
-
-
 
 
 
