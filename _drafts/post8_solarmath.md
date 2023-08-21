@@ -116,7 +116,7 @@ The panels sit in long parallel rows and can be most efficiently managed and spa
 
 ### Finding the Angle of Incidence and then Optimizing It
 
-Imagine that we tilt our solar panel an angle $\alpha$ away from vertical, with positive $\alpha$'s toward the east and negative $\alpha$'s toward the west.  Again assuming a unit sphere model of the sky, the east-west orientation means that the direction the panel points lies on the xz plane, at the unit vector $[sin \alpha, 0, cos \alpha]$.
+Imagine that we tilt our solar panel an angle $\alpha$ away from vertical, with positive $\alpha$'s toward the east and negative $\alpha$'s toward the west.  Again assuming a unit sphere model of the sky, the east-west orientation means that the direction the panel points lies on the xz plane, at the unit vector $[sin\~\alpha, 0, cos\~\alpha]$.
 
 <div style="padding: 0; margin: 0;">
   <img src="/assets/images/post8_angles_3.png" alt="Image" width="650" height="411">
@@ -126,7 +126,7 @@ So we are looking for the angle, $\beta$, between the dashed blue vector where t
 
 $cos\~\beta = sin\~\alpha\~cos\~\phi\~sin\~\theta + cos\~\alpha\~sin\~\phi\~\~\~\~(1)$
 
-The solar operator only contols the tilt angle of the panels $\alpha$.  So to maximize solar power generation, I assume that the utilitty sets $\alpha$ to maximize $cos\~\beta$, i.e., we set $\frac{\partial}{\partial{\alpha}}cos\~\beta = 0$.   Taking the partial derivative of the above, we are looking to find $\alpha$ such that.
+The solar operator only contols the tilt angle of the panels $\alpha$.  So to maximize solar power generation, I assume that the utility sets $\alpha$ to maximize $cos\~\beta$, i.e., we set $\frac{\partial}{\partial{\alpha}}cos\~\beta = 0$.   Taking the partial derivative of equation (1), we are looking to find $\alpha$ such that:
 
 $0 = cos\~\alpha\~cos\~\phi\~sin\~\theta - sin\~\alpha\~sin\~\phi$.   
 
