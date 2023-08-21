@@ -104,7 +104,7 @@ TD.purple TH.purple {background-color: #E6E6FA;}
     </tr>
 </table>
 
-Notice that in June, the sun spends more than 8 hours a day at an angle higher than the **maximum elevation** of the sun in December.
+Notice that in June, the sun spends more than 8 hours at an angle higher than the **maximum elevation** of the sun in December.
 
 ### Single-Axis Tracking Panels
 
