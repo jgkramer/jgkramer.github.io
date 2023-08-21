@@ -11,33 +11,35 @@ excerpt_separator: <!--more-->
   {% include latex.html %}
 </head>
  
-The graph shows Nevada's utility-scale solar generation by hour of the day, for each month.  This post uses math (trigonometry and linear algebra) of solar angles and the physical attributes of utility-scale solar panels to explain the funny shape of the curves.
+The graph below shows Nevada's utility-scale solar generation by hour of the day, for each month.  This post uses math (trigonometry and linear algebra) of solar angles and the physical attributes of utility-scale solar panels to explain the funny shape of the curves.
 
 ![solar](/assets/images/post8_NV_solar_by_month.png)
 
-Two features of the data are notable:
+Two features are notable: 
 
-1.  Long hours of consistently high output in summer.  Of the roughly 14 hours per day of production in June, 10 of those are at least 90% of the peak: the intensity drops off only during the two hours after sunrise and two hours before sunset.  
+1.  Long hours of **consistently** high output in summer rather than a sharper midday crest.  Of the roughly 14 hours per day of production in June, 10 of those are at least 90% of the peak: the intensity drops off only during the two hours after sunrise and two hours before sunset.  
 
 2.  The "dip" in mid-day in winter months.  The best solar generation does not occur when the sun is highest in the sky at mid-day, but in peaks before and after.
 
-The data is consistent with **single-axis** solar tracking panels adjusts the position of a solar panel along one axis of rotation (i.e., east to west) to make the sun's rays strike the panel as close to perpendicular as possible.  By pointing east in the morning, rotating to be horizontal at mid-day, and then pointing towards the west in the afternoon, a tracking panel can lengthen the period of time that the sun's rays strike at a near-perpendicular angle to the panel.  
+As we'll see, the data is consistent with **single-axis** solar tracking panels adjusts the position of a solar panel along one axis of rotation (i.e., east to west) to make the sun's rays strike the panel as close to perpendicular as possible.  By pointing east in the morning, rotating to be horizontal at mid-day, and then pointing towards the west in the afternoon, a tracking panel can lengthen the period of time that the sun's rays strike at a near-perpendicular angle to the panel.  
 
-In the winter, the two-peak shape occurs because the sun is overall quite low in the sky.  In the mid-day the sun is in the south.  The best the panel can do is to be horizontal, but the sun is low enough that the angle of incidence is not very perpendicular.  The best angles occur in morning and afternoon when the sun is further east and west, and the panel can be adjusted to point east and west.  The dip does not occur in the summer because the elevation of the sun is high enough that a horizontal panel has a good angle of incidence.  
+In the winter, the two-humped shape occurs because the sun is overall quite low in the sky.  In the mid-day the sun is in the south.  The best the panel can do is to be horizontal, but the sun is so low that the angle of incidence is far from perpendicular.  Better angles -- and more electricity generation -- occur in the morning and afternoon when the sun is further east or west.  This dip does not occur in the summer because the sun is high enough in the sky that a horizontal panel still has a close-to-perpendicular angle at midday. 
 
 The strong hours in the summer are particularly long because the sun rises in the north-east, and gets to due east around 9:00 a.m. (8 a.m. standard time).   At this point an east-west orientation can point a panel directly at the sun.   Ih the afternoon, the sun gets to due west around 5:00 p.m. (4 p.m. standard time).  So the hours where the panel can get a nearly-perpendicular angle to the sun span more than this 8-hour period.
 
-There are a few other features of the generation chart I noticed that are less intuitive:  First, the darkest winter months of December / January seem to be outliers to the downside (i.e., November and February represent big steps-up in generation).   Second, the maximum generation months do not appear to be symmetrical around June (the month with the most hours of daylight), but instead appear to be skewed towards the spring: April and May are better generation months that July and August. 
+There are more subtle features of the generation chart that are less intuitive.   First, the maximum generation generation months do not appear to be symmetrical around June (the month with the most daylight hours), but instead appear skewed towards the spring: April and May see more solar generation than July and August.  It's not obvious why this would be the case.   In addition, the darkest winter months of December / January seem to be particularly low-generation outliers (i.e., November and February represent big steps-up in generation).
 
-Let's dig in. 
+This post, by deploying a simple conceptual model of the physics and math of solar panels, explains these phenomena.   Let's dig in. 
 
 <!--more-->
 
 ### A Simplified Model of Solar Panels
 
-I don't have enough information to mathematically model the absolute power output of solar panels in Nevada.  However, with an analysis of the angle of the sun and the position of panels (plus some data about the intensity of the sun's rays) we can approximate at the output of panels relative to their maximum capacity, and so can validate the shape of the generation curves above. 
+I don't have enough information (e.g., number of panels deployed) to estimate the absolute power output of utility solar generation in Nevada.   However, by using basic information about the angle of the sun, the likely position of panels, and data about the intensity of the sun's rays, we can generate an estimate of the output of solar panels relative to their maximum output, and so can validate the shape of the generation curves above. 
 
-The collection of solar radiation by a flat PV panel is based on the [flux](https://en.wikipedia.org/wiki/Flux) of the sun's rays into the surface: sunlight landing perpendicular to the surface generate the most energy; sunlight parallel to the surface generates no energy.  Hence we want to measure the angle between that vector and the normal (perpendicular) vector $\vec{N}$ to the panel's surface.   If those vectors have zero angle between them, the sun is shining perpendicular to surface, and energy is maximized.   Higher angle means the sun is shining less directly on the panel.   Mathematically then, the solar energy that the panel can capture is proportional to the [cosine](https://www.e-education.psu.edu/eme812/node/896) of the angle between the sun's position vector and the normal vector of the solar panel. 
+The collection of solar radiation by a PV panel is on the [flux](https://en.wikipedia.org/wiki/Flux) of solar energy through the surface: sunlight shining perpendicular to the panel geneartes the most energy; sunlight parallel to the surface generates no energy; for any angle it's the component portion of the sunlight lying perpendicular to the panel (i.e., less than the total) that we're looking for. 
+
+Hence we want to measure the angle between that vector and the normal (perpendicular) vector $\vec{N}$ to the panel's surface.   If those vectors have zero angle between them, the sun is shining perpendicular to surface, and energy is maximized.   Higher angle means the sun is shining less directly on the panel.   Mathematically, the solar energy that the panel can capture is proportional to the [cosine](https://www.e-education.psu.edu/eme812/node/896) of the angle between the sun's position vector and the normal vector of the solar panel. 
 
 ### Sun Position
 
@@ -176,7 +178,13 @@ The modeled outputs also captures the less obvious features of the Nevada solar 
 
 First, the winter months of December / January are particularly low-output.  In other words, fall/spring output is closer to the higher summer levels than to the lower winter levels.  This is likely a function of solar angles: from March through September there is always some time of day where the sun crosses the east-west axis and a single-axis panel can point directly at the sun.   It is only in the winter months where this is not possible. 
 
-Second, April is better than August!  
+Second, April is better than August!   Despite the solar angles (and the fraction of solar flux $cos\~\beta$ that can get captured by panels) being similar between the two months, the intensity of sunlight in April is lower than in August.  Whatever the atmospheric cause of this may be (temperature / humidity is higher in August), the higher spring than summer DNI levels directly follow through to electricity generation. 
+
+|     | Cos $\beta$ April | Cos $\beta$ August | DNI April | DNI August |
+| --- | --- | --- | --- | --- |
+| 8:00 a.m. | 0.98 | 0.99 | 860 | 747 |
+| 12:00 noon | 0.89 | 0.93 | 973 | 862 | 
+| 4:00 p.m. | 0.99 | 0.99 | 784 | 733 | 
 
 ### Shortcomings
 
