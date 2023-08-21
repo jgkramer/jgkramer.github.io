@@ -130,7 +130,7 @@ The solar operator only contols the tilt angle of the panels $\alpha$.  So to ma
 
 $0 = cos\~\alpha\~cos\~\phi\~sin\~\theta - sin\~\alpha\~sin\~\phi$.   
 
-Rearranging and dividing by $cos\~\alpha\~sin\~\phi$ gets us that at the optimal tilt angle $\alpha$,
+Rearranging and dividing by $cos\~\alpha\~sin\~\phi$ gets us that at the optimal tilt angle $\alpha\prime$,
 
 $tan\~\alpha\ = \frac{sin\~\theta}{tan\~\phi}$ 
 
