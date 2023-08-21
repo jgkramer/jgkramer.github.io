@@ -37,19 +37,19 @@ This post, by deploying a simple conceptual model of the physics and math of sol
 
 I don't have enough information (e.g., number of panels deployed) to estimate the absolute power output of utility solar generation in Nevada.   However, by using basic information about the angle of the sun, the likely position of panels, and data about the intensity of the sun's rays, we can generate an estimate of the output of solar panels relative to their maximum output, and so can validate the shape of the generation curves above. 
 
-The collection of solar radiation by a PV panel is on the [flux](https://en.wikipedia.org/wiki/Flux) of solar energy through the surface: sunlight shining perpendicular to the panel geneartes the most energy; sunlight parallel to the surface generates no energy; for any angle it's the component portion of the sunlight lying perpendicular to the panel (i.e., less than the total) that we're looking for. 
+The collection of solar radiation by a PV panel is on the [flux](https://en.wikipedia.org/wiki/Flux) of solar energy through the surface: sunlight shining perpendicular to the panel geneartes the most energy; sunlight parallel to the surface generates no energy; for any angle it's the component portion of the sunlight that is perpendicular to the panel that we're looking for. 
 
 Hence we want to measure the angle between that vector and the normal (perpendicular) vector $\vec{N}$ to the panel's surface.   If those vectors have zero angle between them, the sun is shining perpendicular to surface, and energy is maximized.   Higher angle means the sun is shining less directly on the panel.   Mathematically, the solar energy that the panel can capture is proportional to the [cosine](https://www.e-education.psu.edu/eme812/node/896) of the angle between the sun's position vector and the normal vector of the solar panel. 
 
 ### Sun Position
 
-Imagine our solar panel is at the origin in a 3-dimensional plot.   The vector of sun's position is described with two angles.  
+Imagine our solar panel is at the origin in a 3-dimensional plot.  The vector of sun's position is described with two angles.  
 
 1.  The **elevation** angle of the sun above the horizon, which I denote as $\phi$ (this can go from 0&deg; at the horizon to 90&deg; directly overhead)
 2.  The **azimuth** angle, which is the direction on the horizon that the sun is over, ranging over 0&deg; for North, to 90&deg; East, 180&deg; South, 270&deg; West and up to 360&deg; to go back to North.
 
 <div style="padding: 0; margin: 0;">
-  <img src="/assets/images/post8_angles_2.png" alt="Image" width="655" height="409">
+  <img src="/assets/images/post8_angles_2.png" alt="Image" width="646" height="412">
 </div>
 
 We'll eventually want to find the angle between the sun's position vector and the vector normal to a solar panel on the ground, so we'll derive the (x, y, z) coordinates of the sun's position on a unit sphere from the angles.   From triangle trigonometry, the z-coordinate is simply 1 times the sine of the elevation angle, $sin \phi$.  Similarly, the length of the distance from the origin to the projection of the sun onto the xy plane is $cos \phi$.  The x and y coordinates are then the projections of that point onto the x and y axis using the azimuth angle: the x-coordinate is $cos \phi\~sin \theta$ and the y-coordinate is $-cos \phi\~cos \theta$ (the negative sign comes from my chosen orientation of the positive y-axis as being south).   Thus the position vector of the sun ends up as the unit vector $[cos \phi\~sin \theta,\~-cos \phi\~cos \theta,\~sin \phi\]$.
@@ -117,7 +117,7 @@ The panels sit in long parallel rows and can be most efficiently managed and spa
 Imagine that we tilt our solar panel an angle $\alpha$ away from vertical, with positive $\alpha$'s toward the east and negative $\alpha$'s toward the west.  Again assuming a unit sphere model of the sky, the east-west orientation means that the direction the panel points lies on the xz plane, at the unit vector $[sin \alpha, 0, cos \alpha]$.
 
 <div style="padding: 0; margin: 0;">
-  <img src="/assets/images/post8_angles_3.png" alt="Image" width="655" height="409">
+  <img src="/assets/images/post8_angles_3.png" alt="Image" width="650" height="411">
 </div>
 
 So we are looking for the angle, $\beta$, between the dashed blue vector where the panel is pointing and the yellow vector representing the sun's position.  But our ultimate target is actually $cos\~\beta$ to determine the solar flux onto the panel.  Because the panel vector and the solar position vector are both unit vectors, $cos\~\beta$ is simply the **dot product** of these two vectors.  Hence: 
