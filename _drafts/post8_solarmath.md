@@ -35,9 +35,11 @@ This post, by deploying a simple conceptual model of the physics and math of sol
 
 ### A Simplified Model of Solar Panels
 
-I don't have enough information to mathematically model the absolute power output of solar panels in Nevada.  However, with an analysis of the angle of the sun and the position of panels (plus some data about the intensity of the sun's rays) we can approximate at the output of panels relative to their maximum capacity, and so can validate the shape of the generation curves above. 
+I don't have enough information (e.g., number of panels deployed) to estimate the absolute power output of utility solar generation in Nevada.   However, by using basic information about the angle of the sun, the likely position of panels, and data about the intensity of the sun's rays, we can generate an estimate of the output of solar panels relative to their maximum output, and so can validate the shape of the generation curves above. 
 
-The collection of solar radiation by a flat PV panel is based on the [flux](https://en.wikipedia.org/wiki/Flux) of the sun's rays into the surface: sunlight landing perpendicular to the surface generate the most energy; sunlight parallel to the surface generates no energy.  Hence we want to measure the angle between that vector and the normal (perpendicular) vector $\vec{N}$ to the panel's surface.   If those vectors have zero angle between them, the sun is shining perpendicular to surface, and energy is maximized.   Higher angle means the sun is shining less directly on the panel.   Mathematically then, the solar energy that the panel can capture is proportional to the [cosine](https://www.e-education.psu.edu/eme812/node/896) of the angle between the sun's position vector and the normal vector of the solar panel. 
+The collection of solar radiation by a PV panel is on the [flux](https://en.wikipedia.org/wiki/Flux) of solar energy through the surface: sunlight shining perpendicular to the panel geneartes the most energy; sunlight parallel to the surface generates no energy; for any angle it's the component portion of the sunlight lying perpendicular to the panel (i.e., less than the total) that we're looking for. 
+
+Hence we want to measure the angle between that vector and the normal (perpendicular) vector $\vec{N}$ to the panel's surface.   If those vectors have zero angle between them, the sun is shining perpendicular to surface, and energy is maximized.   Higher angle means the sun is shining less directly on the panel.   Mathematically, the solar energy that the panel can capture is proportional to the [cosine](https://www.e-education.psu.edu/eme812/node/896) of the angle between the sun's position vector and the normal vector of the solar panel. 
 
 ### Sun Position
 
