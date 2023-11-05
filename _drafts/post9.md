@@ -25,19 +25,9 @@ I then examine the overall electricity generation profile of the region in compa
 
 There are seven nuclear plants in The Southern Company's territory: two at Farley Nuclear Generating Plant in Alabama (recently upgraded to [~950 MW each](https://www.nrc.gov/docs/ML2035/ML20351A176.pdf)), two at the Hatch plant in Georgia ([924 MW each](https://www.georgiapower.com/company/energy-industry/generating-plants/plant-hatch.html)) and now three at Vogtle in Georgia ([~1,150 MW each](https://www.georgiapower.com/company/energy-industry/generating-plants/plant-vogtle.html)) 
 
-Hatch Nuclear Power Plant 
+The Nuclear Regulatory Commission provides [daily reports](https://www.nrc.gov/reading-rm/doc-collections/event-status/reactor-status/index.html) of the level of power output of each nuclear power plant in the U.S. (as a percentage of that plant's maximum capacity).  Taking the percent power generation for each plant and applying it to the capacity, we can see a picture of the day-by-day nuclear capacity in the region in the plot below.
 
+[!Daily 2022-2023](
 
-Hatch Nuclear Power Plant 
-
-. Farley Nuclear Generating Plant i
-
-The Nuclear Regulatory Commission provides [daily reports](https://www.nrc.gov/reading-rm/doc-collections/event-status/reactor-status/index.html) of the level of power output of each nuclear power plant in the U.S. (as a percentage of that plant's maximum capacity).  
-
-
-https://www.eia.gov/nuclear/reactors/reactorcapacity.php
-
-
-https://www.eia.gov/nuclear/reactors/reactorcapacity.php
 
 ### Sun Position
