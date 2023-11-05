@@ -29,4 +29,8 @@ The Nuclear Regulatory Commission provides [daily reports](https://www.nrc.gov/r
 
 ![Daily 2022-2023](/assets/images/post9_2022_2023_single_plants.png)
 
+Notable features: 
+
+- Most visible is the ramp-up at Vogtle Unit 3 as it was tested and brought up to full power for service July, 31, 2023
+
 ### Sun Position
