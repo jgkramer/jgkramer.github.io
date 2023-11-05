@@ -14,7 +14,9 @@ excerpt_separator: <!--more-->
 
 <!--more-->
 
-### Nuclear Generation is Driven by Operational Supply
+### A Picture of Nuclear Supply
+
+The Nuclear Regulatory Commission provides [daily reports](https://www.nrc.gov/reading-rm/doc-collections/event-status/reactor-status/index.html)
 
 
 ### Sun Position
