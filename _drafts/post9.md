@@ -32,5 +32,8 @@ The Nuclear Regulatory Commission provides [daily reports](https://www.nrc.gov/r
 Notable features: 
 
 - Most visible is the ramp-up at Vogtle Unit 3 as it was tested and brought up to full power for service July, 31, 2023
+- Every 1.5 to 2 years, plants undergo a several-week to several-month long refueling outage preceded by a "rampdown" 
+- Plants periodically undergo a several-week to several-month-long refueling outage that is preceded by a "rampdown" in output before shutdown (e.g., Vogtle 2 during March 2022 and again in September 2023; Vogtle 1 in March 2023; and Hatch 2 in February 2023)
+- 
 
 ### Sun Position
