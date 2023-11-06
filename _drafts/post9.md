@@ -54,7 +54,6 @@ TD{font-family: Arial; font-size: 10pt}
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Since Vogtle</th>
     </tr>
     <tr>
-        <th scope="col" style="background-color: #D6EEEE"></th> 
         <th scope="col" style="background-color: #D6EEEE">Aug 2021 to Jul 2023</th> 
         <th scope="col" style="background-color: #D6EEEE">Aug 2023 to Oct 2023</th>
     </tr>
