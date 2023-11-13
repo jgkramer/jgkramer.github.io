@@ -39,7 +39,7 @@ Summing the generation together for all plants produces a smoother picture.
 
 ![Aggregate 2022-2023](/assets/images/post9_2022_2023_aggregate.png)
 
-While there are discrete ups and downs, we see an overall trend that the fleet runs at about 90% activity, and so while 
+While there are discrete ups and downs, we see an overall generation trend at ~90% of capacity.   And so while the fleet has not had many days at full capacity since Vogtle 3 came online, the contribution of the additional 1.1 GW of generation creates a material step-up in nuclear generation. 
 
 <STYLE TYPE="text/css">
 <!--
@@ -71,8 +71,6 @@ TD{font-family: Arial; font-size: 10pt}
     </tr>
 </table>
 
+### Impact on Carbon Intensity of Regional Electricity Generation
 
 
-
-
-### Sun Position
