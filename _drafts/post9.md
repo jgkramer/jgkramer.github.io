@@ -32,14 +32,14 @@ The Nuclear Regulatory Commission provides [daily reports](https://www.nrc.gov/r
 Notable features: 
 
 - Most visible is the ramp-up at Vogtle Unit 3 as it was tested and brought up to full power for service July, 31, 2023
-- Every 1.5 to 2 years, plants undergo a several-week to several-month long refueling outage preceded by a "rampdown" in output (e.g., Vogtle 1 in Sep. 2021 and March 2023; Vogtle 2 in March 2022 and Sep. 2023; Farley 2 in April 2022 and Oct. 2023
+- Every 1.5 to 2 years, plants undergo a several-week to several-month long refueling outage preceded by a "rampdown" in output (e.g., Vogtle 1 in Sep. 2021 and March 2023; Vogtle 2 in March 2022 and Sep. 2023; Farley 2 in April 2022 and Oct. 2023)
 - Unscheduled outages due to equipment failures or minor upgrades lasting a few days also occur
 
 Summing the generation together for all plants produces a smoother picture. 
 
 ![Aggregate 2022-2023](/assets/images/post9_2022_2023_aggregate.png)
 
-While there are discrete ups and downs, we see 
+While there are discrete ups and downs, we see an overall trend that the fleet runs at about 90% activity, and so while 
 
 <STYLE TYPE="text/css">
 <!--
