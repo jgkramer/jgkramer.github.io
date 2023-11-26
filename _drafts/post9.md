@@ -73,6 +73,7 @@ TD{font-family: Arial; font-size: 10pt}
 
 ### Impact to Carbon Emitting Generation Over Time
 
+
 With the incremental 1.1 GW of carbon-fee generation, we'd expect the Southeast region to see a step-function down in generation from carbon-generating sources (coal and natural gas) for comparable periods in 2021-2022 vs. 2023.  The below chart 
 
 ![Bars by Month 2021-2023](/assets/images/post9_monthbars.png)
