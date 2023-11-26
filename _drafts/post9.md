@@ -71,6 +71,6 @@ TD{font-family: Arial; font-size: 10pt}
     </tr>
 </table>
 
-### Impact on Carbon Intensity of Regional Electricity Generation
+### Impact on Carbon-Emitting Sources of Regional Electricity Generation
 
 
