@@ -71,6 +71,8 @@ TD{font-family: Arial; font-size: 10pt}
     </tr>
 </table>
 
-### Impact on Carbon Intensity of Regional Electricity Generation
+### Impact to Carbon Emitting Generation Over Time
+
+With the incremental 1.1 GW of carbon-fee generation, we'd expect the Southeast region to see a step-function down in generation from carbon-generating sources (coal and natural gas) for comparable periods in 2021-2022 vs. 2023.  The below chart 
 
 
