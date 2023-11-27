@@ -74,9 +74,11 @@ TD{font-family: Arial; font-size: 10pt}
 ### Impact to Carbon Emitting Generation Over Time
 
 
-With the incremental 1.1 GW of carbon-fee generation, we'd expect the Southeast region to see a step-function down in generation from carbon-generating sources (coal and natural gas) for comparable periods in 2021-2022 vs. 2023.  The below chart 
+With the incremental 1.1 GW of carbon-fee generation, we'd expect the Southeast region to see a step-function down in generation from carbon-generating sources (coal and natural gas) for comparable periods in 2021-2022 vs. 2023.  The below chart shows the generation from the main sources in the system for each of August, September, October and November (the 4 months since Vogtle 3 came online) for each of the last 3 years. 
 
 ![Bars by Month 2021-2023](/assets/images/post9_monthbars.png)
+
+There is not an obvious decrease in Gas + Coal generation in the 2023 months driven by the increased nuclear, although some confounders are visible.  August 2023 saw 18.7 TWh of gas + coal generation, the same as 2021 and higher than 2022.   But August 2023 was a hot summer and total generation was higher.  October 2023 saw 0.2 TWh 
 
 ![Linear Regression 2021-2023](/assets/images/post9_linreg.png)
 
