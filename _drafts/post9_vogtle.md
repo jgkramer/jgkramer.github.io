@@ -90,8 +90,7 @@ The aggregate analysis revealing a possible depedence on total total generation 
 
 Since supply-constrained generation should be largely independent of demand level, we'd expect fossil-fuel generation to have a high correlation to total electriicty demand.  The monthly chart above hints at this relationship, but to establish it more firmly we need more data points.   
 
-The below chart reports the relationship between **daily** total generation and **daily** fossil-fuel generation during August - November in each of the years 2021, 2022 and 2023. 
-
+The below chart reports the relationship between **daily** total generation and **daily** fossil-fuel generation during August - November in each of the years 2021, 2022 and 2023 (all daily totals divided by 24 to show the average hourly generation).  
 
 ![Linear Regression 2021-2023](/assets/images/post9_linreg.png)
 
