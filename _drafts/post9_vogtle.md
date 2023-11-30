@@ -98,4 +98,33 @@ Once we control for the daily fluctiation in total electricity demanded and gene
 
 ### Impact to Carbon Footprint
 
+The Energy Information Agency provides data on the carbon-dioxide intensity of electricity generation from different fuel sources.  In 2022, Coal and Natural Gas had the following profiles: 
+
+<STYLE TYPE="text/css">
+<!--
+TH{font-family: Arial; font-size: 10pt}
+TD{font-family: Arial; font-size: 10pt}
+--->
+</STYLE>
+<table>
+    <tr>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Fuel type</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">2022 U.S. Generation TWh</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">2022 CO2 Emissions (metric tons)</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Metric tons per TWh</th>
+    </tr>
+    <tr>
+        <th scope="col" style="background-color: #D6EEEE">Coal</th>
+        <td>831.5</td>
+        <td>868</td>
+        <td>1.04</td>
+    </tr>
+    <tr>
+        <th scope="col" style="background-color: #D6EEEE">Natural Gas</th>
+        <td>1,687.1</td>
+        <td>743</td>
+        <td>0.44</td>
+    </tr>
+</table>
+Source: https://www.eia.gov/tools/faqs/faq.php?id=74&t=11
 
