@@ -73,12 +73,25 @@ TD{font-family: Arial; font-size: 10pt}
 
 ### Impact to Carbon Emitting Generation Over Time
 
+#### Simple Statistics are Confounded
 
 With the incremental 1.1 GW of carbon-fee generation, we'd expect the Southeast region to see a step-function down in generation from carbon-generating sources (coal and natural gas) for comparable periods in 2021-2022 vs. 2023.  The below chart shows the generation from the main sources in the system for each of August, September, October and November (the 4 months since Vogtle 3 came online) for each of the last 3 years. 
 
 ![Bars by Month 2021-2023](/assets/images/post9_monthbars.png)
 
-There is not an obvious decrease in Gas + Coal generation in the 2023 months driven by the increased nuclear, although some confounders are visible.  August 2023 saw 18.7 TWh of gas + coal generation, the same as 2021 and higher than 2022.   But August 2023 was a hot summer and total generation was higher.  October 2023 saw 0.2 TWh 
+This simple analysis is on its face inconclusive.  There is no obvious decrease in gas + coal generation in 2023 (the monthly averages across the 3 years are in fact 15.8 TWh, 14.8 TWh, and 15.1 TWh), although there is enough evidence of confounding factors that a closer analysis is required: 
+
+- August 2023 saw 18.7 TWh of gas + coal generation, the same as 2021 and higher than the 2022 level.   But August 2023 was the hottest month in a very hot summer, and total demand and generation was higher than in previous years, so 18.7 TWh may have been less than what we would have seen without Vogtle 3.
+- October 2023 saw 0.2 TWh **decrease** from 2022's gas + coal levels despite a higher overall demand and generation total.
+
+#### More Detailed Analysis 
+
+The aggregate analysis revealing a possible depedence on total total generation makes sense: natural gas espcially serves a "peaking" role in our grid, bridging the gap between total demand and sources of elecricity that are supply constrained such as: (1) nuclear, which has very high fixed costs and low marginal costs and is not easy to vary in response to demand and (2) weather-based sources where generation capacity is determined by extrinsic inputs such as weather and water flow (solar, wind, hydro).   
+
+Since supply-constrained generation should be largely independent of demand level, we'd expect fossil-fuel generation to have a high correlation to total electriicty demand.  The monthly chart above hints at this relationship, but to establish it more firmly we need more data points.   
+
+The below chart reports the relationship between **daily** total generation and **daily** fossil-fuel generation during August - November in each of the years 2021, 2022 and 2023 (all daily totals divided by 24 to show the average hourly generation).  
 
 ![Linear Regression 2021-2023](/assets/images/post9_linreg.png)
 
+Once we control for the daily fluctiation in total electricity demanded and generated, we can clearly see that 2023 has a markedly lower fossil-generation level (for a given level of total demand) than 2021 or 2022.  
