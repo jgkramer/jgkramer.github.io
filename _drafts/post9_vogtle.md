@@ -110,8 +110,8 @@ TD{font-family: Arial; font-size: 10pt}
     <tr>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Fuel type</th>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">2022 U.S. Generation (TWh)</th>
-        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">2022 CO2 Emissions (metric tons)</th>
-        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Metric tons per TWh</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">2022 CO2 Emissions (million metric tons)</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Million Metric tons per TWh</th>
     </tr>
     <tr>
         <th scope="col" style="background-color: #D6EEEE">Coal</th>
@@ -125,6 +125,15 @@ TD{font-family: Arial; font-size: 10pt}
         <td>743</td>
         <td>0.44</td>
     </tr>
+    <tr>
+        <th scope="col" style="background-color: #D6EEEE">All energy sources</th>
+        <td style="background-color: #FFFFED">4,230.7</td>
+        <td style="background-color: #FFFFED">4,230.7</td>
+        <td>0.44</td>
+    </tr>
 </table>
 Source: https://www.eia.gov/tools/faqs/faq.php?id=74&t=11
+
+
+6.5 mm metric tons.   Compare to total electricity denominator.   Compare to passenger car (4.6 metric tons per year - more than 1 million cars). 
 
