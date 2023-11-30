@@ -96,3 +96,6 @@ The below chart reports the relationship between **daily** total generation and 
 
 Once we control for the daily fluctiation in total electricity demanded and generated, we can see that 2023 has a lower fossil-generation level (for a given level of total demand) than 2021 or 2022.  For a typical level of total demand (28 GW, the middle of the chart), in 2023 there was about 650 MW less natural gas and coal generation than 2021 and 1 GW less than 2022. 
 
+### Impact to Carbon Footprint
+
+
