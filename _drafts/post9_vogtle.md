@@ -94,3 +94,4 @@ The below chart reports the relationship between **daily** total generation and 
 
 ![Linear Regression 2021-2023](/assets/images/post9_linreg.png)
 
+Once we control for the daily fluctiation in total electricity demanded and generated, we can clearly see that 2023 has a markedly lower fossil-generation level (for a given level of total demand) than 2021 or 2022.  
