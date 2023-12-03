@@ -128,8 +128,8 @@ TD{font-family: Arial; font-size: 10pt}
     <tr>
         <th scope="col" style="background-color: #D6EEEE">All energy sources</th>
         <td style="background-color: #FFFFED">4,230.7</td>
-        <td style="background-color: #FFFFED">4,230.7</td>
-        <td>0.44</td>
+        <td style="background-color: #FFFFED">1,650</td>
+        <td>0.39</td>
     </tr>
 </table>
 Source: https://www.eia.gov/tools/faqs/faq.php?id=74&t=11
