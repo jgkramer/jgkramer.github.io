@@ -79,7 +79,7 @@ With the incremental 1.1 GW of carbon-fee generation, we'd expect the Southeast 
 
 ![Bars by Month 2021-2023](/assets/images/post9_monthbars.png)
 
-This simple analysis is on its face inconclusive.  There is no obvious decrease in gas + coal generation in 2023 (the monthly averages across the 3 years are in fact 15.8 TWh, 14.8 TWh, and 15.1 TWh), although there is enough evidence of confounding factors that a closer analysis is required: 
+This simple analysis is on its face inconclusive.  There is no obvious decrease in gas + coal generation in 2023 (the monthly averages across the 3 years are in fact 15.2 TWh, 14.3 TWh, and 14.5 TWh), although there is enough evidence of confounding factors that a closer analysis is required: 
 
 - August 2023 saw 18.7 TWh of gas + coal generation, the same as 2021 and higher than the 2022 level.   But August 2023 was the hottest month in a very hot summer, and total demand and generation was higher than in previous years, so 18.7 TWh may have been less than what we would have seen without Vogtle 3.
 - October 2023 saw 0.2 TWh **decrease** from 2022's gas + coal levels despite a higher overall demand and generation total.
