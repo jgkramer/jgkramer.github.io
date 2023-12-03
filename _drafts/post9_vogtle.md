@@ -163,3 +163,4 @@ If the presence of the new nuclear plant gives us 650 - 1,000 MW less natural ga
 
 So we get an annualized reduction of **3.4 to 5.3 million metric tons of CO2** emmission.   By comparison, an average car emits 4.6 metric tons of CO2 per year, making the impact of Vogtle 3 the equivalent of removing the emissions of about **750,000 to 1.15 million** automobiles from the road. 
 
+
