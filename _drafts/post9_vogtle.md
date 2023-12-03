@@ -137,5 +137,7 @@ Source: https://www.eia.gov/tools/faqs/faq.php?id=74&t=11
 
 During the years 2021 - 2023, the southeast region generated 360 TWh of electricity from natural gas and 130 TWh from coal, so from simple proportions we can say that each TWh of fossil-fuel generation is 0.73 TWh reduction in natural gas generation and 0.27 TWh reduciton in coal generation. 
 
-Converting into CO2, this becomes 
+Converting into CO2, this becomes: 
+
+$(0.73 TWh natural gas) \times (0.44 MM tons CO2 / TWh natural gas) + (0.27 TWh coal) \times (1.04 MM tons CO2 / TWh natural gas) = 0.60 MM tons CO2$
 
