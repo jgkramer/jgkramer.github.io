@@ -39,7 +39,7 @@ Summing the generation together for all plants produces a smoother picture.
 
 ![Aggregate 2022-2023](/assets/images/post9_2022_2023_aggregate.png)
 
-While there are discrete ups and downs, we see an overall generation trend at ~90% of capacity.   And so while the fleet has not had many days at full capacity since Vogtle 3 came online, the contribution of the additional 1.1 GW of generation creates a material step-up in nuclear generation. 
+While there are discrete ups and downs, we see an overall generation trend at ~90% of capacity.   And so while the fleet has not had many days at full capacity since Vogtle 3 came online -- in part because it has been autumn and spring and autumn are when plants typically plan [refueling outages](https://www.eia.gov/todayinenergy/detail.php?id=60682) -- the contribution of the additional 1.1 GW of generation creates a material step-up in nuclear generation. 
 
 <STYLE TYPE="text/css">
 <!--
@@ -55,7 +55,7 @@ TD{font-family: Arial; font-size: 10pt}
     </tr>
     <tr>
         <th scope="col" style="background-color: #D6EEEE">Aug 2021 to Jul 2023</th> 
-        <th scope="col" style="background-color: #D6EEEE">Aug 2023 to Oct 2023</th>
+        <th scope="col" style="background-color: #D6EEEE">Aug 2023 to Nov 2023</th>
     </tr>
     <tr>
         <th scope="row" style="background-color: #D6EEEE">Capacity (MW)</th> 
@@ -63,11 +63,11 @@ TD{font-family: Arial; font-size: 10pt}
     </tr>
     <tr>
         <th scope="row" style="background-color: #D6EEEE">Average Generation (MW)</th> 
-        <td>5,583</td><td>6,529</td>
+        <td>5,583</td><td>6,487</td>
     </tr>
     <tr>
         <th scope="row" style="background-color: #D6EEEE">%</th> 
-        <td>92.3%</td><td>91.1%</td>
+        <td>92.3%</td><td>90.6%</td>
     </tr>
 </table>
 
