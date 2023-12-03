@@ -139,5 +139,5 @@ During the years 2021 - 2023, the southeast region generated 360 TWh of electric
 
 Converting into CO2, this becomes: 
 
-$0.73\~TWh \times 0.44\~\frac{MM\~tons\~CO2}{TWh} (natural~gas) + 0.27\~TWh \times 1.04\~\frac{MM\~tons\~CO2}{TWh} (coal) = 0.60 MM tons CO2$
+$0.73\~TWh \times 0.44\~\frac{MM\~tons\~CO2}{TWh} (natural~gas) + 0.27\~TWh \times 1.04\~\frac{MM\~tons\~CO2}{TWh} (coal) = 0.60\~MM\~tons\~CO2$
 
