@@ -21,6 +21,7 @@ I then examine the overall electricity generation profile of the region in compa
 
 <!--more-->
 
+
 ### A Picture of One Region's Nuclear Supply
 
 There are seven nuclear plants in The Southern Company's territory: two at Farley Nuclear Generating Plant in Alabama (recently upgraded to [~950 MW each](https://www.nrc.gov/docs/ML2035/ML20351A176.pdf)), two at the Hatch plant in Georgia ([924 MW each](https://www.georgiapower.com/company/energy-industry/generating-plants/plant-hatch.html)) and now three at Vogtle in Georgia ([~1,150 MW each](https://www.georgiapower.com/company/energy-industry/generating-plants/plant-vogtle.html)) 
