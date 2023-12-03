@@ -39,7 +39,7 @@ Summing the generation together for all plants produces a smoother picture.
 
 ![Aggregate 2022-2023](/assets/images/post9_2022_2023_aggregate.png)
 
-While there are discrete ups and downs, we see an overall generation trend at ~90% of capacity.   And so while the fleet has not had many days at full capacity since Vogtle 3 came online, the contribution of the additional 1.1 GW of generation creates a material step-up in nuclear generation. 
+While there are discrete ups and downs, we see an overall generation trend at ~90% of capacity.   And so while the fleet has not had many days at full capacity since Vogtle 3 came online -- in part because it has been autumn and spring and autumn are when plants typically plan [refueling outages](https://www.eia.gov/todayinenergy/detail.php?id=60682) -- the contribution of the additional 1.1 GW of generation creates a material step-up in nuclear generation. 
 
 <STYLE TYPE="text/css">
 <!--
@@ -55,7 +55,7 @@ TD{font-family: Arial; font-size: 10pt}
     </tr>
     <tr>
         <th scope="col" style="background-color: #D6EEEE">Aug 2021 to Jul 2023</th> 
-        <th scope="col" style="background-color: #D6EEEE">Aug 2023 to Oct 2023</th>
+        <th scope="col" style="background-color: #D6EEEE">Aug 2023 to Nov 2023</th>
     </tr>
     <tr>
         <th scope="row" style="background-color: #D6EEEE">Capacity (MW)</th> 
@@ -63,11 +63,11 @@ TD{font-family: Arial; font-size: 10pt}
     </tr>
     <tr>
         <th scope="row" style="background-color: #D6EEEE">Average Generation (MW)</th> 
-        <td>5,583</td><td>6,529</td>
+        <td>5,583</td><td>6,487</td>
     </tr>
     <tr>
         <th scope="row" style="background-color: #D6EEEE">%</th> 
-        <td>92.3%</td><td>91.1%</td>
+        <td>92.3%</td><td>90.6%</td>
     </tr>
 </table>
 
@@ -79,7 +79,7 @@ With the incremental 1.1 GW of carbon-fee generation, we'd expect the Southeast 
 
 ![Bars by Month 2021-2023](/assets/images/post9_monthbars.png)
 
-This simple analysis is on its face inconclusive.  There is no obvious decrease in gas + coal generation in 2023 (the monthly averages across the 3 years are in fact 15.8 TWh, 14.8 TWh, and 15.1 TWh), although there is enough evidence of confounding factors that a closer analysis is required: 
+This simple analysis is on its face inconclusive.  There is no obvious decrease in gas + coal generation in 2023 (the monthly averages across the 3 years are in fact 15.2 TWh, 14.3 TWh, and 14.5 TWh), although there is enough evidence of confounding factors that a closer analysis is required: 
 
 - August 2023 saw 18.7 TWh of gas + coal generation, the same as 2021 and higher than the 2022 level.   But August 2023 was the hottest month in a very hot summer, and total demand and generation was higher than in previous years, so 18.7 TWh may have been less than what we would have seen without Vogtle 3.
 - October 2023 saw 0.2 TWh **decrease** from 2022's gas + coal levels despite a higher overall demand and generation total.
@@ -90,8 +90,77 @@ The aggregate analysis revealing a possible depedence on total total generation 
 
 Since supply-constrained generation should be largely independent of demand level, we'd expect fossil-fuel generation to have a high correlation to total electriicty demand.  The monthly chart above hints at this relationship, but to establish it more firmly we need more data points.   
 
-The below chart reports the relationship between **daily** total generation and **daily** fossil-fuel generation during August - November in each of the years 2021, 2022 and 2023 (all daily totals divided by 24 to show the average hourly generation).  
+The below chart reports the relationship between **daily** total generation and **daily** fossil-fuel generation during August - November in each of the years 2021, 2022 and 2023 (all daily totals in GWh were divided by 24 hours to show the average generation rate in GW for the day).
 
 ![Linear Regression 2021-2023](/assets/images/post9_linreg.png)
 
-Once we control for the daily fluctiation in total electricity demanded and generated, we can clearly see that 2023 has a markedly lower fossil-generation level (for a given level of total demand) than 2021 or 2022.  
+Once we control for the daily fluctiation in total electricity demanded and generated, we can see that 2023 has a lower fossil-generation level (for a given level of total demand) than 2021 or 2022.  For a typical level of total demand (28 GW, the middle of the chart), in 2023 there was about 650 MW less natural gas and coal generation than 2021 and 1 GW less than 2022. 
+
+### Impact to Carbon Footprint
+
+The Energy Information Agency provides data on the carbon-dioxide intensity of electricity generation from different fuel sources.  In 2022, Coal and Natural Gas had the following profiles: 
+
+<STYLE TYPE="text/css">
+<!--
+TH{font-family: Arial; font-size: 10pt}
+TD{font-family: Arial; font-size: 10pt}
+--->
+</STYLE>
+<table>
+    <tr>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Fuel type</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">2022 U.S. Generation (TWh)</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">2022 CO2 Emissions (million metric tons)</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Million Metric tons per TWh</th>
+    </tr>
+    <tr>
+        <th scope="col" style="background-color: #D6EEEE">Coal</th>
+        <td>831.5</td>
+        <td>868</td>
+        <td>1.04</td>
+    </tr>
+    <tr>
+        <th scope="col" style="background-color: #D6EEEE">Natural Gas</th>
+        <td>1,687.1</td>
+        <td>743</td>
+        <td>0.44</td>
+    </tr>
+    <tr>
+        <th scope="col" style="background-color: #D6EEEE">All energy sources</th>
+        <td style="background-color: #FFFFED">4,230.7</td>
+        <td style="background-color: #FFFFED">1,650</td>
+        <td>0.39</td>
+    </tr>
+</table>
+Source: https://www.eia.gov/tools/faqs/faq.php?id=74&t=11
+
+During the years 2021 - 2023, the southeast region generated 360 TWh of electricity from natural gas and 130 TWh from coal, so from simple proportions we can say that each TWh of fossil-fuel generation is 0.73 TWh reduction in natural gas generation and 0.27 TWh reduciton in coal generation. 
+
+Converting into CO2, this becomes: 
+
+$0.73 \times 0.44\~\frac{MM\~tons\~CO2}{TWh}\~(natural gas) + 0.27 \times 1.04\~\frac{MM\~tons\~CO2}{TWh}\~(coal) = 0.60\~\frac{MM\~tons\~CO2}{TWh}\~(blended)$
+
+If the presence of the new nuclear plant gives us 650 - 1,000 MW less natural gas / coal generation, we get the following reduciton in CO2 emissions over the course of a year (8,760 hours):
+
+</STYLE>
+<table>
+    <tr>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Fossil generation reduction</th>
+        <th colspan="1" scope ="colgroup">650 MW</th>
+        <th colspan="1" scope ="colgroup">1,000 MW</th>
+    </tr>
+    <tr>
+        <th scope="col" style="background-color: #D6EEEE">Annual reduction (TWh)</th>
+        <td>5.7</td>
+        <td>8.8</td>
+    </tr>
+    <tr>
+        <th scope="col" style="background-color: #D6EEEE">CO2 equivalent (MM tons)</th>
+        <td>3.4</td>
+        <td>5.3</td>
+    </tr>
+</table>
+
+So we get an annualized reduction of **3.4 to 5.3 million metric tons of CO2** emmission.   By comparison, an average car emits 4.6 metric tons of CO2 per year, making the impact of Vogtle 3 the equivalent of removing the emissions of about **750,000 to 1.15 million** automobiles from the road. 
+
+
