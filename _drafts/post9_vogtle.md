@@ -112,7 +112,6 @@ TD{font-family: Arial; font-size: 10pt}
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">2022 U.S. Generation (TWh)</th>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">2022 CO2 Emissions (million metric tons)</th>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Million Metric tons per TWh</th>
-        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Metric tons per MWh</th>
     </tr>
     <tr>
         <th scope="col" style="background-color: #D6EEEE">Coal</th>
