@@ -112,6 +112,7 @@ TD{font-family: Arial; font-size: 10pt}
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">2022 U.S. Generation (TWh)</th>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">2022 CO2 Emissions (million metric tons)</th>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Million Metric tons per TWh</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Metric tons per MWh</th>
     </tr>
     <tr>
         <th scope="col" style="background-color: #D6EEEE">Coal</th>
@@ -134,6 +135,7 @@ TD{font-family: Arial; font-size: 10pt}
 </table>
 Source: https://www.eia.gov/tools/faqs/faq.php?id=74&t=11
 
+During the years 2021 - 2023, the southeast region generated 360 TWh of electricity from natural gas and 130 TWh from coal, so from simple proportions we can say that each TWh of fossil-fuel generation is 0.73 TWh reduction in natural gas generation and 0.27 TWh reduciton in coal generation. 
 
-6.5 mm metric tons.   Compare to total electricity denominator.   Compare to passenger car (4.6 metric tons per year - more than 1 million cars). 
+Converting into CO2, this becomes 
 
