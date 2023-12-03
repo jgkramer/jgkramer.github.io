@@ -140,4 +140,26 @@ Converting into CO2, this becomes:
 
 $0.73 \times 0.44\~\frac{MM\~tons\~CO2}{TWh} (natural~gas) + 0.27 \times 1.04\~\frac{MM\~tons\~CO2}{TWh} (coal) = 0.60\~\frac{MM\~tons\~CO2}{TWh}(blended)$
 
+If the presence of the new nuclear plant gives us 650 - 1,000 MW less natural gas / coal generation, we get the following reduciton in CO2 emissions over the course of a year (8,760 hours):
+
+</STYLE>
+<table>
+    <tr>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Fossil generation reduction</th>
+        <th colspan="1" scope ="colgroup">650 MW</th>
+        <th colspan="1" scope ="colgroup">1,000 MW</th>
+    </tr>
+    <tr>
+        <th scope="col" style="background-color: #D6EEEE">Annual reduction (TWh)</th>
+        <td>5.7</td>
+        <td>8.8</td>
+    </tr>
+    <tr>
+        <th scope="col" style="background-color: #D6EEEE">CO2 equivalent (MM tons)</th>
+        <td>3.4</td>
+        <td>5.3</td>
+    </tr>
+</table>
+
+So we get an annualized reduction of **3.4 to 5.3 million metric tons of CO2** emmission.   By comparison, an average car emits 4.6 metric tons of CO2 per year, making the impact of Vogtle 3 the equivalent of removing the emissions of about **750,000 to 1.15 million** automobiles from the road. 
 
