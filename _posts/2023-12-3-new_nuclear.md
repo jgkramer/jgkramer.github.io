@@ -9,6 +9,16 @@ excerpt_separator: <!--more-->
 
 <head>
   {% include latex.html %}
+
+<STYLE TYPE="text/css">
+<!--
+TH{font-family: Arial; font-size: 9pt; text-align: center;}
+TD{font-family: Arial; font-size: 9pt; text-align: center;}
+TR.gray TD, TR.gray TH {background-color: lightgray;}
+TR.blue TD, TR.blue TH {background-color: #D6EEEE;}
+TD.purple TH.purple {background-color: #E6E6FA;}
+-->
+</STYLE>
 </head>
 
 It has been common in recent years to see commentary nuclear power plant closure results in increased electricity generation by fossil-fuel buring power plants.  Examples include the 2021 shut-down of [Indian Point](https://www.nytimes.com/2021/04/12/nyregion/indian-point-power-plant-closing.html) in New York State, and the 2023 closure of Germany's [three last operating nuclear plants](https://www.theguardian.com/environment/2023/apr/15/germany-last-three-nuclear-power-stations-to-shut-this-weekend) which left the country's generation footprint as being among the most [carbon-intensive](https://www.washingtonpost.com/opinions/2023/05/10/germany-end-nuclear-cost-climate-health/) in Europe.
@@ -41,12 +51,6 @@ Summing the generation together for all plants produces a smoother picture.
 
 While there are discrete ups and downs, we see an overall generation trend at ~90% of capacity.   The fleet has not had many days at full capacity since Vogtle 3 came online -- in part because it has been autumn and spring and autumn are when plants typically plan [refueling outages](https://www.eia.gov/todayinenergy/detail.php?id=60682).  But the contribution of the additional 1.1 GW of generation creates a material step-up in nuclear generation: 900 MW based on these months alone, and assuming the capacity factor pre-and-post Vogtle stabilizes at equivalent levels of ~92%, the run-rate contribution of the plant will be just above 1 GW. 
 
-<STYLE TYPE="text/css">
-<!--
-TH{font-family: Arial; font-size: 10pt}
-TD{font-family: Arial; font-size: 10pt}
---->
-</STYLE>
 <table>
     <tr>
         <td rowspan="2"></td>
@@ -101,12 +105,6 @@ Once we use regression analysis to control for the daily fluctiation in total el
 
 The Energy Information Agency provides data on the carbon-dioxide intensity of electricity generation from different fuel sources.  In 2022, Coal and Natural Gas had the following profiles: 
 
-<STYLE TYPE="text/css">
-<!--
-TH{font-family: Arial; font-size: 10pt}
-TD{font-family: Arial; font-size: 10pt}
---->
-</STYLE>
 <table>
     <tr>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Fuel type</th>
@@ -137,11 +135,10 @@ Source: https://www.eia.gov/tools/faqs/faq.php?id=74&t=11
 <p></p>
 During the years 2021 - 2023, the southeast region generated 360 TWh of electricity from natural gas and 130 TWh from coal, so from simple proportions we can say that each TWh of fossil-fuel generation is 0.73 TWh reduction in natural gas generation and 0.27 TWh reduciton in coal generation.  Converting into CO<sub>2</sub> emissions:
 
-$$0.73 \times 0.44\~\frac{MM\~tons\~CO_2}{TWh}\~(natural\~gas) + 0.27 \times 1.04\~\frac{MM\~tons\~CO_2}{TWh}\~(coal) = 0.60\~\frac{MM\~tons\~CO_2}{TWh}\~(blended)$$
+$$0.73 \times 0.44 \frac{MM\~tons\~CO_2}{TWh} (natural gas) + 0.27 \times 1.04 \frac{MM tons CO_2}{TWh} (coal) = 0.60 \frac{MM tons CO_2}{TWh} (blended)$$
 
 If the presence of the new nuclear plant gives us 600 - 1,000 MW less natural gas / coal generation, we get the following reduciton in CO<sub>2</sub> emissions over the course of a year (8,760 hours):
 
-</STYLE>
 <table>
     <tr>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Fossil generation reduction</th>
