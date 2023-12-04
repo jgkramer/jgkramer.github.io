@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Impact of a New Nuclear Plant"
-date: "2023-12-03"
+date: "2023-12-3"
 hide: true
 author: "Jared Kramer"
 excerpt_separator: <!--more-->
