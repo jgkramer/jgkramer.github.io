@@ -163,4 +163,8 @@ If the presence of the new nuclear plant gives us 600 - 1,000 MW less natural ga
 
 So we get an annualized reduction of **3.15 to 5.26 million metric tons of CO<sub>2</sub>** emmission.   By comparison, an average car emits 4.6 metric tons of CO<sub>2</sub> per year, making the impact of Vogtle 3 the equivalent of removing the emissions of about **685,000 to 1.14 million** automobiles from the road. 
 
+### Conclusion
+
+It may seem obvious that a nuclear plant coming on line should displace fossil-fuel burning sources of electricity on the grid, and result in a reduction in CO<sub>2</sub> emissions.  Because electricity generation is highly variable over time, actually observing this relationship is not as easy at taking simple averages, but the relationship is indeed borne out by basic regression analysis.  Vogtle Unit 4 is scheduled to begin operations in the [first quarter of 2024](https://www.world-nuclear-news.org/Articles/Vogtle-4-start-up-moved-to-2024), another look at the data then should hopefully make this impact even more clear. 
+
 
