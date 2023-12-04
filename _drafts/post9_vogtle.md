@@ -112,7 +112,7 @@ TD{font-family: Arial; font-size: 10pt}
     <tr>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Fuel type</th>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">2022 U.S. Generation (TWh)</th>
-        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">2022 CO2 Emissions (million metric tons)</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">2022 CO<sub>2</sub> Emissions (million metric tons)</th>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Million Metric tons per TWh</th>
     </tr>
     <tr>
@@ -138,11 +138,11 @@ Source: https://www.eia.gov/tools/faqs/faq.php?id=74&t=11
 <p></p>
 During the years 2021 - 2023, the southeast region generated 360 TWh of electricity from natural gas and 130 TWh from coal, so from simple proportions we can say that each TWh of fossil-fuel generation is 0.73 TWh reduction in natural gas generation and 0.27 TWh reduciton in coal generation. 
 
-Converting into CO2, this becomes: 
+Converting into CO<sub>2</sub>, this becomes: 
 
 $0.73 \times 0.44\~\frac{MM\~tons\~CO2}{TWh}\~(natural\~gas) + 0.27 \times 1.04\~\frac{MM\~tons\~CO2}{TWh}\~(coal) = 0.60\~\frac{MM\~tons\~CO2}{TWh}\~(blended)$
 
-If the presence of the new nuclear plant gives us 650 - 1,000 MW less natural gas / coal generation, we get the following reduciton in CO2 emissions over the course of a year (8,760 hours):
+If the presence of the new nuclear plant gives us 650 - 1,000 MW less natural gas / coal generation, we get the following reduciton in <sub>2</sub> emissions over the course of a year (8,760 hours):
 
 </STYLE>
 <table>
@@ -157,12 +157,12 @@ If the presence of the new nuclear plant gives us 650 - 1,000 MW less natural ga
         <td>8.8</td>
     </tr>
     <tr>
-        <th scope="col" style="background-color: #D6EEEE">CO2 equivalent (MM tons)</th>
+        <th scope="col" style="background-color: #D6EEEE">CO<sub>2</sub> equivalent (MM tons)</th>
         <td>3.4</td>
         <td>5.3</td>
     </tr>
 </table>
 
-So we get an annualized reduction of **3.4 to 5.3 million metric tons of CO2** emmission.   By comparison, an average car emits 4.6 metric tons of CO2 per year, making the impact of Vogtle 3 the equivalent of removing the emissions of about **750,000 to 1.15 million** automobiles from the road. 
+So we get an annualized reduction of **3.4 to 5.3 million metric tons of CO<sub>2</sub>** emmission.   By comparison, an average car emits 4.6 metric tons of CO<sub>2</sub> per year, making the impact of Vogtle 3 the equivalent of removing the emissions of about **750,000 to 1.15 million** automobiles from the road. 
 
 
