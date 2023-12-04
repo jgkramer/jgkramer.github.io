@@ -83,8 +83,9 @@ With the incremental 1.1 GW of carbon-fee generation, we'd expect the Southeast 
 This simple analysis is on its face inconclusive.  There is no obvious decrease in gas + coal generation in 2023 (the monthly averages across the 3 years are in fact 15.2 TWh, 14.3 TWh, and 14.5 TWh), although there is enough evidence of confounding factors that a closer analysis is required: 
 
 - August 2023 saw 18.7 TWh of gas + coal generation, the same as 2021 and higher than the 2022 level.   But August 2023 was the hottest month in a very hot summer, and total demand and generation was higher than in previous years, so 18.7 TWh may have been less than what we would have seen without Vogtle 3.
-- October 2023 saw 0.2 TWh **decrease** from 2022's gas + coal levels despite a higher overall demand and generation total.
-
+- October and November 2023 saw 0.2 TWh **decrease** from 2022's gas + coal levels despite a higher overall demand and generation total.
+- October and November 2023 saw meaningful **decreases** from 2021's levels, but the impact of Vogtle's presence vs. the overall lower generation total is not immediately apparent
+  
 #### More Detailed Analysis 
 
 The aggregate analysis revealing a possible depedence on total total generation makes sense: natural gas espcially serves a "peaking" role in our grid, bridging the gap between total demand and sources of elecricity that are supply constrained such as: (1) nuclear, which has very high fixed costs and low marginal costs and is not easy to vary in response to demand and (2) weather-based sources where generation capacity is determined by extrinsic inputs such as weather and water flow (solar, wind, hydro).   
