@@ -135,7 +135,7 @@ Source: [EIA](https://www.eia.gov/tools/faqs/faq.php?id=74&t=11)
 <p></p>
 During the years 2021 - 2023, the southeast region generated 360 TWh of electricity from natural gas and 130 TWh from coal, so from simple proportions we can say that each TWh of fossil-fuel generation is 0.73 TWh reduction in natural gas generation and 0.27 TWh reduciton in coal generation.  Converting into CO<sub>2</sub> emissions:
 
-$$0.73 \times 0.44 \frac{MM~tons~CO_2}{TWh} (gas) + 0.27 \times 1.04 \frac{MM~tons~CO_2}{TWh} (coal) = 0.60 \frac{MM~tons~CO_2}{TWh} (blended)$$
+$$0.73 \times 0.44 \frac{MM~tons}{TWh} (gas) + 0.27 \times 1.04 \frac{MM~tons}{TWh} (coal) = 0.60 \frac{MM~tons~CO_2}{TWh} (blended)$$
 
 If the presence of the new nuclear plant gives us 600 - 1,000 MW less natural gas / coal generation, we get the following reduciton in CO<sub>2</sub> emissions over the course of a year (8,760 hours):
 
