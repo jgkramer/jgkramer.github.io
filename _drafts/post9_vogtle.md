@@ -140,7 +140,7 @@ During the years 2021 - 2023, the southeast region generated 360 TWh of electric
 
 Converting into CO<sub>2</sub>, this becomes: 
 
-$0.73 \times 0.44\~\frac{MM\~tons\~CO2}{TWh}\~(natural\~gas) + 0.27 \times 1.04\~\frac{MM\~tons\~CO2}{TWh}\~(coal) = 0.60\~\frac{MM\~tons\~CO2}{TWh}\~(blended)$
+$0.73 \times 0.44\~\frac{MM\~tons\~CO_2}{TWh}\~(natural\~gas) + 0.27 \times 1.04\~\frac{MM\~tons\~CO_2}{TWh}\~(coal) = 0.60\~\frac{MM\~tons\~CO_2}{TWh}\~(blended)$
 
 If the presence of the new nuclear plant gives us 650 - 1,000 MW less natural gas / coal generation, we get the following reduciton in CO<sub>2</sub> emissions over the course of a year (8,760 hours):
 
