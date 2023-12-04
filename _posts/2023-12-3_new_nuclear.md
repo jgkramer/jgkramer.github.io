@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Impact of a New Nuclear Plant on Fossil Fuel Electricity Generation and CO<sub>2</sub> Emissions"
+title: "Impact of a New Nuclear Plant on Fossil Fuel Electricity Generation and Carbon Emissions"
 date: "2023-12-3"
 hide: true
 author: "Jared Kramer"
