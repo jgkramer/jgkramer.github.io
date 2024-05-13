@@ -11,17 +11,7 @@ excerpt_separator: <!--more-->
   {% include latex.html %}
 </head>
 
-Electricity demand in the U.S. has had near-zero growth for the last several decades.  According to a [Goldman Sachs report][!https://www.goldmansachs.com/intelligence/pages/gs-research/generational-growth-ai-data-centers-and-the-coming-us-power-surge/report.pdf],
+Electricity demand in the U.S. has had near-zero growth for the last several decades.  According to a [Goldman Sachs report](https://www.goldmansachs.com/intelligence/pages/gs-research/generational-growth-ai-data-centers-and-the-coming-us-power-surge/report.pdf), "US annual power generation over the past 20 years averag[ed] less than 0.5% growth."  In recent months, a number of utility reports and media sources have proclaimed a shift towards resumed electricity growth, feuled by a growth in data center installations (especially driven by data-intensive AI applications), along with other electrification initatives including electric vehicles and electric heating. 
 
-
-d, with US annual power generation over the last 20 years averaging less than
-0.5% growth. We believe this is on track to change through the end of the decade, led
-by a surge in data center demand for power and complemented by electrification,
-industrial reshoring/manufacturing activity. Growth from AI, broader data demand and a
-deceleration of power efficiency gains is leading to a power surge from data centers,
-with data center electricity use ex
-
-US annual power generation over the last 20 years averaging less than
-0.5% growth.
 
 <!--more-->
