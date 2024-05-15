@@ -38,6 +38,12 @@ How much growth?  The following chart shows the cumulative percentage growth for
 
 here, i am going to do absolute numbers, then compare it to the PJM numbers in the GS presentation. 
 
+https://www.datacenterfrontier.com/energy/article/33013010/dominion-virginias-data-center-cluster-could-double-in-size
+
+DOm eearnigns slides: 
+https://s2.q4cdn.com/510812146/files/doc_financials/2024/q1/2024-05-02-DE-IR-1Q-2024-earnings-call-slides-vTC.pdf
+
+
 ### Other Regions Growth
 
 
