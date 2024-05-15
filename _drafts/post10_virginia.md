@@ -19,6 +19,15 @@ This post collects utility scale data that this acceleration is not only in the 
 
 ### Virginia's Electricity Demand
 
-Using [Energy Information Administration](https://www.eia.gov/opendata/browser/electricity/rto/region-data) data, we are able to plot the aggregate electricity demanded since 2019 in the Dominion Energy Virginia sub-region, which accounts for the [majority of Virginia's territory](https://www.pjm.com/library/~/media/about-pjm/pjm-zones.ashx) including Northern Virginia suburbs in Loudon County with the bulk of data center installations.  
+Using [Energy Information Administration](https://www.eia.gov/opendata/browser/electricity/rto/region-data) data, we are able to plot the average electricity demanded for each month since 2019 in the Dominion Energy Virginia sub-region, which accounts for the [majority of Virginia's territory](https://www.pjm.com/library/~/media/about-pjm/pjm-zones.ashx) including Northern Virginia suburbs in Loudon County with the bulk of data center installations.  
 
 ![Virginia 5-year demand](/assets/images/post10_DOM_GW_demand.png)
+
+A few things stand out: 
+- The typical seasonal pattern of peaks in summer (for cooling) and winter (for heating)
+- A COVID-driven dip in demand from 2019 to 2020, followed by a rebound the following year
+- Most relevantly, a consistent growth trend from year to year, anecdotally supporting the data center story.
+
+How much growth?  The following chart shows the cumulative percentage growth for each month since the corresponding month in 2019, which we consider our baseline year.   We use the corresponding month to try to eliminate the effect of seasonality (e.g., December 2022 appears to have been particularly cold).   
+
+![Virginia 5-year % growth](/assets/images/post10_DOM_percent_growth.png)
