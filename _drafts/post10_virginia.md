@@ -16,3 +16,7 @@ Electricity demand in the U.S. has had near-zero growth for the last several dec
 This post collects utility scale data that this acceleration is not only in the future, but has already started to occur.  Virginia, home to half the data center market in the U.S., has already seen electricity demand average year-over-year growth rates close to 4% since 2019, compared to approximately 0.5% for neighboring regions.  This demand growth in Virginia approximately tracks the increase in data centers there.
 
 <!--more-->
+
+### Virginia's Electricity Demand
+
+Using [Energy Information Administration](https://www.eia.gov/opendata/browser/electricity/rto/region-data) data, we are able to plot the aggregate electricity demanded since 2019 in the Dominion Energy Virginia sub-region, which accounts for the [majority of Virginia's territory](https://www.pjm.com/library/~/media/about-pjm/pjm-zones.ashx) including Northern Virginia suburbs in Loudon County with the bulk of data center installations.  
