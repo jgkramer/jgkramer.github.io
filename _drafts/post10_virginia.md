@@ -20,3 +20,5 @@ This post collects utility scale data that this acceleration is not only in the 
 ### Virginia's Electricity Demand
 
 Using [Energy Information Administration](https://www.eia.gov/opendata/browser/electricity/rto/region-data) data, we are able to plot the aggregate electricity demanded since 2019 in the Dominion Energy Virginia sub-region, which accounts for the [majority of Virginia's territory](https://www.pjm.com/library/~/media/about-pjm/pjm-zones.ashx) including Northern Virginia suburbs in Loudon County with the bulk of data center installations.  
+
+![Virginia 5-year demand](/assets/images/post10_DOM GW_demand.png)
