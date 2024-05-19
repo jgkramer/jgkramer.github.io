@@ -30,11 +30,60 @@ A few things stand out:
 - A COVID-driven dip in demand from 2019 to 2020, followed by a rebound the following year
 - Most relevantly, a consistent growth trend from year to year, anecdotally supporting the data center story.
 
-How much growth?  The following chart shows the cumulative percentage growth for each month since the corresponding month in 2019, which we consider our baseline year.   We use the corresponding month to try to eliminate the effect of seasonality (e.g., December 2022 appears to have been particularly cold).  On average, in this limited data set of 53 months, the avearge year-over-year increase was 3.9% +/- 6.5% standard deviation.  
+How much growth?  The following chart shows the cumulative percentage growth for each month since the corresponding month in 2019, which we consider our baseline year.   We use the corresponding month to try to eliminate the effect of seasonality (e.g., December 2022 appears to have been particularly cold).  On average, in this limited data set of 53 months, the average year-over-year increase was 3.9% (+/- a large 6.5% standard deviation due to significant swings like hot or cold weather one year to another, COVID and recovery from COVID, etc).  
 
-![Virginia 5-year % growth](/assets/images/post10_DOM_percent_growth.png)
+![Virginia 5-year % growth](/assets/images/post10_DOM_growth.png)
+
+### Other Regions Growth
+
+The 3.9% average year-over-year growth in Virginia can be contrasted to the same data for two adjacent regions in the southestearn United States: Tennessee and the Carolinas region (North and South Carolina combined).  Neither of these charts show the same upward trend seen in the Virginia data above. 
+
+![Tennessee 5-year demand](/assets/images/post10_TEN_GW_demand.png)
+
+![Carolinas 5-year demand](/assets/images/post10_CAR_GW_demand.png)
+
+![AEP 5-year demand](/assets/images/post10_AEP_GW_demand.png)
+
+Rather, both of these tell the same near-zero growth trajectory story attributed to the U.S. more broadly
+
+<STYLE TYPE="text/css">
+<!--
+TH{font-family: Arial; font-size: 10pt}
+TD{font-family: Arial; font-size: 10pt}
+--->
+</STYLE>
+<table>
+    <tr>
+        <td rowspan="1"></td>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Dominion Virginia</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Carolinas</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Tennessee</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Am. Electric Power</th>
+    </tr>
+    <tr>
+        <th scope="col" style="background-color: #D6EEEE">Average YoY Growth %</th>
+        <th scope="col" style="background-color: #D6EEEE">3.9%</th>
+        <th scope="col" style="background-color: #D6EEEE">0.4%</th>
+        <th scope="col" style="background-color: #D6EEEE">0.5%</th>
+        <th scope="col" style="background-color: #D6EEEE">-0.2%</th>
+    </tr>
+    <tr>
+        <th scope="col" style="background-color: #D6EEEE">Std dev</th>
+        <th scope="col" style="background-color: #D6EEEE">6.5%</th>
+        <th scope="col" style="background-color: #D6EEEE">7.0%</th>
+        <th scope="col" style="background-color: #D6EEEE">7.8%</th>
+        <th scope="col" style="background-color: #D6EEEE">5.3%</th>
+    </tr>
+</table>
 
 #### Comparison to Data Center Growth
+
+So the part of Virginia including Data Center Alley has shown ~3.5% excess growth per annum compared to nearby regions.  Can we tell whether that is in fact data center-driven? 
+
+In the chart below, we plot data from PJM showing the increase since 2019 in data-center electricity consumption in GW in the Dominion Virginia region, against the overall increase in average electricity consumption in the region since 2019.   While not perfectly aligned, they move strongly together. 
+
+
+
 
 here, i am going to do absolute numbers, then compare it to the PJM numbers in the GS presentation. 
 
@@ -44,7 +93,6 @@ DOm eearnigns slides:
 https://s2.q4cdn.com/510812146/files/doc_financials/2024/q1/2024-05-02-DE-IR-1Q-2024-earnings-call-slides-vTC.pdf
 
 
-### Other Regions Growth
 
 
 
