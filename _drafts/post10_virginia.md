@@ -62,17 +62,17 @@ TD{font-family: Arial; font-size: 10pt}
     </tr>
     <tr>
         <th scope="col" style="background-color: #D6EEEE">Average YoY Growth %</th>
-        <th scope="col" style="background-color: #D6EEEE">3.9%</th>
-        <th scope="col" style="background-color: #D6EEEE">0.4%</th>
-        <th scope="col" style="background-color: #D6EEEE">0.5%</th>
-        <th scope="col" style="background-color: #D6EEEE">-0.2%</th>
+        <td>3.9%</td>
+        <td>0.4%</td>
+        <td>0.5%</td>
+        <td>-0.2%</td>
     </tr>
     <tr>
         <th scope="col" style="background-color: #D6EEEE">Std dev</th>
-        <th scope="col" style="background-color: #D6EEEE">6.5%</th>
-        <th scope="col" style="background-color: #D6EEEE">7.0%</th>
-        <th scope="col" style="background-color: #D6EEEE">7.8%</th>
-        <th scope="col" style="background-color: #D6EEEE">5.3%</th>
+        <td>6.5%</td>
+        <td>7.0%</td>
+        <td>7.8%</td>
+        <td>5.3%</td>
     </tr>
 </table>
 
