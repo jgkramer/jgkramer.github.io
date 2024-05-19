@@ -34,7 +34,20 @@ How much growth?  The following chart shows the cumulative percentage growth for
 
 ![Virginia 5-year % growth](/assets/images/post10_DOM_growth.png)
 
+### Other Regions Growth
+
+The 3.9% average year-over-year growth in Virginia can be contrasted to the same data for two adjacent regions in the southestearn United States: Tennessee and the Carolinas region (North and South Carolina combined).  Neither of these charts show the same upward trend seen in the Virginia data above. 
+
+![Tennessee 5-year demand](/assets/images/post10_TEN_GW_demand.png)
+
+![Carolinas 5-year demand](/assets/images/post10_CAR_GW_demand.png)
+
+
+In fact, 
+
 #### Comparison to Data Center Growth
+
+
 
 here, i am going to do absolute numbers, then compare it to the PJM numbers in the GS presentation. 
 
@@ -44,7 +57,6 @@ DOm eearnigns slides:
 https://s2.q4cdn.com/510812146/files/doc_financials/2024/q1/2024-05-02-DE-IR-1Q-2024-earnings-call-slides-vTC.pdf
 
 
-### Other Regions Growth
 
 
 
