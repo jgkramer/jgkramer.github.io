@@ -38,11 +38,9 @@ How much growth?  The following chart shows the cumulative percentage growth for
 
 The 3.9% average year-over-year growth in Virginia can be contrasted to the same data for two adjacent regions in the southestearn United States: Tennessee, the Carolinas region, and the "American Electric Power" subregion of PJM, covering parts of western Virginia (not the data center area), West Virginia and southern Ohio.  None of these charts show the same upward trend seen in the Virginia data above. 
 
-![Tennessee 5-year demand](/assets/images/post10_TEN_GW_demand.png)
+![Tennessee 5-year demand](/assets/images/post10_multi_GW_demand_1.png)
 
-![Carolinas 5-year demand](/assets/images/post10_CAR_GW_demand.png)
-
-![AEP 5-year demand](/assets/images/post10_AEP_GW_demand.png)
+![Carolinas 5-year demand](/assets/images/post10_multi_GW_demand_2.png)
 
 Rather, both of these tell the same near-zero growth trajectory story attributed to the U.S. more broadly
 
