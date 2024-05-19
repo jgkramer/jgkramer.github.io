@@ -62,20 +62,6 @@ TD{font-family: Arial; font-size: 10pt}
         <th scope="col" style="background-color: #D6EEEE">3.9%</th>
         <th scope="col" style="background-color: #D6EEEE">0.4%</th>
         <th scope="col" style="background-color: #D6EEEE">0.5%</th>
-      
-    </tr>
-    <tr>
-        <th scope="col" style="background-color: #D6EEEE">Std Dev</th>
-        <th scope="col" style="background-color: #D6EEEE">6.5%</th>
-        <th scope="col" style="background-color: #D6EEEE">7.0%</th>
-        <th scope="col" style="background-color: #D6EEEE">7.8%</th>
-    <tr>
-        <th scope="row" style="background-color: #D6EEEE">Average Generation (MW)</th> 
-        <td>5,583</td><td>6,487</td>
-    </tr>
-    <tr>
-        <th scope="row" style="background-color: #D6EEEE">%</th> 
-        <td>92.3%</td><td>90.6%</td>
     </tr>
 </table>
 
