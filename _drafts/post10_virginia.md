@@ -57,6 +57,8 @@ TD{font-family: Arial; font-size: 10pt}
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Carolinas</th>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Tennessee</th>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Am. Electric Power</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Baltimore Area</th>
+      
     </tr>
     <tr>
         <th scope="col" style="background-color: #D6EEEE">Average YoY Growth %</th>
@@ -64,6 +66,7 @@ TD{font-family: Arial; font-size: 10pt}
         <td>0.4%</td>
         <td>0.5%</td>
         <td>-0.2%</td>
+        <td>-1.0%</td>
     </tr>
     <tr>
         <th scope="col" style="background-color: #D6EEEE">Std dev</th>
@@ -71,6 +74,7 @@ TD{font-family: Arial; font-size: 10pt}
         <td>7.0%</td>
         <td>7.8%</td>
         <td>5.3%</td>
+        <td>6.8%</td>
     </tr>
 </table>
 
