@@ -63,6 +63,12 @@ TD{font-family: Arial; font-size: 10pt}
         <th scope="col" style="background-color: #D6EEEE">0.4%</th>
         <th scope="col" style="background-color: #D6EEEE">0.5%</th>
     </tr>
+    <tr>
+        <th scope="col" style="background-color: #D6EEEE">Std dev</th>
+        <th scope="col" style="background-color: #D6EEEE">6.5%</th>
+        <th scope="col" style="background-color: #D6EEEE">7.0%</th>
+        <th scope="col" style="background-color: #D6EEEE">7.8%</th>
+    </tr>
 </table>
 
 
