@@ -54,17 +54,21 @@ TD{font-family: Arial; font-size: 10pt}
     <tr>
         <td rowspan="1"></td>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Virginia</th>
-        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Tennessee</th>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Carolinas</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Tennessee</th>
     </tr>
     <tr>
-        <th scope="col" style="background-color: #D6EEEE">Aug 2021 to Jul 2023</th> 
-        <th scope="col" style="background-color: #D6EEEE">Aug 2023 to Nov 2023</th>
+        <th scope="col" style="background-color: #D6EEEE">Average YoY Growth %</th>
+        <th scope="col" style="background-color: #D6EEEE">3.9%</th>
+        <th scope="col" style="background-color: #D6EEEE">0.4%</th>
+        <th scope="col" style="background-color: #D6EEEE">0.5%</th>
+      
     </tr>
     <tr>
-        <th scope="row" style="background-color: #D6EEEE">Capacity (MW)</th> 
-        <td>6,047</td><td>7,164</td>
-    </tr>
+        <th scope="col" style="background-color: #D6EEEE">Std Dev</th>
+        <th scope="col" style="background-color: #D6EEEE">6.5%</th>
+        <th scope="col" style="background-color: #D6EEEE">7.0%</th>
+        <th scope="col" style="background-color: #D6EEEE">7.8%</th>
     <tr>
         <th scope="row" style="background-color: #D6EEEE">Average Generation (MW)</th> 
         <td>5,583</td><td>6,487</td>
