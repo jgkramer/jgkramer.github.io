@@ -58,7 +58,6 @@ TD{font-family: Arial; font-size: 10pt}
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Tennessee</th>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Am. Electric Power</th>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Baltimore Area</th>
-      
     </tr>
     <tr>
         <th scope="col" style="background-color: #D6EEEE">Average YoY Growth %</th>
