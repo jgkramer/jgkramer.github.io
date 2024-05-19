@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Data Centers Driving Electricity Growth: A Look at Virginia Data"
-date: "2023-06-05"
+date: "2023-05-20"
 hide: true
 author: "Jared Kramer"
 excerpt_separator: <!--more-->
@@ -85,7 +85,7 @@ The below chartplot data from PJM (source: [GS report]((https://www.goldmansachs
 
 ![Aggregate Demand vs. Data Center Growth](/assets/images/post10_data_center_comparison.png)
 
-#### Conclusio
+#### Conclusion
 
 Electricity demand data fits the story: Virginia, the center of gravity for data center growth and electricity usage, does indeed show a strong increase in electricity demand over the last 5 years relative to neighboring regions.  The level of increase, moreover, reasonably tracks the reported growth in data center electricity usage.  As this sector continues to grow, we should expect continued demand growth in Virginia and other regions that seek to attract these installations.  
 
