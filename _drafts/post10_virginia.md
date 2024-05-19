@@ -30,7 +30,7 @@ A few things stand out:
 - A COVID-driven dip in demand from 2019 to 2020, followed by a rebound the following year
 - Most relevantly, a consistent growth trend from year to year, anecdotally supporting the data center story.
 
-How much growth?  The following chart shows the cumulative percentage growth for each month since the corresponding month in 2019, which we consider our baseline year.   We use the corresponding month to try to eliminate the effect of seasonality (e.g., December 2022 appears to have been particularly cold).  On average, in this limited data set of 53 months, the avearge year-over-year increase was 3.9% +/- 6.5% standard deviation.  
+How much growth?  The following chart shows the cumulative percentage growth for each month since the corresponding month in 2019, which we consider our baseline year.   We use the corresponding month to try to eliminate the effect of seasonality (e.g., December 2022 appears to have been particularly cold).  On average, in this limited data set of 53 months, the average year-over-year increase was 3.9% (+/- 6.5% standard deviation due to significant swings like hot or cold weather one year to another, COVID and recovery from COVID, etc).  
 
 ![Virginia 5-year % growth](/assets/images/post10_DOM_growth.png)
 
