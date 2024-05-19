@@ -46,8 +46,10 @@ None of these charts show the same upward trend seen in the Virginia data above.
 
 <STYLE TYPE="text/css">
 <!--
-TH{font-family: Arial; font-size: 10pt}
-TD{font-family: Arial; font-size: 10pt}
+TH{font-family: Arial; font-size: 9pt; text-align: center;}
+TD{font-family: Arial; font-size: 9pt; text-align: center;}
+TH{font-family: Arial; font-size: 9pt}
+TD{font-family: Arial; font-size: 9pt}
 --->
 </STYLE>
 <table>
