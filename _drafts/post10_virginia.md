@@ -56,18 +56,21 @@ TD{font-family: Arial; font-size: 10pt}
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Virginia</th>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Carolinas</th>
         <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Tennessee</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Am. Electric Power</th>
     </tr>
     <tr>
         <th scope="col" style="background-color: #D6EEEE">Average YoY Growth %</th>
         <th scope="col" style="background-color: #D6EEEE">3.9%</th>
         <th scope="col" style="background-color: #D6EEEE">0.4%</th>
         <th scope="col" style="background-color: #D6EEEE">0.5%</th>
+        <th scope="col" style="background-color: #D6EEEE">-0.2%</th>
     </tr>
     <tr>
         <th scope="col" style="background-color: #D6EEEE">Std dev</th>
         <th scope="col" style="background-color: #D6EEEE">6.5%</th>
         <th scope="col" style="background-color: #D6EEEE">7.0%</th>
         <th scope="col" style="background-color: #D6EEEE">7.8%</th>
+        <th scope="col" style="background-color: #D6EEEE">5.3%</th>
     </tr>
 </table>
 
