@@ -44,6 +44,36 @@ The 3.9% average year-over-year growth in Virginia can be contrasted to the same
 
 Rather, both of these tell the same near-zero growth trajectory story attributed to the U.S. more broadly
 
+<STYLE TYPE="text/css">
+<!--
+TH{font-family: Arial; font-size: 10pt}
+TD{font-family: Arial; font-size: 10pt}
+--->
+</STYLE>
+<table>
+    <tr>
+        <td rowspan="2"></td>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">2 Years Pre-Vogtle</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Since Vogtle</th>
+    </tr>
+    <tr>
+        <th scope="col" style="background-color: #D6EEEE">Aug 2021 to Jul 2023</th> 
+        <th scope="col" style="background-color: #D6EEEE">Aug 2023 to Nov 2023</th>
+    </tr>
+    <tr>
+        <th scope="row" style="background-color: #D6EEEE">Capacity (MW)</th> 
+        <td>6,047</td><td>7,164</td>
+    </tr>
+    <tr>
+        <th scope="row" style="background-color: #D6EEEE">Average Generation (MW)</th> 
+        <td>5,583</td><td>6,487</td>
+    </tr>
+    <tr>
+        <th scope="row" style="background-color: #D6EEEE">%</th> 
+        <td>92.3%</td><td>90.6%</td>
+    </tr>
+</table>
+
 
 
 #### Comparison to Data Center Growth
