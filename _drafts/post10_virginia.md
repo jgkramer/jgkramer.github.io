@@ -52,9 +52,10 @@ TD{font-family: Arial; font-size: 10pt}
 </STYLE>
 <table>
     <tr>
-        <td rowspan="2"></td>
-        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">2 Years Pre-Vogtle</th>
-        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Since Vogtle</th>
+        <td rowspan="1"></td>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Virginia</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Tennessee</th>
+        <th colspan="1" scope ="colgroup" style="background-color: #D6EEEE">Carolinas</th>
     </tr>
     <tr>
         <th scope="col" style="background-color: #D6EEEE">Aug 2021 to Jul 2023</th> 
