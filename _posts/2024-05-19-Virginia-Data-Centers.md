@@ -21,22 +21,22 @@ This post collects utility scale data that this acceleration is not only in the 
 
 #### Growth Data
 
-Using [Energy Information Administration](https://www.eia.gov/opendata/browser/electricity/rto/region- data) data, we are able to plot the average electricity demanded for each month since 2019 in the Dominion Energy Virginia sub-region, which accounts for the [majority of Virginia's territory](https://www.pjm.com/library/~/media/about-pjm/pjm-zones.ashx) including Northern Virginia suburbs in Loudon County with the bulk of data center installations.  
+Using [Energy Information Administration](https://www.eia.gov/opendata/browser/electricity/rto/region-data) data, we plot the average electricity demanded for each month since 2019 in the Dominion Energy Virginia sub-region, which accounts for the [majority of Virginia's territory](https://www.pjm.com/library/~/media/about-pjm/pjm-zones.ashx) including Northern Virginia suburbs in Loudon County with the bulk of data center installations.  
 
 ![Virginia 5-year demand](/assets/images/post10_DOM_GW_demand.png)
 
 A few things stand out: 
 - The typical seasonal pattern of peaks in summer (for cooling) and winter (for heating)
-- A COVID-driven dip in demand from 2019 to 2020, followed by a rebound the following year
+- A COVID-driven dip in demand from 2019 to 2020, followed by a rebound in 2021
 - Most relevantly, a consistent growth trend from year to year, anecdotally supporting the data center story.
 
-How much growth?  The following chart shows the cumulative percentage growth for each month since the corresponding month in 2019, which we consider our baseline year.   We use the corresponding month to try to eliminate the effect of seasonality (e.g., December 2022 appears to have been particularly cold).  On average, in this limited data set of 53 months, the average year-over-year increase was 3.9% (+/- a large 6.5% standard deviation due to significant swings like hot or cold weather one year to another, COVID and recovery from COVID, etc).  
+How much growth?  The following chart shows the cumulative percentage growth for each month since the corresponding month in 2019, which we consider our baseline year.  We use the corresponding month to try to eliminate the effect of seasonality (e.g., December 2022 appears to have been particularly cold).  On average, in this limited data set of 53 months, the average year-over-year increase was 3.9% (+/- a large 6.5% standard deviation due to significant swings like hot or cold weather one year to another, COVID and recovery from COVID, etc).  
 
 ![Virginia 5-year % growth](/assets/images/post10_DOM_growth.png)
 
 ### Other Regions' Growth
 
-The 3.9% average year-over-year growth in Virginia can be contrasted to the same data for two adjacent regions in the southeastern and mid-Atlantic United States: Tennessee, the Carolinas region, the Baltimore region, and the "American Electric Power" subregion of PJM, covering parts of western Virginia (not the data center area), West Virginia and southern Ohio.  
+The 3.9% average year-over-year growth in Virginia can be contrasted to the same data for four adjacent regions in the southeastern and mid-Atlantic United States: (1) Tennessee, (2) the Carolinas region, (3) the Baltimore region, and (4) the "American Electric Power" subregion of PJM, covering parts of western Virginia (not where the data centers are), West Virginia and southern Ohio.  
 
 ![Tennessee 5-year demand](/assets/images/post10_multi_GW_demand_1.png)
 
@@ -81,7 +81,7 @@ TD{font-family: Arial; font-size: 9pt}
 
 #### Comparison to Data Center Growth
 
-So the part of Virginia including Data Center Alley has shown ~3.5% excess growth per annum compared to nearby regions.  Can we tell whether that is in fact data center-driven? 
+So the part of Virginia including Data Center Alley has shown ~3.5 - 4.0% excess growth per annum compared to nearby regions.  Can we tell whether that is in fact data center-driven? 
 
 The below chartplot data from PJM (source: [GS report]((https://www.goldmansachs.com/intelligence/pages/gs-research/generational-growth-ai-data-centers-and-the-coming-us-power-surge/report.pdf)) showing the increase since 2019 in data-center electricity consumption in GW in the Dominion Virginia region, against the overall increase in average electricity consumption in the region since 2019.   While not perfectly aligned, they move strongly together. 
 
@@ -89,11 +89,7 @@ The below chartplot data from PJM (source: [GS report]((https://www.goldmansachs
 
 #### Conclusion
 
-Electricity demand data fits the story: Virginia, the center of gravity for data center growth and electricity usage, does indeed show a strong increase in electricity demand over the last 5 years relative to neighboring regions.  The level of increase, moreover, reasonably tracks the reported growth in data center electricity usage.  As this sector continues to grow, we should expect continued demand growth in Virginia and other regions that seek to attract these installations.  
-
-
-
-
+Electricity demand data fits the story: Virginia, the center of gravity for data center growth, does indeed show a strong increase in electricity consumption over the last 5 years relative to neighboring regions.  The level of increase, moreover, reasonably tracks the reported growth in data center electricity usage.  As this sector continues to grow, we should expect continued demand growth in Virginia and other geographies that begin to attract these installations.
 
 
 
