@@ -42,8 +42,9 @@ The 3.9% average year-over-year growth in Virginia can be contrasted to the same
 
 ![Carolinas 5-year demand](/assets/images/post10_CAR_GW_demand.png)
 
+Rather, both of these tell the same near-zero growth trajectory story attributed to the U.S. more broadly
 
-In fact, 
+
 
 #### Comparison to Data Center Growth
 
