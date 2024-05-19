@@ -42,6 +42,8 @@ The 3.9% average year-over-year growth in Virginia can be contrasted to the same
 
 ![Carolinas 5-year demand](/assets/images/post10_CAR_GW_demand.png)
 
+![AEP 5-year demand](/assets/images/post10_AEP_GW_demand.png)
+
 Rather, both of these tell the same near-zero growth trajectory story attributed to the U.S. more broadly
 
 <STYLE TYPE="text/css">
@@ -74,9 +76,12 @@ TD{font-family: Arial; font-size: 10pt}
     </tr>
 </table>
 
-
-
 #### Comparison to Data Center Growth
+
+So the part of Virginia including Data Center Alley has shown ~3.5% excess growth per annum compared to nearby regions.  Can we tell whether that is in fact data center-driven? 
+
+In the chart below, we plot data from PJM showing the increase since 2019 in data-center electricity consumption in GW in the Dominion Virginia region, against the overall increase in average electricity consumption in the region since 2019.   While not perfectly aligned, they move strongly together. 
+
 
 
 
