@@ -11,9 +11,9 @@ excerpt_separator: <!--more-->
   {% include latex.html %}
 </head>
 
-Electricity demand in the U.S. has had near-zero growth for the last several decades.  According to a [Goldman Sachs report](https://www.goldmansachs.com/intelligence/pages/gs-research/generational-growth-ai-data-centers-and-the-coming-us-power-surge/report.pdf), "US annual power generation over the past 20 years averag[ed] less than 0.5% growth."  In recent months, a number of [utility reports](https://insidelines.pjm.com/pjm-publishes-2024-long-term-load-forecast/) and [media sources](https://www.wsj.com/business/energy-oil/how-big-data-centers-are-slowing-the-shift-to-clean-energy-44ef4145) have proclaimed a shift towards resumed electricity growth, feuled by a growth in data center installations (especially driven by data-intensive AI applications), along with other electrification initatives including electric vehicles and electric heating.   The Goldman Sachs report, for instance, forecasts 2.4% annual growth through 2030.
+Electricity demand in the U.S. has had near-zero growth for the last several decades.  According to a [Goldman Sachs report](https://www.goldmansachs.com/intelligence/pages/gs-research/generational-growth-ai-data-centers-and-the-coming-us-power-surge/report.pdf), "US annual power generation over the past 20 years averag[ed] less than 0.5% growth."  In recent months, a number of [utility reports](https://insidelines.pjm.com/pjm-publishes-2024-long-term-load-forecast/) and [media sources](https://www.wsj.com/business/energy-oil/how-big-data-centers-are-slowing-the-shift-to-clean-energy-44ef4145) have proclaimed a shift towards resumed electricity growth.  This is attributed primarily to growth in data center installations, which has been accelerated by data-intensive AI applications, along with other electrification initatives including electric vehicles and electric heating.  The Goldman Sachs report, for instance, forecasts 2.4% annual growth through 2030.
 
-This post collects utility scale data that this acceleration is not only in the future, but has already started to occur.  Virginia, home to half the data center market in the U.S., has already seen electricity demand average year-over-year growth rates close to 4% since 2019, compared to approximately 0.5% for neighboring regions.  This demand growth in Virginia approximately tracks the increase in data centers there.
+This post collects utility scale data that this acceleration is not only in the future, but has already started to occur.  Virginia, home to half the data center market in the U.S., has already seen electricity demand average year-over-year growth rates close to 4% since 2019, compared to near zero for neighboring regions.  This demand growth in Virginia approximately tracks the increase in data centers there.
 
 <!--more-->
 
@@ -81,9 +81,13 @@ TD{font-family: Arial; font-size: 10pt}
 
 So the part of Virginia including Data Center Alley has shown ~3.5% excess growth per annum compared to nearby regions.  Can we tell whether that is in fact data center-driven? 
 
-In the chart below, we plot data from PJM (source: [GS report]((https://www.goldmansachs.com/intelligence/pages/gs-research/generational-growth-ai-data-centers-and-the-coming-us-power-surge/report.pdf)) showing the increase since 2019 in data-center electricity consumption in GW in the Dominion Virginia region, against the overall increase in average electricity consumption in the region since 2019.   While not perfectly aligned, they move strongly together. 
+The below chartplot data from PJM (source: [GS report]((https://www.goldmansachs.com/intelligence/pages/gs-research/generational-growth-ai-data-centers-and-the-coming-us-power-surge/report.pdf)) showing the increase since 2019 in data-center electricity consumption in GW in the Dominion Virginia region, against the overall increase in average electricity consumption in the region since 2019.   While not perfectly aligned, they move strongly together. 
 
 ![Aggregate Demand vs. Data Center Growth](/assets/images/post10_data_center_comparison.png)
+
+#### Conclusio
+
+Electricity demand data fits the story: Virginia, the center of gravity for data center growth and electricity usage, does indeed show a strong increase in electricity demand over the last 5 years relative to neighboring regions.  The level of increase, moreover, reasonably tracks the reported growth in data center electricity usage.  As this sector continues to grow, we should expect continued demand growth in Virginia and other regions that seek to attract these installations.  
 
 
 
