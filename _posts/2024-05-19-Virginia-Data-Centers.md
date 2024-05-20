@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Data Centers Driving Electricity Growth: A Look at Virginia"
+title: "AI and Data Centers Driving Electricity Growth: A Look at Virginia"
 date: "2024-05-19"
 hide: true
 author: "Jared Kramer"
