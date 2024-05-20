@@ -83,7 +83,7 @@ TD{font-family: Arial; font-size: 9pt}
 
 So the part of Virginia including Data Center Alley has shown ~3.5 - 4.0% excess growth per annum compared to nearby regions.  Can we tell whether that is in fact data center-driven? 
 
-The below chartplot data from PJM (source: [GS report](https://www.goldmansachs.com/intelligence/pages/gs-research/generational-growth-ai-data-centers-and-the-coming-us-power-surge/report.pdf)) showing the increase since 2019 in data-center electricity consumption in GW in the Dominion Virginia region, against the overall increase in average electricity consumption in the region since 2019.   While not perfectly aligned, they move strongly together. 
+The below chart plots data from PJM (source: [GS report](https://www.goldmansachs.com/intelligence/pages/gs-research/generational-growth-ai-data-centers-and-the-coming-us-power-surge/report.pdf)) showing the increase since 2019 in data-center electricity consumption in GW in the Dominion Virginia region, against the overall increase in average electricity consumption in the region since 2019.   While not perfectly aligned, they move strongly together. 
 
 ![Aggregate Demand vs. Data Center Growth](/assets/images/post10_data_center_comparison.png)
 
